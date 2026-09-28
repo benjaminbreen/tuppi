@@ -1,0 +1,187 @@
+{
+  "bring-animal": {
+    "title": "Bring an animal",
+    "definition": "Move a named animal into the ritual sequence before another action is performed on it.",
+    "externalParallels": [
+      {
+        "ritual": "Ašḫella · CTH 394",
+        "description": "Rams are supplied at dusk; further animals are brought on later days.",
+        "source": "§§2, 6, 8–9",
+        "href": "https://hethport.net/txhet_besrit/translatio.php?ed=A.+Chrzanowska&expl=&lg=DE&xst=CTH+394"
+      }
+    ]
+  },
+  "twist-wool": {
+    "title": "Twist coloured wool",
+    "definition": "Work differently coloured wool into a single strand or cord.",
+    "externalParallels": [
+      {
+        "ritual": "Ašḫella · CTH 394",
+        "description": "White, red and yellow-green wool are combined into a cord for the rams.",
+        "source": "§2",
+        "href": "https://hethport.net/txhet_besrit/translatio.php?ed=A.+Chrzanowska&expl=&lg=DE&xst=CTH+394"
+      }
+    ]
+  },
+  "make-wreath": {
+    "title": "Make a wool wreath",
+    "definition": "Shape a prepared wool cord into a circular adornment.",
+    "externalParallels": []
+  },
+  "adorn-animal": {
+    "title": "Adorn an animal",
+    "definition": "Attach a prepared object or material to a living ritual animal.",
+    "externalParallels": [
+      {
+        "ritual": "Ašḫella · CTH 394",
+        "description": "Wool and metal ornaments are attached to the rams' necks and horns.",
+        "source": "§2",
+        "href": "https://hethport.net/txhet_besrit/translatio.php?ed=A.+Chrzanowska&expl=&lg=DE&xst=CTH+394"
+      }
+    ]
+  },
+  "move-animal": {
+    "title": "Drive an animal away",
+    "definition": "Move an animal along a prescribed route or out of a ritual area.",
+    "externalParallels": [
+      {
+        "ritual": "Ašḫella · CTH 394",
+        "description": "Rams are driven through the camp and released toward the enemy border.",
+        "source": "§5",
+        "href": "https://hethport.net/txhet_besrit/translatio.php?ed=A.+Chrzanowska&expl=&lg=DE&xst=CTH+394"
+      }
+    ]
+  },
+  "speak-address": {
+    "title": "Recite an address",
+    "definition": "A prescribed utterance addressed to a deity or spoken as an action is performed.",
+    "externalParallels": [
+      {
+        "ritual": "Ašḫella · CTH 394",
+        "description": "Appeals are recited while the rams are tethered, presented and driven away.",
+        "source": "§§2, 4–5",
+        "href": "https://hethport.net/txhet_besrit/translatio.php?ed=A.+Chrzanowska&expl=&lg=DE&xst=CTH+394"
+      }
+    ]
+  },
+  "bring-provisions": {
+    "title": "Bring provisions",
+    "definition": "Introduce named food, drink or other supplies before their use in the ritual.",
+    "externalParallels": [
+      {
+        "ritual": "Ašḫella · CTH 394",
+        "description": "Bread, beer and other provisions are brought for successive days of the rite.",
+        "source": "§§3, 6, 8–9",
+        "href": "https://hethport.net/txhet_besrit/translatio.php?ed=A.+Chrzanowska&expl=&lg=DE&xst=CTH+394"
+      }
+    ]
+  },
+  "dedicate-animal": {
+    "title": "Dedicate an animal",
+    "definition": "Assign a particular animal to a named divine recipient.",
+    "externalParallels": [
+      {
+        "ritual": "Ašḫella · CTH 394",
+        "description": "A bull is offered to the Storm-god, a ewe to the Sun-god, and sheep to all gods.",
+        "source": "§9",
+        "href": "https://hethport.net/txhet_besrit/translatio.php?ed=A.+Chrzanowska&expl=&lg=DE&xst=CTH+394"
+      }
+    ]
+  },
+  "kill-animal": {
+    "title": "Kill an animal",
+    "definition": "The text explicitly says an animal is killed or slaughtered.",
+    "externalParallels": [
+      {
+        "ritual": "Ašḫella · CTH 394",
+        "description": "Six rams and six billy goats are slaughtered on the second day.",
+        "source": "§6",
+        "href": "https://hethport.net/txhet_besrit/translatio.php?ed=A.+Chrzanowska&expl=&lg=DE&xst=CTH+394"
+      }
+    ]
+  },
+  "cook-meat": {
+    "title": "Cook meat",
+    "definition": "The text explicitly says an animal or its flesh is cooked.",
+    "externalParallels": [
+      {
+        "ritual": "Ašḫella · CTH 394",
+        "description": "The slaughtered animals are cooked on the second day.",
+        "source": "§6",
+        "href": "https://hethport.net/txhet_besrit/translatio.php?ed=A.+Chrzanowska&expl=&lg=DE&xst=CTH+394"
+      }
+    ]
+  },
+  "prepare-offering": {
+    "title": "Prepare an offering",
+    "definition": "Arrange named provisions for a named divine recipient.",
+    "externalParallels": [
+      {
+        "ritual": "Ašḫella · CTH 394",
+        "description": "Meat, bread and drink are placed for divine recipients.",
+        "source": "§§6–9",
+        "href": "https://hethport.net/txhet_besrit/translatio.php?ed=A.+Chrzanowska&expl=&lg=DE&xst=CTH+394"
+      }
+    ]
+  },
+  "arrange-figures": {
+    "title": "Arrange figures",
+    "definition": "",
+    "externalParallels": []
+  },
+  "orient-the-patient": {
+    "title": "Orient the patient",
+    "definition": "",
+    "externalParallels": []
+  },
+  "present-an-object": {
+    "title": "Present an object",
+    "definition": "",
+    "externalParallels": []
+  },
+  "return-harm-by-speech": {
+    "title": "Return harm by speech",
+    "definition": "",
+    "externalParallels": []
+  },
+  "wind-thread-around-a-figure": {
+    "title": "Wind thread around a figure",
+    "definition": "",
+    "externalParallels": []
+  },
+  "place-a-bedside-deposit": {
+    "title": "Place a bedside deposit",
+    "definition": "",
+    "externalParallels": []
+  },
+  "sleep-over-an-object": {
+    "title": "Sleep over an object",
+    "definition": "",
+    "externalParallels": []
+  },
+  "remove-a-bedside-deposit": {
+    "title": "Remove a bedside deposit",
+    "definition": "",
+    "externalParallels": []
+  },
+  "press-cleansing-material": {
+    "title": "Press cleansing material",
+    "definition": "",
+    "externalParallels": []
+  },
+  "tether-animal": {
+    "title": "Tether an animal",
+    "definition": "Tie an animal at a specified place or time.",
+    "externalParallels": []
+  },
+  "wash-hands": {
+    "title": "Wash hands",
+    "definition": "Wash participants’ hands with a prescribed substance.",
+    "externalParallels": []
+  },
+  "pass-between-fires": {
+    "title": "Pass between fires",
+    "definition": "Move through the space between two ritual fires.",
+    "externalParallels": []
+  }
+}

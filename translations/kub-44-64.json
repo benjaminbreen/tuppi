@@ -1,0 +1,23 @@
+{
+  "doc": "kub-44-64",
+  "status": "draft",
+  "translator": "Claude (AI), draft, not reviewed by a specialist",
+  "date": "2026-09-28",
+  "intro": "Fragment of a two-column Hittite medical tablet (CTH 461). It sets out remedies (waššiḪI.A) given over several days: plant mixtures are crushed, stored in a tišni- (a bag?), left out overnight 'for the stars', mixed with honey and given until the patient recovers; the last paragraph begins a remedy for a person who is 'bloated(?)', using the gutted flesh of a fish. The partly restored colophon seems to call this tablet 'one' of a composition '[I]f (illness) afflicts a person internally (and) he is bloated(?)'.",
+  "sections": [
+    { "from": 0, "to": 4, "title": "Remedies given over several days" },
+    { "from": 5, "to": 5, "title": "Remedy for a person who is 'bloated(?)'; colophon" }
+  ],
+  "paras": [
+    { "p": 0, "en": "[…] … the person … […] [and] he keeps giving him these remedies." },
+    { "p": 1, "en": "[…] … […] … a tarawar (a measure?) […] [a bu]lb (gapanu), of arummura- […] the UZZIPIRĀTUM-plant […] … a tarawar […] […] a bulb of …riya- […] … a tarawar. […] Then (he …s) them in […], and he crushes them; [and] them […] with a tišni- (bag?) […], and he holds it." },
+    { "p": 2, "en": "[…] to the person […] Then a little, with three [fing]ers(?), he takes, and it […] he pours out (on?) the wall. [And] he keeps stirring(?) it in. [The]n at night he entrusts it to the stars (i.e. leaves it out overnight?). [And] he carries it into the house; […] he …s it in (kunduraizzi); […] he presses (it) in." },
+    { "p": 3, "en": "Early in the morning, on an empty stomach(?), to drink […]. But when the […]s […] to him, then … a fish … […] a little […] remedies […] … […] the (large) cups […] [break] And […] seven times he …s. Then afterwards he eats bread again." },
+    { "p": 4, "en": "But on the second day he takes these [reme]dies: tariyattariya-plant, a [b]ulb (gapanu) of one shekel (weight), a large ḫariyati-plant, a tarawar of arummura-; and he lets them in (to steep?). Then he sifts them, crushes (them), prepares (them) properly, and pours them into a leather tišni- (bag?). But when he gives these rem[edies] to the person, [then(?)] with two fingers […], and he lets it into honey […] […] … […] … […] …-plant […] much […] little […] … […] he drinks […] he gets well […] [break] […] he eats. […] when […], and three days pass. On the fourth day he gives them to him. But the days do not matter at all, until he gets well." },
+    { "p": 5, "en": "If a person is bloated(?) (paripariyettari), then he takes these remedies: he takes a fish, and from the fish he removes the inner parts. [Colophon:] [Tablet] one of […]: '[I]f (illness) afflicts a person in[side] (and) he is bloat[ed(?)]'. [The rest of the column is uninscribed.]" }
+  ],
+  "compare": [
+    { "label": "C. Burde, Hethitische medizinische Texte (StBoT 19, 1974)" },
+    { "label": "Hethitologie-Portal Mainz, CTH 461" }
+  ]
+}

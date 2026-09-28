@@ -1,0 +1,784 @@
+{
+  "id": "ashella",
+  "cth": 394,
+  "title": "Ašḫella’s ritual",
+  "shortName": "Ašḫella",
+  "eyebrow": "CTH 394 · plague · army camp",
+  "dating": {
+    "label": "attested 14th–13th c. BCE",
+    "note": "The KUB 9.31 and HT 1 copies used here are dated New Hittite; this is an approximate manuscript date.",
+    "sourceUrl": "https://hethport.net/txhet_besrit/intro.php?ed=A.+Chrzanowska&lg=DE&prgr=%C2%A7+1&xst=CTH+394"
+  },
+  "purpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+  "attribution": "Attributed to Ašḫella, a man of Ḫapalla",
+  "sourceSummary": "KUB 9.31 and HT 1 + KBo 13.212",
+  "editionUrl": "https://hethport.net/txhet_besrit/intro.php?ed=A.+Chrzanowska&lg=DE&prgr=%C2%A7+1&xst=CTH+394",
+  "phases": [
+    {
+      "name": "Evening",
+      "range": [
+        1,
+        5
+      ],
+      "idea": "The rams are marked and tethered."
+    },
+    {
+      "name": "Morning",
+      "range": [
+        6,
+        6
+      ],
+      "idea": "The rams are sent out of camp."
+    },
+    {
+      "name": "Second day",
+      "range": [
+        7,
+        11
+      ],
+      "idea": "Animals, cooking, washing and fire."
+    },
+    {
+      "name": "Third day",
+      "range": [
+        12,
+        13
+      ],
+      "idea": "A pig joins the offerings."
+    },
+    {
+      "name": "Fourth day",
+      "range": [
+        14,
+        16
+      ],
+      "idea": "Offerings to the Storm-god, Sun-god and all gods."
+    }
+  ],
+  "variants": [
+    {
+      "id": "washing-and-fire",
+      "title": "Washing and the two fires",
+      "note": "The salt-water washing and passage between two fires are explicit in HT 1 + KBo 13.212. KUB 9.31 has broken traces of the fire passage but no clear matching hand-washing section.",
+      "units": [
+        {
+          "id": "cook-meat",
+          "label": "cook meat"
+        },
+        {
+          "id": "wash-salt-water",
+          "label": "wash with salt water"
+        },
+        {
+          "id": "pass-between-fires",
+          "label": "pass between fires"
+        },
+        {
+          "id": "offer-goats",
+          "label": "offer two goats"
+        }
+      ],
+      "paths": [
+        {
+          "label": "A · KUB 9.31",
+          "order": [
+            "cook-meat",
+            "offer-goats"
+          ],
+          "sourceDocs": [
+            "kub-9-31"
+          ],
+          "sourceLabels": [
+            "A"
+          ]
+        },
+        {
+          "label": "B · HT 1 + KBo 13.212",
+          "order": [
+            "cook-meat",
+            "wash-salt-water",
+            "pass-between-fires",
+            "offer-goats"
+          ],
+          "sourceDocs": [
+            "kbo-13-212-plus"
+          ],
+          "sourceLabels": [
+            "B"
+          ]
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "prepare-ram",
+      "number": 1,
+      "title": "Prepare a ram",
+      "shortTitle": "Prepare ram",
+      "shortDescription": "Each army lord supplies a ram at dusk.",
+      "phase": "Evening",
+      "unitType": "act",
+      "actionType": "bring-animal",
+      "verb": "Prepare",
+      "summary": "Each army lord supplies a ram at dusk.",
+      "patient": "One ram per army lord",
+      "actor": "Army lords",
+      "material": [],
+      "evidence": "Both copies say the colour of the animal does not matter.",
+      "image": {
+        "src": "/rituals/uhhamuwa/01-ram.png",
+        "alt": "The ram is shown singly; coat and horn form are illustrative.",
+        "note": "The ram is shown singly; coat and horn form are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. III 16–19",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 27
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. III 1–5",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "twist-wool",
+      "number": 2,
+      "title": "Twist three colours of wool",
+      "shortTitle": "Twist wool",
+      "shortDescription": "White, red and green wool are worked into a cord.",
+      "phase": "Evening",
+      "unitType": "act",
+      "actionType": "twist-wool",
+      "verb": "Twist",
+      "summary": "White, red and green wool are worked into a cord.",
+      "patient": "Three wool strands",
+      "actor": "Ritual practitioner",
+      "material": [
+        "White wool",
+        "Red wool",
+        "Green wool"
+      ],
+      "evidence": "The translated green term can also be read as yellow-green.",
+      "image": {
+        "src": "/rituals/ashella/wool-cord.png",
+        "alt": "A white, red and yellow-green wool cord; exact dye shades and twist are illustrative.",
+        "note": "A white, red and yellow-green wool cord; exact dye shades and twist are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. III 19–21",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 27
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. III 5–7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "bind-ram",
+      "number": 3,
+      "title": "Bind the cord and rings to the ram",
+      "shortTitle": "Adorn ram",
+      "shortDescription": "The cord and metal ornaments are fastened to the ram’s neck and horns.",
+      "phase": "Evening",
+      "unitType": "act",
+      "actionType": "adorn-animal",
+      "verb": "Bind",
+      "summary": "The cord and metal ornaments are fastened to the ram’s neck and horns.",
+      "patient": "Ram’s neck and horns",
+      "actor": "Ritual practitioner",
+      "material": [
+        "Coloured wool",
+        "Metal ring",
+        "Bead(?)"
+      ],
+      "evidence": "A mentions iron and lead; B clearly preserves a lead ring. The bead in A is restored.",
+      "image": {
+        "src": "/rituals/ashella/adorned-ram.png",
+        "alt": "One ram with coloured cord and metal rings; number and placement of ornaments are reconstructed.",
+        "note": "One ram with coloured cord and metal rings; number and placement of ornaments are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. III 21–23",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 27
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. III 7–9",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "tether-ram",
+      "number": 4,
+      "title": "Tether the ram before a tent",
+      "shortTitle": "Tether ram",
+      "shortDescription": "The adorned ram is tied in front of a tent for the night.",
+      "phase": "Evening",
+      "unitType": "act",
+      "actionType": "tether-animal",
+      "verb": "Tether",
+      "summary": "The adorned ram is tied in front of a tent for the night.",
+      "patient": "Adorned ram",
+      "actor": "Army participants",
+      "material": [
+        "Tether"
+      ],
+      "evidence": "The overnight placement is explicit in both copies.",
+      "image": {
+        "src": "/rituals/ashella/tether.png",
+        "alt": "A wooden stake and fibre rope stand for the tethering; the exact fixture is not specified.",
+        "note": "A wooden stake and fibre rope stand for the tethering; the exact fixture is not specified."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. III 23–25",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 27
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. III 9–11",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ],
+      "place": "Before the tents"
+    },
+    {
+      "id": "appeal",
+      "number": 5,
+      "title": "Ask the plague god to be appeased",
+      "shortTitle": "Appeal",
+      "shortDescription": "The speaker asks the god responsible for the plague to accept the tethered rams.",
+      "phase": "Evening",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The speaker asks the god responsible for the plague to accept the tethered rams.",
+      "patient": "An unnamed god",
+      "actor": "Ritual speaker",
+      "material": [],
+      "evidence": "The words address whichever god caused the plague; no named deity is given.",
+      "image": {
+        "src": "/rituals/ashella/adorned-ram.png",
+        "alt": "The adorned ram is the object named in the address; the speaker’s appearance is unknown.",
+        "note": "The adorned ram is the object named in the address; the speaker’s appearance is unknown."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. III 25–29",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 27
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. III 11–15",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ],
+      "recipient": "Unidentified god"
+    },
+    {
+      "id": "release-rams",
+      "number": 6,
+      "title": "Release the rams at the enemy border",
+      "shortTitle": "Release rams",
+      "shortDescription": "The rams are led through camp and let loose at the enemy border.",
+      "phase": "Morning",
+      "unitType": "act",
+      "actionType": "move-animal",
+      "verb": "Release",
+      "summary": "The rams are led through camp and let loose at the enemy border.",
+      "patient": "Adorned rams",
+      "actor": "Army participants",
+      "material": [],
+      "evidence": "The decorated woman, bread and beer also pass through the camp in the text; this unit isolates the rams’ release.",
+      "image": {
+        "src": "/rituals/ashella/adorned-ram.png",
+        "alt": "A single adorned ram represents the rams released; the route and landscape are not invented.",
+        "note": "A single adorned ram represents the rams released; the route and landscape are not invented."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. III 44–54",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 30
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. III 27–IV 7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 25
+          }
+        }
+      ],
+      "place": "Enemy borderland"
+    },
+    {
+      "id": "slaughter-ram",
+      "number": 7,
+      "title": "Slaughter a ram on the second day",
+      "shortTitle": "Slaughter ram",
+      "shortDescription": "Six rams are among the animals slaughtered on open ground.",
+      "phase": "Second day",
+      "unitType": "act",
+      "actionType": "kill-animal",
+      "verb": "Slaughter",
+      "summary": "Six rams are among the animals slaughtered on open ground.",
+      "patient": "One ram from the group of six",
+      "actor": "Army participants",
+      "material": [
+        "Bronze knives"
+      ],
+      "evidence": "A names six rams and six billy goats in the slaughter batch. B is broken across this part of the second-day procedure.",
+      "image": {
+        "src": "/rituals/uhhamuwa/13-kill.png",
+        "alt": "A ram and bronze blade represent one animal in the six-ram group; the exact cutting method is illustrative.",
+        "note": "A ram and bronze blade represent one animal in the six-ram group; the exact cutting method is illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. III 55–IV 12",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 31
+          }
+        }
+      ],
+      "place": "Open country"
+    },
+    {
+      "id": "cook-meat",
+      "number": 8,
+      "title": "Cook the slaughtered meat",
+      "shortTitle": "Cook meat",
+      "shortDescription": "The slaughtered animals are cooked plainly.",
+      "phase": "Second day",
+      "unitType": "act",
+      "actionType": "cook-meat",
+      "verb": "Cook",
+      "summary": "The slaughtered animals are cooked plainly.",
+      "patient": "Meat from the slaughtered animals",
+      "actor": "Army participants",
+      "material": [
+        "Meat",
+        "Fire"
+      ],
+      "evidence": "The copies specify cooking but not the vessel or technique.",
+      "image": {
+        "src": "/rituals/uhhamuwa/14-cook.png",
+        "alt": "A clay cooking vessel and fire illustrate cooking; the vessel and recipe are not prescribed in this passage.",
+        "note": "A clay cooking vessel and fire illustrate cooking; the vessel and recipe are not prescribed in this passage."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. III 55–IV 12",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 31
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. III 27–IV 7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash-salt-water",
+      "number": 9,
+      "title": "Wash hands in salted water",
+      "shortTitle": "Wash hands",
+      "shortDescription": "Salt is mixed with water, and the participants wash their hands.",
+      "phase": "Second day",
+      "unitType": "act",
+      "actionType": "wash-hands",
+      "verb": "Wash",
+      "summary": "Salt is mixed with water, and the participants wash their hands.",
+      "patient": "Hands",
+      "actor": "Ritual participants",
+      "material": [
+        "Salt",
+        "Water"
+      ],
+      "evidence": "Preserved explicitly in B. A has no corresponding clear hand-washing passage.",
+      "image": {
+        "src": "/rituals/ashella/wash.png",
+        "alt": "Hands in a clay bowl of salted water; the bowl is illustrative.",
+        "note": "Hands in a clay bowl of salted water; the bowl is illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. IV 8–17",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 26
+          }
+        }
+      ]
+    },
+    {
+      "id": "pass-between-fires",
+      "number": 10,
+      "title": "Pass between two fires",
+      "shortTitle": "Pass fires",
+      "shortDescription": "Two fires are lit, and the participants walk between them.",
+      "phase": "Second day",
+      "unitType": "act",
+      "actionType": "pass-between-fires",
+      "verb": "Pass",
+      "summary": "Two fires are lit, and the participants walk between them.",
+      "patient": "Ritual participants",
+      "actor": "Ritual participants",
+      "material": [
+        "Two fires"
+      ],
+      "evidence": "B preserves the full instruction. A has broken traces of a fire passage.",
+      "image": {
+        "src": "/rituals/ashella/two-fires.png",
+        "alt": "Two separate wood fires mark the passage; their scale and fuel are illustrative.",
+        "note": "Two separate wood fires mark the passage; their scale and fuel are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. IV 8–17",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 26
+          }
+        }
+      ]
+    },
+    {
+      "id": "offer-goats",
+      "number": 11,
+      "title": "Offer two billy goats",
+      "shortTitle": "Offer goats",
+      "shortDescription": "Two billy goats are offered to the Tutelary Deity of the equipment.",
+      "phase": "Second day",
+      "unitType": "act",
+      "actionType": "dedicate-animal",
+      "verb": "Offer",
+      "summary": "Two billy goats are offered to the Tutelary Deity of the equipment.",
+      "patient": "Two billy goats",
+      "actor": "Ritual practitioner",
+      "material": [
+        "Goats"
+      ],
+      "evidence": "The divine epithet and equipment term are difficult to interpret.",
+      "image": {
+        "src": "/rituals/uhhamuwa/11-goat.png",
+        "alt": "One goat stands for the pair; its coat and horns are illustrative.",
+        "note": "One goat stands for the pair; its coat and horns are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. III 55–IV 12",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 31
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. IV 8–17",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 26
+          }
+        }
+      ],
+      "recipient": "Tutelary Deity of the equipment(?)"
+    },
+    {
+      "id": "bring-pig",
+      "number": 12,
+      "title": "Bring a pig on the third day",
+      "shortTitle": "Bring pig",
+      "shortDescription": "A pig is driven to a different open place with a goat and ram.",
+      "phase": "Third day",
+      "unitType": "act",
+      "actionType": "bring-animal",
+      "verb": "Bring",
+      "summary": "A pig is driven to a different open place with a goat and ram.",
+      "patient": "One pig",
+      "actor": "Army participants",
+      "material": [],
+      "evidence": "The pig is part of a three-animal group in both copies.",
+      "image": {
+        "src": "/rituals/ashella/pig.png",
+        "alt": "A domestic pig cutout; breed and coloration are illustrative.",
+        "note": "A domestic pig cutout; breed and coloration are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. IV 13–27",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 32
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. IV 18–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 27
+          }
+        }
+      ],
+      "place": "Open country"
+    },
+    {
+      "id": "offer-pig",
+      "number": 13,
+      "title": "Offer the pig to the plague god",
+      "shortTitle": "Offer pig",
+      "shortDescription": "The pig is offered with the goat and ram to the god responsible for the plague.",
+      "phase": "Third day",
+      "unitType": "act",
+      "actionType": "dedicate-animal",
+      "verb": "Offer",
+      "summary": "The pig is offered with the goat and ram to the god responsible for the plague.",
+      "patient": "One pig",
+      "actor": "Ritual practitioner",
+      "material": [
+        "Pig"
+      ],
+      "evidence": "The source groups the three animals in one offering; this unit singles out the pig for comparison.",
+      "image": {
+        "src": "/rituals/ashella/pig.png",
+        "alt": "The same pig image marks its offering; the text does not describe the manner of killing here.",
+        "note": "The same pig image marks its offering; the text does not describe the manner of killing here."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. IV 13–27",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 32
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. IV 18–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 27
+          }
+        }
+      ],
+      "recipient": "Unidentified plague god"
+    },
+    {
+      "id": "offer-bull",
+      "number": 14,
+      "title": "Offer a bull to the Storm-god",
+      "shortTitle": "Offer bull",
+      "shortDescription": "The bull is offered to the Storm-god.",
+      "phase": "Fourth day",
+      "unitType": "act",
+      "actionType": "dedicate-animal",
+      "verb": "Offer",
+      "summary": "The bull is offered to the Storm-god.",
+      "patient": "One bull",
+      "actor": "Ritual practitioner",
+      "material": [
+        "Bull"
+      ],
+      "evidence": "The fourth-day recipient is explicit in both copies.",
+      "image": {
+        "src": "/rituals/ashella/bull.png",
+        "alt": "One bull, full-body cutout; coat and horns are illustrative.",
+        "note": "One bull, full-body cutout; coat and horns are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. IV 28–33",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 33
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. IV 31–43",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 28
+          }
+        }
+      ],
+      "recipient": "Storm-god"
+    },
+    {
+      "id": "offer-ewe",
+      "number": 15,
+      "title": "Offer a ewe to the Sun-god",
+      "shortTitle": "Offer ewe",
+      "shortDescription": "A ewe is offered to the Sun-god.",
+      "phase": "Fourth day",
+      "unitType": "act",
+      "actionType": "dedicate-animal",
+      "verb": "Offer",
+      "summary": "A ewe is offered to the Sun-god.",
+      "patient": "One ewe",
+      "actor": "Ritual practitioner",
+      "material": [
+        "Ewe"
+      ],
+      "evidence": "The ewe is specified as one that has not been covered by a ram.",
+      "image": {
+        "src": "/rituals/uhhamuwa/12-sheep.png",
+        "alt": "A single sheep represents the ewe; breed and age are illustrative.",
+        "note": "A single sheep represents the ewe; breed and age are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. IV 34–40",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 34
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. IV 31–43",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 28
+          }
+        }
+      ],
+      "recipient": "Sun-god"
+    },
+    {
+      "id": "offer-rams",
+      "number": 16,
+      "title": "Offer three sheep to all the gods",
+      "shortTitle": "Offer sheep",
+      "shortDescription": "Three sheep are offered to all the gods.",
+      "phase": "Fourth day",
+      "unitType": "act",
+      "actionType": "dedicate-animal",
+      "verb": "Offer",
+      "summary": "Three sheep are offered to all the gods.",
+      "patient": "Three sheep",
+      "actor": "Ritual practitioner",
+      "material": [
+        "Sheep"
+      ],
+      "evidence": "A says three sheep in the final offering; the illustration shows one animal to keep the unit legible.",
+      "image": {
+        "src": "/rituals/uhhamuwa/01-ram.png",
+        "alt": "One sheep represents the group of three; sex is not fixed in both copies.",
+        "note": "One sheep represents the group of three; sex is not fixed in both copies."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "rev. IV 34–40",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 34
+          }
+        },
+        {
+          "witness": "B",
+          "doc": "kbo-13-212-plus",
+          "locus": "rev. IV 31–43",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 28
+          }
+        }
+      ],
+      "recipient": "All the gods"
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "bring-animal": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "bring-ram",
+      "stepNumber": 1,
+      "stepTitle": "Bring a ram"
+    },
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "bring-goat-sheep",
+      "stepNumber": 10,
+      "stepTitle": "Bring a goat and two sheep"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "prepare-ram",
+      "stepNumber": 1,
+      "stepTitle": "Prepare a ram"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "bring-pig",
+      "stepNumber": 12,
+      "stepTitle": "Bring a pig on the third day"
+    }
+  ],
+  "twist-wool": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "twist-wool",
+      "stepNumber": 2,
+      "stepTitle": "Twist the coloured wool"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "twist-wool",
+      "stepNumber": 2,
+      "stepTitle": "Twist three colours of wool"
+    }
+  ],
+  "make-wreath": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "make-wreath",
+      "stepNumber": 3,
+      "stepTitle": "Make a wool wreath"
+    }
+  ],
+  "adorn-animal": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "crown-ram",
+      "stepNumber": 4,
+      "stepTitle": "Adorn the ram"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "bind-ram",
+      "stepNumber": 3,
+      "stepTitle": "Bind the cord and rings to the ram"
+    }
+  ],
+  "move-animal": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "lead-to-road",
+      "stepNumber": 5,
+      "stepTitle": "Lead the ram toward the enemy road"
+    },
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "drive-away-ram",
+      "stepNumber": 7,
+      "stepTitle": "Drive the ram away"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "release-rams",
+      "stepNumber": 6,
+      "stepTitle": "Release the rams at the enemy border"
+    }
+  ],
+  "speak-address": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "appeal-over-ram",
+      "stepNumber": 6,
+      "stepTitle": "Address the hostile god"
+    },
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "address-horses-chariot",
+      "stepNumber": 9,
+      "stepTitle": "Address the god about his horses"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "appeal",
+      "stepNumber": 5,
+      "stepTitle": "Ask the plague god to be appeased"
+    }
+  ],
+  "bring-provisions": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "bring-fodder-fat",
+      "stepNumber": 8,
+      "stepTitle": "Bring fodder and fat"
+    },
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "bring-food-drink",
+      "stepNumber": 15,
+      "stepTitle": "Bring food and drink"
+    }
+  ],
+  "dedicate-animal": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "dedicate-goat",
+      "stepNumber": 11,
+      "stepTitle": "Dedicate the goat to the Seven"
+    },
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "dedicate-sheep",
+      "stepNumber": 12,
+      "stepTitle": "Dedicate one sheep to the Sun-god"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "offer-goats",
+      "stepNumber": 11,
+      "stepTitle": "Offer two billy goats"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "offer-pig",
+      "stepNumber": 13,
+      "stepTitle": "Offer the pig to the plague god"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "offer-bull",
+      "stepNumber": 14,
+      "stepTitle": "Offer a bull to the Storm-god"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "offer-ewe",
+      "stepNumber": 15,
+      "stepTitle": "Offer a ewe to the Sun-god"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "offer-rams",
+      "stepNumber": 16,
+      "stepTitle": "Offer three sheep to all the gods"
+    }
+  ],
+  "kill-animal": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "kill-sheep",
+      "stepNumber": 13,
+      "stepTitle": "Kill the remaining sheep"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "slaughter-ram",
+      "stepNumber": 7,
+      "stepTitle": "Slaughter a ram on the second day"
+    }
+  ],
+  "cook-meat": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "cook-sheep",
+      "stepNumber": 14,
+      "stepTitle": "Cook the sheep"
+    },
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "cook-meat",
+      "stepNumber": 8,
+      "stepTitle": "Cook the slaughtered meat"
+    }
+  ],
+  "prepare-offering": [
+    {
+      "ritualId": "uhhamuwa",
+      "ritualName": "Uḫḫamuwa",
+      "cth": 410,
+      "stepId": "prepare-for-road-god",
+      "stepNumber": 16,
+      "stepTitle": "Prepare them for the road god"
+    }
+  ],
+  "arrange-figures": [
+    {
+      "ritualId": "allii",
+      "ritualName": "Allī",
+      "cth": 402,
+      "stepId": "arrange-figures",
+      "stepNumber": 1,
+      "stepTitle": "Set out the clay figures"
+    }
+  ],
+  "orient-the-patient": [
+    {
+      "ritualId": "allii",
+      "ritualName": "Allī",
+      "cth": 402,
+      "stepId": "seat-patient",
+      "stepNumber": 2,
+      "stepTitle": "Seat the patient toward the Sun-god"
+    }
+  ],
+  "present-an-object": [
+    {
+      "ritualId": "allii",
+      "ritualName": "Allī",
+      "cth": 402,
+      "stepId": "raise-vessel",
+      "stepNumber": 3,
+      "stepTitle": "Raise the vessel and figures"
+    }
+  ],
+  "return-harm-by-speech": [
+    {
+      "ritualId": "allii",
+      "ritualName": "Allī",
+      "cth": 402,
+      "stepId": "return-address",
+      "stepNumber": 4,
+      "stepTitle": "Demand that the sorcery return"
+    }
+  ],
+  "wind-thread-around-a-figure": [
+    {
+      "ritualId": "allii",
+      "ritualName": "Allī",
+      "cth": 402,
+      "stepId": "wind-wool",
+      "stepNumber": 5,
+      "stepTitle": "Wind coloured wool around the figures"
+    }
+  ],
+  "place-a-bedside-deposit": [
+    {
+      "ritualId": "allii",
+      "ritualName": "Allī",
+      "cth": 402,
+      "stepId": "set-basket",
+      "stepNumber": 6,
+      "stepTitle": "Place the deposit beneath the bed"
+    }
+  ],
+  "sleep-over-an-object": [
+    {
+      "ritualId": "allii",
+      "ritualName": "Allī",
+      "cth": 402,
+      "stepId": "sleep-over",
+      "stepNumber": 7,
+      "stepTitle": "Sleep over the deposit"
+    }
+  ],
+  "remove-a-bedside-deposit": [
+    {
+      "ritualId": "allii",
+      "ritualName": "Allī",
+      "cth": 402,
+      "stepId": "lift-at-dawn",
+      "stepNumber": 8,
+      "stepTitle": "Lift the deposit at daybreak"
+    }
+  ],
+  "press-cleansing-material": [
+    {
+      "ritualId": "allii",
+      "ritualName": "Allī",
+      "cth": 402,
+      "stepId": "press-earth",
+      "stepNumber": 9,
+      "stepTitle": "Press earth against the patient"
+    },
+    {
+      "ritualId": "allii",
+      "ritualName": "Allī",
+      "cth": 402,
+      "stepId": "press-dough",
+      "stepNumber": 10,
+      "stepTitle": "Press dough against the patient"
+    }
+  ],
+  "tether-animal": [
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "tether-ram",
+      "stepNumber": 4,
+      "stepTitle": "Tether the ram before a tent"
+    }
+  ],
+  "wash-hands": [
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "wash-salt-water",
+      "stepNumber": 9,
+      "stepTitle": "Wash hands in salted water"
+    }
+  ],
+  "pass-between-fires": [
+    {
+      "ritualId": "ashella",
+      "ritualName": "Ašḫella",
+      "cth": 394,
+      "stepId": "pass-between-fires",
+      "stepNumber": 10,
+      "stepTitle": "Pass between two fires"
+    }
+  ]
+}

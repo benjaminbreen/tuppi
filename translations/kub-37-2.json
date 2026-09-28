@@ -1,0 +1,28 @@
+{
+  "doc": "kub-37-2",
+  "status": "draft",
+  "translator": "Claude (AI), draft, not reviewed by a specialist",
+  "date": "2026-09-28",
+  "intro": "Fragment of an Akkadian collection of remedies for eye disease copied at Ḫattuša (CTH 809). Short prescriptions of crushed plants, minerals, fats and even wall-mud, applied as ointments, daubed on the eyes or drunk, mostly end with 'and he will recover' (TI.LA); one has the patient eat fourteen pieces of liver taken from the healer with his left hand.",
+  "sections": [],
+  "paras": [
+    { "p": 0, "en": "[…] … […] … in the month Šabāṭu (ZÍZ.A) […] you take fresh ghee, [the ḫ]alpatanû-stone […]; you crush (them); in the morning […] … KA.A.AB.BA ('sea-foam') […] you put (it) on his eye(s)(?); […] you anoint him with fine oil, and you show him (…?) (tukallamšu); no one may come near (him)." },
+    { "p": 1, "en": "[…] 'fox-grape' (GEŠTIN KA₅.A) you crush; you anoint him, and he will recover." },
+    { "p": 2, "en": "[…] cumin (GAMUN) you crush; you anoint him, and he will recover." },
+    { "p": 3, "en": "Ḫamiṭ ('it is quick'? or 'it burns'?; sense uncertain): you crush the 'white plant' (Ú.BABBAR); in fine oil [you …]; you anoint him, and he will recover." },
+    { "p": 4, "en": "[Ḫa]miṭ: leaves of the olive tree (serdu) you mix with oil; you keep anointing him, [and …]" },
+    { "p": 5, "en": "[Ḫam]iṭ: leaves of the ḫaluppu-tree (ḪA.LU.ÚB) you mix in water (and) oil; you anoint him, and he will recover." },
+    { "p": 6, "en": "[Ḫami]ṭ: you cool(?) (tukaṣṣa) the IN.NU.UŠ-plant, and he will recover." },
+    { "p": 7, "en": "[Ḫa]miṭ: mud of a wall (qadūt igāri) […] you crush; he drinks (it) in water, and he will recover." },
+    { "p": 8, "en": "(If) [s]inūri (a disease?) seizes him: the flesh of the 'finger' of the liver of a male (animal?) you pinch off into fourteen pieces for roasting(?); you give (them), and the sick man takes (them) from you with his left (hand) and eats (them). […] your right (hand) to his face(?) you … […] … and thus […] … 'my eyes' … […] [break] […]" },
+    { "p": 9, "en": "[…] your … […] [you st]rike (it); he will recover." },
+    { "p": 10, "en": "[…] of a horse […] juniper (ŠIM.LI) […] … […] … (tešir) […] GIŠ.GI.ZÚ.LUM.MA […] 'plant of the Sun-god' (Ú.dUTU) […] you mix (it with) one-third of a sūtu of flour; [you keep dau]bing (his eyes), and he will recover." },
+    { "p": 11, "en": "[…] red […], for removing a 'shadow' (GISSU) […] you crush (and) sift […] let it be smeared(?) (lū ṭeriat); [you keep dau]bing (his eyes), and he will recover." },
+    { "p": 12, "en": "[…] kutpû-stone, male and female, […] and female, in equal parts […] kutpû-stone […] its … (iṭrīšu) of kutpû […] you weigh (them); […] tallow … (saki) you crush; [you keep daub]ing (his eyes), and he will recover." },
+    { "p": 13, "en": "[…] horse […] [break]" }
+  ],
+  "compare": [
+    { "label": "F. Köcher, Keilschrifturkunden aus Boghazköi 37 (1953), hand copy" },
+    { "label": "Hethitologie-Portal Mainz, CTH 809" }
+  ]
+}

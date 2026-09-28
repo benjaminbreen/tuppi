@@ -1,0 +1,990 @@
+{
+  "uhhamuwa/bring-ram": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 obv. II 46",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "2? UDU.NÍTA u-un-ni-ia-an-zi nu SÍG ZA.GÌN SÍG SA₅",
+      "english": "They drive up two(?) rams"
+    }
+  ],
+  "uhhamuwa/twist-wool": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 obv. II 46–47",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "2? UDU.NÍTA u-un-ni-ia-an-zi nu SÍG ZA.GÌN SÍG SA₅",
+      "english": "They twist together blue wool, red wool, yellow(-green) wool, black wool and white wool"
+    }
+  ],
+  "uhhamuwa/make-wreath": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 obv. II 48",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "na-at SÍGKI-LU-LI i-ia-an-zi nu 1 UDU.NÍTA",
+      "english": "make [i]t into a crown"
+    }
+  ],
+  "uhhamuwa/crown-ram": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 obv. II 48–49",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "na-at SÍGKI-LU-LI i-ia-an-zi nu 1 UDU.NÍTA",
+      "english": "they crown one ram"
+    }
+  ],
+  "uhhamuwa/lead-to-road": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 obv. II 49–50",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "ḫar-ša-na-la-an-zi nu 1 UDU.NÍTA A-NA KASKAL LÚKÚR pa-ra-a",
+      "english": "They drive the one ram out onto the road of the enemy"
+    }
+  ],
+  "uhhamuwa/appeal-over-ram": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 obv. II 50–59",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "pé-en-ni-ia-an-zi nu-uš-ši-kán an-da ki-iš-ša-an",
+      "english": "we have driven [this] crowned ram to you, the god, [for pe]ace."
+    }
+  ],
+  "uhhamuwa/drive-away-ram": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 obv. II 60–61",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "na-a-iš-ḫu-ut nu 1-EN UDU ḫar-ša-na-al-la-an-ta-an",
+      "english": "they drive the one crowned ram away [into] the enemy land."
+    }
+  ],
+  "uhhamuwa/bring-fodder-fat": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 obv. II 62–63",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 24
+      },
+      "original": "nu EGIR-an-da A-NA ANŠE.KUR.RAMEŠ DINGIR-LIM ŠÀ.GAL.ḪI.A",
+      "english": "they bring fodder and tallow for the god's horses"
+    }
+  ],
+  "uhhamuwa/address-horses-chariot": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 obv. II 64–rev. III 7",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 24
+      },
+      "original": "𒀹 ki-iš-ša-an me-ma-an-zi",
+      "english": "let them eat this fodder and be sated. And let your chariot be greased with tallow."
+    }
+  ],
+  "uhhamuwa/bring-goat-sheep": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 rev. III 8",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "EGIR-an-da-ma 1 MÁŠ.GAL 2 UDUḪI.A u-un-na-an-zi",
+      "english": "they drive up one billy goat (and) two sheep"
+    }
+  ],
+  "uhhamuwa/dedicate-goat": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 rev. III 9",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "nu-kán MÁŠ.GAL DIMIN.IMIN.BI ši-pa-an-ti 1 UDU-ma-kán DUTU-i",
+      "english": "He offers the billy goat to the Seven (Sebettu)"
+    }
+  ],
+  "uhhamuwa/dedicate-sheep": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 rev. III 9–10",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "nu-kán MÁŠ.GAL DIMIN.IMIN.BI ši-pa-an-ti 1 UDU-ma-kán DUTU-i",
+      "english": "one sheep he offers to the Sun-god"
+    }
+  ],
+  "uhhamuwa/kill-sheep": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 rev. III 10",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "ši-pa-an-ti 1 UDU-ma-kán ku-na-an-zi na-an za-nu-wa-an-zi",
+      "english": "one sheep they kill and cook"
+    }
+  ],
+  "uhhamuwa/cook-sheep": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 rev. III 10",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "ši-pa-an-ti 1 UDU-ma-kán ku-na-an-zi na-an za-nu-wa-an-zi",
+      "english": "they kill and cook"
+    }
+  ],
+  "uhhamuwa/bring-food-drink": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 rev. III 11–12",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "nam-ma 1 GA.KIN.AG 1 EM-ṢÚ 1 DUGpu-ul-la-an NINDA EM-ṢÚ",
+      "english": "Then they bring one cheese, one sour (loaf), one pulla-vessel of sour bread, one bowl of wine, one bowl of beer and fruit"
+    }
+  ],
+  "uhhamuwa/prepare-for-road-god": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 rev. III 13",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "na-at A-NA DINGIR-LIM ŠA KASKAL-NIM i-ia-an-zi",
+      "english": "they prepare them for the god of the road."
+    }
+  ],
+  "allii/arrange-figures": [
+    {
+      "witness": "A",
+      "locus": "obv. I 2–10",
+      "doc": "kbo-12-126-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 1
+      },
+      "original": "… … … ALAM IM ŠÀ.BA 2 LÚ nu KUŠkur-ša-aš … … … … … …",
+      "english": "a [fig]ure of clay; among them two men(?), and a [kur]ša-bag (of leather)"
+    },
+    {
+      "witness": "D",
+      "locus": "obv. I 3–10",
+      "doc": "kbo-11-12-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 2
+      },
+      "original": "5 ALAM IM ŠÀ.BA 2 LÚMEŠ nu kur-šu-uš kar-pa-an ḫar-kán-zi"
+    },
+    {
+      "witness": "F",
+      "locus": "obv. 2′–10′",
+      "doc": "ibot-2-123-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 2
+      },
+      "original": "nu KUŠkur-šu-uš kar-pa-an ḫar-kán-zi"
+    },
+    {
+      "witness": "G",
+      "locus": "obv. I 2–7′",
+      "doc": "bo-8752-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 1
+      },
+      "original": "a-ni-ia-mi … ALAM IM ŠÀ.BA 2 LÚ nu KUŠkur-šu-uš kar-pa-an ḫar-kán-zi"
+    }
+  ],
+  "allii/seat-patient": [
+    {
+      "witness": "A",
+      "locus": "obv. I 9–10",
+      "doc": "kbo-12-126-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 8
+      },
+      "original": "ḫa-a-an-da-a-ez-zi nu UN-aš ku-iš UḪ₇-an-za na-aš-za DUTU-i me-na-aḫ-ḫa-an-da",
+      "english": "The person who is bewitched sits down facing the Sun-god"
+    },
+    {
+      "witness": "D",
+      "locus": "obv. I 11–12",
+      "doc": "kbo-11-12-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 10
+      },
+      "original": "nu-za an-tu-wa-aḫ-ḫa-aš ku-iš al-wa-an-za-aḫ-ḫa-an-za na-aš-za DUTU-i"
+    },
+    {
+      "witness": "F",
+      "locus": "obv. 10′–11′",
+      "doc": "ibot-2-123-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 9
+      },
+      "original": "… a-ra-aḫ-za-an-da iš-ga-a-ri …"
+    },
+    {
+      "witness": "G",
+      "locus": "obv. I 5′–6′",
+      "doc": "bo-8752-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 7
+      },
+      "original": "… … … … … … … … … … al-wa-an-za-aḫ-ḫa-an-za na-aš-za DUTU-i me-na-aḫ-ḫa-an-da"
+    }
+  ],
+  "allii/raise-vessel": [
+    {
+      "witness": "A",
+      "locus": "obv. I 10–11",
+      "doc": "kbo-12-126-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 9
+      },
+      "original": "e-ša-ri nu-za MUNUSŠU.GI DUGNA-AK-TA-MA QA-DU ALAM IM da-a-i",
+      "english": "the Old Woman takes the naktamu-vessel together with the clay figure and holds it up towards the Sun-god."
+    },
+    {
+      "witness": "D",
+      "locus": "obv. I 13–14",
+      "doc": "kbo-11-12-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 12
+      },
+      "original": "nu MUNUSŠU.GI 1 DUGNA-AK-TA-MA QA-DU ALAMḪI.A DUTU-i me-na-aḫ-ḫa-an-da"
+    },
+    {
+      "witness": "G",
+      "locus": "obv. I 6′–7′",
+      "doc": "bo-8752-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 8
+      },
+      "original": "… … … … DUGNA-AK-TA-MA QA-DU ALAMḪI.A da-a-i"
+    }
+  ],
+  "allii/return-address": [
+    {
+      "witness": "A",
+      "locus": "obv. I 12–25",
+      "doc": "kbo-12-126-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 11
+      },
+      "original": "nu MUNUSŠU.GI ki-iš-ša-an me-ma-i ki-iš-še-ra-aš DUTU-uš ka-a-ša",
+      "english": "Let him (the sorcerer) take it back for himself"
+    },
+    {
+      "witness": "D",
+      "locus": "obv. I 14–17",
+      "doc": "kbo-11-12-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 13
+      },
+      "original": "e-ep-zi MUNUSŠU.GI ki-iš-ša-an me-ma-i ki-iš-ša-ra-aš DUTU-uš"
+    },
+    {
+      "witness": "C",
+      "locus": "obv. I 2″–5″, fragmentary",
+      "doc": "kbo-55-41-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 9
+      },
+      "original": "… ku-e nu-wa-na-ša-at"
+    },
+    {
+      "witness": "G",
+      "locus": "obv. I 8′–14",
+      "doc": "bo-8752-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 11
+      },
+      "original": "… LÚ?-iš i-ia-an ḫar-zi"
+    }
+  ],
+  "allii/wind-wool": [
+    {
+      "witness": "A",
+      "locus": "obv. I 31–53",
+      "doc": "kbo-12-126-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 30
+      },
+      "original": "nu-uš-ša-an? MUNUSŠU.GI UN-ši ge-nu-wa-aš-ša-aš SÍG da-an-ku-in da-a-i",
+      "english": "She winds the thread (kapina-) around the figures."
+    },
+    {
+      "witness": "C",
+      "locus": "obv. I, coloured wool fragments",
+      "doc": "kbo-55-41-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 15
+      },
+      "original": "… ḫa-aḫ-la-aḫ-ḫi-iš-ke-ez-zi ki-nu-na-aš-ši-kán"
+    },
+    {
+      "witness": "H",
+      "locus": "obv. I 1′–15′",
+      "doc": "kub-41-1",
+      "anchor": {
+        "kind": "line",
+        "index": 0
+      },
+      "original": "EGIR-ŠÚ ŠA SÍG BABBAR ka-pí-na-an QA-TAM-MA i-ia-zi nu te-ez-zi"
+    },
+    {
+      "witness": "I",
+      "locus": "obv. II 1–14",
+      "doc": "kbo-21-8",
+      "anchor": {
+        "kind": "line",
+        "index": 0
+      },
+      "original": "… ka-a-pí-na-an QA-TAM-MA i-e-ez-zi"
+    },
+    {
+      "witness": "L",
+      "locus": "1′–7′",
+      "doc": "kbo-47-4",
+      "anchor": {
+        "kind": "line",
+        "index": 0
+      },
+      "original": "…(-)na-an da-a-i"
+    }
+  ],
+  "allii/set-basket": [
+    {
+      "witness": "A",
+      "locus": "obv. II 44′–46′",
+      "doc": "kbo-12-126-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 96
+      },
+      "original": "nu-uš-ša-an kar-aš ḫal-ki-in NINDApa-aš-šu-uš GIŠPAN 3 GIŠGIḪI.A",
+      "english": "She places kar(a)š-wheat, grain, paššu-breads, a [bow] (and) [three arrows] into a basket and [puts] it be[neath] the bed"
+    },
+    {
+      "witness": "C",
+      "locus": "obv. II 23′–26′",
+      "doc": "kbo-55-41-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 55
+      },
+      "original": "nu-uš-ša-an kar-aš ḫal-ki-in te-pu NINDApa-aš-šu-uš GIŠPAN 3 GIŠGIḪI.A"
+    },
+    {
+      "witness": "B",
+      "locus": "obv. II 2′–5′",
+      "doc": "kub-24-10",
+      "anchor": {
+        "kind": "line",
+        "index": 1
+      },
+      "original": "… ḫal-ki-in te-pu NINDApár-šu-uš"
+    },
+    {
+      "witness": "H",
+      "locus": "rev. III 5–7",
+      "doc": "kub-41-1",
+      "anchor": {
+        "kind": "line",
+        "index": 23
+      },
+      "original": "1 DUGDÍLIM.GAL MUŠEN QA-DU ALAMMEŠ ŠA DUḪ.LÀL GIŠ.NÁ-aš"
+    },
+    {
+      "witness": "E",
+      "locus": "1′–4′",
+      "doc": "kbo-10-41",
+      "anchor": {
+        "kind": "line",
+        "index": 0
+      },
+      "original": "…x te-pu NINDApa-šu-uš …"
+    }
+  ],
+  "allii/sleep-over": [
+    {
+      "witness": "A",
+      "locus": "obv. II 46′",
+      "doc": "kbo-12-126-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 98
+      },
+      "original": "na-at-ši kat-ta-an še-eš-zi GIŠ.NÁ-ša-aš-ša-an SÍGe-ša-ra-an …",
+      "english": "he (the patient) sleeps over it."
+    },
+    {
+      "witness": "C",
+      "locus": "obv. II 24′–26′",
+      "doc": "kbo-55-41-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 56
+      },
+      "original": "pád-da-ni an-da da-a-i na-at GIŠ.NÁ-aš kat-ta-an da-a-i na-at-ši kat-ta-an še-eš-zi"
+    },
+    {
+      "witness": "H",
+      "locus": "rev. III 5–7",
+      "doc": "kub-41-1",
+      "anchor": {
+        "kind": "line",
+        "index": 23
+      },
+      "original": "1 DUGDÍLIM.GAL MUŠEN QA-DU ALAMMEŠ ŠA DUḪ.LÀL GIŠ.NÁ-aš"
+    },
+    {
+      "witness": "E",
+      "locus": "3′–5′",
+      "doc": "kbo-10-41",
+      "anchor": {
+        "kind": "line",
+        "index": 2
+      },
+      "original": "… kat-ta-an da-a-i"
+    }
+  ],
+  "allii/lift-at-dawn": [
+    {
+      "witness": "A",
+      "locus": "obv. II 48′–50′",
+      "doc": "kbo-12-126-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 100
+      },
+      "original": "I-NA UD 2KAM ma-a-an lu-uk-kat-ta nu pát-tar GIŠ.NÁ-az kat-ta-an",
+      "english": "she takes the basket away from be[neath] the bed and swings it away over the person"
+    },
+    {
+      "witness": "C",
+      "locus": "obv. II 27′–30′",
+      "doc": "kbo-55-41-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 59
+      },
+      "original": "I-NA UD 2KAM ma-a-an lu-uk-kat-ta nu pát-tar GIŠ.NÁ-az kat-ta-an"
+    },
+    {
+      "witness": "B",
+      "locus": "obv. II 6′–8′",
+      "doc": "kub-24-10",
+      "anchor": {
+        "kind": "line",
+        "index": 5
+      },
+      "original": "… ma-a-an lu-uk-kat-ta pát-tar GIŠ.NÁ-az"
+    },
+    {
+      "witness": "H",
+      "locus": "rev. III 11–12",
+      "doc": "kub-41-1",
+      "anchor": {
+        "kind": "line",
+        "index": 29
+      },
+      "original": "ma-a-an lu-kat-ta nu DUGDÍLIM.GAL MUŠEN kat-ta-an …"
+    },
+    {
+      "witness": "E",
+      "locus": "6′–8′",
+      "doc": "kbo-10-41",
+      "anchor": {
+        "kind": "line",
+        "index": 5
+      },
+      "original": "… ma-a-an lu-uk-ka₄-ta nu pát-tar …"
+    }
+  ],
+  "allii/press-earth": [
+    {
+      "witness": "A",
+      "locus": "rev. III 1′–5′",
+      "doc": "kbo-12-126-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 111
+      },
+      "original": "nu-za ŠA GIŠLAM.ḪAL SAḪARḪI.A-aš da-a-lu-up-pa-an da-a-i?",
+      "english": "She [takes] for herself a clod of earth of the LAM.ḪAL-tree(?), keeps pressing [it] on him"
+    },
+    {
+      "witness": "C",
+      "locus": "rev. III 2′–7′",
+      "doc": "kbo-55-41-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 69
+      },
+      "original": "… … GIŠLAM.ḪAL SAḪARḪI.A-aš ta-lu-up-pa-an da-a-i?"
+    },
+    {
+      "witness": "H",
+      "locus": "rev. III 13–19",
+      "doc": "kub-41-1",
+      "anchor": {
+        "kind": "line",
+        "index": 31
+      },
+      "original": "še-er da-a-i nu-za ŠA GIŠLAM.ḪAL …"
+    }
+  ],
+  "allii/press-dough": [
+    {
+      "witness": "A",
+      "locus": "rev. III 6′–8′",
+      "doc": "kbo-12-126-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 117
+      },
+      "original": "EGIR-an-da iš-ša!-na-aš da-a-lu-up-pí-in? da-a!-i! na-an-ši-kán an-da",
+      "english": "she takes a l[ump](?) of dough, keeps pressing it on him"
+    },
+    {
+      "witness": "C",
+      "locus": "rev. III 8′–12′",
+      "doc": "kbo-55-41-plus",
+      "anchor": {
+        "kind": "line",
+        "index": 75
+      },
+      "original": "EGIR-an-da e-eš-ša!-na-aš ta-lu-up-pí-in da-a-i"
+    },
+    {
+      "witness": "H",
+      "locus": "rev. III 20–22",
+      "doc": "kub-41-1",
+      "anchor": {
+        "kind": "line",
+        "index": 38
+      },
+      "original": "EGIR-an-da-ma e-eš-ša-na-aš …"
+    }
+  ],
+  "ashella/prepare-ram": [
+    {
+      "witness": "A",
+      "locus": "rev. III 16–19",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 27
+      },
+      "original": "nu ki-i da-aḫ-ḫi ma-aḫ-ḫa-an UDKAM-az ne-ku-uz",
+      "english": "each one prepares a ram for himself"
+    },
+    {
+      "witness": "B",
+      "locus": "rev. III 1–5",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "UM-MA m … … … -la LÚ URUḫa-pa-al-la",
+      "english": "each prepares a ram"
+    }
+  ],
+  "ashella/twist-wool": [
+    {
+      "witness": "A",
+      "locus": "rev. III 19–21",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 27
+      },
+      "original": "UDU.ŠIRḪI.A-ma ma-a-an ḫar-ga-e-eš ma-a-an ta-an-ku-e-eš",
+      "english": "I twist together a cord of white wool, red wool (and) green wool"
+    },
+    {
+      "witness": "B",
+      "locus": "rev. III 5–7",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "me-e-ḫu-e-ni DÙ-ri nu ku-e-eš ku-i-e-eš ENMEŠ",
+      "english": "I twist together a cord of white wool, red wool and green wool"
+    }
+  ],
+  "ashella/bind-ram": [
+    {
+      "witness": "A",
+      "locus": "rev. III 21–23",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 27
+      },
+      "original": "SÍG SA₅ SÍG SIG₇.SIG₇ an-da tar-na-aḫ-ḫi na-at 1-an an-da",
+      "english": "I set into it one [bead(?) and one] ring of iron and of lead, and I bind it onto the necks and horns of the rams."
+    },
+    {
+      "witness": "B",
+      "locus": "rev. III 7–9",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "UDU.ŠIR-aš ḫa-an-da!-ez-zi UDU.ŠIR-ašḪI.A-ma",
+      "english": "I set into it one bead and one ring of lead, and I bind it on the necks and horns of the rams."
+    }
+  ],
+  "ashella/tether-ram": [
+    {
+      "witness": "A",
+      "locus": "rev. III 23–25",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 27
+      },
+      "original": "ŠA A.GAR₅-ia an-da ne-eḫ-ḫi na-at-kán A-NA UDU.ŠIRḪI.A UZUGÚ-ŠU-NU",
+      "english": "At night they tie them up in front of the tents"
+    },
+    {
+      "witness": "B",
+      "locus": "rev. III 9–11",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "Ú-UL ku-it-ki tu-uk-ka₄-ri nu šu-ú-e-el",
+      "english": "At night they tie them up in front of the tents"
+    }
+  ],
+  "ashella/appeal": [
+    {
+      "witness": "A",
+      "locus": "rev. III 25–29",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 27
+      },
+      "original": "A-NA˽PA-NI GIŠZA.LAM.GARḪI.A ḫa-ma-an-ga-an-zi nu-kán an-da",
+      "english": "I have tied up these rams; be appeased!"
+    },
+    {
+      "witness": "B",
+      "locus": "rev. III 11–15",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "na-at 1-an an-da ta-ru-up-pa-iz-zi nu-kán 1-EN",
+      "english": "be appeased by them!"
+    }
+  ],
+  "ashella/release-rams": [
+    {
+      "witness": "A",
+      "locus": "rev. III 44–54",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 30
+      },
+      "original": "nam-ma-kán UDU.ŠIRḪI.A MUNUS-an NINDA.GUR₄.RA KAŠ-ia A-NA KARAŠ",
+      "english": "They go and let them loose into the enemy's border(-land)"
+    },
+    {
+      "witness": "B",
+      "locus": "rev. III 27–IV 7",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "nam-ma-kán A-NA UDU.ŠIRḪI.A ENMEŠ KARAŠ",
+      "english": "They go and let them run off into the enemy's border(-land)"
+    }
+  ],
+  "ashella/slaughter-ram": [
+    {
+      "witness": "A",
+      "locus": "rev. III 55–IV 12",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 31
+      },
+      "original": "I-NA UD 2KAM ma-a-an lu-uk-kat-ta ka-ru-ú-wa-ri-u-ar ḫu-u-da-ak",
+      "english": "they slaughter them on the ground"
+    }
+  ],
+  "ashella/cook-meat": [
+    {
+      "witness": "A",
+      "locus": "rev. III 55–IV 12",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 31
+      },
+      "original": "I-NA UD 2KAM ma-a-an lu-uk-kat-ta ka-ru-ú-wa-ri-u-ar ḫu-u-da-ak",
+      "english": "cook them plainly."
+    },
+    {
+      "witness": "B",
+      "locus": "rev. III 27–IV 7",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "nam-ma-kán A-NA UDU.ŠIRḪI.A ENMEŠ KARAŠ"
+    }
+  ],
+  "ashella/wash-salt-water": [
+    {
+      "witness": "B",
+      "locus": "rev. IV 8–17",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 26
+      },
+      "original": "ma-aḫ-ḫa-an-ma-at-kán IŠ-TU SÍSKUR ar-ḫa a-ra-an-zi",
+      "english": "they pour salt into water and wash their hands with it."
+    }
+  ],
+  "ashella/pass-between-fires": [
+    {
+      "witness": "B",
+      "locus": "rev. IV 8–17",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 26
+      },
+      "original": "ma-aḫ-ḫa-an-ma-at-kán IŠ-TU SÍSKUR ar-ḫa a-ra-an-zi",
+      "english": "they kindle fire in two places and walk out between them."
+    }
+  ],
+  "ashella/offer-goats": [
+    {
+      "witness": "A",
+      "locus": "rev. III 55–IV 12",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 31
+      },
+      "original": "I-NA UD 2KAM ma-a-an lu-uk-kat-ta ka-ru-ú-wa-ri-u-ar ḫu-u-da-ak",
+      "english": "he offers the two billy goats to the Tutelary Deity"
+    },
+    {
+      "witness": "B",
+      "locus": "rev. IV 8–17",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 26
+      },
+      "original": "ma-aḫ-ḫa-an-ma-at-kán IŠ-TU SÍSKUR ar-ḫa a-ra-an-zi",
+      "english": "he offers the two billy goats to the Tutelary Deity"
+    }
+  ],
+  "ashella/bring-pig": [
+    {
+      "witness": "A",
+      "locus": "rev. IV 13–27",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 32
+      },
+      "original": "I-NA UD 3KAM ma-a-an lu-uk-kat-ta ka-ru-ú(-)wa-ri-wa-ar",
+      "english": "they quickly drive up one billy goat, one [r]am and one pig"
+    },
+    {
+      "witness": "B",
+      "locus": "rev. IV 18–30",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 27
+      },
+      "original": "I-NA UD 3KAM ma-a-an lu-uk-kat-ta ka-ru-ú-wa-ri-wa-ar",
+      "english": "they quickly drive up one billy goat, one sheep and one pig"
+    }
+  ],
+  "ashella/offer-pig": [
+    {
+      "witness": "A",
+      "locus": "rev. IV 13–27",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 32
+      },
+      "original": "I-NA UD 3KAM ma-a-an lu-uk-kat-ta ka-ru-ú(-)wa-ri-wa-ar",
+      "english": "They offer the billy goat, the ram and the pig to [that] god"
+    },
+    {
+      "witness": "B",
+      "locus": "rev. IV 18–30",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 27
+      },
+      "original": "I-NA UD 3KAM ma-a-an lu-uk-kat-ta ka-ru-ú-wa-ri-wa-ar",
+      "english": "they offer the billy goat, the sheep and the pig to that god"
+    }
+  ],
+  "ashella/offer-bull": [
+    {
+      "witness": "A",
+      "locus": "rev. IV 28–33",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 33
+      },
+      "original": "I-NA UD 4KAM ma-a-an lu-uk-kat-ta ka-ru-ú-wa-ri-wa-ar",
+      "english": "He offers the bull to the Storm-god,"
+    },
+    {
+      "witness": "B",
+      "locus": "rev. IV 31–43",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 28
+      },
+      "original": "I-NA UD 4KAM ma-a-an lu-uk-kat-ta ka-ru-ú-wa-ri-wa-ar",
+      "english": "They offer the bull to the Storm-god"
+    }
+  ],
+  "ashella/offer-ewe": [
+    {
+      "witness": "A",
+      "locus": "rev. IV 34–40",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 34
+      },
+      "original": "UDU.SÍG+MUNUS-ma-kán A-NA DUTU ši-pa-an-ti 3 UDU-ma-kán ḫu-u-ma-an-da-aš",
+      "english": "he offers the ewe to the Sun-god"
+    },
+    {
+      "witness": "B",
+      "locus": "rev. IV 31–43",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 28
+      },
+      "original": "I-NA UD 4KAM ma-a-an lu-uk-kat-ta ka-ru-ú-wa-ri-wa-ar",
+      "english": "the ewe to the Sun-god"
+    }
+  ],
+  "ashella/offer-rams": [
+    {
+      "witness": "A",
+      "locus": "rev. IV 34–40",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 34
+      },
+      "original": "UDU.SÍG+MUNUS-ma-kán A-NA DUTU ši-pa-an-ti 3 UDU-ma-kán ḫu-u-ma-an-da-aš",
+      "english": "they offer the three sheep to all the gods."
+    },
+    {
+      "witness": "B",
+      "locus": "rev. IV 31–43",
+      "doc": "kbo-13-212-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 28
+      },
+      "original": "I-NA UD 4KAM ma-a-an lu-uk-kat-ta ka-ru-ú-wa-ri-wa-ar",
+      "english": "the three sheep to all the gods."
+    }
+  ]
+}

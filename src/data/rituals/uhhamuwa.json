@@ -1,0 +1,602 @@
+{
+  "id": "uhhamuwa",
+  "cth": 410,
+  "title": "Uḫḫamuwa’s ritual",
+  "shortName": "Uḫḫamuwa",
+  "eyebrow": "CTH 410 · ritual against dying in the land",
+  "dating": {
+    "label": "attested 14th–13th c. BCE",
+    "note": "The KUB 9.31 and HT 1 copies are dated New Hittite; this is an approximate manuscript date.",
+    "sourceUrl": "https://hethport.net/txhet_besrit/intro.php?ed=A.+Chrzanowska&lg=DE&prgr=%C2%A7+1&xst=CTH+394"
+  },
+  "purpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+  "attribution": "Attributed to Uḫḫamuwa, a man of Arzawa",
+  "sourceSummary": "KUB 9.31 · obv. II 43–rev. III 13",
+  "editionUrl": "https://smaw.de.dariah.eu/txhet_besrit/intro.php?ed=S.+G%C3%B6rke&lg=DE&prgr=&xst=CTH+410",
+  "phases": [
+    {
+      "name": "The ram",
+      "range": [
+        1,
+        7
+      ],
+      "idea": "A marked animal is sent away with a plea for peace."
+    },
+    {
+      "name": "The god’s transport",
+      "range": [
+        8,
+        9
+      ],
+      "idea": "Materials are brought and a second appeal addresses horses and chariot."
+    },
+    {
+      "name": "The offerings",
+      "range": [
+        10,
+        16
+      ],
+      "idea": "Three animals take different paths; food and drink follow."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "bring-ram",
+      "number": 1,
+      "title": "Bring a ram",
+      "shortTitle": "Bring a ram",
+      "shortDescription": "A ram is driven up for the rite.",
+      "phase": "The ram",
+      "unitType": "act",
+      "actionType": "bring-animal",
+      "verb": "Bring",
+      "summary": "A ram is driven up for the rite.",
+      "patient": "One ram",
+      "actor": "Unspecified ritual participants",
+      "material": [],
+      "evidence": "KUB 9.31 reads two(?) rams at this point; the more complete HT 1 has one. The subsequent actions concern one ram.",
+      "image": {
+        "src": "/rituals/uhhamuwa/01-ram.png",
+        "alt": "One undecorated ram. Breed, coloration and horn form are illustrative; the text does not specify them.",
+        "note": "One undecorated ram. Breed, coloration and horn form are illustrative; the text does not specify them."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 obv. II 46",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "twist-wool",
+      "number": 2,
+      "title": "Twist the coloured wool",
+      "shortTitle": "Twist the coloured wool",
+      "shortDescription": "Blue, red, yellow-green, black and white wool are combined.",
+      "phase": "The ram",
+      "unitType": "act",
+      "actionType": "twist-wool",
+      "verb": "Make",
+      "summary": "Blue, red, yellow-green, black and white wool are combined.",
+      "patient": "Wool strands",
+      "actor": "Unspecified ritual participants",
+      "material": [
+        "Blue wool",
+        "Red wool",
+        "Yellow-green wool",
+        "Black wool",
+        "White wool"
+      ],
+      "evidence": "The five colour terms are preserved in KUB 9.31. The exact way the fibres were worked is not described.",
+      "image": {
+        "src": "/rituals/uhhamuwa/02-wool.png",
+        "alt": "Dyed fibres converge into a cord; their thickness and dye shades are illustrative.",
+        "note": "Dyed fibres converge into a cord; their thickness and dye shades are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 obv. II 46–47",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "make-wreath",
+      "number": 3,
+      "title": "Make a wool wreath",
+      "shortTitle": "Make a wool wreath",
+      "shortDescription": "The combined wool is made into a wreath or ring.",
+      "phase": "The ram",
+      "unitType": "act",
+      "actionType": "make-wreath",
+      "verb": "Make",
+      "summary": "The combined wool is made into a wreath or ring.",
+      "patient": "Wool cord",
+      "actor": "Unspecified ritual participants",
+      "material": [
+        "Combined coloured wool"
+      ],
+      "evidence": "The text names a wool KI-LU-LI; 'wreath' conveys the edited interpretation of its form.",
+      "image": {
+        "src": "/rituals/uhhamuwa/03-wreath.png",
+        "alt": "A simple circular braid; exact construction is inferred from the term, not preserved as an object.",
+        "note": "A simple circular braid; exact construction is inferred from the term, not preserved as an object."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 obv. II 48",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "crown-ram",
+      "number": 4,
+      "title": "Adorn the ram",
+      "shortTitle": "Adorn the ram",
+      "shortDescription": "The wool wreath is placed on one ram.",
+      "phase": "The ram",
+      "unitType": "act",
+      "actionType": "adorn-animal",
+      "verb": "Adorn",
+      "summary": "The wool wreath is placed on one ram.",
+      "patient": "The ram",
+      "actor": "Unspecified ritual participants",
+      "material": [
+        "Five-colour wool wreath"
+      ],
+      "evidence": "The adorning verb follows the making of the wool object. Its precise position on the animal is not stated.",
+      "image": {
+        "src": "/rituals/uhhamuwa/04-crown.png",
+        "alt": "The wreath is shown at the horns for legibility; the precise placement is conjectural.",
+        "note": "The wreath is shown at the horns for legibility; the precise placement is conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 obv. II 48–49",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "lead-to-road",
+      "number": 5,
+      "title": "Lead the ram toward the enemy road",
+      "shortTitle": "Lead the ram toward the enemy road",
+      "shortDescription": "The adorned ram is driven onto the road toward enemy territory.",
+      "phase": "The ram",
+      "unitType": "act",
+      "actionType": "move-animal",
+      "verb": "Move",
+      "summary": "The adorned ram is driven onto the road toward enemy territory.",
+      "patient": "The adorned ram",
+      "actor": "Unspecified ritual participants",
+      "material": [
+        "Five-colour wool wreath"
+      ],
+      "place": "Road toward enemy territory",
+      "evidence": "The text specifies a road associated with the enemy; its appearance and exact route are unknown.",
+      "image": {
+        "src": "/rituals/uhhamuwa/05-road.png",
+        "alt": "A closeup of movement. No actual road layout is reconstructed.",
+        "note": "A closeup of movement. No actual road layout is reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 obv. II 49–50",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "appeal-over-ram",
+      "number": 6,
+      "title": "Address the hostile god",
+      "shortTitle": "Address the hostile god",
+      "shortDescription": "An appeal presents the adorned ram and asks the god to be at peace with Ḫatti.",
+      "phase": "The ram",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "An appeal presents the adorned ram and asks the god to be at peace with Ḫatti.",
+      "patient": "Spoken appeal",
+      "actor": "Unspecified speakers",
+      "material": [
+        "Adorned ram, named in the speech"
+      ],
+      "recipient": "Hostile god of the enemy land",
+      "place": "Road toward enemy territory",
+      "evidence": "This is a prescribed utterance, not a report that the god visibly accepted the ram. The exact wording varies between witnesses.",
+      "image": {
+        "src": "/rituals/uhhamuwa/06-appeal.png",
+        "alt": "The crowned ram is the speech's visible referent. The image does not depict the god, a speaker or the requested result.",
+        "note": "The crowned ram is the speech's visible referent. The image does not depict the god, a speaker or the requested result."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 obv. II 50–59",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "drive-away-ram",
+      "number": 7,
+      "title": "Drive the ram away",
+      "shortTitle": "Drive the ram away",
+      "shortDescription": "The crowned ram is sent into enemy territory.",
+      "phase": "The ram",
+      "unitType": "act",
+      "actionType": "move-animal",
+      "verb": "Move",
+      "summary": "The crowned ram is sent into enemy territory.",
+      "patient": "The adorned ram",
+      "actor": "Unspecified ritual participants",
+      "material": [
+        "Five-colour wool wreath"
+      ],
+      "place": "Enemy territory",
+      "evidence": "This departure is stated after the address. It is distinct from bringing the ram onto the road.",
+      "image": {
+        "src": "/rituals/uhhamuwa/07-departure.png",
+        "alt": "The ram walks away; no specific border, settlement or road is invented.",
+        "note": "The ram walks away; no specific border, settlement or road is invented."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 obv. II 60–61",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "bring-fodder-fat",
+      "number": 8,
+      "title": "Bring fodder and fat",
+      "shortTitle": "Bring fodder and fat",
+      "shortDescription": "Fodder for the god's horses and sheep fat are brought.",
+      "phase": "The god’s transport",
+      "unitType": "act",
+      "actionType": "bring-provisions",
+      "verb": "Bring",
+      "summary": "Fodder for the god's horses and sheep fat are brought.",
+      "patient": "Fodder and sheep fat",
+      "actor": "Unspecified ritual participants",
+      "material": [
+        "Fodder",
+        "Sheep fat"
+      ],
+      "recipient": "Horses and chariot named in the following speech",
+      "evidence": "Bringing the materials is stated. Feeding horses or greasing a chariot is wished for in the subsequent utterance, not described here as performed.",
+      "image": {
+        "src": "/rituals/uhhamuwa/08-fodder.png",
+        "alt": "Only the named materials are shown; a container is deliberately omitted.",
+        "note": "Only the named materials are shown; a container is deliberately omitted."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 obv. II 62–63",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 24
+          }
+        }
+      ]
+    },
+    {
+      "id": "address-horses-chariot",
+      "number": 9,
+      "title": "Address the god about his horses",
+      "shortTitle": "Address the god about his horses",
+      "shortDescription": "The speech asks that the horses eat, the chariot be greased, and the god turn back toward his land.",
+      "phase": "The god’s transport",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The speech asks that the horses eat, the chariot be greased, and the god turn back toward his land.",
+      "patient": "Spoken appeal",
+      "actor": "Unspecified speakers",
+      "material": [
+        "Fodder and fat, named in the speech"
+      ],
+      "recipient": "Hostile god, addressed as Storm-god",
+      "evidence": "These are wishes within an utterance. The text does not say the horses were actually fed or the chariot actually greased.",
+      "image": {
+        "src": "/rituals/uhhamuwa/09-transport.png",
+        "alt": "The image visualizes the named horses/chariot as referents of speech, not as an attested scene of feeding or greasing.",
+        "note": "The image visualizes the named horses/chariot as referents of speech, not as an attested scene of feeding or greasing."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 obv. II 64–rev. III 7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 24
+          }
+        }
+      ]
+    },
+    {
+      "id": "bring-goat-sheep",
+      "number": 10,
+      "title": "Bring a goat and two sheep",
+      "shortTitle": "Bring a goat and two sheep",
+      "shortDescription": "A billy goat and two sheep are brought into the rite.",
+      "phase": "The offerings",
+      "unitType": "act",
+      "actionType": "bring-animal",
+      "verb": "Bring",
+      "summary": "A billy goat and two sheep are brought into the rite.",
+      "patient": "One billy goat and two sheep",
+      "actor": "Unspecified ritual participants",
+      "material": [],
+      "evidence": "The number and animal categories are explicit in this witness.",
+      "image": {
+        "src": "/rituals/uhhamuwa/10-animals.png",
+        "alt": "One goat and two sheep, with no invented accessories or ceremonial setting.",
+        "note": "One goat and two sheep, with no invented accessories or ceremonial setting."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 rev. III 8",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "dedicate-goat",
+      "number": 11,
+      "title": "Dedicate the goat to the Seven",
+      "shortTitle": "Dedicate the goat to the Seven",
+      "shortDescription": "The billy goat is assigned to the Seven (Sebettu).",
+      "phase": "The offerings",
+      "unitType": "act",
+      "actionType": "dedicate-animal",
+      "verb": "Dedicate",
+      "summary": "The billy goat is assigned to the Seven (Sebettu).",
+      "patient": "Billy goat",
+      "actor": "An unnamed officiant",
+      "material": [],
+      "recipient": "The Seven (Sebettu)",
+      "evidence": "The recipient and animal are named. The precise physical gesture is not described.",
+      "image": {
+        "src": "/rituals/uhhamuwa/11-goat.png",
+        "alt": "The goat alone is shown; no image of the divine recipients or invented gesture.",
+        "note": "The goat alone is shown; no image of the divine recipients or invented gesture."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 rev. III 9",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "dedicate-sheep",
+      "number": 12,
+      "title": "Dedicate one sheep to the Sun-god",
+      "shortTitle": "Dedicate one sheep to the Sun-god",
+      "shortDescription": "One sheep is assigned to the Sun-god.",
+      "phase": "The offerings",
+      "unitType": "act",
+      "actionType": "dedicate-animal",
+      "verb": "Dedicate",
+      "summary": "One sheep is assigned to the Sun-god.",
+      "patient": "One sheep",
+      "actor": "An unnamed officiant",
+      "material": [],
+      "recipient": "The Sun-god",
+      "evidence": "This assignment is present in KUB 9.31; the published English draft notes a variant in another witness.",
+      "image": {
+        "src": "/rituals/uhhamuwa/12-sheep.png",
+        "alt": "One sheep in natural light. The deity and a specific gesture are not depicted.",
+        "note": "One sheep in natural light. The deity and a specific gesture are not depicted."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 rev. III 9–10",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "kill-sheep",
+      "number": 13,
+      "title": "Kill the remaining sheep",
+      "shortTitle": "Kill the remaining sheep",
+      "shortDescription": "The second sheep is killed.",
+      "phase": "The offerings",
+      "unitType": "act",
+      "actionType": "kill-animal",
+      "verb": "Kill",
+      "summary": "The second sheep is killed.",
+      "patient": "The remaining sheep",
+      "actor": "Unspecified ritual participants",
+      "material": [],
+      "evidence": "The text names the killing but not an implement or method.",
+      "image": {
+        "src": "/rituals/uhhamuwa/13-kill.png",
+        "alt": "A single anonymous hand and plain bronze blade make the act legible. The text does not specify a knife, cutting method, or precise position; all are illustrative.",
+        "note": "A single anonymous hand and plain bronze blade make the act legible. The text does not specify a knife, cutting method, or precise position; all are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 rev. III 10",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "cook-sheep",
+      "number": 14,
+      "title": "Cook the sheep",
+      "shortTitle": "Cook the sheep",
+      "shortDescription": "The killed sheep is cooked.",
+      "phase": "The offerings",
+      "unitType": "act",
+      "actionType": "cook-meat",
+      "verb": "Cook",
+      "summary": "The killed sheep is cooked.",
+      "patient": "Sheep meat",
+      "actor": "Unspecified ritual participants",
+      "material": [
+        "Sheep meat"
+      ],
+      "evidence": "The verb states cooking but not vessel, fuel or method.",
+      "image": {
+        "src": "/rituals/uhhamuwa/14-cook.png",
+        "alt": "A plausible plain ceramic cooking vessel is illustrative only; its use is not specified in this line.",
+        "note": "A plausible plain ceramic cooking vessel is illustrative only; its use is not specified in this line."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 rev. III 10",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "bring-food-drink",
+      "number": 15,
+      "title": "Bring food and drink",
+      "shortTitle": "Bring food and drink",
+      "shortDescription": "Cheese, sour bread, wine, beer and fruit are brought, along with named vessels.",
+      "phase": "The offerings",
+      "unitType": "act",
+      "actionType": "bring-provisions",
+      "verb": "Bring",
+      "summary": "Cheese, sour bread, wine, beer and fruit are brought, along with named vessels.",
+      "patient": "Food and drink",
+      "actor": "Unspecified ritual participants",
+      "material": [
+        "Cheese",
+        "Sour bread",
+        "Wine",
+        "Beer",
+        "Fruit",
+        "Named vessels"
+      ],
+      "evidence": "The vessel names survive; their exact shapes and the fruit species are not settled here.",
+      "image": {
+        "src": "/rituals/uhhamuwa/15-provisions.png",
+        "alt": "A restrained selection of generic food and ceramic vessels; fruit species and vessel profiles are illustrative.",
+        "note": "A restrained selection of generic food and ceramic vessels; fruit species and vessel profiles are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 rev. III 11–12",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "prepare-for-road-god",
+      "number": 16,
+      "title": "Prepare them for the road god",
+      "shortTitle": "Prepare them for the road god",
+      "shortDescription": "The gathered provisions are prepared for the god of the road.",
+      "phase": "The offerings",
+      "unitType": "act",
+      "actionType": "prepare-offering",
+      "verb": "Prepare",
+      "summary": "The gathered provisions are prepared for the god of the road.",
+      "patient": "Gathered provisions",
+      "actor": "Unspecified ritual participants",
+      "material": [
+        "Cheese",
+        "Bread",
+        "Wine",
+        "Beer",
+        "Fruit"
+      ],
+      "recipient": "God of the road",
+      "evidence": "The text says the provisions are prepared for this god; the placement or arrangement is unspecified.",
+      "image": {
+        "src": "/rituals/uhhamuwa/16-road-god.png",
+        "alt": "A schematic still life of provisions, not a reconstruction of an attested altar or gesture.",
+        "note": "A schematic still life of provisions, not a reconstruction of an attested altar or gesture."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 rev. III 13",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 25
+          }
+        }
+      ]
+    }
+  ]
+}

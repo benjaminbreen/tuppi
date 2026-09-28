@@ -1,0 +1,113 @@
+[
+  {
+    "id": "uhhamuwa",
+    "path": "/rituals/uhhamuwa",
+    "title": "Uḫḫamuwa of Arzawa",
+    "cth": 410,
+    "concern": "Plague",
+    "region": "Arzawa",
+    "tags": [
+      "Plague",
+      "Appeasement",
+      "Arzawa"
+    ],
+    "sources": "KUB 9.31 · HT 1",
+    "description": "A ram is adorned and sent away; a goat, sheep, food and drink follow in the offering sequence.",
+    "images": [
+      "/rituals/uhhamuwa/02-wool.png",
+      "/rituals/uhhamuwa/04-crown.png",
+      "/rituals/uhhamuwa/14-cook.png"
+    ],
+    "stepCount": 16,
+    "searchTerms": [
+      "ram",
+      "wool",
+      "goat",
+      "sheep",
+      "slaughter",
+      "kill",
+      "cook",
+      "fodder",
+      "fat",
+      "cheese",
+      "bread",
+      "wine",
+      "beer",
+      "fruit",
+      "Sun-god",
+      "road god"
+    ]
+  },
+  {
+    "id": "allii",
+    "path": "/rituals/allii",
+    "title": "Allī of Arzawa",
+    "cth": 402,
+    "concern": "Bewitchment",
+    "region": "Arzawa",
+    "tags": [
+      "Bewitchment",
+      "Counter-sorcery",
+      "Arzawa"
+    ],
+    "sources": "KBo 12.126+ · KBo 55.41+ and other copies",
+    "description": "Clay figures, coloured wool and a bedside deposit appear across the surviving copies.",
+    "images": [
+      "/rituals/allii/01-figures.png",
+      "/rituals/allii/05-wool-figures.png",
+      "/rituals/allii/07-sleep.png"
+    ],
+    "stepCount": 10,
+    "searchTerms": [
+      "clay figures",
+      "clay tongues",
+      "wool",
+      "bed",
+      "sleep",
+      "basket",
+      "earth",
+      "dough",
+      "wax",
+      "Sun-god"
+    ]
+  },
+  {
+    "id": "ashella",
+    "path": "/rituals/ashella",
+    "title": "Ašḫella of Ḫapalla",
+    "cth": 394,
+    "concern": "Plague",
+    "region": "Ḫapalla",
+    "tags": [
+      "Plague",
+      "Army camp",
+      "Ḫapalla"
+    ],
+    "sources": "KUB 9.31 · HT 1 + KBo 13.212",
+    "description": "A four-day rite sends adorned rams away and follows with animal offerings, washing and fire.",
+    "images": [
+      "/rituals/ashella/adorned-ram.png",
+      "/rituals/ashella/wash.png",
+      "/rituals/ashella/two-fires.png"
+    ],
+    "stepCount": 16,
+    "searchTerms": [
+      "plague",
+      "army",
+      "ram",
+      "wool",
+      "iron",
+      "lead",
+      "tether",
+      "enemy",
+      "salt",
+      "wash",
+      "fire",
+      "pig",
+      "bull",
+      "ewe",
+      "Storm-god",
+      "Sun-god"
+    ]
+  }
+]

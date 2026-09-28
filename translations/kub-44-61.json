@@ -1,0 +1,27 @@
+{
+  "doc": "kub-44-61",
+  "status": "draft",
+  "translator": "Claude (AI), draft, not reviewed by a specialist",
+  "date": "2026-09-28",
+  "intro": "A Hittite medical tablet (CTH 461) with graded prescriptions, each followed by a fallback 'if he does not get well from that': plant mixtures (cress, garlic, leek and other herbs) given for seven days to a patient ill 'inside' who will not eat; a treatment for limbs that are 'not well' using a sinew from an animal killed by a leopard; and treatments for a discharge from the penis. A colophon on the left edge names the scribe NU.GIŠKIRI₆, pupil of Ḫulanabi.",
+  "sections": [
+    { "from": 0, "to": 2, "title": "Illness 'inside' with loss of appetite" },
+    { "from": 3, "to": 3, "title": "Limbs 'not well'" },
+    { "from": 4, "to": 6, "title": "Discharge from the penis" },
+    { "from": 7, "to": 7, "title": "Colophon" }
+  ],
+  "paras": [
+    { "p": 0, "en": "[If …] inside … (innanaš šāt[ar]) […] … and he does not eat bread, he takes these herbs: seed of cress (ZÀ.AḪ.LI), … […] nuḫurtu (NU.LUḪ.ḪA) and a great deal(?) of AN.DAḪ.ŠUM-plant; and [ḫark]i- he takes in equal proportion(?), and [keeps giving] it to him for seven days. But a day passes in between (i.e. on alternate days?), (and) [he] keeps giving [it to him]. While he keeps giving him these herbs for seven days, he takes half (a measure?) of ḫarki-plant ('white plant'?) in exactly equal proportion(?). Then he voids(?) (iyai) and also lets (it) out downward(?), and [he …]" },
+    { "p": 1, "en": "But if he does not get well from that, then he gives him wi[ne](?): he takes a bulb (gapanu) of garlic, a bulb of leek (GA.RAŠ), a bulb of šullittinni- (a vegetable), and he lets them in (to steep?), and [he sifts] them. He takes half (a measure?) of ḫarki-plant, and it with wine […], and [gives] it to him for seven days on an empty stomach(?); then he voids(?) and lets (it) out downward(?)." },
+    { "p": 2, "en": "If he does not get well from that, […] he takes […], and they peel(?) it off, and he sifts(?) it in […], and he gives it to him to eat […] a bulb he gives in (it) […] gi[ves] (it) to him to eat […] šulli[ttinni- …] until he […] [break] […] … […] either … […] …apšiḫai- […] him … […] down … […] he treats(?) (him), and he […]" },
+    { "p": 3, "en": "If a person's limbs are not well, then this […]: and while the pe[rson] does not see (it), he pours (it) on top into a hole; but the remedy […], and he takes away its root; he sews (it) into a leather cord (MATNU) (from an animal) which a leopard has killed. If … […] he takes, and they luššanu- it […], and they sprinkle it; then they ta[ke] it. But they take only the sinew of a ḫuitnaima- (wild animal?); he twists(?) (it) in, and he gets well. Days […]" },
+    { "p": 4, "en": "[I]f (something) d[rips](?) from a person's penis, but it is not [se]men, then he heats a tappi- (compress?); […] he keeps placing (it) in(?) his penis, and it lies in (there) the whole night. As long as he" },
+    { "p": 5, "en": "does not get well from that, he afterwards soaks(?) it (anda šuniyazzi) with this remedy. And if he is paššari- (circumcised?), then him […]; (if) he is not paššari-, then he presses the ḫapuri- (foreskin?) back, (and) … smears (it); then he draws the ḫapuri- forward. [He] gets well. And he keeps smearing it with lead alone." },
+    { "p": 6, "en": "And they strike it; and if it keeps getting larger(?) […] … […] … (kurušiyan) […] … Then quickly that one, once, dow[n …] … three times he presses (it) down. […] with a bronze implement […] … not […] … he gets well. A bed-cloth(?) (TÚG MAYALU) […]" },
+    { "p": 7, "en": "[Colophon:] NU.GIŠKIRI₆ ('Gardener'), son of SAG(?), chief of the scribes, [pup]il of Ḫulanabi." }
+  ],
+  "compare": [
+    { "label": "C. Burde, Hethitische medizinische Texte (StBoT 19, 1974)" },
+    { "label": "Hethitologie-Portal Mainz, CTH 461" }
+  ]
+}
