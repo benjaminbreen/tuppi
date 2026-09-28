@@ -1,0 +1,356 @@
+{
+  "allii-arrange-figures": {
+    "title": "Set out the clay figures",
+    "description": "Clay figures and tongue-shaped pieces are placed for the counter-ritual.",
+    "actionType": "arrange-figures",
+    "unitType": "act",
+    "visualAssetId": "allii-01-figures"
+  },
+  "allii-seat-patient": {
+    "title": "Seat the patient toward the Sun-god",
+    "description": "The bewitched person sits facing the Sun-god.",
+    "actionType": "orient-the-patient",
+    "unitType": "act",
+    "visualAssetId": "allii-02-patient"
+  },
+  "allii-raise-vessel": {
+    "title": "Raise the vessel and figures",
+    "description": "The Old Woman lifts a naktamu vessel together with the clay figures toward the Sun-god.",
+    "actionType": "present-an-object",
+    "unitType": "act",
+    "visualAssetId": "allii-03-lift-vessel"
+  },
+  "allii-return-address": {
+    "title": "Demand that the sorcery return",
+    "description": "The address to the Sun-god asks that the maker of the bewitchment carry it away.",
+    "actionType": "return-harm-by-speech",
+    "unitType": "utterance",
+    "visualAssetId": "allii-04-return-address"
+  },
+  "allii-wind-wool": {
+    "title": "Wind coloured wool around the figures",
+    "description": "The Old Woman winds wool thread around the figures while naming the affliction she is returning.",
+    "actionType": "wind-thread-around-a-figure",
+    "unitType": "act",
+    "visualAssetId": "allii-05-wool-figures"
+  },
+  "allii-set-basket": {
+    "title": "Place the deposit beneath the bed",
+    "description": "A prepared deposit of objects is set under the patient's bed.",
+    "actionType": "place-a-bedside-deposit",
+    "unitType": "act",
+    "visualAssetId": "allii-06-bed-basket"
+  },
+  "allii-sleep-over": {
+    "title": "Sleep over the deposit",
+    "description": "The patient sleeps over the placed ritual objects.",
+    "actionType": "sleep-over-an-object",
+    "unitType": "act",
+    "visualAssetId": "allii-07-sleep"
+  },
+  "allii-lift-at-dawn": {
+    "title": "Lift the deposit at daybreak",
+    "description": "At first light, the Old Woman removes the bedside deposit and moves it over the patient.",
+    "actionType": "remove-a-bedside-deposit",
+    "unitType": "act",
+    "visualAssetId": "allii-08-remove-basket"
+  },
+  "allii-press-earth": {
+    "title": "Press earth against the patient",
+    "description": "The Old Woman presses an earth clod against the patient while uttering a purification analogy.",
+    "actionType": "press-cleansing-material",
+    "unitType": "act",
+    "visualAssetId": "allii-09-earth-clod"
+  },
+  "allii-press-dough": {
+    "title": "Press dough against the patient",
+    "description": "The Old Woman presses a lump of dough against the patient and speaks a life-giving analogy.",
+    "actionType": "press-cleansing-material",
+    "unitType": "act",
+    "visualAssetId": "allii-10-dough"
+  },
+  "uhhamuwa-bring-ram": {
+    "title": "Bring a ram",
+    "description": "A ram is driven up for the rite.",
+    "actionType": "bring-animal",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-01-ram"
+  },
+  "uhhamuwa-twist-wool": {
+    "title": "Twist the coloured wool",
+    "description": "Blue, red, yellow-green, black and white wool are combined.",
+    "actionType": "twist-wool",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-02-wool"
+  },
+  "uhhamuwa-make-wreath": {
+    "title": "Make a wool wreath",
+    "description": "The combined wool is made into a wreath or ring.",
+    "actionType": "make-wreath",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-03-wreath"
+  },
+  "uhhamuwa-crown-ram": {
+    "title": "Adorn the ram",
+    "description": "The wool wreath is placed on one ram.",
+    "actionType": "adorn-animal",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-04-crown"
+  },
+  "uhhamuwa-lead-to-road": {
+    "title": "Lead the ram toward the enemy road",
+    "description": "The adorned ram is driven onto the road toward enemy territory.",
+    "actionType": "move-animal",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-05-road"
+  },
+  "uhhamuwa-appeal-over-ram": {
+    "title": "Address the hostile god",
+    "description": "An appeal presents the adorned ram and asks the god to be at peace with Ḫatti.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "uhhamuwa-06-appeal"
+  },
+  "uhhamuwa-drive-away-ram": {
+    "title": "Drive the ram away",
+    "description": "The crowned ram is sent into enemy territory.",
+    "actionType": "move-animal",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-07-departure"
+  },
+  "uhhamuwa-bring-fodder-fat": {
+    "title": "Bring fodder and fat",
+    "description": "Fodder for the god's horses and sheep fat are brought.",
+    "actionType": "bring-provisions",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-08-fodder"
+  },
+  "uhhamuwa-address-horses-chariot": {
+    "title": "Address the god about his horses",
+    "description": "The speech asks that the horses eat, the chariot be greased, and the god turn back toward his land.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "uhhamuwa-09-transport"
+  },
+  "uhhamuwa-bring-goat-sheep": {
+    "title": "Bring a goat and two sheep",
+    "description": "A billy goat and two sheep are brought into the rite.",
+    "actionType": "bring-animal",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-10-animals"
+  },
+  "offer-goat": {
+    "title": "Offer a goat",
+    "description": "Assign a goat to a deity as an offering.",
+    "matchRule": "The named recipient differs between rituals; the shared task is offering a goat.",
+    "actionType": "dedicate-animal",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-11-goat"
+  },
+  "offer-sheep-to-sun-god": {
+    "title": "Offer a sheep to the Sun-god",
+    "description": "Assign a sheep or ewe to the Sun-god.",
+    "matchRule": "Both passages specify a sheep or ewe offered to the Sun-god.",
+    "actionType": "dedicate-animal",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-12-sheep"
+  },
+  "slaughter-sheep": {
+    "title": "Slaughter sheep",
+    "description": "The prescribed killing of sheep or rams before cooking them.",
+    "matchRule": "Both texts prescribe slaughter of sheep. Ašḫella also slaughters goats.",
+    "actionType": "kill-animal",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-13-kill"
+  },
+  "cook-sheep-meat": {
+    "title": "Cook sheep meat",
+    "description": "Cook flesh from the sheep slaughtered in the rite.",
+    "matchRule": "The shared action is cooking sheep meat after slaughter.",
+    "actionType": "cook-meat",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-14-cook"
+  },
+  "uhhamuwa-bring-food-drink": {
+    "title": "Bring food and drink",
+    "description": "Cheese, sour bread, wine, beer and fruit are brought, along with named vessels.",
+    "actionType": "bring-provisions",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-15-provisions"
+  },
+  "uhhamuwa-prepare-for-road-god": {
+    "title": "Prepare them for the road god",
+    "description": "The gathered provisions are prepared for the god of the road.",
+    "actionType": "prepare-offering",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-16-road-god"
+  },
+  "ashella-prepare-ram": {
+    "title": "Prepare a ram",
+    "description": "Each army lord supplies a ram at dusk.",
+    "actionType": "bring-animal",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-01-ram"
+  },
+  "ashella-twist-wool": {
+    "title": "Twist three colours of wool",
+    "description": "White, red and green wool are worked into a cord.",
+    "actionType": "twist-wool",
+    "unitType": "act",
+    "visualAssetId": "ashella-wool-cord"
+  },
+  "ashella-bind-ram": {
+    "title": "Bind the cord and rings to the ram",
+    "description": "The cord and metal ornaments are fastened to the ram’s neck and horns.",
+    "actionType": "adorn-animal",
+    "unitType": "act",
+    "visualAssetId": "ashella-adorned-ram"
+  },
+  "ashella-tether-ram": {
+    "title": "Tether the ram before a tent",
+    "description": "The adorned ram is tied in front of a tent for the night.",
+    "actionType": "tether-animal",
+    "unitType": "act",
+    "visualAssetId": "ashella-tether"
+  },
+  "ashella-appeal": {
+    "title": "Ask the plague god to be appeased",
+    "description": "The speaker asks the god responsible for the plague to accept the tethered rams.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "ashella-adorned-ram"
+  },
+  "ashella-release-rams": {
+    "title": "Release the rams at the enemy border",
+    "description": "The rams are led through camp and let loose at the enemy border.",
+    "actionType": "move-animal",
+    "unitType": "act",
+    "visualAssetId": "ashella-adorned-ram"
+  },
+  "ashella-wash-salt-water": {
+    "title": "Wash hands in salted water",
+    "description": "Salt is mixed with water, and the participants wash their hands.",
+    "actionType": "wash-hands",
+    "unitType": "act",
+    "visualAssetId": "ashella-wash"
+  },
+  "ashella-pass-between-fires": {
+    "title": "Pass between two fires",
+    "description": "Two fires are lit, and the participants walk between them.",
+    "actionType": "pass-between-fires",
+    "unitType": "act",
+    "visualAssetId": "ashella-two-fires"
+  },
+  "ashella-bring-pig": {
+    "title": "Bring a pig on the third day",
+    "description": "A pig is driven to a different open place with a goat and ram.",
+    "actionType": "bring-animal",
+    "unitType": "act",
+    "visualAssetId": "ashella-pig"
+  },
+  "ashella-offer-pig": {
+    "title": "Offer the pig to the plague god",
+    "description": "The pig is offered with the goat and ram to the god responsible for the plague.",
+    "actionType": "dedicate-animal",
+    "unitType": "act",
+    "visualAssetId": "ashella-pig"
+  },
+  "ashella-offer-bull": {
+    "title": "Offer a bull to the Storm-god",
+    "description": "The bull is offered to the Storm-god.",
+    "actionType": "dedicate-animal",
+    "unitType": "act",
+    "visualAssetId": "ashella-bull"
+  },
+  "ashella-offer-rams": {
+    "title": "Offer three sheep to all the gods",
+    "description": "Three sheep are offered to all the gods.",
+    "actionType": "dedicate-animal",
+    "unitType": "act",
+    "visualAssetId": "uhhamuwa-01-ram"
+  },
+  "pulisa-select-substitutes": {
+    "title": "Select a prisoner and a woman",
+    "description": "A prisoner of war and a woman from the enemy land are chosen as substitutes.",
+    "actionType": "select-human",
+    "unitType": "act",
+    "visualAssetId": "pulisa-substitutes"
+  },
+  "pulisa-remove-king-garments": {
+    "title": "Remove the king’s festive clothes",
+    "description": "The king takes off his festive garments.",
+    "actionType": "remove-garments",
+    "unitType": "act",
+    "visualAssetId": "pulisa-king-garments"
+  },
+  "pulisa-dress-man": {
+    "title": "Clothe the man in the king’s garments",
+    "description": "The prisoner receives the king’s festive garments.",
+    "actionType": "dress-substitute",
+    "unitType": "act",
+    "visualAssetId": "pulisa-king-garments"
+  },
+  "pulisa-dress-woman": {
+    "title": "Clothe the woman in festive garments",
+    "description": "The woman is dressed in festive garments.",
+    "actionType": "dress-substitute",
+    "unitType": "act",
+    "visualAssetId": "pulisa-woman-garments"
+  },
+  "pulisa-address-man": {
+    "title": "Address the male deity",
+    "description": "The speaker offers the adorned man as a substitute and asks that he carry the plague away.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "pulisa-substitutes"
+  },
+  "pulisa-address-woman": {
+    "title": "Address the female deity",
+    "description": "The corresponding words are spoken to the woman concerning a female deity.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "pulisa-woman-garments"
+  },
+  "pulisa-bring-bull-ewe": {
+    "title": "Bring a bull and ewe",
+    "description": "A bull and ewe from the enemy land are brought forward.",
+    "actionType": "bring-animal",
+    "unitType": "act",
+    "visualAssetId": "pulisa-bull-ewe"
+  },
+  "pulisa-ring-bull": {
+    "title": "Fit rings at the bull’s ears",
+    "description": "The bull is fitted with ašuša-objects at its ears; their identification as rings is uncertain.",
+    "actionType": "adorn-animal",
+    "unitType": "act",
+    "visualAssetId": "pulisa-ringed-bull"
+  },
+  "pulisa-draw-wool": {
+    "title": "Draw coloured wool from the king’s mouth",
+    "description": "Red, green, black and partly restored white wool are drawn out of the king’s mouth.",
+    "actionType": "draw-wool-from-mouth",
+    "unitType": "act",
+    "visualAssetId": "pulisa-mouth-wool"
+  },
+  "pulisa-address-bull": {
+    "title": "Offer the bull to the male deity",
+    "description": "The speaker offers the bull as a substitute and asks it to carry the plague away.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "pulisa-ringed-bull"
+  },
+  "pulisa-address-ewe": {
+    "title": "Offer the ewe to the female deity",
+    "description": "The ewe is brought forward and the corresponding words address a female deity.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "uhhamuwa-12-sheep"
+  },
+  "pulisa-send-animals-ahead": {
+    "title": "Drive the bull and ewe ahead",
+    "description": "The bull and ewe are driven in front of the two human substitutes.",
+    "actionType": "move-animal",
+    "unitType": "act",
+    "visualAssetId": "pulisa-bull-ewe"
+  }
+}

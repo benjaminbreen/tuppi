@@ -52,7 +52,7 @@ export default function RitualsIndex() {
       <section id="catalogue" className="ritual-catalogue" aria-labelledby="ritual-catalogue-heading">
         <div className="ritual-catalogue-heading">
           <h2 id="ritual-catalogue-heading">Ritual catalogue</h2>
-          <span aria-live="polite">{visible.length} {visible.length === 1 ? "ritual" : "rituals"}</span>
+          <div className="ritual-catalogue-heading-actions"><span aria-live="polite">{visible.length} {visible.length === 1 ? "ritual" : "rituals"}</span><Link to="/ritual-units">Browse ritual tasks ↗</Link></div>
         </div>
         <div className="ritual-catalogue-controls">
           <label className="ritual-catalogue-search">Search

@@ -1,0 +1,197 @@
+{
+  "allii-01-figures": {
+    "src": "/rituals/allii/01-figures.png",
+    "subject": "Clay figures",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "allii-02-patient": {
+    "src": "/rituals/allii/02-patient.png",
+    "subject": "Face the Sun-god",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "allii-03-lift-vessel": {
+    "src": "/rituals/allii/03-lift-vessel.png",
+    "subject": "Raise the figures",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "allii-04-return-address": {
+    "src": "/rituals/allii/04-return-address.png",
+    "subject": "Return the harm",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "allii-05-wool-figures": {
+    "src": "/rituals/allii/05-wool-figures.png",
+    "subject": "Wind coloured wool",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "allii-06-bed-basket": {
+    "src": "/rituals/allii/06-bed-basket.png",
+    "subject": "Deposit under bed",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "allii-07-sleep": {
+    "src": "/rituals/allii/07-sleep.png",
+    "subject": "Sleep over it",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "allii-08-remove-basket": {
+    "src": "/rituals/allii/08-remove-basket.png",
+    "subject": "Lift it at dawn",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "allii-09-earth-clod": {
+    "src": "/rituals/allii/09-earth-clod.png",
+    "subject": "Press earth",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "allii-10-dough": {
+    "src": "/rituals/allii/10-dough.png",
+    "subject": "Press dough",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-01-ram": {
+    "src": "/rituals/uhhamuwa/01-ram.png",
+    "subject": "Bring a ram",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-02-wool": {
+    "src": "/rituals/uhhamuwa/02-wool.png",
+    "subject": "Twist the coloured wool",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-03-wreath": {
+    "src": "/rituals/uhhamuwa/03-wreath.png",
+    "subject": "Make a wool wreath",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-04-crown": {
+    "src": "/rituals/uhhamuwa/04-crown.png",
+    "subject": "Adorn the ram",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-05-road": {
+    "src": "/rituals/uhhamuwa/05-road.png",
+    "subject": "Lead the ram toward the enemy road",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-06-appeal": {
+    "src": "/rituals/uhhamuwa/06-appeal.png",
+    "subject": "Address the hostile god",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-07-departure": {
+    "src": "/rituals/uhhamuwa/07-departure.png",
+    "subject": "Drive the ram away",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-08-fodder": {
+    "src": "/rituals/uhhamuwa/08-fodder.png",
+    "subject": "Bring fodder and fat",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-09-transport": {
+    "src": "/rituals/uhhamuwa/09-transport.png",
+    "subject": "Address the god about his horses",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-10-animals": {
+    "src": "/rituals/uhhamuwa/10-animals.png",
+    "subject": "Bring a goat and two sheep",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-11-goat": {
+    "src": "/rituals/uhhamuwa/11-goat.png",
+    "subject": "Dedicate the goat to the Seven",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-12-sheep": {
+    "src": "/rituals/uhhamuwa/12-sheep.png",
+    "subject": "Dedicate one sheep to the Sun-god",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-13-kill": {
+    "src": "/rituals/uhhamuwa/13-kill.png",
+    "subject": "Kill the remaining sheep",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-14-cook": {
+    "src": "/rituals/uhhamuwa/14-cook.png",
+    "subject": "Cook the sheep",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-15-provisions": {
+    "src": "/rituals/uhhamuwa/15-provisions.png",
+    "subject": "Bring food and drink",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "uhhamuwa-16-road-god": {
+    "src": "/rituals/uhhamuwa/16-road-god.png",
+    "subject": "Prepare them for the road god",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ashella-wool-cord": {
+    "src": "/rituals/ashella/wool-cord.png",
+    "subject": "Twist wool",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ashella-adorned-ram": {
+    "src": "/rituals/ashella/adorned-ram.png",
+    "subject": "Adorn ram",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ashella-tether": {
+    "src": "/rituals/ashella/tether.png",
+    "subject": "Tether ram",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ashella-wash": {
+    "src": "/rituals/ashella/wash.png",
+    "subject": "Wash hands",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ashella-two-fires": {
+    "src": "/rituals/ashella/two-fires.png",
+    "subject": "Pass fires",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ashella-pig": {
+    "src": "/rituals/ashella/pig.png",
+    "subject": "Bring pig",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ashella-bull": {
+    "src": "/rituals/ashella/bull.png",
+    "subject": "Offer bull",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "pulisa-substitutes": {
+    "src": "/rituals/pulisa/substitutes.png",
+    "subject": "Select a prisoner and a woman",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "pulisa-king-garments": {
+    "src": "/rituals/pulisa/king-garments.png",
+    "subject": "Remove the king’s festive clothes",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "pulisa-woman-garments": {
+    "src": "/rituals/pulisa/woman-garments.png",
+    "subject": "Clothe the woman in festive garments",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "pulisa-bull-ewe": {
+    "src": "/rituals/pulisa/bull-ewe.png",
+    "subject": "Bring a bull and ewe",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "pulisa-ringed-bull": {
+    "src": "/rituals/pulisa/ringed-bull.png",
+    "subject": "Fit rings at the bull’s ears",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "pulisa-mouth-wool": {
+    "src": "/rituals/pulisa/mouth-wool.png",
+    "subject": "Draw coloured wool from the king’s mouth",
+    "medium": "AI reconstruction · transparent PNG"
+  }
+}

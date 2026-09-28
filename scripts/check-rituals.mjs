@@ -6,12 +6,16 @@ const dataDir = path.join(root, "src/data/rituals");
 const read = (name) => JSON.parse(fs.readFileSync(path.join(dataDir, name), "utf8"));
 const catalog = read("catalog.json");
 const types = read("action-types.json");
+const units = read("units.json");
+const visuals = read("visual-assets.json");
 const quotes = read("quotes.json");
 const editions = catalog.map(({ id }) => read(`${id}.json`));
 const errors = [];
 const check = (ok, message) => { if (!ok) errors.push(message); };
 const unique = (items) => new Set(items).size === items.length;
 const docCache = new Map();
+const usedUnits = new Set();
+const usedVisuals = new Set();
 
 function sourceDoc(id) {
   if (docCache.has(id)) return docCache.get(id);
@@ -63,8 +67,17 @@ for (const entry of catalog) {
     check(phases.has(step.phase), `${context}: unknown phase`);
     check(["act", "utterance"].includes(step.unitType), `${context}: unknown unit type`);
     check(!!types[step.actionType], `${context}: unknown action type ${step.actionType}`);
+    const unit = units[step.unitId];
+    check(!!unit, `${context}: unknown canonical unit ${step.unitId}`);
+    if (unit) {
+      usedUnits.add(step.unitId);
+      check(unit.actionType === step.actionType && unit.unitType === step.unitType, `${context}: unit classification mismatch`);
+      check(!!unit.title && !!unit.description, `${context}: incomplete canonical unit`);
+      const visual = visuals[unit.visualAssetId];
+      check(!!visual, `${context}: missing visual asset ${unit.visualAssetId}`);
+      if (visual) { usedVisuals.add(unit.visualAssetId); image(visual.src, context); }
+    }
     check(step.title && step.shortTitle && step.summary && step.patient && step.actor, `${context}: missing step metadata`);
-    image(step.image?.src, context);
     check(step.image?.alt && step.image?.note, `${context}: missing image description`);
     check(step.attestations?.length > 0, `${context}: no manuscript attestation`);
     for (const a of step.attestations ?? []) {
@@ -76,6 +89,7 @@ for (const entry of catalog) {
         (edition.cth === 394 && a.anchor.kind === "paragraph" && a.anchor.index >= 26 && a.anchor.index <= 34)
       );
       check(String(doc.cth) === String(edition.cth) || sharedTablet, `${context}: ${a.doc} has CTH ${doc.cth}`);
+      if (edition.id === "pulisa" && a.doc === "kbo-15-1" && a.anchor.kind === "paragraph") check(a.anchor.index >= 1 && a.anchor.index <= 5, `${context}: outside Puliša section of the shared tablet`);
       const collection = a.anchor?.kind === "line" ? doc.lines : a.anchor?.kind === "paragraph" ? doc.paras : null;
       check(!!collection && Number.isInteger(a.anchor.index) && a.anchor.index >= 0 && a.anchor.index < collection.length, `${context}: invalid ${a.doc} anchor`);
       check(!!a.witness && !!a.locus, `${context}: witness or locus missing`);
@@ -99,5 +113,11 @@ for (const entry of catalog) {
   }
 }
 
+for (const id of Object.keys(units)) check(usedUnits.has(id), `unused canonical unit ${id}`);
+const unitCounts = new Map();
+for (const edition of editions) for (const step of edition.steps) unitCounts.set(step.unitId, (unitCounts.get(step.unitId) ?? 0) + 1);
+for (const [id, count] of unitCounts) if (count > 1) check(!!units[id].matchRule, `${id}: shared unit needs a specific match rule`);
+for (const id of Object.keys(visuals)) check(usedVisuals.has(id), `unused visual asset ${id}`);
+
 if (errors.length) { console.error(errors.map((error) => `• ${error}`).join("\n")); process.exit(1); }
-console.log(`Checked ${editions.length} ritual editions, ${editions.reduce((sum, edition) => sum + edition.steps.length, 0)} units, and ${docCache.size} source documents.`);
+console.log(`Checked ${editions.length} ritual editions, ${editions.reduce((sum, edition) => sum + edition.steps.length, 0)} step occurrences, ${usedUnits.size} canonical units, ${usedVisuals.size} visual assets, and ${docCache.size} source documents.`);

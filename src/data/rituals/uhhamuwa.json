@@ -7,7 +7,7 @@
   "dating": {
     "label": "attested 14th–13th c. BCE",
     "note": "The KUB 9.31 and HT 1 copies are dated New Hittite; this is an approximate manuscript date.",
-    "sourceUrl": "https://hethport.net/txhet_besrit/intro.php?ed=A.+Chrzanowska&lg=DE&prgr=%C2%A7+1&xst=CTH+394"
+    "sourceUrl": "https://smaw.de.dariah.eu/txhet_besrit/intro.php?ed=S.+G%C3%B6rke&lg=DE&prgr=&xst=CTH+410"
   },
   "purpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
   "attribution": "Attributed to Uḫḫamuwa, a man of Arzawa",
@@ -57,7 +57,6 @@
       "material": [],
       "evidence": "KUB 9.31 reads two(?) rams at this point; the more complete HT 1 has one. The subsequent actions concern one ram.",
       "image": {
-        "src": "/rituals/uhhamuwa/01-ram.png",
         "alt": "One undecorated ram. Breed, coloration and horn form are illustrative; the text does not specify them.",
         "note": "One undecorated ram. Breed, coloration and horn form are illustrative; the text does not specify them."
       },
@@ -71,7 +70,8 @@
             "index": 23
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-bring-ram"
     },
     {
       "id": "twist-wool",
@@ -95,7 +95,6 @@
       ],
       "evidence": "The five colour terms are preserved in KUB 9.31. The exact way the fibres were worked is not described.",
       "image": {
-        "src": "/rituals/uhhamuwa/02-wool.png",
         "alt": "Dyed fibres converge into a cord; their thickness and dye shades are illustrative.",
         "note": "Dyed fibres converge into a cord; their thickness and dye shades are illustrative."
       },
@@ -109,7 +108,8 @@
             "index": 23
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-twist-wool"
     },
     {
       "id": "make-wreath",
@@ -129,7 +129,6 @@
       ],
       "evidence": "The text names a wool KI-LU-LI; 'wreath' conveys the edited interpretation of its form.",
       "image": {
-        "src": "/rituals/uhhamuwa/03-wreath.png",
         "alt": "A simple circular braid; exact construction is inferred from the term, not preserved as an object.",
         "note": "A simple circular braid; exact construction is inferred from the term, not preserved as an object."
       },
@@ -143,7 +142,8 @@
             "index": 23
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-make-wreath"
     },
     {
       "id": "crown-ram",
@@ -163,7 +163,6 @@
       ],
       "evidence": "The adorning verb follows the making of the wool object. Its precise position on the animal is not stated.",
       "image": {
-        "src": "/rituals/uhhamuwa/04-crown.png",
         "alt": "The wreath is shown at the horns for legibility; the precise placement is conjectural.",
         "note": "The wreath is shown at the horns for legibility; the precise placement is conjectural."
       },
@@ -177,7 +176,8 @@
             "index": 23
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-crown-ram"
     },
     {
       "id": "lead-to-road",
@@ -198,7 +198,6 @@
       "place": "Road toward enemy territory",
       "evidence": "The text specifies a road associated with the enemy; its appearance and exact route are unknown.",
       "image": {
-        "src": "/rituals/uhhamuwa/05-road.png",
         "alt": "A closeup of movement. No actual road layout is reconstructed.",
         "note": "A closeup of movement. No actual road layout is reconstructed."
       },
@@ -212,7 +211,8 @@
             "index": 23
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-lead-to-road"
     },
     {
       "id": "appeal-over-ram",
@@ -234,7 +234,6 @@
       "place": "Road toward enemy territory",
       "evidence": "This is a prescribed utterance, not a report that the god visibly accepted the ram. The exact wording varies between witnesses.",
       "image": {
-        "src": "/rituals/uhhamuwa/06-appeal.png",
         "alt": "The crowned ram is the speech's visible referent. The image does not depict the god, a speaker or the requested result.",
         "note": "The crowned ram is the speech's visible referent. The image does not depict the god, a speaker or the requested result."
       },
@@ -248,7 +247,8 @@
             "index": 23
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-appeal-over-ram"
     },
     {
       "id": "drive-away-ram",
@@ -269,7 +269,6 @@
       "place": "Enemy territory",
       "evidence": "This departure is stated after the address. It is distinct from bringing the ram onto the road.",
       "image": {
-        "src": "/rituals/uhhamuwa/07-departure.png",
         "alt": "The ram walks away; no specific border, settlement or road is invented.",
         "note": "The ram walks away; no specific border, settlement or road is invented."
       },
@@ -283,7 +282,8 @@
             "index": 23
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-drive-away-ram"
     },
     {
       "id": "bring-fodder-fat",
@@ -305,7 +305,6 @@
       "recipient": "Horses and chariot named in the following speech",
       "evidence": "Bringing the materials is stated. Feeding horses or greasing a chariot is wished for in the subsequent utterance, not described here as performed.",
       "image": {
-        "src": "/rituals/uhhamuwa/08-fodder.png",
         "alt": "Only the named materials are shown; a container is deliberately omitted.",
         "note": "Only the named materials are shown; a container is deliberately omitted."
       },
@@ -319,7 +318,8 @@
             "index": 24
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-bring-fodder-fat"
     },
     {
       "id": "address-horses-chariot",
@@ -340,7 +340,6 @@
       "recipient": "Hostile god, addressed as Storm-god",
       "evidence": "These are wishes within an utterance. The text does not say the horses were actually fed or the chariot actually greased.",
       "image": {
-        "src": "/rituals/uhhamuwa/09-transport.png",
         "alt": "The image visualizes the named horses/chariot as referents of speech, not as an attested scene of feeding or greasing.",
         "note": "The image visualizes the named horses/chariot as referents of speech, not as an attested scene of feeding or greasing."
       },
@@ -354,7 +353,8 @@
             "index": 24
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-address-horses-chariot"
     },
     {
       "id": "bring-goat-sheep",
@@ -372,7 +372,6 @@
       "material": [],
       "evidence": "The number and animal categories are explicit in this witness.",
       "image": {
-        "src": "/rituals/uhhamuwa/10-animals.png",
         "alt": "One goat and two sheep, with no invented accessories or ceremonial setting.",
         "note": "One goat and two sheep, with no invented accessories or ceremonial setting."
       },
@@ -386,7 +385,8 @@
             "index": 25
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-bring-goat-sheep"
     },
     {
       "id": "dedicate-goat",
@@ -405,7 +405,6 @@
       "recipient": "The Seven (Sebettu)",
       "evidence": "The recipient and animal are named. The precise physical gesture is not described.",
       "image": {
-        "src": "/rituals/uhhamuwa/11-goat.png",
         "alt": "The goat alone is shown; no image of the divine recipients or invented gesture.",
         "note": "The goat alone is shown; no image of the divine recipients or invented gesture."
       },
@@ -419,7 +418,8 @@
             "index": 25
           }
         }
-      ]
+      ],
+      "unitId": "offer-goat"
     },
     {
       "id": "dedicate-sheep",
@@ -438,7 +438,6 @@
       "recipient": "The Sun-god",
       "evidence": "This assignment is present in KUB 9.31; the published English draft notes a variant in another witness.",
       "image": {
-        "src": "/rituals/uhhamuwa/12-sheep.png",
         "alt": "One sheep in natural light. The deity and a specific gesture are not depicted.",
         "note": "One sheep in natural light. The deity and a specific gesture are not depicted."
       },
@@ -452,7 +451,8 @@
             "index": 25
           }
         }
-      ]
+      ],
+      "unitId": "offer-sheep-to-sun-god"
     },
     {
       "id": "kill-sheep",
@@ -470,7 +470,6 @@
       "material": [],
       "evidence": "The text names the killing but not an implement or method.",
       "image": {
-        "src": "/rituals/uhhamuwa/13-kill.png",
         "alt": "A single anonymous hand and plain bronze blade make the act legible. The text does not specify a knife, cutting method, or precise position; all are illustrative.",
         "note": "A single anonymous hand and plain bronze blade make the act legible. The text does not specify a knife, cutting method, or precise position; all are illustrative."
       },
@@ -484,7 +483,8 @@
             "index": 25
           }
         }
-      ]
+      ],
+      "unitId": "slaughter-sheep"
     },
     {
       "id": "cook-sheep",
@@ -504,7 +504,6 @@
       ],
       "evidence": "The verb states cooking but not vessel, fuel or method.",
       "image": {
-        "src": "/rituals/uhhamuwa/14-cook.png",
         "alt": "A plausible plain ceramic cooking vessel is illustrative only; its use is not specified in this line.",
         "note": "A plausible plain ceramic cooking vessel is illustrative only; its use is not specified in this line."
       },
@@ -518,7 +517,8 @@
             "index": 25
           }
         }
-      ]
+      ],
+      "unitId": "cook-sheep-meat"
     },
     {
       "id": "bring-food-drink",
@@ -543,7 +543,6 @@
       ],
       "evidence": "The vessel names survive; their exact shapes and the fruit species are not settled here.",
       "image": {
-        "src": "/rituals/uhhamuwa/15-provisions.png",
         "alt": "A restrained selection of generic food and ceramic vessels; fruit species and vessel profiles are illustrative.",
         "note": "A restrained selection of generic food and ceramic vessels; fruit species and vessel profiles are illustrative."
       },
@@ -557,7 +556,8 @@
             "index": 25
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-bring-food-drink"
     },
     {
       "id": "prepare-for-road-god",
@@ -582,7 +582,6 @@
       "recipient": "God of the road",
       "evidence": "The text says the provisions are prepared for this god; the placement or arrangement is unspecified.",
       "image": {
-        "src": "/rituals/uhhamuwa/16-road-god.png",
         "alt": "A schematic still life of provisions, not a reconstruction of an attested altar or gesture.",
         "note": "A schematic still life of provisions, not a reconstruction of an attested altar or gesture."
       },
@@ -596,7 +595,8 @@
             "index": 25
           }
         }
-      ]
+      ],
+      "unitId": "uhhamuwa-prepare-for-road-god"
     }
   ]
 }

@@ -10,7 +10,8 @@ An open workbench for Hittite cuneiform texts. First slice: plague, medicine and
 - **Browser** — every manuscript as a strip of paragraphs (substances, languages, preservation), plus a
   composition × substance matrix.
 - **Rituals** — a searchable catalogue with list and card views, followed by step sequences for Uḫḫamuwa (CTH 410),
-  Allī (CTH 402) and Ašḫella (CTH 394). Each step links to manuscript lines and has a reconstruction image and evidence notes.
+  Allī (CTH 402), Ašḫella (CTH 394) and Puliša (CTH 407). Each step links to manuscript lines and has a reconstruction image and evidence notes.
+  A [task catalogue](src/data/rituals/README.md) indexes individual acts and utterances across rituals, with shared illustrations and source-linked occurrences.
   The [Uḫḫamuwa image briefs](public/rituals/uhhamuwa/IMAGE_BRIEFS.md) record visual choices and their evidence limits.
 
 Catalogue records live in `src/data/rituals/catalog.json`; the [ritual edition guide](src/data/rituals/README.md) describes
@@ -28,8 +29,7 @@ npm run dev
 The site is fully static: `npm run build` → `dist/`. The generated data in `public/data/` is committed, so Vercel
 needs no Python.
 
-- **Option A — its own repo:** `cd tuppi && git init && git add . && git commit -m "tuppi v0.1"`, push to GitHub,
-  then import the repo in Vercel (framework preset: Vite).
+- **Option A — its own repo:** push the local `main` branch to a chosen GitHub repository, then import that repository in Vercel (framework preset: Vite).
 - **Option B — inside a larger repo:** import that repo in Vercel and set **Root Directory** to `tuppi`.
 - **Option C — no git:** `npx vercel` from this folder.
 

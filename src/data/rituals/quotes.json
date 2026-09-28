@@ -986,5 +986,161 @@
       "original": "I-NA UD 4KAM ma-a-an lu-uk-kat-ta ka-ru-ú-wa-ri-wa-ar",
       "english": "the three sheep to all the gods."
     }
+  ],
+  "pulisa/select-substitutes": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 6–7",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "ma-aḫ-ḫa-an na-aš-kán IŠ-TU ZAG KUR LÚKÚR ar-ḫa i-ia-at-ta-ri",
+      "english": "they seize one prisoner of war and one woman of the land"
+    }
+  ],
+  "pulisa/remove-king-garments": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 9–10",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "ENMEŠ-TI-ia-aš-ši kat-ta-an ḫu-u-ma-an-te-eš ti-ia-an-zi 1 LÚŠU.DAB-ia-ši",
+      "english": "(The king) takes the festive garments off his body"
+    }
+  ],
+  "pulisa/dress-man": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 10–11",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "1 MUNUS-TUM-ia pé-ra-an ú-e-da-an-zi nu-za-kán NÍ.TE-ŠU TÚGNÍG.LÁMMEŠ",
+      "english": "they clothe the man in them"
+    }
+  ],
+  "pulisa/dress-woman": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 10–11",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "1 MUNUS-TUM-ia pé-ra-an ú-e-da-an-zi nu-za-kán NÍ.TE-ŠU TÚGNÍG.LÁMMEŠ",
+      "english": "the woman they clothe in the festive garments of a woman"
+    }
+  ],
+  "pulisa/address-man": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 11–21",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "ar-ḫa da-a-i na-at A-NA LÚ wa-aš-ši-ia-an-zi A-NA MUNUS-TI-ma",
+      "english": "I have given him an adorned man as his substitute"
+    }
+  ],
+  "pulisa/address-woman": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 22",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "A-NA MUNUŠ-TI-ma-kán an-da ŠA DINGIR MUNUS-TI me-ma-i -ma QA-TAM-MA-pát",
+      "english": "But to the woman he speaks (the words) about a female deity"
+    }
+  ],
+  "pulisa/bring-bull-ewe": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 23–24",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "EGIR-an-ta-ma 1 GU₄.MAḪ 1 UDU.ÁŠ.MUNUS.GÀR-ia u-un-na-an-zi nu ŠA KUR LÚKÚR-pát",
+      "english": "they drive up one bull and one [ewe] of the enemy land itself"
+    }
+  ],
+  "pulisa/ring-bull": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 24–25",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "na-an GEŠTUḪI.A-ŠU a-šu-ša-an-ta-an x-zi",
+      "english": "fitted with ašuša-(rings?) at his ears"
+    }
+  ],
+  "pulisa/draw-wool": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 25–26",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "SÍG SA₅ SÍG SIG₇.SIG₇ SÍG GE₆ SÍG BABBAR A-NA LUGAL",
+      "english": "Red wool, green wool, black wool (and) [white wool] he draws out of the king's mouth"
+    }
+  ],
+  "pulisa/address-bull": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 34–39",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "nu kiš-an me-ma-i ku-iš-wa DINGIR-LUM ku-u-ru-ra-aš ki-i ÚŠ-an DÙ-at",
+      "english": "I have given you an [adorned], ašuša-(ringed), approved(?) [bull]"
+    }
+  ],
+  "pulisa/address-ewe": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 40–41",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "EGIR-an-da-ma UDU.ÁŠ.MUNUS.GÀR ú-nu-wa-an-ta-an",
+      "english": "Afterwards (they bring) the adorned ewe, and he speaks (the words) about a female deity"
+    }
+  ],
+  "pulisa/send-animals-ahead": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 obv. I 42–43",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 5
+      },
+      "original": "nam-ma GU₄.MAḪ a-šu-ša-an-ta-an UDU.ÁŠ.MUNUS.GÀR-ia A-NA LÚŠU.DAB",
+      "english": "they drive the ašuša-(ringed) bull [and the ewe] ahead of [the prisoner] and the woman"
+    }
   ]
 }

@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, useLocation, useParams, useSearchParams } from "react-router-dom";
 import quoteIndex from "../data/rituals/quotes.json";
-import { ACTION_TYPES, relatedRitualUnits, ritualSequenceHref, ritualStepHref, sourceHref, useRitualEdition, type RitualEdition, type RitualQuote, type RitualUnit } from "../lib/ritualEdition";
+import { RITUAL_UNITS, relatedRitualUnits, ritualSequenceHref, ritualStepHref, ritualUnitHref, ritualUnitImage, sourceHref, useRitualEdition, type RitualEdition, type RitualQuote, type RitualUnit } from "../lib/ritualEdition";
 
 function ImagePlate({ step }: { step: RitualUnit }) {
-  return <div className="ritual-plate"><div className="ritual-plate-ring" aria-hidden="true" /><img src={step.image.src} alt={step.image.alt} decoding="async" /></div>;
+  return <div className="ritual-plate"><div className="ritual-plate-ring" aria-hidden="true" /><img src={ritualUnitImage(step)} alt={step.image.alt} decoding="async" /></div>;
 }
 
 function indexFromQuery(raw: string | null, count: number) {
@@ -108,6 +108,7 @@ function Sequence({ edition }: { edition: RitualEdition }) {
   const select = (next: number) => { setPlaying(false); go(next); };
   const play = () => { if (playing) { setPlaying(false); return; } if (index === edition.steps.length - 1) go(0); setPlaying(true); };
   const quotes = ritualQuotes(edition, step);
+  const parallels = new Set(relatedRitualUnits(step.unitId).filter((item) => item.ritualId !== edition.id).map((item) => item.ritualId)).size;
   return <div className="wrap page ritual-page ritual-sequence-page">
     <div className="crumbs"><Link to="/rituals">Rituals</Link><span className="sep">/</span><span>{edition.shortName}</span></div>
     <header className="ritual-sequence-head"><div><p className="ritual-eyebrow">{edition.eyebrow}</p><div className="ritual-title-line"><h1>{edition.title}</h1><a className="ritual-date" href={edition.dating.sourceUrl} target="_blank" rel="noreferrer" title={edition.dating.note} aria-label={`${edition.dating.label}. ${edition.dating.note}`}>{edition.dating.label}</a></div></div><p>{edition.purpose}</p></header>
@@ -115,13 +116,13 @@ function Sequence({ edition }: { edition: RitualEdition }) {
       <div className="ritual-stage-image" key={step.id}><ImagePlate step={step} /></div>
       <div className="ritual-stage-copy" aria-live={playing ? "off" : "polite"}>
         <div className="ritual-stage-top"><SourceLetters quotes={quotes} /><div className="ritual-stage-top-actions"><span className="ritual-count">{String(step.number).padStart(2, "0")} <i>/</i> {edition.steps.length}</span><Link to={ritualStepHref(edition, step)} className="ritual-stage-details">More details <span aria-hidden="true">↗</span></Link></div></div>
-        <div className="ritual-stage-main"><h2>{step.title}</h2><p className="ritual-stage-summary">{step.summary}</p></div>
+        <div className="ritual-stage-main"><h2>{step.title}</h2><p className="ritual-stage-summary">{step.summary}</p>{parallels > 0 && <Link className="ritual-stage-parallel" to={`${ritualUnitHref(step.unitId)}#occurrences`}>Also in {parallels} other ritual{parallels === 1 ? "" : "s"} <span aria-hidden="true">↗</span></Link>}</div>
         <div className="ritual-controls" role="group" aria-label="Sequence controls"><button onClick={() => select(index - 1)} disabled={index === 0} aria-label="Previous step">←</button><button onClick={play} className="ritual-play" aria-label={playing ? "Pause sequence" : "Play sequence"}>{playing ? "Pause" : "Play"} <span aria-hidden="true">{playing ? "Ⅱ" : "▶"}</span></button><button onClick={() => select(index + 1)} disabled={index === edition.steps.length - 1} aria-label="Next step">→</button></div>
       </div>
     </section>
     <div className="ritual-rail-head"><h2>The sequence</h2><span>Click any act · arrow keys to move</span></div>
     <div className="ritual-rail" ref={rail} aria-label={`${edition.shortName} ritual sequence`}>{edition.steps.map((item, i) => <div className="ritual-rail-item" key={item.id}>
-      <button data-step={item.number} className={`ritual-mini ${i === index ? "active" : ""}`} aria-current={i === index ? "step" : undefined} onClick={() => select(i)} aria-label={`Step ${item.number}: ${item.title}`}><span className="ritual-mini-image"><img src={item.image.src} alt="" loading="lazy" /></span><span className="ritual-mini-index">{String(item.number).padStart(2, "0")}</span><span className="ritual-mini-name">{item.shortTitle}</span><span className="ritual-mini-kind">{item.verb}</span></button>
+      <button data-step={item.number} className={`ritual-mini ${i === index ? "active" : ""}`} aria-current={i === index ? "step" : undefined} onClick={() => select(i)} aria-label={`Step ${item.number}: ${item.title}`}><span className="ritual-mini-image"><img src={ritualUnitImage(item)} alt="" loading="lazy" /></span><span className="ritual-mini-index">{String(item.number).padStart(2, "0")}</span><span className="ritual-mini-name">{item.shortTitle}</span><span className="ritual-mini-kind">{item.verb}</span></button>
       {i < edition.steps.length - 1 && <span className="ritual-chain-arrow" aria-hidden="true">→</span>}
     </div>)}</div>
     <div className="ritual-phase-key">{edition.phases.map((phase) => <button key={phase.name} onClick={() => select(phase.range[0] - 1)}><b>{phase.name}</b><span>{phase.range[0] === phase.range[1] ? phase.range[0] : `${phase.range[0]}–${phase.range[1]}`}</span><small>{phase.idea}</small></button>)}</div>
@@ -138,8 +139,9 @@ export function RitualStepPage() {
   if (index < 0) return <div className="wrap page"><h1>Step not found</h1><Link className="link" to="/rituals">Browse rituals</Link></div>;
   const step = edition.steps[index];
   const quotes = ritualQuotes(edition, step);
-  const action = ACTION_TYPES[step.actionType];
-  const related = relatedRitualUnits(step.actionType);
+  const unit = RITUAL_UNITS[step.unitId];
+  const related = relatedRitualUnits(step.unitId);
+  const otherRituals = new Set(related.filter((item) => item.ritualId !== edition.id).map((item) => item.ritualId)).size;
   const before = edition.steps[index - 1];
   const after = edition.steps[index + 1];
   return <div className="wrap page ritual-page">
@@ -148,10 +150,10 @@ export function RitualStepPage() {
     <div className="ritual-detail-layout"><div className="ritual-detail-art"><ImagePlate step={step} /></div><div className="ritual-detail-sidebar">
       <section><p className="ritual-eyebrow">The {step.unitType === "utterance" ? "utterance" : "action"}</p><dl className="ritual-fields"><dt>Verb</dt><dd>{step.verb}</dd><dt>Object</dt><dd>{step.patient}</dd><dt>Actor</dt><dd>{step.actor}</dd>{step.recipient && <><dt>Recipient</dt><dd>{step.recipient}</dd></>}{step.place && <><dt>Place</dt><dd>{step.place}</dd></>}{step.material.length > 0 && <><dt>Materials</dt><dd>{step.material.join(" · ")}</dd></>}</dl></section>
       <StepQuotations key={step.id} quotes={quotes} />
+      <section className="ritual-unit-pointer"><p className="ritual-eyebrow">Ritual task</p><h2>{unit.title}</h2><p>{otherRituals ? `Also appears in ${otherRituals} other ritual${otherRituals === 1 ? "" : "s"}.` : "One recorded ritual in this collection."}</p><Link to={`${ritualUnitHref(step.unitId)}#occurrences`}>See all occurrences ↗</Link></section>
       <section><p className="ritual-eyebrow">Manuscript lines</p><p className="ritual-detail-note">{step.evidence}</p><div className="ritual-attestations">{step.attestations.map((a) => <Link key={`${a.doc}-${a.anchor.index}`} to={sourceHref(a)}><b>{a.witness}</b><span>{a.locus}</span><span aria-hidden="true">↗</span></Link>)}</div><div className="ritual-source-actions"><a href={edition.editionUrl} target="_blank" rel="noreferrer">Mainz edition ↗</a></div></section>
       <section><p className="ritual-eyebrow">Image details</p><p className="ritual-detail-note">{step.image.note}</p></section>
     </div></div>
-    <section className="ritual-pattern"><div><p className="ritual-eyebrow">Action type</p><h2>{action.title}</h2><p>{action.definition}</p></div><div className="ritual-pattern-occurrences"><p className="ritual-tiny-label">Annotated occurrences</p>{related.map((item) => <Link key={`${item.ritualId}-${item.stepId}`} to={`/rituals/${item.ritualId}/step/${item.stepId}`} className={item.ritualId === edition.id && item.stepId === step.id ? "selected" : ""}><span>{item.ritualName} · CTH {item.cth}</span><b>{String(item.stepNumber).padStart(2, "0")} {item.stepTitle}</b></Link>)}</div></section>
     <nav className="ritual-neighbors" aria-label="Adjacent ritual steps"><span>{before && <Link to={ritualStepHref(edition, before)}><small>← Previous · {String(before.number).padStart(2, "0")}</small><b>{before.title}</b></Link>}</span><Link className="ritual-back" to={ritualSequenceHref(edition, step)}>View in sequence</Link><span>{after && <Link to={ritualStepHref(edition, after)}><small>Next · {String(after.number).padStart(2, "0")} →</small><b>{after.title}</b></Link>}</span></nav>
   </div>;
 }

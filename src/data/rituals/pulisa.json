@@ -1,0 +1,456 @@
+{
+  "id": "pulisa",
+  "cth": 407,
+  "title": "Puliša’s ritual",
+  "shortName": "Puliša",
+  "eyebrow": "CTH 407 · plague after campaign",
+  "dating": {
+    "label": "attested 14th–13th c. BCE",
+    "note": "The surviving copies are in New Hittite script. This is an approximate manuscript date, not a year assigned to the ritual’s composition.",
+    "sourceUrl": "https://smaw.de.dariah.eu/txhet_besrit/intro.php?ed=B.-J.+Collins&lg=EN&prgr=&xst=CTH+407"
+  },
+  "purpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+  "attribution": "Attributed to Puliša",
+  "sourceSummary": "KBo 15.1 obv. I 1–43 · KBo 21.9 (short parallel)",
+  "editionUrl": "https://smaw.de.dariah.eu/txhet_besrit/intro.php?ed=B.-J.+Collins&lg=EN&prgr=&xst=CTH+407",
+  "phases": [
+    {
+      "name": "Human substitutes",
+      "range": [
+        1,
+        6
+      ],
+      "idea": "A man and woman receive garments and spoken appeals."
+    },
+    {
+      "name": "Animal substitutes",
+      "range": [
+        7,
+        11
+      ],
+      "idea": "Bull and ewe are brought forward; wool and words transfer the plague."
+    },
+    {
+      "name": "Dispatch",
+      "range": [
+        12,
+        12
+      ],
+      "idea": "The animals move ahead of the human substitutes."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "select-substitutes",
+      "number": 1,
+      "title": "Select a prisoner and a woman",
+      "shortTitle": "Choose substitutes",
+      "shortDescription": "A prisoner of war and a woman from the enemy land are chosen as substitutes.",
+      "phase": "Human substitutes",
+      "unitType": "act",
+      "actionType": "select-human",
+      "verb": "Select",
+      "summary": "A prisoner of war and a woman from the enemy land are chosen as substitutes.",
+      "patient": "One prisoner of war and one woman",
+      "actor": "King’s attendants",
+      "material": [],
+      "place": "Road from enemy territory",
+      "evidence": "The action is described in obv. I 6–7.",
+      "image": {
+        "alt": "The two people are shown neutrally; their physical appearance and clothing are not described.",
+        "note": "The two people are shown neutrally; their physical appearance and clothing are not described."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 6–7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "pulisa-select-substitutes"
+    },
+    {
+      "id": "remove-king-garments",
+      "number": 2,
+      "title": "Remove the king’s festive clothes",
+      "shortTitle": "Remove royal clothes",
+      "shortDescription": "The king takes off his festive garments.",
+      "phase": "Human substitutes",
+      "unitType": "act",
+      "actionType": "remove-garments",
+      "verb": "Remove",
+      "summary": "The king takes off his festive garments.",
+      "patient": "The king’s festive garments",
+      "actor": "The king",
+      "material": [
+        "Festive garments"
+      ],
+      "evidence": "The action is described in obv. I 9–10.",
+      "image": {
+        "alt": "The garment cut, weave and colours are illustrative; the text specifies festive clothes without describing them.",
+        "note": "The garment cut, weave and colours are illustrative; the text specifies festive clothes without describing them."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 9–10",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "pulisa-remove-king-garments"
+    },
+    {
+      "id": "dress-man",
+      "number": 3,
+      "title": "Clothe the man in the king’s garments",
+      "shortTitle": "Dress the man",
+      "shortDescription": "The prisoner receives the king’s festive garments.",
+      "phase": "Human substitutes",
+      "unitType": "act",
+      "actionType": "dress-substitute",
+      "verb": "Dress",
+      "summary": "The prisoner receives the king’s festive garments.",
+      "patient": "The male substitute",
+      "actor": "King’s attendants",
+      "material": [
+        "King’s festive garments"
+      ],
+      "evidence": "The action is described in obv. I 10–11.",
+      "image": {
+        "alt": "The loose garments stand for the clothes transferred to the substitute; their cut is illustrative.",
+        "note": "The loose garments stand for the clothes transferred to the substitute; their cut is illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 10–11",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "pulisa-dress-man"
+    },
+    {
+      "id": "dress-woman",
+      "number": 4,
+      "title": "Clothe the woman in festive garments",
+      "shortTitle": "Dress the woman",
+      "shortDescription": "The woman is dressed in festive garments.",
+      "phase": "Human substitutes",
+      "unitType": "act",
+      "actionType": "dress-substitute",
+      "verb": "Dress",
+      "summary": "The woman is dressed in festive garments.",
+      "patient": "The female substitute",
+      "actor": "King’s attendants",
+      "material": [
+        "Woman’s festive garments"
+      ],
+      "evidence": "The action is described in obv. I 10–11.",
+      "image": {
+        "alt": "The garment is shown as a plain dress; its cut and fabric are illustrative.",
+        "note": "The garment is shown as a plain dress; its cut and fabric are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 10–11",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "pulisa-dress-woman"
+    },
+    {
+      "id": "address-man",
+      "number": 5,
+      "title": "Address the male deity",
+      "shortTitle": "Address male deity",
+      "shortDescription": "The speaker offers the adorned man as a substitute and asks that he carry the plague away.",
+      "phase": "Human substitutes",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The speaker offers the adorned man as a substitute and asks that he carry the plague away.",
+      "patient": "The male substitute",
+      "actor": "The king, or his delegate",
+      "material": [],
+      "recipient": "A male deity of the enemy land",
+      "evidence": "The action is described in obv. I 11–21.",
+      "image": {
+        "alt": "The pair represents the chosen substitutes; the utterance itself has no recoverable visual form.",
+        "note": "The pair represents the chosen substitutes; the utterance itself has no recoverable visual form."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 11–21",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "pulisa-address-man"
+    },
+    {
+      "id": "address-woman",
+      "number": 6,
+      "title": "Address the female deity",
+      "shortTitle": "Address female deity",
+      "shortDescription": "The corresponding words are spoken to the woman concerning a female deity.",
+      "phase": "Human substitutes",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The corresponding words are spoken to the woman concerning a female deity.",
+      "patient": "The female substitute",
+      "actor": "The king, or his delegate",
+      "material": [],
+      "recipient": "A female deity of the enemy land",
+      "evidence": "The action is described in obv. I 22.",
+      "image": {
+        "alt": "The plain dress refers to the female substitute; the preserved text says the words were repeated for a female deity.",
+        "note": "The plain dress refers to the female substitute; the preserved text says the words were repeated for a female deity."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 22",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "pulisa-address-woman"
+    },
+    {
+      "id": "bring-bull-ewe",
+      "number": 7,
+      "title": "Bring a bull and ewe",
+      "shortTitle": "Bring bull and ewe",
+      "shortDescription": "A bull and ewe from the enemy land are brought forward.",
+      "phase": "Animal substitutes",
+      "unitType": "act",
+      "actionType": "bring-animal",
+      "verb": "Bring",
+      "summary": "A bull and ewe from the enemy land are brought forward.",
+      "patient": "A bull and an ewe",
+      "actor": "King’s attendants",
+      "material": [],
+      "evidence": "The action is described in obv. I 23–24.",
+      "image": {
+        "alt": "The animals are shown together as named; breed, colour and the bull’s ear ring are illustrative.",
+        "note": "The animals are shown together as named; breed, colour and the bull’s ear ring are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 23–24",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "pulisa-bring-bull-ewe"
+    },
+    {
+      "id": "ring-bull",
+      "number": 8,
+      "title": "Fit rings at the bull’s ears",
+      "shortTitle": "Ring the bull",
+      "shortDescription": "The bull is fitted with ašuša-objects at its ears; their identification as rings is uncertain.",
+      "phase": "Animal substitutes",
+      "unitType": "act",
+      "actionType": "adorn-animal",
+      "verb": "Adorn",
+      "summary": "The bull is fitted with ašuša-objects at its ears; their identification as rings is uncertain.",
+      "patient": "The bull",
+      "actor": "Unspecified ritual participant",
+      "material": [
+        "ašuša-rings"
+      ],
+      "evidence": "The action is described in obv. I 24–25.",
+      "image": {
+        "alt": "The small ear ring is a visual interpretation of the uncertain ašuša-term; its material and exact form are unknown.",
+        "note": "The small ear ring is a visual interpretation of the uncertain ašuša-term; its material and exact form are unknown."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 24–25",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "pulisa-ring-bull"
+    },
+    {
+      "id": "draw-wool",
+      "number": 9,
+      "title": "Draw coloured wool from the king’s mouth",
+      "shortTitle": "Draw coloured wool",
+      "shortDescription": "Red, green, black and partly restored white wool are drawn out of the king’s mouth.",
+      "phase": "Animal substitutes",
+      "unitType": "act",
+      "actionType": "draw-wool-from-mouth",
+      "verb": "Draw",
+      "summary": "Red, green, black and partly restored white wool are drawn out of the king’s mouth.",
+      "patient": "Coloured wool",
+      "actor": "Unspecified ritual participant",
+      "material": [
+        "Red wool",
+        "Green wool",
+        "Black wool",
+        "White wool"
+      ],
+      "evidence": "The action is described in obv. I 25–26.",
+      "image": {
+        "alt": "The close-up keeps the four named colours legible; the hand and fibre thickness are illustrative.",
+        "note": "The close-up keeps the four named colours legible; the hand and fibre thickness are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 25–26",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "pulisa-draw-wool"
+    },
+    {
+      "id": "address-bull",
+      "number": 10,
+      "title": "Offer the bull to the male deity",
+      "shortTitle": "Offer the bull",
+      "shortDescription": "The speaker offers the bull as a substitute and asks it to carry the plague away.",
+      "phase": "Animal substitutes",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The speaker offers the bull as a substitute and asks it to carry the plague away.",
+      "patient": "The ringed bull",
+      "actor": "The king, or his delegate",
+      "material": [
+        "Bull",
+        "ašuša-rings"
+      ],
+      "recipient": "A male deity of the enemy land",
+      "evidence": "The action is described in obv. I 34–39.",
+      "image": {
+        "alt": "The image shows a ringed bull; the adjective “approved” and exact ašuša-object are uncertain in the text.",
+        "note": "The image shows a ringed bull; the adjective “approved” and exact ašuša-object are uncertain in the text."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 34–39",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "pulisa-address-bull"
+    },
+    {
+      "id": "address-ewe",
+      "number": 11,
+      "title": "Offer the ewe to the female deity",
+      "shortTitle": "Offer the ewe",
+      "shortDescription": "The ewe is brought forward and the corresponding words address a female deity.",
+      "phase": "Animal substitutes",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The ewe is brought forward and the corresponding words address a female deity.",
+      "patient": "The ewe",
+      "actor": "The king, or his delegate",
+      "material": [
+        "Ewe"
+      ],
+      "recipient": "A female deity of the enemy land",
+      "evidence": "The action is described in obv. I 40–41.",
+      "image": {
+        "alt": "The sheep is a reused animal cutout; adornment described here is not reconstructed in this image.",
+        "note": "The sheep is a reused animal cutout; adornment described here is not reconstructed in this image."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 40–41",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "pulisa-address-ewe"
+    },
+    {
+      "id": "send-animals-ahead",
+      "number": 12,
+      "title": "Drive the bull and ewe ahead",
+      "shortTitle": "Drive animals ahead",
+      "shortDescription": "The bull and ewe are driven in front of the two human substitutes.",
+      "phase": "Dispatch",
+      "unitType": "act",
+      "actionType": "move-animal",
+      "verb": "Drive",
+      "summary": "The bull and ewe are driven in front of the two human substitutes.",
+      "patient": "The bull and ewe",
+      "actor": "Unspecified ritual participants",
+      "material": [
+        "Bull",
+        "Ewe"
+      ],
+      "place": "Road away from enemy territory",
+      "evidence": "The action is described in obv. I 42–43.",
+      "image": {
+        "alt": "The image shows the named animals but does not attempt to reconstruct the precise road or procession.",
+        "note": "The image shows the named animals but does not attempt to reconstruct the precise road or procession."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 obv. I 42–43",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 5
+          }
+        }
+      ],
+      "unitId": "pulisa-send-animals-ahead"
+    }
+  ]
+}

@@ -183,5 +183,25 @@
     "title": "Pass between fires",
     "definition": "Move through the space between two ritual fires.",
     "externalParallels": []
+  },
+  "select-human": {
+    "title": "Select human substitutes",
+    "definition": "Choose people who will stand in for others during a substitution ritual.",
+    "externalParallels": []
+  },
+  "remove-garments": {
+    "title": "Remove garments",
+    "definition": "Take off named garments before transferring them to another person.",
+    "externalParallels": []
+  },
+  "dress-substitute": {
+    "title": "Dress a substitute",
+    "definition": "Clothe a human substitute in prescribed garments.",
+    "externalParallels": []
+  },
+  "draw-wool-from-mouth": {
+    "title": "Draw wool from a mouth",
+    "definition": "Pull named wool strands from a person's mouth during a ritual transfer.",
+    "externalParallels": []
   }
 }

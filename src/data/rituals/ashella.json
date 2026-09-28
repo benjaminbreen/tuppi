@@ -127,7 +127,6 @@
       "material": [],
       "evidence": "Both copies say the colour of the animal does not matter.",
       "image": {
-        "src": "/rituals/uhhamuwa/01-ram.png",
         "alt": "The ram is shown singly; coat and horn form are illustrative.",
         "note": "The ram is shown singly; coat and horn form are illustrative."
       },
@@ -150,7 +149,8 @@
             "index": 23
           }
         }
-      ]
+      ],
+      "unitId": "ashella-prepare-ram"
     },
     {
       "id": "twist-wool",
@@ -172,7 +172,6 @@
       ],
       "evidence": "The translated green term can also be read as yellow-green.",
       "image": {
-        "src": "/rituals/ashella/wool-cord.png",
         "alt": "A white, red and yellow-green wool cord; exact dye shades and twist are illustrative.",
         "note": "A white, red and yellow-green wool cord; exact dye shades and twist are illustrative."
       },
@@ -195,7 +194,8 @@
             "index": 23
           }
         }
-      ]
+      ],
+      "unitId": "ashella-twist-wool"
     },
     {
       "id": "bind-ram",
@@ -217,7 +217,6 @@
       ],
       "evidence": "A mentions iron and lead; B clearly preserves a lead ring. The bead in A is restored.",
       "image": {
-        "src": "/rituals/ashella/adorned-ram.png",
         "alt": "One ram with coloured cord and metal rings; number and placement of ornaments are reconstructed.",
         "note": "One ram with coloured cord and metal rings; number and placement of ornaments are reconstructed."
       },
@@ -240,7 +239,8 @@
             "index": 23
           }
         }
-      ]
+      ],
+      "unitId": "ashella-bind-ram"
     },
     {
       "id": "tether-ram",
@@ -260,7 +260,6 @@
       ],
       "evidence": "The overnight placement is explicit in both copies.",
       "image": {
-        "src": "/rituals/ashella/tether.png",
         "alt": "A wooden stake and fibre rope stand for the tethering; the exact fixture is not specified.",
         "note": "A wooden stake and fibre rope stand for the tethering; the exact fixture is not specified."
       },
@@ -284,7 +283,8 @@
           }
         }
       ],
-      "place": "Before the tents"
+      "place": "Before the tents",
+      "unitId": "ashella-tether-ram"
     },
     {
       "id": "appeal",
@@ -302,7 +302,6 @@
       "material": [],
       "evidence": "The words address whichever god caused the plague; no named deity is given.",
       "image": {
-        "src": "/rituals/ashella/adorned-ram.png",
         "alt": "The adorned ram is the object named in the address; the speaker’s appearance is unknown.",
         "note": "The adorned ram is the object named in the address; the speaker’s appearance is unknown."
       },
@@ -326,7 +325,8 @@
           }
         }
       ],
-      "recipient": "Unidentified god"
+      "recipient": "Unidentified god",
+      "unitId": "ashella-appeal"
     },
     {
       "id": "release-rams",
@@ -344,7 +344,6 @@
       "material": [],
       "evidence": "The decorated woman, bread and beer also pass through the camp in the text; this unit isolates the rams’ release.",
       "image": {
-        "src": "/rituals/ashella/adorned-ram.png",
         "alt": "A single adorned ram represents the rams released; the route and landscape are not invented.",
         "note": "A single adorned ram represents the rams released; the route and landscape are not invented."
       },
@@ -368,7 +367,8 @@
           }
         }
       ],
-      "place": "Enemy borderland"
+      "place": "Enemy borderland",
+      "unitId": "ashella-release-rams"
     },
     {
       "id": "slaughter-ram",
@@ -388,7 +388,6 @@
       ],
       "evidence": "A names six rams and six billy goats in the slaughter batch. B is broken across this part of the second-day procedure.",
       "image": {
-        "src": "/rituals/uhhamuwa/13-kill.png",
         "alt": "A ram and bronze blade represent one animal in the six-ram group; the exact cutting method is illustrative.",
         "note": "A ram and bronze blade represent one animal in the six-ram group; the exact cutting method is illustrative."
       },
@@ -403,7 +402,8 @@
           }
         }
       ],
-      "place": "Open country"
+      "place": "Open country",
+      "unitId": "slaughter-sheep"
     },
     {
       "id": "cook-meat",
@@ -424,7 +424,6 @@
       ],
       "evidence": "The copies specify cooking but not the vessel or technique.",
       "image": {
-        "src": "/rituals/uhhamuwa/14-cook.png",
         "alt": "A clay cooking vessel and fire illustrate cooking; the vessel and recipe are not prescribed in this passage.",
         "note": "A clay cooking vessel and fire illustrate cooking; the vessel and recipe are not prescribed in this passage."
       },
@@ -447,7 +446,8 @@
             "index": 25
           }
         }
-      ]
+      ],
+      "unitId": "cook-sheep-meat"
     },
     {
       "id": "wash-salt-water",
@@ -468,7 +468,6 @@
       ],
       "evidence": "Preserved explicitly in B. A has no corresponding clear hand-washing passage.",
       "image": {
-        "src": "/rituals/ashella/wash.png",
         "alt": "Hands in a clay bowl of salted water; the bowl is illustrative.",
         "note": "Hands in a clay bowl of salted water; the bowl is illustrative."
       },
@@ -482,7 +481,8 @@
             "index": 26
           }
         }
-      ]
+      ],
+      "unitId": "ashella-wash-salt-water"
     },
     {
       "id": "pass-between-fires",
@@ -502,7 +502,6 @@
       ],
       "evidence": "B preserves the full instruction. A has broken traces of a fire passage.",
       "image": {
-        "src": "/rituals/ashella/two-fires.png",
         "alt": "Two separate wood fires mark the passage; their scale and fuel are illustrative.",
         "note": "Two separate wood fires mark the passage; their scale and fuel are illustrative."
       },
@@ -516,7 +515,8 @@
             "index": 26
           }
         }
-      ]
+      ],
+      "unitId": "ashella-pass-between-fires"
     },
     {
       "id": "offer-goats",
@@ -536,7 +536,6 @@
       ],
       "evidence": "The divine epithet and equipment term are difficult to interpret.",
       "image": {
-        "src": "/rituals/uhhamuwa/11-goat.png",
         "alt": "One goat stands for the pair; its coat and horns are illustrative.",
         "note": "One goat stands for the pair; its coat and horns are illustrative."
       },
@@ -560,7 +559,8 @@
           }
         }
       ],
-      "recipient": "Tutelary Deity of the equipment(?)"
+      "recipient": "Tutelary Deity of the equipment(?)",
+      "unitId": "offer-goat"
     },
     {
       "id": "bring-pig",
@@ -578,7 +578,6 @@
       "material": [],
       "evidence": "The pig is part of a three-animal group in both copies.",
       "image": {
-        "src": "/rituals/ashella/pig.png",
         "alt": "A domestic pig cutout; breed and coloration are illustrative.",
         "note": "A domestic pig cutout; breed and coloration are illustrative."
       },
@@ -602,7 +601,8 @@
           }
         }
       ],
-      "place": "Open country"
+      "place": "Open country",
+      "unitId": "ashella-bring-pig"
     },
     {
       "id": "offer-pig",
@@ -622,7 +622,6 @@
       ],
       "evidence": "The source groups the three animals in one offering; this unit singles out the pig for comparison.",
       "image": {
-        "src": "/rituals/ashella/pig.png",
         "alt": "The same pig image marks its offering; the text does not describe the manner of killing here.",
         "note": "The same pig image marks its offering; the text does not describe the manner of killing here."
       },
@@ -646,7 +645,8 @@
           }
         }
       ],
-      "recipient": "Unidentified plague god"
+      "recipient": "Unidentified plague god",
+      "unitId": "ashella-offer-pig"
     },
     {
       "id": "offer-bull",
@@ -666,7 +666,6 @@
       ],
       "evidence": "The fourth-day recipient is explicit in both copies.",
       "image": {
-        "src": "/rituals/ashella/bull.png",
         "alt": "One bull, full-body cutout; coat and horns are illustrative.",
         "note": "One bull, full-body cutout; coat and horns are illustrative."
       },
@@ -690,7 +689,8 @@
           }
         }
       ],
-      "recipient": "Storm-god"
+      "recipient": "Storm-god",
+      "unitId": "ashella-offer-bull"
     },
     {
       "id": "offer-ewe",
@@ -710,7 +710,6 @@
       ],
       "evidence": "The ewe is specified as one that has not been covered by a ram.",
       "image": {
-        "src": "/rituals/uhhamuwa/12-sheep.png",
         "alt": "A single sheep represents the ewe; breed and age are illustrative.",
         "note": "A single sheep represents the ewe; breed and age are illustrative."
       },
@@ -734,7 +733,8 @@
           }
         }
       ],
-      "recipient": "Sun-god"
+      "recipient": "Sun-god",
+      "unitId": "offer-sheep-to-sun-god"
     },
     {
       "id": "offer-rams",
@@ -754,7 +754,6 @@
       ],
       "evidence": "A says three sheep in the final offering; the illustration shows one animal to keep the unit legible.",
       "image": {
-        "src": "/rituals/uhhamuwa/01-ram.png",
         "alt": "One sheep represents the group of three; sex is not fixed in both copies.",
         "note": "One sheep represents the group of three; sex is not fixed in both copies."
       },
@@ -778,7 +777,8 @@
           }
         }
       ],
-      "recipient": "All the gods"
+      "recipient": "All the gods",
+      "unitId": "ashella-offer-rams"
     }
   ]
 }

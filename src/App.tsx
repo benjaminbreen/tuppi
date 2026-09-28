@@ -17,6 +17,8 @@ type Theme = "system" | "light" | "dark";
 
 const RitualSequence = lazy(() => import("./pages/RitualReader").then((page) => ({ default: page.RitualSequence })));
 const RitualStepPage = lazy(() => import("./pages/RitualReader").then((page) => ({ default: page.RitualStepPage })));
+const RitualUnitPage = lazy(() => import("./pages/RitualUnit"));
+const RitualUnitsIndex = lazy(() => import("./pages/RitualUnitsIndex"));
 
 function ThemeButton() {
   const [theme, setTheme] = useState<Theme>(() => {
@@ -108,6 +110,8 @@ export default function App() {
           <Route path="/rituals" element={<RitualsIndex />} />
           <Route path="/rituals/:ritualId" element={<RitualSequence />} />
           <Route path="/rituals/:ritualId/step/:stepId" element={<RitualStepPage />} />
+          <Route path="/ritual-units/:unitId" element={<RitualUnitPage />} />
+          <Route path="/ritual-units" element={<RitualUnitsIndex />} />
           <Route path="/word/:lemma" element={<WordPage />} />
           <Route path="/browser" element={<Browser />} />
           <Route path="/map" element={<MapPage />} />

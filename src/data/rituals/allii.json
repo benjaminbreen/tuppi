@@ -136,7 +136,6 @@
       ],
       "evidence": "D counts five clay figures and names clay tongues. A preserves the same opening with damage.",
       "image": {
-        "src": "/rituals/allii/01-figures.png",
         "alt": "Five clay figures follow D’s count; their faces and arrangement are reconstructed.",
         "note": "Five clay figures follow D’s count; their faces and arrangement are reconstructed."
       },
@@ -177,7 +176,8 @@
             "index": 1
           }
         }
-      ]
+      ],
+      "unitId": "allii-arrange-figures"
     },
     {
       "id": "seat-patient",
@@ -195,7 +195,6 @@
       "material": [],
       "evidence": "The seated posture and direction are explicit in A and D; F preserves parts of the same passage.",
       "image": {
-        "src": "/rituals/allii/02-patient.png",
         "alt": "A seated patient faces the Sun-god; clothing and hairstyle are reconstructed.",
         "note": "A seated patient faces the Sun-god; clothing and hairstyle are reconstructed."
       },
@@ -236,7 +235,8 @@
             "index": 7
           }
         }
-      ]
+      ],
+      "unitId": "allii-seat-patient"
     },
     {
       "id": "raise-vessel",
@@ -257,7 +257,6 @@
       ],
       "evidence": "A and D place the raised naktamu vessel and figures before the address to the Sun-god.",
       "image": {
-        "src": "/rituals/allii/03-lift-vessel.png",
         "alt": "The vessel has no securely identified form; the plain clay shape is reconstructed.",
         "note": "The vessel has no securely identified form; the plain clay shape is reconstructed."
       },
@@ -289,7 +288,8 @@
             "index": 8
           }
         }
-      ]
+      ],
+      "unitId": "allii-raise-vessel"
     },
     {
       "id": "return-address",
@@ -309,7 +309,6 @@
       ],
       "evidence": "A and D ask the Sun-god to send the bewitchment back to its maker.",
       "image": {
-        "src": "/rituals/allii/04-return-address.png",
         "alt": "The figure and clay tongues refer to objects named in the address; the binding cord is reconstructed.",
         "note": "The figure and clay tongues refer to objects named in the address; the binding cord is reconstructed."
       },
@@ -350,7 +349,8 @@
             "index": 11
           }
         }
-      ]
+      ],
+      "unitId": "allii-return-address"
     },
     {
       "id": "wind-wool",
@@ -370,7 +370,6 @@
       ],
       "evidence": "A repeats the winding with black, red, green, brown and white wool. C, H, I and L preserve parts of this colour sequence.",
       "image": {
-        "src": "/rituals/allii/05-wool-figures.png",
         "alt": "Red thread wound around one clay figure, following the red-wool passage of A, obv. I 37–40.",
         "note": "Red thread wound around one clay figure, following the red-wool passage of A, obv. I 37–40."
       },
@@ -420,7 +419,8 @@
             "index": 0
           }
         }
-      ]
+      ],
+      "unitId": "allii-wind-wool"
     },
     {
       "id": "set-basket",
@@ -442,7 +442,6 @@
       ],
       "evidence": "A and C name a basket beneath the bed with grain, bread, bow and arrows. H places a bird-shaped bowl with wax figures at the bed.",
       "image": {
-        "src": "/rituals/allii/06-bed-basket.png",
         "alt": "The basket and bed follow A/C; the bowl of H is shown in its own manuscript link.",
         "note": "The basket and bed follow A/C; the bowl of H is shown in its own manuscript link."
       },
@@ -493,7 +492,8 @@
             "index": 0
           }
         }
-      ]
+      ],
+      "unitId": "allii-set-basket"
     },
     {
       "id": "sleep-over",
@@ -513,7 +513,6 @@
       ],
       "evidence": "A, C and H have the patient sleep after the deposit is placed.",
       "image": {
-        "src": "/rituals/allii/07-sleep.png",
         "alt": "An anonymous sleeper and a basket beneath the bed, following A/C. The bed and bedding are reconstructed.",
         "note": "An anonymous sleeper and a basket beneath the bed, following A/C. The bed and bedding are reconstructed."
       },
@@ -554,7 +553,8 @@
             "index": 2
           }
         }
-      ]
+      ],
+      "unitId": "allii-sleep-over"
     },
     {
       "id": "lift-at-dawn",
@@ -574,7 +574,6 @@
       ],
       "evidence": "A, B and C lift the basket at daybreak and move it over the patient. H removes its bird-shaped bowl.",
       "image": {
-        "src": "/rituals/allii/08-remove-basket.png",
         "alt": "A/C name grain, bread, a bow and three arrows in the lifted basket. The image shows those items.",
         "note": "A/C name grain, bread, a bow and three arrows in the lifted basket. The image shows those items."
       },
@@ -625,7 +624,8 @@
             "index": 5
           }
         }
-      ]
+      ],
+      "unitId": "allii-lift-at-dawn"
     },
     {
       "id": "press-earth",
@@ -645,7 +645,6 @@
       ],
       "evidence": "A, C and H follow the bedside rite with an earth clod and a cleansing formula.",
       "image": {
-        "src": "/rituals/allii/09-earth-clod.png",
         "alt": "The clod is shown touching a forearm; the tablet does not name a body part.",
         "note": "The clod is shown touching a forearm; the tablet does not name a body part."
       },
@@ -677,7 +676,8 @@
             "index": 31
           }
         }
-      ]
+      ],
+      "unitId": "allii-press-earth"
     },
     {
       "id": "press-dough",
@@ -697,7 +697,6 @@
       ],
       "evidence": "The dough contact follows the earth clod in A, C and H.",
       "image": {
-        "src": "/rituals/allii/10-dough.png",
         "alt": "Dough is shown touching a forearm; the tablet does not name a body part.",
         "note": "Dough is shown touching a forearm; the tablet does not name a body part."
       },
@@ -729,7 +728,8 @@
             "index": 38
           }
         }
-      ]
+      ],
+      "unitId": "allii-press-dough"
     }
   ]
 }

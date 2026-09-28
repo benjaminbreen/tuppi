@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { ritualStepHref, useRitualEdition } from "../lib/ritualEdition";
+import { ritualStepHref, ritualUnitImage, useRitualEdition } from "../lib/ritualEdition";
 
 /** A compact view of the actions compared across the CTH 402 copies. */
 export default function RitualAtGlance({ ritualId }: { ritualId: string }) {
@@ -64,7 +64,7 @@ export default function RitualAtGlance({ ritualId }: { ritualId: string }) {
           <div className="ritual-glance-item" role="listitem" key={step.id}>
             <Link to={ritualStepHref(edition, step)} className="ritual-glance-card" aria-label={`Step ${step.number}: ${step.title}. Copies ${step.attestations.map((a) => a.witness).join(", ")}`}>
               <span className="ritual-glance-number">{String(step.number).padStart(2, "0")}</span>
-              <span className="ritual-glance-icon"><img src={step.image.src} alt="" loading="lazy" /></span>
+              <span className="ritual-glance-icon"><img src={ritualUnitImage(step)} alt="" loading="lazy" /></span>
               <strong>{step.shortTitle}</strong>
               <small>{step.shortDescription}</small>
               <span className="ritual-glance-sigla" title={step.attestations.map((a) => `${a.witness}: ${a.doc.replaceAll("-", " ")}`).join("\n")}><em>Copies</em> {step.attestations.map((a) => a.witness).join(" ")}</span>

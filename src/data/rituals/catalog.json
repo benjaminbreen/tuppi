@@ -109,5 +109,39 @@
       "Storm-god",
       "Sun-god"
     ]
+  },
+  {
+    "id": "pulisa",
+    "path": "/rituals/pulisa",
+    "title": "Puliša",
+    "cth": 407,
+    "concern": "Plague",
+    "region": "Enemy border",
+    "tags": [
+      "Plague",
+      "Substitution",
+      "Royal ritual"
+    ],
+    "sources": "KBo 15.1 · KBo 21.9",
+    "description": "After a campaign, a man, woman, bull and ewe are made substitutes to carry plague back toward enemy territory.",
+    "images": [
+      "/rituals/pulisa/substitutes.png",
+      "/rituals/pulisa/mouth-wool.png",
+      "/rituals/pulisa/bull-ewe.png"
+    ],
+    "stepCount": 12,
+    "searchTerms": [
+      "plague",
+      "king",
+      "campaign",
+      "prisoner",
+      "woman",
+      "substitute",
+      "bull",
+      "ewe",
+      "ear ring",
+      "wool",
+      "enemy land"
+    ]
   }
 ]

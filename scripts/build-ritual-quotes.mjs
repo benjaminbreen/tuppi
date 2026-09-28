@@ -55,7 +55,8 @@ const excerpts = {
     "He offers the bull to the Storm-god,",
     "he offers the ewe to the Sun-god",
     "they offer the three sheep to all the gods."
-  ]
+  ],
+  pulisa: read(path.join(root, "scripts/ritual-excerpts/pulisa.json"))
 };
 
 const additionalExcerpts = {
