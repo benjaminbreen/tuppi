@@ -1,10 +1,10 @@
 import { Link, useSearchParams } from "react-router-dom";
-import { ACTION_TYPES, RITUAL_UNITS, RITUAL_VISUALS, relatedRitualUnits, ritualUnitHref } from "../lib/ritualEdition";
+import { ACTION_TYPES, RITUAL_DEITIES, RITUAL_UNITS, RITUAL_VISUALS, relatedRitualUnits, ritualUnitHref } from "../lib/ritualEdition";
 
 const categories = Array.from(new Set(Object.values(RITUAL_UNITS).map((unit) => unit.actionType))).sort((a, b) => ACTION_TYPES[a].title.localeCompare(ACTION_TYPES[b].title));
 const allUnits = Object.entries(RITUAL_UNITS).map(([id, unit]) => {
   const occurrences = relatedRitualUnits(id);
-  return { id, ...unit, rituals: new Set(occurrences.map((item) => item.ritualId)).size, occurrences: occurrences.length, image: RITUAL_VISUALS[unit.visualAssetId].src };
+  return { id, ...unit, rituals: new Set(occurrences.map((item) => item.ritualId)).size, occurrences: occurrences.length, image: unit.deityVisualId ? RITUAL_DEITIES[unit.deityVisualId].src : RITUAL_VISUALS[unit.visualAssetId].src };
 });
 
 export default function RitualUnitsIndex() {

@@ -326,7 +326,9 @@
         }
       ],
       "recipient": "Unidentified god",
-      "unitId": "ashella-appeal"
+      "unitId": "ashella-appeal",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Plague god"
     },
     {
       "id": "release-rams",
@@ -560,7 +562,9 @@
         }
       ],
       "recipient": "Tutelary Deity of the equipment(?)",
-      "unitId": "offer-goat"
+      "unitId": "offer-goat",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Tutelary deity"
     },
     {
       "id": "bring-pig",
@@ -646,7 +650,9 @@
         }
       ],
       "recipient": "Unidentified plague god",
-      "unitId": "ashella-offer-pig"
+      "unitId": "ashella-offer-pig",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Plague god"
     },
     {
       "id": "offer-bull",
@@ -690,7 +696,9 @@
         }
       ],
       "recipient": "Storm-god",
-      "unitId": "ashella-offer-bull"
+      "unitId": "ashella-offer-bull",
+      "deityVisualId": "storm-god",
+      "deityLabel": "Storm-god"
     },
     {
       "id": "offer-ewe",
@@ -734,7 +742,9 @@
         }
       ],
       "recipient": "Sun-god",
-      "unitId": "offer-sheep-to-sun-god"
+      "unitId": "offer-sheep-to-sun-god",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Sun-god"
     },
     {
       "id": "offer-rams",
@@ -778,7 +788,9 @@
         }
       ],
       "recipient": "All the gods",
-      "unitId": "ashella-offer-rams"
+      "unitId": "ashella-offer-rams",
+      "deityVisualId": "divine-assembly",
+      "deityLabel": "All gods"
     }
   ]
 }

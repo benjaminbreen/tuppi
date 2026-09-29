@@ -193,7 +193,7 @@
       "recipient": "A male deity of the enemy land",
       "evidence": "The action is described in obv. I 11–21.",
       "image": {
-        "alt": "The pair represents the chosen substitutes; the utterance itself has no recoverable visual form.",
+        "alt": "The male and female human substitutes in festive clothing.",
         "note": "The pair represents the chosen substitutes; the utterance itself has no recoverable visual form."
       },
       "attestations": [
@@ -207,7 +207,9 @@
           }
         }
       ],
-      "unitId": "pulisa-address-man"
+      "unitId": "pulisa-address-man",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Unnamed male deity"
     },
     {
       "id": "address-woman",
@@ -226,7 +228,7 @@
       "recipient": "A female deity of the enemy land",
       "evidence": "The action is described in obv. I 22.",
       "image": {
-        "alt": "The plain dress refers to the female substitute; the preserved text says the words were repeated for a female deity.",
+        "alt": "Festive garments for the female substitute.",
         "note": "The plain dress refers to the female substitute; the preserved text says the words were repeated for a female deity."
       },
       "attestations": [
@@ -240,7 +242,9 @@
           }
         }
       ],
-      "unitId": "pulisa-address-woman"
+      "unitId": "pulisa-address-woman",
+      "deityVisualId": "unnamed-goddess",
+      "deityLabel": "Unnamed female deity"
     },
     {
       "id": "bring-bull-ewe",
@@ -379,7 +383,9 @@
           }
         }
       ],
-      "unitId": "pulisa-address-bull"
+      "unitId": "pulisa-address-bull",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Unnamed male deity"
     },
     {
       "id": "address-ewe",
@@ -414,7 +420,9 @@
           }
         }
       ],
-      "unitId": "pulisa-address-ewe"
+      "unitId": "pulisa-address-ewe",
+      "deityVisualId": "unnamed-goddess",
+      "deityLabel": "Unnamed female deity"
     },
     {
       "id": "send-animals-ahead",

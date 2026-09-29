@@ -8,6 +8,7 @@ const catalog = read("catalog.json");
 const types = read("action-types.json");
 const units = read("units.json");
 const visuals = read("visual-assets.json");
+const deities = read("deity-visuals.json");
 const quotes = read("quotes.json");
 const editions = catalog.map(({ id }) => read(`${id}.json`));
 const errors = [];
@@ -16,6 +17,7 @@ const unique = (items) => new Set(items).size === items.length;
 const docCache = new Map();
 const usedUnits = new Set();
 const usedVisuals = new Set();
+const usedDeities = new Set();
 
 function sourceDoc(id) {
   if (docCache.has(id)) return docCache.get(id);
@@ -76,6 +78,18 @@ for (const entry of catalog) {
       const visual = visuals[unit.visualAssetId];
       check(!!visual, `${context}: missing visual asset ${unit.visualAssetId}`);
       if (visual) { usedVisuals.add(unit.visualAssetId); image(visual.src, context); }
+      if (unit.deityVisualId) check(step.deityVisualId === unit.deityVisualId, `${context}: address and canonical unit use different deity images`);
+    }
+    if (step.recipient && /god|deit|seven/i.test(step.recipient)) check(!!step.deityVisualId, `${context}: divine recipient needs an iconographic visual`);
+    if (step.deityVisualId) {
+      check(typeof step.deityLabel === "string" && step.deityLabel.trim().length > 0, `${context}: deity image needs a step-specific caption`);
+      const deity = deities[step.deityVisualId];
+      check(!!deity, `${context}: unknown deity visual ${step.deityVisualId}`);
+      if (deity) {
+        usedDeities.add(step.deityVisualId);
+        image(deity.src, `${context} deity visual`);
+        check(!!deity.label && !!deity.model && !!deity.note && /^https:\/\//.test(deity.sourceUrl), `${context}: deity visual lacks source metadata`);
+      }
     }
     check(step.title && step.shortTitle && step.summary && step.patient && step.actor, `${context}: missing step metadata`);
     check(step.image?.alt && step.image?.note, `${context}: missing image description`);
@@ -118,6 +132,7 @@ const unitCounts = new Map();
 for (const edition of editions) for (const step of edition.steps) unitCounts.set(step.unitId, (unitCounts.get(step.unitId) ?? 0) + 1);
 for (const [id, count] of unitCounts) if (count > 1) check(!!units[id].matchRule, `${id}: shared unit needs a specific match rule`);
 for (const id of Object.keys(visuals)) check(usedVisuals.has(id), `unused visual asset ${id}`);
+for (const id of Object.keys(deities)) check(usedDeities.has(id), `unused deity visual ${id}`);
 
 if (errors.length) { console.error(errors.map((error) => `• ${error}`).join("\n")); process.exit(1); }
-console.log(`Checked ${editions.length} ritual editions, ${editions.reduce((sum, edition) => sum + edition.steps.length, 0)} step occurrences, ${usedUnits.size} canonical units, ${usedVisuals.size} visual assets, and ${docCache.size} source documents.`);
+console.log(`Checked ${editions.length} ritual editions, ${editions.reduce((sum, edition) => sum + edition.steps.length, 0)} step occurrences, ${usedUnits.size} canonical units, ${usedVisuals.size} action images, ${usedDeities.size} deity images, and ${docCache.size} source documents.`);

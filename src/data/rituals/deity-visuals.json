@@ -1,0 +1,44 @@
+{
+  "unnamed-god": {
+    "src": "/rituals/deities/unnamed-god.png",
+    "label": "Unnamed god",
+    "model": "Male deity reliefs at Yazılıkaya",
+    "sourceUrl": "https://www.ktb.gov.tr/EN-114128/yazilikaya.html",
+    "note": "This male relief type is reused for several recipients: an unnamed hostile god, a plague god, a road god and a tutelary deity. Its dress and pose follow the male deities at Yazılıkaya; the texts do not identify those recipients as the same god or prescribe this carving."
+  },
+  "unnamed-goddess": {
+    "src": "/rituals/deities/unnamed-goddess.png",
+    "label": "Unnamed goddess",
+    "model": "Goddess reliefs at Yazılıkaya",
+    "sourceUrl": "https://www.ktb.gov.tr/EN-114128/yazilikaya.html",
+    "note": "Puliša's ritual leaves the female deity unnamed. The long garment and cylindrical headdress follow the goddess reliefs at Yazılıkaya; this is a visual comparison, not a named cult image."
+  },
+  "storm-god": {
+    "src": "/rituals/deities/storm-god.png",
+    "label": "Storm-god",
+    "model": "Teššub relief at Yazılıkaya, no. 42",
+    "sourceUrl": "https://www.religionswissenschaft.uzh.ch/idd/prepublications/e_idd_anatolia_north_syria.pdf",
+    "note": "The tablet calls the recipient Storm-god. The relief takes its form from the depiction of Teššub at Yazılıkaya; the tablet does not identify this recipient as Teššub by name."
+  },
+  "sun-god": {
+    "src": "/rituals/deities/sun-god-v2.png",
+    "label": "Sun-god",
+    "model": "Sun-god of Heaven relief at Yazılıkaya, no. 34",
+    "sourceUrl": "https://www.religionswissenschaft.uzh.ch/idd/prepublications/e_idd_anatolia_north_syria.pdf",
+    "note": "The round cap, long robe and curved crook follow the Sun-god of Heaven relief at Yazılıkaya. The ritual says Sun-god without that fuller identification."
+  },
+  "the-seven": {
+    "src": "/rituals/deities/the-seven.png",
+    "label": "The Seven",
+    "model": "Repeated male deity reliefs at Yazılıkaya",
+    "sourceUrl": "https://www.ktb.gov.tr/EN-114128/yazilikaya.html",
+    "note": "The tablet names the Seven (Sebettu). This seven-figure grouping uses the repeated Hittite relief type as a visual convention; the Yazılıkaya figures are not identified as the Sebettu."
+  },
+  "divine-assembly": {
+    "src": "/rituals/deities/divine-assembly.png",
+    "label": "All the gods",
+    "model": "Male and female deity processions at Yazılıkaya",
+    "sourceUrl": "https://www.ktb.gov.tr/EN-114128/yazilikaya.html",
+    "note": "The tablet addresses all the gods collectively. The small group draws on the male and female processions at Yazılıkaya; its four figures do not represent a fixed list of recipients."
+  }
+}

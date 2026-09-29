@@ -9,6 +9,7 @@ The data distinguishes three things:
 | Action category | `action-types.json` | Broad verb family, such as killing an animal. Useful for discovery, insufficient to claim two passages describe the same task. |
 | Canonical task | `units.json` | Specific comparable act and object, such as slaughtering sheep. Every ritual step has a `unitId`. The registry states the match rule. |
 | Illustration | `visual-assets.json` | One transparent PNG with a stable asset ID. A task refers to an asset; several distinct tasks can share a visual without being merged. |
+| Deity image | `deity-visuals.json` | A reusable illustrated relief type with a named archaeological model. Each step that invokes a divine recipient selects one with `deityVisualId`. It does not identify the recipient more precisely than the tablet does. |
 
 `occurrences.json` is generated from the editions by canonical task ID. The task page at `/ritual-units/{unitId}` shows the image and every annotated occurrence, with a source quotation and links to its step and tablet. Its ritual count is the number of distinct rituals, not the number of copies or repeated steps within one ritual.
 
@@ -21,6 +22,7 @@ The data distinguishes three things:
    `build-ritual-quotes.mjs` takes the Hittite transliteration from that anchor (or the printed line within an anchored paragraph) and checks each curated English excerpt against the linked draft translation. Add an exact excerpt for each new step; never use an editorial step summary as a quotation.
 5. Put a disagreement in `variants`: define the units involved, then the order witnessed in each copy. Keep an uncertain placement out of the displayed ordered selection if no shared order can be defended.
 6. Copy final transparent PNG assets to `public/rituals/{id}/` and register them in `visual-assets.json`. Reuse an existing image when it depicts the needed object or action. **Sharing an image is not evidence that two acts are the same canonical task.** The unit's `visualAssetId` is the single image reference used by every occurrence of that unit; each step retains its own image note for differences in what the text specifies.
+   If the step invokes a god, add `deityVisualId` from `deity-visuals.json` and a short `deityLabel` specific to that passage. The plate pairs the material object with the deity relief. For a speech addressed directly to a deity, add the same `deityVisualId` to the canonical unit; the relief then becomes the primary image in the sequence and task catalogue. Record the archaeological model and source link in the deity registry. Puliša's male and female deities, for example, remain unnamed even though their relief types follow Yazılıkaya.
 7. Run `npm run check:rituals` and `npm run build`. The checker validates paths, step and phase order, unit and asset references, source documents and anchors, copy-variant references, catalogue counts and PNG alpha channels. It also rejects unused units and assets.
 
 ## Deciding whether two acts match

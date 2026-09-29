@@ -25,7 +25,8 @@
     "description": "The address to the Sun-god asks that the maker of the bewitchment carry it away.",
     "actionType": "return-harm-by-speech",
     "unitType": "utterance",
-    "visualAssetId": "allii-04-return-address"
+    "visualAssetId": "allii-04-return-address",
+    "deityVisualId": "sun-god"
   },
   "allii-wind-wool": {
     "title": "Wind coloured wool around the figures",
@@ -109,7 +110,8 @@
     "description": "An appeal presents the adorned ram and asks the god to be at peace with Ḫatti.",
     "actionType": "speak-address",
     "unitType": "utterance",
-    "visualAssetId": "uhhamuwa-06-appeal"
+    "visualAssetId": "uhhamuwa-06-appeal",
+    "deityVisualId": "unnamed-god"
   },
   "uhhamuwa-drive-away-ram": {
     "title": "Drive the ram away",
@@ -130,7 +132,8 @@
     "description": "The speech asks that the horses eat, the chariot be greased, and the god turn back toward his land.",
     "actionType": "speak-address",
     "unitType": "utterance",
-    "visualAssetId": "uhhamuwa-09-transport"
+    "visualAssetId": "uhhamuwa-09-transport",
+    "deityVisualId": "storm-god"
   },
   "uhhamuwa-bring-goat-sheep": {
     "title": "Bring a goat and two sheep",
@@ -218,7 +221,8 @@
     "description": "The speaker asks the god responsible for the plague to accept the tethered rams.",
     "actionType": "speak-address",
     "unitType": "utterance",
-    "visualAssetId": "ashella-adorned-ram"
+    "visualAssetId": "ashella-adorned-ram",
+    "deityVisualId": "unnamed-god"
   },
   "ashella-release-rams": {
     "title": "Release the rams at the enemy border",
@@ -302,14 +306,16 @@
     "description": "The speaker offers the adorned man as a substitute and asks that he carry the plague away.",
     "actionType": "speak-address",
     "unitType": "utterance",
-    "visualAssetId": "pulisa-substitutes"
+    "visualAssetId": "pulisa-substitutes",
+    "deityVisualId": "unnamed-god"
   },
   "pulisa-address-woman": {
     "title": "Address the female deity",
     "description": "The corresponding words are spoken to the woman concerning a female deity.",
     "actionType": "speak-address",
     "unitType": "utterance",
-    "visualAssetId": "pulisa-woman-garments"
+    "visualAssetId": "pulisa-woman-garments",
+    "deityVisualId": "unnamed-goddess"
   },
   "pulisa-bring-bull-ewe": {
     "title": "Bring a bull and ewe",

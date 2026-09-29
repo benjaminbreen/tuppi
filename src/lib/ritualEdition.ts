@@ -3,6 +3,7 @@ import actionTypes from "../data/rituals/action-types.json";
 import occurrences from "../data/rituals/occurrences.json";
 import unitIndex from "../data/rituals/units.json";
 import visualIndex from "../data/rituals/visual-assets.json";
+import deityIndex from "../data/rituals/deity-visuals.json";
 
 export interface RitualAttestation {
   witness: string;
@@ -33,6 +34,8 @@ export interface RitualUnit {
   actor: string;
   material: string[];
   recipient?: string;
+  deityVisualId?: string;
+  deityLabel?: string;
   place?: string;
   evidence: string;
   image: { alt: string; note: string; brief?: string };
@@ -64,12 +67,18 @@ export interface RitualEdition {
 }
 
 export const ACTION_TYPES: Record<string, { title: string; definition: string; externalParallels: { ritual: string; description: string; source: string; href: string }[] }> = actionTypes;
-export interface CanonicalRitualUnit { title: string; description: string; matchRule?: string; actionType: string; unitType: "act" | "utterance"; visualAssetId: string }
+export interface CanonicalRitualUnit { title: string; description: string; matchRule?: string; actionType: string; unitType: "act" | "utterance"; visualAssetId: string; deityVisualId?: string }
 export interface RitualVisualAsset { src: string; subject: string; medium: string }
+export interface RitualDeityVisual { src: string; label: string; model: string; sourceUrl: string; note: string }
 export const RITUAL_UNITS = unitIndex as Record<string, CanonicalRitualUnit>;
 export const RITUAL_VISUALS = visualIndex as Record<string, RitualVisualAsset>;
-export const ritualUnitImage = (step: RitualUnit) => RITUAL_VISUALS[RITUAL_UNITS[step.unitId].visualAssetId].src;
-const modules = import.meta.glob(["../data/rituals/*.json", "!../data/rituals/action-types.json", "!../data/rituals/catalog.json", "!../data/rituals/occurrences.json", "!../data/rituals/quotes.json", "!../data/rituals/units.json", "!../data/rituals/visual-assets.json"]);
+export const RITUAL_DEITIES = deityIndex as Record<string, RitualDeityVisual>;
+export const ritualUnitObjectImage = (step: RitualUnit) => RITUAL_VISUALS[RITUAL_UNITS[step.unitId].visualAssetId].src;
+export const ritualUnitImage = (step: RitualUnit) => {
+  const deityId = RITUAL_UNITS[step.unitId].deityVisualId;
+  return deityId ? RITUAL_DEITIES[deityId].src : ritualUnitObjectImage(step);
+};
+const modules = import.meta.glob(["../data/rituals/*.json", "!../data/rituals/action-types.json", "!../data/rituals/catalog.json", "!../data/rituals/deity-visuals.json", "!../data/rituals/occurrences.json", "!../data/rituals/quotes.json", "!../data/rituals/units.json", "!../data/rituals/visual-assets.json"]);
 const cache = new Map<string, Promise<RitualEdition>>();
 export function loadRitualEdition(id: string) {
   const key = `../data/rituals/${id}.json`;

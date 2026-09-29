@@ -234,8 +234,8 @@
       "place": "Road toward enemy territory",
       "evidence": "This is a prescribed utterance, not a report that the god visibly accepted the ram. The exact wording varies between witnesses.",
       "image": {
-        "alt": "The crowned ram is the speech's visible referent. The image does not depict the god, a speaker or the requested result.",
-        "note": "The crowned ram is the speech's visible referent. The image does not depict the god, a speaker or the requested result."
+        "alt": "A ram adorned with a coloured wool wreath.",
+        "note": "The adorned ram is named in the address and shown beside an illustrated relief type for the unnamed god."
       },
       "attestations": [
         {
@@ -248,7 +248,9 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-appeal-over-ram"
+      "unitId": "uhhamuwa-appeal-over-ram",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Hostile god"
     },
     {
       "id": "drive-away-ram",
@@ -354,7 +356,9 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-address-horses-chariot"
+      "unitId": "uhhamuwa-address-horses-chariot",
+      "deityVisualId": "storm-god",
+      "deityLabel": "Storm-god"
     },
     {
       "id": "bring-goat-sheep",
@@ -405,8 +409,8 @@
       "recipient": "The Seven (Sebettu)",
       "evidence": "The recipient and animal are named. The precise physical gesture is not described.",
       "image": {
-        "alt": "The goat alone is shown; no image of the divine recipients or invented gesture.",
-        "note": "The goat alone is shown; no image of the divine recipients or invented gesture."
+        "alt": "A single goat shown as the offering.",
+        "note": "The goat is the named offering; the seven-figure relief grouping makes the collective recipient visible."
       },
       "attestations": [
         {
@@ -419,7 +423,9 @@
           }
         }
       ],
-      "unitId": "offer-goat"
+      "unitId": "offer-goat",
+      "deityVisualId": "the-seven",
+      "deityLabel": "The Seven"
     },
     {
       "id": "dedicate-sheep",
@@ -438,8 +444,8 @@
       "recipient": "The Sun-god",
       "evidence": "This assignment is present in KUB 9.31; the published English draft notes a variant in another witness.",
       "image": {
-        "alt": "One sheep in natural light. The deity and a specific gesture are not depicted.",
-        "note": "One sheep in natural light. The deity and a specific gesture are not depicted."
+        "alt": "A single sheep shown as the offering.",
+        "note": "A single sheep represents the offering; a separate relief type represents the Sun-god."
       },
       "attestations": [
         {
@@ -452,7 +458,9 @@
           }
         }
       ],
-      "unitId": "offer-sheep-to-sun-god"
+      "unitId": "offer-sheep-to-sun-god",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Sun-god"
     },
     {
       "id": "kill-sheep",
@@ -596,7 +604,9 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-prepare-for-road-god"
+      "unitId": "uhhamuwa-prepare-for-road-god",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Road god"
     }
   ]
 }

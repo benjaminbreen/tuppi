@@ -195,7 +195,7 @@
       "material": [],
       "evidence": "The seated posture and direction are explicit in A and D; F preserves parts of the same passage.",
       "image": {
-        "alt": "A seated patient faces the Sun-god; clothing and hairstyle are reconstructed.",
+        "alt": "A seated patient shown from behind in plain clothing.",
         "note": "A seated patient faces the Sun-god; clothing and hairstyle are reconstructed."
       },
       "attestations": [
@@ -236,7 +236,9 @@
           }
         }
       ],
-      "unitId": "allii-seat-patient"
+      "unitId": "allii-seat-patient",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Sun-god"
     },
     {
       "id": "raise-vessel",
@@ -289,7 +291,9 @@
           }
         }
       ],
-      "unitId": "allii-raise-vessel"
+      "unitId": "allii-raise-vessel",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Sun-god"
     },
     {
       "id": "return-address",
@@ -350,7 +354,9 @@
           }
         }
       ],
-      "unitId": "allii-return-address"
+      "unitId": "allii-return-address",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Sun-god"
     },
     {
       "id": "wind-wool",
