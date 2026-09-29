@@ -34,6 +34,7 @@ export interface RitualUnit {
   actor: string;
   material: string[];
   recipient?: string;
+  composition: { function: string; aims: string[]; requires: string[] };
   deityVisualId?: string;
   deityLabel?: string;
   place?: string;
@@ -61,6 +62,7 @@ export interface RitualEdition {
   attribution: string;
   sourceSummary: string;
   editionUrl: string;
+  editionLabel?: string;
   phases: { name: string; range: number[]; idea: string }[];
   variants: RitualOrderVariant[];
   steps: RitualUnit[];
@@ -78,7 +80,7 @@ export const ritualUnitImage = (step: RitualUnit) => {
   const deityId = RITUAL_UNITS[step.unitId].deityVisualId;
   return deityId ? RITUAL_DEITIES[deityId].src : ritualUnitObjectImage(step);
 };
-const modules = import.meta.glob(["../data/rituals/*.json", "!../data/rituals/action-types.json", "!../data/rituals/catalog.json", "!../data/rituals/deity-visuals.json", "!../data/rituals/occurrences.json", "!../data/rituals/quotes.json", "!../data/rituals/units.json", "!../data/rituals/visual-assets.json"]);
+const modules = import.meta.glob(["../data/rituals/*.json", "!../data/rituals/action-types.json", "!../data/rituals/catalog.json", "!../data/rituals/composition-index.json", "!../data/rituals/deity-visuals.json", "!../data/rituals/occurrences.json", "!../data/rituals/quotes.json", "!../data/rituals/ritual-aims.json", "!../data/rituals/ritual-functions.json", "!../data/rituals/units.json", "!../data/rituals/visual-assets.json"]);
 const cache = new Map<string, Promise<RitualEdition>>();
 export function loadRitualEdition(id: string) {
   const key = `../data/rituals/${id}.json`;

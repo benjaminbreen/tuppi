@@ -1,0 +1,1402 @@
+{
+  "id": "tunnawiya",
+  "cth": 409,
+  "title": "Tunnawiya’s Ritual of the River",
+  "shortName": "Tunnawiya",
+  "eyebrow": "CTH 409.I · river purification",
+  "dating": {
+    "label": "attested c. 14th–13th c. BCE",
+    "note": "KUB 7.53+ is catalogued as a New Hittite manuscript. The script date is broad and does not fix the date when the ritual was first composed.",
+    "sourceUrl": "https://hethport.net/hetkonk/hetkonk_abfrage.php?c=409"
+  },
+  "purpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+  "attribution": "Attributed to Tunnawiya, the Old Woman",
+  "sourceSummary": "KUB 7.53 + KUB 12.58 + joined fragments · CTH 409.I.A",
+  "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+7.53",
+  "editionLabel": "TLHdig tablet",
+  "phases": [
+    {
+      "name": "At the river",
+      "range": [
+        1,
+        9
+      ],
+      "idea": "Offerings and clay are taken from the riverbank and spring."
+    },
+    {
+      "name": "The cleansing",
+      "range": [
+        10,
+        22
+      ],
+      "idea": "Animals, figures, textiles and washing act on the patient."
+    },
+    {
+      "name": "Carrying away",
+      "range": [
+        23,
+        26
+      ],
+      "idea": "Used objects leave by river and fire before the patient passes a gate."
+    },
+    {
+      "name": "Restoration",
+      "range": [
+        27,
+        31
+      ],
+      "idea": "The cow, fruit tree and Sun-god frame requests for fertility."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "prepare-black-animals",
+      "number": 1,
+      "title": "Bring the black animals",
+      "shortTitle": "Black animals",
+      "shortDescription": "A black sheep, piglet and puppy are prepared; the prescribed sexes depend on the patient.",
+      "phase": "At the river",
+      "unitType": "act",
+      "actionType": "bring-animal",
+      "verb": "Bring",
+      "summary": "A black sheep, piglet and puppy are prepared; the prescribed sexes depend on the patient.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Black ram or ewe",
+        "Black piglet",
+        "Black puppy"
+      ],
+      "evidence": "The sheep, piglet and puppy are specified in KUB 7.53+ obv. I 11–16. The black sheep is a ram for a male patient and a ewe for a female patient.",
+      "image": {
+        "alt": "Black ewe, piglet and puppy.",
+        "note": "The tablet distinguishes a black ram for a man and a black ewe for a woman; the illustration shows one ewe. The piglet and puppy also change sex with the patient."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 11–Vs. I 16",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "tunnawiya-prepare-black-animals",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "set-out-black-clothes",
+      "number": 2,
+      "title": "Set out the black clothes",
+      "shortTitle": "Black clothes",
+      "shortDescription": "Black clothing, shoes and wool are supplied for the patient.",
+      "phase": "At the river",
+      "unitType": "act",
+      "actionType": "prepare-clothing",
+      "verb": "Set",
+      "summary": "Black clothing, shoes and wool are supplied for the patient.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Black shirt",
+        "Black leggings",
+        "Black wool",
+        "Shoes"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 11–Vs. I 16.",
+      "image": {
+        "alt": "Black ritual clothing.",
+        "note": "The opening supply list names a black shirt, leggings, wool and shoes; the image groups the garments before the patient puts them on."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 11–Vs. I 16",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "tunnawiya-set-out-black-clothes",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "offer-at-riverbank",
+      "number": 3,
+      "title": "Offer bread and wine at the riverbank",
+      "shortTitle": "River offering",
+      "shortDescription": "Thin bread, groats and wine are placed and poured for the riverbank Mother-goddess.",
+      "phase": "At the river",
+      "unitType": "act",
+      "actionType": "offer-food-drink",
+      "verb": "Offer",
+      "summary": "Thin bread, groats and wine are placed and poured for the riverbank Mother-goddess.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Thin bread",
+        "Groats",
+        "Wine"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 3′–Vs. I 5′.",
+      "image": {
+        "alt": "Bread, groats and wine.",
+        "note": "The image groups the thin bread, groats and wine that Tunnawiya brings to the riverbank."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 3′–Vs. I 5′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 5
+          }
+        }
+      ],
+      "unitId": "tunnawiya-offer-bread-wine",
+      "composition": {
+        "function": "make-offering",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      },
+      "recipient": "Mother-goddess of the riverbank",
+      "deityVisualId": "unnamed-goddess",
+      "deityLabel": "Mother-goddess of the riverbank",
+      "place": "Riverbank"
+    },
+    {
+      "id": "address-riverbank-goddess",
+      "number": 4,
+      "title": "Address the riverbank Mother-goddess",
+      "shortTitle": "Call on river goddess",
+      "shortDescription": "Tunnawiya asks the riverbank Mother-goddess to cleanse the patient with clay.",
+      "phase": "At the river",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Address",
+      "summary": "Tunnawiya asks the riverbank Mother-goddess to cleanse the patient with clay.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Riverbank clay"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 6′–Vs. I 11′.",
+      "image": {
+        "alt": "Riverbank clay and spring mud.",
+        "note": "Riverbank clay accompanies the appeal. The female relief is an iconographic comparison, not an identified portrait of this Mother-goddess."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "tunnawiya-address-riverbank-goddess",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      },
+      "recipient": "Mother-goddess of the riverbank",
+      "deityVisualId": "unnamed-goddess",
+      "deityLabel": "Mother-goddess of the riverbank",
+      "place": "Riverbank"
+    },
+    {
+      "id": "collect-river-clay",
+      "number": 5,
+      "title": "Take clay from the riverbank",
+      "shortTitle": "Take river clay",
+      "shortDescription": "Tunnawiya takes clay from the riverbank after the appeal.",
+      "phase": "At the river",
+      "unitType": "act",
+      "actionType": "collect-clay",
+      "verb": "Take",
+      "summary": "Tunnawiya takes clay from the riverbank after the appeal.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Riverbank clay"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 6′–Vs. I 11′.",
+      "image": {
+        "alt": "Riverbank clay and spring mud.",
+        "note": "Moist clay stands for the material Tunnawiya takes from the riverbank after addressing its Mother-goddess."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "tunnawiya-collect-clay",
+      "composition": {
+        "function": "collect-material",
+        "requires": [
+          "address-riverbank-goddess"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      },
+      "place": "Riverbank"
+    },
+    {
+      "id": "offer-at-spring",
+      "number": 6,
+      "title": "Offer bread and wine at the spring",
+      "shortTitle": "Spring offering",
+      "shortDescription": "Thin bread, groats and wine are offered at the spring.",
+      "phase": "At the river",
+      "unitType": "act",
+      "actionType": "offer-food-drink",
+      "verb": "Offer",
+      "summary": "Thin bread, groats and wine are offered at the spring.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Thin bread",
+        "Groats",
+        "Wine"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 6′–Vs. I 11′.",
+      "image": {
+        "alt": "Bread, groats and wine.",
+        "note": "The bread and wine cutout is shared with the riverbank offering; this second offering takes place at a spring."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "tunnawiya-offer-bread-wine",
+      "composition": {
+        "function": "make-offering",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      },
+      "place": "Spring"
+    },
+    {
+      "id": "collect-spring-clay",
+      "number": 7,
+      "title": "Take clay from the spring",
+      "shortTitle": "Take spring clay",
+      "shortDescription": "Tunnawiya takes clay from the spring after asking it to draw impurity out.",
+      "phase": "At the river",
+      "unitType": "act",
+      "actionType": "collect-clay",
+      "verb": "Take",
+      "summary": "Tunnawiya takes clay from the spring after asking it to draw impurity out.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Spring clay"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 12′–Vs. I 18′.",
+      "image": {
+        "alt": "Riverbank clay and spring mud.",
+        "note": "The clay cutout is shared with the riverbank collection; the spring is the second place named for taking clay."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 12′–Vs. I 18′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 7
+          }
+        }
+      ],
+      "unitId": "tunnawiya-collect-clay",
+      "composition": {
+        "function": "collect-material",
+        "requires": [
+          "offer-at-spring"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      },
+      "place": "Spring"
+    },
+    {
+      "id": "build-reed-hut",
+      "number": 8,
+      "title": "Build the reed shelter",
+      "shortTitle": "Reed shelter",
+      "shortDescription": "A reed shelter is built beside the river, away from tilled land.",
+      "phase": "At the river",
+      "unitType": "act",
+      "actionType": "build-shelter",
+      "verb": "Build",
+      "summary": "A reed shelter is built beside the river, away from tilled land.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Reeds"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 12′–Vs. I 18′.",
+      "image": {
+        "alt": "Reed ritual shelter.",
+        "note": "The source requires a reed shelter near a river and away from ploughing; the precise frame and roof shape are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 12′–Vs. I 18′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 7
+          }
+        }
+      ],
+      "unitId": "tunnawiya-build-reed-hut",
+      "composition": {
+        "function": "construct-setting",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      },
+      "place": "Uncultivated land near the river"
+    },
+    {
+      "id": "make-clay-figures",
+      "number": 9,
+      "title": "Make clay tongues and oxen",
+      "shortTitle": "Clay figures",
+      "shortDescription": "Tunnawiya models twelve tongue shapes and two oxen from the collected clay.",
+      "phase": "At the river",
+      "unitType": "act",
+      "actionType": "make-clay-figures",
+      "verb": "Make",
+      "summary": "Tunnawiya models twelve tongue shapes and two oxen from the collected clay.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Riverbank clay",
+        "Spring clay"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 19′–Vs. I 27′.",
+      "image": {
+        "alt": "Clay tongues and oxen.",
+        "note": "The tablet names twelve clay tongues and two clay oxen. Their exact forms are not preserved; the icon shows all twelve tongues."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 19′–Vs. I 27′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 8
+          }
+        }
+      ],
+      "unitId": "tunnawiya-make-clay-figures",
+      "composition": {
+        "function": "fashion-figure",
+        "requires": [
+          "collect-river-clay",
+          "collect-spring-clay"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "dress-in-black",
+      "number": 10,
+      "title": "Dress the patient in black",
+      "shortTitle": "Dress in black",
+      "shortDescription": "At first light the patient puts on the black clothes.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "put-on-garments",
+      "verb": "Dress",
+      "summary": "At first light the patient puts on the black clothes.",
+      "patient": "The ritual patient",
+      "actor": "The ritual patient",
+      "material": [
+        "Black clothing"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 28′–Vs. I 31′.",
+      "image": {
+        "alt": "Black ritual clothing.",
+        "note": "The black shirt and leggings come from the opening supply list; here the patient puts them on."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 28′–Vs. I 31′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 9
+          }
+        }
+      ],
+      "unitId": "tunnawiya-dress-in-black",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "set-out-black-clothes"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      },
+      "place": "Reed shelter"
+    },
+    {
+      "id": "hold-black-sheep",
+      "number": 11,
+      "title": "Hold a black sheep over the patient",
+      "shortTitle": "Lift black sheep",
+      "shortDescription": "Tunnawiya holds a black sheep over the patient while reciting.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "lift-over-patient",
+      "verb": "Hold",
+      "summary": "Tunnawiya holds a black sheep over the patient while reciting.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Black sheep"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 32′–Vs. I 35′. This passage is partly restored in the surviving text.",
+      "image": {
+        "alt": "Sheep lifted over a patient.",
+        "note": "The hands and posture are reconstructed; the tablet specifies lifting the black sheep over the patient."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 32′–Vs. I 35′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 10
+          }
+        }
+      ],
+      "unitId": "tunnawiya-hold-black-sheep",
+      "composition": {
+        "function": "transfer-affliction",
+        "requires": [
+          "prepare-black-animals",
+          "dress-in-black"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "hold-piglet",
+      "number": 12,
+      "title": "Hold the piglet over the patient",
+      "shortTitle": "Lift piglet",
+      "shortDescription": "A piglet is held over the patient with its own incantation.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "lift-over-patient",
+      "verb": "Hold",
+      "summary": "A piglet is held over the patient with its own incantation.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Black piglet"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 36′–Vs. I 38′. This passage is partly restored in the surviving text.",
+      "image": {
+        "alt": "Black ewe, piglet and puppy.",
+        "note": "The group image includes the piglet; the tablet specifies this act separately from lifting the sheep and puppy."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 36′–Vs. I 38′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 11
+          }
+        }
+      ],
+      "unitId": "tunnawiya-hold-piglet",
+      "composition": {
+        "function": "transfer-affliction",
+        "requires": [
+          "prepare-black-animals"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "hold-puppy",
+      "number": 13,
+      "title": "Hold the puppy over the patient",
+      "shortTitle": "Lift puppy",
+      "shortDescription": "A puppy is held over the patient with its own incantation.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "lift-over-patient",
+      "verb": "Hold",
+      "summary": "A puppy is held over the patient with its own incantation.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Black puppy"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 36′–Vs. I 38′. This passage is partly restored in the surviving text.",
+      "image": {
+        "alt": "Black ewe, piglet and puppy.",
+        "note": "The group image includes the puppy; the tablet specifies this act separately from lifting the sheep and piglet."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 36′–Vs. I 38′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 11
+          }
+        }
+      ],
+      "unitId": "tunnawiya-hold-puppy",
+      "composition": {
+        "function": "transfer-affliction",
+        "requires": [
+          "prepare-black-animals"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "hold-clay-tongue",
+      "number": 14,
+      "title": "Hold a clay tongue over the patient",
+      "shortTitle": "Lift clay tongue",
+      "shortDescription": "A clay tongue is lifted over the patient with a prescribed incantation.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "lift-over-patient",
+      "verb": "Hold",
+      "summary": "A clay tongue is lifted over the patient with a prescribed incantation.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Clay tongue"
+      ],
+      "evidence": "KUB 7.53+ Vs. I 39′–Vs. II 7. This passage is partly restored in the surviving text.",
+      "image": {
+        "alt": "Clay tongues and oxen.",
+        "note": "The image shows the prepared clay pieces, rather than inventing a hand position not described in the passage."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. I 39′–Vs. II 7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 12
+          }
+        }
+      ],
+      "unitId": "tunnawiya-hold-clay-tongue",
+      "composition": {
+        "function": "transfer-affliction",
+        "requires": [
+          "make-clay-figures"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "melt-figures",
+      "number": 15,
+      "title": "Melt the wax and tallow figures",
+      "shortTitle": "Melt the figures",
+      "shortDescription": "After holding the figures over the patient, Tunnawiya melts them.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "melt-figures",
+      "verb": "Melt",
+      "summary": "After holding the figures over the patient, Tunnawiya melts them.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Wax figure",
+        "Tallow figure"
+      ],
+      "evidence": "KUB 7.53+ Vs. II 14–Vs. II 20. This passage is partly restored in the surviving text.",
+      "image": {
+        "alt": "Wax and tallow effigies.",
+        "note": "The text names wax and tallow figures. Their shapes and the exact melting setup are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. II 14–Vs. II 20",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 14
+          }
+        }
+      ],
+      "unitId": "tunnawiya-melt-figures",
+      "composition": {
+        "function": "destroy-affliction",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "wash-hands-wine",
+      "number": 16,
+      "title": "Wash the hands with wine",
+      "shortTitle": "Wash with wine",
+      "shortDescription": "The patient rises and washes the hands with wine.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "wash-hands",
+      "verb": "Wash",
+      "summary": "The patient rises and washes the hands with wine.",
+      "patient": "The ritual patient",
+      "actor": "The ritual patient",
+      "material": [
+        "Wine"
+      ],
+      "evidence": "KUB 7.53+ Vs. II 21–Vs. II 24.",
+      "image": {
+        "alt": "Hands washed with wine.",
+        "note": "The patient rises and washes the hands with wine; the jug and basin are shown to isolate that action."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. II 21–Vs. II 24",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 15
+          }
+        }
+      ],
+      "unitId": "tunnawiya-wash-hands-wine",
+      "composition": {
+        "function": "wash-clean",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "wash-with-water",
+      "number": 17,
+      "title": "Wash the patient with water",
+      "shortTitle": "Wash with water",
+      "shortDescription": "The patient washes with water while Tunnawiya continues the incantation.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "wash-body",
+      "verb": "Wash",
+      "summary": "The patient washes with water while Tunnawiya continues the incantation.",
+      "patient": "The ritual patient",
+      "actor": "The ritual patient",
+      "material": [
+        "Water"
+      ],
+      "evidence": "KUB 7.53+ Vs. II 25–Vs. II 29/4′.",
+      "image": {
+        "alt": "Water poured onto an arm.",
+        "note": "The tablet does not identify a body part or vessel; an arm and jug stand for the washing."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. II 25–Vs. II 29/4′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 16
+          }
+        }
+      ],
+      "unitId": "tunnawiya-wash-with-water",
+      "composition": {
+        "function": "wash-clean",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "remove-coloured-wool",
+      "number": 18,
+      "title": "Take blue and red wool off the patient",
+      "shortTitle": "Remove coloured wool",
+      "shortDescription": "Tunnawiya removes blue and red wool from the patient while speaking.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "remove-wool",
+      "verb": "Take",
+      "summary": "Tunnawiya removes blue and red wool from the patient while speaking.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Blue wool",
+        "Red wool"
+      ],
+      "evidence": "KUB 7.53+ Vs. II 25–Vs. II 29/4′.",
+      "image": {
+        "alt": "Blue and red wool pulled away.",
+        "note": "The tablet names the colours and removal; the textile placement and hands are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. II 25–Vs. II 29/4′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 16
+          }
+        }
+      ],
+      "unitId": "tunnawiya-remove-coloured-wool",
+      "composition": {
+        "function": "remove-mark",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "strip-black-clothes",
+      "number": 19,
+      "title": "Slit the black shirt",
+      "shortTitle": "Slit black shirt",
+      "shortDescription": "Tunnawiya cuts the black shirt down its length and removes the dark garments.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "remove-garments",
+      "verb": "Slit",
+      "summary": "Tunnawiya cuts the black shirt down its length and removes the dark garments.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Black shirt",
+        "Black leggings",
+        "Black wool"
+      ],
+      "evidence": "KUB 7.53+ Vs. II 16′–Vs. II 20′.",
+      "image": {
+        "alt": "Black ritual clothing.",
+        "note": "The image shows the black garments before cutting; the text explicitly describes slitting the shirt."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. II 16′–Vs. II 20′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 19
+          }
+        }
+      ],
+      "unitId": "tunnawiya-strip-black-clothes",
+      "composition": {
+        "function": "remove-mark",
+        "requires": [
+          "dress-in-black"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "smash-empty-pot",
+      "number": 20,
+      "title": "Smash the empty pot",
+      "shortTitle": "Break empty pot",
+      "shortDescription": "An empty pot is waved over the patient and smashed.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "break-pot",
+      "verb": "Smash",
+      "summary": "An empty pot is waved over the patient and smashed.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Empty pot"
+      ],
+      "evidence": "KUB 7.53+ Vs. II 27′–Vs. II 35′.",
+      "image": {
+        "alt": "Broken black clay pot.",
+        "note": "The vessel form is illustrative; the tablet specifies that it is empty and broken."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. II 27′–Vs. II 35′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 21
+          }
+        }
+      ],
+      "unitId": "tunnawiya-smash-empty-pot",
+      "composition": {
+        "function": "destroy-affliction",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "bathe-over-figure",
+      "number": 21,
+      "title": "Bathe over a clay figure",
+      "shortTitle": "Bathe over figure",
+      "shortDescription": "A clay figure is placed beneath the patient’s feet as the patient bathes.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "bathe-over-figure",
+      "verb": "Bathe",
+      "summary": "A clay figure is placed beneath the patient’s feet as the patient bathes.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Clay figure",
+        "Water"
+      ],
+      "evidence": "KUB 7.53+ Vs. II 36′–Vs. II 42′.",
+      "image": {
+        "alt": "Water poured onto an arm.",
+        "note": "The cutout focuses on water over an arm. The source places a clay figure beneath the feet, which is recorded in the step text but not visible in this image."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. II 36′–Vs. II 42′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 22
+          }
+        }
+      ],
+      "unitId": "tunnawiya-bathe-over-figure",
+      "composition": {
+        "function": "wash-clean",
+        "requires": [
+          "make-clay-figures"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "comb-down",
+      "number": 22,
+      "title": "Comb the patient downward",
+      "shortTitle": "Comb downward",
+      "shortDescription": "Maidservants draw boxwood combs downward over the patient.",
+      "phase": "The cleansing",
+      "unitType": "act",
+      "actionType": "comb-down",
+      "verb": "Comb",
+      "summary": "Maidservants draw boxwood combs downward over the patient.",
+      "patient": "The ritual patient",
+      "actor": "Maidservants",
+      "material": [
+        "Boxwood combs"
+      ],
+      "evidence": "KUB 7.53+ Vs. II 36′–Vs. II 42′.",
+      "image": {
+        "alt": "Boxwood combs.",
+        "note": "The source names nine boxwood combs and downward strokes. The carving and exact tooth forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Vs. II 36′–Vs. II 42′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 22
+          }
+        }
+      ],
+      "unitId": "tunnawiya-comb-down",
+      "composition": {
+        "function": "wash-clean",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "release-into-river",
+      "number": 23,
+      "title": "Send the used objects into the river",
+      "shortTitle": "Into the river",
+      "shortDescription": "The combs, clothing and other used objects are sent into the river.",
+      "phase": "Carrying away",
+      "unitType": "act",
+      "actionType": "release-into-water",
+      "verb": "Send",
+      "summary": "The combs, clothing and other used objects are sent into the river.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Boxwood combs",
+        "Black clothes",
+        "Wing"
+      ],
+      "evidence": "KUB 7.53+ Rs. III 12–Rs. III 16.",
+      "image": {
+        "alt": "Used ritual objects entering water.",
+        "note": "The image shows a small group entering water; the tablet lists further objects and does not specify how each entered the river."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Rs. III 12–Rs. III 16",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 25
+          }
+        }
+      ],
+      "unitId": "tunnawiya-release-into-river",
+      "composition": {
+        "function": "discard-carrier",
+        "requires": [
+          "comb-down",
+          "strip-black-clothes"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "burn-small-animals",
+      "number": 24,
+      "title": "Burn the piglet and puppy",
+      "shortTitle": "Burn animals",
+      "shortDescription": "The puppy and piglet are taken to uncultivated ground and burned.",
+      "phase": "Carrying away",
+      "unitType": "act",
+      "actionType": "burn-animals",
+      "verb": "Burn",
+      "summary": "The puppy and piglet are taken to uncultivated ground and burned.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Piglet",
+        "Puppy"
+      ],
+      "evidence": "KUB 7.53+ Rs. III 17–Rs. III 22.",
+      "image": {
+        "alt": "Small pyre with animals.",
+        "note": "The burning is explicit. The size of the fire and position of the animals are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Rs. III 17–Rs. III 22",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 26
+          }
+        }
+      ],
+      "unitId": "tunnawiya-burn-small-animals",
+      "composition": {
+        "function": "discard-carrier",
+        "requires": [
+          "hold-piglet",
+          "hold-puppy"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      },
+      "place": "Uncultivated ground"
+    },
+    {
+      "id": "pass-through-gate",
+      "number": 25,
+      "title": "Pass beneath the wooden gate",
+      "shortTitle": "Through the gate",
+      "shortDescription": "The patient leaves beneath the alanza-wood gate as Tunnawiya speaks.",
+      "phase": "Carrying away",
+      "unitType": "act",
+      "actionType": "pass-through-gate",
+      "verb": "Pass",
+      "summary": "The patient leaves beneath the alanza-wood gate as Tunnawiya speaks.",
+      "patient": "The ritual patient",
+      "actor": "The ritual patient",
+      "material": [
+        "Alanza-wood gate"
+      ],
+      "evidence": "KUB 7.53+ Rs. III 12′–Rs. III 21′.",
+      "image": {
+        "alt": "Temporary wooden gate.",
+        "note": "The source names alanza wood and a temporary gate. Its construction and botanical species are not securely known."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Rs. III 12′–Rs. III 21′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 31
+          }
+        }
+      ],
+      "unitId": "tunnawiya-pass-through-gate",
+      "composition": {
+        "function": "cross-threshold",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      }
+    },
+    {
+      "id": "return-river-offering",
+      "number": 26,
+      "title": "Offer bread again at the riverbank",
+      "shortTitle": "Return to riverbank",
+      "shortDescription": "Tunnawiya returns to the riverbank with bread and groats.",
+      "phase": "Carrying away",
+      "unitType": "act",
+      "actionType": "offer-food-drink",
+      "verb": "Offer",
+      "summary": "Tunnawiya returns to the riverbank with bread and groats.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Thin bread",
+        "Groats"
+      ],
+      "evidence": "KUB 7.53+ Rs. III 22′–Rs. III 24′.",
+      "image": {
+        "alt": "Bread, groats and wine.",
+        "note": "This return offering names bread and groats; wine is libated in the following passage. The shared image shows the complete offering set."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Rs. III 22′–Rs. III 24′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 32
+          }
+        }
+      ],
+      "unitId": "tunnawiya-return-river-offering",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "offer-at-riverbank"
+        ],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      },
+      "place": "Riverbank"
+    },
+    {
+      "id": "take-cow-by-horn",
+      "number": 27,
+      "title": "Take the cow by its horn",
+      "shortTitle": "Cow by the horn",
+      "shortDescription": "Tunnawiya takes hold of a cow by its horn to begin a fertility comparison.",
+      "phase": "Restoration",
+      "unitType": "act",
+      "actionType": "touch-living-exemplar",
+      "verb": "Take",
+      "summary": "Tunnawiya takes hold of a cow by its horn to begin a fertility comparison.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Cow"
+      ],
+      "evidence": "KUB 7.53+ Rs. IV 7–Rs. IV 14.",
+      "image": {
+        "alt": "Cow.",
+        "note": "The cow’s breed, colour and horns are illustrative. The source calls it fertile, with a question mark in the draft translation."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Rs. IV 7–Rs. IV 14",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 34
+          }
+        }
+      ],
+      "unitId": "tunnawiya-take-cow-by-horn",
+      "composition": {
+        "function": "seek-fertility",
+        "requires": [],
+        "aims": [
+          "seek-descendants"
+        ]
+      }
+    },
+    {
+      "id": "wish-for-offspring",
+      "number": 28,
+      "title": "Ask for offspring through the cow analogy",
+      "shortTitle": "Cow and descendants",
+      "shortDescription": "Addressing the Sun-god, Tunnawiya likens the patient’s hoped-for descendants to a fertile cow’s increase.",
+      "phase": "Restoration",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Ask",
+      "summary": "Addressing the Sun-god, Tunnawiya likens the patient’s hoped-for descendants to a fertile cow’s increase.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Cow"
+      ],
+      "evidence": "KUB 7.53+ Rs. IV 7–Rs. IV 14.",
+      "image": {
+        "alt": "Cow.",
+        "note": "The animal is the explicit image in the analogy; its coat and breed are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Rs. IV 7–Rs. IV 14",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 34
+          }
+        }
+      ],
+      "unitId": "tunnawiya-wish-for-offspring",
+      "composition": {
+        "function": "seek-fertility",
+        "requires": [
+          "take-cow-by-horn"
+        ],
+        "aims": [
+          "seek-descendants"
+        ]
+      },
+      "recipient": "Sun-god",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Sun-god"
+    },
+    {
+      "id": "touch-fruit-tree",
+      "number": 29,
+      "title": "Take hold of a fruit-bearing tree",
+      "shortTitle": "Touch fruit tree",
+      "shortDescription": "Tunnawiya takes hold of a fruit-bearing tree.",
+      "phase": "Restoration",
+      "unitType": "act",
+      "actionType": "touch-living-exemplar",
+      "verb": "Take",
+      "summary": "Tunnawiya takes hold of a fruit-bearing tree.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Fruit-bearing tree"
+      ],
+      "evidence": "KUB 7.53+ Rs. IV 15–Rs. IV 23/4′.",
+      "image": {
+        "alt": "Fruit-bearing tree.",
+        "note": "The source does not identify the tree species. The small red fruit in the image is illustrative, not a botanical identification."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Rs. IV 15–Rs. IV 23/4′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 35
+          }
+        }
+      ],
+      "unitId": "tunnawiya-touch-fruit-tree",
+      "composition": {
+        "function": "seek-fertility",
+        "requires": [],
+        "aims": [
+          "seek-descendants"
+        ]
+      }
+    },
+    {
+      "id": "wish-by-tree",
+      "number": 30,
+      "title": "Ask for descendants through the tree analogy",
+      "shortTitle": "Tree and descendants",
+      "shortDescription": "Tunnawiya addresses the Sun-god and compares descendants to the fruit on a tree.",
+      "phase": "Restoration",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Ask",
+      "summary": "Tunnawiya addresses the Sun-god and compares descendants to the fruit on a tree.",
+      "patient": "The ritual patient",
+      "actor": "Tunnawiya, the Old Woman",
+      "material": [
+        "Fruit-bearing tree"
+      ],
+      "evidence": "KUB 7.53+ Rs. IV 15–Rs. IV 23/4′.",
+      "image": {
+        "alt": "Fruit-bearing tree.",
+        "note": "The source names a tree clothed with fruit; its species is not given."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Rs. IV 15–Rs. IV 23/4′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 35
+          }
+        }
+      ],
+      "unitId": "tunnawiya-wish-by-tree",
+      "composition": {
+        "function": "seek-fertility",
+        "requires": [
+          "touch-fruit-tree"
+        ],
+        "aims": [
+          "seek-descendants"
+        ]
+      },
+      "recipient": "Sun-god",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Sun-god"
+    },
+    {
+      "id": "libate-sun-god",
+      "number": 31,
+      "title": "Pour wine for the Sun-god",
+      "shortTitle": "Sun-god libation",
+      "shortDescription": "The patient pours a libation and calls on the Sun-god to keep the cleansing effective.",
+      "phase": "Restoration",
+      "unitType": "act",
+      "actionType": "libate",
+      "verb": "Pour",
+      "summary": "The patient pours a libation and calls on the Sun-god to keep the cleansing effective.",
+      "patient": "The ritual patient",
+      "actor": "The ritual patient",
+      "material": [
+        "Wine"
+      ],
+      "evidence": "KUB 7.53+ Rs. IV 24/5′–Rs. IV 28.",
+      "image": {
+        "alt": "Bread, groats and wine.",
+        "note": "The jug and bowl are representative; this passage does not specify a vessel form."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-53-plus",
+          "locus": "KUB 7.53+ Rs. IV 24/5′–Rs. IV 28",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 36
+          }
+        }
+      ],
+      "unitId": "tunnawiya-libate-sun-god",
+      "composition": {
+        "function": "affirm-cleansing",
+        "requires": [],
+        "aims": [
+          "cleanse-impurity"
+        ]
+      },
+      "recipient": "Sun-god",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Sun-god"
+    }
+  ]
+}

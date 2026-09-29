@@ -177,7 +177,14 @@
           }
         }
       ],
-      "unitId": "allii-arrange-figures"
+      "unitId": "allii-arrange-figures",
+      "composition": {
+        "function": "fashion-figure",
+        "requires": [],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      }
     },
     {
       "id": "seat-patient",
@@ -238,7 +245,14 @@
       ],
       "unitId": "allii-seat-patient",
       "deityVisualId": "sun-god",
-      "deityLabel": "Sun-god"
+      "deityLabel": "Sun-god",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      }
     },
     {
       "id": "raise-vessel",
@@ -293,7 +307,16 @@
       ],
       "unitId": "allii-raise-vessel",
       "deityVisualId": "sun-god",
-      "deityLabel": "Sun-god"
+      "deityLabel": "Sun-god",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "arrange-figures"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      }
     },
     {
       "id": "return-address",
@@ -356,7 +379,16 @@
       ],
       "unitId": "allii-return-address",
       "deityVisualId": "sun-god",
-      "deityLabel": "Sun-god"
+      "deityLabel": "Sun-god",
+      "composition": {
+        "function": "return-harm",
+        "requires": [
+          "raise-vessel"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      }
     },
     {
       "id": "wind-wool",
@@ -426,7 +458,16 @@
           }
         }
       ],
-      "unitId": "allii-wind-wool"
+      "unitId": "allii-wind-wool",
+      "composition": {
+        "function": "transfer-affliction",
+        "requires": [
+          "arrange-figures"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      }
     },
     {
       "id": "set-basket",
@@ -499,7 +540,14 @@
           }
         }
       ],
-      "unitId": "allii-set-basket"
+      "unitId": "allii-set-basket",
+      "composition": {
+        "function": "place-deposit",
+        "requires": [],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      }
     },
     {
       "id": "sleep-over",
@@ -560,7 +608,16 @@
           }
         }
       ],
-      "unitId": "allii-sleep-over"
+      "unitId": "allii-sleep-over",
+      "composition": {
+        "function": "sleep-over-deposit",
+        "requires": [
+          "set-basket"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      }
     },
     {
       "id": "lift-at-dawn",
@@ -631,7 +688,16 @@
           }
         }
       ],
-      "unitId": "allii-lift-at-dawn"
+      "unitId": "allii-lift-at-dawn",
+      "composition": {
+        "function": "remove-deposit",
+        "requires": [
+          "set-basket"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      }
     },
     {
       "id": "press-earth",
@@ -683,7 +749,14 @@
           }
         }
       ],
-      "unitId": "allii-press-earth"
+      "unitId": "allii-press-earth",
+      "composition": {
+        "function": "purify-by-analogy",
+        "requires": [],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      }
     },
     {
       "id": "press-dough",
@@ -735,7 +808,14 @@
           }
         }
       ],
-      "unitId": "allii-press-dough"
+      "unitId": "allii-press-dough",
+      "composition": {
+        "function": "purify-by-analogy",
+        "requires": [],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      }
     }
   ]
 }

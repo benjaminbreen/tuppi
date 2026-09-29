@@ -669,7 +669,7 @@ main { min-height: 70vh; }
 .ritual-plate-pair img { max-width: 88%; max-height: 88%; filter: drop-shadow(0 12px 12px rgba(45,33,24,.08)); }
 .ritual-plate-pair .ritual-plate-deity img { max-width: 76%; max-height: 84%; }
 .ritual-plate-pair.deity-first .ritual-plate-deity img { max-width: 82%; max-height: 90%; }
-.ritual-plate-deity > span { position: absolute; bottom: 2px; left: 0; right: 0; color: var(--r-muted); text-align: center; font: 10px/1.2 var(--f-mono); white-space: nowrap; }
+.ritual-plate-deity > span { position: absolute; bottom: 0; left: 0; right: 0; padding-inline: 4px; color: var(--r-muted); text-align: center; font: 10px/1.2 var(--f-mono); overflow-wrap: anywhere; }
 .ritual-stage .ritual-plate { min-height: 0; }
 .ritual-stage-copy { position: relative; z-index: 1; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; padding: clamp(24px, 3vw, 38px); }
 .ritual-stage-top { align-self: stretch; display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }

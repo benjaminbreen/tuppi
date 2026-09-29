@@ -1142,5 +1142,408 @@
       "original": "nam-ma GU₄.MAḪ a-šu-ša-an-ta-an UDU.ÁŠ.MUNUS.GÀR-ia A-NA LÚŠU.DAB",
       "english": "they drive the ašuša-(ringed) bull [and the ewe] ahead of [the prisoner] and the woman"
     }
+  ],
+  "tunnawiya/prepare-black-animals": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 11–Vs. I 16",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "ma-a-an LÚ-aš nu UDU.ŠIR GE₆ da-an-zi ma-a-an MUNUS-za-ma nu UDU.SÍG+MUNUS GE₆",
+      "english": "If (it is) a man, they take a black ram; but if (it is) a woman, they take a black ewe. (Also) one black piglet"
+    }
+  ],
+  "tunnawiya/set-out-black-clothes": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 11–Vs. I 16",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "ma-a-an LÚ-aš nu UDU.ŠIR GE₆ da-an-zi ma-a-an MUNUS-za-ma nu UDU.SÍG+MUNUS GE₆",
+      "english": "One black shirt, one black išḫiyal-"
+    }
+  ],
+  "tunnawiya/offer-at-riverbank": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 3′–Vs. I 5′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 5
+      },
+      "original": "na-aš ma-aḫ-ḫa-an wa-ap-pu-i a-ri nu 1 NINDA.SIG wa-ap-pu-wa-aš DINGIR.MAḪ pár-ši-ia",
+      "english": "she breaks one thin bread for the Mother-goddess of the riverbank"
+    }
+  ],
+  "tunnawiya/address-riverbank-goddess": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "wa-ap-pu-wa-aš DINGIR.MAḪ-aš ka-a-ša EGIR-pa tu-uk ú-wa-nu-un nu-kán ka-a-aš IM-aš",
+      "english": "O Mother-goddess of the riverbank"
+    }
+  ],
+  "tunnawiya/collect-river-clay": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "wa-ap-pu-wa-aš DINGIR.MAḪ-aš ka-a-ša EGIR-pa tu-uk ú-wa-nu-un nu-kán ka-a-aš IM-aš",
+      "english": "Then she takes clay of the riverbank."
+    }
+  ],
+  "tunnawiya/offer-at-spring": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "wa-ap-pu-wa-aš DINGIR.MAḪ-aš ka-a-ša EGIR-pa tu-uk ú-wa-nu-un nu-kán ka-a-aš IM-aš",
+      "english": "she goes to the spring (šakuni-), breaks one thin bread"
+    }
+  ],
+  "tunnawiya/collect-spring-clay": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 12′–Vs. I 18′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 7
+      },
+      "original": "zi-ik-kán ma-aḫ-ḫa-an ša-ku-〈ni〉-iš GE₆-az KI-az pu-u-ru-ut EGIR ša-ra-a",
+      "english": "Then she takes clay of the spring."
+    }
+  ],
+  "tunnawiya/build-reed-hut": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 12′–Vs. I 18′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 7
+      },
+      "original": "zi-ik-kán ma-aḫ-ḫa-an ša-ku-〈ni〉-iš GE₆-az KI-az pu-u-ru-ut EGIR ša-ra-a",
+      "english": "reed huts have meanwhile(?) already been made in front of the river"
+    }
+  ],
+  "tunnawiya/make-clay-figures": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 19′–Vs. I 27′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 8
+      },
+      "original": "MUNUSŠU.GI wa-ap-pu-wa-aš IM-an ša-ku-ni-ia-aš-ša IM-an a-pí-ia pé-e-da-i",
+      "english": "twelve tongues of clay"
+    }
+  ],
+  "tunnawiya/dress-in-black": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 28′–Vs. I 31′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 9
+      },
+      "original": "1 GU₄ÁB u-ša-an-ta-ri-iš ma-a-an LÚ-aš-ma nu GU₄.MAḪ ḫa-an-da-ez-zi",
+      "english": "he puts on the black (clothes)."
+    }
+  ],
+  "tunnawiya/hold-black-sheep": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 32′–Vs. I 35′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 10
+      },
+      "original": "tu-e-ek-ka₄-aš ša-ra-a pé-eš-še-ez-zi nam-ma 1 UDU GE₆ da-a-i na-an-ši-ša-an",
+      "english": "she takes one black sheep and holds it over him"
+    }
+  ],
+  "tunnawiya/hold-piglet": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 36′–Vs. I 38′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 11
+      },
+      "original": "EGIR-an-da-ma-aš-ši-iš-ša-an ŠAḪ.TUR še-er e-ep-zi nu ŠA ŠAḪ.TUR",
+      "english": "she holds a piglet over him"
+    }
+  ],
+  "tunnawiya/hold-puppy": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 36′–Vs. I 38′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 11
+      },
+      "original": "EGIR-an-da-ma-aš-ši-iš-ša-an ŠAḪ.TUR še-er e-ep-zi nu ŠA ŠAḪ.TUR",
+      "english": "she holds a puppy over him"
+    }
+  ],
+  "tunnawiya/hold-clay-tongue": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. I 39′–Vs. II 7",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 12
+      },
+      "original": "EGIR-an-da-ma-aš-ši-iš-ša-an EME IM še-er e-ep-zi nu ŠA EME",
+      "english": "she holds a clay tongue over him"
+    }
+  ],
+  "tunnawiya/melt-figures": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. II 14–Vs. II 20",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 14
+      },
+      "original": "EGIR-ŠU-ma-aš-ši-ša-an ŠA DUḪ.LÀL ŠA UZUÌ.UDU še-e-nu-uš še-er",
+      "english": "Then she melts them down"
+    }
+  ],
+  "tunnawiya/wash-hands-wine": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. II 21–Vs. II 24",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 15
+      },
+      "original": "ma-aḫ-ḫa-an-ma zi-in-na-i na-aš a-ra-i nu-za-kán ŠUḪI.A GEŠTIN-it",
+      "english": "he rises and washes his hands with wine."
+    }
+  ],
+  "tunnawiya/wash-with-water": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. II 25–Vs. II 29/4′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 16
+      },
+      "original": "EGIR-ŠU-ma-za-kán ú-e-te-ni-it a-ar-ri kat-ta-an-ma-aš-ši",
+      "english": "he washes himself with water."
+    }
+  ],
+  "tunnawiya/remove-coloured-wool": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. II 25–Vs. II 29/4′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 16
+      },
+      "original": "EGIR-ŠU-ma-za-kán ú-e-te-ni-it a-ar-ri kat-ta-an-ma-aš-ši",
+      "english": "she keeps taking blue wool (and) red wool off his body"
+    }
+  ],
+  "tunnawiya/strip-black-clothes": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. II 16′–Vs. II 20′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 19
+      },
+      "original": "nam-ma TÚGGÚ.È.A GE₆-TIM ku-e wa-aš-ša-an ḫar-zi",
+      "english": "the Old Woman slits it on him from top to bottom."
+    }
+  ],
+  "tunnawiya/smash-empty-pot": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. II 27′–Vs. II 35′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 21
+      },
+      "original": "EGIR-an-da-ma-aš-ši-kán DUGÚTUL da-an-na-ra-an še-er ar-ḫa",
+      "english": "smashes it and conjures."
+    }
+  ],
+  "tunnawiya/bathe-over-figure": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. II 36′–Vs. II 42′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 22
+      },
+      "original": "na-aš-ta EN SISKUR wa-ar-pu-u-wa-an-zi pa-iz-zi",
+      "english": "he bathes over (it)."
+    }
+  ],
+  "tunnawiya/comb-down": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Vs. II 36′–Vs. II 42′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 22
+      },
+      "original": "na-aš-ta EN SISKUR wa-ar-pu-u-wa-an-zi pa-iz-zi",
+      "english": "each maidservant — comb him once downwards with a comb."
+    }
+  ],
+  "tunnawiya/release-into-river": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Rs. III 12–Rs. III 16",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "nu-kán GIŠGA.ZUMḪI.A GIŠšar-ra-an pát-tar TÚGGÚ.È.A",
+      "english": "she afterwards releases into the river."
+    }
+  ],
+  "tunnawiya/burn-small-animals": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Rs. III 17–Rs. III 22",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 26
+      },
+      "original": "UR.TUR ŠAḪ.TUR dam-mi-li pé-e-di pé-e-da-an-zi",
+      "english": "They carry the puppy (and) the piglet to an uncultivated place and burn them [with fi]re."
+    }
+  ],
+  "tunnawiya/pass-through-gate": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Rs. III 12′–Rs. III 21′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 31
+      },
+      "original": "pa-ra-a-ma-aš-kán GIŠa-la-an-za-aš KÁ.GAL kat-ta-an ar-ḫa",
+      "english": "he goes out beneath the alanza-gate"
+    }
+  ],
+  "tunnawiya/return-river-offering": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Rs. III 22′–Rs. III 24′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 32
+      },
+      "original": "na-aš wa-ap-pu-i pa-iz-zi nu wa-ap-pu-ú-i 1 NINDA.SIG",
+      "english": "breaks one thin bread at the riverbank"
+    }
+  ],
+  "tunnawiya/take-cow-by-horn": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Rs. IV 7–Rs. IV 14",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 34
+      },
+      "original": "nam-ma-za-kán GU₄ u-ša-an-ta-ri-in SI e-ep-zi nu me-ma-i",
+      "english": "she takes the fertile(?) cow by the horn"
+    }
+  ],
+  "tunnawiya/wish-for-offspring": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Rs. IV 7–Rs. IV 14",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 34
+      },
+      "original": "nam-ma-za-kán GU₄ u-ša-an-ta-ri-in SI e-ep-zi nu me-ma-i",
+      "english": "let the ritual patron likewise be fertile"
+    }
+  ],
+  "tunnawiya/touch-fruit-tree": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Rs. IV 15–Rs. IV 23/4′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 35
+      },
+      "original": "GIŠ-ru IN-BU wa-ša-a-an ku-wa-pí ar-ta",
+      "english": "she goes there and takes hold of it"
+    }
+  ],
+  "tunnawiya/wish-by-tree": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Rs. IV 15–Rs. IV 23/4′",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 35
+      },
+      "original": "GIŠ-ru IN-BU wa-ša-a-an ku-wa-pí ar-ta",
+      "english": "so let the ritual patron likewise be clothed"
+    }
+  ],
+  "tunnawiya/libate-sun-god": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.53+ Rs. IV 24/5′–Rs. IV 28",
+      "doc": "kub-7-53-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 36
+      },
+      "original": "nam-ma-aš-kán DUTU me-na-aḫ-ḫa-an-da ti-",
+      "english": "libates to the Sun-god and speaks"
+    }
   ]
 }

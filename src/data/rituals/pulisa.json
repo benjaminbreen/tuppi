@@ -72,7 +72,14 @@
           }
         }
       ],
-      "unitId": "pulisa-select-substitutes"
+      "unitId": "pulisa-select-substitutes",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "remove-king-garments",
@@ -106,7 +113,14 @@
           }
         }
       ],
-      "unitId": "pulisa-remove-king-garments"
+      "unitId": "pulisa-remove-king-garments",
+      "composition": {
+        "function": "remove-mark",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "dress-man",
@@ -140,7 +154,17 @@
           }
         }
       ],
-      "unitId": "pulisa-dress-man"
+      "unitId": "pulisa-dress-man",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "select-substitutes",
+          "remove-king-garments"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "dress-woman",
@@ -174,7 +198,16 @@
           }
         }
       ],
-      "unitId": "pulisa-dress-woman"
+      "unitId": "pulisa-dress-woman",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "select-substitutes"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "address-man",
@@ -209,7 +242,16 @@
       ],
       "unitId": "pulisa-address-man",
       "deityVisualId": "unnamed-god",
-      "deityLabel": "Unnamed male deity"
+      "deityLabel": "Unnamed male deity",
+      "composition": {
+        "function": "appease-divinity",
+        "requires": [
+          "dress-man"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "address-woman",
@@ -244,7 +286,16 @@
       ],
       "unitId": "pulisa-address-woman",
       "deityVisualId": "unnamed-goddess",
-      "deityLabel": "Unnamed female deity"
+      "deityLabel": "Unnamed female deity",
+      "composition": {
+        "function": "appease-divinity",
+        "requires": [
+          "dress-woman"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "bring-bull-ewe",
@@ -276,7 +327,14 @@
           }
         }
       ],
-      "unitId": "pulisa-bring-bull-ewe"
+      "unitId": "pulisa-bring-bull-ewe",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "ring-bull",
@@ -310,7 +368,16 @@
           }
         }
       ],
-      "unitId": "pulisa-ring-bull"
+      "unitId": "pulisa-ring-bull",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "bring-bull-ewe"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "draw-wool",
@@ -347,7 +414,14 @@
           }
         }
       ],
-      "unitId": "pulisa-draw-wool"
+      "unitId": "pulisa-draw-wool",
+      "composition": {
+        "function": "transfer-affliction",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "address-bull",
@@ -385,7 +459,17 @@
       ],
       "unitId": "pulisa-address-bull",
       "deityVisualId": "unnamed-god",
-      "deityLabel": "Unnamed male deity"
+      "deityLabel": "Unnamed male deity",
+      "composition": {
+        "function": "appease-divinity",
+        "requires": [
+          "bring-bull-ewe",
+          "ring-bull"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "address-ewe",
@@ -422,7 +506,16 @@
       ],
       "unitId": "pulisa-address-ewe",
       "deityVisualId": "unnamed-goddess",
-      "deityLabel": "Unnamed female deity"
+      "deityLabel": "Unnamed female deity",
+      "composition": {
+        "function": "appease-divinity",
+        "requires": [
+          "bring-bull-ewe"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "send-animals-ahead",
@@ -458,7 +551,17 @@
           }
         }
       ],
-      "unitId": "pulisa-send-animals-ahead"
+      "unitId": "pulisa-send-animals-ahead",
+      "composition": {
+        "function": "dispatch-substitute",
+        "requires": [
+          "address-bull",
+          "address-ewe"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     }
   ]
 }

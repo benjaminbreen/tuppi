@@ -6,6 +6,9 @@ const dataDir = path.join(root, "src/data/rituals");
 const read = (name) => JSON.parse(fs.readFileSync(path.join(dataDir, name), "utf8"));
 const catalog = read("catalog.json");
 const types = read("action-types.json");
+const ritualFunctions = read("ritual-functions.json");
+const ritualAims = read("ritual-aims.json");
+const compositionIndex = read("composition-index.json");
 const units = read("units.json");
 const visuals = read("visual-assets.json");
 const deities = read("deity-visuals.json");
@@ -40,6 +43,8 @@ function image(pathname, context) {
 }
 
 check(unique(catalog.map((item) => item.id)), "duplicate catalogue id");
+check(compositionIndex.length === editions.reduce((sum, edition) => sum + edition.steps.length, 0), "composition index does not cover every step");
+check(unique(compositionIndex.map((item) => `${item.ritualId}/${item.stepId}`)), "duplicate composition index occurrence");
 check(unique(catalog.map((item) => item.path)), "duplicate catalogue path");
 for (const entry of catalog) {
   const edition = editions.find((item) => item.id === entry.id);
@@ -69,6 +74,20 @@ for (const entry of catalog) {
     check(phases.has(step.phase), `${context}: unknown phase`);
     check(["act", "utterance"].includes(step.unitType), `${context}: unknown unit type`);
     check(!!types[step.actionType], `${context}: unknown action type ${step.actionType}`);
+    check(!!ritualFunctions[step.composition?.function], `${context}: unknown ritual function ${step.composition?.function}`);
+    check(Array.isArray(step.composition?.aims) && step.composition.aims.length > 0, `${context}: historical aims missing`);
+    if (Array.isArray(step.composition?.aims)) {
+      check(unique(step.composition.aims), `${context}: repeated historical aim`);
+      for (const aim of step.composition.aims) check(!!ritualAims[aim], `${context}: unknown historical aim ${aim}`);
+    }
+    check(Array.isArray(step.composition?.requires), `${context}: composition prerequisites missing`);
+    if (Array.isArray(step.composition?.requires)) {
+      check(unique(step.composition.requires), `${context}: repeated prerequisite`);
+      for (const requiredId of step.composition.requires) {
+        const prior = edition.steps.slice(0, i).some((earlier) => earlier.id === requiredId);
+        check(prior, `${context}: prerequisite ${requiredId} must be an earlier step of this ritual`);
+      }
+    }
     const unit = units[step.unitId];
     check(!!unit, `${context}: unknown canonical unit ${step.unitId}`);
     if (unit) {

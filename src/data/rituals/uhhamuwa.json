@@ -71,7 +71,14 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-bring-ram"
+      "unitId": "uhhamuwa-bring-ram",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "twist-wool",
@@ -109,7 +116,14 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-twist-wool"
+      "unitId": "uhhamuwa-twist-wool",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "make-wreath",
@@ -143,7 +157,16 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-make-wreath"
+      "unitId": "uhhamuwa-make-wreath",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "twist-wool"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "crown-ram",
@@ -177,7 +200,17 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-crown-ram"
+      "unitId": "uhhamuwa-crown-ram",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "make-wreath",
+          "bring-ram"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "lead-to-road",
@@ -212,7 +245,16 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-lead-to-road"
+      "unitId": "uhhamuwa-lead-to-road",
+      "composition": {
+        "function": "dispatch-substitute",
+        "requires": [
+          "crown-ram"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "appeal-over-ram",
@@ -250,7 +292,16 @@
       ],
       "unitId": "uhhamuwa-appeal-over-ram",
       "deityVisualId": "unnamed-god",
-      "deityLabel": "Hostile god"
+      "deityLabel": "Hostile god",
+      "composition": {
+        "function": "appease-divinity",
+        "requires": [
+          "crown-ram"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "drive-away-ram",
@@ -285,7 +336,17 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-drive-away-ram"
+      "unitId": "uhhamuwa-drive-away-ram",
+      "composition": {
+        "function": "dispatch-substitute",
+        "requires": [
+          "lead-to-road",
+          "appeal-over-ram"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "bring-fodder-fat",
@@ -321,7 +382,14 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-bring-fodder-fat"
+      "unitId": "uhhamuwa-bring-fodder-fat",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "address-horses-chariot",
@@ -358,7 +426,16 @@
       ],
       "unitId": "uhhamuwa-address-horses-chariot",
       "deityVisualId": "storm-god",
-      "deityLabel": "Storm-god"
+      "deityLabel": "Storm-god",
+      "composition": {
+        "function": "appease-divinity",
+        "requires": [
+          "bring-fodder-fat"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "bring-goat-sheep",
@@ -390,7 +467,14 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-bring-goat-sheep"
+      "unitId": "uhhamuwa-bring-goat-sheep",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "dedicate-goat",
@@ -425,7 +509,16 @@
       ],
       "unitId": "offer-goat",
       "deityVisualId": "the-seven",
-      "deityLabel": "The Seven"
+      "deityLabel": "The Seven",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "bring-goat-sheep"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "dedicate-sheep",
@@ -460,7 +553,16 @@
       ],
       "unitId": "offer-sheep-to-sun-god",
       "deityVisualId": "sun-god",
-      "deityLabel": "Sun-god"
+      "deityLabel": "Sun-god",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "bring-goat-sheep"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "kill-sheep",
@@ -492,7 +594,16 @@
           }
         }
       ],
-      "unitId": "slaughter-sheep"
+      "unitId": "slaughter-sheep",
+      "composition": {
+        "function": "kill-for-offering",
+        "requires": [
+          "bring-goat-sheep"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "cook-sheep",
@@ -526,7 +637,16 @@
           }
         }
       ],
-      "unitId": "cook-sheep-meat"
+      "unitId": "cook-sheep-meat",
+      "composition": {
+        "function": "cook-offering",
+        "requires": [
+          "kill-sheep"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "bring-food-drink",
@@ -565,7 +685,14 @@
           }
         }
       ],
-      "unitId": "uhhamuwa-bring-food-drink"
+      "unitId": "uhhamuwa-bring-food-drink",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "prepare-for-road-god",
@@ -606,7 +733,16 @@
       ],
       "unitId": "uhhamuwa-prepare-for-road-god",
       "deityVisualId": "unnamed-god",
-      "deityLabel": "Road god"
+      "deityLabel": "Road god",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "bring-food-drink"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     }
   ]
 }

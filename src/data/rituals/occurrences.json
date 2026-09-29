@@ -530,5 +530,311 @@
       "stepNumber": 12,
       "stepTitle": "Drive the bull and ewe ahead"
     }
+  ],
+  "tunnawiya-prepare-black-animals": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "prepare-black-animals",
+      "stepNumber": 1,
+      "stepTitle": "Bring the black animals"
+    }
+  ],
+  "tunnawiya-set-out-black-clothes": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "set-out-black-clothes",
+      "stepNumber": 2,
+      "stepTitle": "Set out the black clothes"
+    }
+  ],
+  "tunnawiya-offer-bread-wine": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "offer-at-riverbank",
+      "stepNumber": 3,
+      "stepTitle": "Offer bread and wine at the riverbank"
+    },
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "offer-at-spring",
+      "stepNumber": 6,
+      "stepTitle": "Offer bread and wine at the spring"
+    }
+  ],
+  "tunnawiya-address-riverbank-goddess": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "address-riverbank-goddess",
+      "stepNumber": 4,
+      "stepTitle": "Address the riverbank Mother-goddess"
+    }
+  ],
+  "tunnawiya-collect-clay": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "collect-river-clay",
+      "stepNumber": 5,
+      "stepTitle": "Take clay from the riverbank"
+    },
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "collect-spring-clay",
+      "stepNumber": 7,
+      "stepTitle": "Take clay from the spring"
+    }
+  ],
+  "tunnawiya-build-reed-hut": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "build-reed-hut",
+      "stepNumber": 8,
+      "stepTitle": "Build the reed shelter"
+    }
+  ],
+  "tunnawiya-make-clay-figures": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "make-clay-figures",
+      "stepNumber": 9,
+      "stepTitle": "Make clay tongues and oxen"
+    }
+  ],
+  "tunnawiya-dress-in-black": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "dress-in-black",
+      "stepNumber": 10,
+      "stepTitle": "Dress the patient in black"
+    }
+  ],
+  "tunnawiya-hold-black-sheep": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "hold-black-sheep",
+      "stepNumber": 11,
+      "stepTitle": "Hold a black sheep over the patient"
+    }
+  ],
+  "tunnawiya-hold-piglet": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "hold-piglet",
+      "stepNumber": 12,
+      "stepTitle": "Hold the piglet over the patient"
+    }
+  ],
+  "tunnawiya-hold-puppy": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "hold-puppy",
+      "stepNumber": 13,
+      "stepTitle": "Hold the puppy over the patient"
+    }
+  ],
+  "tunnawiya-hold-clay-tongue": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "hold-clay-tongue",
+      "stepNumber": 14,
+      "stepTitle": "Hold a clay tongue over the patient"
+    }
+  ],
+  "tunnawiya-melt-figures": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "melt-figures",
+      "stepNumber": 15,
+      "stepTitle": "Melt the wax and tallow figures"
+    }
+  ],
+  "tunnawiya-wash-hands-wine": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "wash-hands-wine",
+      "stepNumber": 16,
+      "stepTitle": "Wash the hands with wine"
+    }
+  ],
+  "tunnawiya-wash-with-water": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "wash-with-water",
+      "stepNumber": 17,
+      "stepTitle": "Wash the patient with water"
+    }
+  ],
+  "tunnawiya-remove-coloured-wool": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "remove-coloured-wool",
+      "stepNumber": 18,
+      "stepTitle": "Take blue and red wool off the patient"
+    }
+  ],
+  "tunnawiya-strip-black-clothes": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "strip-black-clothes",
+      "stepNumber": 19,
+      "stepTitle": "Slit the black shirt"
+    }
+  ],
+  "tunnawiya-smash-empty-pot": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "smash-empty-pot",
+      "stepNumber": 20,
+      "stepTitle": "Smash the empty pot"
+    }
+  ],
+  "tunnawiya-bathe-over-figure": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "bathe-over-figure",
+      "stepNumber": 21,
+      "stepTitle": "Bathe over a clay figure"
+    }
+  ],
+  "tunnawiya-comb-down": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "comb-down",
+      "stepNumber": 22,
+      "stepTitle": "Comb the patient downward"
+    }
+  ],
+  "tunnawiya-release-into-river": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "release-into-river",
+      "stepNumber": 23,
+      "stepTitle": "Send the used objects into the river"
+    }
+  ],
+  "tunnawiya-burn-small-animals": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "burn-small-animals",
+      "stepNumber": 24,
+      "stepTitle": "Burn the piglet and puppy"
+    }
+  ],
+  "tunnawiya-pass-through-gate": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "pass-through-gate",
+      "stepNumber": 25,
+      "stepTitle": "Pass beneath the wooden gate"
+    }
+  ],
+  "tunnawiya-return-river-offering": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "return-river-offering",
+      "stepNumber": 26,
+      "stepTitle": "Offer bread again at the riverbank"
+    }
+  ],
+  "tunnawiya-take-cow-by-horn": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "take-cow-by-horn",
+      "stepNumber": 27,
+      "stepTitle": "Take the cow by its horn"
+    }
+  ],
+  "tunnawiya-wish-for-offspring": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "wish-for-offspring",
+      "stepNumber": 28,
+      "stepTitle": "Ask for offspring through the cow analogy"
+    }
+  ],
+  "tunnawiya-touch-fruit-tree": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "touch-fruit-tree",
+      "stepNumber": 29,
+      "stepTitle": "Take hold of a fruit-bearing tree"
+    }
+  ],
+  "tunnawiya-wish-by-tree": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "wish-by-tree",
+      "stepNumber": 30,
+      "stepTitle": "Ask for descendants through the tree analogy"
+    }
+  ],
+  "tunnawiya-libate-sun-god": [
+    {
+      "ritualId": "tunnawiya",
+      "ritualName": "Tunnawiya",
+      "cth": 409,
+      "stepId": "libate-sun-god",
+      "stepNumber": 31,
+      "stepTitle": "Pour wine for the Sun-god"
+    }
   ]
 }

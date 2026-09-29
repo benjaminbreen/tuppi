@@ -203,5 +203,95 @@
     "title": "Draw wool from a mouth",
     "definition": "Pull named wool strands from a person's mouth during a ritual transfer.",
     "externalParallels": []
+  },
+  "offer-food-drink": {
+    "title": "Offer food and drink",
+    "definition": "Place or pour named food and drink for a recipient.",
+    "externalParallels": []
+  },
+  "collect-clay": {
+    "title": "Collect clay",
+    "definition": "Take clay from a named source for later ritual use.",
+    "externalParallels": []
+  },
+  "build-shelter": {
+    "title": "Build a ritual shelter",
+    "definition": "Construct a temporary ritual structure at the prescribed place.",
+    "externalParallels": []
+  },
+  "make-clay-figures": {
+    "title": "Make clay figures",
+    "definition": "Mold small figures or shapes from collected clay.",
+    "externalParallels": []
+  },
+  "put-on-garments": {
+    "title": "Put on garments",
+    "definition": "Dress the ritual patient in prescribed clothing.",
+    "externalParallels": []
+  },
+  "lift-over-patient": {
+    "title": "Lift over a patient",
+    "definition": "Hold a living animal or object above a ritual patient.",
+    "externalParallels": []
+  },
+  "melt-figures": {
+    "title": "Melt figures",
+    "definition": "Destroy effigies by melting them.",
+    "externalParallels": []
+  },
+  "wash-body": {
+    "title": "Wash the body",
+    "definition": "Wash the ritual patient with a named liquid.",
+    "externalParallels": []
+  },
+  "remove-wool": {
+    "title": "Remove wool",
+    "definition": "Take wool thread off the ritual patient.",
+    "externalParallels": []
+  },
+  "break-pot": {
+    "title": "Break a pot",
+    "definition": "Smash an empty vessel during a rite.",
+    "externalParallels": []
+  },
+  "bathe-over-figure": {
+    "title": "Bathe over a figure",
+    "definition": "Bathe while a figure is positioned beneath the person.",
+    "externalParallels": []
+  },
+  "comb-down": {
+    "title": "Comb downward",
+    "definition": "Draw a comb downward over the patient.",
+    "externalParallels": []
+  },
+  "release-into-water": {
+    "title": "Release into water",
+    "definition": "Send used ritual objects into flowing water.",
+    "externalParallels": []
+  },
+  "burn-animals": {
+    "title": "Burn animals",
+    "definition": "Burn named animals at a prescribed place.",
+    "externalParallels": []
+  },
+  "pass-through-gate": {
+    "title": "Pass through a gate",
+    "definition": "Move beneath a temporary ritual gate.",
+    "externalParallels": []
+  },
+  "touch-living-exemplar": {
+    "title": "Touch a living exemplar",
+    "definition": "Touch a cow or tree used in a spoken analogy.",
+    "externalParallels": []
+  },
+  "libate": {
+    "title": "Pour a libation",
+    "definition": "Pour wine or another liquid for a named recipient.",
+    "externalParallels": []
+  },
+  "prepare-clothing": {
+    "title": "Prepare clothing",
+    "definition": "Set out prescribed garments or textile pieces before the patient wears them.",
+    "externalParallels": []
   }
 }

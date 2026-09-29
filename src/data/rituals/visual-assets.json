@@ -193,5 +193,95 @@
     "src": "/rituals/pulisa/mouth-wool.png",
     "subject": "Draw coloured wool from the king’s mouth",
     "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-black-animals": {
+    "src": "/rituals/tunnawiya/black-animals.png",
+    "subject": "Black ewe, piglet and puppy",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-black-clothes": {
+    "src": "/rituals/tunnawiya/black-clothes.png",
+    "subject": "Black ritual clothing",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-river-offering": {
+    "src": "/rituals/tunnawiya/river-offering.png",
+    "subject": "Bread, groats and wine",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-river-clay": {
+    "src": "/rituals/tunnawiya/river-clay.png",
+    "subject": "Riverbank clay and spring mud",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-reed-shelter": {
+    "src": "/rituals/tunnawiya/reed-shelter.png",
+    "subject": "Reed ritual shelter",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-clay-figures": {
+    "src": "/rituals/tunnawiya/clay-figures.png",
+    "subject": "Clay tongues and oxen",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-wax-tallow": {
+    "src": "/rituals/tunnawiya/wax-tallow.png",
+    "subject": "Wax and tallow effigies",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-boxwood-combs": {
+    "src": "/rituals/tunnawiya/boxwood-combs.png",
+    "subject": "Boxwood combs",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-broken-pot": {
+    "src": "/rituals/tunnawiya/broken-pot.png",
+    "subject": "Broken black clay pot",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-alanza-gate": {
+    "src": "/rituals/tunnawiya/alanza-gate.png",
+    "subject": "Temporary wooden gate",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-fertile-cow": {
+    "src": "/rituals/tunnawiya/fertile-cow.png",
+    "subject": "Cow",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-fruit-tree": {
+    "src": "/rituals/tunnawiya/fruit-tree.png",
+    "subject": "Fruit-bearing tree",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-river-release": {
+    "src": "/rituals/tunnawiya/river-release-v2.png",
+    "subject": "Used ritual objects entering water",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-ritual-bathing": {
+    "src": "/rituals/tunnawiya/water-wash-v2.png",
+    "subject": "Water poured onto an arm",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-red-blue-wool": {
+    "src": "/rituals/tunnawiya/red-blue-wool.png",
+    "subject": "Blue and red wool pulled away",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-wine-handwash": {
+    "src": "/rituals/tunnawiya/wine-wash-v2.png",
+    "subject": "Hands washed with wine",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-hold-black-sheep": {
+    "src": "/rituals/tunnawiya/solo-black-sheep.png",
+    "subject": "Sheep lifted over a patient",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-small-pyre": {
+    "src": "/rituals/tunnawiya/small-pyre.png",
+    "subject": "Small pyre with animals",
+    "medium": "AI reconstruction · transparent PNG"
   }
 }

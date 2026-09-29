@@ -56,7 +56,8 @@ const excerpts = {
     "he offers the ewe to the Sun-god",
     "they offer the three sheep to all the gods."
   ],
-  pulisa: read(path.join(root, "scripts/ritual-excerpts/pulisa.json"))
+  pulisa: read(path.join(root, "scripts/ritual-excerpts/pulisa.json")),
+  tunnawiya: read(path.join(root, "scripts/ritual-excerpts/tunnawiya.json"))
 };
 
 const additionalExcerpts = {

@@ -30,7 +30,7 @@ export default function RitualUnitPage() {
       <div className="ritual-unit-art"><div className="ritual-plate"><div className="ritual-plate-ring" aria-hidden="true" /><img src={deity?.src ?? visual.src} alt={deity ? `Illustrated stone relief type for ${deity.label.toLowerCase()}` : visual.subject} /></div><span>{deity ? `AI-generated relief type · ${deity.label}` : visual.medium}</span></div>
       <div className="ritual-unit-intro"><p className="ritual-eyebrow">{unit.matchRule ? "The comparison" : "From the tablet"}</p>{unit.matchRule ? <p>{unit.matchRule}</p> : firstQuote ? <p>“{firstQuote.english ?? firstQuote.original}”</p> : null}{deity && <div className="ritual-unit-deity-note"><p>{deity.note}</p><a href={deity.sourceUrl} target="_blank" rel="noreferrer">{deity.model} ↗</a></div>}<a href="#occurrences">View source passages <span aria-hidden="true">↓</span></a></div>
     </div>
-    <section id="occurrences" className="ritual-unit-occurrences"><div className="ritual-unit-section-head"><div><p className="ritual-eyebrow">Across the rituals</p><h2>Where this task appears</h2></div><span>{String(related.length).padStart(2, "0")} occurrences</span></div>
+    <section id="occurrences" className="ritual-unit-occurrences"><div className="ritual-unit-section-head"><div><h2>Where this task appears</h2></div><span>{String(related.length).padStart(2, "0")} occurrences</span></div>
       <div className="ritual-unit-rows">{related.map((occurrence) => {
         const quote = quoteIndex[`${occurrence.ritualId}/${occurrence.stepId}`]?.find((item) => item.english) ?? quoteIndex[`${occurrence.ritualId}/${occurrence.stepId}`]?.[0];
         return <article key={`${occurrence.ritualId}-${occurrence.stepId}`} className="ritual-unit-row">

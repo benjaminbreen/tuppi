@@ -150,7 +150,14 @@
           }
         }
       ],
-      "unitId": "ashella-prepare-ram"
+      "unitId": "ashella-prepare-ram",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "twist-wool",
@@ -195,7 +202,14 @@
           }
         }
       ],
-      "unitId": "ashella-twist-wool"
+      "unitId": "ashella-twist-wool",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "bind-ram",
@@ -240,7 +254,17 @@
           }
         }
       ],
-      "unitId": "ashella-bind-ram"
+      "unitId": "ashella-bind-ram",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "prepare-ram",
+          "twist-wool"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "tether-ram",
@@ -284,7 +308,16 @@
         }
       ],
       "place": "Before the tents",
-      "unitId": "ashella-tether-ram"
+      "unitId": "ashella-tether-ram",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "bind-ram"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "appeal",
@@ -328,7 +361,16 @@
       "recipient": "Unidentified god",
       "unitId": "ashella-appeal",
       "deityVisualId": "unnamed-god",
-      "deityLabel": "Plague god"
+      "deityLabel": "Plague god",
+      "composition": {
+        "function": "appease-divinity",
+        "requires": [
+          "tether-ram"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "release-rams",
@@ -370,7 +412,17 @@
         }
       ],
       "place": "Enemy borderland",
-      "unitId": "ashella-release-rams"
+      "unitId": "ashella-release-rams",
+      "composition": {
+        "function": "dispatch-substitute",
+        "requires": [
+          "tether-ram",
+          "appeal"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "slaughter-ram",
@@ -405,7 +457,14 @@
         }
       ],
       "place": "Open country",
-      "unitId": "slaughter-sheep"
+      "unitId": "slaughter-sheep",
+      "composition": {
+        "function": "kill-for-offering",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "cook-meat",
@@ -449,7 +508,16 @@
           }
         }
       ],
-      "unitId": "cook-sheep-meat"
+      "unitId": "cook-sheep-meat",
+      "composition": {
+        "function": "cook-offering",
+        "requires": [
+          "slaughter-ram"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "wash-salt-water",
@@ -484,7 +552,14 @@
           }
         }
       ],
-      "unitId": "ashella-wash-salt-water"
+      "unitId": "ashella-wash-salt-water",
+      "composition": {
+        "function": "wash-clean",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "pass-between-fires",
@@ -518,7 +593,14 @@
           }
         }
       ],
-      "unitId": "ashella-pass-between-fires"
+      "unitId": "ashella-pass-between-fires",
+      "composition": {
+        "function": "cross-threshold",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "offer-goats",
@@ -564,7 +646,14 @@
       "recipient": "Tutelary Deity of the equipment(?)",
       "unitId": "offer-goat",
       "deityVisualId": "unnamed-god",
-      "deityLabel": "Tutelary deity"
+      "deityLabel": "Tutelary deity",
+      "composition": {
+        "function": "make-offering",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "bring-pig",
@@ -606,7 +695,14 @@
         }
       ],
       "place": "Open country",
-      "unitId": "ashella-bring-pig"
+      "unitId": "ashella-bring-pig",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "offer-pig",
@@ -652,7 +748,16 @@
       "recipient": "Unidentified plague god",
       "unitId": "ashella-offer-pig",
       "deityVisualId": "unnamed-god",
-      "deityLabel": "Plague god"
+      "deityLabel": "Plague god",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "bring-pig"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "offer-bull",
@@ -698,7 +803,14 @@
       "recipient": "Storm-god",
       "unitId": "ashella-offer-bull",
       "deityVisualId": "storm-god",
-      "deityLabel": "Storm-god"
+      "deityLabel": "Storm-god",
+      "composition": {
+        "function": "make-offering",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "offer-ewe",
@@ -744,7 +856,14 @@
       "recipient": "Sun-god",
       "unitId": "offer-sheep-to-sun-god",
       "deityVisualId": "sun-god",
-      "deityLabel": "Sun-god"
+      "deityLabel": "Sun-god",
+      "composition": {
+        "function": "make-offering",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     },
     {
       "id": "offer-rams",
@@ -790,7 +909,14 @@
       "recipient": "All the gods",
       "unitId": "ashella-offer-rams",
       "deityVisualId": "divine-assembly",
-      "deityLabel": "All gods"
+      "deityLabel": "All gods",
+      "composition": {
+        "function": "make-offering",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      }
     }
   ]
 }

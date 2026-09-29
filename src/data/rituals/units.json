@@ -358,5 +358,213 @@
     "actionType": "move-animal",
     "unitType": "act",
     "visualAssetId": "pulisa-bull-ewe"
+  },
+  "tunnawiya-prepare-black-animals": {
+    "title": "Bring the black animals",
+    "description": "A black sheep, piglet and puppy are prepared; the prescribed sexes depend on the patient.",
+    "actionType": "bring-animal",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-black-animals"
+  },
+  "tunnawiya-set-out-black-clothes": {
+    "title": "Set out the black clothes",
+    "description": "Black clothing, shoes and wool are supplied for the patient.",
+    "actionType": "prepare-clothing",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-black-clothes"
+  },
+  "tunnawiya-offer-bread-wine": {
+    "title": "Offer bread and wine",
+    "description": "Thin bread, groats and wine are offered at the riverbank or spring.",
+    "actionType": "offer-food-drink",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-river-offering",
+    "matchRule": "Break thin bread and pour wine at a water source; the riverbank and spring remain distinct occurrences."
+  },
+  "tunnawiya-address-riverbank-goddess": {
+    "title": "Address the riverbank Mother-goddess",
+    "description": "Tunnawiya asks the riverbank Mother-goddess to cleanse the patient with clay.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "tunnawiya-river-clay",
+    "deityVisualId": "unnamed-goddess"
+  },
+  "tunnawiya-collect-clay": {
+    "title": "Take clay from a water source",
+    "description": "Tunnawiya takes clay first from the riverbank and then from the spring.",
+    "actionType": "collect-clay",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-river-clay",
+    "matchRule": "Take clay from a named water source; preserve riverbank and spring as distinct locations on the occurrences."
+  },
+  "tunnawiya-build-reed-hut": {
+    "title": "Build the reed shelter",
+    "description": "A reed shelter is built beside the river, away from tilled land.",
+    "actionType": "build-shelter",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-reed-shelter"
+  },
+  "tunnawiya-make-clay-figures": {
+    "title": "Make clay tongues and oxen",
+    "description": "Tunnawiya models twelve tongue shapes and two oxen from the collected clay.",
+    "actionType": "make-clay-figures",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-clay-figures"
+  },
+  "tunnawiya-dress-in-black": {
+    "title": "Dress the patient in black",
+    "description": "At first light the patient puts on the black clothes.",
+    "actionType": "put-on-garments",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-black-clothes"
+  },
+  "tunnawiya-hold-black-sheep": {
+    "title": "Hold a black sheep over the patient",
+    "description": "Tunnawiya holds a black sheep over the patient while reciting.",
+    "actionType": "lift-over-patient",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-hold-black-sheep"
+  },
+  "tunnawiya-hold-piglet": {
+    "title": "Hold the piglet over the patient",
+    "description": "A piglet is held over the patient with its own incantation.",
+    "actionType": "lift-over-patient",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-black-animals"
+  },
+  "tunnawiya-hold-puppy": {
+    "title": "Hold the puppy over the patient",
+    "description": "A puppy is held over the patient with its own incantation.",
+    "actionType": "lift-over-patient",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-black-animals"
+  },
+  "tunnawiya-hold-clay-tongue": {
+    "title": "Hold a clay tongue over the patient",
+    "description": "A clay tongue is lifted over the patient with a prescribed incantation.",
+    "actionType": "lift-over-patient",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-clay-figures"
+  },
+  "tunnawiya-melt-figures": {
+    "title": "Melt the wax and tallow figures",
+    "description": "After holding the figures over the patient, Tunnawiya melts them.",
+    "actionType": "melt-figures",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-wax-tallow"
+  },
+  "tunnawiya-wash-hands-wine": {
+    "title": "Wash the hands with wine",
+    "description": "The patient rises and washes the hands with wine.",
+    "actionType": "wash-hands",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-wine-handwash"
+  },
+  "tunnawiya-wash-with-water": {
+    "title": "Wash the patient with water",
+    "description": "The patient washes with water while Tunnawiya continues the incantation.",
+    "actionType": "wash-body",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-ritual-bathing"
+  },
+  "tunnawiya-remove-coloured-wool": {
+    "title": "Take blue and red wool off the patient",
+    "description": "Tunnawiya removes blue and red wool from the patient while speaking.",
+    "actionType": "remove-wool",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-red-blue-wool"
+  },
+  "tunnawiya-strip-black-clothes": {
+    "title": "Slit the black shirt",
+    "description": "Tunnawiya cuts the black shirt down its length and removes the dark garments.",
+    "actionType": "remove-garments",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-black-clothes"
+  },
+  "tunnawiya-smash-empty-pot": {
+    "title": "Smash the empty pot",
+    "description": "An empty pot is waved over the patient and smashed.",
+    "actionType": "break-pot",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-broken-pot"
+  },
+  "tunnawiya-bathe-over-figure": {
+    "title": "Bathe over a clay figure",
+    "description": "A clay figure is placed beneath the patient’s feet as the patient bathes.",
+    "actionType": "bathe-over-figure",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-ritual-bathing"
+  },
+  "tunnawiya-comb-down": {
+    "title": "Comb the patient downward",
+    "description": "Maidservants draw boxwood combs downward over the patient.",
+    "actionType": "comb-down",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-boxwood-combs"
+  },
+  "tunnawiya-release-into-river": {
+    "title": "Send the used objects into the river",
+    "description": "The combs, clothing and other used objects are sent into the river.",
+    "actionType": "release-into-water",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-river-release"
+  },
+  "tunnawiya-burn-small-animals": {
+    "title": "Burn the piglet and puppy",
+    "description": "The puppy and piglet are taken to uncultivated ground and burned.",
+    "actionType": "burn-animals",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-small-pyre"
+  },
+  "tunnawiya-pass-through-gate": {
+    "title": "Pass beneath the wooden gate",
+    "description": "The patient leaves beneath the alanza-wood gate as Tunnawiya speaks.",
+    "actionType": "pass-through-gate",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-alanza-gate"
+  },
+  "tunnawiya-take-cow-by-horn": {
+    "title": "Take the cow by its horn",
+    "description": "Tunnawiya takes hold of a cow by its horn to begin a fertility comparison.",
+    "actionType": "touch-living-exemplar",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-fertile-cow"
+  },
+  "tunnawiya-wish-for-offspring": {
+    "title": "Ask for offspring through the cow analogy",
+    "description": "Addressing the Sun-god, Tunnawiya likens the patient’s hoped-for descendants to a fertile cow’s increase.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "tunnawiya-fertile-cow",
+    "deityVisualId": "sun-god"
+  },
+  "tunnawiya-touch-fruit-tree": {
+    "title": "Take hold of a fruit-bearing tree",
+    "description": "Tunnawiya takes hold of a fruit-bearing tree.",
+    "actionType": "touch-living-exemplar",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-fruit-tree"
+  },
+  "tunnawiya-wish-by-tree": {
+    "title": "Ask for descendants through the tree analogy",
+    "description": "Tunnawiya addresses the Sun-god and compares descendants to the fruit on a tree.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "tunnawiya-fruit-tree",
+    "deityVisualId": "sun-god"
+  },
+  "tunnawiya-libate-sun-god": {
+    "title": "Pour wine for the Sun-god",
+    "description": "The patient pours a libation and calls on the Sun-god to keep the cleansing effective.",
+    "actionType": "libate",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-river-offering"
+  },
+  "tunnawiya-return-river-offering": {
+    "title": "Offer bread again at the riverbank",
+    "description": "Tunnawiya returns to the riverbank with bread and groats.",
+    "actionType": "offer-food-drink",
+    "unitType": "act",
+    "visualAssetId": "tunnawiya-river-offering"
   }
 }

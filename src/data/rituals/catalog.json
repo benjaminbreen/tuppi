@@ -143,5 +143,45 @@
       "wool",
       "enemy land"
     ]
+  },
+  {
+    "id": "tunnawiya",
+    "path": "/rituals/tunnawiya",
+    "title": "Tunnawiya’s Ritual of the River",
+    "cth": 409,
+    "concern": "Impurity",
+    "region": "Ḫattuša copy",
+    "tags": [
+      "Purification",
+      "River",
+      "Fertility"
+    ],
+    "sources": "KUB 7.53+",
+    "description": "River and spring clay, black garments and animals, washing and a return to the Sun-god shape this cleansing rite.",
+    "images": [
+      "/rituals/tunnawiya/river-clay.png",
+      "/rituals/tunnawiya/boxwood-combs.png",
+      "/rituals/tunnawiya/fertile-cow.png"
+    ],
+    "stepCount": 31,
+    "searchTerms": [
+      "Tunnawiya",
+      "river",
+      "spring",
+      "clay",
+      "black sheep",
+      "piglet",
+      "puppy",
+      "reed hut",
+      "wax",
+      "tallow",
+      "boxwood combs",
+      "bathing",
+      "fertility",
+      "offspring",
+      "cow",
+      "fruit tree",
+      "Sun-god"
+    ]
   }
 ]

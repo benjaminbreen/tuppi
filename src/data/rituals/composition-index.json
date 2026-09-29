@@ -1,0 +1,3229 @@
+[
+  {
+    "unitId": "uhhamuwa-bring-ram",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "bring-ram",
+    "stepNumber": 1,
+    "stepTitle": "Bring a ram",
+    "summary": "A ram is driven up for the rite.",
+    "phase": "The ram",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 obv. II 46",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-twist-wool",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "twist-wool",
+    "stepNumber": 2,
+    "stepTitle": "Twist the coloured wool",
+    "summary": "Blue, red, yellow-green, black and white wool are combined.",
+    "phase": "The ram",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Blue wool",
+      "Red wool",
+      "Yellow-green wool",
+      "Black wool",
+      "White wool"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 obv. II 46–47",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-make-wreath",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "make-wreath",
+    "stepNumber": 3,
+    "stepTitle": "Make a wool wreath",
+    "summary": "The combined wool is made into a wreath or ring.",
+    "phase": "The ram",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "twist-wool"
+    ],
+    "materials": [
+      "Combined coloured wool"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 obv. II 48",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-crown-ram",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "crown-ram",
+    "stepNumber": 4,
+    "stepTitle": "Adorn the ram",
+    "summary": "The wool wreath is placed on one ram.",
+    "phase": "The ram",
+    "function": "mark-subject",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "make-wreath",
+      "bring-ram"
+    ],
+    "materials": [
+      "Five-colour wool wreath"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 obv. II 48–49",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-lead-to-road",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "lead-to-road",
+    "stepNumber": 5,
+    "stepTitle": "Lead the ram toward the enemy road",
+    "summary": "The adorned ram is driven onto the road toward enemy territory.",
+    "phase": "The ram",
+    "function": "dispatch-substitute",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "crown-ram"
+    ],
+    "materials": [
+      "Five-colour wool wreath"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 obv. II 49–50",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-appeal-over-ram",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "appeal-over-ram",
+    "stepNumber": 6,
+    "stepTitle": "Address the hostile god",
+    "summary": "An appeal presents the adorned ram and asks the god to be at peace with Ḫatti.",
+    "phase": "The ram",
+    "function": "appease-divinity",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "crown-ram"
+    ],
+    "materials": [
+      "Adorned ram, named in the speech"
+    ],
+    "recipient": "Hostile god of the enemy land",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 obv. II 50–59",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-drive-away-ram",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "drive-away-ram",
+    "stepNumber": 7,
+    "stepTitle": "Drive the ram away",
+    "summary": "The crowned ram is sent into enemy territory.",
+    "phase": "The ram",
+    "function": "dispatch-substitute",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "lead-to-road",
+      "appeal-over-ram"
+    ],
+    "materials": [
+      "Five-colour wool wreath"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 obv. II 60–61",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-bring-fodder-fat",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "bring-fodder-fat",
+    "stepNumber": 8,
+    "stepTitle": "Bring fodder and fat",
+    "summary": "Fodder for the god's horses and sheep fat are brought.",
+    "phase": "The god’s transport",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Fodder",
+      "Sheep fat"
+    ],
+    "recipient": "Horses and chariot named in the following speech",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 obv. II 62–63",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 24
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-address-horses-chariot",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "address-horses-chariot",
+    "stepNumber": 9,
+    "stepTitle": "Address the god about his horses",
+    "summary": "The speech asks that the horses eat, the chariot be greased, and the god turn back toward his land.",
+    "phase": "The god’s transport",
+    "function": "appease-divinity",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "bring-fodder-fat"
+    ],
+    "materials": [
+      "Fodder and fat, named in the speech"
+    ],
+    "recipient": "Hostile god, addressed as Storm-god",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 obv. II 64–rev. III 7",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 24
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-bring-goat-sheep",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "bring-goat-sheep",
+    "stepNumber": 10,
+    "stepTitle": "Bring a goat and two sheep",
+    "summary": "A billy goat and two sheep are brought into the rite.",
+    "phase": "The offerings",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 rev. III 8",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "offer-goat",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "dedicate-goat",
+    "stepNumber": 11,
+    "stepTitle": "Dedicate the goat to the Seven",
+    "summary": "The billy goat is assigned to the Seven (Sebettu).",
+    "phase": "The offerings",
+    "function": "make-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "bring-goat-sheep"
+    ],
+    "materials": [],
+    "recipient": "The Seven (Sebettu)",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 rev. III 9",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "offer-sheep-to-sun-god",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "dedicate-sheep",
+    "stepNumber": 12,
+    "stepTitle": "Dedicate one sheep to the Sun-god",
+    "summary": "One sheep is assigned to the Sun-god.",
+    "phase": "The offerings",
+    "function": "make-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "bring-goat-sheep"
+    ],
+    "materials": [],
+    "recipient": "The Sun-god",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 rev. III 9–10",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "slaughter-sheep",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "kill-sheep",
+    "stepNumber": 13,
+    "stepTitle": "Kill the remaining sheep",
+    "summary": "The second sheep is killed.",
+    "phase": "The offerings",
+    "function": "kill-for-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "bring-goat-sheep"
+    ],
+    "materials": [],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 rev. III 10",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "cook-sheep-meat",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "cook-sheep",
+    "stepNumber": 14,
+    "stepTitle": "Cook the sheep",
+    "summary": "The killed sheep is cooked.",
+    "phase": "The offerings",
+    "function": "cook-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "kill-sheep"
+    ],
+    "materials": [
+      "Sheep meat"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 rev. III 10",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-bring-food-drink",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "bring-food-drink",
+    "stepNumber": 15,
+    "stepTitle": "Bring food and drink",
+    "summary": "Cheese, sour bread, wine, beer and fruit are brought, along with named vessels.",
+    "phase": "The offerings",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Cheese",
+      "Sour bread",
+      "Wine",
+      "Beer",
+      "Fruit",
+      "Named vessels"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 rev. III 11–12",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "uhhamuwa-prepare-for-road-god",
+    "ritualId": "uhhamuwa",
+    "ritualName": "Uḫḫamuwa",
+    "ritualPurpose": "A rite against plague in the land, attributed to Uḫḫamuwa of Arzawa, in which a marked ram is sent away.",
+    "cth": 410,
+    "stepId": "prepare-for-road-god",
+    "stepNumber": 16,
+    "stepTitle": "Prepare them for the road god",
+    "summary": "The gathered provisions are prepared for the god of the road.",
+    "phase": "The offerings",
+    "function": "make-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "bring-food-drink"
+    ],
+    "materials": [
+      "Cheese",
+      "Bread",
+      "Wine",
+      "Beer",
+      "Fruit"
+    ],
+    "recipient": "God of the road",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "KUB 9.31 rev. III 13",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "allii-arrange-figures",
+    "ritualId": "allii",
+    "ritualName": "Allī",
+    "ritualPurpose": "A ritual to undo bewitchment and send the harm back to its maker, attributed to Allī of Arzawa.",
+    "cth": 402,
+    "stepId": "arrange-figures",
+    "stepNumber": 1,
+    "stepTitle": "Set out the clay figures",
+    "summary": "Clay figures and tongue-shaped pieces are placed for the counter-ritual.",
+    "phase": "Clay figures and speech",
+    "function": "fashion-figure",
+    "aims": [
+      "undo-bewitchment"
+    ],
+    "requires": [],
+    "materials": [
+      "Unfired clay"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "obv. I 2–10",
+        "anchor": {
+          "kind": "line",
+          "index": 1
+        }
+      },
+      {
+        "witness": "D",
+        "doc": "kbo-11-12-plus",
+        "locus": "obv. I 3–10",
+        "anchor": {
+          "kind": "line",
+          "index": 2
+        }
+      },
+      {
+        "witness": "F",
+        "doc": "ibot-2-123-plus",
+        "locus": "obv. 2′–10′",
+        "anchor": {
+          "kind": "line",
+          "index": 2
+        }
+      },
+      {
+        "witness": "G",
+        "doc": "bo-8752-plus",
+        "locus": "obv. I 2–7′",
+        "anchor": {
+          "kind": "line",
+          "index": 1
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "allii-seat-patient",
+    "ritualId": "allii",
+    "ritualName": "Allī",
+    "ritualPurpose": "A ritual to undo bewitchment and send the harm back to its maker, attributed to Allī of Arzawa.",
+    "cth": 402,
+    "stepId": "seat-patient",
+    "stepNumber": 2,
+    "stepTitle": "Seat the patient toward the Sun-god",
+    "summary": "The bewitched person sits facing the Sun-god.",
+    "phase": "Clay figures and speech",
+    "function": "mark-subject",
+    "aims": [
+      "undo-bewitchment"
+    ],
+    "requires": [],
+    "materials": [],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "obv. I 9–10",
+        "anchor": {
+          "kind": "line",
+          "index": 8
+        }
+      },
+      {
+        "witness": "D",
+        "doc": "kbo-11-12-plus",
+        "locus": "obv. I 11–12",
+        "anchor": {
+          "kind": "line",
+          "index": 10
+        }
+      },
+      {
+        "witness": "F",
+        "doc": "ibot-2-123-plus",
+        "locus": "obv. 10′–11′",
+        "anchor": {
+          "kind": "line",
+          "index": 9
+        }
+      },
+      {
+        "witness": "G",
+        "doc": "bo-8752-plus",
+        "locus": "obv. I 5′–6′",
+        "anchor": {
+          "kind": "line",
+          "index": 7
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "allii-raise-vessel",
+    "ritualId": "allii",
+    "ritualName": "Allī",
+    "ritualPurpose": "A ritual to undo bewitchment and send the harm back to its maker, attributed to Allī of Arzawa.",
+    "cth": 402,
+    "stepId": "raise-vessel",
+    "stepNumber": 3,
+    "stepTitle": "Raise the vessel and figures",
+    "summary": "The Old Woman lifts a naktamu vessel together with the clay figures toward the Sun-god.",
+    "phase": "Clay figures and speech",
+    "function": "make-offering",
+    "aims": [
+      "undo-bewitchment"
+    ],
+    "requires": [
+      "arrange-figures"
+    ],
+    "materials": [
+      "Clay vessel",
+      "Clay figures"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "obv. I 10–11",
+        "anchor": {
+          "kind": "line",
+          "index": 9
+        }
+      },
+      {
+        "witness": "D",
+        "doc": "kbo-11-12-plus",
+        "locus": "obv. I 13–14",
+        "anchor": {
+          "kind": "line",
+          "index": 12
+        }
+      },
+      {
+        "witness": "G",
+        "doc": "bo-8752-plus",
+        "locus": "obv. I 6′–7′",
+        "anchor": {
+          "kind": "line",
+          "index": 8
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "allii-return-address",
+    "ritualId": "allii",
+    "ritualName": "Allī",
+    "ritualPurpose": "A ritual to undo bewitchment and send the harm back to its maker, attributed to Allī of Arzawa.",
+    "cth": 402,
+    "stepId": "return-address",
+    "stepNumber": 4,
+    "stepTitle": "Demand that the sorcery return",
+    "summary": "The address to the Sun-god asks that the maker of the bewitchment carry it away.",
+    "phase": "Clay figures and speech",
+    "function": "return-harm",
+    "aims": [
+      "undo-bewitchment"
+    ],
+    "requires": [
+      "raise-vessel"
+    ],
+    "materials": [
+      "Clay figures and tongues, named in speech"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "obv. I 12–25",
+        "anchor": {
+          "kind": "line",
+          "index": 11
+        }
+      },
+      {
+        "witness": "D",
+        "doc": "kbo-11-12-plus",
+        "locus": "obv. I 14–17",
+        "anchor": {
+          "kind": "line",
+          "index": 13
+        }
+      },
+      {
+        "witness": "C",
+        "doc": "kbo-55-41-plus",
+        "locus": "obv. I 2″–5″, fragmentary",
+        "anchor": {
+          "kind": "line",
+          "index": 9
+        }
+      },
+      {
+        "witness": "G",
+        "doc": "bo-8752-plus",
+        "locus": "obv. I 8′–14",
+        "anchor": {
+          "kind": "line",
+          "index": 11
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "allii-wind-wool",
+    "ritualId": "allii",
+    "ritualName": "Allī",
+    "ritualPurpose": "A ritual to undo bewitchment and send the harm back to its maker, attributed to Allī of Arzawa.",
+    "cth": 402,
+    "stepId": "wind-wool",
+    "stepNumber": 5,
+    "stepTitle": "Wind coloured wool around the figures",
+    "summary": "The Old Woman winds wool thread around the figures while naming the affliction she is returning.",
+    "phase": "Coloured wool",
+    "function": "transfer-affliction",
+    "aims": [
+      "undo-bewitchment"
+    ],
+    "requires": [
+      "arrange-figures"
+    ],
+    "materials": [
+      "Coloured wool thread"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "obv. I 31–53",
+        "anchor": {
+          "kind": "line",
+          "index": 30
+        }
+      },
+      {
+        "witness": "C",
+        "doc": "kbo-55-41-plus",
+        "locus": "obv. I, coloured wool fragments",
+        "anchor": {
+          "kind": "line",
+          "index": 15
+        }
+      },
+      {
+        "witness": "H",
+        "doc": "kub-41-1",
+        "locus": "obv. I 1′–15′",
+        "anchor": {
+          "kind": "line",
+          "index": 0
+        }
+      },
+      {
+        "witness": "I",
+        "doc": "kbo-21-8",
+        "locus": "obv. II 1–14",
+        "anchor": {
+          "kind": "line",
+          "index": 0
+        }
+      },
+      {
+        "witness": "L",
+        "doc": "kbo-47-4",
+        "locus": "1′–7′",
+        "anchor": {
+          "kind": "line",
+          "index": 0
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "allii-set-basket",
+    "ritualId": "allii",
+    "ritualName": "Allī",
+    "ritualPurpose": "A ritual to undo bewitchment and send the harm back to its maker, attributed to Allī of Arzawa.",
+    "cth": 402,
+    "stepId": "set-basket",
+    "stepNumber": 6,
+    "stepTitle": "Place the deposit beneath the bed",
+    "summary": "A prepared deposit of objects is set under the patient's bed.",
+    "phase": "Under the bed",
+    "function": "place-deposit",
+    "aims": [
+      "undo-bewitchment"
+    ],
+    "requires": [],
+    "materials": [
+      "Basket or vessel",
+      "Grain and bread",
+      "Bow and arrows"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "obv. II 44′–46′",
+        "anchor": {
+          "kind": "line",
+          "index": 96
+        }
+      },
+      {
+        "witness": "C",
+        "doc": "kbo-55-41-plus",
+        "locus": "obv. II 23′–26′",
+        "anchor": {
+          "kind": "line",
+          "index": 55
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kub-24-10",
+        "locus": "obv. II 2′–5′",
+        "anchor": {
+          "kind": "line",
+          "index": 1
+        }
+      },
+      {
+        "witness": "H",
+        "doc": "kub-41-1",
+        "locus": "rev. III 5–7",
+        "anchor": {
+          "kind": "line",
+          "index": 23
+        }
+      },
+      {
+        "witness": "E",
+        "doc": "kbo-10-41",
+        "locus": "1′–4′",
+        "anchor": {
+          "kind": "line",
+          "index": 0
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "allii-sleep-over",
+    "ritualId": "allii",
+    "ritualName": "Allī",
+    "ritualPurpose": "A ritual to undo bewitchment and send the harm back to its maker, attributed to Allī of Arzawa.",
+    "cth": 402,
+    "stepId": "sleep-over",
+    "stepNumber": 7,
+    "stepTitle": "Sleep over the deposit",
+    "summary": "The patient sleeps over the placed ritual objects.",
+    "phase": "Under the bed",
+    "function": "sleep-over-deposit",
+    "aims": [
+      "undo-bewitchment"
+    ],
+    "requires": [
+      "set-basket"
+    ],
+    "materials": [
+      "Bedside deposit"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "obv. II 46′",
+        "anchor": {
+          "kind": "line",
+          "index": 98
+        }
+      },
+      {
+        "witness": "C",
+        "doc": "kbo-55-41-plus",
+        "locus": "obv. II 24′–26′",
+        "anchor": {
+          "kind": "line",
+          "index": 56
+        }
+      },
+      {
+        "witness": "H",
+        "doc": "kub-41-1",
+        "locus": "rev. III 5–7",
+        "anchor": {
+          "kind": "line",
+          "index": 23
+        }
+      },
+      {
+        "witness": "E",
+        "doc": "kbo-10-41",
+        "locus": "3′–5′",
+        "anchor": {
+          "kind": "line",
+          "index": 2
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "allii-lift-at-dawn",
+    "ritualId": "allii",
+    "ritualName": "Allī",
+    "ritualPurpose": "A ritual to undo bewitchment and send the harm back to its maker, attributed to Allī of Arzawa.",
+    "cth": 402,
+    "stepId": "lift-at-dawn",
+    "stepNumber": 8,
+    "stepTitle": "Lift the deposit at daybreak",
+    "summary": "At first light, the Old Woman removes the bedside deposit and moves it over the patient.",
+    "phase": "Under the bed",
+    "function": "remove-deposit",
+    "aims": [
+      "undo-bewitchment"
+    ],
+    "requires": [
+      "set-basket"
+    ],
+    "materials": [
+      "Basket or vessel"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "obv. II 48′–50′",
+        "anchor": {
+          "kind": "line",
+          "index": 100
+        }
+      },
+      {
+        "witness": "C",
+        "doc": "kbo-55-41-plus",
+        "locus": "obv. II 27′–30′",
+        "anchor": {
+          "kind": "line",
+          "index": 59
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kub-24-10",
+        "locus": "obv. II 6′–8′",
+        "anchor": {
+          "kind": "line",
+          "index": 5
+        }
+      },
+      {
+        "witness": "H",
+        "doc": "kub-41-1",
+        "locus": "rev. III 11–12",
+        "anchor": {
+          "kind": "line",
+          "index": 29
+        }
+      },
+      {
+        "witness": "E",
+        "doc": "kbo-10-41",
+        "locus": "6′–8′",
+        "anchor": {
+          "kind": "line",
+          "index": 5
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "allii-press-earth",
+    "ritualId": "allii",
+    "ritualName": "Allī",
+    "ritualPurpose": "A ritual to undo bewitchment and send the harm back to its maker, attributed to Allī of Arzawa.",
+    "cth": 402,
+    "stepId": "press-earth",
+    "stepNumber": 9,
+    "stepTitle": "Press earth against the patient",
+    "summary": "The Old Woman presses an earth clod against the patient while uttering a purification analogy.",
+    "phase": "Earth and dough",
+    "function": "purify-by-analogy",
+    "aims": [
+      "undo-bewitchment"
+    ],
+    "requires": [],
+    "materials": [
+      "Earth clod"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "rev. III 1′–5′",
+        "anchor": {
+          "kind": "line",
+          "index": 111
+        }
+      },
+      {
+        "witness": "C",
+        "doc": "kbo-55-41-plus",
+        "locus": "rev. III 2′–7′",
+        "anchor": {
+          "kind": "line",
+          "index": 69
+        }
+      },
+      {
+        "witness": "H",
+        "doc": "kub-41-1",
+        "locus": "rev. III 13–19",
+        "anchor": {
+          "kind": "line",
+          "index": 31
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "allii-press-dough",
+    "ritualId": "allii",
+    "ritualName": "Allī",
+    "ritualPurpose": "A ritual to undo bewitchment and send the harm back to its maker, attributed to Allī of Arzawa.",
+    "cth": 402,
+    "stepId": "press-dough",
+    "stepNumber": 10,
+    "stepTitle": "Press dough against the patient",
+    "summary": "The Old Woman presses a lump of dough against the patient and speaks a life-giving analogy.",
+    "phase": "Earth and dough",
+    "function": "purify-by-analogy",
+    "aims": [
+      "undo-bewitchment"
+    ],
+    "requires": [],
+    "materials": [
+      "Dough"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "rev. III 6′–8′",
+        "anchor": {
+          "kind": "line",
+          "index": 117
+        }
+      },
+      {
+        "witness": "C",
+        "doc": "kbo-55-41-plus",
+        "locus": "rev. III 8′–12′",
+        "anchor": {
+          "kind": "line",
+          "index": 75
+        }
+      },
+      {
+        "witness": "H",
+        "doc": "kub-41-1",
+        "locus": "rev. III 20–22",
+        "anchor": {
+          "kind": "line",
+          "index": 38
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-prepare-ram",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "prepare-ram",
+    "stepNumber": 1,
+    "stepTitle": "Prepare a ram",
+    "summary": "Each army lord supplies a ram at dusk.",
+    "phase": "Evening",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. III 16–19",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 27
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. III 1–5",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-twist-wool",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "twist-wool",
+    "stepNumber": 2,
+    "stepTitle": "Twist three colours of wool",
+    "summary": "White, red and green wool are worked into a cord.",
+    "phase": "Evening",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "White wool",
+      "Red wool",
+      "Green wool"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. III 19–21",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 27
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. III 5–7",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-bind-ram",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "bind-ram",
+    "stepNumber": 3,
+    "stepTitle": "Bind the cord and rings to the ram",
+    "summary": "The cord and metal ornaments are fastened to the ram’s neck and horns.",
+    "phase": "Evening",
+    "function": "mark-subject",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "prepare-ram",
+      "twist-wool"
+    ],
+    "materials": [
+      "Coloured wool",
+      "Metal ring",
+      "Bead(?)"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. III 21–23",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 27
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. III 7–9",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-tether-ram",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "tether-ram",
+    "stepNumber": 4,
+    "stepTitle": "Tether the ram before a tent",
+    "summary": "The adorned ram is tied in front of a tent for the night.",
+    "phase": "Evening",
+    "function": "mark-subject",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "bind-ram"
+    ],
+    "materials": [
+      "Tether"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. III 23–25",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 27
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. III 9–11",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-appeal",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "appeal",
+    "stepNumber": 5,
+    "stepTitle": "Ask the plague god to be appeased",
+    "summary": "The speaker asks the god responsible for the plague to accept the tethered rams.",
+    "phase": "Evening",
+    "function": "appease-divinity",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "tether-ram"
+    ],
+    "materials": [],
+    "recipient": "Unidentified god",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. III 25–29",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 27
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. III 11–15",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 23
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-release-rams",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "release-rams",
+    "stepNumber": 6,
+    "stepTitle": "Release the rams at the enemy border",
+    "summary": "The rams are led through camp and let loose at the enemy border.",
+    "phase": "Morning",
+    "function": "dispatch-substitute",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "tether-ram",
+      "appeal"
+    ],
+    "materials": [],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. III 44–54",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 30
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. III 27–IV 7",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "slaughter-sheep",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "slaughter-ram",
+    "stepNumber": 7,
+    "stepTitle": "Slaughter a ram on the second day",
+    "summary": "Six rams are among the animals slaughtered on open ground.",
+    "phase": "Second day",
+    "function": "kill-for-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Bronze knives"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. III 55–IV 12",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 31
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "cook-sheep-meat",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "cook-meat",
+    "stepNumber": 8,
+    "stepTitle": "Cook the slaughtered meat",
+    "summary": "The slaughtered animals are cooked plainly.",
+    "phase": "Second day",
+    "function": "cook-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "slaughter-ram"
+    ],
+    "materials": [
+      "Meat",
+      "Fire"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. III 55–IV 12",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 31
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. III 27–IV 7",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-wash-salt-water",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "wash-salt-water",
+    "stepNumber": 9,
+    "stepTitle": "Wash hands in salted water",
+    "summary": "Salt is mixed with water, and the participants wash their hands.",
+    "phase": "Second day",
+    "function": "wash-clean",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Salt",
+      "Water"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. IV 8–17",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 26
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-pass-between-fires",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "pass-between-fires",
+    "stepNumber": 10,
+    "stepTitle": "Pass between two fires",
+    "summary": "Two fires are lit, and the participants walk between them.",
+    "phase": "Second day",
+    "function": "cross-threshold",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Two fires"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. IV 8–17",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 26
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "offer-goat",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "offer-goats",
+    "stepNumber": 11,
+    "stepTitle": "Offer two billy goats",
+    "summary": "Two billy goats are offered to the Tutelary Deity of the equipment.",
+    "phase": "Second day",
+    "function": "make-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Goats"
+    ],
+    "recipient": "Tutelary Deity of the equipment(?)",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. III 55–IV 12",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 31
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. IV 8–17",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 26
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-bring-pig",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "bring-pig",
+    "stepNumber": 12,
+    "stepTitle": "Bring a pig on the third day",
+    "summary": "A pig is driven to a different open place with a goat and ram.",
+    "phase": "Third day",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. IV 13–27",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 32
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. IV 18–30",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 27
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-offer-pig",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "offer-pig",
+    "stepNumber": 13,
+    "stepTitle": "Offer the pig to the plague god",
+    "summary": "The pig is offered with the goat and ram to the god responsible for the plague.",
+    "phase": "Third day",
+    "function": "make-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "bring-pig"
+    ],
+    "materials": [
+      "Pig"
+    ],
+    "recipient": "Unidentified plague god",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. IV 13–27",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 32
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. IV 18–30",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 27
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-offer-bull",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "offer-bull",
+    "stepNumber": 14,
+    "stepTitle": "Offer a bull to the Storm-god",
+    "summary": "The bull is offered to the Storm-god.",
+    "phase": "Fourth day",
+    "function": "make-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Bull"
+    ],
+    "recipient": "Storm-god",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. IV 28–33",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 33
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. IV 31–43",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 28
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "offer-sheep-to-sun-god",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "offer-ewe",
+    "stepNumber": 15,
+    "stepTitle": "Offer a ewe to the Sun-god",
+    "summary": "A ewe is offered to the Sun-god.",
+    "phase": "Fourth day",
+    "function": "make-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Ewe"
+    ],
+    "recipient": "Sun-god",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. IV 34–40",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 34
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. IV 31–43",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 28
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "ashella-offer-rams",
+    "ritualId": "ashella",
+    "ritualName": "Ašḫella",
+    "ritualPurpose": "A four-day ritual for plague in an army camp, attributed to Ašḫella of Ḫapalla.",
+    "cth": 394,
+    "stepId": "offer-rams",
+    "stepNumber": 16,
+    "stepTitle": "Offer three sheep to all the gods",
+    "summary": "Three sheep are offered to all the gods.",
+    "phase": "Fourth day",
+    "function": "make-offering",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Sheep"
+    ],
+    "recipient": "All the gods",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-9-31",
+        "locus": "rev. IV 34–40",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 34
+        }
+      },
+      {
+        "witness": "B",
+        "doc": "kbo-13-212-plus",
+        "locus": "rev. IV 31–43",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 28
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-select-substitutes",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "select-substitutes",
+    "stepNumber": 1,
+    "stepTitle": "Select a prisoner and a woman",
+    "summary": "A prisoner of war and a woman from the enemy land are chosen as substitutes.",
+    "phase": "Human substitutes",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 6–7",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 1
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-remove-king-garments",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "remove-king-garments",
+    "stepNumber": 2,
+    "stepTitle": "Remove the king’s festive clothes",
+    "summary": "The king takes off his festive garments.",
+    "phase": "Human substitutes",
+    "function": "remove-mark",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Festive garments"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 9–10",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 1
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-dress-man",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "dress-man",
+    "stepNumber": 3,
+    "stepTitle": "Clothe the man in the king’s garments",
+    "summary": "The prisoner receives the king’s festive garments.",
+    "phase": "Human substitutes",
+    "function": "mark-subject",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "select-substitutes",
+      "remove-king-garments"
+    ],
+    "materials": [
+      "King’s festive garments"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 10–11",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 1
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-dress-woman",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "dress-woman",
+    "stepNumber": 4,
+    "stepTitle": "Clothe the woman in festive garments",
+    "summary": "The woman is dressed in festive garments.",
+    "phase": "Human substitutes",
+    "function": "mark-subject",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "select-substitutes"
+    ],
+    "materials": [
+      "Woman’s festive garments"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 10–11",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 1
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-address-man",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "address-man",
+    "stepNumber": 5,
+    "stepTitle": "Address the male deity",
+    "summary": "The speaker offers the adorned man as a substitute and asks that he carry the plague away.",
+    "phase": "Human substitutes",
+    "function": "appease-divinity",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "dress-man"
+    ],
+    "materials": [],
+    "recipient": "A male deity of the enemy land",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 11–21",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 1
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-address-woman",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "address-woman",
+    "stepNumber": 6,
+    "stepTitle": "Address the female deity",
+    "summary": "The corresponding words are spoken to the woman concerning a female deity.",
+    "phase": "Human substitutes",
+    "function": "appease-divinity",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "dress-woman"
+    ],
+    "materials": [],
+    "recipient": "A female deity of the enemy land",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 22",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 2
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-bring-bull-ewe",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "bring-bull-ewe",
+    "stepNumber": 7,
+    "stepTitle": "Bring a bull and ewe",
+    "summary": "A bull and ewe from the enemy land are brought forward.",
+    "phase": "Animal substitutes",
+    "function": "prepare-material",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 23–24",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 3
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-ring-bull",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "ring-bull",
+    "stepNumber": 8,
+    "stepTitle": "Fit rings at the bull’s ears",
+    "summary": "The bull is fitted with ašuša-objects at its ears; their identification as rings is uncertain.",
+    "phase": "Animal substitutes",
+    "function": "mark-subject",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "bring-bull-ewe"
+    ],
+    "materials": [
+      "ašuša-rings"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 24–25",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 3
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-draw-wool",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "draw-wool",
+    "stepNumber": 9,
+    "stepTitle": "Draw coloured wool from the king’s mouth",
+    "summary": "Red, green, black and partly restored white wool are drawn out of the king’s mouth.",
+    "phase": "Animal substitutes",
+    "function": "transfer-affliction",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [],
+    "materials": [
+      "Red wool",
+      "Green wool",
+      "Black wool",
+      "White wool"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 25–26",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 3
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-address-bull",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "address-bull",
+    "stepNumber": 10,
+    "stepTitle": "Offer the bull to the male deity",
+    "summary": "The speaker offers the bull as a substitute and asks it to carry the plague away.",
+    "phase": "Animal substitutes",
+    "function": "appease-divinity",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "bring-bull-ewe",
+      "ring-bull"
+    ],
+    "materials": [
+      "Bull",
+      "ašuša-rings"
+    ],
+    "recipient": "A male deity of the enemy land",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 34–39",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 3
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-address-ewe",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "address-ewe",
+    "stepNumber": 11,
+    "stepTitle": "Offer the ewe to the female deity",
+    "summary": "The ewe is brought forward and the corresponding words address a female deity.",
+    "phase": "Animal substitutes",
+    "function": "appease-divinity",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "bring-bull-ewe"
+    ],
+    "materials": [
+      "Ewe"
+    ],
+    "recipient": "A female deity of the enemy land",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 40–41",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 4
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "pulisa-send-animals-ahead",
+    "ritualId": "pulisa",
+    "ritualName": "Puliša",
+    "ritualPurpose": "A ritual for plague brought home after a campaign: people and animals stand in for the king and carry the affliction back toward enemy territory.",
+    "cth": 407,
+    "stepId": "send-animals-ahead",
+    "stepNumber": 12,
+    "stepTitle": "Drive the bull and ewe ahead",
+    "summary": "The bull and ewe are driven in front of the two human substitutes.",
+    "phase": "Dispatch",
+    "function": "dispatch-substitute",
+    "aims": [
+      "avert-plague"
+    ],
+    "requires": [
+      "address-bull",
+      "address-ewe"
+    ],
+    "materials": [
+      "Bull",
+      "Ewe"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-15-1",
+        "locus": "KBo 15.1 obv. I 42–43",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 5
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-prepare-black-animals",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "prepare-black-animals",
+    "stepNumber": 1,
+    "stepTitle": "Bring the black animals",
+    "summary": "A black sheep, piglet and puppy are prepared; the prescribed sexes depend on the patient.",
+    "phase": "At the river",
+    "function": "prepare-material",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Black ram or ewe",
+      "Black piglet",
+      "Black puppy"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 11–Vs. I 16",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 2
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-set-out-black-clothes",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "set-out-black-clothes",
+    "stepNumber": 2,
+    "stepTitle": "Set out the black clothes",
+    "summary": "Black clothing, shoes and wool are supplied for the patient.",
+    "phase": "At the river",
+    "function": "prepare-material",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Black shirt",
+      "Black leggings",
+      "Black wool",
+      "Shoes"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 11–Vs. I 16",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 2
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-offer-bread-wine",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "offer-at-riverbank",
+    "stepNumber": 3,
+    "stepTitle": "Offer bread and wine at the riverbank",
+    "summary": "Thin bread, groats and wine are placed and poured for the riverbank Mother-goddess.",
+    "phase": "At the river",
+    "function": "make-offering",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Thin bread",
+      "Groats",
+      "Wine"
+    ],
+    "recipient": "Mother-goddess of the riverbank",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 3′–Vs. I 5′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 5
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-address-riverbank-goddess",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "address-riverbank-goddess",
+    "stepNumber": 4,
+    "stepTitle": "Address the riverbank Mother-goddess",
+    "summary": "Tunnawiya asks the riverbank Mother-goddess to cleanse the patient with clay.",
+    "phase": "At the river",
+    "function": "invoke-help",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Riverbank clay"
+    ],
+    "recipient": "Mother-goddess of the riverbank",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 6
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-collect-clay",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "collect-river-clay",
+    "stepNumber": 5,
+    "stepTitle": "Take clay from the riverbank",
+    "summary": "Tunnawiya takes clay from the riverbank after the appeal.",
+    "phase": "At the river",
+    "function": "collect-material",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "address-riverbank-goddess"
+    ],
+    "materials": [
+      "Riverbank clay"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 6
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-offer-bread-wine",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "offer-at-spring",
+    "stepNumber": 6,
+    "stepTitle": "Offer bread and wine at the spring",
+    "summary": "Thin bread, groats and wine are offered at the spring.",
+    "phase": "At the river",
+    "function": "make-offering",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Thin bread",
+      "Groats",
+      "Wine"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 6
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-collect-clay",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "collect-spring-clay",
+    "stepNumber": 7,
+    "stepTitle": "Take clay from the spring",
+    "summary": "Tunnawiya takes clay from the spring after asking it to draw impurity out.",
+    "phase": "At the river",
+    "function": "collect-material",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "offer-at-spring"
+    ],
+    "materials": [
+      "Spring clay"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 12′–Vs. I 18′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 7
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-build-reed-hut",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "build-reed-hut",
+    "stepNumber": 8,
+    "stepTitle": "Build the reed shelter",
+    "summary": "A reed shelter is built beside the river, away from tilled land.",
+    "phase": "At the river",
+    "function": "construct-setting",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Reeds"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 12′–Vs. I 18′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 7
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-make-clay-figures",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "make-clay-figures",
+    "stepNumber": 9,
+    "stepTitle": "Make clay tongues and oxen",
+    "summary": "Tunnawiya models twelve tongue shapes and two oxen from the collected clay.",
+    "phase": "At the river",
+    "function": "fashion-figure",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "collect-river-clay",
+      "collect-spring-clay"
+    ],
+    "materials": [
+      "Riverbank clay",
+      "Spring clay"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 19′–Vs. I 27′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 8
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-dress-in-black",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "dress-in-black",
+    "stepNumber": 10,
+    "stepTitle": "Dress the patient in black",
+    "summary": "At first light the patient puts on the black clothes.",
+    "phase": "The cleansing",
+    "function": "mark-subject",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "set-out-black-clothes"
+    ],
+    "materials": [
+      "Black clothing"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 28′–Vs. I 31′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 9
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-hold-black-sheep",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "hold-black-sheep",
+    "stepNumber": 11,
+    "stepTitle": "Hold a black sheep over the patient",
+    "summary": "Tunnawiya holds a black sheep over the patient while reciting.",
+    "phase": "The cleansing",
+    "function": "transfer-affliction",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "prepare-black-animals",
+      "dress-in-black"
+    ],
+    "materials": [
+      "Black sheep"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 32′–Vs. I 35′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 10
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-hold-piglet",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "hold-piglet",
+    "stepNumber": 12,
+    "stepTitle": "Hold the piglet over the patient",
+    "summary": "A piglet is held over the patient with its own incantation.",
+    "phase": "The cleansing",
+    "function": "transfer-affliction",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "prepare-black-animals"
+    ],
+    "materials": [
+      "Black piglet"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 36′–Vs. I 38′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 11
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-hold-puppy",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "hold-puppy",
+    "stepNumber": 13,
+    "stepTitle": "Hold the puppy over the patient",
+    "summary": "A puppy is held over the patient with its own incantation.",
+    "phase": "The cleansing",
+    "function": "transfer-affliction",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "prepare-black-animals"
+    ],
+    "materials": [
+      "Black puppy"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 36′–Vs. I 38′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 11
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-hold-clay-tongue",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "hold-clay-tongue",
+    "stepNumber": 14,
+    "stepTitle": "Hold a clay tongue over the patient",
+    "summary": "A clay tongue is lifted over the patient with a prescribed incantation.",
+    "phase": "The cleansing",
+    "function": "transfer-affliction",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "make-clay-figures"
+    ],
+    "materials": [
+      "Clay tongue"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 39′–Vs. II 7",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 12
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-melt-figures",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "melt-figures",
+    "stepNumber": 15,
+    "stepTitle": "Melt the wax and tallow figures",
+    "summary": "After holding the figures over the patient, Tunnawiya melts them.",
+    "phase": "The cleansing",
+    "function": "destroy-affliction",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Wax figure",
+      "Tallow figure"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. II 14–Vs. II 20",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 14
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-wash-hands-wine",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "wash-hands-wine",
+    "stepNumber": 16,
+    "stepTitle": "Wash the hands with wine",
+    "summary": "The patient rises and washes the hands with wine.",
+    "phase": "The cleansing",
+    "function": "wash-clean",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Wine"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. II 21–Vs. II 24",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 15
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-wash-with-water",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "wash-with-water",
+    "stepNumber": 17,
+    "stepTitle": "Wash the patient with water",
+    "summary": "The patient washes with water while Tunnawiya continues the incantation.",
+    "phase": "The cleansing",
+    "function": "wash-clean",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Water"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. II 25–Vs. II 29/4′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 16
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-remove-coloured-wool",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "remove-coloured-wool",
+    "stepNumber": 18,
+    "stepTitle": "Take blue and red wool off the patient",
+    "summary": "Tunnawiya removes blue and red wool from the patient while speaking.",
+    "phase": "The cleansing",
+    "function": "remove-mark",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Blue wool",
+      "Red wool"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. II 25–Vs. II 29/4′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 16
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-strip-black-clothes",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "strip-black-clothes",
+    "stepNumber": 19,
+    "stepTitle": "Slit the black shirt",
+    "summary": "Tunnawiya cuts the black shirt down its length and removes the dark garments.",
+    "phase": "The cleansing",
+    "function": "remove-mark",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "dress-in-black"
+    ],
+    "materials": [
+      "Black shirt",
+      "Black leggings",
+      "Black wool"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. II 16′–Vs. II 20′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 19
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-smash-empty-pot",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "smash-empty-pot",
+    "stepNumber": 20,
+    "stepTitle": "Smash the empty pot",
+    "summary": "An empty pot is waved over the patient and smashed.",
+    "phase": "The cleansing",
+    "function": "destroy-affliction",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Empty pot"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. II 27′–Vs. II 35′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 21
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-bathe-over-figure",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "bathe-over-figure",
+    "stepNumber": 21,
+    "stepTitle": "Bathe over a clay figure",
+    "summary": "A clay figure is placed beneath the patient’s feet as the patient bathes.",
+    "phase": "The cleansing",
+    "function": "wash-clean",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "make-clay-figures"
+    ],
+    "materials": [
+      "Clay figure",
+      "Water"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. II 36′–Vs. II 42′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 22
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-comb-down",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "comb-down",
+    "stepNumber": 22,
+    "stepTitle": "Comb the patient downward",
+    "summary": "Maidservants draw boxwood combs downward over the patient.",
+    "phase": "The cleansing",
+    "function": "wash-clean",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Boxwood combs"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. II 36′–Vs. II 42′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 22
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-release-into-river",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "release-into-river",
+    "stepNumber": 23,
+    "stepTitle": "Send the used objects into the river",
+    "summary": "The combs, clothing and other used objects are sent into the river.",
+    "phase": "Carrying away",
+    "function": "discard-carrier",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "comb-down",
+      "strip-black-clothes"
+    ],
+    "materials": [
+      "Boxwood combs",
+      "Black clothes",
+      "Wing"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Rs. III 12–Rs. III 16",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-burn-small-animals",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "burn-small-animals",
+    "stepNumber": 24,
+    "stepTitle": "Burn the piglet and puppy",
+    "summary": "The puppy and piglet are taken to uncultivated ground and burned.",
+    "phase": "Carrying away",
+    "function": "discard-carrier",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "hold-piglet",
+      "hold-puppy"
+    ],
+    "materials": [
+      "Piglet",
+      "Puppy"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Rs. III 17–Rs. III 22",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 26
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-pass-through-gate",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "pass-through-gate",
+    "stepNumber": 25,
+    "stepTitle": "Pass beneath the wooden gate",
+    "summary": "The patient leaves beneath the alanza-wood gate as Tunnawiya speaks.",
+    "phase": "Carrying away",
+    "function": "cross-threshold",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Alanza-wood gate"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Rs. III 12′–Rs. III 21′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 31
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-return-river-offering",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "return-river-offering",
+    "stepNumber": 26,
+    "stepTitle": "Offer bread again at the riverbank",
+    "summary": "Tunnawiya returns to the riverbank with bread and groats.",
+    "phase": "Carrying away",
+    "function": "make-offering",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [
+      "offer-at-riverbank"
+    ],
+    "materials": [
+      "Thin bread",
+      "Groats"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Rs. III 22′–Rs. III 24′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 32
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-take-cow-by-horn",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "take-cow-by-horn",
+    "stepNumber": 27,
+    "stepTitle": "Take the cow by its horn",
+    "summary": "Tunnawiya takes hold of a cow by its horn to begin a fertility comparison.",
+    "phase": "Restoration",
+    "function": "seek-fertility",
+    "aims": [
+      "seek-descendants"
+    ],
+    "requires": [],
+    "materials": [
+      "Cow"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Rs. IV 7–Rs. IV 14",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 34
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-wish-for-offspring",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "wish-for-offspring",
+    "stepNumber": 28,
+    "stepTitle": "Ask for offspring through the cow analogy",
+    "summary": "Addressing the Sun-god, Tunnawiya likens the patient’s hoped-for descendants to a fertile cow’s increase.",
+    "phase": "Restoration",
+    "function": "seek-fertility",
+    "aims": [
+      "seek-descendants"
+    ],
+    "requires": [
+      "take-cow-by-horn"
+    ],
+    "materials": [
+      "Cow"
+    ],
+    "recipient": "Sun-god",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Rs. IV 7–Rs. IV 14",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 34
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-touch-fruit-tree",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "touch-fruit-tree",
+    "stepNumber": 29,
+    "stepTitle": "Take hold of a fruit-bearing tree",
+    "summary": "Tunnawiya takes hold of a fruit-bearing tree.",
+    "phase": "Restoration",
+    "function": "seek-fertility",
+    "aims": [
+      "seek-descendants"
+    ],
+    "requires": [],
+    "materials": [
+      "Fruit-bearing tree"
+    ],
+    "recipient": null,
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Rs. IV 15–Rs. IV 23/4′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 35
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-wish-by-tree",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "wish-by-tree",
+    "stepNumber": 30,
+    "stepTitle": "Ask for descendants through the tree analogy",
+    "summary": "Tunnawiya addresses the Sun-god and compares descendants to the fruit on a tree.",
+    "phase": "Restoration",
+    "function": "seek-fertility",
+    "aims": [
+      "seek-descendants"
+    ],
+    "requires": [
+      "touch-fruit-tree"
+    ],
+    "materials": [
+      "Fruit-bearing tree"
+    ],
+    "recipient": "Sun-god",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Rs. IV 15–Rs. IV 23/4′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 35
+        }
+      }
+    ]
+  },
+  {
+    "unitId": "tunnawiya-libate-sun-god",
+    "ritualId": "tunnawiya",
+    "ritualName": "Tunnawiya",
+    "ritualPurpose": "A purification rite for a man or woman troubled by impurity; the text also names repeated child loss and ends with requests for descendants.",
+    "cth": 409,
+    "stepId": "libate-sun-god",
+    "stepNumber": 31,
+    "stepTitle": "Pour wine for the Sun-god",
+    "summary": "The patient pours a libation and calls on the Sun-god to keep the cleansing effective.",
+    "phase": "Restoration",
+    "function": "affirm-cleansing",
+    "aims": [
+      "cleanse-impurity"
+    ],
+    "requires": [],
+    "materials": [
+      "Wine"
+    ],
+    "recipient": "Sun-god",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Rs. IV 24/5′–Rs. IV 28",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 36
+        }
+      }
+    ]
+  }
+]
