@@ -12,6 +12,7 @@ An open workbench for Hittite cuneiform texts. First slice: plague, medicine and
 - **Rituals** — a searchable catalogue with list and card views, followed by step sequences for Uḫḫamuwa (CTH 410),
   Allī (CTH 402), Ašḫella (CTH 394) and Puliša (CTH 407). Each step links to manuscript lines and has a reconstruction image and evidence notes.
   A [task catalogue](src/data/rituals/README.md) indexes individual acts and utterances across rituals, with shared illustrations and source-linked occurrences.
+  The [ritual composer](src/pages/RitualComposer.tsx) lets visitors enter a goal, see up to six suggested acts, and inspect the source context for each act.
   The [Uḫḫamuwa image briefs](public/rituals/uhhamuwa/IMAGE_BRIEFS.md) record visual choices and their evidence limits.
 
 Catalogue records live in `src/data/rituals/catalog.json`; the [ritual edition guide](src/data/rituals/README.md) describes
@@ -24,16 +25,28 @@ npm install
 npm run dev
 ```
 
+## Connect Jev to the ritual composer
+
+The composer at `/rituals/create` uses the existing ritual task catalogue. No embeddings or database are needed. Each of the 85 attested task occurrences is sent to Jev with its aim, purpose, action, short source excerpt, and a curated symbolic role. Four historical aims and 14 broad goal themes are scored in the same request. The themes let Jev consider modern goals such as interviews, audience growth, rankings, or uncertain windfalls without pretending the Hittite texts described those uses. The server blends the act and theme scores, preserves source order and prerequisites, and favors varied roles for creative recipes. Coercive source steps and animal killing are excluded from modern analogies. A weak connection is labelled a loose analogy. The UI links every suggestion back to its original context. A step's detail panel shows Jev's raw yes/no probability of thematic relevance, and marks prerequisites added by the ordering code; this is not an efficacy score.
+
+The symbolic mapping lives in [`ritual-analogies.json`](src/data/rituals/ritual-analogies.json). A future historical or editorial review can refine each function's role and eligible themes without changing the source edition. Modern-use text remains explicitly separate from original context.
+
+Every generated or edited recipe has a **Share ritual** link. The versioned URL contains the goal, order, step IDs, and Jev estimates, so opening it needs no account, database, or API call. `/r/:recipe` serves a social preview with a dynamic title and step list, then opens the recipe in the composer. The compact step registry in [`ritual-share-ids.json`](src/data/rituals/ritual-share-ids.json) is append-only: add new IDs at the end so existing links keep pointing to the same steps. There is no server-side store of shared goals.
+
+1. Put your existing OpenRouter key after `OPENROUTER_API_KEY=` in the already-created, gitignored `.env.local` file. Restart `npm run dev`.
+2. For Vercel, add `OPENROUTER_API_KEY` in the project's Environment Variables for each desired deployment environment, then redeploy. Set the Vercel Root Directory to `tuppi` if this folder lives inside a larger repository.
+
+The server calls OpenRouter's Decisions API with model `~typesafe/jev-latest`. A separate TypeSafe account is not required. If `OPENROUTER_API_KEY` is absent, an optional `TYPESAFE_API_KEY` can use TypeSafe's direct API instead. The key is read by `/api/compose` on the server and must **not** have a `VITE_` prefix. Without either key, the page offers an explicitly labelled example preview; it never presents that example as a Jev result. Run `npm run test:composer` to check request construction, ranking, prerequisites, and the endpoint without sending an API request.
+
 ## Deploy (Vercel)
 
-The site is fully static: `npm run build` → `dist/`. The generated data in `public/data/` is committed, so Vercel
-needs no Python.
+The Vite frontend builds to `dist/`; Vercel serves the Jev proxy from `/api/compose`. The generated data in `public/data/` is committed, so Vercel needs no Python.
 
 - **Option A — its own repo:** push the local `main` branch to a chosen GitHub repository, then import that repository in Vercel (framework preset: Vite).
 - **Option B — inside a larger repo:** import that repo in Vercel and set **Root Directory** to `tuppi`.
 - **Option C — no git:** `npx vercel` from this folder.
 
-`vercel.json` rewrites all non-file routes to `index.html` so deep links like `/text/kub-9-31` work.
+`vercel.json` rewrites frontend routes to `index.html` so deep links like `/text/kub-9-31` work. It routes `/r/:recipe` to the share-preview server function and leaves `/api/compose` to the Jev proxy.
 
 ## Rebuild the data
 

@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "npm run check:rituals && tsc -b && vite build",
     "check:rituals": "node scripts/build-ritual-refs.mjs && node scripts/build-ritual-quotes.mjs && node scripts/check-rituals.mjs",
+    "test:composer": "node scripts/test-ritual-composer.mjs",
     "preview": "vite preview",
     "data": "python3 scripts/extract.py && python3 scripts/formdict.py && python3 scripts/build.py && python3 scripts/places.py && node scripts/map.mjs"
   },

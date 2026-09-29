@@ -19,6 +19,7 @@ const RitualSequence = lazy(() => import("./pages/RitualReader").then((page) => 
 const RitualStepPage = lazy(() => import("./pages/RitualReader").then((page) => ({ default: page.RitualStepPage })));
 const RitualUnitPage = lazy(() => import("./pages/RitualUnit"));
 const RitualUnitsIndex = lazy(() => import("./pages/RitualUnitsIndex"));
+const RitualComposer = lazy(() => import("./pages/RitualComposer"));
 
 function ThemeButton() {
   const [theme, setTheme] = useState<Theme>(() => {
@@ -108,6 +109,7 @@ export default function App() {
           <Route path="/substances" element={<Substances />} />
           <Route path="/substance/:id" element={<SubstancePage />} />
           <Route path="/rituals" element={<RitualsIndex />} />
+          <Route path="/rituals/create" element={<RitualComposer />} />
           <Route path="/rituals/:ritualId" element={<RitualSequence />} />
           <Route path="/rituals/:ritualId/step/:stepId" element={<RitualStepPage />} />
           <Route path="/ritual-units/:unitId" element={<RitualUnitPage />} />
