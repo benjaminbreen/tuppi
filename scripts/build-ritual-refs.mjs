@@ -49,5 +49,11 @@ fs.writeFileSync(path.join(dir, "occurrences.json"), JSON.stringify(refs, null, 
 fs.writeFileSync(path.join(dir, "composition-index.json"), JSON.stringify(composition, null, 2) + "\n");
 fs.writeFileSync(path.join(dir, "atom-index.json"), JSON.stringify(atoms) + "\n");
 fs.writeFileSync(path.join(dir, "atom-occurrences.json"), JSON.stringify(atomOccurrences, null, 1) + "\n");
+// Share links name atoms by position in this list. It is append-only: never
+// reorder or delete, or existing links will point at the wrong acts.
+const shareFile = path.join(dir, "atom-share-ids.json");
+const shareIds = fs.existsSync(shareFile) ? JSON.parse(fs.readFileSync(shareFile, "utf8")) : [];
+for (const atom of atoms) if (!shareIds.includes(atom.id)) shareIds.push(atom.id);
+fs.writeFileSync(shareFile, JSON.stringify(shareIds) + "\n");
 console.log(`Indexed ${atoms.length} atoms in ${Object.keys(atomOccurrences).length} signatures.`);
 console.log(`Indexed ${Object.values(refs).reduce((sum, items) => sum + items.length, 0)} occurrences of ${Object.keys(refs).length} ritual units.`);

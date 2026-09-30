@@ -67,6 +67,8 @@ export function decodeRitualRecipe(token) {
 // Items name atoms by their stable `ritual/step#index` id; substitutions and the
 // wording frame travel with the link so opening it needs no API call.
 import { atomById } from './ritualPlanner.js';
+import { deflateSync, inflateSync, strToU8, strFromU8 } from 'fflate';
+import atomShareIds from '../data/rituals/atom-share-ids.json' with { type: 'json' };
 import { SCHEMAS, isEntity } from './ritualAtoms.js';
 const grammarReasons = ['slot', 'requires', 'dispose', 'arc', 'manual'];
 function cleanEntity(value) {
@@ -94,19 +96,40 @@ function normalizeGrammar(recipe) {
   const goalFrame = recipe.goalFrame == null ? null : normalizeGoalFrame(recipe.goalFrame);
   return { engine: 'grammar', executionVersion: 7, goal, mode: recipe.mode, fit: recipe.fit, items, ...(goalFrame ? { goalFrame } : {}) };
 }
+// Payload version 9: atoms by position in the append-only atom-share-ids list,
+// schemas by index, then raw-deflated. Links stay short enough for messaging
+// apps to recognise as one URL (v8 links ran past 1,400 characters). Tokens
+// start with "z"; v8 and older tokens are base64 JSON starting with "W".
+const schemaNames = ['arc', ...Object.keys(SCHEMAS)];
+const shareIndex = new Map(atomShareIds.map((id, i) => [id, i]));
+const toB64 = (bytes) => { let b = ''; for (const x of bytes) b += String.fromCharCode(x); return btoa(b).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''); };
+const fromB64 = (text) => Uint8Array.from(atob(text.replace(/-/g, '+').replace(/_/g, '/')), (c) => c.charCodeAt(0));
+const trimNulls = (list) => { while (list.length && (list.at(-1) === null || list.at(-1) === undefined)) list.pop(); return list; };
 export function encodeGrammarRecipe(recipe) {
   const clean = normalizeGrammar(recipe);
   const f = clean.goalFrame;
-  const payload = [8, clean.goal, modes.indexOf(clean.mode), fits.indexOf(clean.fit),
-    clean.items.map((item) => [item.atomId, grammarReasons.indexOf(item.reason), item.schema, item.slot, item.substitute ?? null, item.gather ?? null, item.jevProbability ?? null, item.words ?? null]),
-    f ? [f.outcome, f.wish, f.method, f.relationship ?? null, f.unwanted ?? null, f.prayer ?? null, f.title ?? null] : null];
-  const bytes = new TextEncoder().encode(JSON.stringify(payload));
-  let binary = '';
-  for (const byte of bytes) binary += String.fromCharCode(byte);
-  return btoa(binary).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  const payload = [9, clean.goal, modes.indexOf(clean.mode), fits.indexOf(clean.fit),
+    clean.items.map((item) => trimNulls([shareIndex.get(item.atomId), grammarReasons.indexOf(item.reason), schemaNames.indexOf(item.schema), item.slot, item.substitute ?? null, item.gather ?? null, item.jevProbability == null ? null : Math.round(item.jevProbability * 100), item.words ?? null])),
+    f ? trimNulls([f.outcome, f.wish === `May this intention be fulfilled: “${clean.goal}”.` ? 0 : f.wish, f.method, f.relationship ?? null, f.unwanted ?? null, f.prayer ?? null, f.title ?? null]) : null];
+  if (payload[4].some((item) => item[0] == null)) throw new Error('Unregistered atom');
+  return `z${toB64(deflateSync(strToU8(JSON.stringify(payload)), { level: 9 }))}`;
+}
+function decodeCompact(token) {
+  let payload;
+  try { payload = JSON.parse(strFromU8(inflateSync(fromB64(token.slice(1))))); } catch { throw new Error('Invalid recipe link'); }
+  if (!Array.isArray(payload) || payload[0] !== 9 || payload.length !== 6 || !Array.isArray(payload[4])) throw new Error('Invalid recipe link');
+  const goal = payload[1];
+  const f = payload[5];
+  const goalFrame = Array.isArray(f) ? normalizeGoalFrame({ outcome: f[0], wish: f[1] === 0 ? `May this intention be fulfilled: “${goal}”.` : f[1], method: f[2], relationship: f[3] ?? undefined, unwanted: f[4] ?? undefined, prayer: f[5] ?? undefined, title: f[6] ?? undefined }) : null;
+  return normalizeGrammar({ goal, mode: modes[payload[2]], fit: fits[payload[3]], goalFrame,
+    items: payload[4].map((item) => {
+      if (!Array.isArray(item) || item.length < 4 || !Number.isInteger(item[0])) throw new Error('Invalid recipe link');
+      return { atomId: atomShareIds[item[0]], reason: grammarReasons[item[1]], schema: schemaNames[item[2]], slot: item[3], substitute: item[4] ?? undefined, gather: item[5] ?? undefined, jevProbability: item[6] == null ? undefined : item[6] / 100, words: item[7] ?? undefined };
+    }) });
 }
 export function decodeAnyRitualRecipe(token) {
   if (typeof token !== 'string' || token.length < 12 || token.length > 12000 || !/^[A-Za-z0-9_-]+$/.test(token)) throw new Error('Invalid recipe link');
+  if (token.startsWith('z')) return decodeCompact(token);
   let payload;
   try {
     const binary = atob(token.replace(/-/g, '+').replace(/_/g, '/'));
