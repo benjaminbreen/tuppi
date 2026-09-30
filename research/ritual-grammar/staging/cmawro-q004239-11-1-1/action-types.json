@@ -1,0 +1,22 @@
+{
+  "pound-ingredients": {
+    "title": "Pound ingredients",
+    "definition": "Crush and mix named mineral or plant materials into a paste.",
+    "externalParallels": []
+  },
+  "wash-off-door": {
+    "title": "Wash off a door",
+    "definition": "Wash applied material off a doorway so that the harm it carried is released.",
+    "externalParallels": []
+  },
+  "wrap-in-fleece": {
+    "title": "Wrap in fleece",
+    "definition": "Enclose named materials in combed wool or fleece.",
+    "externalParallels": []
+  },
+  "bury-at-threshold": {
+    "title": "Bury at a threshold",
+    "definition": "Bury a prepared deposit in or beside a gate or door socket.",
+    "externalParallels": []
+  }
+}

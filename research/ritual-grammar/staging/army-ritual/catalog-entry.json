@@ -1,0 +1,29 @@
+{
+  "title": "Ritual for the army",
+  "concern": "War",
+  "region": "Ḫatti",
+  "tags": [
+    "Army",
+    "Analogy",
+    "Binding"
+  ],
+  "sources": "KUB 45.20 · col. I–II selection",
+  "description": "Fragmentary spells: a hot stone falls silent in water, winter torpor seizes rivals, and the troops are asked to be mighty.",
+  "searchTerms": [
+    "army",
+    "troops",
+    "war",
+    "hot stone",
+    "winter",
+    "torpor",
+    "rivals",
+    "father-gods"
+  ],
+  "id": "army-ritual",
+  "path": "/rituals/army-ritual",
+  "cth": 426,
+  "images": [
+    "/rituals/_pending.png"
+  ],
+  "stepCount": 6
+}

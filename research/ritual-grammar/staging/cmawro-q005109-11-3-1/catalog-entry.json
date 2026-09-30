@@ -1,0 +1,37 @@
+{
+  "id": "cmawro-q005109-11-3-1",
+  "corpusId": "cmawro",
+  "path": "/rituals/cmawro-q005109-11-3-1",
+  "title": "Sinking the evil in the river",
+  "cth": null,
+  "sourceLabel": "CMAwR 11.3.1",
+  "concern": "Witchcraft omens",
+  "region": "Mesopotamia",
+  "tags": [
+    "Mesopotamian",
+    "Namburbi",
+    "River",
+    "Threshold"
+  ],
+  "sources": "Q005109 · CMAwR 11.3.1",
+  "description": "An apotropaic ritual: libations and an appeal at the riverbank, a threefold dip in a textile, a prayer asking the river to take the evil away, then bathing and touching the gate on returning home.",
+  "images": [
+    "/rituals/_pending.png"
+  ],
+  "stepCount": 12,
+  "searchTerms": [
+    "Akkadian",
+    "namburbi",
+    "river",
+    "riverbank",
+    "libation",
+    "beer",
+    "clay figures",
+    "textile",
+    "holy water",
+    "brewer",
+    "gypsum",
+    "bitumen",
+    "gate"
+  ]
+}

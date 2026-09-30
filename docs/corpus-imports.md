@@ -1,0 +1,40 @@
+# Comparative corpus imports
+
+The registry at `src/data/corpora.json` describes source collections, including candidates that have **not** been imported. The `/corpora` page displays those records. `npm run audit:corpora` validates the registry and reports the locally verifiable Hittite counts. Unknown external counts remain null until a provider manifest has been acquired and classified.
+
+## Common record boundaries
+
+`src/lib/corpusModel.ts` defines source references, texts, witnesses, passages, procedures and comparison claims. IDs are namespaced as `corpusId:sourceId`. An adapter must retain the provider's ID, URL, edition and locus. Dates of composition and dates of surviving witnesses are distinct. Places carry a role (findspot, origin, or mentioned) and uncertainty. A composition can contain several procedures; a procedure can have several witnesses and passages. A tablet count is not a ritual count.
+
+The existing TLHdig JSON and ritual editions remain the Hittite adapter's source data. Their CTH numbers and OS/MS/NS/LNS periods are source-specific; do not put those in the shared model. Existing pages keep their original routes during migration.
+
+## Import gate for each candidate
+
+1. Acquire the provider's structured source manifest and record its version, download date, citations and actual redistribution terms. The public existence of a page or API does not by itself grant permission to republish its editions or translations.
+2. Count all source records, then classify text genre and whether a usable transliteration and translation exist. Report coverage separately for source texts and individual witnesses.
+3. Segment distinct procedures with stable source anchors. Classify ritual, medical, and other; note partial or uncertain boundaries. Count only passage-backed procedures toward the 100–200 target. Preserve incantations and diagnoses as searchable text even when they are not procedures.
+4. Import witnesses and passages, preserving uncertainty, breaks, language changes, dates, findspots, and native line labels. Do not collapse witness date into composition date.
+5. Curate action and substance links as evidence-bearing claims. Cross-language similarity is a candidate relationship, not an automatic identification.
+6. Publish the audit with numerator and denominator for each coverage measure. Mark the corpus `audited` only after counts and rights review; mark `imported` only when the text and source links are live.
+
+**Priority:** CMAwRo, TLA magical/medical categories, then eBL's medical/procedural subset. TLA and eBL's overall corpus sizes are not evidence that 100–200 qualifying procedures are available. Candidate status remains until the import gate measures that subset.
+
+**Rights correction (2026-09-29):** TLA's [license page](https://tla.digital/info/licenses) prohibits copying whole sub-corpora or larger sets exceeding ten website pages. Its magical and medical texts can be linked and used for limited research comparison, but not bulk imported into Tuppi under the current terms. The published eBL `fragments.json` dataset is [CC BY-NC-SA 4.0](https://reference-global.com/article/10.5334/johd.148?tab=article); photographs need separate permission. Oracc's [default licence](https://oracc.museum.upenn.edu/doc/help/visitingoracc/reusingoracc/index.html) is CC BY-SA, but the official CMAwRo JSON files themselves declare **CC0**. Tuppi imports metadata from those JSON files; it links to Oracc's English translations rather than copying them.
+
+## Initial CMAwRo catalogue observation
+
+The live Oracc outline observed on 2026-09-29 lists **264 catalogue entries** in 15 groups. The category counts and source URL are preserved in `src/data/corpus-audits/cmawro-catalogue.json`. Excluding incantation-only, diagnostic, additional, fragment and Maqlû groups leaves **176 entries in potentially procedural groups**. That figure is neither a lower nor an upper bound on distinct procedures: an entry can contain multiple recipes, and entries in procedural groups can still lack enough preserved actions for decomposition. The example text Q005039 contains multiple numbered prescriptions in one catalogue entry. A source-level export and passage segmentation are necessary for the target count.
+
+Official [Oracc JSON downloads](https://oracc.museum.upenn.edu/json/) currently list `cmawro.zip`, the three volume subprojects, `cmawro-maqlu.zip`, and `cmawro-sources.zip`. Run `python3 scripts/audit-oracc-archive.py /path/to/volume.zip [...]` on locally downloaded archives. It reports edition coverage, token counts and licence declarations; it does **not** count editions as procedures. The raw archives are kept out of the repository.
+
+The 2024-07-04 archive snapshot contains **264 master-text editions**, **233 with transliterated tokens**, **236 marked with English translation on Oracc**, and **513 individual source-witness editions** (511 with tokens). Five JSON edition files are empty. `scripts/import-cmawro-metadata.py` generates `public/data/corpora/cmawro.json` from the top-level, volume, Maqlû and sources ZIPs; it stores a compact index with source links, categories, counts and linked witness periods, without copying the text. The site exposes this index at `/corpora/cmawro`. The 176 entries in potentially procedural groups remain unsegmented, so the qualifying procedure count is unknown.
+
+`scripts/import-cmawro-texts.py` converts all 264 CC0 master-text JSON files into line-anchored edited word readings at `public/data/corpora/cmawro/texts/`. This yields **58,896 word readings**; the text reader displays their Oracc lemma and gloss where present and links to the full Oracc edition. These are normalized/edited readings, not the diplomatic sign transcription or a local copy of the English translation. `npm run audit:corpora` checks the token count of every generated reader file against the catalogue index.
+
+`scripts/build-corpus-search.py` builds the `/corpora/search` line index from these CMAwRo readings and the existing Hittite documents. Search covers local readings and lexical fields, with corpus, source category and surviving-witness period filters. The index is a discovery aid; equal or similar glosses are not claims that two plants, diseases or medicines are identical. The same script records source numbering units in `src/data/corpus-audits/cmawro-source-units.json`. These prefixes are **not** ritual boundaries: some include repeated line numbering or incantations, so they must be reviewed against the source edition before procedure counts can be reported.
+
+## First Mesopotamian ritual pilot
+
+The ritual edition and step schema in `src/lib/ritualEdition.ts` now supports corpus IDs and source-specific line anchors. The first Mesopotamian edition, `src/data/rituals/cmawro-q005039-3-4-1.json`, is a five-action decomposition of [CMAwR 3.4.1](https://oracc.museum.upenn.edu/cmawro/Q005039). It is loaded by the **same ritual sequence, step-detail and task pages** as the Hittite editions. Its phases, actions, source quotations, visual assets and task occurrences flow through the same build scripts. The previous separate pilot page and parallel ritual schema were removed. Each step links to the relevant imported Akkadian line. `npm run check:rituals` checks its anchors, source metadata, material IDs and proposed comparison targets.
+
+The pilot indexes nine Mesopotamian material terms and two condition/etiology descriptions **separately** from the existing 237 Hittite substance entries. Four cross-corpus comparisons are explicit proposed claims: three broad material parallels (wool, cedar, tamarisk) and one analogous binding action. No cross-language identity, species identification, modern diagnosis, or shared canonical ritual step is asserted. Source witness periods and findspots are shown as manuscript context; neither is treated as the ritual's composition date or performance location. The edition is marked `uncertain` because its edited master text combines several witnesses and the pilot has not adjudicated all variants.

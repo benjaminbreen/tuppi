@@ -1,0 +1,282 @@
+{
+ "fashion-five-material-figures": [
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "clay"
+   },
+   "result": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "clay"
+    },
+    "ref": "clay-figures"
+   }
+  },
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "dough"
+   },
+   "result": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "dough"
+    },
+    "ref": "dough-figures"
+   }
+  },
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "fat",
+    "sub": "tallow"
+   },
+   "result": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "tallow"
+    },
+    "ref": "tallow-figures"
+   }
+  },
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "materials",
+    "sub": "bitumen"
+   },
+   "result": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "bitumen"
+    },
+    "ref": "bitumen-figures"
+   }
+  },
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "materials",
+    "sub": "wax"
+   },
+   "result": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "wax"
+    },
+    "ref": "wax-figures"
+   }
+  }
+ ],
+ "constrain-the-figures": [
+  {
+   "verb": "position",
+   "theme": {
+    "class": "figure",
+    "sub": "figure"
+   },
+   "manner": "hands bound; posture uncertain"
+  }
+ ],
+ "place-figures-in-pot": [
+  {
+   "verb": "place",
+   "theme": {
+    "class": "figure",
+    "sub": "figure"
+   },
+   "location": {
+    "class": "vessel",
+    "sub": "pot",
+    "f": {
+     "material": "clay"
+    }
+   }
+  }
+ ],
+ "set-juniper-censer": [
+  {
+   "verb": "place",
+   "theme": {
+    "class": "vessel",
+    "sub": "censer"
+   },
+   "location": "before Utu",
+   "recipient": {
+    "class": "deity",
+    "sub": "Utu"
+   }
+  },
+  {
+   "verb": "burn",
+   "theme": {
+    "class": "plant",
+    "sub": "juniper"
+   }
+  }
+ ],
+ "pour-grape-must": [
+  {
+   "verb": "pour",
+   "theme": {
+    "class": "drink",
+    "sub": "grape must"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Utu"
+   }
+  }
+ ],
+ "crush-clay-dough-figures": [
+  {
+   "verb": "crush",
+   "theme": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "clay"
+    },
+    "ref": "clay-figures"
+   },
+   "instrument": {
+    "class": "body",
+    "sub": "foot"
+   }
+  },
+  {
+   "verb": "crush",
+   "theme": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "dough"
+    },
+    "ref": "dough-figures"
+   },
+   "instrument": {
+    "class": "body",
+    "sub": "foot"
+   }
+  }
+ ],
+ "burn-fat-wax-bitumen-figures": [
+  {
+   "verb": "burn",
+   "theme": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "tallow"
+    },
+    "ref": "tallow-figures"
+   }
+  },
+  {
+   "verb": "burn",
+   "theme": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "wax"
+    },
+    "ref": "wax-figures"
+   }
+  },
+  {
+   "verb": "burn",
+   "theme": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "bitumen"
+    },
+    "ref": "bitumen-figures"
+   }
+  }
+ ],
+ "chew-six-plants-woods": [
+  {
+   "verb": "ingest",
+   "theme": {
+    "class": "tree",
+    "sub": "tamarisk"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "manner": "chew"
+  },
+  {
+   "verb": "ingest",
+   "theme": {
+    "class": "plant",
+    "sub": "soapwort"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "manner": "chew"
+  },
+  {
+   "verb": "ingest",
+   "theme": {
+    "class": "plant",
+    "sub": "palm shoot"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "manner": "chew"
+  },
+  {
+   "verb": "ingest",
+   "theme": {
+    "class": "plant",
+    "sub": "šulḫi-reed"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "manner": "chew"
+  },
+  {
+   "verb": "ingest",
+   "theme": {
+    "class": "tree",
+    "sub": "wood-of-release"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "manner": "chew"
+  },
+  {
+   "verb": "ingest",
+   "theme": {
+    "class": "tree",
+    "sub": "white cedar"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "manner": "chew"
+  }
+ ]
+}

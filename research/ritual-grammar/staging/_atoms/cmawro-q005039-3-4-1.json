@@ -1,0 +1,138 @@
+{
+ "string-stones": [
+  {
+   "verb": "wind",
+   "theme": {
+    "class": "stone",
+    "sub": "stones",
+    "count": 12
+   },
+   "onto": {
+    "class": "wool",
+    "sub": "cord",
+    "f": {
+     "material": "flax"
+    }
+   }
+  }
+ ],
+ "pack-ingredients-in-wool": [
+  {
+   "verb": "place",
+   "theme": {
+    "class": "plant",
+    "sub": "lupine"
+   },
+   "location": {
+    "class": "stone",
+    "sub": "stones",
+    "count": 12
+   }
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "plant",
+    "sub": "imḫur-līm"
+   },
+   "location": {
+    "class": "stone",
+    "sub": "stones",
+    "count": 12
+   }
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "plant",
+    "sub": "imḫur-ešrā"
+   },
+   "location": {
+    "class": "stone",
+    "sub": "stones",
+    "count": 12
+   }
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "plant",
+    "sub": "tamarisk"
+   },
+   "location": {
+    "class": "stone",
+    "sub": "stones",
+    "count": 12
+   }
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "plant",
+    "sub": "cedar"
+   },
+   "location": {
+    "class": "stone",
+    "sub": "stones",
+    "count": 12
+   }
+  },
+  {
+   "verb": "wind",
+   "theme": {
+    "class": "wool"
+   },
+   "onto": {
+    "class": "plant",
+    "sub": "ingredients"
+   }
+  }
+ ],
+ "wrap-in-leather": [
+  {
+   "verb": "wind",
+   "theme": {
+    "class": "materials",
+    "sub": "leather"
+   },
+   "onto": {
+    "class": "plant",
+    "sub": "ingredients"
+   }
+  }
+ ],
+ "interlace-bundle": [
+  {
+   "verb": "combine",
+   "theme": {
+    "class": "plant",
+    "sub": "ingredients"
+   },
+   "with": {
+    "class": "stone",
+    "sub": "stones",
+    "count": 12
+   },
+   "result": {
+    "class": "ornament",
+    "sub": "amulet"
+   }
+  }
+ ],
+ "place-around-neck": [
+  {
+   "verb": "attach",
+   "theme": {
+    "class": "ornament",
+    "sub": "amulet"
+   },
+   "onto": {
+    "class": "person",
+    "sub": "patient",
+    "f": {
+     "part": "neck"
+    }
+   }
+  }
+ ]
+}

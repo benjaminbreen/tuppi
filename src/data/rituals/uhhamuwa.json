@@ -78,7 +78,16 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "ram"
+          }
+        }
+      ]
     },
     {
       "id": "twist-wool",
@@ -123,7 +132,28 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "wool",
+            "f": {
+              "colors": [
+                "blue",
+                "red",
+                "yellow-green",
+                "black",
+                "white"
+              ]
+            }
+          },
+          "result": {
+            "class": "wool",
+            "sub": "cord"
+          }
+        }
+      ]
     },
     {
       "id": "make-wreath",
@@ -166,7 +196,19 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "wool"
+          },
+          "result": {
+            "class": "ornament",
+            "sub": "wreath"
+          }
+        }
+      ]
     },
     {
       "id": "crown-ram",
@@ -210,7 +252,26 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "ornament",
+            "sub": "wreath",
+            "f": {
+              "material": "wool"
+            }
+          },
+          "onto": {
+            "class": "animal",
+            "sub": "ram",
+            "f": {
+              "part": "head"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "lead-to-road",
@@ -254,7 +315,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "drive",
+          "theme": {
+            "class": "animal",
+            "sub": "ram",
+            "f": {
+              "adorned": true
+            }
+          },
+          "goal": "road to enemy land"
+        }
+      ]
     },
     {
       "id": "appeal-over-ram",
@@ -301,7 +375,32 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "assignment",
+          "addressee": {
+            "class": "deity",
+            "sub": "hostile god"
+          },
+          "about": {
+            "class": "animal",
+            "sub": "ram",
+            "f": {
+              "adorned": true
+            }
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "appeasement",
+          "addressee": {
+            "class": "deity",
+            "sub": "hostile god"
+          }
+        }
+      ]
     },
     {
       "id": "drive-away-ram",
@@ -346,7 +445,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "drive",
+          "theme": {
+            "class": "animal",
+            "sub": "ram",
+            "f": {
+              "adorned": true
+            }
+          },
+          "goal": "enemy land"
+        }
+      ]
     },
     {
       "id": "bring-fodder-fat",
@@ -389,7 +501,23 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "food",
+            "sub": "fodder"
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "fat",
+            "sub": "sheep"
+          }
+        }
+      ]
     },
     {
       "id": "address-horses-chariot",
@@ -435,7 +563,38 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "assignment",
+          "addressee": {
+            "class": "deity",
+            "sub": "hostile god"
+          },
+          "about": {
+            "class": "food",
+            "sub": "fodder"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "appeasement",
+          "addressee": {
+            "class": "deity",
+            "sub": "hostile god"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "addressee": {
+            "class": "deity",
+            "sub": "hostile god"
+          },
+          "goal": "his own land"
+        }
+      ]
     },
     {
       "id": "bring-goat-sheep",
@@ -474,7 +633,24 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "goat"
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "sheep",
+            "count": 2
+          }
+        }
+      ]
     },
     {
       "id": "dedicate-goat",
@@ -518,7 +694,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "dedicate",
+          "theme": {
+            "class": "animal",
+            "sub": "goat"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "the Seven"
+          }
+        }
+      ]
     },
     {
       "id": "dedicate-sheep",
@@ -562,7 +751,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "dedicate",
+          "theme": {
+            "class": "animal",
+            "sub": "sheep"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Sun-god"
+          }
+        }
+      ]
     },
     {
       "id": "kill-sheep",
@@ -603,7 +805,16 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "kill",
+          "theme": {
+            "class": "animal",
+            "sub": "sheep"
+          }
+        }
+      ]
     },
     {
       "id": "cook-sheep",
@@ -646,7 +857,16 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "cook",
+          "theme": {
+            "class": "meat",
+            "sub": "sheep"
+          }
+        }
+      ]
     },
     {
       "id": "bring-food-drink",
@@ -692,7 +912,44 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "food",
+            "sub": "cheese"
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "food",
+            "sub": "bread"
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "food",
+            "sub": "fruit"
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "drink",
+            "sub": "wine"
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "drink",
+            "sub": "beer"
+          }
+        }
+      ]
     },
     {
       "id": "prepare-for-road-god",
@@ -742,7 +999,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "offer",
+          "theme": {
+            "class": "food",
+            "sub": "provisions"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "god of the road"
+          }
+        }
+      ]
     }
   ]
 }

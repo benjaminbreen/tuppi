@@ -1,0 +1,1321 @@
+{
+  "version": 1,
+  "about": "Closed vocabulary for atomic ritual acts. Each step's `atoms[]` decomposes it into verb(theme, roles). Atoms are the comparable layer; unitIds remain the source-bound phrase layer. `effect` drives derived object lifecycles: introduce = the theme enters the rite; consume = the theme leaves it; transform = the theme becomes `result`; charge = the theme receives the unwanted condition and must later be disposed of; use = no lifecycle change.",
+  "verbs": {
+    "bring": {
+      "gloss": "bring a thing or being into the ritual space",
+      "effect": "introduce",
+      "template": "Bring {theme}{goal: to }"
+    },
+    "select": {
+      "gloss": "choose a person or animal for a role",
+      "effect": "introduce",
+      "template": "Choose {theme}"
+    },
+    "collect": {
+      "gloss": "take a substance from a place",
+      "effect": "introduce",
+      "template": "Take {theme}{source: from }"
+    },
+    "take": {
+      "gloss": "take hold of / take up an object already present",
+      "effect": "use",
+      "template": "Take up {theme}"
+    },
+    "carry": {
+      "gloss": "carry an object along a path",
+      "effect": "use",
+      "template": "Carry {theme}{goal: to }"
+    },
+    "combine": {
+      "gloss": "join materials into one (twist, mix, blend)",
+      "effect": "transform",
+      "template": "Combine {theme}{with: with }{result: into }"
+    },
+    "shape": {
+      "gloss": "form material into an object (wreath, figure, loaf)",
+      "effect": "transform",
+      "template": "Shape {theme}{result: into }"
+    },
+    "build": {
+      "gloss": "erect a structure (gate, hut, hearth)",
+      "effect": "introduce",
+      "template": "Build {theme}{location: at }"
+    },
+    "crush": {
+      "gloss": "crush, grind or pound a material",
+      "effect": "transform",
+      "template": "Crush {theme}{instrument: with }"
+    },
+    "cook": {
+      "gloss": "cook, boil or bake",
+      "effect": "transform",
+      "template": "Cook {theme}{medium: in }"
+    },
+    "cut": {
+      "gloss": "cut, split or pluck",
+      "effect": "use",
+      "template": "Cut {theme}{instrument: with }"
+    },
+    "attach": {
+      "gloss": "fasten X onto Y",
+      "effect": "use",
+      "template": "Fasten {theme}{onto: onto }"
+    },
+    "wind": {
+      "gloss": "wind thread or cord around X",
+      "effect": "use",
+      "template": "Wind {theme}{onto: around }"
+    },
+    "detach": {
+      "gloss": "remove X from a person, animal or object",
+      "effect": "use",
+      "template": "Remove {theme}{from: from }"
+    },
+    "tie": {
+      "gloss": "tether or bind in place",
+      "effect": "use",
+      "template": "Tie {theme}{location: }"
+    },
+    "place": {
+      "gloss": "set X at a location",
+      "effect": "use",
+      "template": "Place {theme}{location: }"
+    },
+    "position": {
+      "gloss": "seat, turn or station a person",
+      "effect": "use",
+      "template": "Position {theme}{location: }"
+    },
+    "hold-over": {
+      "gloss": "raise or wave X over a person so it takes up the condition",
+      "effect": "charge",
+      "template": "Hold {theme}{over: over }"
+    },
+    "press": {
+      "gloss": "press a substance against the body so it absorbs the condition",
+      "effect": "charge",
+      "template": "Press {theme}{onto: against }"
+    },
+    "present": {
+      "gloss": "raise X toward a deity or show it",
+      "effect": "use",
+      "template": "Raise {theme}{recipient: toward }"
+    },
+    "give": {
+      "gloss": "hand X to a person",
+      "effect": "use",
+      "template": "Give {theme}{to: to }"
+    },
+    "exchange": {
+      "gloss": "swap one object for another",
+      "effect": "use",
+      "template": "Exchange {theme}{for: for }"
+    },
+    "dress": {
+      "gloss": "put garments on",
+      "effect": "use",
+      "template": "Dress {on} in {theme}"
+    },
+    "undress": {
+      "gloss": "take garments off",
+      "effect": "use",
+      "template": "Remove {theme}{from: from }"
+    },
+    "draw-out": {
+      "gloss": "pull X out of the body or an orifice",
+      "effect": "introduce",
+      "template": "Draw {theme}{from: out of }"
+    },
+    "wash": {
+      "gloss": "wash with a liquid",
+      "effect": "use",
+      "template": "Wash {theme}{medium: with }"
+    },
+    "anoint": {
+      "gloss": "smear or rub a substance on",
+      "effect": "use",
+      "template": "Anoint {theme}{medium: with }"
+    },
+    "apply": {
+      "gloss": "apply a remedy to the body (bandage, poultice, daub)",
+      "effect": "consume",
+      "template": "Apply {theme}{onto: to }"
+    },
+    "ingest": {
+      "gloss": "eat or drink (the patient takes a remedy or meal)",
+      "effect": "consume",
+      "template": "Take {theme} as the remedy"
+    },
+    "comb": {
+      "gloss": "draw a comb or object downward over the body",
+      "effect": "use",
+      "template": "Draw {instrument} down over {theme}"
+    },
+    "touch": {
+      "gloss": "lay hold of a living exemplar or object",
+      "effect": "use",
+      "template": "Take hold of {theme}"
+    },
+    "gesture": {
+      "gloss": "bow, kneel, raise hands or perform a bodily sign",
+      "effect": "use",
+      "template": "{manner}"
+    },
+    "pass": {
+      "gloss": "a person moves through or between a boundary",
+      "effect": "use",
+      "template": "Pass {boundary}"
+    },
+    "sleep": {
+      "gloss": "sleep over or beside something (incubation)",
+      "effect": "use",
+      "template": "Sleep {location}"
+    },
+    "observe": {
+      "gloss": "watch for a sign (birds, dream, oracle)",
+      "effect": "use",
+      "template": "Watch {theme}"
+    },
+    "dedicate": {
+      "gloss": "assign an animal or thing to a deity",
+      "effect": "consume",
+      "template": "Dedicate {theme}{recipient: to }"
+    },
+    "offer": {
+      "gloss": "set food or goods before a deity or power",
+      "effect": "consume",
+      "template": "Offer {theme}{recipient: to }"
+    },
+    "pour": {
+      "gloss": "pour a libation",
+      "effect": "consume",
+      "template": "Pour {theme}{recipient: for }"
+    },
+    "scatter": {
+      "gloss": "strew over the ground or road",
+      "effect": "use",
+      "template": "Scatter {theme}{location: }"
+    },
+    "kill": {
+      "gloss": "kill or slaughter",
+      "effect": "transform",
+      "template": "Kill {theme}{instrument: with }"
+    },
+    "burn": {
+      "gloss": "burn, or kindle a fire",
+      "effect": "consume",
+      "template": "Burn {theme}{location: }"
+    },
+    "melt": {
+      "gloss": "melt in fire",
+      "effect": "consume",
+      "template": "Melt {theme}"
+    },
+    "break": {
+      "gloss": "smash or break",
+      "effect": "consume",
+      "template": "Break {theme}"
+    },
+    "bury": {
+      "gloss": "bury or deposit in the ground",
+      "effect": "consume",
+      "template": "Bury {theme}{location: }"
+    },
+    "drive": {
+      "gloss": "send an animal or person along a path",
+      "effect": "use",
+      "template": "Drive {theme}{goal: toward }"
+    },
+    "release": {
+      "gloss": "let go into water, open country or foreign territory",
+      "effect": "consume",
+      "template": "Release {theme}{goal: into }"
+    },
+    "close": {
+      "gloss": "shut a door or seal a container",
+      "effect": "use",
+      "template": "Close {theme}"
+    },
+    "speak": {
+      "gloss": "an utterance; its kind is given by `act`",
+      "effect": "use",
+      "template": "Speak"
+    }
+  },
+  "speechActs": {
+    "invocation": "call a deity or power by name to attend",
+    "petition": "ask a deity or power for a good",
+    "appeasement": "ask an angry deity to be calm, satisfied, or reconciled",
+    "confession": "acknowledge a fault that caused the harm",
+    "vow": "promise something in return",
+    "assignment": "declare that X belongs to, or is for, Y",
+    "substitution": "declare that X takes the place of a person",
+    "dismissal": "tell the harm, or the god who sent it, to go",
+    "analogy": "as X, so may Y (a comparison that performs the change)",
+    "declaration": "state that the change has happened (\"I have cleansed him\")",
+    "binding": "call for a harmful power to be seized, bound or held",
+    "accusation": "lay a case against the harm or its maker before a divine judge"
+  },
+  "objectClasses": {
+    "animal": "a living animal",
+    "bird": "a bird",
+    "person": "a human participant",
+    "deity": "a divine being or power",
+    "body": "a part of a participant's body",
+    "harm": "an abstract unwanted condition (plague, impurity, sorcery, anger)",
+    "wool": "wool or thread",
+    "ornament": "a ring, bead, wreath or other adornment",
+    "garment": "clothing or shoes",
+    "food": "bread, grain, fruit, cheese, fodder or other food",
+    "drink": "wine, beer, milk, honey or other drinkable liquid",
+    "liquid": "water, oil or other non-drink liquid",
+    "fat": "fat, tallow or wax as a substance",
+    "meat": "meat or parts of a killed animal",
+    "clay": "clay or mud",
+    "dough": "dough",
+    "figure": "a modelled figure or effigy",
+    "vessel": "a pot, cup or jar",
+    "container": "a basket, bag or box",
+    "structure": "a gate, hut, hearth, door or table",
+    "implement": "a tool or weapon",
+    "fire": "fire",
+    "plant": "a plant, herb, wood or aromatic",
+    "tree": "a living tree",
+    "stone": "a stone or mineral",
+    "earth": "earth, soil or dust",
+    "remedy": "a prepared medical mixture",
+    "place": "a location treated as a participant (river, spring, road)",
+    "materials": "the used materials of the rite taken together"
+  },
+  "roles": [
+    "agent",
+    "recipient",
+    "goal",
+    "source",
+    "location",
+    "boundary",
+    "instrument",
+    "medium",
+    "onto",
+    "from",
+    "over",
+    "on",
+    "to",
+    "for",
+    "with",
+    "result",
+    "time",
+    "manner",
+    "addressee",
+    "about"
+  ],
+  "schemas": {
+    "elimination": {
+      "label": "sending the trouble away on a carrier",
+      "reading": "Something unwanted should leave the person or group: it is loaded onto a carrier (animal, figure, object) that is then sent off or destroyed.",
+      "boundary": "Do not invent an enemy or a sender of the trouble. The carrier's destination can be adapted to 'away, out of bounds'.",
+      "slots": [
+        {
+          "id": "carrier",
+          "role": "prepare",
+          "match": [
+            {
+              "verb": [
+                "bring",
+                "select",
+                "shape",
+                "draw-out"
+              ],
+              "class": [
+                "animal",
+                "bird",
+                "person",
+                "figure",
+                "vessel",
+                "dough",
+                "clay"
+              ]
+            }
+          ],
+          "binds": "carrier",
+          "why": "A carrier is chosen first because the rite needs something that can leave in the person's place: the ram of Uḫḫamuwa and Ašḫella, the substitutes and bull of Puliša, the clay figure riding donkeys in the li'bu-fever rite."
+        },
+        {
+          "id": "mark",
+          "role": "core",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "attach",
+                "wind"
+              ],
+              "on": "carrier",
+              "onRole": [
+                "onto"
+              ],
+              "loose": true
+            },
+            {
+              "verb": [
+                "dress"
+              ],
+              "on": "carrier",
+              "onRole": [
+                "on"
+              ],
+              "loose": true
+            }
+          ],
+          "why": "Adorning the carrier marks it out for the power it will reach. Uḫḫamuwa crowns the ram with a five-coloured wreath and Ašḫella binds wool and metal rings to its horns, so the god receives something fit to accept."
+        },
+        {
+          "id": "load",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "hold-over",
+                "press"
+              ]
+            },
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "substitution",
+                "assignment"
+              ]
+            }
+          ],
+          "why": "This is the moment of transfer. Holding the carrier over the body, pressing it against the limbs, or declaring it a substitute moves the trouble from the person onto the carrier."
+        },
+        {
+          "id": "send",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "dismissal"
+              ]
+            }
+          ],
+          "why": "Speech makes the direction explicit: the trouble, or the god behind it, is told to go and not return. The words fix where the loaded carrier is headed."
+        },
+        {
+          "id": "dispose",
+          "role": "close",
+          "match": [
+            {
+              "verb": [
+                "drive",
+                "release",
+                "burn",
+                "break",
+                "melt",
+                "bury"
+              ],
+              "on": "carrier",
+              "loose": true
+            }
+          ],
+          "why": "The carrier now holds the trouble, so it cannot stay. Driving it to another land, releasing it into a river, burning or burying it ends the transfer."
+        }
+      ]
+    },
+    "stripping": {
+      "label": "stripping off and washing away",
+      "reading": "A clinging condition is taken off the person piece by piece: coverings removed, body washed or combed, used materials sent away.",
+      "boundary": "A modern obstacle is an analogy, not a historical impurity.",
+      "slots": [
+        {
+          "id": "strip",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "undress",
+                "detach",
+                "draw-out",
+                "comb",
+                "press"
+              ],
+              "class": [
+                "garment",
+                "wool",
+                "ornament",
+                "earth",
+                "dough",
+                "implement",
+                "materials"
+              ]
+            }
+          ],
+          "binds": "stripped",
+          "why": "The condition is treated as something that clings: Tunnawiya slits the black shirt and pulls wool from the patient's body, and Puliša draws coloured wool out of the king's mouth. Taking it off takes the condition with it."
+        },
+        {
+          "id": "wash",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "wash"
+              ]
+            },
+            {
+              "verb": [
+                "anoint"
+              ],
+              "class": [
+                "person",
+                "body"
+              ]
+            }
+          ],
+          "why": "Washing follows removal, so what remains on the body is cleaned away rather than covered over."
+        },
+        {
+          "id": "say",
+          "role": "core",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "declaration",
+                "dismissal"
+              ]
+            }
+          ],
+          "why": "A declaration or dismissal names what has been taken off, so the change is spoken as well as done."
+        },
+        {
+          "id": "dispose",
+          "role": "close",
+          "match": [
+            {
+              "verb": [
+                "release",
+                "burn",
+                "bury"
+              ],
+              "class": [
+                "materials",
+                "garment",
+                "wool",
+                "implement",
+                "figure",
+                "earth",
+                "dough"
+              ],
+              "on": "stripped",
+              "loose": true
+            }
+          ],
+          "why": "What was stripped off still carries the condition. The sources send it into the river or the fire rather than keep it."
+        }
+      ]
+    },
+    "passage": {
+      "label": "passage into a new condition",
+      "reading": "The person crosses from one state or phase to another: entering a new place, role, or chapter of life.",
+      "boundary": "The gate or fires express the change; do not claim the source concerned the modern transition.",
+      "slots": [
+        {
+          "id": "threshold",
+          "role": "prepare",
+          "match": [
+            {
+              "verb": [
+                "build"
+              ],
+              "class": [
+                "structure"
+              ],
+              "sub": [
+                "gate",
+                "door",
+                "arch"
+              ]
+            },
+            {
+              "verb": [
+                "burn"
+              ],
+              "class": [
+                "fire"
+              ]
+            }
+          ],
+          "binds": "threshold",
+          "why": "A threshold is built or kindled first: Paškuwatti's reed gate, Tunnawiya's alanza-wood gate, Ašḫella's two fires. The crossing needs a boundary to cross."
+        },
+        {
+          "id": "bind",
+          "role": "prepare",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "attach",
+                "wind"
+              ],
+              "class": [
+                "wool"
+              ]
+            }
+          ],
+          "why": "Binding the gate with coloured wool marks it as a ritual boundary rather than an ordinary doorway."
+        },
+        {
+          "id": "cross",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "pass"
+              ]
+            }
+          ],
+          "on": "threshold",
+          "why": "Passing through is the central act: the person leaves one condition on one side and arrives in the next on the other."
+        },
+        {
+          "id": "change",
+          "role": "core",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "exchange",
+                "dress",
+                "give"
+              ]
+            }
+          ],
+          "why": "Something handed over or put on at the threshold makes the new condition visible. Paškuwatti takes the spindle and distaff and gives a bow and arrows."
+        },
+        {
+          "id": "say",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "analogy",
+                "declaration",
+                "petition"
+              ]
+            }
+          ],
+          "why": "The words state what the crossing means. At the alanza gate Tunnawiya compares it to the thousands of herdsmen the gate has purified."
+        }
+      ]
+    },
+    "increase": {
+      "label": "increase by comparison",
+      "reading": "A desired good should grow: a flourishing exemplar (fruit tree, fertile animal) is touched or shown and the wish is spoken 'as this, so may that'.",
+      "boundary": "Fertility comparisons are adapted by analogy; do not add a wish for children.",
+      "slots": [
+        {
+          "id": "exemplar",
+          "role": "prepare",
+          "match": [
+            {
+              "verb": [
+                "touch"
+              ],
+              "class": [
+                "tree",
+                "animal",
+                "plant"
+              ]
+            },
+            {
+              "verb": [
+                "present"
+              ],
+              "class": [
+                "tree",
+                "plant"
+              ]
+            }
+          ],
+          "binds": "exemplar",
+          "why": "A flourishing example is touched or shown first. Tunnawiya takes hold of a cow by the horn and of a fruit-bearing tree, so the comparison has something real before it."
+        },
+        {
+          "id": "compare",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "analogy"
+              ],
+              "on": "exemplar"
+            }
+          ],
+          "why": "The comparison performs the wish: as this tree bears fruit, as this cow fills her pen, so may the desired good increase."
+        }
+      ]
+    },
+    "provision": {
+      "label": "giving to win a favourable response",
+      "reading": "Something valued is provided to a power whose goodwill matters, and a favourable response is asked in return.",
+      "boundary": "Preserve the source recipient; food in an offering does not make a deity a patron of a modern business.",
+      "slots": [
+        {
+          "id": "gather",
+          "role": "prepare",
+          "match": [
+            {
+              "verb": [
+                "bring",
+                "collect"
+              ],
+              "class": [
+                "food",
+                "drink",
+                "animal",
+                "fat",
+                "garment",
+                "wool"
+              ]
+            }
+          ],
+          "binds": "gift",
+          "prefer": [
+            "food",
+            "drink"
+          ],
+          "why": "Goods are gathered first because the rite works by giving: fodder for a god's horses, bread, wine and cheese for the god of the road."
+        },
+        {
+          "id": "ready",
+          "role": "prepare",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "cook",
+                "combine",
+                "shape",
+                "place"
+              ],
+              "on": "gift"
+            }
+          ],
+          "why": "Preparing the gift makes it fit for its recipient before it is handed over."
+        },
+        {
+          "id": "give",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "offer",
+                "dedicate",
+                "pour",
+                "scatter"
+              ],
+              "on": "gift"
+            }
+          ],
+          "why": "Offering, pouring or strewing places the gift before the power whose goodwill is sought."
+        },
+        {
+          "id": "ask",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "petition",
+                "invocation"
+              ]
+            }
+          ],
+          "why": "The request follows the gift. Ancient offerings set up reciprocity: something is given, then something is asked."
+        }
+      ]
+    },
+    "appeasement": {
+      "label": "calming an angry power",
+      "reading": "A relationship has soured; the offended party is fed, honoured and asked to turn back toward peace.",
+      "boundary": "A modern person is never identified with a deity; the rite asks divine aid concerning the relationship.",
+      "slots": [
+        {
+          "id": "gift",
+          "role": "prepare",
+          "match": [
+            {
+              "verb": [
+                "bring",
+                "scatter",
+                "offer",
+                "pour"
+              ],
+              "class": [
+                "food",
+                "drink",
+                "animal",
+                "fat"
+              ]
+            }
+          ],
+          "why": "Anger is first met with provision: Uḫḫamuwa sends fodder and tallow for the angry god's horses and chariot."
+        },
+        {
+          "id": "admit",
+          "role": "core",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "confession",
+                "vow"
+              ]
+            }
+          ],
+          "why": "Naming the fault, as Muršili does in the plague prayer, acknowledges the cause before asking for the anger to end."
+        },
+        {
+          "id": "calm",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "appeasement",
+                "petition"
+              ]
+            }
+          ],
+          "why": "The appeal asks the offended power to be calm and turn back toward peace."
+        }
+      ]
+    },
+    "protection": {
+      "label": "setting a boundary against harm",
+      "reading": "A person, house or group is shielded: a boundary is marked or sealed and harm is declared to stay outside.",
+      "boundary": "Competition alone is not a demand to harm a rival.",
+      "slots": [
+        {
+          "id": "mark",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "attach",
+                "anoint",
+                "place",
+                "tie",
+                "close",
+                "bury"
+              ],
+              "class": [
+                "structure",
+                "wool",
+                "container",
+                "fat",
+                "liquid",
+                "figure",
+                "stone"
+              ]
+            }
+          ],
+          "why": "The boundary is marked or sealed: a door anointed, a deposit buried at the gate, wool bound on the threshold."
+        },
+        {
+          "id": "say",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "assignment",
+                "binding",
+                "declaration"
+              ]
+            }
+          ],
+          "why": "The words say what the boundary does: harm stays outside, good stays within."
+        }
+      ]
+    },
+    "transformation": {
+      "label": "changing identity or role",
+      "reading": "The person puts off one role and takes up another: garments or implements are exchanged and the new state is declared.",
+      "boundary": "Source gender roles are historical particulars; the adaptation concerns the change, not a gender claim.",
+      "slots": [
+        {
+          "id": "shed",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "undress",
+                "detach"
+              ],
+              "class": [
+                "garment",
+                "implement",
+                "ornament",
+                "wool"
+              ]
+            },
+            {
+              "verb": [
+                "take"
+              ],
+              "class": [
+                "implement"
+              ]
+            }
+          ],
+          "binds": "shed",
+          "why": "The old role is set down first, as the king takes off his festive garments or the offerant hands back the spindle."
+        },
+        {
+          "id": "assume",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "dress",
+                "give",
+                "exchange"
+              ],
+              "class": [
+                "garment",
+                "implement",
+                "ornament"
+              ]
+            }
+          ],
+          "notSameAs": "shed",
+          "why": "Something new is put on or taken up, so the new role has a visible form."
+        },
+        {
+          "id": "say",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "declaration",
+                "analogy"
+              ]
+            }
+          ],
+          "why": "A declaration or comparison states the change, so the new role is named as well as worn."
+        }
+      ]
+    },
+    "healing": {
+      "label": "preparing and taking a remedy",
+      "reading": "A condition of body or mind is treated: ingredients are gathered, prepared and applied or taken until recovery.",
+      "boundary": "This is a historical recipe presented for interest, never medical advice; the adapted version must not be ingested.",
+      "slots": [
+        {
+          "id": "gather",
+          "role": "prepare",
+          "match": [
+            {
+              "verb": [
+                "collect",
+                "bring"
+              ],
+              "class": [
+                "plant",
+                "stone",
+                "fat",
+                "drink",
+                "earth",
+                "liquid"
+              ]
+            }
+          ],
+          "prefer": [
+            "plant"
+          ],
+          "why": "The remedy begins with its ingredients: named plants, oils, honey, stones."
+        },
+        {
+          "id": "prepare",
+          "role": "prepare",
+          "match": [
+            {
+              "verb": [
+                "crush",
+                "combine",
+                "cook"
+              ],
+              "class": [
+                "plant",
+                "stone",
+                "fat",
+                "drink",
+                "remedy",
+                "liquid",
+                "earth",
+                "food"
+              ]
+            }
+          ],
+          "why": "Crushing, mixing and boiling turn separate ingredients into one remedy."
+        },
+        {
+          "id": "treat",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "apply",
+                "anoint",
+                "ingest"
+              ]
+            }
+          ],
+          "why": "The remedy is applied or taken. Here it is shown for its form only, never to be used."
+        },
+        {
+          "id": "say",
+          "role": "close",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "declaration",
+                "analogy",
+                "dismissal"
+              ]
+            }
+          ],
+          "why": "An incantation or declaration often closes the treatment in both Hittite and Babylonian recipes."
+        }
+      ]
+    },
+    "return": {
+      "label": "sending harm back to its source",
+      "reading": "Harm that someone caused is returned to them: figures stand for the harm or its maker and are presented, bound and destroyed.",
+      "boundary": "Never name or target a real person; the rite returns the condition, not injury to an individual.",
+      "slots": [
+        {
+          "id": "figure",
+          "role": "prepare",
+          "match": [
+            {
+              "verb": [
+                "shape",
+                "bring",
+                "place"
+              ],
+              "class": [
+                "figure",
+                "clay",
+                "dough"
+              ]
+            }
+          ],
+          "binds": "figure",
+          "why": "Figures stand for the harm or for its maker, so the harm has a form that can be acted on."
+        },
+        {
+          "id": "present",
+          "role": "core",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "present",
+                "position"
+              ]
+            }
+          ],
+          "why": "The figures, or the afflicted person, are set before the divine judge, usually the Sun-god."
+        },
+        {
+          "id": "return",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "dismissal",
+                "binding",
+                "accusation"
+              ]
+            }
+          ],
+          "why": "The words send the harm back to where it came from and ask the judge to rule on it."
+        },
+        {
+          "id": "bind",
+          "role": "core",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "wind"
+              ]
+            },
+            {
+              "verb": [
+                "tie"
+              ],
+              "class": [
+                "wool"
+              ]
+            }
+          ],
+          "why": "Winding thread around the figures holds the returned harm fast."
+        },
+        {
+          "id": "destroy",
+          "role": "close",
+          "match": [
+            {
+              "verb": [
+                "crush",
+                "burn",
+                "melt",
+                "break",
+                "bury"
+              ],
+              "on": "figure",
+              "loose": true
+            }
+          ],
+          "why": "Destroying the figures completes the return: they are crushed, melted or burned."
+        }
+      ]
+    },
+    "sign": {
+      "label": "seeking a sign or answer",
+      "reading": "An answer about the future or a decision is sought: signs are watched, or the person sleeps over a deposit to receive one.",
+      "boundary": "Present the result as the rite's form, never as a prediction.",
+      "slots": [
+        {
+          "id": "deposit",
+          "role": "prepare",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "place"
+              ],
+              "class": [
+                "container",
+                "food",
+                "implement"
+              ]
+            }
+          ],
+          "why": "A deposit is set in place first, as Allii's basket is placed beneath the bed."
+        },
+        {
+          "id": "wait",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "observe",
+                "sleep"
+              ]
+            }
+          ],
+          "why": "The answer is waited for: the person sleeps over the deposit, or birds are watched."
+        },
+        {
+          "id": "ask",
+          "role": "core",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "petition",
+                "invocation"
+              ]
+            }
+          ],
+          "why": "The question is put to the power who will answer it."
+        }
+      ]
+    },
+    "petition": {
+      "label": "a direct appeal",
+      "reading": "A power is addressed directly: named, honoured and asked for the particular good.",
+      "boundary": "A modern person is never identified with a deity.",
+      "slots": [
+        {
+          "id": "approach",
+          "role": "prepare",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "pour",
+                "offer",
+                "present"
+              ]
+            },
+            {
+              "verb": [
+                "gesture"
+              ]
+            }
+          ],
+          "prefer": [
+            "drink",
+            "food"
+          ],
+          "why": "The power is approached with a gift or a gesture before it is addressed."
+        },
+        {
+          "id": "call",
+          "role": "core",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "invocation"
+              ]
+            }
+          ],
+          "why": "Calling the power by name asks for its attention."
+        },
+        {
+          "id": "ask",
+          "role": "core",
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "petition"
+              ]
+            }
+          ],
+          "why": "The request itself: the particular good is named."
+        },
+        {
+          "id": "promise",
+          "role": "close",
+          "optional": true,
+          "match": [
+            {
+              "verb": [
+                "speak"
+              ],
+              "act": [
+                "vow"
+              ]
+            }
+          ],
+          "why": "A promise of return, as in Muršili's vow, completes the exchange."
+        }
+      ]
+    }
+  },
+  "arc": {
+    "opening": [
+      {
+        "verb": [
+          "wash"
+        ]
+      },
+      {
+        "verb": [
+          "speak"
+        ],
+        "act": [
+          "invocation"
+        ]
+      },
+      {
+        "verb": [
+          "pour",
+          "offer"
+        ],
+        "class": [
+          "food",
+          "drink"
+        ]
+      }
+    ],
+    "closing": [
+      {
+        "verb": [
+          "pour"
+        ],
+        "class": [
+          "drink",
+          "liquid"
+        ]
+      },
+      {
+        "verb": [
+          "wash"
+        ]
+      },
+      {
+        "verb": [
+          "pass"
+        ]
+      },
+      {
+        "verb": [
+          "speak"
+        ],
+        "act": [
+          "declaration",
+          "petition"
+        ]
+      }
+    ],
+    "why": {
+      "opening": "This act opens the rite before its central operation, as washing or an invocation opens many of the source rituals.",
+      "closing": "This act closes the rite after its central operation, as a libation or a final word often does in the sources.",
+      "dispose": "Whatever has taken up the unwanted condition must leave the rite. This act removes it.",
+      "manual": "You added this step by hand.",
+      "attested": "This act comes from a ritual that was performed for the aim you asked about. The sequence follows the order of the tablet, with animals replaced by figures and nothing to be eaten."
+    }
+  }
+}

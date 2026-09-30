@@ -1,0 +1,144 @@
+{
+ "fashion-wax-figures": [
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "materials",
+    "sub": "wax"
+   },
+   "result": {
+    "class": "figure",
+    "sub": "warlock",
+    "f": {
+     "material": "wax"
+    }
+   }
+  },
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "materials",
+    "sub": "wax"
+   },
+   "result": {
+    "class": "figure",
+    "sub": "witch",
+    "f": {
+     "material": "wax"
+    }
+   }
+  }
+ ],
+ "indict-before-shamash": [
+  {
+   "verb": "present",
+   "theme": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "wax"
+    },
+    "ref": "wax-figures"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Šamaš"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "accusation",
+   "addressee": {
+    "class": "deity",
+    "sub": "Šamaš"
+   },
+   "about": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "wax"
+    },
+    "ref": "wax-figures"
+   },
+   "note": "indictment of those represented; act category approximate"
+  }
+ ],
+ "coat-with-tallow": [
+  {
+   "verb": "apply",
+   "theme": {
+    "class": "fat",
+    "sub": "tallow"
+   },
+   "onto": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "wax"
+    },
+    "ref": "wax-figures"
+   }
+  }
+ ],
+ "place-in-disposable-pot": [
+  {
+   "verb": "place",
+   "theme": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "wax"
+    },
+    "ref": "wax-figures"
+   },
+   "location": {
+    "class": "vessel",
+    "sub": "pot",
+    "f": {
+     "material": "clay"
+    }
+   }
+  }
+ ],
+ "burn-the-figures": [
+  {
+   "verb": "burn",
+   "theme": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "wax"
+    },
+    "ref": "wax-figures"
+   }
+  }
+ ],
+ "recite-return-to-shamash": [
+  {
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "Šamaš"
+   },
+   "about": {
+    "class": "harm",
+    "sub": "sorcery"
+   },
+   "note": "may their procedures turn on their skulls; variant: three times"
+  }
+ ],
+ "throw-pot-in-river": [
+  {
+   "verb": "release",
+   "theme": {
+    "class": "vessel",
+    "sub": "pot",
+    "f": {
+     "material": "clay"
+    }
+   },
+   "goal": "river"
+  }
+ ]
+}

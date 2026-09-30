@@ -1,0 +1,17 @@
+{
+  "crush-ingredients": {
+    "title": "Crush ingredients",
+    "definition": "Pound plants, woods, aromatics or minerals to prepare a remedy.",
+    "externalParallels": []
+  },
+  "cook-remedy": {
+    "title": "Cook a remedy",
+    "definition": "Boil or decoct prepared ingredients in a liquid to make a medicinal paste.",
+    "externalParallels": []
+  },
+  "apply-remedy": {
+    "title": "Apply a remedy",
+    "definition": "Put a prepared remedy on the patient's body, e.g. as a bandage or poultice.",
+    "externalParallels": []
+  }
+}

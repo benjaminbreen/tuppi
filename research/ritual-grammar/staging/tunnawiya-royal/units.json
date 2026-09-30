@@ -1,0 +1,178 @@
+{
+ "tunnawiya-royal-list-afflictions": {
+  "title": "Name the afflictions of the patient",
+  "description": "A litany that names, one by one, the afflictions lodged in the patient's body.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-list-afflictions",
+  "matchRule": "A litany that names, one by one, the afflictions lodged in the patient's body."
+ },
+ "tunnawiya-royal-list-tongues": {
+  "title": "Name the tongues of every kind of person",
+  "description": "A litany naming the 'tongues' (slander or curses) of many classes of people as harms to be removed.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-list-tongues",
+  "matchRule": "A litany naming the 'tongues' (slander or curses) of many classes of people as harms to be removed."
+ },
+ "tunnawiya-royal-recount-causes": {
+  "title": "Recount how the harm was picked up",
+  "description": "An utterance listing the possible routes (road, eyes, foot) by which the patient contracted harm.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-recount-causes",
+  "matchRule": "An utterance listing the possible routes (road, eyes, foot) by which the patient contracted harm."
+ },
+ "tunnawiya-royal-name-evil-speech": {
+  "title": "Name the patient's evil speech against the gods",
+  "description": "An utterance naming the patient's own offence (evil speech against the gods) among the causes of harm.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-name-evil-speech",
+  "matchRule": "An utterance naming the patient's own offence (evil speech against the gods) among the causes of harm."
+ },
+ "tunnawiya-royal-fit-limbs": {
+  "title": "Fit the twelve limbs together",
+  "description": "A litany declaring each of the twelve limbs 'fitted' to its counterpart.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-fit-limbs",
+  "matchRule": "A litany declaring each of the twelve limbs 'fitted' to its counterpart."
+ },
+ "tunnawiya-royal-cut-ram-limbs": {
+  "title": "Cut up the ram's twelve limbs",
+  "description": "A ram's body is divided into twelve limbs to match the patient's twelve limbs.",
+  "actionType": "dismember-animal",
+  "unitType": "act",
+  "visualAssetId": "tunnawiya-royal-cut-ram-limbs",
+  "matchRule": "A ram's body is divided into twelve limbs to match the patient's twelve limbs."
+ },
+ "tunnawiya-royal-limbs-take-sickness": {
+  "title": "Let each ram limb take up the sickness of the same limb",
+  "description": "An utterance by which each limb of a divided animal takes up the sickness of the same limb of the patient.",
+  "actionType": "assign-harm-to-carrier",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-limbs-take-sickness",
+  "matchRule": "An utterance by which each limb of a divided animal takes up the sickness of the same limb of the patient."
+ },
+ "tunnawiya-royal-declare-pulled-out": {
+  "title": "Declare the harm pulled out",
+  "description": "A first-person statement that the practitioner has pulled the harm out of the patient.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-declare-pulled-out",
+  "matchRule": "A first-person statement that the practitioner has pulled the harm out of the patient."
+ },
+ "tunnawiya-royal-take-evil-fright": {
+  "title": "Take the evil fright from him",
+  "description": "The practitioner removes a named harm from the patient's body without a stated carrier.",
+  "actionType": "take-harm-from-body",
+  "unitType": "act",
+  "visualAssetId": "tunnawiya-royal-take-evil-fright",
+  "matchRule": "The practitioner removes a named harm from the patient's body without a stated carrier."
+ },
+ "tunnawiya-royal-conjure-round-limbs": {
+  "title": "Conjure around the twelve limbs",
+  "description": "The practitioner repeats the limb litany while going around the patient's twelve limbs.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-conjure-round-limbs",
+  "matchRule": "The practitioner repeats the limb litany while going around the patient's twelve limbs."
+ },
+ "tunnawiya-royal-hold-over-back": {
+  "title": "Hold it over his back",
+  "description": "An unnamed object is held over the patient's back after he lies down in a new position.",
+  "actionType": "lift-over-patient",
+  "unitType": "act",
+  "visualAssetId": "tunnawiya-royal-hold-over-back",
+  "matchRule": "An unnamed object is held over the patient's back after he lies down in a new position."
+ },
+ "tunnawiya-royal-plough-analogy": {
+  "title": "Compare the patient to a field ploughed again",
+  "description": "An analogy between re-ploughing a field and repeating the treatment on the patient.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-plough-analogy",
+  "matchRule": "An analogy between re-ploughing a field and repeating the treatment on the patient."
+ },
+ "tunnawiya-royal-spit-into-mouth": {
+  "title": "Spit into the sheep's mouth",
+  "description": "The patient spits into the mouth of an animal carrier held out to him.",
+  "actionType": "spit-into-carrier",
+  "unitType": "act",
+  "visualAssetId": "tunnawiya-royal-spit-into-mouth",
+  "matchRule": "The patient spits into the mouth of an animal carrier held out to him."
+ },
+ "tunnawiya-royal-command-spit-out": {
+  "title": "Command him to spit out the harms",
+  "description": "A spoken command that the patient spit out named harms.",
+  "actionType": "return-harm-by-speech",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-command-spit-out",
+  "matchRule": "A spoken command that the patient spit out named harms."
+ },
+ "tunnawiya-royal-bring-piglets": {
+  "title": "Bring a dough piglet and a live piglet",
+  "description": "A live animal and a dough model of the same animal are brought together.",
+  "actionType": "bring-animal",
+  "unitType": "act",
+  "visualAssetId": "tunnawiya-royal-bring-piglets",
+  "matchRule": "A live animal and a dough model of the same animal are brought together."
+ },
+ "tunnawiya-royal-swing-live-piglet": {
+  "title": "Swing the live piglet away",
+  "description": "A live piglet is swung repeatedly (away from the patient?).",
+  "actionType": "lift-over-patient",
+  "unitType": "act",
+  "visualAssetId": "tunnawiya-royal-swing-live-piglet",
+  "matchRule": "A live piglet is swung repeatedly (away from the patient?)."
+ },
+ "tunnawiya-royal-hold-dough-piglet": {
+  "title": "Hold the dough piglet close to him",
+  "description": "A dough model animal is held close to the patient as a carrier.",
+  "actionType": "lift-over-patient",
+  "unitType": "act",
+  "visualAssetId": "tunnawiya-royal-hold-dough-piglet",
+  "matchRule": "A dough model animal is held close to the patient as a carrier."
+ },
+ "tunnawiya-royal-great-god-historiola": {
+  "title": "Tell of the great god driving from Landa",
+  "description": "A narrated myth of a god's journey spoken over the patient.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-great-god-historiola",
+  "matchRule": "A narrated myth of a god's journey spoken over the patient."
+ },
+ "tunnawiya-royal-speak-patient-name": {
+  "title": "Speak the patient's name",
+  "description": "The practitioner inserts the patient's name into the incantation.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-speak-patient-name",
+  "matchRule": "The practitioner inserts the patient's name into the incantation."
+ },
+ "tunnawiya-royal-search-historiola": {
+  "title": "Tell of the gods' search of his body",
+  "description": "A narrated myth in which gods search the patient's body part by part.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-search-historiola",
+  "matchRule": "A narrated myth in which gods search the patient's body part by part."
+ },
+ "tunnawiya-royal-cut-them-off": {
+  "title": "Cut them off from the limbs",
+  "description": "A spoken command, within a myth, to cut harms off from the patient's body parts.",
+  "actionType": "return-harm-by-speech",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-cut-them-off",
+  "matchRule": "A spoken command, within a myth, to cut harms off from the patient's body parts."
+ },
+ "tunnawiya-royal-remove-litany": {
+  "title": "Let her remove the tongues",
+  "description": "A litany asking a goddess to remove each named harm in turn.",
+  "actionType": "speak-address",
+  "unitType": "utterance",
+  "visualAssetId": "tunnawiya-royal-remove-litany",
+  "matchRule": "A litany asking a goddess to remove each named harm in turn."
+ }
+}

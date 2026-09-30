@@ -157,7 +157,21 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "ram"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "army lord"
+          },
+          "time": "dusk"
+        }
+      ]
     },
     {
       "id": "twist-wool",
@@ -209,7 +223,26 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "wool",
+            "f": {
+              "colors": [
+                "white",
+                "red",
+                "green"
+              ]
+            }
+          },
+          "result": {
+            "class": "wool",
+            "sub": "cord"
+          }
+        }
+      ]
     },
     {
       "id": "bind-ram",
@@ -264,7 +297,37 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "wool",
+            "sub": "cord"
+          },
+          "onto": {
+            "class": "animal",
+            "sub": "ram",
+            "f": {
+              "part": "neck"
+            }
+          }
+        },
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "ornament",
+            "sub": "metal"
+          },
+          "onto": {
+            "class": "animal",
+            "sub": "ram",
+            "f": {
+              "part": "horns"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "tether-ram",
@@ -317,7 +380,21 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "tie",
+          "theme": {
+            "class": "animal",
+            "sub": "ram",
+            "f": {
+              "adorned": true
+            }
+          },
+          "location": "before a tent",
+          "time": "night"
+        }
+      ]
     },
     {
       "id": "appeal",
@@ -370,7 +447,32 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "assignment",
+          "addressee": {
+            "class": "deity",
+            "sub": "plague god"
+          },
+          "about": {
+            "class": "animal",
+            "sub": "ram",
+            "f": {
+              "adorned": true
+            }
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "appeasement",
+          "addressee": {
+            "class": "deity",
+            "sub": "plague god"
+          }
+        }
+      ]
     },
     {
       "id": "release-rams",
@@ -388,8 +490,8 @@
       "material": [],
       "evidence": "The decorated woman, bread and beer also pass through the camp in the text; this unit isolates the rams’ release.",
       "image": {
-        "alt": "A single adorned ram represents the rams released; the route and landscape are not invented.",
-        "note": "A single adorned ram represents the rams released; the route and landscape are not invented."
+        "alt": "Adorned ram released toward the enemy border",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
       },
       "attestations": [
         {
@@ -422,7 +524,28 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "drive",
+          "theme": {
+            "class": "animal",
+            "sub": "ram",
+            "f": {
+              "adorned": true
+            }
+          },
+          "location": "through the camp"
+        },
+        {
+          "verb": "release",
+          "theme": {
+            "class": "animal",
+            "sub": "ram"
+          },
+          "goal": "enemy border"
+        }
+      ]
     },
     {
       "id": "slaughter-ram",
@@ -464,7 +587,17 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "kill",
+          "theme": {
+            "class": "animal",
+            "sub": "ram"
+          },
+          "instrument": "bronze knife"
+        }
+      ]
     },
     {
       "id": "cook-meat",
@@ -517,7 +650,16 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "cook",
+          "theme": {
+            "class": "meat",
+            "sub": "sheep"
+          }
+        }
+      ]
     },
     {
       "id": "wash-salt-water",
@@ -559,7 +701,28 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "stone",
+            "sub": "salt"
+          },
+          "with": {
+            "class": "liquid",
+            "sub": "water"
+          }
+        },
+        {
+          "verb": "wash",
+          "theme": {
+            "class": "body",
+            "sub": "hands"
+          },
+          "medium": "salt water"
+        }
+      ]
     },
     {
       "id": "pass-between-fires",
@@ -600,7 +763,24 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "fire",
+            "count": 2
+          }
+        },
+        {
+          "verb": "pass",
+          "theme": {
+            "class": "person",
+            "sub": "participants"
+          },
+          "boundary": "between two fires"
+        }
+      ]
     },
     {
       "id": "offer-goats",
@@ -653,7 +833,21 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "dedicate",
+          "theme": {
+            "class": "animal",
+            "sub": "goat",
+            "count": 2
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Tutelary deity"
+          }
+        }
+      ]
     },
     {
       "id": "bring-pig",
@@ -702,7 +896,17 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "drive",
+          "theme": {
+            "class": "animal",
+            "sub": "pig"
+          },
+          "goal": "open place"
+        }
+      ]
     },
     {
       "id": "offer-pig",
@@ -757,7 +961,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "dedicate",
+          "theme": {
+            "class": "animal",
+            "sub": "pig"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "plague god"
+          }
+        }
+      ]
     },
     {
       "id": "offer-bull",
@@ -810,7 +1027,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "dedicate",
+          "theme": {
+            "class": "animal",
+            "sub": "bull"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Storm-god"
+          }
+        }
+      ]
     },
     {
       "id": "offer-ewe",
@@ -863,7 +1093,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "dedicate",
+          "theme": {
+            "class": "animal",
+            "sub": "ewe"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Sun-god"
+          }
+        }
+      ]
     },
     {
       "id": "offer-rams",
@@ -916,7 +1159,21 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "dedicate",
+          "theme": {
+            "class": "animal",
+            "sub": "sheep",
+            "count": 3
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "all the gods"
+          }
+        }
+      ]
     }
   ]
 }

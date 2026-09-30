@@ -79,7 +79,23 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "select",
+          "theme": {
+            "class": "person",
+            "sub": "prisoner"
+          }
+        },
+        {
+          "verb": "select",
+          "theme": {
+            "class": "person",
+            "sub": "woman"
+          }
+        }
+      ]
     },
     {
       "id": "remove-king-garments",
@@ -120,7 +136,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "undress",
+          "theme": {
+            "class": "garment",
+            "sub": "festive garments"
+          },
+          "from": {
+            "class": "person",
+            "sub": "king"
+          }
+        }
+      ]
     },
     {
       "id": "dress-man",
@@ -140,8 +169,8 @@
       ],
       "evidence": "The action is described in obv. I 10–11.",
       "image": {
-        "alt": "The loose garments stand for the clothes transferred to the substitute; their cut is illustrative.",
-        "note": "The loose garments stand for the clothes transferred to the substitute; their cut is illustrative."
+        "alt": "Man dressed as a substitute",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
       },
       "attestations": [
         {
@@ -164,7 +193,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "dress",
+          "theme": {
+            "class": "garment",
+            "sub": "festive garments"
+          },
+          "on": {
+            "class": "person",
+            "sub": "prisoner"
+          }
+        }
+      ]
     },
     {
       "id": "dress-woman",
@@ -207,7 +249,20 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "dress",
+          "theme": {
+            "class": "garment",
+            "sub": "festive garments"
+          },
+          "on": {
+            "class": "person",
+            "sub": "woman"
+          }
+        }
+      ]
     },
     {
       "id": "address-man",
@@ -251,7 +306,29 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "substitution",
+          "addressee": {
+            "class": "deity",
+            "sub": "male deity"
+          },
+          "about": {
+            "class": "person",
+            "sub": "prisoner"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "about": {
+            "class": "harm",
+            "sub": "plague"
+          }
+        }
+      ]
     },
     {
       "id": "address-woman",
@@ -295,7 +372,21 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "substitution",
+          "addressee": {
+            "class": "deity",
+            "sub": "female deity"
+          },
+          "about": {
+            "class": "person",
+            "sub": "woman"
+          }
+        }
+      ]
     },
     {
       "id": "bring-bull-ewe",
@@ -334,7 +425,23 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "bull"
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "ewe"
+          }
+        }
+      ]
     },
     {
       "id": "ring-bull",
@@ -377,7 +484,23 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "ornament",
+            "sub": "ring"
+          },
+          "onto": {
+            "class": "animal",
+            "sub": "bull",
+            "f": {
+              "part": "ears"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "draw-wool",
@@ -421,7 +544,30 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "draw-out",
+          "theme": {
+            "class": "wool",
+            "f": {
+              "colors": [
+                "red",
+                "green",
+                "black",
+                "white"
+              ]
+            }
+          },
+          "from": {
+            "class": "person",
+            "sub": "king",
+            "f": {
+              "part": "mouth"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "address-bull",
@@ -469,7 +615,29 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "substitution",
+          "addressee": {
+            "class": "deity",
+            "sub": "male deity"
+          },
+          "about": {
+            "class": "animal",
+            "sub": "bull"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "about": {
+            "class": "harm",
+            "sub": "plague"
+          }
+        }
+      ]
     },
     {
       "id": "address-ewe",
@@ -515,7 +683,21 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "substitution",
+          "addressee": {
+            "class": "deity",
+            "sub": "female deity"
+          },
+          "about": {
+            "class": "animal",
+            "sub": "ewe"
+          }
+        }
+      ]
     },
     {
       "id": "send-animals-ahead",
@@ -561,7 +743,25 @@
         "aims": [
           "avert-plague"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "drive",
+          "theme": {
+            "class": "animal",
+            "sub": "bull"
+          },
+          "goal": "ahead of the substitutes"
+        },
+        {
+          "verb": "drive",
+          "theme": {
+            "class": "animal",
+            "sub": "ewe"
+          },
+          "goal": "ahead of the substitutes"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,272 @@
+{
+ "bring-ram": [
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "ram"
+   }
+  }
+ ],
+ "twist-wool": [
+  {
+   "verb": "combine",
+   "theme": {
+    "class": "wool",
+    "f": {
+     "colors": [
+      "blue",
+      "red",
+      "yellow-green",
+      "black",
+      "white"
+     ]
+    }
+   },
+   "result": {
+    "class": "wool",
+    "sub": "cord"
+   }
+  }
+ ],
+ "make-wreath": [
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "wool"
+   },
+   "result": {
+    "class": "ornament",
+    "sub": "wreath"
+   }
+  }
+ ],
+ "crown-ram": [
+  {
+   "verb": "attach",
+   "theme": {
+    "class": "ornament",
+    "sub": "wreath",
+    "f": {
+     "material": "wool"
+    }
+   },
+   "onto": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "part": "head"
+    }
+   }
+  }
+ ],
+ "lead-to-road": [
+  {
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "adorned": true
+    }
+   },
+   "goal": "road to enemy land"
+  }
+ ],
+ "appeal-over-ram": [
+  {
+   "verb": "speak",
+   "act": "assignment",
+   "addressee": {
+    "class": "deity",
+    "sub": "hostile god"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "adorned": true
+    }
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "appeasement",
+   "addressee": {
+    "class": "deity",
+    "sub": "hostile god"
+   }
+  }
+ ],
+ "drive-away-ram": [
+  {
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "adorned": true
+    }
+   },
+   "goal": "enemy land"
+  }
+ ],
+ "bring-fodder-fat": [
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "food",
+    "sub": "fodder"
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "fat",
+    "sub": "sheep"
+   }
+  }
+ ],
+ "address-horses-chariot": [
+  {
+   "verb": "speak",
+   "act": "assignment",
+   "addressee": {
+    "class": "deity",
+    "sub": "hostile god"
+   },
+   "about": {
+    "class": "food",
+    "sub": "fodder"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "appeasement",
+   "addressee": {
+    "class": "deity",
+    "sub": "hostile god"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "dismissal",
+   "addressee": {
+    "class": "deity",
+    "sub": "hostile god"
+   },
+   "goal": "his own land"
+  }
+ ],
+ "bring-goat-sheep": [
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "goat"
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep",
+    "count": 2
+   }
+  }
+ ],
+ "dedicate-goat": [
+  {
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "goat"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "the Seven"
+   }
+  }
+ ],
+ "dedicate-sheep": [
+  {
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Sun-god"
+   }
+  }
+ ],
+ "kill-sheep": [
+  {
+   "verb": "kill",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep"
+   }
+  }
+ ],
+ "cook-sheep": [
+  {
+   "verb": "cook",
+   "theme": {
+    "class": "meat",
+    "sub": "sheep"
+   }
+  }
+ ],
+ "bring-food-drink": [
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "food",
+    "sub": "cheese"
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "food",
+    "sub": "fruit"
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "drink",
+    "sub": "wine"
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "drink",
+    "sub": "beer"
+   }
+  }
+ ],
+ "prepare-for-road-god": [
+  {
+   "verb": "offer",
+   "theme": {
+    "class": "food",
+    "sub": "provisions"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "god of the road"
+   }
+  }
+ ]
+}

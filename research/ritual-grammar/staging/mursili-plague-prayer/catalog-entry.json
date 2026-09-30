@@ -1,0 +1,32 @@
+{
+  "title": "Muršili’s Second Plague Prayer",
+  "concern": "Plague",
+  "region": "Ḫatti",
+  "tags": [
+    "Plague",
+    "Prayer",
+    "Confession",
+    "Oath"
+  ],
+  "sources": "KUB 14.8 · main copy (A)",
+  "description": "Muršili II confesses his father's broken oath to the Storm-god of Ḫatti, vows restitution and pleads for the plague to end.",
+  "searchTerms": [
+    "Mursili",
+    "Muršili",
+    "plague prayer",
+    "Storm-god",
+    "confession",
+    "oath",
+    "Egypt",
+    "Kuruštamma",
+    "Mala",
+    "restitution"
+  ],
+  "id": "mursili-plague-prayer",
+  "path": "/rituals/mursili-plague-prayer",
+  "cth": 378,
+  "images": [
+    "/rituals/_pending.png"
+  ],
+  "stepCount": 12
+}

@@ -1,0 +1,63 @@
+{
+ "take-implements": [
+  {
+   "verb": "take",
+   "theme": {
+    "class": "implement",
+    "sub": "ritual implements"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "attendants"
+   }
+  }
+ ],
+ "close-door": [
+  {
+   "verb": "close",
+   "theme": {
+    "class": "structure",
+    "sub": "door",
+    "ref": "courtyard-door"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "master of the house"
+   }
+  }
+ ],
+ "anoint-door": [
+  {
+   "verb": "anoint",
+   "theme": {
+    "class": "structure",
+    "sub": "door",
+    "ref": "courtyard-door"
+   },
+   "medium": {
+    "class": "liquid",
+    "sub": "oil",
+    "f": {
+     "quality": "fine"
+    }
+   }
+  }
+ ],
+ "speak-formula": [
+  {
+   "verb": "speak",
+   "act": "binding",
+   "about": {
+    "class": "harm",
+    "sub": "evil"
+   },
+   "note": "let evil be shut out"
+  },
+  {
+   "verb": "speak",
+   "act": "binding",
+   "about": "good",
+   "note": "let good be held fast inside"
+  }
+ ]
+}

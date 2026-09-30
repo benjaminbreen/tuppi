@@ -183,5 +183,720 @@
       "fruit tree",
       "Sun-god"
     ]
+  },
+  {
+    "id": "dandanku",
+    "path": "/rituals/dandanku",
+    "title": "Dandanku the augur",
+    "cth": 425,
+    "concern": "Plague",
+    "region": "Arzawa",
+    "tags": [
+      "Plague",
+      "Army",
+      "Iyarri"
+    ],
+    "sources": "KUB 7.54 · Dandanku section",
+    "description": "Fodder and wool are offered on the road, followed by offerings to the Seven.",
+    "images": [
+      "/rituals/uhhamuwa/08-fodder.png",
+      "/rituals/uhhamuwa/05-road.png",
+      "/rituals/dandanku/three-animals.png"
+    ],
+    "stepCount": 8,
+    "searchTerms": [
+      "plague",
+      "army",
+      "fodder",
+      "wool",
+      "Iyarri",
+      "Seven",
+      "road",
+      "libation"
+    ]
+  },
+  {
+    "id": "paskuwatti",
+    "path": "/rituals/paskuwatti",
+    "title": "Paškuwatti of Arzawa",
+    "cth": 406,
+    "concern": "Procreative power",
+    "region": "Arzawa",
+    "tags": [
+      "Procreation",
+      "Petition",
+      "Arzawa"
+    ],
+    "sources": "KUB 7.8+",
+    "description": "Offerings, a reed-gate crossing and a prayer to Uliliyašši form a three-day rite.",
+    "images": [
+      "/rituals/uhhamuwa/15-provisions.png",
+      "/rituals/paskuwatti/reed-gate.png",
+      "/rituals/paskuwatti/spindle-distaff.png"
+    ],
+    "stepCount": 10,
+    "searchTerms": [
+      "procreation",
+      "descendants",
+      "reed gate",
+      "spindle",
+      "bow",
+      "Uliliyašši",
+      "wool",
+      "prayer"
+    ]
+  },
+  {
+    "id": "zarpiya",
+    "path": "/rituals/zarpiya",
+    "title": "Zarpiya of Kizzuwatna",
+    "cth": 757,
+    "concern": "Plague",
+    "region": "Kizzuwatna",
+    "tags": [
+      "Plague",
+      "Protection",
+      "Kizzuwatna"
+    ],
+    "sources": "KUB 9.31 · Zarpiya section",
+    "description": "A closing passage shuts and anoints the door while protective words are spoken.",
+    "images": [
+      "/rituals/zarpiya/closed-door-oil.png"
+    ],
+    "stepCount": 4,
+    "searchTerms": [
+      "bad year",
+      "plague",
+      "door",
+      "oil",
+      "protection",
+      "formula"
+    ]
+  },
+  {
+    "id": "maddunani",
+    "path": "/rituals/maddunani",
+    "title": "Maddunani’s ritual",
+    "cth": 425,
+    "concern": "Plague",
+    "region": "Arzawa",
+    "tags": [
+      "Plague",
+      "Army",
+      "Omens"
+    ],
+    "sources": "KUB 7.54 · Maddunani section, paragraphs 1–4",
+    "description": "Two puppies, a piglet and provisions are prepared before the augur and an older man work through the army camp and watch for bird omens.",
+    "images": [
+      "/rituals/maddunani/provisions.png"
+    ],
+    "stepCount": 5,
+    "searchTerms": [
+      "Maddunani",
+      "plague",
+      "army",
+      "puppies",
+      "piglet",
+      "bird omen"
+    ]
+  },
+  {
+    "id": "zelliya",
+    "path": "/rituals/zelliya",
+    "title": "Zelliya’s funerary ritual",
+    "cth": 783,
+    "concern": "Funerary rite",
+    "region": "Kurkanza",
+    "tags": [
+      "Funerary",
+      "Cremation",
+      "Išḫara"
+    ],
+    "sources": "KUB 30.26 · selected surviving passages",
+    "description": "Clothing, vessels, food and precious metals are prepared; the dead person is then carried outside and cremated.",
+    "images": [
+      "/rituals/zelliya/cremation.png"
+    ],
+    "stepCount": 4,
+    "searchTerms": [
+      "Zelliya",
+      "funeral",
+      "cremation",
+      "Ishara",
+      "garments",
+      "grain"
+    ]
+  },
+  {
+    "id": "cmawro-q005039-3-4-1",
+    "corpusId": "cmawro",
+    "path": "/rituals/cmawro-q005039-3-4-1",
+    "title": "Necklace and pouch against distress and hostile magic",
+    "cth": null,
+    "sourceLabel": "CMAwR 3.4.1",
+    "concern": "Hostile magic",
+    "region": "Mesopotamia",
+    "tags": [
+      "Mesopotamian",
+      "Amulet",
+      "Hostile magic",
+      "Pilot"
+    ],
+    "sources": "Q005039 · CMAwR vol. 2, 3.4.1",
+    "description": "Prepare and place a stone-and-plant amulet for a person described as distressed and subject to hostile magic.",
+    "images": [
+      "/rituals/cmawro/01-string-stones.png",
+      "/rituals/cmawro/03-wrap-leather.png",
+      "/rituals/cmawro/05-place-neck.png"
+    ],
+    "stepCount": 5,
+    "searchTerms": [
+      "Akkadian",
+      "flax",
+      "wool",
+      "leather",
+      "stone",
+      "cedar",
+      "tamarisk",
+      "necklace",
+      "pouch"
+    ]
+  },
+  {
+    "id": "tapalazunauli",
+    "path": "/rituals/tapalazunauli",
+    "title": "Tapalazunauli’s plague ritual",
+    "cth": 424,
+    "concern": "Plague",
+    "region": "Arzawa",
+    "tags": [
+      "Plague",
+      "Donkey",
+      "Offering"
+    ],
+    "sources": "KUB 41.17 + KBo 64.14 · Tapalazunauli section, first-day selection",
+    "description": "A donkey carries evil toward enemy land; straw and bread are taken through a gate for the god and his dogs.",
+    "images": [
+      "/rituals/tapalazunauli/donkey.png"
+    ],
+    "stepCount": 9,
+    "searchTerms": [
+      "Tapalazunauli",
+      "plague",
+      "donkey",
+      "basket",
+      "straw",
+      "bread",
+      "gate"
+    ]
+  },
+  {
+    "id": "ummaya",
+    "path": "/rituals/ummaya",
+    "title": "Ummaya’s substitute ritual",
+    "cth": 779,
+    "concern": "Royal protection",
+    "region": "Unspecified",
+    "tags": [
+      "Royal rite",
+      "Substitution",
+      "Hurrian"
+    ],
+    "sources": "KBo 15.1 · Ummaya section, selected surviving acts",
+    "description": "At a city wall, Ummaya prepares and conjures; a man and two oxen are released as substitutes.",
+    "images": [
+      "/rituals/ummaya/city-wall.png"
+    ],
+    "stepCount": 4,
+    "searchTerms": [
+      "Ummaya",
+      "substitute",
+      "oxen",
+      "city wall",
+      "Hurrian",
+      "king"
+    ]
+  },
+  {
+    "id": "cmawro-q004189-1-5-1",
+    "corpusId": "cmawro",
+    "path": "/rituals/cmawro-q004189-1-5-1",
+    "title": "Figurines against unknown witchcraft",
+    "cth": null,
+    "sourceLabel": "CMAwR 1.5.1",
+    "concern": "Unknown witchcraft",
+    "region": "Mesopotamia",
+    "tags": [
+      "Mesopotamian",
+      "Figurines",
+      "Burning",
+      "River"
+    ],
+    "sources": "Q004189 · CMAwR 1.5.1",
+    "description": "Wax figures of the accused are coated, burned in a pot, addressed to Šamaš and discarded in a river.",
+    "images": [
+      "/rituals/cmawro/1-5-1/wax-figures.png",
+      "/rituals/cmawro/1-5-1/burning-pot.png",
+      "/rituals/cmawro/1-5-1/river-disposal.png"
+    ],
+    "stepCount": 7,
+    "searchTerms": [
+      "Akkadian",
+      "wax",
+      "tallow",
+      "figurines",
+      "Šamaš",
+      "river",
+      "burning"
+    ]
+  },
+  {
+    "id": "cmawro-q005063-8-18",
+    "corpusId": "cmawro",
+    "path": "/rituals/cmawro-q005063-8-18",
+    "title": "Crushing the witch",
+    "cth": null,
+    "sourceLabel": "CMAwR 8.18",
+    "concern": "Witchcraft",
+    "region": "Mesopotamia",
+    "tags": [
+      "Mesopotamian",
+      "Bilingual",
+      "Figurines",
+      "Plants"
+    ],
+    "sources": "Q005063 · CMAwR 8.18",
+    "description": "A Sumerian–Akkadian instruction makes figures from five materials, crushes or burns them, and names plants to chew.",
+    "images": [
+      "/rituals/cmawro/8-18/material-figures.png",
+      "/rituals/cmawro/8-18/crush-figures.png",
+      "/rituals/cmawro/8-18/plants.png"
+    ],
+    "stepCount": 8,
+    "searchTerms": [
+      "Sumerian",
+      "Akkadian",
+      "clay",
+      "dough",
+      "tallow",
+      "wax",
+      "bitumen",
+      "juniper",
+      "grape must",
+      "tamarisk",
+      "cedar"
+    ]
+  },
+  {
+    "id": "tunnawiya-royal",
+    "path": "/rituals/tunnawiya-royal",
+    "title": "Tunnawiya’s Ritual for the Royal Couple",
+    "cth": 409,
+    "concern": "Sickness and slander",
+    "region": "Ḫattuša copy",
+    "tags": [
+      "Healing",
+      "Transfer",
+      "Royal"
+    ],
+    "sources": "KUB 9.34",
+    "description": "Litanies strip sickness and the 'tongues' of many people from twelve limbs, carried off by a ram, a sheep and live and dough piglets.",
+    "images": [
+      "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+      "/rituals/generated/tunnawiya-royal-recount-causes.png",
+      "/rituals/generated/tunnawiya-royal-fit-limbs.png"
+    ],
+    "stepCount": 24,
+    "searchTerms": [
+      "Tunnawiya",
+      "Old Woman",
+      "king",
+      "queen",
+      "twelve limbs",
+      "tongue",
+      "slander",
+      "curse",
+      "ram",
+      "sheep",
+      "piglet",
+      "dough piglet",
+      "spit",
+      "ploughing",
+      "Sun-god",
+      "Mother-goddess",
+      "Ilaliyant",
+      "Nergal",
+      "Landa"
+    ]
+  },
+  {
+    "title": "Muršili’s Second Plague Prayer",
+    "concern": "Plague",
+    "region": "Ḫatti",
+    "tags": [
+      "Plague",
+      "Prayer",
+      "Confession",
+      "Oath"
+    ],
+    "sources": "KUB 14.8 · main copy (A)",
+    "description": "Muršili II confesses his father's broken oath to the Storm-god of Ḫatti, vows restitution and pleads for the plague to end.",
+    "searchTerms": [
+      "Mursili",
+      "Muršili",
+      "plague prayer",
+      "Storm-god",
+      "confession",
+      "oath",
+      "Egypt",
+      "Kuruštamma",
+      "Mala",
+      "restitution"
+    ],
+    "id": "mursili-plague-prayer",
+    "path": "/rituals/mursili-plague-prayer",
+    "cth": 378,
+    "images": [
+      "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+      "/rituals/generated/cmawro-q005109-11-3-1-02.png",
+      "/rituals/deities/storm-god.png"
+    ],
+    "stepCount": 12
+  },
+  {
+    "title": "Ritual for the army",
+    "concern": "War",
+    "region": "Ḫatti",
+    "tags": [
+      "Army",
+      "Analogy",
+      "Binding"
+    ],
+    "sources": "KUB 45.20 · col. I–II selection",
+    "description": "Fragmentary spells: a hot stone falls silent in water, winter torpor seizes rivals, and the troops are asked to be mighty.",
+    "searchTerms": [
+      "army",
+      "troops",
+      "war",
+      "hot stone",
+      "winter",
+      "torpor",
+      "rivals",
+      "father-gods"
+    ],
+    "id": "army-ritual",
+    "path": "/rituals/army-ritual",
+    "cth": 426,
+    "images": [
+      "/rituals/generated/army-ritual-hot-stone.png",
+      "/rituals/generated/army-ritual-winter-torpor.png",
+      "/rituals/generated/army-ritual-mighty-troops.png"
+    ],
+    "stepCount": 6
+  },
+  {
+    "title": "Plague ritual with Lapana",
+    "concern": "Plague",
+    "region": "Ḫatti",
+    "tags": [
+      "Plague",
+      "Bull",
+      "Offering"
+    ],
+    "sources": "KUB 41.16 + IBoT 4.309 · legible selection",
+    "description": "A fragmentary plague rite: a bull, four wicker tables, an evening fire, raw and cooked offerings and bowing to the gods.",
+    "searchTerms": [
+      "plague",
+      "Lapana",
+      "Appaluwa",
+      "bull",
+      "wicker table",
+      "fire",
+      "raw",
+      "cooked",
+      "bow"
+    ],
+    "id": "lapana-plague",
+    "path": "/rituals/lapana-plague",
+    "cth": 424,
+    "images": [
+      "/rituals/generated/lapana-plague-bull.png",
+      "/rituals/generated/lapana-plague-wicker-tables.png",
+      "/rituals/generated/lapana-plague-evening-fire.png"
+    ],
+    "stepCount": 7
+  },
+  {
+    "id": "libu-fever",
+    "path": "/rituals/libu-fever",
+    "title": "Donkey figurines against li'bu-fever",
+    "cth": 811,
+    "concern": "Fever",
+    "region": "Babylonia (copied at Ḫattuša)",
+    "tags": [
+      "Babylonian text copied at Ḫattuša",
+      "Akkadian",
+      "Fever",
+      "Substitution",
+      "Healing"
+    ],
+    "sources": "KUB 37.84+ (KUB 29.58, KUB 29.59)",
+    "description": "A Babylonian exorcist's rite copied at Ḫattuša: a clay substitute made with the patient's urine, hair and nails rides provisioned clay donkeys before Šamaš and is sent to the open country.",
+    "images": [
+      "/rituals/generated/libu-mix-urine-clay.png",
+      "/rituals/generated/libu-make-donkeys.png",
+      "/rituals/generated/libu-attach-strap-tail.png"
+    ],
+    "searchTerms": [
+      "li'bu",
+      "fever",
+      "Šamaš",
+      "Shamash",
+      "donkey",
+      "substitute",
+      "clay",
+      "urine",
+      "nail-parings",
+      "ešegu",
+      "Nisaba",
+      "Akkadian",
+      "Babylonian",
+      "exorcist"
+    ],
+    "stepCount": 28
+  },
+  {
+    "id": "poultice-recipes",
+    "path": "/rituals/poultice-recipes",
+    "title": "Akkadian poultice recipes",
+    "cth": 808,
+    "concern": "Illness",
+    "region": "Babylonia (copied at Ḫattuša)",
+    "tags": [
+      "Babylonian text copied at Ḫattuša",
+      "Akkadian",
+      "Medicine",
+      "Poultice",
+      "Healing"
+    ],
+    "sources": "KUB 37.1",
+    "description": "Babylonian therapeutic recipes copied at Ḫattuša: plants and aromatics are crushed, mixed with flour, cooked in beer or wine and bandaged on the patient.",
+    "images": [
+      "/rituals/generated/poultice-crush-plants.png",
+      "/rituals/generated/poultice-boil-mixture.png",
+      "/rituals/generated/poultice-bandage.png"
+    ],
+    "searchTerms": [
+      "poultice",
+      "bandage",
+      "rabīku",
+      "juniper",
+      "cedar",
+      "myrrh",
+      "emmer",
+      "beer",
+      "wine",
+      "ghee",
+      "takpirtu",
+      "Akkadian",
+      "Babylonian",
+      "medicine"
+    ],
+    "stepCount": 10
+  },
+  {
+    "id": "cmawro-q002713-9-22-31",
+    "corpusId": "cmawro",
+    "path": "/rituals/cmawro-q002713-9-22-31",
+    "title": "Burning the figures in the crucible",
+    "cth": null,
+    "sourceLabel": "Maqlû IX 22′–31′",
+    "concern": "Witchcraft",
+    "region": "Mesopotamia",
+    "tags": [
+      "Mesopotamian",
+      "Maqlû",
+      "Figurines",
+      "Fire"
+    ],
+    "sources": "Q002713 · Maqlû IX 22′–31′",
+    "description": "The Maqlû ritual tablet has figures of wood, tallow, wax, husks, bitumen, gypsum, clay and dough set in a crucible within a circle, identified by speech, and burned with a sulphur-lit torch.",
+    "images": [
+      "/rituals/generated/cmawro-q002713-9-22-31-01.png",
+      "/rituals/generated/cmawro-q002713-9-22-31-02.png",
+      "/rituals/generated/cmawro-q002713-9-22-31-04.png"
+    ],
+    "stepCount": 7,
+    "searchTerms": [
+      "Akkadian",
+      "Maqlû",
+      "crucible",
+      "magic circle",
+      "tamarisk",
+      "cedar",
+      "tallow",
+      "wax",
+      "bitumen",
+      "gypsum",
+      "clay",
+      "dough",
+      "sulphur",
+      "torch"
+    ]
+  },
+  {
+    "id": "cmawro-q004239-11-1-1",
+    "corpusId": "cmawro",
+    "path": "/rituals/cmawro-q004239-11-1-1",
+    "title": "When the gate buzzes",
+    "cth": null,
+    "sourceLabel": "CMAwR 11.1.1",
+    "concern": "Witchcraft omens",
+    "region": "Mesopotamia",
+    "tags": [
+      "Mesopotamian",
+      "Omen",
+      "Threshold",
+      "Burial"
+    ],
+    "sources": "Q004239 · CMAwR 11.1.1",
+    "description": "A gate-omen ritual: a sulphur-gypsum paste is smeared on the door-jamb with an incantation and washed off, and a fleece with sulphur and oil is buried at the outer gate and door socket.",
+    "images": [
+      "/rituals/generated/cmawro-q004239-11-1-1-01.png",
+      "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+      "/rituals/generated/cmawro-q004239-11-1-1-03.png"
+    ],
+    "stepCount": 6,
+    "searchTerms": [
+      "Akkadian",
+      "gate",
+      "door-jamb",
+      "door socket",
+      "sulphur",
+      "gypsum",
+      "red paste",
+      "silt",
+      "fleece",
+      "oil",
+      "henbane"
+    ]
+  },
+  {
+    "id": "cmawro-q005109-11-3-1",
+    "corpusId": "cmawro",
+    "path": "/rituals/cmawro-q005109-11-3-1",
+    "title": "Sinking the evil in the river",
+    "cth": null,
+    "sourceLabel": "CMAwR 11.3.1",
+    "concern": "Witchcraft omens",
+    "region": "Mesopotamia",
+    "tags": [
+      "Mesopotamian",
+      "Namburbi",
+      "River",
+      "Threshold"
+    ],
+    "sources": "Q005109 · CMAwR 11.3.1",
+    "description": "An apotropaic ritual: libations and an appeal at the riverbank, a threefold dip in a textile, a prayer asking the river to take the evil away, then bathing and touching the gate on returning home.",
+    "images": [
+      "/rituals/generated/cmawro-q005109-11-3-1-01.png",
+      "/rituals/deities/unnamed-god.png",
+      "/rituals/generated/cmawro-q005109-11-3-1-03.png"
+    ],
+    "stepCount": 12,
+    "searchTerms": [
+      "Akkadian",
+      "namburbi",
+      "river",
+      "riverbank",
+      "libation",
+      "beer",
+      "clay figures",
+      "textile",
+      "holy water",
+      "brewer",
+      "gypsum",
+      "bitumen",
+      "gate"
+    ]
+  },
+  {
+    "concern": "Potency",
+    "region": "Babylonia (copied at Ḫattuša)",
+    "tags": [
+      "Medicine",
+      "Potency",
+      "Akkadian",
+      "Incantation"
+    ],
+    "sources": "KUB 4.48",
+    "description": "A male partridge is caught, dried and crushed into beer; waters stand overnight under the stars; wool bundles, pellets and oil complete the treatments.",
+    "searchTerms": [
+      "partridge",
+      "potency",
+      "ŠÀ.ZI.GA",
+      "beer",
+      "salt",
+      "crush",
+      "stars",
+      "roof",
+      "wool",
+      "pellets",
+      "oil",
+      "anoint",
+      "incantation",
+      "Akkadian",
+      "Babylonian medicine",
+      "remedy"
+    ],
+    "id": "potency-prescriptions",
+    "path": "/rituals/potency-prescriptions",
+    "title": "Prescriptions for potency",
+    "cth": 802,
+    "images": [
+      "/rituals/generated/potency-catch-partridge.png",
+      "/rituals/generated/potency-pluck-strangle.png",
+      "/rituals/generated/potency-salt-dry.png"
+    ],
+    "stepCount": 17
+  },
+  {
+    "concern": "Illness",
+    "region": "Ḫattuša",
+    "tags": [
+      "Medicine",
+      "Remedies",
+      "Fallback"
+    ],
+    "sources": "KUB 44.61 · KUB 44.64",
+    "description": "Herbs given for seven days, fallbacks \"if he does not get well from that\", a sinew from a leopard’s kill, remedies left out for the stars, honey and a fish.",
+    "searchTerms": [
+      "remedy",
+      "herbs",
+      "cress",
+      "garlic",
+      "leek",
+      "seven days",
+      "leopard",
+      "sinew",
+      "compress",
+      "lead",
+      "stars",
+      "night",
+      "honey",
+      "fish",
+      "bloating",
+      "fallback"
+    ],
+    "id": "hittite-remedies",
+    "path": "/rituals/hittite-remedies",
+    "title": "Hittite medical remedies",
+    "cth": 461,
+    "images": [
+      "/rituals/generated/remedies-take-herbs.png",
+      "/rituals/generated/remedies-give-seven-days.png",
+      "/rituals/generated/remedies-steep-sift.png"
+    ],
+    "stepCount": 15
   }
 ]

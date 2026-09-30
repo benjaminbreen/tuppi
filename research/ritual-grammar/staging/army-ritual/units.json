@@ -1,0 +1,51 @@
+{
+  "army-ritual-hot-stone": {
+    "title": "Speak the analogy of the hot stone",
+    "description": "As a hot stone falls silent in water, so may the addressee's battle grow cold.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "army-ritual-hot-stone",
+    "matchRule": "Spoken analogy by which a hot stone cooling in water quells hostility."
+  },
+  "army-ritual-winter-torpor": {
+    "title": "Bind the rivals by the torpor of winter",
+    "description": "As winter's torpor seizes, so may the spells likewise seize the speaker's rivals.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "army-ritual-winter-torpor",
+    "matchRule": "Spoken binding of enemies by a seasonal analogy."
+  },
+  "army-ritual-mighty-troops": {
+    "title": "Pray that the troops be mighty",
+    "description": "The speaker asks that his troops be mighty.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "army-ritual-mighty-troops",
+    "matchRule": "Petition for the strength of one's own army."
+  },
+  "army-ritual-father-gods-protect": {
+    "title": "Ask the father-gods to protect the son",
+    "description": "The speaker asks the father-gods to protect the son, young and grown, and rejoice in his life.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "army-ritual-father-gods-protect",
+    "matchRule": "Petition to ancestral gods for protection of a named person.",
+    "deityVisualId": "divine-assembly"
+  },
+  "army-ritual-gods-on-our-side": {
+    "title": "Declare the gods are on our side",
+    "description": "The speaker declares that the gods have stepped to their side and the kings have spoken for them.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "army-ritual-gods-on-our-side",
+    "matchRule": "Declaration of divine alignment with one's party."
+  },
+  "army-ritual-hasten-troops": {
+    "title": "Ask that the troops be hastened",
+    "description": "Great and small together are asked to hasten the troops along.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "army-ritual-hasten-troops",
+    "matchRule": "Petition that one's troops move swiftly."
+  }
+}

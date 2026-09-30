@@ -1,0 +1,1073 @@
+{
+  "id": "hittite-remedies",
+  "cth": 461,
+  "title": "Hittite medical remedies",
+  "shortName": "Hittite remedies",
+  "eyebrow": "CTH 461 · Hittite prescriptions",
+  "dating": {
+    "label": "New Hittite copies, 13th c. BCE",
+    "note": "Both tablets are in New Hittite script; KUB 44.61 is signed by the scribe NU.GIŠKIRI₆, pupil of Ḫulanabi. This is an approximate manuscript date.",
+    "sourceUrl": "https://www.hethport.uni-wuerzburg.de/CTH/"
+  },
+  "purpose": "Hittite medical prescriptions for internal illness, unwell limbs, a discharge and bloating, with graded fallbacks when the first remedy fails.",
+  "attribution": "Scribe NU.GIŠKIRI₆, pupil of Ḫulanabi (KUB 44.61); anonymous (KUB 44.64)",
+  "sourceSummary": "KUB 44.61 (CTH 461.1) · KUB 44.64 (CTH 461.10)",
+  "editionUrl": "https://www.hethport.uni-wuerzburg.de/CTH/",
+  "editionLabel": "Hethitologie-Portal Mainz, CTH catalogue (see Burde, StBoT 19; Zubieta Lupo 2017)",
+  "phases": [
+    {
+      "name": "Seven-day herbs",
+      "range": [
+        1,
+        2
+      ],
+      "idea": "A patient ill inside receives herbs over seven days."
+    },
+    {
+      "name": "Fallback: bulbs in wine",
+      "range": [
+        3,
+        5
+      ],
+      "idea": "If he does not get well, bulbs are steeped and given for seven days."
+    },
+    {
+      "name": "Limbs: leopard-killed sinew",
+      "range": [
+        6,
+        7
+      ],
+      "idea": "A root and sinew are sewn and twisted into a leather cord."
+    },
+    {
+      "name": "Discharge: warm compress",
+      "range": [
+        8,
+        8
+      ],
+      "idea": "A heated compress lies overnight; fallback soaking and lead ointment."
+    },
+    {
+      "name": "Remedies for the stars",
+      "range": [
+        9,
+        12
+      ],
+      "idea": "Crushed plants are left out overnight for the stars and drunk in the morning."
+    },
+    {
+      "name": "Second-day remedy",
+      "range": [
+        13,
+        14
+      ],
+      "idea": "Further plants are bagged and given in honey until recovery."
+    },
+    {
+      "name": "Bloating: fish",
+      "range": [
+        15,
+        15
+      ],
+      "idea": "A gutted fish begins a remedy for bloating."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "take-herbs",
+      "number": 1,
+      "title": "Take the herbs",
+      "shortTitle": "Take herbs",
+      "shortDescription": "For a patient ill inside who will not eat, cress seed, nuḫurtu and other plants are taken.",
+      "phase": "Seven-day herbs",
+      "unitType": "act",
+      "actionType": "gather-remedy-material",
+      "verb": "Take",
+      "summary": "If a person is ill \"inside\" and does not eat bread, the practitioner takes cress seed, nuḫurtu, much AN.DAḪ.ŠUM-plant and ḫarki-plant in equal proportion(?).",
+      "patient": "The herbs",
+      "actor": "The practitioner",
+      "material": [
+        "Cress seed (ZÀ.AḪ.LI)",
+        "nuḫurtu",
+        "AN.DAḪ.ŠUM-plant",
+        "ḫarki-plant"
+      ],
+      "evidence": "KUB 44.61 ¶1. The opening condition is partly broken; the first line of the tablet is restored.",
+      "image": {
+        "alt": "Small heaps of seeds and dried herbs on a board.",
+        "note": "Plant identifications are uncertain; shown generically."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-61",
+          "locus": "KUB 44.61 obv. 1–4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "remedies-take-herbs",
+      "composition": {
+        "function": "collect-material",
+        "requires": [],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "plant",
+            "sub": "cress",
+            "f": {
+              "part": "seed"
+            }
+          }
+        },
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "plant",
+            "sub": "nuḫurtu"
+          }
+        },
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "plant",
+            "sub": "AN.DAḪ.ŠUM-plant"
+          }
+        },
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "plant",
+            "sub": "ḫarki-plant"
+          }
+        }
+      ]
+    },
+    {
+      "id": "give-seven-days",
+      "number": 2,
+      "title": "Give the herbs for seven days",
+      "shortTitle": "Seven days",
+      "shortDescription": "The herbs are given on alternate days over seven days.",
+      "phase": "Seven-day herbs",
+      "unitType": "act",
+      "actionType": "give-remedy",
+      "verb": "Give",
+      "summary": "The herbs are given to the patient for seven days, with a day passing in between; then he voids(?) downward.",
+      "patient": "The patient",
+      "actor": "The practitioner",
+      "material": [
+        "Herb mixture"
+      ],
+      "evidence": "KUB 44.61 ¶1. \"A day passes in between\" is interpreted as alternate days.",
+      "image": {
+        "alt": "A small cup handed to a seated person.",
+        "note": "The form in which the herbs are taken is not stated."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-61",
+          "locus": "KUB 44.61 obv. 4–8",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "remedies-give-seven-days",
+      "composition": {
+        "function": "administer-remedy",
+        "requires": [
+          "take-herbs"
+        ],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "plant",
+            "sub": "herbs",
+            "ref": "herbs1"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "time": "for seven days, a day passing in between"
+        }
+      ]
+    },
+    {
+      "id": "take-bulbs",
+      "number": 3,
+      "title": "Take garlic, leek and šullittinni bulbs",
+      "shortTitle": "Take bulbs",
+      "shortDescription": "If he does not get well, garlic, leek and šullittinni bulbs are taken.",
+      "phase": "Fallback: bulbs in wine",
+      "unitType": "act",
+      "actionType": "gather-remedy-material",
+      "verb": "Take",
+      "summary": "If he does not get well from that, the practitioner takes a bulb of garlic, a bulb of leek and a bulb of šullittinni.",
+      "patient": "The bulbs",
+      "actor": "The practitioner",
+      "material": [
+        "Garlic",
+        "Leek (GA.RAŠ)",
+        "šullittinni-vegetable"
+      ],
+      "evidence": "KUB 44.61 ¶2. This is a fallback: the tablet prescribes it only \"if he does not get well from that\".",
+      "image": {
+        "alt": "A garlic bulb, a leek and a third bulb.",
+        "note": "šullittinni is unidentified; shown as a generic bulb."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-61",
+          "locus": "KUB 44.61 obv. 9–11",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "remedies-take-herbs",
+      "composition": {
+        "function": "collect-material",
+        "requires": [],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "plant",
+            "sub": "garlic",
+            "ref": "bulbs"
+          }
+        },
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "plant",
+            "sub": "leek"
+          }
+        },
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "plant",
+            "sub": "šullittinni"
+          }
+        }
+      ]
+    },
+    {
+      "id": "steep-sift",
+      "number": 4,
+      "title": "Steep and sift the bulbs",
+      "shortTitle": "Steep and sift",
+      "shortDescription": "The bulbs are let in to steep(?) and sifted.",
+      "phase": "Fallback: bulbs in wine",
+      "unitType": "act",
+      "actionType": "mix-remedy",
+      "verb": "Steep, sift",
+      "summary": "The bulbs are let in (to steep?) and sifted; half a measure(?) of ḫarki-plant is added with wine.",
+      "patient": "The bulbs",
+      "actor": "The practitioner",
+      "material": [
+        "Bulbs",
+        "ḫarki-plant",
+        "Wine(?)"
+      ],
+      "evidence": "KUB 44.61 ¶2. \"Steep\" and \"wine\" are partly restored or uncertain.",
+      "image": {
+        "alt": "A bowl of liquid with bulbs being strained through a cloth.",
+        "note": "The sieve or cloth is illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-61",
+          "locus": "KUB 44.61 obv. 11–12",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "remedies-steep-sift",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [
+          "take-bulbs"
+        ],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "plant",
+            "sub": "bulbs",
+            "ref": "bulbs"
+          },
+          "with": {
+            "class": "drink",
+            "sub": "wine"
+          },
+          "manner": "steeping"
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "plant",
+            "sub": "bulbs",
+            "ref": "bulbs"
+          },
+          "manner": "sifting"
+        }
+      ]
+    },
+    {
+      "id": "give-empty-stomach",
+      "number": 5,
+      "title": "Give for seven days on an empty stomach",
+      "shortTitle": "Empty stomach",
+      "shortDescription": "The mixture is given for seven days on an empty stomach.",
+      "phase": "Fallback: bulbs in wine",
+      "unitType": "act",
+      "actionType": "give-remedy",
+      "verb": "Give",
+      "summary": "The mixture is given to the patient for seven days on an empty stomach(?); he then voids(?) downward. A further fallback (¶3) follows but is badly broken.",
+      "patient": "The patient",
+      "actor": "The practitioner",
+      "material": [
+        "Bulb and ḫarki mixture"
+      ],
+      "evidence": "KUB 44.61 ¶2; the third-level fallback in ¶3 (\"If he does not get well from that…\") is too broken to stage.",
+      "image": {
+        "alt": "A small cup handed to a seated person.",
+        "note": "Same image as step 2."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-61",
+          "locus": "KUB 44.61 obv. 12–14",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "remedies-give-seven-days",
+      "composition": {
+        "function": "administer-remedy",
+        "requires": [
+          "steep-sift"
+        ],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "plant",
+            "sub": "bulbs",
+            "ref": "bulbs"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "time": "for seven days, on an empty stomach"
+        }
+      ]
+    },
+    {
+      "id": "sew-into-cord",
+      "number": 6,
+      "title": "Sew into a cord from a leopard’s kill",
+      "shortTitle": "Sew into cord",
+      "shortDescription": "For unwell limbs, the remedy’s root is sewn into a leather cord from an animal killed by a leopard.",
+      "phase": "Limbs: leopard-killed sinew",
+      "unitType": "act",
+      "actionType": "wrap-amulet-materials",
+      "verb": "Sew",
+      "summary": "If a person’s limbs are not well, something is poured into a hole unseen by the patient; the root of the remedy is taken away and sewn into a leather cord from an animal a leopard has killed.",
+      "patient": "The root of the remedy",
+      "actor": "The practitioner",
+      "material": [
+        "Plant root",
+        "Leather cord (MATNU) from an animal killed by a leopard"
+      ],
+      "evidence": "KUB 44.61 ¶4; the opening is broken and the pouring into a hole is not atomised. Action type matches the existing \"wrap-amulet-materials\".",
+      "image": {
+        "alt": "A root being sewn into a narrow leather cord.",
+        "note": "The leopard is not shown; the text names it only as the killer of the source animal."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-61",
+          "locus": "KUB 44.61 obv. 15–18",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "remedies-sew-into-cord",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "take",
+          "theme": {
+            "class": "plant",
+            "sub": "root"
+          }
+        },
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "plant",
+            "sub": "root"
+          },
+          "onto": {
+            "class": "implement",
+            "sub": "cord",
+            "f": {
+              "material": "leather"
+            }
+          },
+          "manner": "sewn in",
+          "note": "leather from an animal killed by a leopard"
+        }
+      ]
+    },
+    {
+      "id": "twist-sinew",
+      "number": 7,
+      "title": "Twist in the sinew",
+      "shortTitle": "Twist sinew",
+      "shortDescription": "Only the sinew of a ḫuitnaima-animal is taken and twisted in; he gets well.",
+      "phase": "Limbs: leopard-killed sinew",
+      "unitType": "act",
+      "actionType": "wrap-amulet-materials",
+      "verb": "Twist",
+      "summary": "Only the sinew of a ḫuitnaima- (wild animal?) is taken and twisted in, and the patient gets well.",
+      "patient": "The sinew",
+      "actor": "The practitioner",
+      "material": [
+        "Sinew of a ḫuitnaima-animal"
+      ],
+      "evidence": "KUB 44.61 ¶4. The animal and the verb \"twist\" are uncertain.",
+      "image": {
+        "alt": "A pale sinew being twisted around a leather cord.",
+        "note": "Shown as a cord only, not worn."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-61",
+          "locus": "KUB 44.61 obv. 20–22",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "remedies-twist-sinew",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [
+          "sew-into-cord"
+        ],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "take",
+          "theme": {
+            "class": "animal",
+            "sub": "ḫuitnaima-animal",
+            "f": {
+              "part": "sinew"
+            }
+          }
+        },
+        {
+          "verb": "wind",
+          "theme": {
+            "class": "animal",
+            "sub": "ḫuitnaima-animal",
+            "f": {
+              "part": "sinew"
+            }
+          },
+          "onto": {
+            "class": "implement",
+            "sub": "cord",
+            "f": {
+              "material": "leather"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "heat-compress",
+      "number": 8,
+      "title": "Heat and apply a compress",
+      "shortTitle": "Warm compress",
+      "shortDescription": "For an abnormal discharge, a heated compress is applied and left overnight.",
+      "phase": "Discharge: warm compress",
+      "unitType": "act",
+      "actionType": "apply-compress",
+      "verb": "Heat, apply",
+      "summary": "If something other than semen drips from a man’s genitals, a tappi- (compress?) is heated and applied, lying in place the whole night; if he does not get well, it is soaked with the remedy and he is smeared with lead.",
+      "patient": "The patient",
+      "actor": "The practitioner",
+      "material": [
+        "tappi- (compress?)",
+        "Lead"
+      ],
+      "evidence": "KUB 44.61 ¶¶5–6, condensed; \"compress\" is uncertain. This is a fallback: the tablet prescribes it only \"if he does not get well from that\". (for the soaking and lead ointment).",
+      "image": {
+        "alt": "A folded cloth pad warming beside a small fire.",
+        "note": "Shown as a cloth pad by a fire, not applied to a body."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-61",
+          "locus": "KUB 44.61 rev. 1–4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "remedies-heat-compress",
+      "composition": {
+        "function": "administer-remedy",
+        "requires": [],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "cook",
+          "theme": {
+            "class": "garment",
+            "sub": "compress"
+          },
+          "manner": "heated"
+        },
+        {
+          "verb": "apply",
+          "theme": {
+            "class": "garment",
+            "sub": "compress"
+          },
+          "onto": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "time": "the whole night"
+        }
+      ]
+    },
+    {
+      "id": "crush-into-bag",
+      "number": 9,
+      "title": "Crush the plants into a bag",
+      "shortTitle": "Crush into bag",
+      "shortDescription": "Bulbs and plants measured in tarawar are crushed and held in a tišni-bag(?).",
+      "phase": "Remedies for the stars",
+      "unitType": "act",
+      "actionType": "crush-material",
+      "verb": "Crush",
+      "summary": "Bulbs, arummura- and the UZZIPIRĀTUM-plant, measured by the tarawar, are crushed and held with a tišni- (bag?).",
+      "patient": "The plants",
+      "actor": "The practitioner",
+      "material": [
+        "Bulbs",
+        "arummura-",
+        "UZZIPIRĀTUM-plant",
+        "tišni- (bag?)"
+      ],
+      "evidence": "KUB 44.64 ¶2; the start of the tablet is lost.",
+      "image": {
+        "alt": "A pestle crushing plants beside a small leather bag.",
+        "note": "The bag is conjectural (tišni- \"bag?\")."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-64",
+          "locus": "KUB 44.64 I 3′–10′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "remedies-crush-into-bag",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "remedy",
+            "sub": "plant mixture",
+            "ref": "mix64"
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "remedy",
+            "sub": "plant mixture",
+            "ref": "mix64"
+          },
+          "goal": {
+            "class": "container",
+            "sub": "bag",
+            "f": {
+              "material": "leather"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "entrust-to-stars",
+      "number": 10,
+      "title": "Entrust it to the stars",
+      "shortTitle": "For the stars",
+      "shortDescription": "At night the remedy is entrusted to the stars.",
+      "phase": "Remedies for the stars",
+      "unitType": "act",
+      "actionType": "expose-overnight",
+      "verb": "Leave overnight",
+      "summary": "A little of the remedy is taken with three fingers(?) and stirred in; at night it is entrusted to the stars, i.e. left out overnight.",
+      "patient": "The remedy",
+      "actor": "The practitioner",
+      "material": [
+        "Plant mixture"
+      ],
+      "evidence": "KUB 44.64 ¶3. Compare the Babylonian potency recipes of KUB 4.48 (\"leave overnight under the stars\").",
+      "image": {
+        "alt": "A covered bowl outdoors under stars.",
+        "note": "The container is illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-64",
+          "locus": "KUB 44.64 I 11′–14′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "expose-remedy-to-stars",
+      "composition": {
+        "function": "expose-remedy",
+        "requires": [
+          "crush-into-bag"
+        ],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "remedy",
+            "sub": "plant mixture",
+            "ref": "mix64"
+          },
+          "location": "outdoors, under the stars",
+          "time": "at night"
+        }
+      ]
+    },
+    {
+      "id": "carry-into-house",
+      "number": 11,
+      "title": "Carry it into the house",
+      "shortTitle": "Into the house",
+      "shortDescription": "The remedy is carried back into the house.",
+      "phase": "Remedies for the stars",
+      "unitType": "act",
+      "actionType": "carry-remedy",
+      "verb": "Carry",
+      "summary": "The remedy is carried into the house and pressed in.",
+      "patient": "The remedy",
+      "actor": "The practitioner",
+      "material": [
+        "Plant mixture"
+      ],
+      "evidence": "KUB 44.64 ¶3; the following verbs are unclear.",
+      "image": {
+        "alt": "A man carrying a bowl through a doorway.",
+        "note": "Doorway simplified to a plain frame."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-64",
+          "locus": "KUB 44.64 I 14′–16′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "remedies-carry-into-house",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [
+          "entrust-to-stars"
+        ],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "carry",
+          "theme": {
+            "class": "remedy",
+            "sub": "plant mixture",
+            "ref": "mix64"
+          },
+          "goal": {
+            "class": "structure",
+            "sub": "house"
+          }
+        }
+      ]
+    },
+    {
+      "id": "drink-morning",
+      "number": 12,
+      "title": "Drink early in the morning",
+      "shortTitle": "Morning drink",
+      "shortDescription": "Early in the morning, on an empty stomach, the patient drinks it.",
+      "phase": "Remedies for the stars",
+      "unitType": "act",
+      "actionType": "give-remedy",
+      "verb": "Give to drink",
+      "summary": "Early in the morning, on an empty stomach(?), the patient drinks the remedy; afterwards he eats bread again.",
+      "patient": "The patient",
+      "actor": "The practitioner",
+      "material": [
+        "Plant mixture"
+      ],
+      "evidence": "KUB 44.64 ¶4; the middle of the paragraph (fish, cups, \"seven times\") is broken.",
+      "image": {
+        "alt": "A seated man drinking from a cup.",
+        "note": "Dawn not depicted."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-64",
+          "locus": "KUB 44.64 I 17′–18′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "remedies-give-seven-days",
+      "composition": {
+        "function": "administer-remedy",
+        "requires": [
+          "carry-into-house"
+        ],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "remedy",
+            "sub": "plant mixture",
+            "ref": "mix64"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "time": "early in the morning, on an empty stomach"
+        }
+      ]
+    },
+    {
+      "id": "second-day-bag",
+      "number": 13,
+      "title": "Prepare the second-day remedy",
+      "shortTitle": "Second-day remedy",
+      "shortDescription": "On the second day other plants are steeped, sifted, crushed and poured into a leather bag(?).",
+      "phase": "Second-day remedy",
+      "unitType": "act",
+      "actionType": "mix-remedy",
+      "verb": "Steep, sift, crush",
+      "summary": "On the second day the tariyattariya-plant, a one-shekel bulb, a ḫariyati-plant and arummura- are steeped, sifted, crushed, prepared and poured into a leather tišni- (bag?).",
+      "patient": "The plants",
+      "actor": "The practitioner",
+      "material": [
+        "tariyattariya-plant",
+        "Bulb",
+        "ḫariyati-plant",
+        "arummura-",
+        "Leather bag(?)"
+      ],
+      "evidence": "KUB 44.64 ¶5.",
+      "image": {
+        "alt": "A leather pouch being filled from a bowl.",
+        "note": "The bag is conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-64",
+          "locus": "KUB 44.64 II 1′–6′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "remedies-steep-sift",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "plant",
+            "sub": "plants",
+            "ref": "day2"
+          },
+          "manner": "steeping"
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "plant",
+            "sub": "plants",
+            "ref": "day2"
+          },
+          "manner": "sifting"
+        },
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "plant",
+            "sub": "plants",
+            "ref": "day2"
+          }
+        },
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "plant",
+            "sub": "plants",
+            "ref": "day2"
+          },
+          "goal": {
+            "class": "container",
+            "sub": "bag",
+            "f": {
+              "material": "leather"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "into-honey",
+      "number": 14,
+      "title": "Give it in honey until he recovers",
+      "shortTitle": "In honey",
+      "shortDescription": "The remedy is let into honey and given; the days do not matter, until he gets well.",
+      "phase": "Second-day remedy",
+      "unitType": "act",
+      "actionType": "give-remedy",
+      "verb": "Give in honey",
+      "summary": "When the remedy is given, a portion taken with two fingers is let into honey; after three days it is given again on the fourth. \"The days do not matter at all, until he gets well.\"",
+      "patient": "The patient",
+      "actor": "The practitioner",
+      "material": [
+        "Honey",
+        "Plant mixture"
+      ],
+      "evidence": "KUB 44.64 ¶5 (partly broken). The open-ended course replaces a fixed fallback.",
+      "image": {
+        "alt": "A small bowl of honey with a dark paste stirred in.",
+        "note": "Vessel illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-64",
+          "locus": "KUB 44.64 II 6′–16′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "remedies-into-honey",
+      "composition": {
+        "function": "administer-remedy",
+        "requires": [
+          "second-day-bag"
+        ],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "plant",
+            "sub": "plants",
+            "ref": "day2"
+          },
+          "with": {
+            "class": "food",
+            "sub": "honey"
+          }
+        },
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "remedy",
+            "sub": "honey mixture"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "time": "until he gets well"
+        }
+      ]
+    },
+    {
+      "id": "gut-fish",
+      "number": 15,
+      "title": "Gut a fish",
+      "shortTitle": "Gut fish",
+      "shortDescription": "For a bloated(?) person, a fish is taken and its inner parts removed.",
+      "phase": "Bloating: fish",
+      "unitType": "act",
+      "actionType": "gather-remedy-material",
+      "verb": "Take, gut",
+      "summary": "If a person is bloated(?), the practitioner takes a fish and removes its inner parts; the tablet breaks off here.",
+      "patient": "A fish",
+      "actor": "The practitioner",
+      "material": [
+        "Fish"
+      ],
+      "evidence": "KUB 44.64 ¶6; the rest of the recipe is not preserved on this tablet.",
+      "image": {
+        "alt": "A fish lying on a board, cut open.",
+        "note": "Species not specified."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-44-64",
+          "locus": "KUB 44.64 II 17′–19′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 5
+          }
+        }
+      ],
+      "unitId": "remedies-gut-fish",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [],
+        "aims": [
+          "restore-health"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "animal",
+            "sub": "fish",
+            "ref": "fish"
+          }
+        },
+        {
+          "verb": "draw-out",
+          "theme": {
+            "class": "animal",
+            "sub": "fish",
+            "f": {
+              "part": "inner parts"
+            }
+          },
+          "from": {
+            "class": "animal",
+            "sub": "fish",
+            "ref": "fish"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "id": "cmawro-q005039-3-4-1",
+  "corpusId": "cmawro",
+  "cth": null,
+  "sourceTextId": "Q005039",
+  "title": "Necklace and pouch against distress and hostile magic",
+  "shortName": "CMAwR 3.4.1",
+  "eyebrow": "CMAwR 3.4.1 · Mesopotamian amulet ritual",
+  "dating": {
+    "label": "Neo-Assyrian to Seleucid witnesses",
+    "note": "The linked source witnesses carry Neo-Assyrian, Late Babylonian and Seleucid period labels. These date surviving manuscripts, not the composition or the ritual practice.",
+    "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039"
+  },
+  "purpose": "Prepare and place a stone-and-plant amulet for a person described as distressed and subject to hostile magic.",
+  "attribution": "Practitioner unspecified in the edited master text",
+  "sourceSummary": "Q005039 · CMAwR vol. 2, 3.4.1:11–23",
+  "editionUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+  "editionLabel": "CMAwRo edition and translation",
+  "witnessPeriods": [
+    "Late Babylonian",
+    "Neo-Assyrian",
+    "Seleucid"
+  ],
+  "findspots": [
+    "Assur",
+    "Babylon",
+    "Babylon (?)",
+    "Nineveh",
+    "Sultantepe",
+    "Uruk"
+  ],
+  "phases": [
+    {
+      "name": "Assemble the amulet",
+      "range": [
+        1,
+        4
+      ],
+      "idea": "Stones, named ingredients, wool and a skin covering are assembled."
+    },
+    {
+      "name": "Place on the patient",
+      "range": [
+        5,
+        5
+      ],
+      "idea": "The prepared amulet is placed around the affected person’s neck."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "string-stones",
+      "number": 1,
+      "title": "String the stones on flax",
+      "shortTitle": "String the stones on flax",
+      "shortDescription": "String the stones named earlier in the prescription on flax thread or cord.",
+      "phase": "Assemble the amulet",
+      "unitType": "act",
+      "actionType": "thread-amulet-materials",
+      "verb": "String",
+      "summary": "String the stones named earlier in the prescription on flax thread or cord.",
+      "patient": "The prescribed stones",
+      "actor": "Ritual practitioner (second-person instruction)",
+      "material": [
+        "prescribed stones",
+        "flax cord"
+      ],
+      "materialIds": [
+        "cmawro:abnu",
+        "cmawro:qû-kitû"
+      ],
+      "evidence": "The source lists twelve stones but the exact identification of several named stone types is uncertain.",
+      "image": {
+        "alt": "Diagrammatic reconstruction of: string the stones on flax.",
+        "note": "Diagrammatic reconstruction of the named materials and action; colour, form and arrangement beyond the written directions are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005039",
+          "locus": "3.4.1:16",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005039.20l",
+            "label": "3.4.1:16"
+          },
+          "note": "Edited master text; not a single manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-string-stones",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "wind",
+          "theme": {
+            "class": "stone",
+            "sub": "stones",
+            "count": 12
+          },
+          "onto": {
+            "class": "wool",
+            "sub": "cord",
+            "f": {
+              "material": "flax"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack-ingredients-in-wool",
+      "number": 2,
+      "title": "Pack the named ingredients in wool",
+      "shortTitle": "Pack the named ingredients in wool",
+      "shortDescription": "Place the named ingredients among the stones and wrap them in wool.",
+      "phase": "Assemble the amulet",
+      "unitType": "act",
+      "actionType": "wrap-amulet-materials",
+      "verb": "Wrap",
+      "summary": "Place the named ingredients among the stones and wrap them in wool.",
+      "patient": "Nine named ingredients",
+      "actor": "Ritual practitioner (second-person instruction)",
+      "material": [
+        "lupine",
+        "imḫur-līm plant",
+        "imḫur-ešrā plant",
+        "tamarisk",
+        "cedar",
+        "wool"
+      ],
+      "materialIds": [
+        "cmawro:tarmuš",
+        "cmawro:imḫur-līm",
+        "cmawro:imḫur-ešrā",
+        "cmawro:bīnu",
+        "cmawro:erēnu",
+        "cmawro:šipātu"
+      ],
+      "evidence": "The source calls these nine šammū, but the ingredients include items whose material identification is debated; the pilot indexes only selected named entries.",
+      "image": {
+        "alt": "Diagrammatic reconstruction of: pack the named ingredients in wool.",
+        "note": "Diagrammatic reconstruction of the named materials and action; colour, form and arrangement beyond the written directions are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005039",
+          "locus": "3.4.1:18",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005039.22l",
+            "label": "3.4.1:18"
+          },
+          "note": "Edited master text; not a single manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-pack-ingredients-in-wool",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "string-stones"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "plant",
+            "sub": "lupine"
+          },
+          "location": {
+            "class": "stone",
+            "sub": "stones",
+            "count": 12
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "plant",
+            "sub": "imḫur-līm"
+          },
+          "location": {
+            "class": "stone",
+            "sub": "stones",
+            "count": 12
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "plant",
+            "sub": "imḫur-ešrā"
+          },
+          "location": {
+            "class": "stone",
+            "sub": "stones",
+            "count": 12
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "plant",
+            "sub": "tamarisk"
+          },
+          "location": {
+            "class": "stone",
+            "sub": "stones",
+            "count": 12
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "plant",
+            "sub": "cedar"
+          },
+          "location": {
+            "class": "stone",
+            "sub": "stones",
+            "count": 12
+          }
+        },
+        {
+          "verb": "wind",
+          "theme": {
+            "class": "wool"
+          },
+          "onto": {
+            "class": "plant",
+            "sub": "ingredients"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wrap-in-leather",
+      "number": 3,
+      "title": "Wrap the bundle in leather",
+      "shortTitle": "Wrap the bundle in leather",
+      "shortDescription": "Wrap the prepared bundle in a leather pouch or covering.",
+      "phase": "Assemble the amulet",
+      "unitType": "act",
+      "actionType": "wrap-amulet-materials",
+      "verb": "Wrap",
+      "summary": "Wrap the prepared bundle in a leather pouch or covering.",
+      "patient": "The wool-wrapped ingredients",
+      "actor": "Ritual practitioner (second-person instruction)",
+      "material": [
+        "skin or leather"
+      ],
+      "materialIds": [
+        "cmawro:mašku"
+      ],
+      "evidence": "The edited translation supplies 'pouch' as an interpretation of the leather wrapping.",
+      "image": {
+        "alt": "Diagrammatic reconstruction of: wrap the bundle in leather.",
+        "note": "Diagrammatic reconstruction of the named materials and action; colour, form and arrangement beyond the written directions are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005039",
+          "locus": "3.4.1:18",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005039.22l",
+            "label": "3.4.1:18"
+          },
+          "note": "Edited master text; not a single manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-wrap-in-leather",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "pack-ingredients-in-wool"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "wind",
+          "theme": {
+            "class": "materials",
+            "sub": "leather"
+          },
+          "onto": {
+            "class": "plant",
+            "sub": "ingredients"
+          }
+        }
+      ]
+    },
+    {
+      "id": "interlace-bundle",
+      "number": 4,
+      "title": "Interlace bundle and stones",
+      "shortTitle": "Interlace bundle and stones",
+      "shortDescription": "String the wrapped ingredients with the stones and wind the ingredients between them.",
+      "phase": "Assemble the amulet",
+      "unitType": "act",
+      "actionType": "thread-amulet-materials",
+      "verb": "Interlace",
+      "summary": "String the wrapped ingredients with the stones and wind the ingredients between them.",
+      "patient": "The prepared bundle and stone necklace",
+      "actor": "Ritual practitioner (second-person instruction)",
+      "material": [
+        "prescribed stones",
+        "flax cord"
+      ],
+      "materialIds": [
+        "cmawro:abnu",
+        "cmawro:qû-kitû"
+      ],
+      "evidence": "String the wrapped ingredients with the stones and wind the ingredients between them.",
+      "image": {
+        "alt": "Diagrammatic reconstruction of: interlace bundle and stones.",
+        "note": "Diagrammatic reconstruction of the named materials and action; colour, form and arrangement beyond the written directions are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005039",
+          "locus": "3.4.1:19",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005039.23l",
+            "label": "3.4.1:19"
+          },
+          "note": "Edited master text; not a single manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-interlace-bundle",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "wrap-in-leather"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "plant",
+            "sub": "ingredients"
+          },
+          "with": {
+            "class": "stone",
+            "sub": "stones",
+            "count": 12
+          },
+          "result": {
+            "class": "ornament",
+            "sub": "amulet"
+          }
+        }
+      ]
+    },
+    {
+      "id": "place-around-neck",
+      "number": 5,
+      "title": "Place the amulet around the neck",
+      "shortTitle": "Place the amulet around the neck",
+      "shortDescription": "Place the assembled amulet around the affected person's neck.",
+      "phase": "Place on the patient",
+      "unitType": "act",
+      "actionType": "place-amulet-on-patient",
+      "verb": "Place",
+      "summary": "Place the assembled amulet around the affected person's neck.",
+      "patient": "The assembled necklace and pouch",
+      "actor": "Ritual practitioner (second-person instruction)",
+      "material": [
+        "prescribed stones",
+        "flax cord",
+        "skin or leather"
+      ],
+      "materialIds": [
+        "cmawro:abnu",
+        "cmawro:qû-kitû",
+        "cmawro:mašku"
+      ],
+      "evidence": "Place the assembled amulet around the affected person's neck.",
+      "image": {
+        "alt": "Diagrammatic reconstruction of: place the amulet around the neck.",
+        "note": "Diagrammatic reconstruction of the named materials and action; colour, form and arrangement beyond the written directions are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005039",
+          "locus": "3.4.1:19",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005039.23l",
+            "label": "3.4.1:19"
+          },
+          "note": "Edited master text; not a single manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-place-around-neck",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "interlace-bundle"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "ornament",
+            "sub": "amulet"
+          },
+          "onto": {
+            "class": "person",
+            "sub": "patient",
+            "f": {
+              "part": "neck"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

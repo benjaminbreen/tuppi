@@ -1,0 +1,614 @@
+{
+  "id": "dandanku",
+  "cth": 425,
+  "title": "Dandanku’s ritual",
+  "shortName": "Dandanku",
+  "eyebrow": "CTH 425.2 · plague in the army",
+  "dating": {
+    "label": "Hittite manuscript",
+    "note": "KUB 7.54 is a collection tablet containing separate rites of Maddunani and Dandanku; this sequence uses Dandanku’s section.",
+    "sourceUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+7.54"
+  },
+  "purpose": "A rite against continual dying in the army camps, with fodder and wool addressed to Iyarri and offerings to the Seven.",
+  "attribution": "Attributed to Dandanku, the augur",
+  "sourceSummary": "KUB 7.54 · Dandanku section, paragraphs 6–9",
+  "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+7.54",
+  "phases": [
+    {
+      "name": "Road offering",
+      "range": [
+        1,
+        5
+      ],
+      "idea": "Fodder and wool are placed on the road and assigned to the god’s attendants."
+    },
+    {
+      "name": "Offering to the Seven",
+      "range": [
+        6,
+        8
+      ],
+      "idea": "Three animals and repeated libations are given to the Seven."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "gather-fodder-wool",
+      "number": 1,
+      "title": "Gather grain, straw and coloured wool",
+      "shortTitle": "Gather grain, straw and coloured wool",
+      "shortDescription": "The practitioner takes the fodder materials and coloured wool.",
+      "phase": "Road offering",
+      "unitType": "act",
+      "actionType": "bring-provisions",
+      "verb": "Gather",
+      "summary": "The practitioner takes the fodder materials and coloured wool.",
+      "patient": "Grain, straw and wool",
+      "actor": "The practitioner",
+      "material": [
+        "Grain",
+        "Straw",
+        "Coloured wool"
+      ],
+      "evidence": "KUB 7.54, paragraph 7; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Gather grain, straw and coloured wool",
+        "note": "Illustration of gather grain, straw and coloured wool."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "uhhamuwa-bring-fodder-fat",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "take",
+          "theme": {
+            "class": "food",
+            "sub": "grain"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "plant",
+            "sub": "straw"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "wool",
+            "f": {
+              "colors": [
+                "red",
+                "blue",
+                "black",
+                "white"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "mix-fodder",
+      "number": 2,
+      "title": "Mix the grain and straw",
+      "shortTitle": "Mix the grain and straw",
+      "shortDescription": "The grain and straw become one fodder mixture.",
+      "phase": "Road offering",
+      "unitType": "act",
+      "actionType": "mix-fodder",
+      "verb": "Mix",
+      "summary": "The grain and straw become one fodder mixture.",
+      "patient": "Fodder mixture",
+      "actor": "The practitioner",
+      "material": [
+        "Grain",
+        "Straw"
+      ],
+      "evidence": "KUB 7.54, paragraph 7; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Grain and straw mixed as fodder",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "dandanku-mix-fodder",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "gather-fodder-wool"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "food",
+            "sub": "grain"
+          },
+          "with": {
+            "class": "plant",
+            "sub": "straw"
+          },
+          "result": {
+            "class": "food",
+            "sub": "fodder"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scatter-fodder",
+      "number": 3,
+      "title": "Scatter the fodder across the road",
+      "shortTitle": "Scatter the fodder across the road",
+      "shortDescription": "The prepared mixture is spread across the ḫaddari- of the road.",
+      "phase": "Road offering",
+      "unitType": "act",
+      "actionType": "scatter-provisions",
+      "verb": "Scatter",
+      "summary": "The prepared mixture is spread across the ḫaddari- of the road.",
+      "patient": "Fodder mixture",
+      "actor": "The practitioner",
+      "material": [
+        "Fodder"
+      ],
+      "evidence": "KUB 7.54, paragraph 7; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Fodder scattered across a road",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "dandanku-scatter-fodder",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "mix-fodder"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "food",
+            "sub": "fodder"
+          },
+          "location": "crossroads"
+        }
+      ]
+    },
+    {
+      "id": "address-grooms",
+      "number": 4,
+      "title": "Ask Iyarri’s grooms to feed the horses",
+      "shortTitle": "Ask Iyarri’s grooms to feed the horses",
+      "shortDescription": "The spoken formula assigns the fodder to the god’s horses.",
+      "phase": "Road offering",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Ask",
+      "summary": "The spoken formula assigns the fodder to the god’s horses.",
+      "patient": "Iyarri’s grooms",
+      "actor": "The practitioner",
+      "material": [
+        "Fodder"
+      ],
+      "evidence": "KUB 7.54, paragraph 8; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Ask Iyarri’s grooms to feed the horses",
+        "note": "Illustration of ask iyarri’s grooms to feed the horses."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §8",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 7
+          }
+        }
+      ],
+      "unitId": "dandanku-address-grooms",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "scatter-fodder"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "grooms of Iyarri"
+          },
+          "about": {
+            "class": "food",
+            "sub": "fodder"
+          },
+          "note": "let them give this fodder to the horses"
+        },
+        {
+          "verb": "speak",
+          "act": "assignment",
+          "addressee": {
+            "class": "deity",
+            "sub": "Iyarri"
+          },
+          "about": {
+            "class": "food",
+            "sub": "fodder"
+          }
+        }
+      ],
+      "recipient": "Iyarri",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Iyarri"
+    },
+    {
+      "id": "address-maids",
+      "number": 5,
+      "title": "Ask the god’s maids to take the wool",
+      "shortTitle": "Ask the god’s maids to take the wool",
+      "shortDescription": "The same speech assigns the coloured wool to divine maidservants.",
+      "phase": "Road offering",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Ask",
+      "summary": "The same speech assigns the coloured wool to divine maidservants.",
+      "patient": "Iyarri’s maidservants",
+      "actor": "The practitioner",
+      "material": [
+        "Coloured wool"
+      ],
+      "evidence": "KUB 7.54, paragraph 8. The speech names green wool as well as the colours listed in the preceding preparation.",
+      "image": {
+        "alt": "Coloured wool presented in an address",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §8",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 7
+          }
+        }
+      ],
+      "unitId": "dandanku-address-maids",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "gather-fodder-wool"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "assignment",
+          "addressee": {
+            "class": "deity",
+            "sub": "maidservants of Iyarri"
+          },
+          "about": {
+            "class": "wool",
+            "f": {
+              "colors": [
+                "red",
+                "blue",
+                "black",
+                "green",
+                "white"
+              ]
+            }
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "maidservants of Iyarri"
+          },
+          "about": {
+            "class": "wool"
+          },
+          "note": "let them take the wool"
+        }
+      ],
+      "recipient": "Iyarri",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Iyarri"
+    },
+    {
+      "id": "bring-animals",
+      "number": 6,
+      "title": "Bring a kid, piglet and puppy",
+      "shortTitle": "Bring a kid, piglet and puppy",
+      "shortDescription": "Three young animals are brought after the road offering.",
+      "phase": "Offering to the Seven",
+      "unitType": "act",
+      "actionType": "bring-animal",
+      "verb": "Bring",
+      "summary": "Three young animals are brought after the road offering.",
+      "patient": "Three young animals",
+      "actor": "The practitioner",
+      "material": [
+        "Kid",
+        "Piglet",
+        "Puppy"
+      ],
+      "evidence": "KUB 7.54, paragraph 9; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Bring a kid, piglet and puppy",
+        "note": "Illustration of bring a kid, piglet and puppy."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §9",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 8
+          }
+        }
+      ],
+      "unitId": "dandanku-bring-three-animals",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "kid"
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "piglet"
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "puppy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kill-animals",
+      "number": 7,
+      "title": "Cut apart the animals for the Seven",
+      "shortTitle": "Cut apart the animals for the Seven",
+      "shortDescription": "The three animals are cut apart at an untouched place.",
+      "phase": "Offering to the Seven",
+      "unitType": "act",
+      "actionType": "kill-animal",
+      "verb": "Cut",
+      "summary": "The three animals are cut apart at an untouched place.",
+      "patient": "Three young animals",
+      "actor": "Ritual attendants",
+      "material": [
+        "Kid",
+        "Piglet",
+        "Puppy"
+      ],
+      "evidence": "KUB 7.54, paragraph 9; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "A kid, piglet and puppy cut apart with a bronze knife",
+        "note": "The three named animals are cut apart for the Seven; the knife form and precise arrangement are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §9",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 8
+          }
+        }
+      ],
+      "unitId": "dandanku-kill-three-animals",
+      "composition": {
+        "function": "kill-for-offering",
+        "requires": [
+          "bring-animals"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "kill",
+          "theme": {
+            "class": "animal",
+            "sub": "kid"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "the Seven"
+          },
+          "location": "untouched place",
+          "result": {
+            "class": "meat",
+            "sub": "kid"
+          }
+        },
+        {
+          "verb": "kill",
+          "theme": {
+            "class": "animal",
+            "sub": "piglet"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "the Seven"
+          },
+          "location": "untouched place",
+          "result": {
+            "class": "meat",
+            "sub": "piglet"
+          }
+        },
+        {
+          "verb": "kill",
+          "theme": {
+            "class": "animal",
+            "sub": "puppy"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "the Seven"
+          },
+          "location": "untouched place",
+          "result": {
+            "class": "meat",
+            "sub": "puppy"
+          }
+        }
+      ],
+      "recipient": "The Seven",
+      "deityVisualId": "the-seven",
+      "deityLabel": "The Seven"
+    },
+    {
+      "id": "libate-seven",
+      "number": 8,
+      "title": "Pour beer and wine three times",
+      "shortTitle": "Pour beer and wine three times",
+      "shortDescription": "The rite continues with repeated libations to the Seven.",
+      "phase": "Offering to the Seven",
+      "unitType": "act",
+      "actionType": "libate",
+      "verb": "Pour",
+      "summary": "The rite continues with repeated libations to the Seven.",
+      "patient": "Beer and wine",
+      "actor": "The practitioner",
+      "material": [
+        "Beer",
+        "Wine"
+      ],
+      "evidence": "KUB 7.54, paragraph 9; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Pour beer and wine three times",
+        "note": "Illustration of pour beer and wine three times."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §9",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 8
+          }
+        }
+      ],
+      "unitId": "dandanku-libate-to-seven",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "kill-animals"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "drink",
+            "sub": "beer"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "the Seven"
+          },
+          "manner": "three times"
+        },
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "drink",
+            "sub": "wine"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "the Seven"
+          },
+          "manner": "three times"
+        }
+      ],
+      "recipient": "The Seven",
+      "deityVisualId": "the-seven",
+      "deityLabel": "The Seven"
+    }
+  ]
+}

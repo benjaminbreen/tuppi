@@ -1,0 +1,2589 @@
+{
+  "method": "Distinct prefixes before the final colon in Oracc line labels; these are source numbering units, not classified procedures.",
+  "units": [
+    {
+      "textId": "Q002705",
+      "sourceUnit": "Q002705",
+      "firstLine": "1",
+      "lastLine": "g,iv_24",
+      "lineCount": 158,
+      "category": "Maqlu"
+    },
+    {
+      "textId": "Q002706",
+      "sourceUnit": "Q002706",
+      "firstLine": "1",
+      "lastLine": "L₂,iv_15′",
+      "lineCount": 231,
+      "category": "Maqlu"
+    },
+    {
+      "textId": "Q002707",
+      "sourceUnit": "Q002707",
+      "firstLine": "1",
+      "lastLine": "ooBab,iv_10′",
+      "lineCount": 212,
+      "category": "Maqlu"
+    },
+    {
+      "textId": "Q002708",
+      "sourceUnit": "Q002708",
+      "firstLine": "1",
+      "lastLine": "YY,iv_5′",
+      "lineCount": 157,
+      "category": "Maqlu"
+    },
+    {
+      "textId": "Q002709",
+      "sourceUnit": "Q002709",
+      "firstLine": "1",
+      "lastLine": "a₁NinB,iv_10′",
+      "lineCount": 182,
+      "category": "Maqlu"
+    },
+    {
+      "textId": "Q002710",
+      "sourceUnit": "Q002710",
+      "firstLine": "1",
+      "lastLine": "E,iv_2′",
+      "lineCount": 161,
+      "category": "Maqlu"
+    },
+    {
+      "textId": "Q002711",
+      "sourceUnit": "Q002711",
+      "firstLine": "1",
+      "lastLine": "179",
+      "lineCount": 202,
+      "category": "Maqlu"
+    },
+    {
+      "textId": "Q002712",
+      "sourceUnit": "Q002712",
+      "firstLine": "1",
+      "lastLine": "142ʹʹʹʹ",
+      "lineCount": 143,
+      "category": "Maqlu"
+    },
+    {
+      "textId": "Q002713",
+      "sourceUnit": "Q002713",
+      "firstLine": "1",
+      "lastLine": "180ʹ",
+      "lineCount": 190,
+      "category": "Maqlu"
+    },
+    {
+      "textId": "Q004184",
+      "sourceUnit": "Q004184",
+      "firstLine": "e_obv_8′",
+      "lastLine": "e_obv_12′",
+      "lineCount": 5,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004184",
+      "sourceUnit": "1.1.1",
+      "firstLine": "1.1.1:1′",
+      "lastLine": "1.1.1:127′′′′′′′",
+      "lineCount": 127,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004184",
+      "sourceUnit": "1.1.2",
+      "firstLine": "1.1.2:1′",
+      "lastLine": "1.1.2:7′",
+      "lineCount": 7,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004184",
+      "sourceUnit": "1.1.3",
+      "firstLine": "1.1.3:1′",
+      "lastLine": "1.1.3:10′",
+      "lineCount": 10,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004185",
+      "sourceUnit": "2.2.1",
+      "firstLine": "2.2.1:1′",
+      "lastLine": "2.2.1:161′′′′′",
+      "lineCount": 172,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004185",
+      "sourceUnit": "2.2.2",
+      "firstLine": "2.2.2:1′",
+      "lastLine": "2.2.2:12′",
+      "lineCount": 12,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004185",
+      "sourceUnit": "2.2.3",
+      "firstLine": "2.2.3:1′",
+      "lastLine": "2.2.3:47′′′",
+      "lineCount": 42,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004185",
+      "sourceUnit": "2.2.4",
+      "firstLine": "2.2.4:1′",
+      "lastLine": "2.2.4:13′′",
+      "lineCount": 13,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004186",
+      "sourceUnit": "1.2",
+      "firstLine": "1.2:1′",
+      "lastLine": "1.2:40′′′′′′",
+      "lineCount": 40,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004187",
+      "sourceUnit": "1.3",
+      "firstLine": "1.3:1′",
+      "lastLine": "1.3:13′",
+      "lineCount": 13,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004188",
+      "sourceUnit": "1.4",
+      "firstLine": "1.4:1",
+      "lastLine": "1.4:19′",
+      "lineCount": 19,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004189",
+      "sourceUnit": "1.5.1",
+      "firstLine": "1.5.1:1′",
+      "lastLine": "1.5.1:21′",
+      "lineCount": 21,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004189",
+      "sourceUnit": "1.5.2",
+      "firstLine": "1.5.2:1′",
+      "lastLine": "1.5.2:27′′′",
+      "lineCount": 19,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004189",
+      "sourceUnit": "1.5.3",
+      "firstLine": "1.5.3:1",
+      "lastLine": "1.5.3:3",
+      "lineCount": 3,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004190",
+      "sourceUnit": "1.6",
+      "firstLine": "1.6:1′",
+      "lastLine": "1.6:16′",
+      "lineCount": 16,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004191",
+      "sourceUnit": "1.7.1",
+      "firstLine": "1.7.1:1",
+      "lastLine": "1.7.1:4",
+      "lineCount": 4,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004191",
+      "sourceUnit": "1.7.2",
+      "firstLine": "1.7.2:1",
+      "lastLine": "1.7.2:1",
+      "lineCount": 1,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004191",
+      "sourceUnit": "1.7.3",
+      "firstLine": "1.7.3:1",
+      "lastLine": "1.7.3:4",
+      "lineCount": 4,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004191",
+      "sourceUnit": "1.7.4",
+      "firstLine": "1.7.4:1",
+      "lastLine": "1.7.4:16",
+      "lineCount": 16,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004192",
+      "sourceUnit": "1.8.1",
+      "firstLine": "1.8.1:1′",
+      "lastLine": "1.8.1:9′",
+      "lineCount": 9,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004192",
+      "sourceUnit": "1.8.2",
+      "firstLine": "1.8.2:1′",
+      "lastLine": "1.8.2:29′",
+      "lineCount": 24,
+      "category": "Prescriptions for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004194",
+      "sourceUnit": "2.3.1",
+      "firstLine": "2.3.1:1",
+      "lastLine": "2.3.1:147′′′′′",
+      "lineCount": 147,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004194",
+      "sourceUnit": "2.3.2",
+      "firstLine": "2.3.2:1′",
+      "lastLine": "2.3.2:12′",
+      "lineCount": 12,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004194",
+      "sourceUnit": "2.3.3",
+      "firstLine": "2.3.3:1′",
+      "lastLine": "2.3.3:10′",
+      "lineCount": 10,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004194",
+      "sourceUnit": "2.3.4",
+      "firstLine": "2.3.4:1′",
+      "lastLine": "2.3.4:11′",
+      "lineCount": 11,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004195",
+      "sourceUnit": "2.4",
+      "firstLine": "2.4:1′",
+      "lastLine": "2.4:24′′",
+      "lineCount": 17,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004196",
+      "sourceUnit": "2.5.1",
+      "firstLine": "2.5.1:1′",
+      "lastLine": "2.5.1:18′",
+      "lineCount": 18,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004196",
+      "sourceUnit": "2.5.2",
+      "firstLine": "2.5.2:1",
+      "lastLine": "2.5.2:7",
+      "lineCount": 7,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004196",
+      "sourceUnit": "2.5.3",
+      "firstLine": "2.5.3:1",
+      "lastLine": "2.5.3:19",
+      "lineCount": 19,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004196",
+      "sourceUnit": "2.5.4",
+      "firstLine": "2.5.4:1",
+      "lastLine": "2.5.4:14",
+      "lineCount": 14,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004196",
+      "sourceUnit": "2.5.5.1",
+      "firstLine": "2.5.5.1:1",
+      "lastLine": "2.5.5.1:3",
+      "lineCount": 3,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004196",
+      "sourceUnit": "2.5.5.2",
+      "firstLine": "2.5.5.2:1",
+      "lastLine": "2.5.5.2:3",
+      "lineCount": 3,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q004198",
+      "sourceUnit": "Q004198",
+      "firstLine": "3",
+      "lastLine": "49′",
+      "lineCount": 47,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004199",
+      "sourceUnit": "Q004199",
+      "firstLine": "1′",
+      "lastLine": "23′",
+      "lineCount": 23,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004200",
+      "sourceUnit": "Q004200",
+      "firstLine": "1′",
+      "lastLine": "19′",
+      "lineCount": 19,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004208",
+      "sourceUnit": "7.7.1",
+      "firstLine": "7.7.1:1",
+      "lastLine": "7.7.1:76",
+      "lineCount": 76,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.1",
+      "firstLine": "7.8.1:1′",
+      "lastLine": "7.8.1:27′",
+      "lineCount": 27,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.2",
+      "firstLine": "7.8.2:1′",
+      "lastLine": "7.8.2:45′",
+      "lineCount": 45,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.3",
+      "firstLine": "7.8.3:1′",
+      "lastLine": "7.8.3:58′",
+      "lineCount": 58,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.4",
+      "firstLine": "7.8.4:1′",
+      "lastLine": "7.8.4:78′",
+      "lineCount": 78,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.5",
+      "firstLine": "7.8.5:1",
+      "lastLine": "7.8.5:32",
+      "lineCount": 33,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.6",
+      "firstLine": "7.8.6:1′",
+      "lastLine": "7.8.6:43′",
+      "lineCount": 43,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.7",
+      "firstLine": "7.8.7:1′",
+      "lastLine": "7.8.7:33′",
+      "lineCount": 33,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.8",
+      "firstLine": "7.8.8:1′",
+      "lastLine": "7.8.8:20′",
+      "lineCount": 20,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.9",
+      "firstLine": "7.8.9:1′",
+      "lastLine": "7.8.9:35′′",
+      "lineCount": 35,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.10",
+      "firstLine": "7.8.10:1′",
+      "lastLine": "7.8.10:13′′",
+      "lineCount": 13,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.11",
+      "firstLine": "7.8.11:1",
+      "lastLine": "7.8.11:10",
+      "lineCount": 10,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004209",
+      "sourceUnit": "7.8.12",
+      "firstLine": "7.8.12:1",
+      "lastLine": "7.8.12:5",
+      "lineCount": 5,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004210",
+      "sourceUnit": "7.9.1",
+      "firstLine": "7.9.1:1′",
+      "lastLine": "7.9.1:27′",
+      "lineCount": 27,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004216",
+      "sourceUnit": "8.1",
+      "firstLine": "8.1:1",
+      "lastLine": "8.1:102′′′′",
+      "lineCount": 102,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004217",
+      "sourceUnit": "8.2",
+      "firstLine": "8.2:1",
+      "lastLine": "8.2:131",
+      "lineCount": 136,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004218",
+      "sourceUnit": "8.3.1",
+      "firstLine": "8.3.1:1",
+      "lastLine": "8.3.1:124",
+      "lineCount": 127,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004218",
+      "sourceUnit": "8.3.2",
+      "firstLine": "8.3.2:1",
+      "lastLine": "8.3.2:36",
+      "lineCount": 36,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004218",
+      "sourceUnit": "8.3.3",
+      "firstLine": "8.3.3:1",
+      "lastLine": "8.3.3:3",
+      "lineCount": 3,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004218",
+      "sourceUnit": "8.3.4",
+      "firstLine": "8.3.4:1′",
+      "lastLine": "8.3.4:11′",
+      "lineCount": 11,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004219",
+      "sourceUnit": "8.4.1",
+      "firstLine": "8.4.1:1",
+      "lastLine": "8.4.1:85",
+      "lineCount": 87,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004220",
+      "sourceUnit": "8.5.1",
+      "firstLine": "8.5.1:1′",
+      "lastLine": "8.5.1:150′′",
+      "lineCount": 116,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004220",
+      "sourceUnit": "8.5.Add",
+      "firstLine": "8.5.Add:1′",
+      "lastLine": "8.5.Add:3′",
+      "lineCount": 3,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004221",
+      "sourceUnit": "8.6.1",
+      "firstLine": "8.6.1:1",
+      "lastLine": "8.6.1:104′",
+      "lineCount": 104,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004221",
+      "sourceUnit": "Q004221",
+      "firstLine": "B₁_rev_iii_8′",
+      "lastLine": "G₂_obv_13′",
+      "lineCount": 24,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004221",
+      "sourceUnit": "8.6.2",
+      "firstLine": "8.6.2:1",
+      "lastLine": "8.6.2:30′",
+      "lineCount": 30,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004222",
+      "sourceUnit": "8.7.1",
+      "firstLine": "8.7.1:1",
+      "lastLine": "8.7.1:139′′′′",
+      "lineCount": 139,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004222",
+      "sourceUnit": "Q004222",
+      "firstLine": "B_o_ii_1′",
+      "lastLine": "B_r_iii_4′",
+      "lineCount": 35,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004223",
+      "sourceUnit": "8.7.2",
+      "firstLine": "8.7.2:1",
+      "lastLine": "8.7.2:33",
+      "lineCount": 33,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004224",
+      "sourceUnit": "Q004224",
+      "firstLine": "1′",
+      "lastLine": "13′",
+      "lineCount": 13,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004225",
+      "sourceUnit": "Q004225",
+      "firstLine": "1′",
+      "lastLine": "24′′",
+      "lineCount": 24,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004226",
+      "sourceUnit": "Q004226",
+      "firstLine": "1",
+      "lastLine": "12",
+      "lineCount": 12,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004227",
+      "sourceUnit": "Q004227",
+      "firstLine": "1",
+      "lastLine": "7",
+      "lineCount": 7,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004228",
+      "sourceUnit": "Q004228",
+      "firstLine": "1",
+      "lastLine": "18",
+      "lineCount": 18,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004229",
+      "sourceUnit": "8.13",
+      "firstLine": "8.13:1",
+      "lastLine": "8.13:68′′",
+      "lineCount": 68,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004230",
+      "sourceUnit": "8.14",
+      "firstLine": "8.14:1′",
+      "lastLine": "8.14:23′",
+      "lineCount": 23,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q004231",
+      "sourceUnit": "9.1.1",
+      "firstLine": "9.1.1:1",
+      "lastLine": "9.1.1:58",
+      "lineCount": 62,
+      "category": "Anti-witchcraft Incantations within Bit rimki and Related Texts"
+    },
+    {
+      "textId": "Q004232",
+      "sourceUnit": "Q004232",
+      "firstLine": "1",
+      "lastLine": "54",
+      "lineCount": 60,
+      "category": "Anti-witchcraft Incantations within Bit rimki and Related Texts"
+    },
+    {
+      "textId": "Q004233",
+      "sourceUnit": "9.3",
+      "firstLine": "9.3:1′",
+      "lastLine": "9.3:33′",
+      "lineCount": 33,
+      "category": "Anti-witchcraft Incantations within Bit rimki and Related Texts"
+    },
+    {
+      "textId": "Q004234",
+      "sourceUnit": "Q004234",
+      "firstLine": "1",
+      "lastLine": "27",
+      "lineCount": 27,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q004235",
+      "sourceUnit": "10.2",
+      "firstLine": "10.2:1′",
+      "lastLine": "10.2:34′",
+      "lineCount": 34,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q004236",
+      "sourceUnit": "10.3.1",
+      "firstLine": "10.3.1:1",
+      "lastLine": "10.3.1:83′′h",
+      "lineCount": 91,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q004236",
+      "sourceUnit": "Q004236",
+      "firstLine": "B₂_r_col_1′",
+      "lastLine": "B₂_r_col_11′",
+      "lineCount": 11,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q004237",
+      "sourceUnit": "10.4.1",
+      "firstLine": "10.4.1:1",
+      "lastLine": "10.4.1:54′",
+      "lineCount": 51,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q004237",
+      "sourceUnit": "10.4.2",
+      "firstLine": "10.4.2:1′",
+      "lastLine": "10.4.2:4′",
+      "lineCount": 4,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q004237",
+      "sourceUnit": "10.4.3",
+      "firstLine": "10.4.3:1′",
+      "lastLine": "10.4.3:13′",
+      "lineCount": 13,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q004238",
+      "sourceUnit": "10.5",
+      "firstLine": "10.5:1′",
+      "lastLine": "10.5:16′",
+      "lineCount": 16,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q004239",
+      "sourceUnit": "11.1.1",
+      "firstLine": "11.1.1:1",
+      "lastLine": "11.1.1:17",
+      "lineCount": 17,
+      "category": "Rituals in Case of Evil Omens Indicating Witchcraft"
+    },
+    {
+      "textId": "Q004239",
+      "sourceUnit": "11.1.2",
+      "firstLine": "11.1.2:1′",
+      "lastLine": "11.1.2:26′",
+      "lineCount": 26,
+      "category": "Rituals in Case of Evil Omens Indicating Witchcraft"
+    },
+    {
+      "textId": "Q004239",
+      "sourceUnit": "11.1.3",
+      "firstLine": "11.1.3:1′",
+      "lastLine": "11.1.3:5′",
+      "lineCount": 5,
+      "category": "Rituals in Case of Evil Omens Indicating Witchcraft"
+    },
+    {
+      "textId": "Q004240",
+      "sourceUnit": "11.2.1",
+      "firstLine": "11.2.1:1",
+      "lastLine": "11.2.1:17",
+      "lineCount": 18,
+      "category": "Rituals in Case of Evil Omens Indicating Witchcraft"
+    },
+    {
+      "textId": "Q004241",
+      "sourceUnit": "12.1.1",
+      "firstLine": "12.1.1:1",
+      "lastLine": "12.1.1:102",
+      "lineCount": 102,
+      "category": "Diagnostic Texts"
+    },
+    {
+      "textId": "Q004242",
+      "sourceUnit": "7.5.1",
+      "firstLine": "7.5.1:1′",
+      "lastLine": "7.5.1:16′",
+      "lineCount": 16,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004242",
+      "sourceUnit": "catchline7.5.1",
+      "firstLine": "catchline7.5.1:17′",
+      "lastLine": "catchline7.5.1:17′",
+      "lineCount": 1,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004242",
+      "sourceUnit": "colophon7.5.1",
+      "firstLine": "colophon7.5.1:18′",
+      "lastLine": "colophon7.5.1:18′",
+      "lineCount": 1,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004450",
+      "sourceUnit": "7.6.1",
+      "firstLine": "7.6.1:1",
+      "lastLine": "7.6.1:9D",
+      "lineCount": 11,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004450",
+      "sourceUnit": "7.6.2",
+      "firstLine": "7.6.2:1′",
+      "lastLine": "7.6.2:21′",
+      "lineCount": 19,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004450",
+      "sourceUnit": "7.6.3",
+      "firstLine": "7.6.3:1′",
+      "lastLine": "7.6.3:38′′",
+      "lineCount": 38,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004450",
+      "sourceUnit": "7.6.4",
+      "firstLine": "7.6.4:1",
+      "lastLine": "7.6.4:33′",
+      "lineCount": 33,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004450",
+      "sourceUnit": "7.6.5",
+      "firstLine": "7.6.5:1",
+      "lastLine": "7.6.5:26′",
+      "lineCount": 27,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004450",
+      "sourceUnit": "7.6.6",
+      "firstLine": "7.6.6:1",
+      "lastLine": "7.6.6:39*",
+      "lineCount": 106,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004450",
+      "sourceUnit": "7.6.7",
+      "firstLine": "7.6.7:1",
+      "lastLine": "7.6.7:46",
+      "lineCount": 46,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.1.1",
+      "firstLine": "7.10.1.1:1′",
+      "lastLine": "7.10.1.1:237′′′′",
+      "lineCount": 237,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.1.2",
+      "firstLine": "7.10.1.2:1",
+      "lastLine": "7.10.1.2:30",
+      "lineCount": 9,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.1.3",
+      "firstLine": "7.10.1.3:1",
+      "lastLine": "7.10.1.3:3",
+      "lineCount": 3,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.2",
+      "firstLine": "7.10.2:1′",
+      "lastLine": "7.10.2:24′",
+      "lineCount": 21,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.3.1",
+      "firstLine": "7.10.3.1:9",
+      "lastLine": "7.10.3.1:50",
+      "lineCount": 30,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.3.2",
+      "firstLine": "7.10.3.2:1′",
+      "lastLine": "7.10.3.2:26′′",
+      "lineCount": 20,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.3.3",
+      "firstLine": "7.10.3.3:1",
+      "lastLine": "7.10.3.3:6",
+      "lineCount": 6,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.3.4",
+      "firstLine": "7.10.3.4:8",
+      "lastLine": "7.10.3.4:19",
+      "lineCount": 12,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.3.5",
+      "firstLine": "7.10.3.5:1",
+      "lastLine": "7.10.3.5:17",
+      "lineCount": 14,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.4",
+      "firstLine": "7.10.4:1",
+      "lastLine": "7.10.4:25",
+      "lineCount": 25,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q004451",
+      "sourceUnit": "7.10.5",
+      "firstLine": "7.10.5:1′",
+      "lastLine": "7.10.5:30′",
+      "lineCount": 30,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005036",
+      "sourceUnit": "3.1",
+      "firstLine": "3.1:1",
+      "lastLine": "3.1:20′",
+      "lineCount": 20,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005037",
+      "sourceUnit": "3.2",
+      "firstLine": "3.2:1′",
+      "lastLine": "3.2:13′",
+      "lineCount": 13,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005038",
+      "sourceUnit": "3.3",
+      "firstLine": "3.3:1′",
+      "lastLine": "3.3:29′′",
+      "lineCount": 29,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005039",
+      "sourceUnit": "3.4.1",
+      "firstLine": "3.4.1:1",
+      "lastLine": "3.4.1:31",
+      "lineCount": 31,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005039",
+      "sourceUnit": "3.4.2",
+      "firstLine": "3.4.2:1",
+      "lastLine": "3.4.2:81",
+      "lineCount": 83,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005039",
+      "sourceUnit": "3.4.3",
+      "firstLine": "3.4.3:1",
+      "lastLine": "3.4.3:18",
+      "lineCount": 18,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005040",
+      "sourceUnit": "3.5.1",
+      "firstLine": "3.5.1:1",
+      "lastLine": "3.5.1:32",
+      "lineCount": 28,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005041",
+      "sourceUnit": "3.6.1",
+      "firstLine": "3.6.1:1",
+      "lastLine": "3.6.1:21",
+      "lineCount": 21,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005042",
+      "sourceUnit": "3.7.1",
+      "firstLine": "3.7.1:1",
+      "lastLine": "3.7.1:22",
+      "lineCount": 23,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005043",
+      "sourceUnit": "3.8",
+      "firstLine": "3.8:1",
+      "lastLine": "3.8:18′",
+      "lineCount": 18,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005044",
+      "sourceUnit": "7.11.1",
+      "firstLine": "7.11.1:0",
+      "lastLine": "7.11.1:22",
+      "lineCount": 23,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005044",
+      "sourceUnit": "Q005044",
+      "firstLine": "A_rev_12",
+      "lastLine": "n_obv_17",
+      "lineCount": 13,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005044",
+      "sourceUnit": "7.11.2",
+      "firstLine": "7.11.2:1",
+      "lastLine": "7.11.2:31",
+      "lineCount": 35,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005045",
+      "sourceUnit": "7.12",
+      "firstLine": "7.12:1",
+      "lastLine": "7.12:35",
+      "lineCount": 35,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005046",
+      "sourceUnit": "7.13",
+      "firstLine": "7.13:1",
+      "lastLine": "7.13:20",
+      "lineCount": 20,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005047",
+      "sourceUnit": "7.14",
+      "firstLine": "7.14:1",
+      "lastLine": "7.14:3′",
+      "lineCount": 40,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005048",
+      "sourceUnit": "7.15",
+      "firstLine": "7.15:1′",
+      "lastLine": "7.15:15′",
+      "lineCount": 15,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005049",
+      "sourceUnit": "7.16",
+      "firstLine": "7.16:1′",
+      "lastLine": "7.16:7′",
+      "lineCount": 7,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005050",
+      "sourceUnit": "7.17",
+      "firstLine": "7.17:1",
+      "lastLine": "7.17:5",
+      "lineCount": 5,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005051",
+      "sourceUnit": "7.18",
+      "firstLine": "7.18:1′",
+      "lastLine": "7.18:42′′",
+      "lineCount": 42,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005052",
+      "sourceUnit": "7.19",
+      "firstLine": "7.19:1",
+      "lastLine": "7.19:37′",
+      "lineCount": 37,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005053",
+      "sourceUnit": "7.20",
+      "firstLine": "7.20:1′",
+      "lastLine": "7.20:7′",
+      "lineCount": 7,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005054",
+      "sourceUnit": "7.21",
+      "firstLine": "7.21:1′",
+      "lastLine": "7.21:31′",
+      "lineCount": 31,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005055",
+      "sourceUnit": "7.22.1",
+      "firstLine": "7.22.1:1",
+      "lastLine": "7.22.1:21",
+      "lineCount": 21,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005055",
+      "sourceUnit": "7.22.2",
+      "firstLine": "7.22.2:1′",
+      "lastLine": "7.22.2:16′",
+      "lineCount": 16,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005056",
+      "sourceUnit": "7.23",
+      "firstLine": "7.23:1",
+      "lastLine": "7.23:20",
+      "lineCount": 20,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005057",
+      "sourceUnit": "7.24",
+      "firstLine": "7.24:1",
+      "lastLine": "7.24:34",
+      "lineCount": 34,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005058",
+      "sourceUnit": "7.25",
+      "firstLine": "7.25:1",
+      "lastLine": "7.25:38′",
+      "lineCount": 38,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005059",
+      "sourceUnit": "7.26",
+      "firstLine": "7.26:1′",
+      "lastLine": "7.26:29′′′",
+      "lineCount": 29,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q005060",
+      "sourceUnit": "8.15.1",
+      "firstLine": "8.15.1:0",
+      "lastLine": "8.15.1:0",
+      "lineCount": 1,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005060",
+      "sourceUnit": "8.15.2",
+      "firstLine": "8.15.2:1′",
+      "lastLine": "8.15.2:43′′",
+      "lineCount": 43,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005060",
+      "sourceUnit": "Q005060",
+      "firstLine": "a_rel1,obv_I_1′",
+      "lastLine": "a_rel10,l_e_3",
+      "lineCount": 183,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005061",
+      "sourceUnit": "8.16.1",
+      "firstLine": "8.16.1:59*",
+      "lastLine": "8.16.1:59*",
+      "lineCount": 1,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005061",
+      "sourceUnit": "8.16.2",
+      "firstLine": "8.16.2:1′",
+      "lastLine": "8.16.2:24′′",
+      "lineCount": 24,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005062",
+      "sourceUnit": "8.17",
+      "firstLine": "8.17:1′",
+      "lastLine": "8.17:38′",
+      "lineCount": 38,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005063",
+      "sourceUnit": "8.18",
+      "firstLine": "8.18:1′",
+      "lastLine": "8.18:18′",
+      "lineCount": 18,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005064",
+      "sourceUnit": "8.19.1",
+      "firstLine": "8.19.1:1",
+      "lastLine": "8.19.1:24",
+      "lineCount": 24,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005065",
+      "sourceUnit": "8.20.1",
+      "firstLine": "8.20.1:1′",
+      "lastLine": "8.20.1:40′′",
+      "lineCount": 47,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005065",
+      "sourceUnit": "8.20.2",
+      "firstLine": "8.20.2:1′",
+      "lastLine": "8.20.2:53′′′′",
+      "lineCount": 42,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005066",
+      "sourceUnit": "8.21",
+      "firstLine": "8.21:1′",
+      "lastLine": "8.21:56′′′′",
+      "lineCount": 56,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005067",
+      "sourceUnit": "8.22",
+      "firstLine": "8.22:1′",
+      "lastLine": "8.22:11′",
+      "lineCount": 11,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005068",
+      "sourceUnit": "8.23.1",
+      "firstLine": "8.23.1:1′",
+      "lastLine": "8.23.1:67′",
+      "lineCount": 67,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005069",
+      "sourceUnit": "8.24.1",
+      "firstLine": "8.24.1:1′",
+      "lastLine": "8.24.1:28′",
+      "lineCount": 28,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005070",
+      "sourceUnit": "8.25",
+      "firstLine": "8.25:1",
+      "lastLine": "8.25:260",
+      "lineCount": 240,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005071",
+      "sourceUnit": "8.26",
+      "firstLine": "8.26:1",
+      "lastLine": "8.26:30",
+      "lineCount": 30,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005072",
+      "sourceUnit": "8.27.1",
+      "firstLine": "8.27.1:1",
+      "lastLine": "8.27.1:96",
+      "lineCount": 96,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005073",
+      "sourceUnit": "8.28.1",
+      "firstLine": "8.28.1:1",
+      "lastLine": "8.28.1:120",
+      "lineCount": 122,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005074",
+      "sourceUnit": "8.29.1",
+      "firstLine": "8.29.1:1",
+      "lastLine": "8.29.1:132",
+      "lineCount": 132,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005074",
+      "sourceUnit": "8.29.2",
+      "firstLine": "8.29.2:1",
+      "lastLine": "8.29.2:16",
+      "lineCount": 16,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005075",
+      "sourceUnit": "8.30",
+      "firstLine": "8.30:1",
+      "lastLine": "8.30:26′",
+      "lineCount": 26,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005076",
+      "sourceUnit": "8.31.1",
+      "firstLine": "8.31.1:1′",
+      "lastLine": "8.31.1:51′",
+      "lineCount": 51,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005077",
+      "sourceUnit": "8.32.1",
+      "firstLine": "8.32.1:1′",
+      "lastLine": "8.32.1:14′",
+      "lineCount": 14,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005077",
+      "sourceUnit": "8.32.2",
+      "firstLine": "8.32.2:1",
+      "lastLine": "8.32.2:25",
+      "lineCount": 25,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005078",
+      "sourceUnit": "8.33",
+      "firstLine": "8.33:1′",
+      "lastLine": "8.33:27′",
+      "lineCount": 27,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005079",
+      "sourceUnit": "8.34",
+      "firstLine": "8.34:1′",
+      "lastLine": "8.34:15′",
+      "lineCount": 15,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005080",
+      "sourceUnit": "8.35",
+      "firstLine": "8.35:1′",
+      "lastLine": "8.35:15′",
+      "lineCount": 15,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005081",
+      "sourceUnit": "8.36",
+      "firstLine": "8.36:1",
+      "lastLine": "8.36:46",
+      "lineCount": 46,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005082",
+      "sourceUnit": "8.37",
+      "firstLine": "8.37:1",
+      "lastLine": "8.37:36",
+      "lineCount": 36,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005083",
+      "sourceUnit": "8.38",
+      "firstLine": "8.38:1",
+      "lastLine": "8.38:31′",
+      "lineCount": 31,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005084",
+      "sourceUnit": "8.39",
+      "firstLine": "8.39:1′",
+      "lastLine": "8.39:20′",
+      "lineCount": 20,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005085",
+      "sourceUnit": "8.40.1",
+      "firstLine": "8.40.1:1",
+      "lastLine": "8.40.1:40",
+      "lineCount": 41,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005086",
+      "sourceUnit": "8.41.1",
+      "firstLine": "8.41.1:1",
+      "lastLine": "8.41.1:25",
+      "lineCount": 25,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005087",
+      "sourceUnit": "8.42",
+      "firstLine": "8.42:1*",
+      "lastLine": "8.42:59′′",
+      "lineCount": 62,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005088",
+      "sourceUnit": "8.43.1",
+      "firstLine": "8.43.1:1",
+      "lastLine": "8.43.1:42′",
+      "lineCount": 42,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005089",
+      "sourceUnit": "8.44",
+      "firstLine": "8.44:1",
+      "lastLine": "8.44:16′",
+      "lineCount": 16,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q005091",
+      "sourceUnit": "9.4",
+      "firstLine": "9.4:1",
+      "lastLine": "9.4:52′",
+      "lineCount": 52,
+      "category": "Anti-witchcraft Incantations within Bit rimki and Related Texts"
+    },
+    {
+      "textId": "Q005092",
+      "sourceUnit": "9.5",
+      "firstLine": "9.5:1",
+      "lastLine": "9.5:14",
+      "lineCount": 14,
+      "category": "Anti-witchcraft Incantations within Bit rimki and Related Texts"
+    },
+    {
+      "textId": "Q005093",
+      "sourceUnit": "9.6.1",
+      "firstLine": "9.6.1:1",
+      "lastLine": "9.6.1:32",
+      "lineCount": 32,
+      "category": "Anti-witchcraft Incantations within Bit rimki and Related Texts"
+    },
+    {
+      "textId": "Q005093",
+      "sourceUnit": "Q005093",
+      "firstLine": "D₁_obv_11",
+      "lastLine": "C_obv_18",
+      "lineCount": 11,
+      "category": "Anti-witchcraft Incantations within Bit rimki and Related Texts"
+    },
+    {
+      "textId": "Q005094",
+      "sourceUnit": "9.7.1",
+      "firstLine": "9.7.1:1",
+      "lastLine": "9.7.1:35",
+      "lineCount": 37,
+      "category": "Anti-witchcraft Incantations within Bit rimki and Related Texts"
+    },
+    {
+      "textId": "Q005095",
+      "sourceUnit": "9.8",
+      "firstLine": "9.8:1",
+      "lastLine": "9.8:48",
+      "lineCount": 48,
+      "category": "Anti-witchcraft Incantations within Bit rimki and Related Texts"
+    },
+    {
+      "textId": "Q005096",
+      "sourceUnit": "10.6.1",
+      "firstLine": "10.6.1:1",
+      "lastLine": "10.6.1:34′",
+      "lineCount": 34,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005096",
+      "sourceUnit": "10.6.2",
+      "firstLine": "10.6.2:1′",
+      "lastLine": "10.6.2:70′′′",
+      "lineCount": 64,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005096",
+      "sourceUnit": "10.6.3",
+      "firstLine": "10.6.3:1′",
+      "lastLine": "10.6.3:10′",
+      "lineCount": 7,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005097",
+      "sourceUnit": "10.7",
+      "firstLine": "10.7:1",
+      "lastLine": "10.7:90",
+      "lineCount": 91,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005098",
+      "sourceUnit": "10.8.1",
+      "firstLine": "10.8.1:1",
+      "lastLine": "10.8.1:36",
+      "lineCount": 40,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005098",
+      "sourceUnit": "K_21583",
+      "firstLine": "K_21583:1′",
+      "lastLine": "K_21583:4′",
+      "lineCount": 4,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005099",
+      "sourceUnit": "10.9",
+      "firstLine": "10.9:1′",
+      "lastLine": "10.9:12′",
+      "lineCount": 12,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005100",
+      "sourceUnit": "10.10",
+      "firstLine": "10.10:1′",
+      "lastLine": "10.10:13′",
+      "lineCount": 13,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005101",
+      "sourceUnit": "10.11",
+      "firstLine": "10.11:1",
+      "lastLine": "10.11:12",
+      "lineCount": 12,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005102",
+      "sourceUnit": "10.12",
+      "firstLine": "10.12:1′",
+      "lastLine": "10.12:9′",
+      "lineCount": 9,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005103",
+      "sourceUnit": "10.13",
+      "firstLine": "10.13:1′",
+      "lastLine": "10.13:11′",
+      "lineCount": 11,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005104",
+      "sourceUnit": "10.14.1",
+      "firstLine": "10.14.1:1",
+      "lastLine": "10.14.1:22",
+      "lineCount": 22,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005105",
+      "sourceUnit": "10.15",
+      "firstLine": "10.15:1",
+      "lastLine": "10.15:10",
+      "lineCount": 10,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005106",
+      "sourceUnit": "10.16",
+      "firstLine": "10.16:1",
+      "lastLine": "10.16:5",
+      "lineCount": 5,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005107",
+      "sourceUnit": "10.17",
+      "firstLine": "10.17:1",
+      "lastLine": "10.17:15",
+      "lineCount": 15,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005108",
+      "sourceUnit": "10.18.1",
+      "firstLine": "10.18.1:1",
+      "lastLine": "10.18.1:3",
+      "lineCount": 3,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q005109",
+      "sourceUnit": "11.3.1",
+      "firstLine": "11.3.1:1",
+      "lastLine": "11.3.1:56",
+      "lineCount": 56,
+      "category": "Rituals in Case of Evil Omens Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005109",
+      "sourceUnit": "11.3.2",
+      "firstLine": "11.3.2:1′",
+      "lastLine": "11.3.2:8′",
+      "lineCount": 8,
+      "category": "Rituals in Case of Evil Omens Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005111",
+      "sourceUnit": "11.5",
+      "firstLine": "11.5:1",
+      "lastLine": "11.5:30′",
+      "lineCount": 30,
+      "category": "Rituals in Case of Evil Omens Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005112",
+      "sourceUnit": "11.6",
+      "firstLine": "11.6:1",
+      "lastLine": "11.6:34",
+      "lineCount": 34,
+      "category": "Rituals in Case of Evil Omens Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005113",
+      "sourceUnit": "11.7.1",
+      "firstLine": "11.7.1:1",
+      "lastLine": "11.7.1:26",
+      "lineCount": 26,
+      "category": "Rituals in Case of Evil Omens Indicating Witchcraft"
+    },
+    {
+      "textId": "Q005114",
+      "sourceUnit": "A.1",
+      "firstLine": "A.1:obv_1′",
+      "lastLine": "A.1:rev_22′",
+      "lineCount": 44,
+      "category": "Additional Texts"
+    },
+    {
+      "textId": "Q005921",
+      "sourceUnit": "A.5",
+      "firstLine": "A.5:1",
+      "lastLine": "A.5:37",
+      "lineCount": 37,
+      "category": "Additional Texts"
+    },
+    {
+      "textId": "Q007422",
+      "sourceUnit": "5.1.1",
+      "firstLine": "5.1.1:1",
+      "lastLine": "5.1.1:18",
+      "lineCount": 9,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007423",
+      "sourceUnit": "5.2.1",
+      "firstLine": "5.2.1:1",
+      "lastLine": "5.2.1:18",
+      "lineCount": 17,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007424",
+      "sourceUnit": "5.3.1",
+      "firstLine": "5.3.1:0′",
+      "lastLine": "5.3.1:21′",
+      "lineCount": 22,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007425",
+      "sourceUnit": "5.4.1",
+      "firstLine": "5.4.1:1",
+      "lastLine": "5.4.1:13",
+      "lineCount": 13,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007426",
+      "sourceUnit": "5.5.1",
+      "firstLine": "5.5.1:1",
+      "lastLine": "5.5.1:61",
+      "lineCount": 61,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007426",
+      "sourceUnit": "5.5.2",
+      "firstLine": "5.5.2:1",
+      "lastLine": "5.5.2:19",
+      "lineCount": 19,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007427",
+      "sourceUnit": "5.6",
+      "firstLine": "5.6:1",
+      "lastLine": "5.6:26",
+      "lineCount": 26,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007428",
+      "sourceUnit": "5.7.1",
+      "firstLine": "5.7.1:1",
+      "lastLine": "5.7.1:4",
+      "lineCount": 4,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007429",
+      "sourceUnit": "5.8",
+      "firstLine": "5.8:1′",
+      "lastLine": "5.8:50′′′′",
+      "lineCount": 50,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007430",
+      "sourceUnit": "5.9",
+      "firstLine": "5.9:1",
+      "lastLine": "5.9:14′",
+      "lineCount": 14,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007431",
+      "sourceUnit": "5.10.1",
+      "firstLine": "5.10.1:1",
+      "lastLine": "5.10.1:17",
+      "lineCount": 17,
+      "category": "Protecting Pregnant Women and Infants Against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.1",
+      "firstLine": "6.1.1:1",
+      "lastLine": "6.1.1:53",
+      "lineCount": 54,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.2",
+      "firstLine": "6.1.2:1",
+      "lastLine": "6.1.2:11",
+      "lineCount": 11,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.3",
+      "firstLine": "6.1.3:1",
+      "lastLine": "6.1.3:12a",
+      "lineCount": 15,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.4",
+      "firstLine": "6.1.4:1′",
+      "lastLine": "6.1.4:22′",
+      "lineCount": 22,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.5",
+      "firstLine": "6.1.5:1",
+      "lastLine": "6.1.5:2",
+      "lineCount": 2,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.6",
+      "firstLine": "6.1.6:1",
+      "lastLine": "6.1.6:10",
+      "lineCount": 12,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.7",
+      "firstLine": "6.1.7:1",
+      "lastLine": "6.1.7:14",
+      "lineCount": 14,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.8",
+      "firstLine": "6.1.8:1",
+      "lastLine": "6.1.8:5",
+      "lineCount": 5,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.9",
+      "firstLine": "6.1.9:1",
+      "lastLine": "6.1.9:8",
+      "lineCount": 8,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.10",
+      "firstLine": "6.1.10:1",
+      "lastLine": "6.1.10:6",
+      "lineCount": 6,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.11",
+      "firstLine": "6.1.11:1",
+      "lastLine": "6.1.11:4",
+      "lineCount": 4,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007432",
+      "sourceUnit": "6.1.12",
+      "firstLine": "6.1.12:1",
+      "lastLine": "6.1.12:2",
+      "lineCount": 2,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007433",
+      "sourceUnit": "6.2",
+      "firstLine": "6.2:1′",
+      "lastLine": "6.2:14′",
+      "lineCount": 14,
+      "category": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft"
+    },
+    {
+      "textId": "Q007434",
+      "sourceUnit": "2.6",
+      "firstLine": "2.6:1",
+      "lastLine": "2.6:3",
+      "lineCount": 3,
+      "category": "Prescriptions to be Used for Bewitched Persons"
+    },
+    {
+      "textId": "Q007435",
+      "sourceUnit": "3.9",
+      "firstLine": "3.9:1′",
+      "lastLine": "3.9:23′′",
+      "lineCount": 23,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q007436",
+      "sourceUnit": "3.10",
+      "firstLine": "3.10:1′",
+      "lastLine": "3.10:9′",
+      "lineCount": 9,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q007437",
+      "sourceUnit": "3.11",
+      "firstLine": "3.11:1",
+      "lastLine": "3.11:23",
+      "lineCount": 23,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q007438",
+      "sourceUnit": "3.12",
+      "firstLine": "3.12:1′",
+      "lastLine": "3.12:15′",
+      "lineCount": 15,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q007439",
+      "sourceUnit": "3.13",
+      "firstLine": "3.13:1′",
+      "lastLine": "3.13:11′′",
+      "lineCount": 11,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q007440",
+      "sourceUnit": "3.14",
+      "firstLine": "3.14:1′",
+      "lastLine": "3.14:11′",
+      "lineCount": 11,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q007441",
+      "sourceUnit": "3.15",
+      "firstLine": "3.15:1′",
+      "lastLine": "3.15:49′′",
+      "lineCount": 49,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q007442",
+      "sourceUnit": "3.16",
+      "firstLine": "3.16:1",
+      "lastLine": "3.16:12",
+      "lineCount": 12,
+      "category": "Prescriptions for Symptoms Indicating Witchcraft"
+    },
+    {
+      "textId": "Q007443",
+      "sourceUnit": "4.1.1",
+      "firstLine": "4.1.1:1",
+      "lastLine": "4.1.1:18",
+      "lineCount": 18,
+      "category": "Cures for the Witchcraft-induced Loss of Potency"
+    },
+    {
+      "textId": "Q007444",
+      "sourceUnit": "4.2.1",
+      "firstLine": "4.2.1:1",
+      "lastLine": "4.2.1:39",
+      "lineCount": 39,
+      "category": "Cures for the Witchcraft-induced Loss of Potency"
+    },
+    {
+      "textId": "Q007445",
+      "sourceUnit": "4.3",
+      "firstLine": "4.3:1′",
+      "lastLine": "4.3:18′",
+      "lineCount": 18,
+      "category": "Cures for the Witchcraft-induced Loss of Potency"
+    },
+    {
+      "textId": "Q007446",
+      "sourceUnit": "7.27",
+      "firstLine": "7.27:1′",
+      "lastLine": "7.27:38′",
+      "lineCount": 38,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007447",
+      "sourceUnit": "7.28",
+      "firstLine": "7.28:1′",
+      "lastLine": "7.28:17′",
+      "lineCount": 17,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007448",
+      "sourceUnit": "7.29",
+      "firstLine": "7.29:1′",
+      "lastLine": "7.29:26′",
+      "lineCount": 26,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007449",
+      "sourceUnit": "7.30",
+      "firstLine": "7.30:1′",
+      "lastLine": "7.30:11′",
+      "lineCount": 11,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007450",
+      "sourceUnit": "7.31",
+      "firstLine": "7.31:1",
+      "lastLine": "7.31:11",
+      "lineCount": 11,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007451",
+      "sourceUnit": "7.32",
+      "firstLine": "7.32:1",
+      "lastLine": "7.32:28′",
+      "lineCount": 28,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007452",
+      "sourceUnit": "7.33",
+      "firstLine": "7.33:1′",
+      "lastLine": "7.33:8′",
+      "lineCount": 8,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007453",
+      "sourceUnit": "7.34",
+      "firstLine": "7.34:1′",
+      "lastLine": "7.34:19′′",
+      "lineCount": 19,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007454",
+      "sourceUnit": "7.35.1",
+      "firstLine": "7.35.1:1",
+      "lastLine": "7.35.1:27",
+      "lineCount": 27,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007454",
+      "sourceUnit": "7.35.2",
+      "firstLine": "7.35.2:1′",
+      "lastLine": "7.35.2:16′′′",
+      "lineCount": 16,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007455",
+      "sourceUnit": "7.36",
+      "firstLine": "7.36:1′",
+      "lastLine": "7.36:7′",
+      "lineCount": 7,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007456",
+      "sourceUnit": "7.37",
+      "firstLine": "7.37:1",
+      "lastLine": "7.37:12′",
+      "lineCount": 12,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007457",
+      "sourceUnit": "7.38",
+      "firstLine": "7.38:1",
+      "lastLine": "7.38:49",
+      "lineCount": 49,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007458",
+      "sourceUnit": "7.39",
+      "firstLine": "7.39:1′",
+      "lastLine": "7.39:7′",
+      "lineCount": 7,
+      "category": "Ušburruda Texts"
+    },
+    {
+      "textId": "Q007459",
+      "sourceUnit": "8.45",
+      "firstLine": "8.45:1′",
+      "lastLine": "8.45:15′",
+      "lineCount": 15,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007460",
+      "sourceUnit": "8.46",
+      "firstLine": "8.46:1′",
+      "lastLine": "8.46:12′′",
+      "lineCount": 12,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007461",
+      "sourceUnit": "8.47",
+      "firstLine": "8.47:26",
+      "lastLine": "8.47:182",
+      "lineCount": 138,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007462",
+      "sourceUnit": "8.48.1",
+      "firstLine": "8.48.1:1",
+      "lastLine": "8.48.1:7",
+      "lineCount": 7,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007463",
+      "sourceUnit": "8.49",
+      "firstLine": "8.49:1",
+      "lastLine": "8.49:19",
+      "lineCount": 19,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007464",
+      "sourceUnit": "8.50.1",
+      "firstLine": "8.50.1:1",
+      "lastLine": "8.50.1:4",
+      "lineCount": 4,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007465",
+      "sourceUnit": "8.51",
+      "firstLine": "8.51:1′",
+      "lastLine": "8.51:11′",
+      "lineCount": 11,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007466",
+      "sourceUnit": "8.52",
+      "firstLine": "8.52:1′",
+      "lastLine": "8.52:17′′",
+      "lineCount": 17,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007467",
+      "sourceUnit": "8.53",
+      "firstLine": "8.53:6′",
+      "lastLine": "8.53:34′′",
+      "lineCount": 29,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007468",
+      "sourceUnit": "8.54.1",
+      "firstLine": "8.54.1:1′",
+      "lastLine": "8.54.1:16′",
+      "lineCount": 16,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007469",
+      "sourceUnit": "8.55.1",
+      "firstLine": "8.55.1:1′",
+      "lastLine": "8.55.1:9′",
+      "lineCount": 9,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007470",
+      "sourceUnit": "8.56.1",
+      "firstLine": "8.56.1:1′",
+      "lastLine": "8.56.1:10′",
+      "lineCount": 10,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007471",
+      "sourceUnit": "8.57",
+      "firstLine": "8.57:1",
+      "lastLine": "8.57:15",
+      "lineCount": 15,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007472",
+      "sourceUnit": "8.58",
+      "firstLine": "8.58:1′",
+      "lastLine": "8.58:13′′",
+      "lineCount": 13,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007473",
+      "sourceUnit": "8.59",
+      "firstLine": "8.59:1′",
+      "lastLine": "8.59:15′",
+      "lineCount": 15,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007474",
+      "sourceUnit": "8.60",
+      "firstLine": "8.60:1",
+      "lastLine": "8.60:40′′",
+      "lineCount": 40,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007475",
+      "sourceUnit": "8.61",
+      "firstLine": "8.61:1",
+      "lastLine": "8.61:26′",
+      "lineCount": 26,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007476",
+      "sourceUnit": "8.62",
+      "firstLine": "8.62:1′",
+      "lastLine": "8.62:13′",
+      "lineCount": 13,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007477",
+      "sourceUnit": "8.63",
+      "firstLine": "8.63:1",
+      "lastLine": "8.63:15",
+      "lineCount": 15,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007478",
+      "sourceUnit": "8.64",
+      "firstLine": "8.64:1′",
+      "lastLine": "8.64:11′",
+      "lineCount": 11,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007479",
+      "sourceUnit": "8.65",
+      "firstLine": "8.65:1",
+      "lastLine": "8.65:30′",
+      "lineCount": 30,
+      "category": "Ceremonial Rituals for Undoing Witchcraft"
+    },
+    {
+      "textId": "Q007480",
+      "sourceUnit": "9.9",
+      "firstLine": "9.9:1",
+      "lastLine": "9.9:12",
+      "lineCount": 12,
+      "category": "Anti-witchcraft Incantations within Bit rimki and Related Texts"
+    },
+    {
+      "textId": "Q007481",
+      "sourceUnit": "10.19",
+      "firstLine": "10.19:1′",
+      "lastLine": "10.19:14′",
+      "lineCount": 14,
+      "category": "Rituals against zikurudu and Other Special Types of Witchcraft"
+    },
+    {
+      "textId": "Q007482",
+      "sourceUnit": "12.2",
+      "firstLine": "12.2:1",
+      "lastLine": "12.2:5",
+      "lineCount": 5,
+      "category": "Diagnostic Texts"
+    },
+    {
+      "textId": "Q007505",
+      "sourceUnit": "F.1",
+      "firstLine": "F.1:1′",
+      "lastLine": "F.1:18′′′",
+      "lineCount": 18,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007506",
+      "sourceUnit": "F.2",
+      "firstLine": "F.2:1′",
+      "lastLine": "F.2:9′",
+      "lineCount": 9,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007507",
+      "sourceUnit": "F.3",
+      "firstLine": "F.3:1′",
+      "lastLine": "F.3:7′",
+      "lineCount": 7,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007508",
+      "sourceUnit": "F.4",
+      "firstLine": "F.4:1′",
+      "lastLine": "F.4:13′′",
+      "lineCount": 13,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007509",
+      "sourceUnit": "F.5",
+      "firstLine": "F.5:1′",
+      "lastLine": "F.5:8′",
+      "lineCount": 8,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007510",
+      "sourceUnit": "F.6",
+      "firstLine": "F.6:1′",
+      "lastLine": "F.6:9′",
+      "lineCount": 9,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007511",
+      "sourceUnit": "F.7",
+      "firstLine": "F.7:1′",
+      "lastLine": "F.7:9′",
+      "lineCount": 9,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007512",
+      "sourceUnit": "F.8",
+      "firstLine": "F.8:1′",
+      "lastLine": "F.8:11′",
+      "lineCount": 11,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007513",
+      "sourceUnit": "F.9",
+      "firstLine": "F.9:1′",
+      "lastLine": "F.9:14′",
+      "lineCount": 14,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007514",
+      "sourceUnit": "F.10",
+      "firstLine": "F.10:1′",
+      "lastLine": "F.10:5′",
+      "lineCount": 5,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007515",
+      "sourceUnit": "F.11",
+      "firstLine": "F.11:1′",
+      "lastLine": "F.11:6′",
+      "lineCount": 6,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007516",
+      "sourceUnit": "F.12",
+      "firstLine": "F.12:1′",
+      "lastLine": "F.12:37′′′",
+      "lineCount": 37,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007517",
+      "sourceUnit": "F.13",
+      "firstLine": "F.13:1′",
+      "lastLine": "F.13:28′′",
+      "lineCount": 28,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007518",
+      "sourceUnit": "F.14",
+      "firstLine": "F.14:1′",
+      "lastLine": "F.14:28′′",
+      "lineCount": 28,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007519",
+      "sourceUnit": "F.15",
+      "firstLine": "F.15:1′",
+      "lastLine": "F.15:13′",
+      "lineCount": 13,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007520",
+      "sourceUnit": "F.16",
+      "firstLine": "F.16:1",
+      "lastLine": "F.16:9",
+      "lineCount": 9,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007521",
+      "sourceUnit": "F.17",
+      "firstLine": "F.17:1′",
+      "lastLine": "F.17:17′",
+      "lineCount": 17,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007522",
+      "sourceUnit": "F.18",
+      "firstLine": "F.18:1′",
+      "lastLine": "F.18:11′",
+      "lineCount": 11,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007523",
+      "sourceUnit": "F.19",
+      "firstLine": "F.19:1′",
+      "lastLine": "F.19:11′",
+      "lineCount": 11,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007524",
+      "sourceUnit": "F.20",
+      "firstLine": "F.20:1′",
+      "lastLine": "F.20:7′",
+      "lineCount": 7,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007525",
+      "sourceUnit": "F.21",
+      "firstLine": "F.21:1′",
+      "lastLine": "F.21:5′",
+      "lineCount": 5,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007526",
+      "sourceUnit": "F.22",
+      "firstLine": "F.22:1′",
+      "lastLine": "F.22:8′",
+      "lineCount": 8,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007527",
+      "sourceUnit": "F.23",
+      "firstLine": "F.23:1′",
+      "lastLine": "F.23:15′′",
+      "lineCount": 15,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007528",
+      "sourceUnit": "F.24",
+      "firstLine": "F.24:1′",
+      "lastLine": "F.24:12′",
+      "lineCount": 12,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007529",
+      "sourceUnit": "F.25",
+      "firstLine": "F.25:1′",
+      "lastLine": "F.25:11′",
+      "lineCount": 11,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007530",
+      "sourceUnit": "F.26",
+      "firstLine": "F.26:1′",
+      "lastLine": "F.26:7′",
+      "lineCount": 7,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007531",
+      "sourceUnit": "F.27",
+      "firstLine": "F.27:1′",
+      "lastLine": "F.27:5′",
+      "lineCount": 5,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007532",
+      "sourceUnit": "F.28",
+      "firstLine": "F.28:1′",
+      "lastLine": "F.28:8′",
+      "lineCount": 8,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007533",
+      "sourceUnit": "F.29",
+      "firstLine": "F.29:1",
+      "lastLine": "F.29:9′′",
+      "lineCount": 9,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007534",
+      "sourceUnit": "F.30",
+      "firstLine": "F.30:1′",
+      "lastLine": "F.30:13′",
+      "lineCount": 13,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007535",
+      "sourceUnit": "F.31",
+      "firstLine": "F.31:1′",
+      "lastLine": "F.31:14′′",
+      "lineCount": 13,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007536",
+      "sourceUnit": "F.32",
+      "firstLine": "F.32:1",
+      "lastLine": "F.32:11′",
+      "lineCount": 11,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007537",
+      "sourceUnit": "F.33",
+      "firstLine": "F.33:1′",
+      "lastLine": "F.33:17′",
+      "lineCount": 17,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007538",
+      "sourceUnit": "F.34",
+      "firstLine": "F.34:1",
+      "lastLine": "F.34:18",
+      "lineCount": 18,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007683",
+      "sourceUnit": "F.35",
+      "firstLine": "F.35:1′",
+      "lastLine": "F.35:7′",
+      "lineCount": 7,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007684",
+      "sourceUnit": "F.36",
+      "firstLine": "F.36:1′",
+      "lastLine": "F.36:6′",
+      "lineCount": 6,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007685",
+      "sourceUnit": "F.37",
+      "firstLine": "F.37:1′",
+      "lastLine": "F.37:6′",
+      "lineCount": 6,
+      "category": "Small, Unassignable Fragments"
+    },
+    {
+      "textId": "Q007687",
+      "sourceUnit": "A.31",
+      "firstLine": "A.31:1′",
+      "lastLine": "A.31:35′",
+      "lineCount": 35,
+      "category": "Additional Texts"
+    }
+  ]
+}

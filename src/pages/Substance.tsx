@@ -31,6 +31,7 @@ export default function SubstancePage() {
           <span><span className="faint">Written </span><b className="tx">{s.forms.join(", ")}</b></span>
           <span><span className={`status ${s.status}`}>{STATUS_LABEL[s.status]}</span> <span className="faint">— {STATUS_NOTE[s.status]}</span></span>
           {s.glossDe && <span><span className="faint">TLHdig gloss </span><b>{s.glossDe}</b></span>}
+          {s.cmawro && <span><span className="faint">CMAwRo </span><b className="tx-i">{s.cmawro.akkadian}</b> “{s.cmawro.gloss}” <span className="faint">· matched by {s.cmawro.basis} · {s.cmawro.n} attestations in {s.cmawro.texts} texts</span>{s.cmawro.example && <> · <Link to={`/corpora/cmawro/text/${s.cmawro.example.text}#${encodeURIComponent(s.cmawro.example.ref)}`}>example ↗</Link></>}</span>}
         </div>
       </header>
 

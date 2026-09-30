@@ -1,7 +1,6 @@
-import { decodeRitualRecipe } from "../src/lib/ritualShare.js";
-import compositionIndex from "../src/data/rituals/composition-index.json" with { type: "json" };
+import { decodeAnyRitualRecipe } from "../src/lib/ritualShare.js";
+import { compileRitualSteps } from "../src/lib/ritualExecution.js";
 
-const byId = new Map(compositionIndex.map((item) => [`${item.ritualId}/${item.stepId}`, item]));
 const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
 
 export default {
@@ -10,11 +9,11 @@ export default {
     const url = new URL(request.url);
     const token = url.searchParams.get("recipe") || url.pathname.split("/").filter(Boolean).at(-1) || "";
     let recipe;
-    try { recipe = decodeRitualRecipe(token); }
+    try { recipe = decodeAnyRitualRecipe(token); }
     catch { return new Response("This ritual link is invalid or no longer supported.", { status: 404, headers: { "Content-Type": "text/plain; charset=utf-8" } }); }
     const title = `A ritual for ${recipe.goal} · tuppi`;
-    const names = recipe.items.map((item) => byId.get(item.id).stepTitle);
-    const description = `${names.join(" → ")}. A creative, source-linked sequence of Hittite ritual acts; not a claim of efficacy.`;
+    const names = compileRitualSteps(recipe).filter((step) => recipe.engine !== "grammar" || step.kind === "source").map((step) => step.instruction);
+    const description = `${names.join(" → ")}. A source-linked ritual sequence for ${recipe.goal}.`;
     const origin = url.origin;
     const shareUrl = `${origin}/r/${token}`;
     const destination = `/rituals/create?recipe=${token}`;

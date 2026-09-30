@@ -1,0 +1,17 @@
+{
+ "dismember-animal": {
+  "title": "Divide an animal into parts",
+  "definition": "Cut an animal's body into named parts, such as limbs matching the patient's.",
+  "externalParallels": []
+ },
+ "take-harm-from-body": {
+  "title": "Take harm from the body",
+  "definition": "Remove a named harm directly from the patient's body without a stated carrier.",
+  "externalParallels": []
+ },
+ "spit-into-carrier": {
+  "title": "Spit into a carrier",
+  "definition": "The patient spits into an animal or object that will carry the harm.",
+  "externalParallels": []
+ }
+}

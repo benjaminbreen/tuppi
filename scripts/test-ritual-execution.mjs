@@ -1,0 +1,62 @@
+import assert from 'node:assert/strict';
+import { writeFileSync } from 'node:fs';
+import { compileRitualSteps, validateExecutionSteps } from '../src/lib/ritualExecution.js';
+import { encodeRitualRecipe, decodeRitualRecipe } from '../src/lib/ritualShare.js';
+import share from '../api/share.js';
+const recipe = { goal: 'graduate from UCSC', goalFrame: { outcome: 'graduation from UCSC', wish: 'May you graduate from UCSC.', method: 'luna' }, mode: 'analogy', fit: 'clear', executionVersion: 1,
+  items: [['wash-with-water', 'water-cleansing', 'renewal'], ['pass-through-gate', 'gate-passage', 'passage'], ['libate-sun-god', 'confirm-cleansing', 'renewal']].map(([id, episodeId, matchedTheme]) => ({ id: `tunnawiya/${id}`, unitId: `tunnawiya-${id}`, reason: 'matched', episodeId, matchedTheme, jevProbability: .8 })) };
+const steps = compileRitualSteps(recipe);
+assert.equal(steps.length, 5);
+assert.deepEqual(steps.map(x => x.kind), ['composed', 'source', 'source', 'composed', 'source']);
+assert.equal(steps[0].words, recipe.goalFrame.wish);
+assert.equal(steps[3].accompanies, 'tunnawiya/pass-through-gate');
+assert.match(steps[3].words, /As you pass this threshold, may you graduate from UCSC/);
+assert.ok(steps.filter(x => x.kind === 'composed').every(x => !('image' in x) && !('jevProbability' in x)));
+assert.deepEqual(validateExecutionSteps(steps), []);
+assert.ok(validateExecutionSteps(steps.slice(1)).length); // Cannot continue unstarted speech.
+assert.ok(validateExecutionSteps(steps.filter(x => !x.completes)).length); // Speech has a completion.
+const token = encodeRitualRecipe(recipe);
+assert.deepEqual(compileRitualSteps(decodeRitualRecipe(token)), steps);
+const old = { ...recipe, executionVersion: undefined };
+assert.equal(compileRitualSteps(decodeRitualRecipe(encodeRitualRecipe(old))).length, 3);
+const v5 = JSON.parse(Buffer.from(token, 'base64url').toString());
+v5[0] = 5; v5.length = 6;
+assert.equal(compileRitualSteps(decodeRitualRecipe(Buffer.from(JSON.stringify(v5)).toString('base64url'))).length, 3);
+assert.throws(() => encodeRitualRecipe({ ...recipe, executionVersion: 99 }));
+assert.equal(compileRitualSteps({ ...recipe, mode: 'historical' }).length, 3);
+const washOnly = compileRitualSteps({ ...recipe, items: recipe.items.slice(0, 1) });
+assert.equal(washOnly.length, 3);
+assert.match(washOnly.at(-1).instruction, /conclude/);
+assert.deepEqual(validateExecutionSteps(washOnly), []);
+const gateOnly = compileRitualSteps({ ...recipe, items: [recipe.items[1]] });
+assert.equal(gateOnly.length, 3); // Removing washing rebuilds the opening at the gate.
+assert.equal(gateOnly[0].sourceId, recipe.items[1].id);
+assert.equal(compileRitualSteps({ ...recipe, items: [] }).length, 0);
+const noWording = compileRitualSteps({ ...recipe, goalFrame: undefined });
+assert.match(noWording[0].words, /graduate from UCSC/);
+const otherPerson = compileRitualSteps({ ...recipe, goalFrame: { outcome: 'a new episode from Ms Rachel', wish: 'May Ms Rachel make a new episode.', method: 'luna' } });
+assert.match(otherPerson[3].words, /may Ms Rachel make a new episode/);
+const html = await (await share.fetch(new Request(`https://tuppi.test/r/${token}`))).text();
+assert.match(html, /begin the petition/);
+assert.match(html, /speak the comparison/);
+if (process.argv.includes('--fixture')) writeFileSync('/tmp/tuppi-execution-preview-url.txt', `http://localhost:5181/rituals/create?recipe=${token}`);
+console.log('Speech prerequisites, standalone speech cards, activity completion, edits and v2–v6 share compatibility passed.');
+
+const modern = { ...recipe, executionVersion: 2 };
+const revised = compileRitualSteps(modern);
+assert.equal(revised.length, 4);
+assert.equal(revised[0].kind, 'source');
+assert.match(revised[0].instruction, /begins and speaks the cleansing words/);
+assert.ok(!revised.some(x => /begin-speech|end-speech/.test(x.id)));
+assert.deepEqual(validateExecutionSteps(revised), []);
+assert.equal(compileRitualSteps({ ...modern, items: recipe.items.slice(0, 1) }).length, 1);
+const treeItems = ['touch-fruit-tree', 'wish-by-tree'].map(id => ({ id: `tunnawiya/${id}`, unitId: `tunnawiya-${id}`, reason: 'matched', episodeId: 'tree-increase', matchedTheme: 'increase' }));
+const candy = { ...modern, goal: 'get lots of candy on Halloween', goalFrame: { outcome: 'lots of candy on Halloween', wish: 'May you get lots of candy on Halloween.', method: 'luna' }, items: [recipe.items[0], ...treeItems] };
+const candySteps = compileRitualSteps(candy);
+assert.equal(candySteps.length, 3);
+assert.equal(candySteps.filter(x => x.instruction.includes('candy')).length, 1);
+assert.equal(candySteps.filter(x => x.kind === 'composed').length, 0);
+const withGate = compileRitualSteps({ ...candy, items: [recipe.items[0], recipe.items[1], ...treeItems] });
+assert.ok(!withGate.find(x => x.kind === 'composed').words.includes('candy'));
+assert.deepEqual(compileRitualSteps(decodeRitualRecipe(encodeRitualRecipe(candy))), candySteps);
+console.log('Speech v2 removes boundary petitions, preserves distinct comparisons and round-trips alongside legacy links.');

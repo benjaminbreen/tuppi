@@ -1,0 +1,698 @@
+[
+  {
+    "id": "ram-release",
+    "ritualId": "ashella",
+    "stepIds": [
+      "prepare-ram",
+      "twist-wool",
+      "bind-ram",
+      "tether-ram",
+      "appeal",
+      "release-rams"
+    ],
+    "title": "Present and send away the ram",
+    "role": "petition",
+    "stage": 30,
+    "themes": [
+      "release",
+      "protection"
+    ],
+    "historicalLogic": "Ašḫella prepares and adorns rams, tethers them overnight, petitions the god responsible for plague, then releases them toward the enemy border. The selected ram remains the same animal throughout.",
+    "adaptation": "Adapt the unwanted condition named in the petition. Retain the source’s plague context and enemy-border destination as historical particulars; do not invent a modern enemy.",
+    "instructions": {
+      "prepare-ram": "Provide a ram at dusk",
+      "twist-wool": "Twist the white, red and green wool",
+      "bind-ram": "Bind the cord and rings to that ram",
+      "tether-ram": "Tether that ram before the tent overnight",
+      "appeal": "Ask the plague god to accept the tethered ram",
+      "release-rams": "Lead and release that ram at the enemy border"
+    },
+    "resources": [
+      {
+        "id": "ram",
+        "introducedAt": "prepare-ram",
+        "usedAt": [
+          "bind-ram",
+          "tether-ram",
+          "appeal",
+          "release-rams"
+        ],
+        "completedAt": "release-rams"
+      },
+      {
+        "id": "cord",
+        "introducedAt": "twist-wool",
+        "usedAt": [
+          "bind-ram"
+        ],
+        "completedAt": "bind-ram"
+      }
+    ]
+  },
+  {
+    "id": "horses-departure",
+    "ritualId": "uhhamuwa",
+    "stepIds": [
+      "bring-fodder-fat",
+      "address-horses-chariot"
+    ],
+    "title": "Provision the god’s departure",
+    "role": "petition",
+    "stage": 30,
+    "themes": [
+      "release",
+      "protection"
+    ],
+    "historicalLogic": "Fodder and fat are brought for the god’s horses and chariot; the accompanying address asks the horses to eat and the god to turn back toward his own land.",
+    "adaptation": "The connected gift-and-departure episode can express removal of an unwanted influence. Fodder by itself is not a general preparation metaphor.",
+    "instructions": {
+      "bring-fodder-fat": "Bring fodder and fat for the god’s horses and chariot",
+      "address-horses-chariot": "Ask that the horses eat, the chariot be greased, and the god return home"
+    },
+    "resources": [
+      {
+        "id": "provisions",
+        "introducedAt": "bring-fodder-fat",
+        "usedAt": [
+          "address-horses-chariot"
+        ],
+        "completedAt": "address-horses-chariot"
+      }
+    ]
+  },
+  {
+    "id": "road-provisions",
+    "ritualId": "uhhamuwa",
+    "stepIds": [
+      "bring-food-drink",
+      "prepare-for-road-god"
+    ],
+    "title": "Prepare provisions for the road god",
+    "role": "petition",
+    "stage": 30,
+    "themes": [
+      "provision",
+      "petition",
+      "general"
+    ],
+    "historicalLogic": "Cheese, bread, wine, beer and fruit are brought and prepared for the road god within a rite against plague. The source does not specify the arrangement.",
+    "adaptation": "Preparing food and drink for the source recipient can express provisioning or hospitality when that relationship is actually requested. Generic ambition alone is not a specific connection. The plague setting remains explicit; do not infer that the road god grants human travel, school grades or commercial success.",
+    "instructions": {
+      "bring-food-drink": "Bring cheese, bread, wine, beer and fruit",
+      "prepare-for-road-god": "Prepare those provisions for the road god"
+    },
+    "resources": [
+      {
+        "id": "provisions",
+        "introducedAt": "bring-food-drink",
+        "usedAt": [
+          "prepare-for-road-god"
+        ],
+        "completedAt": "prepare-for-road-god"
+      }
+    ]
+  },
+  {
+    "id": "counter-speech",
+    "ritualId": "allii",
+    "stepIds": [
+      "arrange-figures",
+      "seat-patient",
+      "raise-vessel",
+      "return-address"
+    ],
+    "title": "Present figures and return the sorcery",
+    "role": "petition",
+    "stage": 30,
+    "themes": [
+      "protection",
+      "release"
+    ],
+    "historicalLogic": "The patient faces the Sun-god while the practitioner presents the vessel and clay figures and asks that the sorcery return to its maker.",
+    "adaptation": "Use only where a hostile influence is actually part of the goal. This is not a generic way to obtain attention or defeat ordinary competitors.",
+    "instructions": {
+      "arrange-figures": "Set out the clay figures and vessel",
+      "seat-patient": "Sit facing the Sun-god",
+      "raise-vessel": "Have the practitioner raise the vessel and figures",
+      "return-address": "Have the practitioner ask the Sun-god to return the sorcery"
+    },
+    "resources": [
+      {
+        "id": "figures",
+        "introducedAt": "arrange-figures",
+        "usedAt": [
+          "raise-vessel",
+          "return-address"
+        ],
+        "completedAt": "return-address"
+      }
+    ]
+  },
+  {
+    "id": "overnight-deposit",
+    "ritualId": "allii",
+    "stepIds": [
+      "set-basket",
+      "sleep-over",
+      "lift-at-dawn"
+    ],
+    "title": "Place, sleep over, and remove the deposit",
+    "role": "transition",
+    "stage": 20,
+    "themes": [
+      "persistence",
+      "renewal",
+      "release"
+    ],
+    "historicalLogic": "In the A/C arrangement a basket containing grain, bread, bow and arrows is placed beneath the bed. The patient sleeps over it; at dawn the practitioner removes and moves it over the patient. Other copies have variants.",
+    "adaptation": "Adapt the overnight interval as a bounded period of waiting for change, retaining both placement and removal of the same deposit.",
+    "instructions": {
+      "set-basket": "Have a practitioner place the prepared basket beneath your bed",
+      "sleep-over": "Sleep over that deposit",
+      "lift-at-dawn": "At dawn, have the practitioner remove that basket and move it over you"
+    },
+    "resources": [
+      {
+        "id": "deposit",
+        "introducedAt": "set-basket",
+        "usedAt": [
+          "sleep-over",
+          "lift-at-dawn"
+        ],
+        "completedAt": "lift-at-dawn"
+      }
+    ]
+  },
+  {
+    "id": "water-cleansing",
+    "ritualId": "tunnawiya",
+    "stepIds": [
+      "wash-with-water"
+    ],
+    "title": "Wash while the practitioner speaks",
+    "role": "cleansing",
+    "stage": 10,
+    "themes": [
+      "renewal",
+      "release"
+    ],
+    "historicalLogic": "The patient washes himself with water while Tunnawiya continues the incantation. Actor and washed person are the same participant.",
+    "adaptation": "Adapt the cleansing to a fresh condition for the undertaking. Keep the practitioner’s accompanying speech attached to the washing.",
+    "instructions": {
+      "wash-with-water": "Wash yourself with water while the practitioner continues the incantation"
+    },
+    "resources": []
+  },
+  {
+    "id": "salt-cleansing",
+    "ritualId": "ashella",
+    "stepIds": [
+      "wash-salt-water"
+    ],
+    "title": "Mix salt and wash the hands",
+    "role": "cleansing",
+    "stage": 10,
+    "themes": [
+      "renewal",
+      "protection"
+    ],
+    "historicalLogic": "Salt is mixed into water and the participants wash their hands. Preparation of the mixture and its use are both present in this source occurrence.",
+    "adaptation": "Adapt the participants’ cleansing as preparation for the requested undertaking.",
+    "instructions": {
+      "wash-salt-water": "Mix salt into water and wash your hands with it"
+    },
+    "resources": []
+  },
+  {
+    "id": "wine-cleansing",
+    "ritualId": "tunnawiya",
+    "stepIds": [
+      "wash-hands-wine"
+    ],
+    "title": "Wash the hands with wine",
+    "role": "cleansing",
+    "stage": 10,
+    "themes": [
+      "renewal"
+    ],
+    "historicalLogic": "The patient rises and washes his hands with wine.",
+    "adaptation": "Adapt the source’s self-washing as a change in the participant’s condition; wine remains a distinct material variant.",
+    "instructions": {
+      "wash-hands-wine": "Rise and wash your hands with wine"
+    },
+    "resources": []
+  },
+  {
+    "id": "tree-increase",
+    "ritualId": "tunnawiya",
+    "stepIds": [
+      "touch-fruit-tree",
+      "wish-by-tree"
+    ],
+    "title": "Touch the fruitful tree and speak the comparison",
+    "role": "increase",
+    "stage": 40,
+    "themes": [
+      "increase",
+      "petition"
+    ],
+    "historicalLogic": "Tunnawiya takes hold of a fruit-bearing tree and addresses the Sun-god, comparing the patron’s hoped-for descendants to the fruit on the tree.",
+    "adaptation": "Replace the hoped-for descendants in the comparison with the desired increase. Customers, learning, or new creative work are modern substitutions for the original fertility aim.",
+    "instructions": {
+      "touch-fruit-tree": "Have the practitioner take hold of a fruit-bearing tree",
+      "wish-by-tree": "Ask the Sun-god for the desired increase, as the tree bears fruit"
+    },
+    "resources": [
+      {
+        "id": "tree-contact",
+        "introducedAt": "touch-fruit-tree",
+        "usedAt": [
+          "wish-by-tree"
+        ],
+        "completedAt": "wish-by-tree"
+      }
+    ]
+  },
+  {
+    "id": "cow-increase",
+    "ritualId": "tunnawiya",
+    "stepIds": [
+      "take-cow-by-horn",
+      "wish-for-offspring"
+    ],
+    "title": "Take the cow’s horn and speak the comparison",
+    "role": "increase",
+    "stage": 40,
+    "themes": [
+      "increase"
+    ],
+    "historicalLogic": "Tunnawiya takes a fertile cow by the horn and addresses the Sun-god, comparing the patron’s hoped-for fertility with the cow’s increase.",
+    "adaptation": "Adapt the explicitly spoken comparison of increase, preserving the distinction between the original descendants and the modern desired result.",
+    "instructions": {
+      "take-cow-by-horn": "Have the practitioner take the cow by its horn",
+      "wish-for-offspring": "Ask the Sun-god for the desired increase through the cow comparison"
+    },
+    "resources": [
+      {
+        "id": "cow-contact",
+        "introducedAt": "take-cow-by-horn",
+        "usedAt": [
+          "wish-for-offspring"
+        ],
+        "completedAt": "wish-for-offspring"
+      }
+    ]
+  },
+  {
+    "id": "confirm-cleansing",
+    "ritualId": "tunnawiya",
+    "stepIds": [
+      "libate-sun-god"
+    ],
+    "title": "Confirm the cleansing with a libation",
+    "role": "closure",
+    "stage": 50,
+    "themes": [
+      "renewal",
+      "protection"
+    ],
+    "historicalLogic": "The patient pours wine and calls on the Sun-god to keep the cleansing effective. This conclusion presupposes a cleansing act.",
+    "adaptation": "Conclude a selected cleansing episode by asking that its change endure; do not turn the libation into an unrelated wish.",
+    "instructions": {
+      "libate-sun-god": "Pour wine for the Sun-god and ask that the cleansing endure"
+    },
+    "resources": [],
+    "supports": "cleansing"
+  },
+  {
+    "id": "fire-passage",
+    "ritualId": "ashella",
+    "stepIds": [
+      "pass-between-fires"
+    ],
+    "title": "Kindle two fires and pass between them",
+    "role": "transition",
+    "stage": 35,
+    "themes": [
+      "renewal",
+      "protection",
+      "passage"
+    ],
+    "historicalLogic": "In the second-day plague rite, participants kindle two fires and walk out between them. This is a bodily passage in a purification context, not a documented rite for travel to a destination.",
+    "adaptation": "Reinterpret moving between the fires as passage from a present condition into a desired one, including a journey or a new undertaking. This is a creative extension of a purification passage, not evidence of ancient travel magic. Retain the actual crossing; no invented deity or promise of safety is needed.",
+    "instructions": {
+      "pass-between-fires": "Kindle fires in two places and walk out between them"
+    },
+    "resources": []
+  },
+  {
+    "id": "gate-passage",
+    "ritualId": "tunnawiya",
+    "stepIds": [
+      "pass-through-gate"
+    ],
+    "title": "Pass beneath the gate while the practitioner speaks",
+    "role": "transition",
+    "stage": 35,
+    "themes": [
+      "passage",
+      "renewal"
+    ],
+    "historicalLogic": "After the disposal of used objects in Tunnawiya’s purification rite, the patient goes out beneath the alanza-wood gate while the practitioner speaks. The construction of this gate is not securely known; this excerpt assumes an existing gate.",
+    "adaptation": "Creatively map going out through the gate onto crossing into a new place, opportunity or phase of life. Preserve the practitioner and the passage. The changed purpose is a modern analogy; do not invent instructions for building the historical gate or claim the rite originally secured admission or travel.",
+    "instructions": {
+      "pass-through-gate": "Pass beneath the alanza-wood gate while the practitioner speaks"
+    },
+    "resources": []
+  },
+  {
+    "id": "break-pot",
+    "ritualId": "tunnawiya",
+    "stepIds": [
+      "smash-empty-pot"
+    ],
+    "title": "Wave the empty pot over the participant and break it",
+    "role": "release",
+    "stage": 30,
+    "themes": [
+      "release",
+      "renewal"
+    ],
+    "historicalLogic": "In Tunnawiya’s purification rite an empty pot is waved over the patient and smashed. The movement over the participant and destruction of the same pot form one connected act.",
+    "adaptation": "Adapt the irreversible breaking as a break with an unwanted condition, habit or blockage actually expressed in the request. A new modern object of release is permitted; do not invent an enemy or assume every ambition requires destruction.",
+    "instructions": {
+      "smash-empty-pot": "Have the practitioner wave an empty pot over you and break that pot"
+    },
+    "resources": []
+  },
+  {
+    "id": "earth-contact",
+    "ritualId": "allii",
+    "stepIds": [
+      "press-earth"
+    ],
+    "title": "Press the earth clod while speaking",
+    "role": "contact",
+    "stage": 30,
+    "themes": [
+      "renewal",
+      "protection"
+    ],
+    "historicalLogic": "The practitioner presses a clod of earth against the patient while uttering a purification analogy. The identification of the named tree is uncertain.",
+    "adaptation": "Reinterpret contact with earth as establishing a steady condition or returning to a material foundation. This is a modern analogy, not an ancient claim about confidence. Keep the pressing and spoken comparison together.",
+    "operations": [
+      "contact",
+      "press",
+      "earth"
+    ],
+    "instructions": {
+      "press-earth": "Have the practitioner press the earth clod against you while speaking the purification comparison"
+    },
+    "resources": []
+  },
+  {
+    "id": "dough-contact",
+    "ritualId": "allii",
+    "stepIds": [
+      "press-dough"
+    ],
+    "title": "Press dough while speaking the life-giving comparison",
+    "role": "contact",
+    "stage": 30,
+    "themes": [
+      "increase",
+      "renewal"
+    ],
+    "historicalLogic": "The practitioner takes a lump of dough, presses it against the patient, and speaks a life-giving analogy.",
+    "adaptation": "A yielding, formed substance can express a desired capacity to grow or take shape. Preserve the bodily contact and speech; do not mistake an analogy involving dough for an attested rite for baking or commerce.",
+    "operations": [
+      "contact",
+      "form",
+      "dough"
+    ],
+    "instructions": {
+      "press-dough": "Have the practitioner press the lump of dough against you while speaking the life-giving comparison"
+    },
+    "resources": []
+  },
+  {
+    "id": "strip-and-release",
+    "ritualId": "tunnawiya",
+    "stepIds": [
+      "set-out-black-clothes",
+      "dress-in-black",
+      "strip-black-clothes",
+      "comb-down",
+      "release-into-river"
+    ],
+    "title": "Put on, strip away, and send the used objects downriver",
+    "role": "release",
+    "stage": 30,
+    "themes": [
+      "release",
+      "renewal"
+    ],
+    "historicalLogic": "Black clothing is supplied and worn; the shirt is slit and removed. Maidservants comb the patient downwards. The used combs, clothes and other objects are released into the river.",
+    "adaptation": "Express leaving a condition or former role behind through wearing, removal and departure of the same objects. Retain the source’s purification purpose separately. A modern condition may replace impurity in the interpretation, not in the quotation.",
+    "operations": [
+      "clothe",
+      "remove",
+      "comb",
+      "carry-away",
+      "river"
+    ],
+    "instructions": {
+      "set-out-black-clothes": "Set out the black clothes",
+      "dress-in-black": "Dress the patient in black",
+      "strip-black-clothes": "Slit the black shirt",
+      "comb-down": "Comb the patient downward",
+      "release-into-river": "Send the used objects into the river"
+    },
+    "resources": [
+      {
+        "id": "clothes",
+        "introducedAt": "set-out-black-clothes",
+        "usedAt": [
+          "dress-in-black",
+          "strip-black-clothes",
+          "release-into-river"
+        ],
+        "completedAt": "release-into-river"
+      },
+      {
+        "id": "combs",
+        "introducedAt": "comb-down",
+        "usedAt": [
+          "release-into-river"
+        ],
+        "completedAt": "release-into-river"
+      }
+    ]
+  },
+  {
+    "id": "river-clay-figures",
+    "ritualId": "tunnawiya",
+    "stepIds": [
+      "offer-at-riverbank",
+      "address-riverbank-goddess",
+      "collect-river-clay",
+      "offer-at-spring",
+      "collect-spring-clay",
+      "make-clay-figures",
+      "hold-clay-tongue"
+    ],
+    "title": "Seek clay from two waters, shape it, and present the clay tongue",
+    "role": "representation",
+    "stage": 30,
+    "themes": [
+      "release",
+      "petition",
+      "renewal"
+    ],
+    "historicalLogic": "Offerings and an appeal precede collecting riverbank and spring clay. Tunnawiya models twelve tongues and two oxen from the collected clay, then holds a clay tongue over the patient with an incantation.",
+    "adaptation": "Material from two named sources becomes an object representing speech. Creatively express making a concern about speech tangible, or reshaping an unwanted verbal condition. Do not claim a historical examination or public-speaking purpose. The final presentation is the use of the prepared clay, not an abandoned preparation.",
+    "operations": [
+      "gather",
+      "combine",
+      "model",
+      "represent-speech",
+      "present"
+    ],
+    "instructions": {
+      "offer-at-riverbank": "Offer bread and wine at the riverbank",
+      "address-riverbank-goddess": "Address the riverbank Mother-goddess",
+      "collect-river-clay": "Take clay from the riverbank",
+      "offer-at-spring": "Offer bread and wine at the spring",
+      "collect-spring-clay": "Take clay from the spring",
+      "make-clay-figures": "Make clay tongues and oxen",
+      "hold-clay-tongue": "Hold a clay tongue over the patient"
+    },
+    "resources": [
+      {
+        "id": "river-clay",
+        "introducedAt": "collect-river-clay",
+        "usedAt": [
+          "make-clay-figures"
+        ],
+        "completedAt": "make-clay-figures"
+      },
+      {
+        "id": "spring-clay",
+        "introducedAt": "collect-spring-clay",
+        "usedAt": [
+          "make-clay-figures"
+        ],
+        "completedAt": "make-clay-figures"
+      },
+      {
+        "id": "clay-tongue",
+        "introducedAt": "make-clay-figures",
+        "usedAt": [
+          "hold-clay-tongue"
+        ],
+        "completedAt": "hold-clay-tongue"
+      }
+    ]
+  },
+  {
+    "id": "offer-carry-return",
+    "ritualId": "paskuwatti",
+    "stepIds": [
+      "arrange-offerings",
+      "carry-offerings",
+      "set-home-table"
+    ],
+    "title": "Arrange the offerings, take them out, and bring the bread home",
+    "role": "provision",
+    "stage": 30,
+    "themes": [
+      "provision",
+      "passage",
+      "renewal"
+    ],
+    "historicalLogic": "Offerings on soldier-bread are carried into open country by a virgin girl, with the bathed offerant following. The bread returns home to a new table, with the wine jug placed in front.",
+    "adaptation": "Adapt the outward-and-homeward movement as taking an undertaking into the world and establishing a place for its return. It is an excerpted sequence, not the full source rite. Preserve the identified guide and already-bathed offerant as source conditions; do not invent an offering to a modern customer.",
+    "operations": [
+      "arrange",
+      "carry-out",
+      "return",
+      "place",
+      "table"
+    ],
+    "instructions": {
+      "arrange-offerings": "Arrange food, wine, wool and clothes",
+      "carry-offerings": "Carry the offerings to a fresh place",
+      "set-home-table": "Set the offering on a new table"
+    },
+    "resources": [
+      {
+        "id": "offering-bread",
+        "introducedAt": "arrange-offerings",
+        "usedAt": [
+          "carry-offerings",
+          "set-home-table"
+        ],
+        "completedAt": "set-home-table"
+      }
+    ]
+  },
+  {
+    "id": "entreat-for-partnership",
+    "ritualId": "paskuwatti",
+    "stepIds": [
+      "entreat-uliliyassi"
+    ],
+    "title": "Entreat Uliliyašši concerning partnership and descendants",
+    "role": "petition",
+    "stage": 30,
+    "themes": [
+      "petition",
+      "increase"
+    ],
+    "historicalLogic": "In a rite to restore the man’s procreative capacity, Paškuwatti petitions Uliliyašši. The translated appeal includes taking a wife and begetting sons and daughters.",
+    "adaptation": "A modern request for partnership may adapt this explicit relational petition. Seeking a partner does not imply a need for children or impaired procreative capacity. Do not substitute a named modern person for the deity or claim that the rite ensures another person’s consent.",
+    "operations": [
+      "address",
+      "partnership",
+      "petition"
+    ],
+    "instructions": {
+      "entreat-uliliyassi": "Entreat Uliliyašši for descendants"
+    },
+    "resources": []
+  },
+  {
+    "id": "riverbank-gift-and-appeal",
+    "ritualId": "tunnawiya",
+    "stepIds": [
+      "offer-at-riverbank",
+      "address-riverbank-goddess"
+    ],
+    "title": "Bring an offering to the riverbank and address its Mother-goddess",
+    "role": "petition",
+    "stage": 30,
+    "themes": [
+      "petition",
+      "renewal",
+      "provision"
+    ],
+    "historicalLogic": "Thin bread, groats and wine are offered at the riverbank, followed by an appeal to the riverbank Mother-goddess for cleansing with clay.",
+    "adaptation": "Express approaching a source of help through a gift and a spoken appeal. Keep the riverbank recipient and cleansing context visible; the modern goal is a reinterpretation of requesting help, not a new divine specialty.",
+    "operations": [
+      "offer",
+      "address",
+      "riverbank"
+    ],
+    "instructions": {
+      "offer-at-riverbank": "Offer bread and wine at the riverbank",
+      "address-riverbank-goddess": "Address the riverbank Mother-goddess"
+    },
+    "resources": []
+  },
+  {
+    "id": "assemble-worn-amulet",
+    "ritualId": "cmawro-q005039-3-4-1",
+    "stepIds": [
+      "string-stones",
+      "pack-ingredients-in-wool",
+      "wrap-in-leather",
+      "interlace-bundle",
+      "place-around-neck"
+    ],
+    "title": "String, wrap, interlace and wear the amulet",
+    "role": "protection",
+    "stage": 30,
+    "themes": [
+      "protection",
+      "renewal"
+    ],
+    "operations": [
+      "string",
+      "enclose",
+      "interlace",
+      "wear"
+    ],
+    "historicalLogic": "The edited Mesopotamian prescription strings named stones on flax, encloses ingredients in wool and leather, interlaces the package among the stones, and places it on the affected person’s neck. The linked evidence is Akkadian transliteration; English summaries are editorial, not quoted translations.",
+    "adaptation": "Adapt assembling and wearing a compact protective object to keeping support close or gathering several protective elements together. Retain the named materials and source condition as historical context. This is Mesopotamian material, not a Hittite attestation.",
+    "instructions": {
+      "string-stones": "String the stones named in the prescription on flax",
+      "pack-ingredients-in-wool": "Pack the named ingredients in wool",
+      "wrap-in-leather": "Wrap that bundle in leather",
+      "interlace-bundle": "Interlace the wrapped bundle among the stones",
+      "place-around-neck": "Place the assembled amulet around your neck"
+    },
+    "resources": [
+      {
+        "id": "amulet",
+        "introducedAt": "string-stones",
+        "usedAt": [
+          "pack-ingredients-in-wool",
+          "wrap-in-leather",
+          "interlace-bundle",
+          "place-around-neck"
+        ],
+        "completedAt": "place-around-neck"
+      }
+    ]
+  }
+]

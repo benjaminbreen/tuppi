@@ -1,0 +1,4 @@
+[
+  {"id":"cmawro:q005039:distress","corpusId":"cmawro","label":"Constant fear, distress and troubled dreams","kind":"symptom","source":{"corpusId":"cmawro","sourceId":"Q005039","sourceUrl":"https://oracc.museum.upenn.edu/cmawro/Q005039","locus":"3.4.1:1–10"},"interpretationNote":"Ancient symptom cluster, not a retrospective diagnosis."},
+  {"id":"cmawro:q005039:hostile-magic","corpusId":"cmawro","label":"Hostile magic and divine anger","kind":"etiology","source":{"corpusId":"cmawro","sourceId":"Q005039","sourceUrl":"https://oracc.museum.upenn.edu/cmawro/Q005039","locus":"3.4.1:13–16"},"interpretationNote":"The prescription's stated explanation, not a modern disease category."}
+]

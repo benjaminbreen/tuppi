@@ -1,0 +1,256 @@
+{
+  "id": "zarpiya",
+  "cth": 757,
+  "title": "Zarpiya’s ritual",
+  "shortName": "Zarpiya",
+  "eyebrow": "CTH 757 · a bad year and continual dying",
+  "dating": {
+    "label": "New Hittite copy",
+    "note": "KUB 9.31 is a collection tablet containing Zarpiya, Uḫḫamuwa and Ašḫḫella; this selection uses Zarpiya’s closing passage.",
+    "sourceUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+9.31"
+  },
+  "purpose": "A rite for a bad year and continual dying, ending by closing and anointing a door while speaking a protective formula.",
+  "attribution": "Attributed to Zarpiya of Kizzuwatna",
+  "sourceSummary": "KUB 9.31 · Zarpiya section, closing passage",
+  "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+9.31",
+  "phases": [
+    {
+      "name": "Close the rite",
+      "range": [
+        1,
+        4
+      ],
+      "idea": "Implements are taken up, the door is shut and anointed, and a closing formula is spoken."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "take-implements",
+      "number": 1,
+      "title": "Take up the ritual implements",
+      "shortTitle": "Take up the ritual implements",
+      "shortDescription": "Attendants gather the implements at the end of the rite.",
+      "phase": "Close the rite",
+      "unitType": "act",
+      "actionType": "take-implements",
+      "verb": "Take",
+      "summary": "Attendants gather the implements at the end of the rite.",
+      "patient": "Ritual implements",
+      "actor": "Ritual attendants",
+      "material": [
+        "Ritual implements"
+      ],
+      "evidence": "KUB 9.31, paragraph 20.",
+      "image": {
+        "alt": "Attendants taking up ritual implements",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 §20",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 19
+          }
+        }
+      ],
+      "unitId": "zarpiya-take-implements",
+      "composition": {
+        "function": "clear-setting",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "take",
+          "theme": {
+            "class": "implement",
+            "sub": "ritual implements"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "attendants"
+          }
+        }
+      ]
+    },
+    {
+      "id": "close-door",
+      "number": 2,
+      "title": "Close the door",
+      "shortTitle": "Close the door",
+      "shortDescription": "The master of the house shuts the courtyard door.",
+      "phase": "Close the rite",
+      "unitType": "act",
+      "actionType": "close-door",
+      "verb": "Close",
+      "summary": "The master of the house shuts the courtyard door.",
+      "patient": "Courtyard door",
+      "actor": "The master of the house",
+      "material": [],
+      "evidence": "KUB 9.31, paragraph 20.",
+      "image": {
+        "alt": "Closed wooden door and oil vessel",
+        "note": "The wooden door and vessel represent the named objects; their form is illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 §20",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 19
+          }
+        }
+      ],
+      "unitId": "zarpiya-close-door",
+      "composition": {
+        "function": "seal-threshold",
+        "requires": [
+          "take-implements"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "close",
+          "theme": {
+            "class": "structure",
+            "sub": "door",
+            "ref": "courtyard-door"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "master of the house"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anoint-door",
+      "number": 3,
+      "title": "Anoint the door with fine oil",
+      "shortTitle": "Anoint the door with fine oil",
+      "shortDescription": "The closed door is anointed with fine oil.",
+      "phase": "Close the rite",
+      "unitType": "act",
+      "actionType": "anoint-door",
+      "verb": "Anoint",
+      "summary": "The closed door is anointed with fine oil.",
+      "patient": "Courtyard door",
+      "actor": "The master of the house",
+      "material": [
+        "Fine oil"
+      ],
+      "evidence": "KUB 9.31, paragraph 20.",
+      "image": {
+        "alt": "Closed wooden door and oil vessel",
+        "note": "The wooden door and vessel represent the named objects; their form is illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 §20",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 19
+          }
+        }
+      ],
+      "unitId": "zarpiya-anoint-door",
+      "composition": {
+        "function": "seal-threshold",
+        "requires": [
+          "close-door"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "anoint",
+          "theme": {
+            "class": "structure",
+            "sub": "door",
+            "ref": "courtyard-door"
+          },
+          "medium": {
+            "class": "liquid",
+            "sub": "oil",
+            "f": {
+              "quality": "fine"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "speak-formula",
+      "number": 4,
+      "title": "Speak the closing words",
+      "shortTitle": "Speak the closing words",
+      "shortDescription": "The final words ask that evil remain outside and good stay within.",
+      "phase": "Close the rite",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The final words ask that evil remain outside and good stay within.",
+      "patient": "The household",
+      "actor": "The master of the house",
+      "material": [],
+      "evidence": "KUB 9.31, paragraph 21.",
+      "image": {
+        "alt": "Closed wooden door and oil vessel",
+        "note": "The wooden door and vessel represent the named objects; their form is illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-9-31",
+          "locus": "KUB 9.31 §21",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 20
+          }
+        }
+      ],
+      "unitId": "zarpiya-speak-threshold",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "anoint-door"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "binding",
+          "about": {
+            "class": "harm",
+            "sub": "evil"
+          },
+          "note": "let evil be shut out"
+        },
+        {
+          "verb": "speak",
+          "act": "binding",
+          "about": "good",
+          "note": "let good be held fast inside"
+        }
+      ]
+    }
+  ]
+}

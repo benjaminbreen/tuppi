@@ -1,0 +1,116 @@
+# Composable image prompts (placeholders for GPT-6)
+
+One sprite per **object** and one pose per **verb**. A step card = verb pose + object sprite(s); only steps a composite can't express get a bespoke plate.
+
+Shared style suffix: _Flat line illustration in the existing tuppi plate style; transparent PNG with real alpha and clear margin on all four sides; no scenery; no text._
+
+## Object sprites
+
+- `obj/animal-bull.png` — A single bull animal, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/animal-cow.png` — A single cow animal, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/animal-ewe.png` — A single ewe animal, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/animal-goat.png` — A single goat animal, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/animal-pig.png` — A single pig animal, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/animal-piglet.png` — A single piglet animal, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/animal-puppy.png` — A single puppy animal, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/animal-ram.png` — A single ram animal, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/animal-sheep.png` — A single sheep animal, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/body-hands.png` — A single hands body, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/clay.png` — A single clay, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/cord-wool.png` — A single wool cord, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-Mother-goddess.png` — A single Mother-goddess deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-Storm-god.png` — A single Storm-god deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-Sun-god.png` — A single Sun-god deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-Tutelary deity.png` — A single Tutelary deity deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-Uliliyassi.png` — A single Uliliyassi deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-all the gods.png` — A single all the gods deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-female deity.png` — A single female deity deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-god of the road.png` — A single god of the road deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-hostile god.png` — A single hostile god deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-male deity.png` — A single male deity deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-plague god.png` — A single plague god deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/deity-the Seven.png` — A single the Seven deity, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/fat-sheep.png` — A single sheep fat, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/figure.png` — A single figure, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/figure-tongue.png` — A single tongue figure, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/fire.png` — A single fire, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-beer.png` — A single beer food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-bread.png` — A single bread food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-cheese.png` — A single cheese food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-fig.png` — A single fig food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-fodder.png` — A single fodder food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-fruit.png` — A single fruit food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-groats.png` — A single groats food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-offerings.png` — A single offerings food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-provisions.png` — A single provisions food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-raisin.png` — A single raisin food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/food-wine.png` — A single wine food, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/garment.png` — A single garment, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/garment-festive.png` — A single festive garment, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/garment-leggings.png` — A single leggings garment, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/garment-shirt.png` — A single shirt garment, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/garment-shoes.png` — A single shoes garment, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/implement-bow.png` — A single bow implement, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/implement-distaff.png` — A single distaff implement, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/implement-spindle.png` — A single spindle implement, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/meat-sheep.png` — A single sheep meat, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/ornament-metal.png` — A single metal ornament, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/ornament-ring.png` — A single ring ornament, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/person-army lord.png` — A single army lord person, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/person-king.png` — A single king person, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/person-offerant.png` — A single offerant person, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/person-participants.png` — A single participants person, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/person-patient.png` — A single patient person, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/person-prisoner.png` — A single prisoner person, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/person-virgin girl.png` — A single virgin girl person, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/person-woman.png` — A single woman person, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/place-spring.png` — A single spring place, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/salt.png` — A single salt, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/structure-gate.png` — A single gate structure, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/structure-hut.png` — A single hut structure, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/tree.png` — A single tree, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/tree-fruit-bearing.png` — A single fruit-bearing tree, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/used materials.png` — A single used materials, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/vessel-pot.png` — A single pot vessel, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/wool.png` — A single wool, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+- `obj/wreath-wool.png` — A single wool wreath, isolated, three-quarter view, neutral state (no adornment/colour variant; variants are tinted or overlaid in code).
+
+## Verb poses
+
+- `verb/attach.png` — A generic Hittite-period ritual figure performing: fasten X onto Y. Hands/target area left empty so an object sprite can be composited in.
+- `verb/break.png` — A generic Hittite-period ritual figure performing: smash. Hands/target area left empty so an object sprite can be composited in.
+- `verb/bring.png` — A generic Hittite-period ritual figure performing: move a thing into the ritual space. Hands/target area left empty so an object sprite can be composited in.
+- `verb/build.png` — A generic Hittite-period ritual figure performing: erect a structure. Hands/target area left empty so an object sprite can be composited in.
+- `verb/burn.png` — A generic Hittite-period ritual figure performing: burn. Hands/target area left empty so an object sprite can be composited in.
+- `verb/collect.png` — A generic Hittite-period ritual figure performing: take substance from a place. Hands/target area left empty so an object sprite can be composited in.
+- `verb/comb.png` — A generic Hittite-period ritual figure performing: draw downward over body. Hands/target area left empty so an object sprite can be composited in.
+- `verb/combine.png` — A generic Hittite-period ritual figure performing: join materials into one (twist, mix). Hands/target area left empty so an object sprite can be composited in.
+- `verb/cook.png` — A generic Hittite-period ritual figure performing: cook. Hands/target area left empty so an object sprite can be composited in.
+- `verb/cut.png` — A generic Hittite-period ritual figure performing: cut / split. Hands/target area left empty so an object sprite can be composited in.
+- `verb/dedicate.png` — A generic Hittite-period ritual figure performing: assign X to a deity. Hands/target area left empty so an object sprite can be composited in.
+- `verb/detach.png` — A generic Hittite-period ritual figure performing: remove X from Y. Hands/target area left empty so an object sprite can be composited in.
+- `verb/draw-out.png` — A generic Hittite-period ritual figure performing: pull X out of body orifice. Hands/target area left empty so an object sprite can be composited in.
+- `verb/dress.png` — A generic Hittite-period ritual figure performing: put garments on. Hands/target area left empty so an object sprite can be composited in.
+- `verb/drive.png` — A generic Hittite-period ritual figure performing: send an animal/person along a path. Hands/target area left empty so an object sprite can be composited in.
+- `verb/exchange.png` — A generic Hittite-period ritual figure performing: swap one object for another. Hands/target area left empty so an object sprite can be composited in.
+- `verb/give.png` — A generic Hittite-period ritual figure performing: transfer X to person. Hands/target area left empty so an object sprite can be composited in.
+- `verb/hold-over.png` — A generic Hittite-period ritual figure performing: raise/wave X over a person. Hands/target area left empty so an object sprite can be composited in.
+- `verb/kill.png` — A generic Hittite-period ritual figure performing: kill. Hands/target area left empty so an object sprite can be composited in.
+- `verb/melt.png` — A generic Hittite-period ritual figure performing: melt. Hands/target area left empty so an object sprite can be composited in.
+- `verb/offer.png` — A generic Hittite-period ritual figure performing: set food/drink before a deity. Hands/target area left empty so an object sprite can be composited in.
+- `verb/pass.png` — A generic Hittite-period ritual figure performing: person moves through a boundary. Hands/target area left empty so an object sprite can be composited in.
+- `verb/place.png` — A generic Hittite-period ritual figure performing: set X at a location. Hands/target area left empty so an object sprite can be composited in.
+- `verb/pour.png` — A generic Hittite-period ritual figure performing: libate. Hands/target area left empty so an object sprite can be composited in.
+- `verb/release.png` — A generic Hittite-period ritual figure performing: let go into water/territory. Hands/target area left empty so an object sprite can be composited in.
+- `verb/select.png` — A generic Hittite-period ritual figure performing: choose a person/animal. Hands/target area left empty so an object sprite can be composited in.
+- `verb/shape.png` — A generic Hittite-period ritual figure performing: form material into an object (wreath, figure, gate). Hands/target area left empty so an object sprite can be composited in.
+- `verb/speak-analogy.png` — A generic Hittite-period ritual figure performing: as X, so may Y. Hands/target area left empty so an object sprite can be composited in.
+- `verb/speak-assignment.png` — A generic Hittite-period ritual figure performing: declare X belongs to / is for Y. Hands/target area left empty so an object sprite can be composited in.
+- `verb/speak-dismissal.png` — A generic Hittite-period ritual figure performing: tell the harm/god to go. Hands/target area left empty so an object sprite can be composited in.
+- `verb/speak-petition.png` — A generic Hittite-period ritual figure performing: ask a deity for X. Hands/target area left empty so an object sprite can be composited in.
+- `verb/speak-substitution.png` — A generic Hittite-period ritual figure performing: declare X replaces Y. Hands/target area left empty so an object sprite can be composited in.
+- `verb/take.png` — A generic Hittite-period ritual figure performing: pick up / take possession. Hands/target area left empty so an object sprite can be composited in.
+- `verb/tie.png` — A generic Hittite-period ritual figure performing: tether / bind in place. Hands/target area left empty so an object sprite can be composited in.
+- `verb/touch.png` — A generic Hittite-period ritual figure performing: lay hold of a living exemplar. Hands/target area left empty so an object sprite can be composited in.
+- `verb/undress.png` — A generic Hittite-period ritual figure performing: take garments off. Hands/target area left empty so an object sprite can be composited in.
+- `verb/wash.png` — A generic Hittite-period ritual figure performing: wash with a liquid. Hands/target area left empty so an object sprite can be composited in.

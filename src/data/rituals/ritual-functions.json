@@ -22,5 +22,21 @@
   "return-harm": "Ask that harm return to its maker.",
   "sleep-over-deposit": "Keep a prepared deposit beneath the patient overnight.",
   "cook-offering": "Cook a named animal after it has been killed.",
-  "kill-for-offering": "Kill a named animal as part of a prescribed offering sequence."
+  "kill-for-offering": "Kill a named animal as part of a prescribed offering sequence.",
+  "clear-setting": "Gather ritual implements as the rite concludes.",
+  "seal-threshold": "Close or anoint a doorway as a boundary against unwanted influence.",
+  "read-omen": "Observe a bird as a ritual omen.",
+  "carry-dead": "Carry the dead person to the place of cremation.",
+  "cremate-dead": "Burn the dead person after carrying the body outside.",
+  "place-in-carrier": "Load prepared materials into the basket that will carry them away.",
+  "chant-at-threshold": "Sound a ritual cry as the carrier crosses the gate.",
+  "confess-offence": "Acknowledge before a god the offence identified as the cause of the harm.",
+  "promise-restitution": "Undertake to perform a neglected rite or give compensation to an offended god.",
+  "seek-divine-disclosure": "Ask a god to reveal an unknown cause or demand by dream, oracle or inspired person.",
+  "disable-enemy": "Speak or act so that an opponent's force is quelled, cooled or seized.",
+  "apply-remedy": "Apply a prepared remedy to the patient's body.",
+  "prepare-remedy": "Gather, dry, crush, mix or steep materials into a medical remedy.",
+  "administer-remedy": "Give a prepared remedy to the patient to drink or eat, or apply it to the body.",
+  "expose-remedy": "Leave a remedy outdoors overnight, under the stars, before it is used.",
+  "recite-incantation": "Speak a prescribed incantation that accompanies a medical treatment."
 }

@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { ClassMark, PeriodDots, PresBar } from "../components/Marks";
 import RitualAtGlance from "../components/RitualAtGlance";
 import { RITUAL_CATALOG } from "../lib/ritualCatalog";
-import { useRitualEdition } from "../lib/ritualEdition";
+import { sourceHref, useRitualEdition } from "../lib/ritualEdition";
 import { PERIOD_LABEL, useIndex, useSubstances, useTrIndex } from "../lib/data";
 
 export default function Composition() {
@@ -52,7 +52,7 @@ export default function Composition() {
             <h2>Manuscripts</h2>
             <PeriodDots periods={comp.periods} />
           </div>
-          {sharedTablet && <p className="ritual-shared-tablet">This ritual also appears on <Link to={`/text/kub-9-31#P${sharedTablet.anchor.index}`}>KUB 9.31 ↗</Link>, filed in this catalogue under CTH 757.</p>}
+          {sharedTablet && <p className="ritual-shared-tablet">This ritual also appears on <Link to={sourceHref(sharedTablet)}>KUB 9.31 ↗</Link>, filed in this catalogue under CTH 757.</p>}
           <table className="table">
             <thead>
               <tr>

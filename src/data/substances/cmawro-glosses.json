@@ -1,0 +1,163 @@
+[
+  {
+    "lemma": "a-tá-i-ša",
+    "akkadian": "atāʾišu",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "a-tá-i-ṣu",
+    "akkadian": "atāʾišu",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "a-zu-pí-ra",
+    "akkadian": "azupīru",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "a-zu-pí-ru",
+    "akkadian": "azupīru",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "bu-ra-ša",
+    "akkadian": "burāšu",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "im!-ḫur-aš-ra",
+    "akkadian": "imḫur-ešrā",
+    "basis": "syllabic spelling",
+    "gloss": "'heals-twenty'-plant"
+  },
+  {
+    "lemma": "im-ḫur-li-i-mi",
+    "akkadian": "imḫur-līm",
+    "basis": "syllabic spelling",
+    "gloss": "'heals-a-thousand'-plant"
+  },
+  {
+    "lemma": "ni-nu-u",
+    "akkadian": "nīnû",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "ni-nu-ú",
+    "akkadian": "nīnû",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "ni-né-e",
+    "akkadian": "nīnû",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "si-ḫa",
+    "akkadian": "sīḫu",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "sí-ḫa",
+    "akkadian": "sīḫu",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "si?-i?-ḫa",
+    "akkadian": "sīḫu",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "ši-ḫu",
+    "akkadian": "sīḫu",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "šu-a-du",
+    "akkadian": "suādu",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "šà-mi-dì",
+    "akkadian": "samīdu",
+    "basis": "syllabic spelling",
+    "gloss": "(a soapwort?)"
+  },
+  {
+    "lemma": "ḫa-šu-ú",
+    "akkadian": "ḫašû",
+    "basis": "syllabic spelling",
+    "gloss": "thyme?"
+  },
+  {
+    "lemma": "ḫa-šé-e",
+    "akkadian": "ḫašû",
+    "basis": "syllabic spelling",
+    "gloss": "thyme?"
+  },
+  {
+    "lemma": "bu-ša-a-na",
+    "akkadian": "būšānu",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "ur-nu-ú",
+    "akkadian": "urnû",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "a-šu-uḫ!-ḫu",
+    "akkadian": "ašūḫu",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "ša-ki-ra-a",
+    "akkadian": "šakirû",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "šu-né-e",
+    "akkadian": "šunû",
+    "basis": "syllabic spelling"
+  },
+  {
+    "lemma": "IN.NU.UŠ",
+    "akkadian": "maštakal",
+    "basis": "logogram (standard Sumerian–Akkadian equivalence)"
+  },
+  {
+    "lemma": "ZÀ.ḪI.LI",
+    "akkadian": "saḫlû",
+    "basis": "logogram (standard Sumerian–Akkadian equivalence)"
+  },
+  {
+    "lemma": "A.ZAL.LA",
+    "akkadian": "azallû",
+    "basis": "logogram (standard Sumerian–Akkadian equivalence)"
+  },
+  {
+    "lemma": "KUR.RA",
+    "akkadian": "nīnû",
+    "basis": "logogram (standard Sumerian–Akkadian equivalence)"
+  },
+  {
+    "lemma": "GAZI",
+    "akkadian": "kasû",
+    "basis": "logogram (standard Sumerian–Akkadian equivalence)",
+    "gloss": "mustard?"
+  },
+  {
+    "lemma": "SIKIL.LA",
+    "akkadian": "sikillu",
+    "basis": "logogram (standard Sumerian–Akkadian equivalence)"
+  },
+  {
+    "lemma": "EME.UR.KU",
+    "akkadian": "lišān-kalbi",
+    "basis": "logogram (standard Sumerian–Akkadian equivalence)"
+  },
+  {
+    "lemma": "EME!.UR.KU",
+    "akkadian": "lišān-kalbi",
+    "basis": "logogram (standard Sumerian–Akkadian equivalence)"
+  }
+]

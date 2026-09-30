@@ -1545,5 +1545,2844 @@
       "original": "nam-ma-aš-kán DUTU me-na-aḫ-ḫa-an-da ti-",
       "english": "libates to the Sun-god and speaks"
     }
+  ],
+  "dandanku/gather-fodder-wool": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §7",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "im?-me?-ú-ul an-da im-me-ia-an ŠE IN.NU.DA-ia",
+      "english": "They take a fodder mixture mixed together, grain and straw, and red wool, blue wool, black wool and white wool."
+    }
+  ],
+  "dandanku/mix-fodder": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §7",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "im?-me?-ú-ul an-da im-me-ia-an ŠE IN.NU.DA-ia",
+      "english": "They mix the grain and straw together"
+    }
+  ],
+  "dandanku/scatter-fodder": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §7",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "im?-me?-ú-ul an-da im-me-ia-an ŠE IN.NU.DA-ia",
+      "english": "scatter it across the ḫaddari- of the road (crossroads?)"
+    }
+  ],
+  "dandanku/address-grooms": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §8",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 7
+      },
+      "original": "LÚMEŠ ANŠE.KUR.RA-wa-at-ta ku-e-eš ŠA DINGIR-LIM",
+      "english": "let them give this fodder mixture to the horses!"
+    }
+  ],
+  "dandanku/address-maids": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §8",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 7
+      },
+      "original": "LÚMEŠ ANŠE.KUR.RA-wa-at-ta ku-e-eš ŠA DINGIR-LIM",
+      "english": "let the maidservants of the god take the red wool, blue wool, black wool, green wool and white wool!"
+    }
+  ],
+  "dandanku/bring-animals": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §9",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 8
+      },
+      "original": "nu-za EGIR-an-da 1 MÁŠ.TUR 1 ŠAḪ.TUR 1 UR.GI₇ TUR-ia",
+      "english": "he takes one kid, one piglet and one puppy"
+    }
+  ],
+  "dandanku/kill-animals": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §9",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 8
+      },
+      "original": "nu-za EGIR-an-da 1 MÁŠ.TUR 1 ŠAḪ.TUR 1 UR.GI₇ TUR-ia",
+      "english": "they cut them apart for the Sebettu (the 'Seven') in an untouched place"
+    }
+  ],
+  "dandanku/libate-seven": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §9",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 8
+      },
+      "original": "nu-za EGIR-an-da 1 MÁŠ.TUR 1 ŠAḪ.TUR 1 UR.GI₇ TUR-ia",
+      "english": "he libates [beer and wine(?)] to [the Sebettu], each three times."
+    }
+  ],
+  "paskuwatti/arrange-offerings": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.8 §2",
+      "doc": "kub-7-8-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "nu-uš-ši Dú-li-li-ia-aš-ši-in ši-ip-pa-an-taḫ-ḫi",
+      "english": "They lie on the soldier-bread."
+    }
+  ],
+  "paskuwatti/carry-offerings": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.8 §3",
+      "doc": "kub-7-8-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "na-at DUMU.MUNUS šu-up-pé-eš-šar-aš kar-ap-zi EN SÍSKUR-ma",
+      "english": "We carry them to a fresh place in the open country and set (them down)."
+    }
+  ],
+  "paskuwatti/make-reed-gate": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.8 §3",
+      "doc": "kub-7-8-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "na-at DUMU.MUNUS šu-up-pé-eš-šar-aš kar-ap-zi EN SÍSKUR-ma",
+      "english": "I make gates of reed."
+    }
+  ],
+  "paskuwatti/bind-gate": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.8 §4",
+      "doc": "kub-7-8-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "nam-ma-at IŠ-TU SÍG SA₅ SÍG BABBAR an-da iš-ḫi-iš-ki-i-mi",
+      "english": "I bind them with red wool (and) white wool."
+    }
+  ],
+  "paskuwatti/give-spindle": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.8 §4",
+      "doc": "kub-7-8-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "nam-ma-at IŠ-TU SÍG SA₅ SÍG BABBAR an-da iš-ḫi-iš-ki-i-mi",
+      "english": "I put a spindle and a distaff into the offerant's [hand]"
+    }
+  ],
+  "paskuwatti/pass-gate": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.8 §4",
+      "doc": "kub-7-8-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "nam-ma-at IŠ-TU SÍG SA₅ SÍG BABBAR an-da iš-ḫi-iš-ki-i-mi",
+      "english": "he passes [through] beneath the gates."
+    }
+  ],
+  "paskuwatti/exchange-implements": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.8 §4",
+      "doc": "kub-7-8-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "nam-ma-at IŠ-TU SÍG SA₅ SÍG BABBAR an-da iš-ḫi-iš-ki-i-mi",
+      "english": "I take the spindle and the distaff away from him and give him a bow [(and) arrows]"
+    }
+  ],
+  "paskuwatti/speak-exchange": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.8 §4",
+      "doc": "kub-7-8-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "nam-ma-at IŠ-TU SÍG SA₅ SÍG BABBAR an-da iš-ḫi-iš-ki-i-mi",
+      "english": "I have taken femininity away from you and given you masculinity in its place."
+    }
+  ],
+  "paskuwatti/entreat-uliliyassi": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.8 §8",
+      "doc": "kub-7-8-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 7
+      },
+      "original": "nu-ud-du-za ka-a-ša mu-u-ki-iš-ke-mi tal-le-eš-ke-mi",
+      "english": "Let him take (her as) his wife, and let him beget sons and daughters for himself."
+    }
+  ],
+  "paskuwatti/set-home-table": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.8 §9",
+      "doc": "kub-7-8-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 8
+      },
+      "original": "nu-ud-du-za ka-a-ša ka-a-aš an-tu-wa-aḫ-ḫa-aš",
+      "english": "a new table is set up, and I place the soldier-bread on the table"
+    }
+  ],
+  "zarpiya/take-implements": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 §20",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 19
+      },
+      "original": "nu SÍSKUR Ú-NU-TEMEŠ ša-ra-a da-an-zi GIŠIG-an-na",
+      "english": "They take up the ritual implements"
+    }
+  ],
+  "zarpiya/close-door": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 §20",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 19
+      },
+      "original": "nu SÍSKUR Ú-NU-TEMEŠ ša-ra-a da-an-zi GIŠIG-an-na",
+      "english": "he closes the door"
+    }
+  ],
+  "zarpiya/anoint-door": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 §20",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 19
+      },
+      "original": "nu SÍSKUR Ú-NU-TEMEŠ ša-ra-a da-an-zi GIŠIG-an-na",
+      "english": "anoints it with fine oil"
+    }
+  ],
+  "zarpiya/speak-formula": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.31 §21",
+      "doc": "kub-9-31",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 20
+      },
+      "original": "i-da-lu-kán pa-ra-a iš-tap-du a-aš-šu-wa-kán an-da kur-ak-du",
+      "english": "Let evil be shut out(?); let good be held fast(?) inside!"
+    }
+  ],
+  "maddunani/take-provisions": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §2",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "i-ia-an-zi-ma-at ki-iš-ša-an 2 UR.GI₇ TUR",
+      "english": "two puppies, one piglet"
+    }
+  ],
+  "maddunani/prepare-at-night": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §3",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "nam-ma GE₆-az-za ḫa-a-an-da-mi GIM-an-ma",
+      "english": "Then at night I prepare (it)."
+    }
+  ],
+  "maddunani/move-through-camp": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §3",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "nam-ma GE₆-az-za ḫa-a-an-da-mi GIM-an-ma",
+      "english": "through the midst of the army camps"
+    }
+  ],
+  "maddunani/speak-in-camp": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §3",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "nam-ma GE₆-az-za ḫa-a-an-da-mi GIM-an-ma",
+      "english": "and meanwhile they speak as follows:"
+    }
+  ],
+  "maddunani/watch-bird-omens": [
+    {
+      "witness": "A",
+      "locus": "KUB 7.54 §4",
+      "doc": "kub-7-54",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "… i-da-la-u-i ku-wa-pí-ik-ki",
+      "english": "they take (as an omen) a bird coming up from behind(?)"
+    }
+  ],
+  "zelliya/take-funerary-goods": [
+    {
+      "witness": "A",
+      "locus": "KUB 30.26 §2",
+      "doc": "kub-30-26",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "2 TÚG BABBAR 2 TA-PAL TÚGGÚ.È.A GADA 1 GIŠŠÚ.A GIŠBANŠUR AD.KID",
+      "english": "two white garments; two pairs of linen shirts"
+    }
+  ],
+  "zelliya/prepare-funerary-goods": [
+    {
+      "witness": "A",
+      "locus": "KUB 30.26 §2",
+      "doc": "kub-30-26",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "2 TÚG BABBAR 2 TA-PAL TÚGGÚ.È.A GADA 1 GIŠŠÚ.A GIŠBANŠUR AD.KID",
+      "english": "All this I prepare"
+    }
+  ],
+  "zelliya/carry-dead-outside": [
+    {
+      "witness": "A",
+      "locus": "KUB 30.26 §4",
+      "doc": "kub-30-26",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "nu ma-aḫ-ḫa-an ki-i ud-da-a-ar",
+      "english": "I car[ry] the dead one (GIDIM) outside"
+    }
+  ],
+  "zelliya/cremate-dead": [
+    {
+      "witness": "A",
+      "locus": "KUB 30.26 §4",
+      "doc": "kub-30-26",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "nu ma-aḫ-ḫa-an ki-i ud-da-a-ar",
+      "english": "and I burn him up."
+    }
+  ],
+  "cmawro-q005039-3-4-1/string-stones": [
+    {
+      "witness": "E",
+      "doc": "Q005039",
+      "locus": "3.4.1:16",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005039.20l",
+        "label": "3.4.1:16"
+      },
+      "note": "Edited master text; not a single manuscript witness.",
+      "original": "ša Abi epussu ana pašāri ((abnī annûti)) ina qê kitê tašakkak",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005039-3-4-1/pack-ingredients-in-wool": [
+    {
+      "witness": "E",
+      "doc": "Q005039",
+      "locus": "3.4.1:18",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005039.22l",
+        "label": "3.4.1:18"
+      },
+      "note": "Edited master text; not a single manuscript witness.",
+      "original": "imbuʾ tâmti bīnu erēnu tišīt šammī annûti ina šipāti talammi ina maški tašappi",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005039-3-4-1/wrap-in-leather": [
+    {
+      "witness": "E",
+      "doc": "Q005039",
+      "locus": "3.4.1:18",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005039.22l",
+        "label": "3.4.1:18"
+      },
+      "note": "Edited master text; not a single manuscript witness.",
+      "original": "imbuʾ tâmti bīnu erēnu tišīt šammī annûti ina šipāti talammi ina maški tašappi",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005039-3-4-1/interlace-bundle": [
+    {
+      "witness": "E",
+      "doc": "Q005039",
+      "locus": "3.4.1:19",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005039.23l",
+        "label": "3.4.1:19"
+      },
+      "note": "Edited master text; not a single manuscript witness.",
+      "original": "itti abnī tašakkak šammī annûti ina birīt abnī talappap ina kišādīšu tašakkan-ma",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005039-3-4-1/place-around-neck": [
+    {
+      "witness": "E",
+      "doc": "Q005039",
+      "locus": "3.4.1:19",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005039.23l",
+        "label": "3.4.1:19"
+      },
+      "note": "Edited master text; not a single manuscript witness.",
+      "original": "itti abnī tašakkak šammī annûti ina birīt abnī talappap ina kišādīšu tašakkan-ma",
+      "language": "akk"
+    }
+  ],
+  "tapalazunauli/bring-donkey": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.17 + KBo 64.14 §2",
+      "doc": "kbo-64-14-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "EGIR-an-da-ma ANŠE u-un-ni-ia-an-zi nu-uš-ša-an ša-ra-a",
+      "english": "they drive up a donkey"
+    }
+  ],
+  "tapalazunauli/assign-evil": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.17 + KBo 64.14 §2",
+      "doc": "kbo-64-14-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "EGIR-an-da-ma ANŠE u-un-ni-ia-an-zi nu-uš-ša-an ša-ra-a",
+      "english": "Let this one carry off the evil"
+    }
+  ],
+  "tapalazunauli/send-donkey": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.17 + KBo 64.14 §2",
+      "doc": "kbo-64-14-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "EGIR-an-da-ma ANŠE u-un-ni-ia-an-zi nu-uš-ša-an ša-ra-a",
+      "english": "into the enemy lands"
+    }
+  ],
+  "tapalazunauli/scatter-straw": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.17 + KBo 64.14 §3",
+      "doc": "kbo-64-14-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "ma-a-an-ma-at gi-im-ra-az EGIR-pa u-wa- … …",
+      "english": "[st]raw […] he scatters (it) [oppo]site"
+    }
+  ],
+  "tapalazunauli/break-bread": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.17 + KBo 64.14 §3",
+      "doc": "kbo-64-14-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "ma-a-an-ma-at gi-im-ra-az EGIR-pa u-wa- … …",
+      "english": "he breaks a little bread opposite"
+    }
+  ],
+  "tapalazunauli/fill-basket": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.17 + KBo 64.14 §3",
+      "doc": "kbo-64-14-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "ma-a-an-ma-at gi-im-ra-az EGIR-pa u-wa- … …",
+      "english": "he pours (it) [down] into a basket"
+    }
+  ],
+  "tapalazunauli/chant-at-gate": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.17 + KBo 64.14 §3",
+      "doc": "kbo-64-14-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "ma-a-an-ma-at gi-im-ra-az EGIR-pa u-wa- … …",
+      "english": "the woman chants (palwae-, a ritual cry) in the gate"
+    }
+  ],
+  "tapalazunauli/carry-basket-out": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.17 + KBo 64.14 §4",
+      "doc": "kbo-64-14-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "na-at pa-ri-ia-an pé-e-da-an-zi na-at ar-ḫa ú-wa-an-zi",
+      "english": "They carry it across and come away."
+    }
+  ],
+  "tapalazunauli/speak-to-god": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.17 + KBo 64.14 §4",
+      "doc": "kbo-64-14-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "na-at pa-ri-ia-an pé-e-da-an-zi na-at ar-ḫa ú-wa-an-zi",
+      "english": "for your dogs I have brought food."
+    }
+  ],
+  "ummaya/prepare-at-wall": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 §10",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 9
+      },
+      "original": "nu LUGAL-i x",
+      "english": "at the (city) wall I prepare (it)."
+    }
+  ],
+  "ummaya/conjure-on-ground": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 §10",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 9
+      },
+      "original": "nu LUGAL-i x",
+      "english": "over it, on the ground, I conjure."
+    }
+  ],
+  "ummaya/release-man": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 §13",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 12
+      },
+      "original": "ma-a-an ḫu-uk-ma-in ze-en-na-i nu LÚ",
+      "english": "he releases the […]-man as a nakkušši-(substitute carrier)"
+    }
+  ],
+  "ummaya/release-oxen": [
+    {
+      "witness": "A",
+      "locus": "KBo 15.1 §13",
+      "doc": "kbo-15-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 12
+      },
+      "original": "ma-a-an ḫu-uk-ma-in ze-en-na-i nu LÚ",
+      "english": "two oxen […] [fo]r the Tutelary Deity he rel[eases] as nakkušši-(substitute carriers)"
+    }
+  ],
+  "cmawro-q004189-1-5-1/fashion-wax-figures": [
+    {
+      "witness": "E",
+      "doc": "Q004189",
+      "locus": "1.5.1:13′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004189.15l",
+        "label": "1.5.1:13′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "(([zik]ari u [sin]ništi)) teppuš ((ana)) maḫar Šamaš",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004189-1-5-1/indict-before-shamash": [
+    {
+      "witness": "E",
+      "doc": "Q004189",
+      "locus": "1.5.1:14′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004189.16l",
+        "label": "1.5.1:14′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "tadânšunūti lipâ tulabbissunūti",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004189-1-5-1/coat-with-tallow": [
+    {
+      "witness": "E",
+      "doc": "Q004189",
+      "locus": "1.5.1:14′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004189.16l",
+        "label": "1.5.1:14′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "tadânšunūti lipâ tulabbissunūti",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004189-1-5-1/place-in-disposable-pot": [
+    {
+      "witness": "E",
+      "doc": "Q004189",
+      "locus": "1.5.1:15′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004189.17l",
+        "label": "1.5.1:15′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "ina ḫupê tašakkanšunūti taqallūšunūti",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004189-1-5-1/burn-the-figures": [
+    {
+      "witness": "E",
+      "doc": "Q004189",
+      "locus": "1.5.1:15′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004189.17l",
+        "label": "1.5.1:15′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "ina ḫupê tašakkanšunūti taqallūšunūti",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004189-1-5-1/recite-return-to-shamash": [
+    {
+      "witness": "E",
+      "doc": "Q004189",
+      "locus": "1.5.1:18′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004189.20l",
+        "label": "1.5.1:18′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "((kīam)) ((šalāšīšu)) taqabbī-((ma)) ((u)) ḫupâ",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004189-1-5-1/throw-pot-in-river": [
+    {
+      "witness": "E",
+      "doc": "Q004189",
+      "locus": "1.5.1:19′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004189.21l",
+        "label": "1.5.1:19′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "adi qilû[t]i ana nāri [tanaddi]",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005063-8-18/fashion-five-material-figures": [
+    {
+      "witness": "E",
+      "doc": "Q005063",
+      "locus": "8.18:9′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005063.9l",
+        "label": "8.18:9′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "im-ma niŋ₂-sila₁₁-ŋa₂ i₃-udu esir DUḪ-lal₃ u₃-me-⸢ni⸣-[dim₂]  ; ša bini-m[a]",
+      "language": "sux-akk"
+    }
+  ],
+  "cmawro-q005063-8-18/constrain-the-figures": [
+    {
+      "witness": "E",
+      "doc": "Q005063",
+      "locus": "8.18:10′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005063.10l",
+        "label": "8.18:10′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "⸢zi⸣-da-ne-ne ka-ne-ne gub₃-bu-ne-[ne gu-du-ne-ne u₃-me-ni-dab]  ; imnātīšunu pîšun[u šumēl]īšun[u qinnassunu šuṣbit]",
+      "language": "sux-akk"
+    }
+  ],
+  "cmawro-q005063-8-18/place-figures-in-pot": [
+    {
+      "witness": "E",
+      "doc": "Q005063",
+      "locus": "8.18:12′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005063.12l",
+        "label": "8.18:12′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "{⸢dug⸣}sila₃-gaz-ta u₃-[me-ni-ŋar]  ; ina ḫupê šuk[un-ma]",
+      "language": "sux-akk"
+    }
+  ],
+  "cmawro-q005063-8-18/set-juniper-censer": [
+    {
+      "witness": "E",
+      "doc": "Q005063",
+      "locus": "8.18:13′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005063.13l",
+        "label": "8.18:13′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "igi {d}utu-še₃ niŋ₂-na {šim}li u₃-me-[ni-ŋar]  ; ina maḫar Šamaš",
+      "language": "sux-akk"
+    }
+  ],
+  "cmawro-q005063-8-18/pour-grape-must": [
+    {
+      "witness": "E",
+      "doc": "Q005063",
+      "locus": "8.18:14′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005063.14l",
+        "label": "8.18:14′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "lu₂-u₁₈-lu dumu diŋir-ra-na ŋeštin-sur-ra u₃-me-⸢ni⸣-[bal-bal]  ; liq[qi]",
+      "language": "sux-akk"
+    }
+  ],
+  "cmawro-q005063-8-18/crush-clay-dough-figures": [
+    {
+      "witness": "E",
+      "doc": "Q005063",
+      "locus": "8.18:15′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005063.15l",
+        "label": "8.18:15′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "alan im-ma niŋ₂-sila₁₁-ŋa₂ ŋiri₃-ni u₃-me-[ni-su-ub]  ; AŠ līse[r]",
+      "language": "sux-akk"
+    }
+  ],
+  "cmawro-q005063-8-18/burn-fat-wax-bitumen-figures": [
+    {
+      "witness": "E",
+      "doc": "Q005063",
+      "locus": "8.18:16′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005063.16l",
+        "label": "8.18:16′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "alan i₃-udu DUḪ-lal₃ esir izi-ta u₃-me-⸢ni⸣-[bil₂]  ; AŠ qul[u]",
+      "language": "sux-akk"
+    }
+  ],
+  "cmawro-q005063-8-18/chew-six-plants-woods": [
+    {
+      "witness": "E",
+      "doc": "Q005063",
+      "locus": "8.18:17′",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005063.17l",
+        "label": "8.18:17′"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "{ŋiš}šinig {u₂}in-nu-uš {ŋiš}ŋišimmar-tur gi-šul-ḫi {ŋiš}šita₂  ; {ŋiš}eren babbar-ra ka-bi-⸢ta⸣ u₃-me-ni-[gaz]  ; ina pî[šu li]ʾʾ[is]",
+      "language": "sux-akk"
+    }
+  ],
+  "tunnawiya-royal/list-afflictions": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Vs. I 20′–Vs. I 24′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "nu an-ni-iš-ke-ez-zi ku-in UN-an",
+      "english": "he has not overcome the tarna- (a part of the head?) of the head"
+    }
+  ],
+  "tunnawiya-royal/list-tongues": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Vs. II 3–Vs. II 11",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 8
+      },
+      "original": "DUMU.É.GAL EME-an KI.MIN ŠA MUNUSSUḪUR.LA₅ EME-an",
+      "english": "the tongue of the dead (and) of the living ditto"
+    }
+  ],
+  "tunnawiya-royal/recount-causes": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Vs. II 12–Vs. II 17",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 9
+      },
+      "original": "an-ni-iš-ke-ez-zi ku-in UN-an",
+      "english": "he stepped on something with (his) foot"
+    }
+  ],
+  "tunnawiya-royal/name-evil-speech": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Vs. II 18–Vs. II 19",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 10
+      },
+      "original": "pa-ap-re-eš-ni UḪ₇-eš-ni ḫu-ul-la-an-ze-eš-ni",
+      "english": "he spoke across(?) the gods with an evil mouth"
+    }
+  ],
+  "tunnawiya-royal/fit-limbs": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Vs. II 28–Vs. II 34",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 13
+      },
+      "original": "ḫa-an-da-an-za UZUÚRḪI.A-ma-kán",
+      "english": "the foot to the foot ditto"
+    }
+  ],
+  "tunnawiya-royal/cut-ram-limbs": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Vs. II 35–Vs. II 37",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 14
+      },
+      "original": "12 UZUÚRḪI.A-ši-iš-ša-an",
+      "english": "For him the 12 limbs of the ram (are) [cut up(?)]"
+    }
+  ],
+  "tunnawiya-royal/limbs-take-sickness": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Vs. II 38–Vs. II 41",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 15
+      },
+      "original": "SAG.DU-iš-kán kar-ap-du tar-na-aš tar-na-aš-ša GIG-an KI.MIN",
+      "english": "the tarna- (takes up) the sickness of the tarna- ditto"
+    }
+  ],
+  "tunnawiya-royal/declare-pulled-out": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 5′–Rs. III 12′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 19
+      },
+      "original": "ZAG-na-za-ma-aš-ši ḫu-it-ti-nu-un nu-uš-ši-kán ḪUL",
+      "english": "'[From the rig]ht I pulled (it) out of him.'"
+    }
+  ],
+  "tunnawiya-royal/take-evil-fright": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 5′–Rs. III 12′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 19
+      },
+      "original": "ZAG-na-za-ma-aš-ši ḫu-it-ti-nu-un nu-uš-ši-kán ḪUL",
+      "english": "And she took the evil [fri]ght from him."
+    }
+  ],
+  "tunnawiya-royal/conjure-round-limbs": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 5′–Rs. III 12′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 19
+      },
+      "original": "ZAG-na-za-ma-aš-ši ḫu-it-ti-nu-un nu-uš-ši-kán ḪUL",
+      "english": "she goes around the [12] limbs in the same way"
+    }
+  ],
+  "tunnawiya-royal/hold-over-back": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 5′–Rs. III 12′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 19
+      },
+      "original": "ZAG-na-za-ma-aš-ši ḫu-it-ti-nu-un nu-uš-ši-kán ḪUL",
+      "english": "he comes and lies down tarrawa (in another position?), and she holds (it) over his back"
+    }
+  ],
+  "tunnawiya-royal/hold-sheep-over-chest": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 13′–Rs. III 15′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 20
+      },
+      "original": "na-aš-za ú-ez-zi šar-ku- x-x še-eš-zi",
+      "english": "she holds a sheep over (his) chest"
+    }
+  ],
+  "tunnawiya-royal/plough-analogy": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 16′–Rs. III 17′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 21
+      },
+      "original": "A.ŠÀ te-ri-ip-pí-wa 3!-i-ia-aḫ-ḫa-an-zi 4-i-ia-aḫ-ḫa-an-zi",
+      "english": "and this person too I (treat) a third time (and) a fourth time!"
+    }
+  ],
+  "tunnawiya-royal/conjure-round-limbs-again": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 18′–Rs. III 19′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 22
+      },
+      "original": "ḫu-uk-ki-iš-ke-ez-zi-ma QA-TAM-MA-pát 12 UZUÚRḪI.A QA-TAM-MA-pát",
+      "english": "She keeps conjuring exactly the same (and) goes around the 12 limbs exactly the same."
+    }
+  ],
+  "tunnawiya-royal/spit-into-mouth": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 20′–Rs. III 23′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "nam-ma-an-ši pa-ra-a ap-pa-an-zi nu-uš-ši-kán",
+      "english": "he spits twice into its(?) mouth"
+    }
+  ],
+  "tunnawiya-royal/command-spit-out": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 20′–Rs. III 23′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "nam-ma-an-ši pa-ra-a ap-pa-an-zi nu-uš-ši-kán",
+      "english": "Spit out the anger of the gods (and) the tongue of the multitude, three times, four times!"
+    }
+  ],
+  "tunnawiya-royal/bring-piglets": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 24′–Rs. III 27′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 24
+      },
+      "original": "EGIR-an-ma iš-ša-na-aš ŠAḪ.TUR! TI-an-da-an-na",
+      "english": "they bring a piglet of dough and a live piglet"
+    }
+  ],
+  "tunnawiya-royal/swing-live-piglet": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 24′–Rs. III 27′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 24
+      },
+      "original": "EGIR-an-ma iš-ša-na-aš ŠAḪ.TUR! TI-an-da-an-na",
+      "english": "They keep swinging the live pig away(?)"
+    }
+  ],
+  "tunnawiya-royal/hold-dough-piglet": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 24′–Rs. III 27′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 24
+      },
+      "original": "EGIR-an-ma iš-ša-na-aš ŠAḪ.TUR! TI-an-da-an-na",
+      "english": "she keeps holding the dough piglet close to him"
+    }
+  ],
+  "tunnawiya-royal/great-god-historiola": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 28′–Rs. III 32′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "šal-li-iš-wa-kán DINGIR-LIM-iš URUla-an-ta-az u-un-ni-eš",
+      "english": "The great god drove here from the town of Landa"
+    }
+  ],
+  "tunnawiya-royal/speak-patient-name": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 28′–Rs. III 32′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 25
+      },
+      "original": "šal-li-iš-wa-kán DINGIR-LIM-iš URUla-an-ta-az u-un-ni-eš",
+      "english": "And she speaks the name of the one whom she is conjuring."
+    }
+  ],
+  "tunnawiya-royal/search-historiola": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 33′–Rs. III 42′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 26
+      },
+      "original": "pa-a-i-wa-ni-wa-ra-an ša-an-ḫi-eš-ki-u-e-ni",
+      "english": "we saw (him) with (his) 12 limbs"
+    }
+  ],
+  "tunnawiya-royal/cut-them-off": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. III 43′–Rs. IV 3′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 27
+      },
+      "original": "an-da-ma-an-kán a-uš-ta DINGIR.MAḪ-aš nu-uš-ma-aš-ša-an pé-ra-an",
+      "english": "Cut them off from the eyebrows, cut them off from the eyelashes, cut them off from the 12 limbs!"
+    }
+  ],
+  "tunnawiya-royal/remove-litany": [
+    {
+      "witness": "A",
+      "locus": "KUB 9.34 Rs. IV 7′–Rs. IV 18′",
+      "doc": "kub-9-34",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 29
+      },
+      "original": "ma-ni-in-ku-wa-an-da-an MU-an mu-ta-ed-du",
+      "english": "let (her) remove the tongue of the palace attendant"
+    }
+  ],
+  "mursili-plague-prayer/inquire-egypt-oath": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §4",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "nu a-pí-ia-ia DIŠKUR URUḪA-AT-TI BE-LÍ-IA A-BA-IA ḫa-an-ne-eš-ni-it šar-la-a-et",
+      "english": "I made it the subject of an oracle inquiry to the god"
+    }
+  ],
+  "mursili-plague-prayer/inquire-mala-offering": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §5",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "Ddam-na-aš-ša-ru-uš-kán ku-it I-NA ŠÀ-BI É DIŠKUR URUḪA-AT-TI BE-LÍ-IA",
+      "english": "I also made the offering to the river Mala the subject of an oracle inquiry"
+    }
+  ],
+  "mursili-plague-prayer/confess-sin": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §5",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "Ddam-na-aš-ša-ru-uš-kán ku-it I-NA ŠÀ-BI É DIŠKUR URUḪA-AT-TI BE-LÍ-IA",
+      "english": "See, I have confessed […] the [s]in: it is so, we did it."
+    }
+  ],
+  "mursili-plague-prayer/vow-mala-offering": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §6",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 5
+      },
+      "original": "nu SISKUR",
+      "english": "let me see to it(?), and I will perform it(?)"
+    }
+  ],
+  "mursili-plague-prayer/confess-fathers-sin": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §7",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "DIŠKUR URUḪA-AT-TI … BE-LUMEŠ-IA ki-ik-ki-iš-ta-a-ri QA-TAM-MA wa-aš-te-eš-kán-zi",
+      "english": "See, I have now confessed it before the Storm-god of Ḫatti, my lord, and the gods, my lords: it is so, we did it."
+    }
+  ],
+  "mursili-plague-prayer/soothe-and-send-away": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §7",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "DIŠKUR URUḪA-AT-TI … BE-LUMEŠ-IA ki-ik-ki-iš-ta-a-ri QA-TAM-MA wa-aš-te-eš-kán-zi",
+      "english": "let the soul of the Storm-god of Ḫatti, my lord, and of the gods, my lords, be soothed again"
+    }
+  ],
+  "mursili-plague-prayer/hear-me": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §8",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 7
+      },
+      "original": "nu-za ka-a-ša A-NA DIŠKUR EN-IA ḫi-in-ga-ni še-er ar-ku-u-wa-ar e-eš-ša-aḫ-ḫi",
+      "english": "Hear me, Storm-god of Ḫatti, my lord, and keep me alive!"
+    }
+  ],
+  "mursili-plague-prayer/bird-and-servant": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §8",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 7
+      },
+      "original": "nu-za ka-a-ša A-NA DIŠKUR EN-IA ḫi-in-ga-ni še-er ar-ku-u-wa-ar e-eš-ša-aḫ-ḫi",
+      "english": "a bird takes refuge in its taptappa- (nest or cage), and the taptappa- keeps it alive"
+    }
+  ],
+  "mursili-plague-prayer/offer-compensation": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §8",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 7
+      },
+      "original": "nu-za ka-a-ša A-NA DIŠKUR EN-IA ḫi-in-ga-ni še-er ar-ku-u-wa-ar e-eš-ša-aḫ-ḫi",
+      "english": "tell it to me in a dream, and I will give it to you"
+    }
+  ],
+  "mursili-plague-prayer/spare-cult-personnel": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §9",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 8
+      },
+      "original": "nu-ut-ta ka-a-ša am-mu-uq-ka₄ A-NA D10 URUḪA-AT-TI EN-IA ar-ku-eš-ke-mi nu-mu TI-nu-ut",
+      "english": "let those bread-offerers and libation-pourers of the gods who remain die no more"
+    }
+  ],
+  "mursili-plague-prayer/reveal-other-cause": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §10",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 9
+      },
+      "original": "nam-ma-ma ma-a-an ta-me-e-ta-az-zi-ia ku-e-ez-ka₄ ud-da-a-na-az ak-ki-iš-ke-et-ta-ri",
+      "english": "let me either see it in a dream, or let it be [ascert]ained by oracle, or let a man of god declare it"
+    }
+  ],
+  "mursili-plague-prayer/order-pure-sleep": [
+    {
+      "witness": "A",
+      "locus": "KUB 14.8 §10",
+      "doc": "kub-14-8",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 9
+      },
+      "original": "nam-ma-ma ma-a-an ta-me-e-ta-az-zi-ia ku-e-ez-ka₄ ud-da-a-na-az ak-ki-iš-ke-et-ta-ri",
+      "english": "I have given orders to [a]ll, and they will regularly sleep in purity"
+    }
+  ],
+  "army-ritual/hot-stone": [
+    {
+      "witness": "A",
+      "locus": "KUB 45.20 §2",
+      "doc": "kub-45-20",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "… -zi nu-wa ku-e-el ÉRINMEŠ-az",
+      "english": "and it falls silent, (so let) your […] (and) your(?) battle […] grow cold!"
+    }
+  ],
+  "army-ritual/winter-torpor": [
+    {
+      "witness": "A",
+      "locus": "KUB 45.20 §4",
+      "doc": "kub-45-20",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "… -ḫi-wa-ar",
+      "english": "let the uddanant-(ones, i.e. spells?) likewise seize my rivals"
+    }
+  ],
+  "army-ritual/mighty-troops": [
+    {
+      "witness": "A",
+      "locus": "KUB 45.20 §5",
+      "doc": "kub-45-20",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "am-me-el-ma ÉRINMEŠ.ḪI.A-IA šar-ga-u-e-eš a-ša-an-du",
+      "english": "But let my troops be mighty!"
+    }
+  ],
+  "army-ritual/father-gods-protect": [
+    {
+      "witness": "A",
+      "locus": "KUB 45.20 §5",
+      "doc": "kub-45-20",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "am-me-el-ma ÉRINMEŠ.ḪI.A-IA šar-ga-u-e-eš a-ša-an-du",
+      "english": "let the father-gods protect the son"
+    }
+  ],
+  "army-ritual/gods-on-our-side": [
+    {
+      "witness": "A",
+      "locus": "KUB 45.20 §6",
+      "doc": "kub-45-20",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 5
+      },
+      "original": "an-zi-da-az ti-i-e-er DINGIRMEŠ an-zi-da-az",
+      "english": "The gods have stepped to our side(?)"
+    }
+  ],
+  "army-ritual/hasten-troops": [
+    {
+      "witness": "A",
+      "locus": "KUB 45.20 §6",
+      "doc": "kub-45-20",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 5
+      },
+      "original": "an-zi-da-az ti-i-e-er DINGIRMEŠ an-zi-da-az",
+      "english": "let them hasten my troops (along)!"
+    }
+  ],
+  "lapana-plague/bull": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.16+ §2",
+      "doc": "kub-41-16-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "… ki-i 1 GU₄.MAḪ …",
+      "english": "one bull"
+    }
+  ],
+  "lapana-plague/wicker-tables": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.16+ §2",
+      "doc": "kub-41-16-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "… ki-i 1 GU₄.MAḪ …",
+      "english": "four wicker tables"
+    }
+  ],
+  "lapana-plague/evening-fire": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.16+ §4",
+      "doc": "kub-41-16-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "… -an? DÙ-an-zi GIM-an ne-ku-uz …",
+      "english": "they go and kindle a fire"
+    }
+  ],
+  "lapana-plague/raw-cooked": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.16+ §4",
+      "doc": "kub-41-16-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "… -an? DÙ-an-zi GIM-an ne-ku-uz …",
+      "english": "raw (and) [co]oked(?)"
+    }
+  ],
+  "lapana-plague/burn": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.16+ §4",
+      "doc": "kub-41-16-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "… -an? DÙ-an-zi GIM-an ne-ku-uz …",
+      "english": "they burn."
+    }
+  ],
+  "lapana-plague/bow": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.16+ §6",
+      "doc": "kub-41-16-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 5
+      },
+      "original": "… UGU ti-an-zi …",
+      "english": "but to the gods [they] bow down"
+    }
+  ],
+  "lapana-plague/in-mouth": [
+    {
+      "witness": "A",
+      "locus": "KUB 41.16+ §6",
+      "doc": "kub-41-16-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 5
+      },
+      "original": "… UGU ti-an-zi …",
+      "english": "they place in the mouth"
+    }
+  ],
+  "libu-fever/mix-urine-clay": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. I 1–30",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "a-na ṣi-bit li-ʾ-bi KUR-i na-sa-ḫi-im",
+      "english": "you mix the donkey's urine with clay from the tablet-house"
+    }
+  ],
+  "libu-fever/make-clay-donkeys": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. I 1–30",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "a-na ṣi-bit li-ʾ-bi KUR-i na-sa-ḫi-im",
+      "english": "You knead(?) (it) and make two donkeys."
+    }
+  ],
+  "libu-fever/attach-strap-tail": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. I 1–30",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "a-na ṣi-bit li-ʾ-bi KUR-i na-sa-ḫi-im",
+      "english": "You put the strap on (the figurine's) strap and the tail-hair on its tail."
+    }
+  ],
+  "libu-fever/make-substitute": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. I 1–30",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "a-na ṣi-bit li-ʾ-bi KUR-i na-sa-ḫi-im",
+      "english": "the urine of the man whom Namtar (the Fate-demon) has seized, the hair of his armpits, the hair of his chest and the parings of his nails you mix with that clay and make the figure"
+    }
+  ],
+  "libu-fever/dress-mount-substitute": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. I 1–30",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "a-na ṣi-bit li-ʾ-bi KUR-i na-sa-ḫi-im",
+      "english": "You clothe it in a garment and put a headdress on it; you set it riding on (the donkey)."
+    }
+  ],
+  "libu-fever/load-sacks": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. I 1–30",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "a-na ṣi-bit li-ʾ-bi KUR-i na-sa-ḫi-im",
+      "english": "a sack that is full of flour you place on the second"
+    }
+  ],
+  "libu-fever/make-driver": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. I 1–30",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "a-na ṣi-bit li-ʾ-bi KUR-i na-sa-ḫi-im",
+      "english": "You make (another figure) of clay, clothe it in a garment and put a wooden ŠU.KIN (a goad?) in its hand"
+    }
+  ],
+  "libu-fever/bring-to-roof": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. I 1–30",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "a-na ṣi-bit li-ʾ-bi KUR-i na-sa-ḫi-im",
+      "english": "you bring the figures of the donkeys up onto the roof before Šamaš"
+    }
+  ],
+  "libu-fever/strew-flour-dates": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. I 1–30",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "a-na ṣi-bit li-ʾ-bi KUR-i na-sa-ḫi-im",
+      "english": "Flour, dates and mashatu-flour you [strew]"
+    }
+  ],
+  "libu-fever/address-samas-roof": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. I 31–II 8",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "D20 be-el ši-ip-ṭì ù di-nim at-ta",
+      "english": "you bring the case of those above to those below"
+    }
+  ],
+  "libu-fever/bring-substitute-out": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. II 9–25",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "u₄-mu ma-la ak-",
+      "english": "bring the subst[itute] out to the open country"
+    }
+  ],
+  "libu-fever/patient-gives-libu": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. II 9–25",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "u₄-mu ma-la ak-",
+      "english": "to my substitute I (hereby) g[ive you]"
+    }
+  ],
+  "libu-fever/donkeys-in-basket": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. II 9–25",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "u₄-mu ma-la ak-",
+      "english": "Before Šamaš you place the figures of the donkeys in a basket"
+    }
+  ],
+  "libu-fever/pour-seven-sila": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. II 9–25",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "u₄-mu ma-la ak-",
+      "english": "seven sila of oil you pour out(?) on the ground"
+    }
+  ],
+  "libu-fever/address-nisaba": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. II 26–rev. IV 14",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "DNISABA el-le-ta šá ina ku-zu-ub ni-ši",
+      "english": "The god has fixed your destiny (as being) to release the curse."
+    }
+  ],
+  "libu-fever/draw-design-adjure": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. II 26–rev. IV 14",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "DNISABA el-le-ta šá ina ku-zu-ub ni-ši",
+      "english": "By Baba, the bride, (and) Ningišzida, the throne-bearer: be led out!"
+    }
+  ],
+  "libu-fever/strew-at-esegu": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. II 26–rev. IV 14",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "DNISABA el-le-ta šá ina ku-zu-ub ni-ši",
+      "english": "from the open country, going out to the ešegu-thornbush(?), you strew coarse flour, dates (and) mashatu-flour"
+    }
+  ],
+  "libu-fever/station-weapons": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. II 26–rev. IV 14",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "DNISABA el-le-ta šá ina ku-zu-ub ni-ši",
+      "english": "behind the donkey on which the substitute figure rides you station a weapon"
+    }
+  ],
+  "libu-fever/address-samas-oath": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ obv. II 26–rev. IV 14",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "DNISABA el-le-ta šá ina ku-zu-ub ni-ši",
+      "english": "trusting in Šamaš, I have put the oath of the great god(s) into his mouth."
+    }
+  ],
+  "libu-fever/address-esegu": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ rev. IV 15–V 13",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "ana IGI D20 LÚa-ši-pu UR₅.GIN₇ i!-ka₄b-bi-ma",
+      "english": "Let the li'bu that has seized so-and-so, son of so-and-so, let (him) go, and I will let you go!"
+    }
+  ],
+  "libu-fever/anoint-bind-esegu": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ rev. IV 15–V 13",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "ana IGI D20 LÚa-ši-pu UR₅.GIN₇ i!-ka₄b-bi-ma",
+      "english": "You pour oil on the ešegu"
+    }
+  ],
+  "libu-fever/release-bargain": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ rev. IV 15–V 13",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "ana IGI D20 LÚa-ši-pu UR₅.GIN₇ i!-ka₄b-bi-ma",
+      "english": "Let l[i'bu] release the man, and I will release you!"
+    }
+  ],
+  "libu-fever/place-loaves-designs": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ rev. IV 15–V 13",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "ana IGI D20 LÚa-ši-pu UR₅.GIN₇ i!-ka₄b-bi-ma",
+      "english": "Wherever there are designs you place a dried loaf of 〈one sila〉."
+    }
+  ],
+  "libu-fever/strew-city-gate": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ rev. IV 15–V 13",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "ana IGI D20 LÚa-ši-pu UR₅.GIN₇ i!-ka₄b-bi-ma",
+      "english": "As you enter the city gate, you throw flour on this side and that"
+    }
+  ],
+  "libu-fever/adjure-at-gate": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ rev. IV 15–V 13",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "ana IGI D20 LÚa-ši-pu UR₅.GIN₇ i!-ka₄b-bi-ma",
+      "english": "it shall not enter the open door!"
+    }
+  ],
+  "libu-fever/mix-salt-cress": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ rev. IV 15–V 13",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "ana IGI D20 LÚa-ši-pu UR₅.GIN₇ i!-ka₄b-bi-ma",
+      "english": "Into the flour that is poured out (as offering) you mix salt and cress."
+    }
+  ],
+  "libu-fever/crush-juniper": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ rev. V 15–29",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "ṣi-bit KUR-i DAB-sú-ma",
+      "english": "you crush (it) (and) mix (it) with oil"
+    }
+  ],
+  "libu-fever/recite-arabapura": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.84+ rev. V 15–29",
+      "doc": "kub-37-84-plus",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "ṣi-bit KUR-i DAB-sú-ma",
+      "english": "they recite the incantation"
+    }
+  ],
+  "poultice-recipes/crush-plants": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.1 obv. 1–3",
+      "doc": "kub-37-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "DÙ?.A?.BI? LÚ.U₁₉?.LU? -ik ÚḪA.AB Ú.RA.AN.NA",
+      "english": "you crush (them) (and) mix (them) together as one"
+    }
+  ],
+  "poultice-recipes/boil-kasu": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.1 obv. 1–3",
+      "doc": "kub-37-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "DÙ?.A?.BI? LÚ.U₁₉?.LU? -ik ÚḪA.AB Ú.RA.AN.NA",
+      "english": "you boil (them) in kasû-juice (A GAZI)"
+    }
+  ],
+  "poultice-recipes/bandage-kasu": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.1 obv. 1–3",
+      "doc": "kub-37-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "DÙ?.A?.BI? LÚ.U₁₉?.LU? -ik ÚḪA.AB Ú.RA.AN.NA",
+      "english": "you keep bandaging (him)"
+    }
+  ],
+  "poultice-recipes/decoct-beer": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.1 obv. 4–6",
+      "doc": "kub-37-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "KI.MIN ZÀ.AḪ.LISAR ḫa-šé-e x GI.KÙ.GA NINDA ŠE.SA.A ÚGÍR.TAB GEŠTIN.KA₅.A",
+      "english": "you decoct (it) like a rabīku-paste (Hittite gloss: 'he cooks it like a ḫuwarti-')"
+    }
+  ],
+  "poultice-recipes/crush-with-crusher": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.1 obv. 9–17",
+      "doc": "kub-37-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "KI.MIN GIŠEREN GIŠṣa-la-bi-ta 𒑱 ku-u-un GIŠṣa-la-bi-ta ú-ul i-di",
+      "english": "all these aromatics you crush with a (wooden) crusher (GIŠGAZ)"
+    }
+  ],
+  "poultice-recipes/mix-emmer": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.1 obv. 9–17",
+      "doc": "kub-37-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "KI.MIN GIŠEREN GIŠṣa-la-bi-ta 𒑱 ku-u-un GIŠṣa-la-bi-ta ú-ul i-di",
+      "english": "you mix (them) together with emmer flour"
+    }
+  ],
+  "poultice-recipes/decoct-wine": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.1 obv. 9–17",
+      "doc": "kub-37-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "KI.MIN GIŠEREN GIŠṣa-la-bi-ta 𒑱 ku-u-un GIŠṣa-la-bi-ta ú-ul i-di",
+      "english": "you decoct (it) in pressed wine (GEŠTIN.SUR.RA) like a rabīku-paste"
+    }
+  ],
+  "poultice-recipes/bandage-wine": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.1 obv. 9–17",
+      "doc": "kub-37-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "KI.MIN GIŠEREN GIŠṣa-la-bi-ta 𒑱 ku-u-un GIŠṣa-la-bi-ta ú-ul i-di",
+      "english": "(and) you keep bandaging that man"
+    }
+  ],
+  "poultice-recipes/mix-ghee-beer": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.1 obv. 28–40",
+      "doc": "kub-37-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 6
+      },
+      "original": "KI.MIN NUMUN Ú.RA.AN.NA Úša-ki-ra-a NUMUN Úḫur-za-an NUMUN nu-ḫur-ti NUMUN GIŠšu-né-e",
+      "english": "you mix (them) with [ghe]e, you mix (them) in first-quality beer, and you keep bandaging him"
+    }
+  ],
+  "poultice-recipes/perform-purification": [
+    {
+      "witness": "A",
+      "locus": "KUB 37.1 obv. 43–rev. 10′",
+      "doc": "kub-37-1",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 8
+      },
+      "original": "Úim-ḫur-li-i-mi",
+      "english": "you perform [a puri]fication (takpirtu)"
+    }
+  ],
+  "cmawro-q002713-9-22-31/draw-circle-round-crucible": [
+    {
+      "witness": "Composite",
+      "doc": "Q002713",
+      "locus": "22ʹ",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q002713.35l",
+        "label": "22ʹ"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "zisurrâ ḫuluppaqqi teṣṣer",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q002713-9-22-31/arrange-figures-in-crucible": [
+    {
+      "witness": "Composite",
+      "doc": "Q002713",
+      "locus": "25ʹ",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q002713.38l",
+        "label": "25ʹ"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "ṣalam ṭīdi ṣalam lī[š]i [ina muḫḫ]i ḫuluppaqqi tasaddir-[m]a tašakkan",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q002713-9-22-31/identify-figures-as-doer": [
+    {
+      "witness": "Composite",
+      "doc": "Q002713",
+      "locus": "26ʹ",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q002713.39l",
+        "label": "26ʹ"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "EN₂ Nuska annûti <ṣalmī> ēp[išīy]a ubānšu ana muḫḫi itarraṣ-ma imannu",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q002713-9-22-31/set-torch-on-fat-figures": [
+    {
+      "witness": "Composite",
+      "doc": "Q002713",
+      "locus": "28ʹ",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q002713.41l",
+        "label": "28ʹ"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "ina muḫḫi gizillî tašakkan-ma e[rēna šurmēna] asa ballukka",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q002713-9-22-31/insert-woods-and-reed": [
+    {
+      "witness": "Composite",
+      "doc": "Q002713",
+      "locus": "29ʹ",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q002713.42l",
+        "label": "29ʹ"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "qanâ ṭāba ina libbi tusanna[š x-x-(x)] tasallaḫ",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q002713-9-22-31/light-torch-from-sulphur": [
+    {
+      "witness": "Composite",
+      "doc": "Q002713",
+      "locus": "30ʹ",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q002713.43l",
+        "label": "30ʹ"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "ina išāt kibrīti taq[âd-ma EN₂ ana]šši d[ipāru] imannu",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q002713-9-22-31/throw-fire-into-crucible": [
+    {
+      "witness": "Composite",
+      "doc": "Q002713",
+      "locus": "31ʹ",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q002713.44l",
+        "label": "31ʹ"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "išāta ana libbi ḫuluppa[qqi tanaddi]",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004239-11-1-1/pound-paste": [
+    {
+      "witness": "Composite",
+      "doc": "Q004239",
+      "locus": "11.1.1:2",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004239.3l",
+        "label": "11.1.1:2"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "kibrīta gaṣṣa šaršerra ((ištēniš)) tasâk ina billati",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004239-11-1-1/recite-tear-out-sorcery": [
+    {
+      "witness": "Composite",
+      "doc": "Q004239",
+      "locus": "11.1.1:5",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004239.6l",
+        "label": "11.1.1:5"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "lissuḫ k[išpī] tê EN₂",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004239-11-1-1/recite-into-paste-and-smear-jamb": [
+    {
+      "witness": "Composite",
+      "doc": "Q004239",
+      "locus": "11.1.1:6",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004239.8l",
+        "label": "11.1.1:6"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "šiptu annītu šalāšīšu ana libbi tamannū-ma sippī bāb bīt amēli ((šuāti))",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004239-11-1-1/wash-off-into-cloth": [
+    {
+      "witness": "Composite",
+      "doc": "Q004239",
+      "locus": "11.1.1:8",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004239.10l",
+        "label": "11.1.1:8"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "ina sūni tašaḫḫat-ma šalim ((pašir))",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004239-11-1-1/wrap-sulphur-oil-in-fleece": [
+    {
+      "witness": "Composite",
+      "doc": "Q004239",
+      "locus": "11.1.1:11",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004239.14l",
+        "label": "11.1.1:11"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "kibrīt šamnu ḫalṣu ((ina itqi talammi)) ina bābi kamî u ṣerri dalti",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q004239-11-1-1/bury-at-gate-and-socket": [
+    {
+      "witness": "Composite",
+      "doc": "Q004239",
+      "locus": "11.1.1:12",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q004239.15l",
+        "label": "11.1.1:12"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "tetemmer-ma kišpī iḫalliqū",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/sprinkle-riverbank": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:5",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.6l",
+        "label": "11.3.1:5"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "DU₃.DU₃.BI ina ūmi magri ina kišād nāri qaqqara tašabbiṭ mê ellūti tasallaḫ ana maḫar Šamaš paṭī[ra] tukān niqâ tanaqqi",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/altar-and-libation": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:5",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.6l",
+        "label": "11.3.1:5"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "DU₃.DU₃.BI ina ūmi magri ina kišād nāri qaqqara tašabbiṭ mê ellūti tasallaḫ ana maḫar Šamaš paṭī[ra] tukān niqâ tanaqqi",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/make-male-female-clay-figures": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:6",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.7l",
+        "label": "11.3.1:6"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "adagurra tukān riksa kīma ša ana qātīka šumṣû tarakkas šina ṣalmī zikari u sinništi ša ṭīdi teppuš marṣa",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/clothe-and-stand-before-god": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:7",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.8l",
+        "label": "11.3.1:7"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "šaḫḫâ tulabbassu ana maḫar Šamaš izzâz-ma šipta šalāšīšu imannu",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/send-evil-across-river": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:14",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.16l",
+        "label": "11.3.1:14"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "[lum]nu šâšu lībir nāra libbalkit šadâ kišpū šunūti lissû šār bērī ina zum[rīy]a",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/smoke-and-tamarisk-analogy": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:15",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.17l",
+        "label": "11.3.1:15"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "[kīma qut]ri lītellû ana šamê kīma bīni nasḫi ana ašrīšunu ay itūrū",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/beer-libation-to-river": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:18",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.21l",
+        "label": "11.3.1:18"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "[kīma an]nâ ana maḫar Šamaš imtanû ana maḫar nāri riksa tarakkas šikara tanaqq[i]",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/dip-in-river-three-times": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:19",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.22l",
+        "label": "11.3.1:19"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "[ma]rṣu adi ṣubātīšu šalāšīšu ina nāri iṭebbē-ma",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/ask-river-to-take-evil": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:24",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.28l",
+        "label": "11.3.1:24"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "[lumna tabl]ī nāru šūridī apsûkki nāru lumnu šâšu yâši u bītīya lā iqarrubu lā isanniqa lā ikaššadanni",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/come-up-strip-and-bathe": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:26",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.31l",
+        "label": "11.3.1:26"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "[šalāšīš]u iqabbī-ma illī-ma ṣubāssu išaḫḫaṭ egubbâ ana muḫḫi irammuk EN₂ ašḫuṭ MIN imannū-ma ṣubāta šanâ",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/touch-brewers-mash-tub": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:27",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.32l",
+        "label": "11.3.1:27"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "inaššī-ma nignakka [g]izillâ mê ellūti tullalšu sūq ītiqu lā ittiq ana bīt sābî irrub-ma kanna namzīti ilappat",
+      "language": "akk"
+    }
+  ],
+  "cmawro-q005109-11-3-1/touch-gate-gypsum-bitumen": [
+    {
+      "witness": "Composite",
+      "doc": "Q005109",
+      "locus": "11.3.1:29",
+      "anchor": {
+        "kind": "corpus-line",
+        "corpusId": "cmawro",
+        "ref": "Q005109.34l",
+        "label": "11.3.1:29"
+      },
+      "note": "Edited master text; this anchor is not an individual manuscript witness.",
+      "original": "gaṣṣa u ittâ [bā]bī talappat-ma NAM.BUR₂.BI",
+      "language": "akk"
+    }
+  ],
+  "potency-prescriptions/catch-partridge": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 1–2",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "DIŠ LÚ ŠÀ.ZI.GA ina ITU.BÁR.ZAG",
+      "english": "in the month Nisannu, at (its) end(?), you catch a male partridge"
+    }
+  ],
+  "potency-prescriptions/pluck-strangle": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 2",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "TIL NAM.ḪABRUD.TA NÍTA ta-ṣa-bat",
+      "english": "You pluck its wings, strangle it and flatten(?) it"
+    }
+  ],
+  "potency-prescriptions/salt-dry": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 2–3",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "TIL NAM.ḪABRUD.TA NÍTA ta-ṣa-bat",
+      "english": "you sprinkle salt (on it) and dry (it)"
+    }
+  ],
+  "potency-prescriptions/crush-with-thorn": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 3",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "kap-pa-šú ta-bá-ka₄-an-šú ta-ḫa-na-aq-šú-ma",
+      "english": "You crush (it) together with seed of the mountain GÍR.ḪAB-thorn"
+    }
+  ],
+  "potency-prescriptions/drink-in-beer": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 3–4",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "kap-pa-šú ta-bá-ka₄-an-šú ta-ḫa-na-aq-šú-ma",
+      "english": "give it to him to drink in beer, and that man will have potency"
+    }
+  ],
+  "potency-prescriptions/blood-into-water": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 9–10",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "KI.MIN NAM.ḪABRUD.DA NÍTA SAG.DU-sú KUD-si",
+      "english": "you cut off its head and let its blood fall into water"
+    }
+  ],
+  "potency-prescriptions/water-under-stars": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 10–11",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "KI.MIN NAM.ḪABRUD.DA NÍTA SAG.DU-sú KUD-si",
+      "english": "that water you leave overnight under the stars"
+    }
+  ],
+  "potency-prescriptions/drink-at-sunrise": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 11",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "KI.MIN NAM.ḪABRUD.DA NÍTA SAG.DU-sú KUD-si",
+      "english": "When the sun comes up you give it to him to drink"
+    }
+  ],
+  "potency-prescriptions/wrap-in-wool": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 13–15",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "DIŠ KI.MIN mu-ša-ar NAM.ḪABRUD.DA NÍTA",
+      "english": "you wrap (it) in wool from the thigh(?) of a sheep"
+    }
+  ],
+  "potency-prescriptions/smear-salt-plant": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 16–17",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "DIŠ KI.MIN AL.DI.RÍ.GAMUŠEN ta-ba-qà-an",
+      "english": "you smear it with salt (and) the nīnû-plant (Ú.KUR.RA), dry (it) and crush (it)"
+    }
+  ],
+  "potency-prescriptions/mix-roasted-flour": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 17–18",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "DIŠ KI.MIN AL.DI.RÍ.GAMUŠEN ta-ba-qà-an",
+      "english": "You mix (it) with flour of roasted grain and give it to him to drink"
+    }
+  ],
+  "potency-prescriptions/form-pellets": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 25–30",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 7
+      },
+      "original": "DIŠ KI.MIN kap-pí TI₈MUŠEN NÍTA kap-pí i-gi-ri-i(?)",
+      "english": "these 14 plants(?) you crush(?) together, mix with coarse flour and form into pel[lets]"
+    }
+  ],
+  "potency-prescriptions/bind-on-hips": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 obv. I 31",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 7
+      },
+      "original": "DIŠ KI.MIN kap-pí TI₈MUŠEN NÍTA kap-pí i-gi-ri-i(?)",
+      "english": "you bind (it) on your hips"
+    }
+  ],
+  "potency-prescriptions/rinse-body": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 rev. 7–9",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 12
+      },
+      "original": "BAD KI.MIN ri-kib-ti GAR.IBMUŠEN Ú e-li-",
+      "english": "with water (and) the k[asû-plant] you rin[se] his whole body"
+    }
+  ],
+  "potency-prescriptions/anoint-oil": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 rev. 11–12",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 12
+      },
+      "original": "BAD KI.MIN ri-kib-ti GAR.IBMUŠEN Ú e-li-",
+      "english": "with p[ure] oil you anoint him repeatedly"
+    }
+  ],
+  "potency-prescriptions/sumerian-incantation": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 rev.",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 22
+      },
+      "original": "te-en-te-en",
+      "english": "Sumerian incantation, fragmentary and not understood in detail"
+    }
+  ],
+  "potency-prescriptions/crush-decoct-sinews": [
+    {
+      "witness": "A",
+      "locus": "KUB 4.48 left edge",
+      "doc": "kub-4-48",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 23
+      },
+      "original": "e-nu-ma MUŠEN˽ḪUR-RI ir-ta-na-kab",
+      "english": "the sinews and the intestines you crush with (lit. in) stones and decoct (them)"
+    }
+  ],
+  "hittite-remedies/take-herbs": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.61 obv. 1–4",
+      "doc": "kub-44-61",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "an-dur-za in-na-na-aš ša-a-ta-ar",
+      "english": "he takes these herbs: seed of cress (ZÀ.AḪ.LI)"
+    }
+  ],
+  "hittite-remedies/give-seven-days": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.61 obv. 4–8",
+      "doc": "kub-44-61",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 0
+      },
+      "original": "an-dur-za in-na-na-aš ša-a-ta-ar",
+      "english": "[keeps giving] it to him for seven days"
+    }
+  ],
+  "hittite-remedies/take-bulbs": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.61 obv. 9–11",
+      "doc": "kub-44-61",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "ma-a-an-ma-aš a-pé-ez Ú-UL SIG₅-ri nu-uš-ši GEŠTIN",
+      "english": "he takes a bulb (gapanu) of garlic, a bulb of leek (GA.RAŠ)"
+    }
+  ],
+  "hittite-remedies/steep-sift": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.61 obv. 11–12",
+      "doc": "kub-44-61",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "ma-a-an-ma-aš a-pé-ez Ú-UL SIG₅-ri nu-uš-ši GEŠTIN",
+      "english": "he lets them in (to steep?), and [he sifts] them"
+    }
+  ],
+  "hittite-remedies/give-empty-stomach": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.61 obv. 12–14",
+      "doc": "kub-44-61",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "ma-a-an-ma-aš a-pé-ez Ú-UL SIG₅-ri nu-uš-ši GEŠTIN",
+      "english": "[gives] it to him for seven days on an empty stomach(?)"
+    }
+  ],
+  "hittite-remedies/sew-into-cord": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.61 obv. 15–18",
+      "doc": "kub-44-61",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "ma-a-an-kán an-tu-uḫ-še NÍ.TEMEŠ",
+      "english": "he sews (it) into a leather cord (MATNU) (from an animal) which a leopard has killed"
+    }
+  ],
+  "hittite-remedies/twist-sinew": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.61 obv. 20–22",
+      "doc": "kub-44-61",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "ma-a-an-kán an-tu-uḫ-še NÍ.TEMEŠ",
+      "english": "they take only the sinew of a ḫuitnaima- (wild animal?); he twists(?) (it) in, and he gets well"
+    }
+  ],
+  "hittite-remedies/heat-compress": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.61 rev. 1–4",
+      "doc": "kub-44-61",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "ma-a-an-kán an-tu-uḫ-še IŠ-TU UZUI-ŠA-RI-ŠU za-ap-pi-ia-zi?",
+      "english": "then he heats a tappi- (compress?)"
+    }
+  ],
+  "hittite-remedies/crush-into-bag": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.64 I 3′–10′",
+      "doc": "kub-44-64",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 1
+      },
+      "original": "x-li-pa-aš x-ta?-a-ri",
+      "english": "and he crushes them"
+    }
+  ],
+  "hittite-remedies/entrust-to-stars": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.64 I 11′–14′",
+      "doc": "kub-44-64",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "an-tu-u-uḫ-ši",
+      "english": "[The]n at night he entrusts it to the stars"
+    }
+  ],
+  "hittite-remedies/carry-into-house": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.64 I 14′–16′",
+      "doc": "kub-44-64",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 2
+      },
+      "original": "an-tu-u-uḫ-ši",
+      "english": "he carries it into the house"
+    }
+  ],
+  "hittite-remedies/drink-morning": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.64 I 17′–18′",
+      "doc": "kub-44-64",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 3
+      },
+      "original": "ka-ru-u-wa-a-ri-u-wa-ar",
+      "english": "Early in the morning, on an empty stomach(?), to drink"
+    }
+  ],
+  "hittite-remedies/second-day-bag": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.64 II 1′–6′",
+      "doc": "kub-44-64",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "I-NA UD 2KAM-ma ke-e",
+      "english": "he sifts them, crushes (them), prepares (them) properly, and pours them into a leather tišni- (bag?)"
+    }
+  ],
+  "hittite-remedies/into-honey": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.64 II 6′–16′",
+      "doc": "kub-44-64",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 4
+      },
+      "original": "I-NA UD 2KAM-ma ke-e",
+      "english": "he lets it into honey"
+    }
+  ],
+  "hittite-remedies/gut-fish": [
+    {
+      "witness": "A",
+      "locus": "KUB 44.64 II 17′–19′",
+      "doc": "kub-44-64",
+      "anchor": {
+        "kind": "paragraph",
+        "index": 5
+      },
+      "original": "ma-a-an-kán an-tu-uḫ-ša-aš",
+      "english": "from the fish he removes the inner parts"
+    }
   ]
 }

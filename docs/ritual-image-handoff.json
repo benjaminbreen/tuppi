@@ -1,0 +1,531 @@
+[
+  {
+    "occurrenceId": "allii/press-earth",
+    "unitId": "allii-press-earth",
+    "title": "Press earth against the patient",
+    "subjectBrief": "The Old Woman presses an earth clod against the patient while uttering a purification analogy.",
+    "currentVisualAssetId": "allii-09-earth-clod",
+    "currentImage": "/rituals/allii/09-earth-clod.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "rev. III 1′–5′",
+        "anchor": {
+          "kind": "line",
+          "index": 111
+        }
+      },
+      {
+        "witness": "C",
+        "doc": "kbo-55-41-plus",
+        "locus": "rev. III 2′–7′",
+        "anchor": {
+          "kind": "line",
+          "index": 69
+        }
+      },
+      {
+        "witness": "H",
+        "doc": "kub-41-1",
+        "locus": "rev. III 13–19",
+        "anchor": {
+          "kind": "line",
+          "index": 31
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "allii/press-dough",
+    "unitId": "allii-press-dough",
+    "title": "Press dough against the patient",
+    "subjectBrief": "The Old Woman presses a lump of dough against the patient and speaks a life-giving analogy.",
+    "currentVisualAssetId": "allii-10-dough",
+    "currentImage": "/rituals/allii/10-dough.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kbo-12-126-plus",
+        "locus": "rev. III 6′–8′",
+        "anchor": {
+          "kind": "line",
+          "index": 117
+        }
+      },
+      {
+        "witness": "C",
+        "doc": "kbo-55-41-plus",
+        "locus": "rev. III 8′–12′",
+        "anchor": {
+          "kind": "line",
+          "index": 75
+        }
+      },
+      {
+        "witness": "H",
+        "doc": "kub-41-1",
+        "locus": "rev. III 20–22",
+        "anchor": {
+          "kind": "line",
+          "index": 38
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/set-out-black-clothes",
+    "unitId": "tunnawiya-set-out-black-clothes",
+    "title": "Set out the black clothes",
+    "subjectBrief": "Black clothing, shoes and wool are supplied for the patient.",
+    "currentVisualAssetId": "tunnawiya-black-clothes",
+    "currentImage": "/rituals/tunnawiya/black-clothes.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 11–Vs. I 16",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 2
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/dress-in-black",
+    "unitId": "tunnawiya-dress-in-black",
+    "title": "Dress the patient in black",
+    "subjectBrief": "At first light the patient puts on the black clothes.",
+    "currentVisualAssetId": "tunnawiya-black-clothes",
+    "currentImage": "/rituals/tunnawiya/black-clothes.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 28′–Vs. I 31′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 9
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/strip-black-clothes",
+    "unitId": "tunnawiya-strip-black-clothes",
+    "title": "Slit the black shirt",
+    "subjectBrief": "Tunnawiya cuts the black shirt down its length and removes the dark garments.",
+    "currentVisualAssetId": "tunnawiya-black-clothes",
+    "currentImage": "/rituals/tunnawiya/black-clothes.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. II 16′–Vs. II 20′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 19
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/comb-down",
+    "unitId": "tunnawiya-comb-down",
+    "title": "Comb the patient downward",
+    "subjectBrief": "Maidservants draw boxwood combs downward over the patient.",
+    "currentVisualAssetId": "tunnawiya-boxwood-combs",
+    "currentImage": "/rituals/tunnawiya/boxwood-combs.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. II 36′–Vs. II 42′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 22
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/release-into-river",
+    "unitId": "tunnawiya-release-into-river",
+    "title": "Send the used objects into the river",
+    "subjectBrief": "The combs, clothing and other used objects are sent into the river.",
+    "currentVisualAssetId": "tunnawiya-river-release",
+    "currentImage": "/rituals/tunnawiya/river-release-v2.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Rs. III 12–Rs. III 16",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 25
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/offer-at-riverbank",
+    "unitId": "tunnawiya-offer-bread-wine",
+    "title": "Offer bread and wine at the riverbank",
+    "subjectBrief": "Thin bread, groats and wine are placed and poured for the riverbank Mother-goddess.",
+    "currentVisualAssetId": "tunnawiya-river-offering",
+    "currentImage": "/rituals/tunnawiya/river-offering.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 3′–Vs. I 5′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 5
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/address-riverbank-goddess",
+    "unitId": "tunnawiya-address-riverbank-goddess",
+    "title": "Address the riverbank Mother-goddess",
+    "subjectBrief": "Tunnawiya asks the riverbank Mother-goddess to cleanse the patient with clay.",
+    "currentVisualAssetId": "tunnawiya-river-clay",
+    "currentImage": "/rituals/tunnawiya/river-clay.png",
+    "deityVisualId": "unnamed-goddess",
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 6
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/collect-river-clay",
+    "unitId": "tunnawiya-collect-clay",
+    "title": "Take clay from the riverbank",
+    "subjectBrief": "Tunnawiya takes clay from the riverbank after the appeal.",
+    "currentVisualAssetId": "tunnawiya-river-clay",
+    "currentImage": "/rituals/tunnawiya/river-clay.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 6
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/offer-at-spring",
+    "unitId": "tunnawiya-offer-bread-wine",
+    "title": "Offer bread and wine at the spring",
+    "subjectBrief": "Thin bread, groats and wine are offered at the spring.",
+    "currentVisualAssetId": "tunnawiya-river-offering",
+    "currentImage": "/rituals/tunnawiya/river-offering.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 6′–Vs. I 11′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 6
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/collect-spring-clay",
+    "unitId": "tunnawiya-collect-clay",
+    "title": "Take clay from the spring",
+    "subjectBrief": "Tunnawiya takes clay from the spring after asking it to draw impurity out.",
+    "currentVisualAssetId": "tunnawiya-river-clay",
+    "currentImage": "/rituals/tunnawiya/river-clay.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 12′–Vs. I 18′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 7
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/make-clay-figures",
+    "unitId": "tunnawiya-make-clay-figures",
+    "title": "Make clay tongues and oxen",
+    "subjectBrief": "Tunnawiya models twelve tongue shapes and two oxen from the collected clay.",
+    "currentVisualAssetId": "tunnawiya-clay-figures",
+    "currentImage": "/rituals/tunnawiya/clay-figures.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 19′–Vs. I 27′",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 8
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "tunnawiya/hold-clay-tongue",
+    "unitId": "tunnawiya-hold-clay-tongue",
+    "title": "Hold a clay tongue over the patient",
+    "subjectBrief": "A clay tongue is lifted over the patient with a prescribed incantation.",
+    "currentVisualAssetId": "tunnawiya-clay-figures",
+    "currentImage": "/rituals/tunnawiya/clay-figures.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-53-plus",
+        "locus": "KUB 7.53+ Vs. I 39′–Vs. II 7",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 12
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "paskuwatti/arrange-offerings",
+    "unitId": "paskuwatti-arrange-provisions",
+    "title": "Arrange food, wine, wool and clothes",
+    "subjectBrief": "The named materials are placed on soldier-bread.",
+    "currentVisualAssetId": "uhhamuwa-15-provisions",
+    "currentImage": "/rituals/uhhamuwa/15-provisions.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-8-plus",
+        "locus": "KUB 7.8 §2",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 1
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "paskuwatti/carry-offerings",
+    "unitId": "paskuwatti-carry-offering",
+    "title": "Carry the offerings to a fresh place",
+    "subjectBrief": "A virgin girl lifts the offerings and leads the bathed offerant into the open country.",
+    "currentVisualAssetId": "paskuwatti-carry-offering",
+    "currentImage": "/rituals/paskuwatti/carry-offering.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-8-plus",
+        "locus": "KUB 7.8 §3",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 2
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "paskuwatti/set-home-table",
+    "unitId": "paskuwatti-return-and-set-table",
+    "title": "Set the offering on a new table",
+    "subjectBrief": "The soldier-bread is brought home and placed on a new table.",
+    "currentVisualAssetId": "paskuwatti-new-table",
+    "currentImage": "/rituals/paskuwatti/new-table.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-8-plus",
+        "locus": "KUB 7.8 §9",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 8
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "paskuwatti/entreat-uliliyassi",
+    "unitId": "paskuwatti-entreat-uliliyassi",
+    "title": "Entreat Uliliyašši for descendants",
+    "subjectBrief": "Paškuwatti asks the god to attend the offerant and grant children.",
+    "currentVisualAssetId": "paskuwatti-reed-gate",
+    "currentImage": "/rituals/paskuwatti/reed-gate.png",
+    "deityVisualId": "unnamed-god",
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "A",
+        "doc": "kub-7-8-plus",
+        "locus": "KUB 7.8 §8",
+        "anchor": {
+          "kind": "paragraph",
+          "index": 7
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "cmawro-q005039-3-4-1/string-stones",
+    "unitId": "cmawro-string-stones",
+    "title": "String the stones on flax",
+    "subjectBrief": "String the stones named earlier in the prescription on flax thread or cord.",
+    "currentVisualAssetId": "cmawro-01-string-stones",
+    "currentImage": "/rituals/cmawro/01-string-stones.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "E",
+        "doc": "Q005039",
+        "locus": "3.4.1:16",
+        "anchor": {
+          "kind": "corpus-line",
+          "corpusId": "cmawro",
+          "ref": "Q005039.20l",
+          "label": "3.4.1:16"
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "cmawro-q005039-3-4-1/pack-ingredients-in-wool",
+    "unitId": "cmawro-pack-ingredients-in-wool",
+    "title": "Pack the named ingredients in wool",
+    "subjectBrief": "Place the named ingredients among the stones and wrap them in wool.",
+    "currentVisualAssetId": "cmawro-02-pack-wool",
+    "currentImage": "/rituals/cmawro/02-pack-wool.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "E",
+        "doc": "Q005039",
+        "locus": "3.4.1:18",
+        "anchor": {
+          "kind": "corpus-line",
+          "corpusId": "cmawro",
+          "ref": "Q005039.22l",
+          "label": "3.4.1:18"
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "cmawro-q005039-3-4-1/wrap-in-leather",
+    "unitId": "cmawro-wrap-in-leather",
+    "title": "Wrap the bundle in leather",
+    "subjectBrief": "Wrap the prepared bundle in a leather pouch or covering.",
+    "currentVisualAssetId": "cmawro-03-wrap-leather",
+    "currentImage": "/rituals/cmawro/03-wrap-leather.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "E",
+        "doc": "Q005039",
+        "locus": "3.4.1:18",
+        "anchor": {
+          "kind": "corpus-line",
+          "corpusId": "cmawro",
+          "ref": "Q005039.22l",
+          "label": "3.4.1:18"
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "cmawro-q005039-3-4-1/interlace-bundle",
+    "unitId": "cmawro-interlace-bundle",
+    "title": "Interlace bundle and stones",
+    "subjectBrief": "String the wrapped ingredients with the stones and wind the ingredients between them.",
+    "currentVisualAssetId": "cmawro-04-interlace",
+    "currentImage": "/rituals/cmawro/04-interlace.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "E",
+        "doc": "Q005039",
+        "locus": "3.4.1:19",
+        "anchor": {
+          "kind": "corpus-line",
+          "corpusId": "cmawro",
+          "ref": "Q005039.23l",
+          "label": "3.4.1:19"
+        }
+      }
+    ]
+  },
+  {
+    "occurrenceId": "cmawro-q005039-3-4-1/place-around-neck",
+    "unitId": "cmawro-place-around-neck",
+    "title": "Place the amulet around the neck",
+    "subjectBrief": "Place the assembled amulet around the affected person's neck.",
+    "currentVisualAssetId": "cmawro-05-place-neck",
+    "currentImage": "/rituals/cmawro/05-place-neck.png",
+    "deityVisualId": null,
+    "status": "existing-visual-reused; replacement optional",
+    "source": [
+      {
+        "witness": "E",
+        "doc": "Q005039",
+        "locus": "3.4.1:19",
+        "anchor": {
+          "kind": "corpus-line",
+          "corpusId": "cmawro",
+          "ref": "Q005039.23l",
+          "label": "3.4.1:19"
+        }
+      }
+    ]
+  }
+]

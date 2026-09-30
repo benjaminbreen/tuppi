@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, useLocation, useParams, useSearchParams } from "react-router-dom";
 import quoteIndex from "../data/rituals/quotes.json";
+import comparisonData from "../data/corpus-rituals/comparisons.json";
+import type { ComparisonClaim } from "../lib/corpusModel";
 import { RitualStepPlate, RitualStepThumbnail } from "../components/RitualStepArt";
 import { RITUAL_DEITIES, RITUAL_UNITS, relatedRitualUnits, ritualSequenceHref, ritualStepHref, ritualUnitHref, sourceHref, useRitualEdition, type RitualEdition, type RitualQuote, type RitualUnit } from "../lib/ritualEdition";
 
@@ -10,16 +12,31 @@ function indexFromQuery(raw: string | null, count: number) {
 }
 
 const ritualQuotes = (edition: RitualEdition, step: RitualUnit): RitualQuote[] => (quoteIndex as Record<string, RitualQuote[]>)[`${edition.id}/${step.id}`] ?? [];
+const comparisons = comparisonData as ComparisonClaim[];
+
+function ComparisonSection({ edition }: { edition: RitualEdition }) {
+  const relevant = comparisons.filter((claim) => claim.subjectProcedureId === edition.id || claim.object.sourceId.startsWith(`${edition.id}/`));
+  if (!relevant.length) return null;
+  return <section className="ritual-variant ritual-comparison-section" aria-labelledby="ritual-comparison-heading">
+    <div><p className="ritual-eyebrow">Cross-corpus evidence</p><h2 id="ritual-comparison-heading">Possible comparisons</h2></div>
+    <div><p>These links are proposed comparisons. Each source keeps its own material and ritual-step identity.</p><ul>{relevant.map((claim) => {
+      const incoming = claim.object.sourceId.startsWith(`${edition.id}/`);
+      const target = incoming ? `/rituals/${claim.subjectProcedureId}` : claim.object.sourceUrl;
+      return <li key={claim.id}><span className="mono faint">{claim.relationship} · {claim.confidence} confidence</span><p>{claim.rationale}</p><Link to={target}>{incoming ? "View Mesopotamian ritual" : claim.relationship === "analogous-action" ? "View Hittite step" : "View Hittite material"} ↗</Link></li>;
+    })}</ul></div>
+  </section>;
+}
 
 function SourceLetters({ quotes }: { quotes: RitualQuote[] }) {
-  return <div className="ritual-source-letters" aria-label="Manuscript copies"><span className="ritual-source-letters-label">Copies</span>{quotes.map((quote) => <span className="ritual-source-letter" key={`${quote.witness}-${quote.doc}`}>
-    <button type="button" aria-label={`Copy ${quote.witness}: source quotation`} aria-describedby={`ritual-source-${quote.witness}`}>
+  const edited = quotes.some((quote) => quote.anchor.kind === "corpus-line");
+  return <div className="ritual-source-letters" aria-label={edited ? "Edited source text" : "Manuscript copies"}><span className="ritual-source-letters-label">{edited ? "Edition" : "Copies"}</span>{quotes.map((quote) => <span className="ritual-source-letter" key={`${quote.witness}-${quote.doc}`}>
+    <button type="button" aria-label={`${edited ? "Edited text" : "Copy"} ${quote.witness}: source quotation`} aria-describedby={`ritual-source-${quote.witness}`}>
       {quote.witness}
     </button>
     <span className="ritual-source-tooltip" id={`ritual-source-${quote.witness}`} role="tooltip">
-      <span className="ritual-source-tooltip-head"><b>Copy {quote.witness}</b><span>{quote.locus}</span></span>
+      <span className="ritual-source-tooltip-head"><b>{edited ? "Edited text" : `Copy ${quote.witness}`}</b><span>{quote.locus}</span></span>
       <span className="ritual-source-tooltip-quote">“{quote.english ?? quote.original}”</span>
-      <span className="ritual-source-tooltip-foot"><small>{quote.english ? "Draft English translation" : "Hittite transliteration"}</small></span>
+      <span className="ritual-source-tooltip-foot"><small>{quote.english ? "Draft English translation" : quote.language === "sux-akk" ? "Edited Sumerian–Akkadian reading" : quote.language === "akk" ? "Edited Akkadian reading" : "Hittite transliteration"}</small></span>
     </span>
   </span>)}</div>;
 }
@@ -30,8 +47,8 @@ function StepQuotations({ quotes }: { quotes: RitualQuote[] }) {
   if (!quote) return null;
   return <section className="ritual-quote-panel" aria-label="Source quotation">
     <div className="ritual-quote-heading"><p className="ritual-eyebrow">From the tablet</p>{quotes.length > 1 && <div className="ritual-quote-switch" role="group" aria-label="Browse manuscript quotations"><span>{String(index + 1).padStart(2, "0")} / {String(quotes.length).padStart(2, "0")}</span><button type="button" onClick={() => setIndex((index - 1 + quotes.length) % quotes.length)} aria-label="Previous quotation">←</button><button type="button" onClick={() => setIndex((index + 1) % quotes.length)} aria-label="Next quotation">→</button></div>}</div>
-    <blockquote className={quote.english ? "" : "transliteration"} lang={quote.english ? "en" : "hit"}>“{quote.english ?? quote.original}”</blockquote>
-    <div className="ritual-quote-credit"><div><b>{quote.witness}</b><span>{quote.locus}</span><small>{quote.english ? "Draft English translation" : "Hittite transliteration"}</small></div><Link to={sourceHref(quote)}>Read source ↗</Link></div>
+    <blockquote className={quote.english ? "" : "transliteration"} lang={quote.english ? "en" : quote.language === "sux-akk" ? "mul" : quote.language ?? "hit"}>“{quote.english ?? quote.original}”</blockquote>
+    <div className="ritual-quote-credit"><div><b>{quote.anchor.kind === "corpus-line" ? "Edited text" : quote.witness}</b><span>{quote.locus}</span><small>{quote.english ? "Draft English translation" : quote.language === "sux-akk" ? "Edited Sumerian–Akkadian reading" : quote.language === "akk" ? "Edited Akkadian reading" : "Hittite transliteration"}</small></div><Link to={sourceHref(quote)}>Read source ↗</Link></div>
   </section>;
 }
 
@@ -124,6 +141,7 @@ function Sequence({ edition }: { edition: RitualEdition }) {
     </div>)}</div>
     <div className="ritual-phase-key">{edition.phases.map((phase) => <button key={phase.name} onClick={() => select(phase.range[0] - 1)}><b>{phase.name}</b><span>{phase.range[0] === phase.range[1] ? phase.range[0] : `${phase.range[0]}–${phase.range[1]}`}</span><small>{phase.idea}</small></button>)}</div>
     <VariantSection edition={edition} />
+    <ComparisonSection edition={edition} />
   </div>;
 }
 
@@ -148,9 +166,9 @@ export function RitualStepPage() {
       <section><p className="ritual-eyebrow">The {step.unitType === "utterance" ? "utterance" : "action"}</p><dl className="ritual-fields"><dt>Verb</dt><dd>{step.verb}</dd><dt>Object</dt><dd>{step.patient}</dd><dt>Actor</dt><dd>{step.actor}</dd>{step.recipient && <><dt>Recipient</dt><dd>{step.recipient}</dd></>}{step.place && <><dt>Place</dt><dd>{step.place}</dd></>}{step.material.length > 0 && <><dt>Materials</dt><dd>{step.material.join(" · ")}</dd></>}</dl></section>
       <StepQuotations key={step.id} quotes={quotes} />
       <section className="ritual-unit-pointer"><p className="ritual-eyebrow">Ritual task</p><h2>{unit.title}</h2><p>{otherRituals ? `Also appears in ${otherRituals} other ritual${otherRituals === 1 ? "" : "s"}.` : "One recorded ritual in this collection."}</p><Link to={`${ritualUnitHref(step.unitId)}#occurrences`}>See all occurrences ↗</Link></section>
-      <section><p className="ritual-eyebrow">Manuscript lines</p><p className="ritual-detail-note">{step.evidence}</p><div className="ritual-attestations">{step.attestations.map((a) => <Link key={`${a.doc}-${a.anchor.index}`} to={sourceHref(a)}><b>{a.witness}</b><span>{a.locus}</span><span aria-hidden="true">↗</span></Link>)}</div><div className="ritual-source-actions"><a href={edition.editionUrl} target="_blank" rel="noreferrer">{edition.editionLabel ?? "Mainz edition"} ↗</a></div></section>
+      <section><p className="ritual-eyebrow">{edition.corpusId === "cmawro" ? "Edited source lines" : "Manuscript lines"}</p><p className="ritual-detail-note">{step.evidence}</p><div className="ritual-attestations">{step.attestations.map((a) => <Link key={sourceHref(a)} to={sourceHref(a)}><b>{a.anchor.kind === "corpus-line" ? "Text" : a.witness}</b><span>{a.locus}</span><span aria-hidden="true">↗</span></Link>)}</div><div className="ritual-source-actions"><a href={edition.editionUrl} target="_blank" rel="noreferrer">{edition.editionLabel ?? "Mainz edition"} ↗</a></div></section>
       <section><p className="ritual-eyebrow">Image details</p><p className="ritual-detail-note">{step.image.note}</p></section>
-      {step.deityVisualId && <section className="ritual-deity-source"><p className="ritual-eyebrow">Relief model</p><p className="ritual-detail-note">{RITUAL_DEITIES[step.deityVisualId].note}</p><a href={RITUAL_DEITIES[step.deityVisualId].sourceUrl} target="_blank" rel="noreferrer">{RITUAL_DEITIES[step.deityVisualId].model} ↗</a></section>}
+      {step.deityVisualId && <section className="ritual-deity-source"><p className="ritual-eyebrow">About the deity and image</p><p className="ritual-detail-note">{step.unitId === "libu-release-bargain" ? "Šamaš was the Mesopotamian sun god. This image takes its form from a Hittite Sun-god relief at Yazılıkaya." : RITUAL_DEITIES[step.deityVisualId].note}</p>{step.unitId === "libu-release-bargain" && <a href="https://oracc.museum.upenn.edu/amgg/Listofdeities/UtuShamash/index.html" target="_blank" rel="noreferrer">About Šamaš ↗</a>}<a href={RITUAL_DEITIES[step.deityVisualId].sourceUrl} target="_blank" rel="noreferrer">About the image ↗</a></section>}
     </div></div>
     <nav className="ritual-neighbors" aria-label="Adjacent ritual steps"><span>{before && <Link to={ritualStepHref(edition, before)}><small>← Previous · {String(before.number).padStart(2, "0")}</small><b>{before.title}</b></Link>}</span><Link className="ritual-back" to={ritualSequenceHref(edition, step)}>View in sequence</Link><span>{after && <Link to={ritualStepHref(edition, after)}><small>Next · {String(after.number).padStart(2, "0")} →</small><b>{after.title}</b></Link>}</span></nav>
   </div>;

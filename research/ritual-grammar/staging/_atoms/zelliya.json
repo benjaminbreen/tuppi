@@ -1,0 +1,154 @@
+{
+ "take-funerary-goods": [
+  {
+   "verb": "take",
+   "theme": {
+    "class": "garment",
+    "sub": "garment",
+    "count": 2,
+    "f": {
+     "color": "white"
+    }
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "garment",
+    "sub": "shirt",
+    "count": 4,
+    "f": {
+     "material": "linen"
+    }
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "structure",
+    "sub": "chair"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "structure",
+    "sub": "table",
+    "f": {
+     "material": "wicker"
+    }
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "materials",
+    "sub": "silver"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "materials",
+    "sub": "gold"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "implement",
+    "sub": "dagger",
+    "count": 2,
+    "f": {
+     "material": "bronze"
+    }
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "vessel",
+    "sub": "cup",
+    "count": 2,
+    "f": {
+     "material": "bronze"
+    }
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "liquid",
+    "sub": "oil"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "food",
+    "sub": "honey"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "food",
+    "sub": "grain"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "food",
+    "sub": "bread",
+    "count": 60
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "drink",
+    "sub": "beer"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "liquid",
+    "sub": "water of purification"
+   }
+  }
+ ],
+ "prepare-funerary-goods": [
+  {
+   "verb": "place",
+   "theme": {
+    "class": "materials",
+    "sub": "funerary goods"
+   },
+   "for": {
+    "class": "person",
+    "sub": "dead"
+   }
+  }
+ ],
+ "carry-dead-outside": [
+  {
+   "verb": "carry",
+   "theme": {
+    "class": "person",
+    "sub": "dead"
+   },
+   "goal": "outside"
+  }
+ ],
+ "cremate-dead": [
+  {
+   "verb": "burn",
+   "theme": {
+    "class": "person",
+    "sub": "dead"
+   }
+  }
+ ]
+}

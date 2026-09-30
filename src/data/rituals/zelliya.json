@@ -1,0 +1,362 @@
+{
+  "id": "zelliya",
+  "cth": 783,
+  "title": "Zelliya’s funerary ritual",
+  "shortName": "Zelliya",
+  "eyebrow": "CTH 783 · a death after illness",
+  "dating": {
+    "label": "Hittite manuscript",
+    "note": "KUB 30.26 preserves this ritual.",
+    "sourceUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+30.26"
+  },
+  "purpose": "A rite for a person who dies after an illness linked to Išḫara, with grave goods prepared before the body is carried out and burned.",
+  "attribution": "Attributed to Zelliya of Kurkanza",
+  "sourceSummary": "KUB 30.26 · selected surviving passages",
+  "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+30.26",
+  "phases": [
+    {
+      "name": "Prepare for the dead",
+      "range": [
+        1,
+        2
+      ],
+      "idea": "Clothing and other goods are collected and prepared."
+    },
+    {
+      "name": "Carry out and burn",
+      "range": [
+        3,
+        4
+      ],
+      "idea": "The dead person is brought outside and cremated."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "take-funerary-goods",
+      "number": 1,
+      "title": "Take clothing and other goods",
+      "shortTitle": "Take clothing and other goods",
+      "shortDescription": "Zelliya lists garments, furniture, metals, vessels, food and drink for the dead.",
+      "phase": "Prepare for the dead",
+      "unitType": "act",
+      "actionType": "take-funerary-goods",
+      "verb": "Take",
+      "summary": "Zelliya lists garments, furniture, metals, vessels, food and drink for the dead.",
+      "patient": "Goods for the dead",
+      "actor": "Zelliya",
+      "material": [
+        "Garments",
+        "Chair",
+        "Table",
+        "Silver",
+        "Gold",
+        "Bronze daggers",
+        "Oil",
+        "Honey",
+        "Grain",
+        "Bread"
+      ],
+      "evidence": "KUB 30.26 §2.",
+      "image": {
+        "alt": "Clothing, vessels and food for the dead",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-30-26",
+          "locus": "KUB 30.26 §2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "zelliya-take-funerary-goods",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "tend-dead"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "take",
+          "theme": {
+            "class": "garment",
+            "sub": "garment",
+            "count": 2,
+            "f": {
+              "color": "white"
+            }
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "garment",
+            "sub": "shirt",
+            "count": 4,
+            "f": {
+              "material": "linen"
+            }
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "structure",
+            "sub": "chair"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "structure",
+            "sub": "table",
+            "f": {
+              "material": "wicker"
+            }
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "materials",
+            "sub": "silver"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "materials",
+            "sub": "gold"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "implement",
+            "sub": "dagger",
+            "count": 2,
+            "f": {
+              "material": "bronze"
+            }
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "vessel",
+            "sub": "cup",
+            "count": 2,
+            "f": {
+              "material": "bronze"
+            }
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "liquid",
+            "sub": "oil"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "food",
+            "sub": "honey"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "food",
+            "sub": "grain"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "food",
+            "sub": "bread",
+            "count": 60
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "drink",
+            "sub": "beer"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "liquid",
+            "sub": "water of purification"
+          }
+        }
+      ]
+    },
+    {
+      "id": "prepare-funerary-goods",
+      "number": 2,
+      "title": "Prepare the goods",
+      "shortTitle": "Prepare the goods",
+      "shortDescription": "The listed goods are prepared for the rite.",
+      "phase": "Prepare for the dead",
+      "unitType": "act",
+      "actionType": "prepare-provisions",
+      "verb": "Prepare",
+      "summary": "The listed goods are prepared for the rite.",
+      "patient": "Goods for the dead",
+      "actor": "Zelliya",
+      "material": [],
+      "evidence": "KUB 30.26 §2.",
+      "image": {
+        "alt": "Clothing, vessels and food for the dead",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-30-26",
+          "locus": "KUB 30.26 §2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "zelliya-prepare-funerary-goods",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "take-funerary-goods"
+        ],
+        "aims": [
+          "tend-dead"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "materials",
+            "sub": "funerary goods"
+          },
+          "for": {
+            "class": "person",
+            "sub": "dead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "carry-dead-outside",
+      "number": 3,
+      "title": "Carry the dead person outside",
+      "shortTitle": "Carry the dead person outside",
+      "shortDescription": "After a damaged passage, the dead person is carried outside.",
+      "phase": "Carry out and burn",
+      "unitType": "act",
+      "actionType": "carry-dead",
+      "verb": "Carry",
+      "summary": "After a damaged passage, the dead person is carried outside.",
+      "patient": "The dead person",
+      "actor": "Zelliya",
+      "material": [],
+      "evidence": "KUB 30.26 §4.",
+      "image": {
+        "alt": "Dead person carried outside for cremation",
+        "note": "Illustrative reconstruction of the named scene and materials."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-30-26",
+          "locus": "KUB 30.26 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "zelliya-carry-dead-outside",
+      "composition": {
+        "function": "carry-dead",
+        "requires": [
+          "prepare-funerary-goods"
+        ],
+        "aims": [
+          "tend-dead"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "carry",
+          "theme": {
+            "class": "person",
+            "sub": "dead"
+          },
+          "goal": "outside"
+        }
+      ]
+    },
+    {
+      "id": "cremate-dead",
+      "number": 4,
+      "title": "Burn the dead person",
+      "shortTitle": "Burn the dead person",
+      "shortDescription": "The body is burned after being carried outside.",
+      "phase": "Carry out and burn",
+      "unitType": "act",
+      "actionType": "cremate-dead",
+      "verb": "Burn",
+      "summary": "The body is burned after being carried outside.",
+      "patient": "The dead person",
+      "actor": "Zelliya",
+      "material": [],
+      "evidence": "KUB 30.26 §4.",
+      "image": {
+        "alt": "Dead person burning on a pyre",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-30-26",
+          "locus": "KUB 30.26 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "zelliya-cremate-dead",
+      "composition": {
+        "function": "cremate-dead",
+        "requires": [
+          "carry-dead-outside"
+        ],
+        "aims": [
+          "tend-dead"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "person",
+            "sub": "dead"
+          }
+        }
+      ]
+    }
+  ]
+}

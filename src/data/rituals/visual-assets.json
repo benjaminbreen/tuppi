@@ -229,11 +229,6 @@
     "subject": "Wax and tallow effigies",
     "medium": "AI reconstruction · transparent PNG"
   },
-  "tunnawiya-boxwood-combs": {
-    "src": "/rituals/tunnawiya/boxwood-combs.png",
-    "subject": "Boxwood combs",
-    "medium": "AI reconstruction · transparent PNG"
-  },
   "tunnawiya-broken-pot": {
     "src": "/rituals/tunnawiya/broken-pot.png",
     "subject": "Broken black clay pot",
@@ -283,5 +278,925 @@
     "src": "/rituals/tunnawiya/small-pyre.png",
     "subject": "Small pyre with animals",
     "medium": "AI reconstruction · transparent PNG"
+  },
+  "paskuwatti-reed-gate": {
+    "src": "/rituals/paskuwatti/reed-gate.png",
+    "subject": "Reed gate bound with red and white wool",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "paskuwatti-spindle-distaff": {
+    "src": "/rituals/paskuwatti/spindle-distaff.png",
+    "subject": "Spindle and distaff",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "paskuwatti-bow-arrows": {
+    "src": "/rituals/paskuwatti/bow-arrows.png",
+    "subject": "Bow and arrows",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "dandanku-three-animals": {
+    "src": "/rituals/dandanku/three-animals.png",
+    "subject": "Kid, piglet and puppy",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "zarpiya-door-oil": {
+    "src": "/rituals/zarpiya/closed-door-oil.png",
+    "subject": "Closed wooden door and oil vessel",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "dandanku-cut-three-animals": {
+    "src": "/rituals/dandanku/cut-three-animals.png",
+    "subject": "Kid, piglet and puppy cut apart for the Seven",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "maddunani-provisions": {
+    "src": "/rituals/maddunani/provisions.png",
+    "subject": "Two puppies, a piglet and provisions",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "zelliya-cremation": {
+    "src": "/rituals/zelliya/cremation.png",
+    "subject": "Dead person carried outside for cremation",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "cmawro-01-string-stones": {
+    "src": "/rituals/cmawro/01-string-stones.png",
+    "subject": "String the stones on flax",
+    "medium": "Illustrative reconstruction · transparent PNG"
+  },
+  "cmawro-02-pack-wool": {
+    "src": "/rituals/cmawro/02-pack-wool.png",
+    "subject": "Pack the named ingredients in wool",
+    "medium": "Illustrative reconstruction · transparent PNG"
+  },
+  "cmawro-03-wrap-leather": {
+    "src": "/rituals/cmawro/03-wrap-leather.png",
+    "subject": "Wrap the bundle in leather",
+    "medium": "Illustrative reconstruction · transparent PNG"
+  },
+  "cmawro-04-interlace": {
+    "src": "/rituals/cmawro/04-interlace.png",
+    "subject": "Interlace bundle and stones",
+    "medium": "Illustrative reconstruction · transparent PNG"
+  },
+  "cmawro-05-place-neck": {
+    "src": "/rituals/cmawro/05-place-neck.png",
+    "subject": "Place the amulet around the neck",
+    "medium": "Illustrative reconstruction · transparent PNG"
+  },
+  "tunnawiya-piglet-lifted": {
+    "src": "/rituals/tunnawiya/piglet-lifted.png",
+    "subject": "A piglet lifted above the patient",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-puppy-lifted": {
+    "src": "/rituals/tunnawiya/puppy-lifted.png",
+    "subject": "A puppy lifted above the patient",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-sun-libation": {
+    "src": "/rituals/tunnawiya/sun-libation.png",
+    "subject": "Wine poured in a libation",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "dandanku-mix-fodder": {
+    "src": "/rituals/dandanku/mix-fodder.png",
+    "subject": "Grain and straw mixed as fodder",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "dandanku-scatter-fodder": {
+    "src": "/rituals/dandanku/scatter-fodder.png",
+    "subject": "Fodder scattered across a road",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "dandanku-maids-wool": {
+    "src": "/rituals/dandanku/maids-wool.png",
+    "subject": "Coloured wool presented in an address",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "maddunani-through-camp": {
+    "src": "/rituals/maddunani/through-camp.png",
+    "subject": "Augur and older man moving through camp",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "maddunani-bird-omen": {
+    "src": "/rituals/maddunani/bird-omen.png",
+    "subject": "Augur observing a bird in flight",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "zelliya-funerary-goods": {
+    "src": "/rituals/zelliya/funerary-goods.png",
+    "subject": "Clothing, vessels and food for the dead",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "zelliya-body-on-pyre": {
+    "src": "/rituals/zelliya/body-on-pyre.png",
+    "subject": "Dead person burning on a pyre",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ashella-release-ram": {
+    "src": "/rituals/ashella/release-ram.png",
+    "subject": "Adorned ram released toward the enemy border",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "pulisa-dress-substitute": {
+    "src": "/rituals/pulisa/dress-substitute.png",
+    "subject": "Man dressed as a substitute",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "paskuwatti-carry-offering": {
+    "src": "/rituals/paskuwatti/carry-offering.png",
+    "subject": "Offerings carried to the open country",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "paskuwatti-pass-reed-gate": {
+    "src": "/rituals/paskuwatti/pass-reed-gate.png",
+    "subject": "Man carrying implements through a reed gate",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "paskuwatti-new-table": {
+    "src": "/rituals/paskuwatti/new-table.png",
+    "subject": "Offerings set on a new table",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "zarpiya-take-implements": {
+    "src": "/rituals/zarpiya/take-implements.png",
+    "subject": "Attendants taking up ritual implements",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tunnawiya-boxwood-combs": {
+    "src": "/rituals/tunnawiya/boxwood-combs.png",
+    "subject": "Boxwood combs",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tapalazunauli-donkey": {
+    "src": "/rituals/tapalazunauli/donkey.png",
+    "subject": "A donkey led away",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tapalazunauli-straw-bread": {
+    "src": "/rituals/tapalazunauli/straw-bread.png",
+    "subject": "Straw scattered beside broken bread",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tapalazunauli-basket": {
+    "src": "/rituals/tapalazunauli/basket.png",
+    "subject": "Straw and bread placed in a basket",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "tapalazunauli-gate": {
+    "src": "/rituals/tapalazunauli/gate.png",
+    "subject": "A woman chants as a basket is carried through the gate",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ummaya-city-wall": {
+    "src": "/rituals/ummaya/city-wall.png",
+    "subject": "Ummaya prepares and conjures by the city wall",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ummaya-substitute-man": {
+    "src": "/rituals/ummaya/substitute-man.png",
+    "subject": "A man released as a substitute carrier",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "ummaya-two-oxen": {
+    "src": "/rituals/ummaya/two-oxen.png",
+    "subject": "Two oxen released as substitute carriers",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "cmawro-q004189-1-5-1-01": {
+    "src": "/rituals/cmawro/1-5-1/wax-figures.png",
+    "subject": "Make figurines of the accused",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q004189-1-5-1-02": {
+    "src": "/rituals/cmawro/1-5-1/wax-figures.png",
+    "subject": "Indict the figures before Šamaš",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q004189-1-5-1-03": {
+    "src": "/rituals/cmawro/1-5-1/tallow-figures.png",
+    "subject": "Coat the figures with tallow",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q004189-1-5-1-04": {
+    "src": "/rituals/cmawro/1-5-1/burning-pot.png",
+    "subject": "Put the figures in a disposable pot",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q004189-1-5-1-05": {
+    "src": "/rituals/cmawro/1-5-1/burning-pot.png",
+    "subject": "Burn the figures in the pot",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q004189-1-5-1-06": {
+    "src": "/rituals/cmawro/1-5-1/wax-figures.png",
+    "subject": "Ask Šamaš to return the sorcery",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q004189-1-5-1-07": {
+    "src": "/rituals/cmawro/1-5-1/river-disposal.png",
+    "subject": "Throw the remains into the river",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q005063-8-18-01": {
+    "src": "/rituals/cmawro/8-18/material-figures.png",
+    "subject": "Make figures from five materials",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q005063-8-18-02": {
+    "src": "/rituals/cmawro/8-18/constrain-figures.png",
+    "subject": "Constrain the figures",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q005063-8-18-03": {
+    "src": "/rituals/cmawro/8-18/clay-pot.png",
+    "subject": "Put the figures in a disposable pot",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q005063-8-18-04": {
+    "src": "/rituals/cmawro/8-18/censer.png",
+    "subject": "Set a juniper censer before Utu",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q005063-8-18-05": {
+    "src": "/rituals/cmawro/8-18/libation.png",
+    "subject": "Pour out grape must",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q005063-8-18-06": {
+    "src": "/rituals/cmawro/8-18/crush-figures.png",
+    "subject": "Crush the clay and dough figures",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q005063-8-18-07": {
+    "src": "/rituals/cmawro/1-5-1/burning-pot.png",
+    "subject": "Burn the tallow, wax and bitumen figures",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "cmawro-q005063-8-18-08": {
+    "src": "/rituals/cmawro/8-18/plants.png",
+    "subject": "Chew the named plants and woods",
+    "medium": "AI illustration · transparent PNG · conjectural reconstruction"
+  },
+  "tunnawiya-royal-list-afflictions": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Clay tablet representing the spoken list of afflictions",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-list-tongues": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Tongues of many people named",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-recount-causes": {
+    "src": "/rituals/generated/tunnawiya-royal-recount-causes.png",
+    "subject": "Routes of contagion recounted",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-name-evil-speech": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Offence of the evil mouth named",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-fit-limbs": {
+    "src": "/rituals/generated/tunnawiya-royal-fit-limbs.png",
+    "subject": "Twelve limbs fitted together",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-cut-ram-limbs": {
+    "src": "/rituals/generated/tunnawiya-royal-cut-ram-limbs.png",
+    "subject": "Bronze knife and sheep meat",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-limbs-take-sickness": {
+    "src": "/rituals/generated/tunnawiya-royal-limbs-take-sickness.png",
+    "subject": "Sheep meat portions on a clay platter",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-declare-pulled-out": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Harm declared pulled out",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-take-evil-fright": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Fright taken away",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-conjure-round-limbs": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Conjuring round the twelve limbs",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-hold-over-back": {
+    "src": "/rituals/generated/tunnawiya-royal-hold-over-back.png",
+    "subject": "Object held over the back",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-plough-analogy": {
+    "src": "/rituals/generated/tunnawiya-royal-plough-analogy.png",
+    "subject": "Ploughing analogy",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-spit-into-mouth": {
+    "src": "/rituals/generated/tunnawiya-royal-spit-into-mouth.png",
+    "subject": "Spitting into a sheep's mouth",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-command-spit-out": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Command to spit out harm",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-bring-piglets": {
+    "src": "/rituals/generated/tunnawiya-royal-bring-piglets.png",
+    "subject": "Live and dough piglets",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-swing-live-piglet": {
+    "src": "/rituals/generated/tunnawiya-royal-swing-live-piglet.png",
+    "subject": "Live piglet swung",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-hold-dough-piglet": {
+    "src": "/rituals/generated/tunnawiya-royal-hold-dough-piglet.png",
+    "subject": "Dough piglet held close",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-great-god-historiola": {
+    "src": "/rituals/deities/unnamed-god.png",
+    "subject": "Myth of the great god",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-speak-patient-name": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Naming the patient",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-search-historiola": {
+    "src": "/rituals/deities/divine-assembly.png",
+    "subject": "Gods search the body",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-cut-them-off": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Command to cut off",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "tunnawiya-royal-remove-litany": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Removal litany",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-inquire-egypt-oath": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "King with an old tablet, inquiring",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-inquire-mala-offering": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-02.png",
+    "subject": "King inquiring about a river offering",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-confess-sin": {
+    "src": "/rituals/deities/storm-god.png",
+    "subject": "King confessing to the Storm-god",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-vow-mala-offering": {
+    "src": "/rituals/deities/divine-assembly.png",
+    "subject": "King promising an offering",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-confess-fathers-sin": {
+    "src": "/rituals/deities/storm-god.png",
+    "subject": "King confessing his father's sin",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-soothe-and-send-away": {
+    "src": "/rituals/deities/storm-god.png",
+    "subject": "King entreating the Storm-god",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-hear-me": {
+    "src": "/rituals/deities/storm-god.png",
+    "subject": "King calling on the Storm-god",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-bird-and-servant": {
+    "src": "/rituals/generated/mursili-plague-prayer-bird-and-servant.png",
+    "subject": "Bird in its nest",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-offer-compensation": {
+    "src": "/rituals/deities/storm-god.png",
+    "subject": "King promising compensation",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-spare-cult-personnel": {
+    "src": "/rituals/deities/storm-god.png",
+    "subject": "King praying for cult personnel",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-reveal-other-cause": {
+    "src": "/rituals/deities/divine-assembly.png",
+    "subject": "King asking for a revelation",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "mursili-plague-prayer-order-pure-sleep": {
+    "src": "/rituals/generated/mursili-plague-prayer-order-pure-sleep.png",
+    "subject": "Sleepers in purity",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "army-ritual-hot-stone": {
+    "src": "/rituals/generated/army-ritual-hot-stone.png",
+    "subject": "Hot stone in water",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "army-ritual-winter-torpor": {
+    "src": "/rituals/generated/army-ritual-winter-torpor.png",
+    "subject": "Winter torpor",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "army-ritual-mighty-troops": {
+    "src": "/rituals/generated/army-ritual-mighty-troops.png",
+    "subject": "Mighty troops",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "army-ritual-father-gods-protect": {
+    "src": "/rituals/deities/divine-assembly.png",
+    "subject": "Father-gods and son",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "army-ritual-gods-on-our-side": {
+    "src": "/rituals/deities/divine-assembly.png",
+    "subject": "Gods on our side",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "army-ritual-hasten-troops": {
+    "src": "/rituals/generated/army-ritual-hasten-troops.png",
+    "subject": "Troops hastening",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "lapana-plague-bull": {
+    "src": "/rituals/generated/lapana-plague-bull.png",
+    "subject": "A bull",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "lapana-plague-wicker-tables": {
+    "src": "/rituals/generated/lapana-plague-wicker-tables.png",
+    "subject": "Four wicker tables",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "lapana-plague-evening-fire": {
+    "src": "/rituals/generated/lapana-plague-evening-fire.png",
+    "subject": "Evening fire",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "lapana-plague-raw-cooked": {
+    "src": "/rituals/generated/lapana-plague-raw-cooked.png",
+    "subject": "Raw and cooked portions",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "lapana-plague-burn": {
+    "src": "/rituals/generated/lapana-plague-evening-fire.png",
+    "subject": "Burning",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "lapana-plague-bow": {
+    "src": "/rituals/generated/lapana-plague-bow.png",
+    "subject": "Bowing",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "lapana-plague-in-mouth": {
+    "src": "/rituals/generated/lapana-plague-in-mouth.png",
+    "subject": "Morsel to the mouth",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-mix-urine-clay": {
+    "src": "/rituals/generated/libu-mix-urine-clay.png",
+    "subject": "Mix donkey urine with school clay",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-make-donkeys": {
+    "src": "/rituals/generated/libu-make-donkeys.png",
+    "subject": "Knead and make two clay donkeys",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-attach-strap-tail": {
+    "src": "/rituals/generated/libu-attach-strap-tail.png",
+    "subject": "Attach the strap and tail-hair to the figurine",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-make-substitute": {
+    "src": "/rituals/generated/libu-make-substitute.png",
+    "subject": "Make the substitute from the patient's urine, hair and nails",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-dress-mount-substitute": {
+    "src": "/rituals/generated/libu-dress-mount-substitute.png",
+    "subject": "Clothe the substitute and set it on the donkey",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-load-sacks": {
+    "src": "/rituals/generated/libu-load-sacks.png",
+    "subject": "Load sacks on the two leading donkeys",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-make-driver": {
+    "src": "/rituals/generated/libu-make-driver.png",
+    "subject": "Make a clay driver with a goad",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-bring-to-roof": {
+    "src": "/rituals/generated/libu-bring-to-roof.png",
+    "subject": "Bring the figures up onto the roof before Šamaš",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-strew-offering": {
+    "src": "/rituals/generated/libu-strew-offering.png",
+    "subject": "Strew flour, dates and mashatu-flour before Šamaš",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-address-samas": {
+    "src": "/rituals/generated/libu-address-samas.png",
+    "subject": "Address Šamaš as lord of judgment",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-carry-substitute-out": {
+    "src": "/rituals/generated/libu-make-substitute.png",
+    "subject": "Bring the substitute down and out to the open country",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-patient-gives-libu": {
+    "src": "/rituals/generated/libu-patient-gives-libu.png",
+    "subject": "The patient hands li'bu to his substitute",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-donkeys-in-basket": {
+    "src": "/rituals/generated/libu-donkeys-in-basket.png",
+    "subject": "Place the donkey figures in a basket before Šamaš",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-pour-seven-sila": {
+    "src": "/rituals/generated/libu-pour-seven-sila.png",
+    "subject": "Pour out seven sila each of flour, dates and oil",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-address-nisaba": {
+    "src": "/rituals/deities/unnamed-goddess.png",
+    "subject": "Invoke Nisaba and drive out the curse",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-draw-design-adjure": {
+    "src": "/rituals/generated/libu-draw-design-adjure.png",
+    "subject": "Draw a design and adjure the evil by the gods",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-strew-at-esegu": {
+    "src": "/rituals/generated/libu-strew-at-esegu.png",
+    "subject": "Take it out to the ešegu-bush and strew flour and dates",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-station-weapons": {
+    "src": "/rituals/generated/libu-station-weapons.png",
+    "subject": "Station donkeys and weapons before Šamaš",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-address-samas-oath": {
+    "src": "/rituals/deities/sun-god-v2.png",
+    "subject": "Address Šamaš, list the seizing demons and lay the oath",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-address-esegu": {
+    "src": "/rituals/generated/libu-address-esegu.png",
+    "subject": "Seize the ešegu-bush and bid it plead with Šamaš",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-anoint-bind-esegu": {
+    "src": "/rituals/generated/libu-anoint-bind-esegu.png",
+    "subject": "Pour oil on the ešegu and bind it to a rush",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-release-bargain": {
+    "src": "/rituals/deities/sun-god-v2.png",
+    "subject": "Ask Šamaš: let li'bu release the man",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-place-loaves-designs": {
+    "src": "/rituals/generated/libu-place-loaves-designs.png",
+    "subject": "Draw designs and set a dried loaf at each",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-strew-city-gate": {
+    "src": "/rituals/generated/libu-strew-city-gate.png",
+    "subject": "Throw flour at the city gate",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-adjure-at-gate": {
+    "src": "/rituals/generated/libu-adjure-at-gate.png",
+    "subject": "Adjure the evil not to enter the door",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-mix-salt-cress": {
+    "src": "/rituals/generated/libu-mix-salt-cress.png",
+    "subject": "Mix salt and cress into the poured flour",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-crush-juniper": {
+    "src": "/rituals/generated/libu-crush-juniper.png",
+    "subject": "Crush juniper and mix it with oil",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "libu-recite-arabapura": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Recite the incantation during treatment",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "poultice-crush-plants": {
+    "src": "/rituals/generated/poultice-crush-plants.png",
+    "subject": "Crush the plants and mix them as one",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "poultice-boil-mixture": {
+    "src": "/rituals/generated/poultice-boil-mixture.png",
+    "subject": "Boil the mixture in kasû-juice",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "poultice-bandage": {
+    "src": "/rituals/generated/poultice-bandage.png",
+    "subject": "Keep bandaging the patient",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "poultice-mix-emmer": {
+    "src": "/rituals/generated/poultice-mix-emmer.png",
+    "subject": "Mix the aromatics with emmer flour",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "poultice-mix-ghee-beer": {
+    "src": "/rituals/generated/poultice-mix-ghee-beer.png",
+    "subject": "Mix seeds with ghee and beer and bandage",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "poultice-perform-purification": {
+    "src": "/rituals/generated/poultice-perform-purification.png",
+    "subject": "Perform a purification for the sick man",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q002713-9-22-31-01": {
+    "src": "/rituals/generated/cmawro-q002713-9-22-31-01.png",
+    "subject": "Draw a magic circle round the crucible",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q002713-9-22-31-02": {
+    "src": "/rituals/generated/cmawro-q002713-9-22-31-02.png",
+    "subject": "Arrange figures of nine materials in the crucible",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q002713-9-22-31-03": {
+    "src": "/rituals/generated/cmawro-q002713-9-22-31-02.png",
+    "subject": "Point at the figures and name them as the doer",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q002713-9-22-31-04": {
+    "src": "/rituals/generated/cmawro-q002713-9-22-31-04.png",
+    "subject": "Put a torch on the tallow and wax figures",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q002713-9-22-31-05": {
+    "src": "/rituals/generated/cmawro-q002713-9-22-31-05.png",
+    "subject": "Stick cedar, cypress, myrtle and reed into it",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q002713-9-22-31-06": {
+    "src": "/rituals/generated/cmawro-q002713-9-22-31-06.png",
+    "subject": "Light the torch from sulphur fire and recite",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q002713-9-22-31-07": {
+    "src": "/rituals/generated/cmawro-q002713-9-22-31-07.png",
+    "subject": "Throw fire into the crucible",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q004239-11-1-1-01": {
+    "src": "/rituals/generated/cmawro-q004239-11-1-1-01.png",
+    "subject": "Pound sulphur, gypsum and red paste together",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q004239-11-1-1-02": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Recite \"Furious, furious … tear out the sorcery\"",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q004239-11-1-1-03": {
+    "src": "/rituals/generated/cmawro-q004239-11-1-1-03.png",
+    "subject": "Recite into the paste; apply it to the door-jamb",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q004239-11-1-1-04": {
+    "src": "/rituals/generated/cmawro-q004239-11-1-1-04.png",
+    "subject": "Wash the paste off with silt into a cloth",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q004239-11-1-1-05": {
+    "src": "/rituals/generated/cmawro-q004239-11-1-1-05.png",
+    "subject": "Wrap sulphur and oil in combed fleece",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q004239-11-1-1-06": {
+    "src": "/rituals/generated/cmawro-q004239-11-1-1-06.png",
+    "subject": "Bury it at the outer gate and door socket",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-01": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-01.png",
+    "subject": "Sweep and sprinkle the riverbank",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-02": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-02.png",
+    "subject": "Set up an altar and pour a libation",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-03": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-03.png",
+    "subject": "Make a male and a female figure of clay",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-04": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-04.png",
+    "subject": "The sick man dresses, stands before the god, recites",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-05": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-05.png",
+    "subject": "Ask that the evil cross river and mountain",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-06": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-06.png",
+    "subject": "Like smoke, like uprooted tamarisk",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-07": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-07.png",
+    "subject": "Pour beer before the river",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-08": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-08.png",
+    "subject": "Sink three times in the river in a textile",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-09": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-09.png",
+    "subject": "Ask the river to carry the evil away",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-10": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-10.png",
+    "subject": "Come up, tear off the textile, bathe",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-11": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-11.png",
+    "subject": "Enter a brewer's house and touch the mash tub",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "cmawro-q005109-11-3-1-12": {
+    "src": "/rituals/generated/cmawro-q005109-11-3-1-12.png",
+    "subject": "Touch the gate with gypsum and bitumen",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-catch-partridge": {
+    "src": "/rituals/generated/potency-catch-partridge.png",
+    "subject": "Catching a partridge",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-pluck-strangle": {
+    "src": "/rituals/generated/potency-pluck-strangle.png",
+    "subject": "Plucked partridge",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-salt-dry": {
+    "src": "/rituals/generated/potency-salt-dry.png",
+    "subject": "Salting a bird",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-crush-with-thorn": {
+    "src": "/rituals/generated/potency-crush-with-thorn.png",
+    "subject": "Crushing ingredients",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-drink-in-beer": {
+    "src": "/rituals/generated/potency-drink-in-beer.png",
+    "subject": "Remedy in a cup",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-blood-into-water": {
+    "src": "/rituals/generated/potency-blood-into-water.png",
+    "subject": "Blood in water",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-water-under-stars": {
+    "src": "/rituals/generated/potency-water-under-stars.png",
+    "subject": "Bowl of water beneath stars",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-wrap-in-wool": {
+    "src": "/rituals/generated/potency-wrap-in-wool.png",
+    "subject": "Wool bundle",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-smear-salt-plant": {
+    "src": "/rituals/generated/potency-smear-salt-plant.png",
+    "subject": "Smearing with salt and herb",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-mix-roasted-flour": {
+    "src": "/rituals/generated/potency-mix-roasted-flour.png",
+    "subject": "Mixing with flour",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-form-pellets": {
+    "src": "/rituals/generated/potency-form-pellets.png",
+    "subject": "Remedy pellets",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-bind-on-hips": {
+    "src": "/rituals/generated/potency-bind-on-hips.png",
+    "subject": "Bundle on a cord",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-rinse-body": {
+    "src": "/rituals/generated/potency-rinse-body.png",
+    "subject": "Rinsing a seated man",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-anoint-oil": {
+    "src": "/rituals/generated/potency-anoint-oil.png",
+    "subject": "Anointing oil",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-sumerian-incantation": {
+    "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
+    "subject": "Reciting an incantation",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "potency-crush-decoct-sinews": {
+    "src": "/rituals/generated/potency-crush-decoct-sinews.png",
+    "subject": "Crushing with stones",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "remedies-take-herbs": {
+    "src": "/rituals/generated/remedies-take-herbs.png",
+    "subject": "Heaps of herbs",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "remedies-give-seven-days": {
+    "src": "/rituals/generated/remedies-give-seven-days.png",
+    "subject": "Giving a remedy",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "remedies-steep-sift": {
+    "src": "/rituals/generated/remedies-steep-sift.png",
+    "subject": "Steeping and sifting",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "remedies-sew-into-cord": {
+    "src": "/rituals/generated/remedies-sew-into-cord.png",
+    "subject": "Root sewn into leather cord",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "remedies-twist-sinew": {
+    "src": "/rituals/generated/remedies-twist-sinew.png",
+    "subject": "Twisting a sinew",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "remedies-heat-compress": {
+    "src": "/rituals/generated/remedies-heat-compress.png",
+    "subject": "Warming a compress",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "remedies-crush-into-bag": {
+    "src": "/rituals/generated/remedies-crush-into-bag.png",
+    "subject": "Crushing plants",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "remedies-carry-into-house": {
+    "src": "/rituals/generated/remedies-carry-into-house.png",
+    "subject": "Carrying a bowl indoors",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "remedies-into-honey": {
+    "src": "/rituals/generated/remedies-into-honey.png",
+    "subject": "Remedy in honey",
+    "medium": "AI illustration · transparent PNG"
+  },
+  "remedies-gut-fish": {
+    "src": "/rituals/generated/remedies-gut-fish.png",
+    "subject": "Gutted fish",
+    "medium": "AI illustration · transparent PNG"
   }
 }

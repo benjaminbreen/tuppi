@@ -1,0 +1,58 @@
+{
+  "lapana-plague-bull": {
+    "title": "Provide a bull",
+    "description": "One bull is listed among the materials.",
+    "actionType": "bring-animal",
+    "unitType": "act",
+    "visualAssetId": "lapana-plague-bull",
+    "matchRule": "Provision of a bull for a plague rite (fate unstated)."
+  },
+  "lapana-plague-wicker-tables": {
+    "title": "Set out four wicker tables",
+    "description": "Four wicker tables are listed, apparently for the lord of the city.",
+    "actionType": "prepare-offering",
+    "unitType": "act",
+    "visualAssetId": "lapana-plague-wicker-tables",
+    "matchRule": "Setting out wicker offering tables."
+  },
+  "lapana-plague-evening-fire": {
+    "title": "Kindle a fire in the evening",
+    "description": "When evening comes they go and kindle a fire.",
+    "actionType": "prepare-offering",
+    "unitType": "act",
+    "visualAssetId": "lapana-plague-evening-fire",
+    "matchRule": "Kindling a fire for an evening offering."
+  },
+  "lapana-plague-raw-cooked": {
+    "title": "Offer raw and cooked portions to the gods",
+    "description": "They offer to the gods and set raw and cooked portions on the ground.",
+    "actionType": "offer-food-drink",
+    "unitType": "act",
+    "visualAssetId": "lapana-plague-raw-cooked",
+    "matchRule": "Offering raw and cooked portions together."
+  },
+  "lapana-plague-burn": {
+    "title": "Burn the offering",
+    "description": "The passage closes with burning; the object is lost.",
+    "actionType": "burn-animals",
+    "unitType": "act",
+    "visualAssetId": "lapana-plague-burn",
+    "matchRule": "Burning at the close of an offering (object unknown)."
+  },
+  "lapana-plague-bow": {
+    "title": "Bow down to the gods",
+    "description": "They bow down to the gods.",
+    "actionType": "offer-food-drink",
+    "unitType": "act",
+    "visualAssetId": "lapana-plague-bow",
+    "matchRule": "Prostration before gods at a plague rite."
+  },
+  "lapana-plague-in-mouth": {
+    "title": "Place a little in the mouth, three times",
+    "description": "A little of something is placed in the mouth; the act is repeated three times.",
+    "actionType": "offer-food-drink",
+    "unitType": "act",
+    "visualAssetId": "lapana-plague-in-mouth",
+    "matchRule": "Placing a small portion in the mouth, repeated thrice."
+  }
+}

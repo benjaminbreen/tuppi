@@ -1,0 +1,26 @@
+{
+  "tunnawiya/wash-with-water": {
+    "templateId": "wash-person",
+    "actor": "beneficiary",
+    "target": "beneficiary",
+    "bodyPart": "unspecified",
+    "medium": "water",
+    "accompaniment": "practitioner incantation"
+  },
+  "tunnawiya/wash-hands-wine": {
+    "templateId": "wash-person",
+    "actor": "beneficiary",
+    "target": "beneficiary",
+    "bodyPart": "hands",
+    "medium": "wine",
+    "accompaniment": "not specified"
+  },
+  "ashella/wash-salt-water": {
+    "templateId": "wash-person",
+    "actor": "participants",
+    "target": "participants",
+    "bodyPart": "hands",
+    "medium": "salted water",
+    "accompaniment": "not specified"
+  }
+}

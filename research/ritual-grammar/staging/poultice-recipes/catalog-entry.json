@@ -1,0 +1,37 @@
+{
+  "id": "poultice-recipes",
+  "path": "/rituals/poultice-recipes",
+  "title": "Akkadian poultice recipes",
+  "cth": 808,
+  "concern": "Illness",
+  "region": "Babylonia (copied at Ḫattuša)",
+  "tags": [
+    "Babylonian text copied at Ḫattuša",
+    "Akkadian",
+    "Medicine",
+    "Poultice",
+    "Healing"
+  ],
+  "sources": "KUB 37.1",
+  "description": "Babylonian therapeutic recipes copied at Ḫattuša: plants and aromatics are crushed, mixed with flour, cooked in beer or wine and bandaged on the patient.",
+  "images": [
+    "/rituals/_pending.png"
+  ],
+  "searchTerms": [
+    "poultice",
+    "bandage",
+    "rabīku",
+    "juniper",
+    "cedar",
+    "myrrh",
+    "emmer",
+    "beer",
+    "wine",
+    "ghee",
+    "takpirtu",
+    "Akkadian",
+    "Babylonian",
+    "medicine"
+  ],
+  "stepCount": 10
+}

@@ -4,41 +4,41 @@
     "label": "Unnamed god",
     "model": "Male deity reliefs at Yazılıkaya",
     "sourceUrl": "https://www.ktb.gov.tr/EN-114128/yazilikaya.html",
-    "note": "This male relief type is reused for several recipients: an unnamed hostile god, a plague god, a road god and a tutelary deity. Its dress and pose follow the male deities at Yazılıkaya; the texts do not identify those recipients as the same god or prescribe this carving."
+    "note": "The ritual addresses a god without naming one. The image is inspired by carvings of gods at Yazılıkaya."
   },
   "unnamed-goddess": {
     "src": "/rituals/deities/unnamed-goddess.png",
     "label": "Unnamed goddess",
     "model": "Goddess reliefs at Yazılıkaya",
     "sourceUrl": "https://www.ktb.gov.tr/EN-114128/yazilikaya.html",
-    "note": "This Yazılıkaya female relief type is used for Puliša’s unnamed female deity and for Tunnawiya’s Mother-goddess of the riverbank. Neither tablet describes a cult image or identifies this relief with its recipient."
+    "note": "The ritual addresses a goddess. The image is inspired by carvings of goddesses at Yazılıkaya."
   },
   "storm-god": {
     "src": "/rituals/deities/storm-god.png",
     "label": "Storm-god",
     "model": "Teššub relief at Yazılıkaya, no. 42",
     "sourceUrl": "https://www.religionswissenschaft.uzh.ch/idd/prepublications/e_idd_anatolia_north_syria.pdf",
-    "note": "The tablet calls the recipient Storm-god. The relief takes its form from the depiction of Teššub at Yazılıkaya; the tablet does not identify this recipient as Teššub by name."
+    "note": "The Storm-god was a powerful weather deity. The image is inspired by a carving of Teššub at Yazılıkaya."
   },
   "sun-god": {
     "src": "/rituals/deities/sun-god-v2.png",
     "label": "Sun-god",
     "model": "Sun-god of Heaven relief at Yazılıkaya, no. 34",
     "sourceUrl": "https://www.religionswissenschaft.uzh.ch/idd/prepublications/e_idd_anatolia_north_syria.pdf",
-    "note": "The round cap, long robe and curved crook follow the Sun-god of Heaven relief at Yazılıkaya. The ritual says Sun-god without that fuller identification."
+    "note": "The ritual addresses the sun god. The image is inspired by a carving of the Sun-god of Heaven at Yazılıkaya."
   },
   "the-seven": {
     "src": "/rituals/deities/the-seven.png",
     "label": "The Seven",
     "model": "Repeated male deity reliefs at Yazılıkaya",
     "sourceUrl": "https://www.ktb.gov.tr/EN-114128/yazilikaya.html",
-    "note": "The tablet names the Seven (Sebettu). This seven-figure grouping uses the repeated Hittite relief type as a visual convention; the Yazılıkaya figures are not identified as the Sebettu."
+    "note": "The ritual names the Seven, a group of gods also called the Sebettu. The image draws on a group of divine figures at Yazılıkaya."
   },
   "divine-assembly": {
     "src": "/rituals/deities/divine-assembly.png",
     "label": "All the gods",
     "model": "Male and female deity processions at Yazılıkaya",
     "sourceUrl": "https://www.ktb.gov.tr/EN-114128/yazilikaya.html",
-    "note": "The tablet addresses all the gods collectively. The small group draws on the male and female processions at Yazılıkaya; its four figures do not represent a fixed list of recipients."
+    "note": "The ritual addresses all the gods together. The image draws on processions of gods and goddesses at Yazılıkaya."
   }
 }

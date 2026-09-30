@@ -2,10 +2,10 @@ import { defineConfig, loadEnv } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig(({ mode }) => {
-  // Vite exposes only VITE_ variables to the browser. Both optional Jev keys
+  // Vite exposes only VITE_ variables to the browser. Jev and OpenAI keys
   // stay in this local server process, matching the server-side Vercel function.
   const localEnv = loadEnv(mode, process.cwd(), "");
-  for (const name of ["OPENROUTER_API_KEY", "TYPESAFE_API_KEY"] as const) {
+  for (const name of ["OPENROUTER_API_KEY", "TYPESAFE_API_KEY", "OPENAI_API_KEY"] as const) {
     if (!process.env[name] && localEnv[name]) process.env[name] = localEnv[name];
   }
   return {

@@ -1,0 +1,40 @@
+{
+ "id": "tunnawiya-royal",
+ "path": "/rituals/tunnawiya-royal",
+ "title": "Tunnawiya’s Ritual for the Royal Couple",
+ "cth": 409,
+ "concern": "Sickness and slander",
+ "region": "Ḫattuša copy",
+ "tags": [
+  "Healing",
+  "Transfer",
+  "Royal"
+ ],
+ "sources": "KUB 9.34",
+ "description": "Litanies strip sickness and the 'tongues' of many people from twelve limbs, carried off by a ram, a sheep and live and dough piglets.",
+ "images": [
+  "/rituals/_pending.png"
+ ],
+ "stepCount": 24,
+ "searchTerms": [
+  "Tunnawiya",
+  "Old Woman",
+  "king",
+  "queen",
+  "twelve limbs",
+  "tongue",
+  "slander",
+  "curse",
+  "ram",
+  "sheep",
+  "piglet",
+  "dough piglet",
+  "spit",
+  "ploughing",
+  "Sun-god",
+  "Mother-goddess",
+  "Ilaliyant",
+  "Nergal",
+  "Landa"
+ ]
+}

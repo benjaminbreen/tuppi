@@ -1,0 +1,47 @@
+{
+  "increase": {
+    "label": "increase and flourishing",
+    "reading": "Seek an increase in the valued result: livelihood, customers, achievement, creative work, or another desired good.",
+    "boundary": "Translate increase by analogy; do not claim that fertility texts originally concerned trade, school, or media."
+  },
+  "petition": {
+    "label": "petition for a favorable response",
+    "reading": "Seek a favorable response from an agent whose cooperation matters, including a creator, teacher, customer, or institution.",
+    "boundary": "A modern person is not identified with a deity. The ritual petitioner asks divine aid concerning the desired response."
+  },
+  "provision": {
+    "label": "provision and reciprocal giving",
+    "reading": "Provide something valued and seek a favorable reception, including a successful shop, service, offering, or shared meal.",
+    "boundary": "Preserve the source recipient; food in an offering does not make a deity a patron of a modern food business."
+  },
+  "renewal": {
+    "label": "cleansing and a fresh beginning",
+    "reading": "Seek a fresh beginning or restoration of a person’s condition before a new undertaking.",
+    "boundary": "The modern obstacle is an analogy, not evidence of historical impurity."
+  },
+  "release": {
+    "label": "removal of an unwanted condition",
+    "reading": "Seek to remove illness, trouble, obstruction, anxiety, or another unwanted condition.",
+    "boundary": "Do not invent a hostile person or enemy for an ordinary difficulty."
+  },
+  "protection": {
+    "label": "protection from harm",
+    "reading": "Seek protection for a person or community from a feared loss or harmful influence.",
+    "boundary": "Do not interpret competition alone as a demand to harm a rival."
+  },
+  "persistence": {
+    "label": "waiting through a transition",
+    "reading": "Seek change that requires sustained waiting or a passage through time, including completion of a new work.",
+    "boundary": "An overnight rite is a temporal analogy, not an attested practice for productivity."
+  },
+  "general": {
+    "label": "a petition for the desired outcome",
+    "reading": "Express a wish whose modern circumstances have no close counterpart in this small corpus. Use the general structure of giving and petition without inventing an ancient specialty.",
+    "boundary": "This is a broad reconstruction; no specific ancient purpose is claimed."
+  },
+  "passage": {
+    "label": "passage into a different place or condition",
+    "reading": "Cross a boundary, enter unfamiliar surroundings, gain access, or move into a new phase. Physical passage can serve as an explicit modern analogy for these changes.",
+    "boundary": "The original passage may belong to purification. Do not claim it was historically used for modern travel or admission; preserve that distinction without forbidding the analogy."
+  }
+}

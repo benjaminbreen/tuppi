@@ -1,0 +1,1552 @@
+{
+ "verbs": {
+  "bring": "move a thing into the ritual space",
+  "take": "pick up / take possession",
+  "collect": "take substance from a place",
+  "combine": "join materials into one (twist, mix)",
+  "shape": "form material into an object (wreath, figure, gate)",
+  "attach": "fasten X onto Y",
+  "detach": "remove X from Y",
+  "tie": "tether / bind in place",
+  "place": "set X at a location",
+  "hold-over": "raise/wave X over a person",
+  "give": "transfer X to person",
+  "dress": "put garments on",
+  "undress": "take garments off",
+  "cut": "cut / split",
+  "break": "smash",
+  "melt": "melt",
+  "burn": "burn",
+  "kill": "kill",
+  "cook": "cook",
+  "wash": "wash with a liquid",
+  "comb": "draw downward over body",
+  "pour": "libate",
+  "scatter": "spread over ground",
+  "drive": "send an animal/person along a path",
+  "release": "let go into water/territory",
+  "pass": "person moves through a boundary",
+  "build": "erect a structure",
+  "select": "choose a person/animal",
+  "dedicate": "assign X to a deity",
+  "offer": "set food/drink before a deity",
+  "touch": "lay hold of a living exemplar",
+  "draw-out": "pull X out of body orifice",
+  "exchange": "swap one object for another",
+  "speak": "utterance (see speech act)"
+ },
+ "speechActs": {
+  "petition": "ask a deity for X",
+  "assignment": "declare X belongs to / is for Y",
+  "substitution": "declare X replaces Y",
+  "dismissal": "tell the harm/god to go",
+  "analogy": "as X, so may Y",
+  "invocation": "call a deity to be present"
+ },
+ "atoms": [
+  {
+   "id": "uhhamuwa/bring-ram#0",
+   "step": "uhhamuwa/bring-ram",
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "ram"
+   }
+  },
+  {
+   "id": "uhhamuwa/twist-wool#0",
+   "step": "uhhamuwa/twist-wool",
+   "verb": "combine",
+   "theme": {
+    "class": "wool",
+    "sub": null,
+    "f": {
+     "colors": [
+      "blue",
+      "red",
+      "yellow-green",
+      "black",
+      "white"
+     ]
+    }
+   },
+   "result": "cord"
+  },
+  {
+   "id": "uhhamuwa/make-wreath#0",
+   "step": "uhhamuwa/make-wreath",
+   "verb": "shape",
+   "theme": {
+    "class": "wool",
+    "sub": null
+   },
+   "result": "wreath"
+  },
+  {
+   "id": "uhhamuwa/crown-ram#0",
+   "step": "uhhamuwa/crown-ram",
+   "verb": "attach",
+   "theme": {
+    "class": "wreath",
+    "sub": "wool"
+   },
+   "onto": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "part": "head"
+    }
+   }
+  },
+  {
+   "id": "uhhamuwa/lead-to-road#0",
+   "step": "uhhamuwa/lead-to-road",
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "adorned": true
+    }
+   },
+   "goal": "road to enemy land"
+  },
+  {
+   "id": "uhhamuwa/appeal-over-ram#0",
+   "step": "uhhamuwa/appeal-over-ram",
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "hostile god"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "ram"
+   }
+  },
+  {
+   "id": "uhhamuwa/appeal-over-ram#1",
+   "step": "uhhamuwa/appeal-over-ram",
+   "verb": "speak",
+   "act": "assignment",
+   "addressee": {
+    "class": "deity",
+    "sub": "hostile god"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "ram"
+   }
+  },
+  {
+   "id": "uhhamuwa/drive-away-ram#0",
+   "step": "uhhamuwa/drive-away-ram",
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "adorned": true
+    }
+   },
+   "goal": "enemy land"
+  },
+  {
+   "id": "uhhamuwa/bring-fodder-fat#0",
+   "step": "uhhamuwa/bring-fodder-fat",
+   "verb": "bring",
+   "theme": {
+    "class": "food",
+    "sub": "fodder"
+   }
+  },
+  {
+   "id": "uhhamuwa/bring-fodder-fat#1",
+   "step": "uhhamuwa/bring-fodder-fat",
+   "verb": "bring",
+   "theme": {
+    "class": "fat",
+    "sub": "sheep"
+   }
+  },
+  {
+   "id": "uhhamuwa/address-horses-chariot#0",
+   "step": "uhhamuwa/address-horses-chariot",
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "hostile god"
+   },
+   "about": {
+    "class": "food",
+    "sub": "fodder"
+   }
+  },
+  {
+   "id": "uhhamuwa/address-horses-chariot#1",
+   "step": "uhhamuwa/address-horses-chariot",
+   "verb": "speak",
+   "act": "dismissal",
+   "addressee": {
+    "class": "deity",
+    "sub": "hostile god"
+   },
+   "about": null,
+   "goal": "his own land"
+  },
+  {
+   "id": "uhhamuwa/bring-goat-sheep#0",
+   "step": "uhhamuwa/bring-goat-sheep",
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "goat"
+   }
+  },
+  {
+   "id": "uhhamuwa/bring-goat-sheep#1",
+   "step": "uhhamuwa/bring-goat-sheep",
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep",
+    "f": {
+     "count": 2
+    }
+   }
+  },
+  {
+   "id": "uhhamuwa/dedicate-goat#0",
+   "step": "uhhamuwa/dedicate-goat",
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "goat"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "the Seven"
+   }
+  },
+  {
+   "id": "uhhamuwa/dedicate-sheep#0",
+   "step": "uhhamuwa/dedicate-sheep",
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Sun-god"
+   }
+  },
+  {
+   "id": "uhhamuwa/kill-sheep#0",
+   "step": "uhhamuwa/kill-sheep",
+   "verb": "kill",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep"
+   }
+  },
+  {
+   "id": "uhhamuwa/cook-sheep#0",
+   "step": "uhhamuwa/cook-sheep",
+   "verb": "cook",
+   "theme": {
+    "class": "meat",
+    "sub": "sheep"
+   }
+  },
+  {
+   "id": "uhhamuwa/bring-food-drink#0",
+   "step": "uhhamuwa/bring-food-drink",
+   "verb": "bring",
+   "theme": {
+    "class": "food",
+    "sub": "cheese"
+   }
+  },
+  {
+   "id": "uhhamuwa/bring-food-drink#1",
+   "step": "uhhamuwa/bring-food-drink",
+   "verb": "bring",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   }
+  },
+  {
+   "id": "uhhamuwa/bring-food-drink#2",
+   "step": "uhhamuwa/bring-food-drink",
+   "verb": "bring",
+   "theme": {
+    "class": "food",
+    "sub": "wine"
+   }
+  },
+  {
+   "id": "uhhamuwa/bring-food-drink#3",
+   "step": "uhhamuwa/bring-food-drink",
+   "verb": "bring",
+   "theme": {
+    "class": "food",
+    "sub": "beer"
+   }
+  },
+  {
+   "id": "uhhamuwa/bring-food-drink#4",
+   "step": "uhhamuwa/bring-food-drink",
+   "verb": "bring",
+   "theme": {
+    "class": "food",
+    "sub": "fruit"
+   }
+  },
+  {
+   "id": "uhhamuwa/prepare-for-road-god#0",
+   "step": "uhhamuwa/prepare-for-road-god",
+   "verb": "offer",
+   "theme": {
+    "class": "food",
+    "sub": "provisions"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "god of the road"
+   }
+  },
+  {
+   "id": "ashella/prepare-ram#0",
+   "step": "ashella/prepare-ram",
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "ram"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "army lord"
+   },
+   "time": "dusk"
+  },
+  {
+   "id": "ashella/twist-wool#0",
+   "step": "ashella/twist-wool",
+   "verb": "combine",
+   "theme": {
+    "class": "wool",
+    "sub": null,
+    "f": {
+     "colors": [
+      "white",
+      "red",
+      "green"
+     ]
+    }
+   },
+   "result": "cord"
+  },
+  {
+   "id": "ashella/bind-ram#0",
+   "step": "ashella/bind-ram",
+   "verb": "attach",
+   "theme": {
+    "class": "cord",
+    "sub": "wool"
+   },
+   "onto": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "part": "neck"
+    }
+   }
+  },
+  {
+   "id": "ashella/bind-ram#1",
+   "step": "ashella/bind-ram",
+   "verb": "attach",
+   "theme": {
+    "class": "ornament",
+    "sub": "metal"
+   },
+   "onto": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "part": "horns"
+    }
+   }
+  },
+  {
+   "id": "ashella/tether-ram#0",
+   "step": "ashella/tether-ram",
+   "verb": "tie",
+   "theme": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "adorned": true
+    }
+   },
+   "location": "before a tent",
+   "time": "night"
+  },
+  {
+   "id": "ashella/appeal#0",
+   "step": "ashella/appeal",
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "plague god"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "ram"
+   }
+  },
+  {
+   "id": "ashella/release-rams#0",
+   "step": "ashella/release-rams",
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "adorned": true
+    }
+   },
+   "path": "through camp"
+  },
+  {
+   "id": "ashella/release-rams#1",
+   "step": "ashella/release-rams",
+   "verb": "release",
+   "theme": {
+    "class": "animal",
+    "sub": "ram"
+   },
+   "goal": "enemy border"
+  },
+  {
+   "id": "ashella/slaughter-ram#0",
+   "step": "ashella/slaughter-ram",
+   "verb": "kill",
+   "theme": {
+    "class": "animal",
+    "sub": "ram"
+   },
+   "instrument": "bronze knife"
+  },
+  {
+   "id": "ashella/cook-meat#0",
+   "step": "ashella/cook-meat",
+   "verb": "cook",
+   "theme": {
+    "class": "meat",
+    "sub": "sheep"
+   }
+  },
+  {
+   "id": "ashella/wash-salt-water#0",
+   "step": "ashella/wash-salt-water",
+   "verb": "combine",
+   "theme": {
+    "class": "salt",
+    "sub": null
+   },
+   "with_": "water"
+  },
+  {
+   "id": "ashella/wash-salt-water#1",
+   "step": "ashella/wash-salt-water",
+   "verb": "wash",
+   "theme": {
+    "class": "body",
+    "sub": "hands"
+   },
+   "medium": "salt water"
+  },
+  {
+   "id": "ashella/pass-between-fires#0",
+   "step": "ashella/pass-between-fires",
+   "verb": "burn",
+   "theme": {
+    "class": "fire",
+    "sub": null,
+    "f": {
+     "count": 2
+    }
+   }
+  },
+  {
+   "id": "ashella/pass-between-fires#1",
+   "step": "ashella/pass-between-fires",
+   "verb": "pass",
+   "theme": {
+    "class": "person",
+    "sub": "participants"
+   },
+   "boundary": "between two fires"
+  },
+  {
+   "id": "ashella/offer-goats#0",
+   "step": "ashella/offer-goats",
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "goat",
+    "f": {
+     "count": 2
+    }
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Tutelary deity"
+   }
+  },
+  {
+   "id": "ashella/bring-pig#0",
+   "step": "ashella/bring-pig",
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "pig"
+   },
+   "goal": "open place"
+  },
+  {
+   "id": "ashella/offer-pig#0",
+   "step": "ashella/offer-pig",
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "pig"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "plague god"
+   }
+  },
+  {
+   "id": "ashella/offer-bull#0",
+   "step": "ashella/offer-bull",
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "bull"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Storm-god"
+   }
+  },
+  {
+   "id": "ashella/offer-ewe#0",
+   "step": "ashella/offer-ewe",
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "ewe"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Sun-god"
+   }
+  },
+  {
+   "id": "ashella/offer-rams#0",
+   "step": "ashella/offer-rams",
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep",
+    "f": {
+     "count": 3
+    }
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "all the gods"
+   }
+  },
+  {
+   "id": "tunnawiya/prepare-black-animals#0",
+   "step": "tunnawiya/prepare-black-animals",
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "id": "tunnawiya/prepare-black-animals#1",
+   "step": "tunnawiya/prepare-black-animals",
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "piglet",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "id": "tunnawiya/prepare-black-animals#2",
+   "step": "tunnawiya/prepare-black-animals",
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "puppy",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "id": "tunnawiya/set-out-black-clothes#0",
+   "step": "tunnawiya/set-out-black-clothes",
+   "verb": "bring",
+   "theme": {
+    "class": "garment",
+    "sub": "shirt",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "id": "tunnawiya/set-out-black-clothes#1",
+   "step": "tunnawiya/set-out-black-clothes",
+   "verb": "bring",
+   "theme": {
+    "class": "garment",
+    "sub": "leggings",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "id": "tunnawiya/set-out-black-clothes#2",
+   "step": "tunnawiya/set-out-black-clothes",
+   "verb": "bring",
+   "theme": {
+    "class": "garment",
+    "sub": "shoes",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "id": "tunnawiya/offer-at-riverbank#0",
+   "step": "tunnawiya/offer-at-riverbank",
+   "verb": "offer",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Mother-goddess"
+   },
+   "location": "riverbank"
+  },
+  {
+   "id": "tunnawiya/offer-at-riverbank#1",
+   "step": "tunnawiya/offer-at-riverbank",
+   "verb": "pour",
+   "theme": {
+    "class": "food",
+    "sub": "wine"
+   },
+   "location": "riverbank"
+  },
+  {
+   "id": "tunnawiya/address-riverbank-goddess#0",
+   "step": "tunnawiya/address-riverbank-goddess",
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "Mother-goddess"
+   },
+   "about": {
+    "class": "clay",
+    "sub": null
+   }
+  },
+  {
+   "id": "tunnawiya/collect-river-clay#0",
+   "step": "tunnawiya/collect-river-clay",
+   "verb": "collect",
+   "theme": {
+    "class": "clay",
+    "sub": null
+   },
+   "source": "riverbank"
+  },
+  {
+   "id": "tunnawiya/offer-at-spring#0",
+   "step": "tunnawiya/offer-at-spring",
+   "verb": "offer",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   },
+   "location": "spring"
+  },
+  {
+   "id": "tunnawiya/offer-at-spring#1",
+   "step": "tunnawiya/offer-at-spring",
+   "verb": "pour",
+   "theme": {
+    "class": "food",
+    "sub": "wine"
+   },
+   "location": "spring"
+  },
+  {
+   "id": "tunnawiya/collect-spring-clay#0",
+   "step": "tunnawiya/collect-spring-clay",
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "place",
+    "sub": "spring"
+   },
+   "about": null
+  },
+  {
+   "id": "tunnawiya/collect-spring-clay#1",
+   "step": "tunnawiya/collect-spring-clay",
+   "verb": "collect",
+   "theme": {
+    "class": "clay",
+    "sub": null
+   },
+   "source": "spring"
+  },
+  {
+   "id": "tunnawiya/build-reed-hut#0",
+   "step": "tunnawiya/build-reed-hut",
+   "verb": "build",
+   "theme": {
+    "class": "structure",
+    "sub": "hut",
+    "f": {
+     "material": "reed"
+    }
+   },
+   "location": "riverside"
+  },
+  {
+   "id": "tunnawiya/make-clay-figures#0",
+   "step": "tunnawiya/make-clay-figures",
+   "verb": "shape",
+   "theme": {
+    "class": "clay",
+    "sub": null
+   },
+   "result": "tongue x12"
+  },
+  {
+   "id": "tunnawiya/make-clay-figures#1",
+   "step": "tunnawiya/make-clay-figures",
+   "verb": "shape",
+   "theme": {
+    "class": "clay",
+    "sub": null
+   },
+   "result": "ox x2"
+  },
+  {
+   "id": "tunnawiya/dress-in-black#0",
+   "step": "tunnawiya/dress-in-black",
+   "verb": "dress",
+   "theme": {
+    "class": "garment",
+    "sub": null,
+    "f": {
+     "color": "black"
+    }
+   },
+   "on": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "id": "tunnawiya/hold-black-sheep#0",
+   "step": "tunnawiya/hold-black-sheep",
+   "verb": "hold-over",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep",
+    "f": {
+     "color": "black"
+    }
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "id": "tunnawiya/hold-black-sheep#1",
+   "step": "tunnawiya/hold-black-sheep",
+   "verb": "speak",
+   "act": "analogy",
+   "addressee": null,
+   "about": null
+  },
+  {
+   "id": "tunnawiya/hold-piglet#0",
+   "step": "tunnawiya/hold-piglet",
+   "verb": "hold-over",
+   "theme": {
+    "class": "animal",
+    "sub": "piglet"
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "id": "tunnawiya/hold-piglet#1",
+   "step": "tunnawiya/hold-piglet",
+   "verb": "speak",
+   "act": "analogy",
+   "addressee": null,
+   "about": null
+  },
+  {
+   "id": "tunnawiya/hold-puppy#0",
+   "step": "tunnawiya/hold-puppy",
+   "verb": "hold-over",
+   "theme": {
+    "class": "animal",
+    "sub": "puppy"
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "id": "tunnawiya/hold-puppy#1",
+   "step": "tunnawiya/hold-puppy",
+   "verb": "speak",
+   "act": "analogy",
+   "addressee": null,
+   "about": null
+  },
+  {
+   "id": "tunnawiya/hold-clay-tongue#0",
+   "step": "tunnawiya/hold-clay-tongue",
+   "verb": "hold-over",
+   "theme": {
+    "class": "figure",
+    "sub": "tongue",
+    "f": {
+     "material": "clay"
+    }
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "id": "tunnawiya/melt-figures#0",
+   "step": "tunnawiya/melt-figures",
+   "verb": "melt",
+   "theme": {
+    "class": "figure",
+    "sub": null,
+    "f": {
+     "material": "wax"
+    }
+   }
+  },
+  {
+   "id": "tunnawiya/melt-figures#1",
+   "step": "tunnawiya/melt-figures",
+   "verb": "melt",
+   "theme": {
+    "class": "figure",
+    "sub": null,
+    "f": {
+     "material": "tallow"
+    }
+   }
+  },
+  {
+   "id": "tunnawiya/wash-hands-wine#0",
+   "step": "tunnawiya/wash-hands-wine",
+   "verb": "wash",
+   "theme": {
+    "class": "body",
+    "sub": "hands"
+   },
+   "medium": "wine"
+  },
+  {
+   "id": "tunnawiya/wash-with-water#0",
+   "step": "tunnawiya/wash-with-water",
+   "verb": "wash",
+   "theme": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "medium": "water"
+  },
+  {
+   "id": "tunnawiya/remove-coloured-wool#0",
+   "step": "tunnawiya/remove-coloured-wool",
+   "verb": "detach",
+   "theme": {
+    "class": "wool",
+    "sub": null,
+    "f": {
+     "colors": [
+      "blue",
+      "red"
+     ]
+    }
+   },
+   "from_": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "id": "tunnawiya/strip-black-clothes#0",
+   "step": "tunnawiya/strip-black-clothes",
+   "verb": "cut",
+   "theme": {
+    "class": "garment",
+    "sub": "shirt",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "id": "tunnawiya/strip-black-clothes#1",
+   "step": "tunnawiya/strip-black-clothes",
+   "verb": "undress",
+   "theme": {
+    "class": "garment",
+    "sub": null,
+    "f": {
+     "color": "black"
+    }
+   },
+   "from_": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "id": "tunnawiya/smash-empty-pot#0",
+   "step": "tunnawiya/smash-empty-pot",
+   "verb": "hold-over",
+   "theme": {
+    "class": "vessel",
+    "sub": "pot",
+    "f": {
+     "empty": true
+    }
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "id": "tunnawiya/smash-empty-pot#1",
+   "step": "tunnawiya/smash-empty-pot",
+   "verb": "break",
+   "theme": {
+    "class": "vessel",
+    "sub": "pot"
+   }
+  },
+  {
+   "id": "tunnawiya/bathe-over-figure#0",
+   "step": "tunnawiya/bathe-over-figure",
+   "verb": "place",
+   "theme": {
+    "class": "figure",
+    "sub": null,
+    "f": {
+     "material": "clay"
+    }
+   },
+   "location": "under feet"
+  },
+  {
+   "id": "tunnawiya/bathe-over-figure#1",
+   "step": "tunnawiya/bathe-over-figure",
+   "verb": "wash",
+   "theme": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "medium": "water"
+  },
+  {
+   "id": "tunnawiya/comb-down#0",
+   "step": "tunnawiya/comb-down",
+   "verb": "comb",
+   "theme": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "instrument": "boxwood comb"
+  },
+  {
+   "id": "tunnawiya/release-into-river#0",
+   "step": "tunnawiya/release-into-river",
+   "verb": "release",
+   "theme": {
+    "class": "used materials",
+    "sub": null
+   },
+   "goal": "river"
+  },
+  {
+   "id": "tunnawiya/burn-small-animals#0",
+   "step": "tunnawiya/burn-small-animals",
+   "verb": "burn",
+   "theme": {
+    "class": "animal",
+    "sub": "piglet"
+   },
+   "location": "uncultivated ground"
+  },
+  {
+   "id": "tunnawiya/burn-small-animals#1",
+   "step": "tunnawiya/burn-small-animals",
+   "verb": "burn",
+   "theme": {
+    "class": "animal",
+    "sub": "puppy"
+   }
+  },
+  {
+   "id": "tunnawiya/pass-through-gate#0",
+   "step": "tunnawiya/pass-through-gate",
+   "verb": "pass",
+   "theme": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "boundary": "gate"
+  },
+  {
+   "id": "tunnawiya/return-river-offering#0",
+   "step": "tunnawiya/return-river-offering",
+   "verb": "offer",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   },
+   "location": "riverbank"
+  },
+  {
+   "id": "tunnawiya/take-cow-by-horn#0",
+   "step": "tunnawiya/take-cow-by-horn",
+   "verb": "touch",
+   "theme": {
+    "class": "animal",
+    "sub": "cow",
+    "f": {
+     "part": "horn"
+    }
+   }
+  },
+  {
+   "id": "tunnawiya/wish-for-offspring#0",
+   "step": "tunnawiya/wish-for-offspring",
+   "verb": "speak",
+   "act": "analogy",
+   "addressee": {
+    "class": "deity",
+    "sub": "Sun-god"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "cow"
+   }
+  },
+  {
+   "id": "tunnawiya/touch-fruit-tree#0",
+   "step": "tunnawiya/touch-fruit-tree",
+   "verb": "touch",
+   "theme": {
+    "class": "tree",
+    "sub": "fruit-bearing"
+   }
+  },
+  {
+   "id": "tunnawiya/wish-by-tree#0",
+   "step": "tunnawiya/wish-by-tree",
+   "verb": "speak",
+   "act": "analogy",
+   "addressee": {
+    "class": "deity",
+    "sub": "Sun-god"
+   },
+   "about": {
+    "class": "tree",
+    "sub": null
+   }
+  },
+  {
+   "id": "tunnawiya/libate-sun-god#0",
+   "step": "tunnawiya/libate-sun-god",
+   "verb": "pour",
+   "theme": {
+    "class": "food",
+    "sub": "wine"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Sun-god"
+   }
+  },
+  {
+   "id": "tunnawiya/libate-sun-god#1",
+   "step": "tunnawiya/libate-sun-god",
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "Sun-god"
+   },
+   "about": null
+  },
+  {
+   "id": "pulisa/select-substitutes#0",
+   "step": "pulisa/select-substitutes",
+   "verb": "select",
+   "theme": {
+    "class": "person",
+    "sub": "prisoner"
+   }
+  },
+  {
+   "id": "pulisa/select-substitutes#1",
+   "step": "pulisa/select-substitutes",
+   "verb": "select",
+   "theme": {
+    "class": "person",
+    "sub": "woman"
+   }
+  },
+  {
+   "id": "pulisa/remove-king-garments#0",
+   "step": "pulisa/remove-king-garments",
+   "verb": "undress",
+   "theme": {
+    "class": "garment",
+    "sub": "festive"
+   },
+   "from_": {
+    "class": "person",
+    "sub": "king"
+   }
+  },
+  {
+   "id": "pulisa/dress-man#0",
+   "step": "pulisa/dress-man",
+   "verb": "dress",
+   "theme": {
+    "class": "garment",
+    "sub": "festive"
+   },
+   "on": {
+    "class": "person",
+    "sub": "prisoner"
+   }
+  },
+  {
+   "id": "pulisa/dress-woman#0",
+   "step": "pulisa/dress-woman",
+   "verb": "dress",
+   "theme": {
+    "class": "garment",
+    "sub": "festive"
+   },
+   "on": {
+    "class": "person",
+    "sub": "woman"
+   }
+  },
+  {
+   "id": "pulisa/address-man#0",
+   "step": "pulisa/address-man",
+   "verb": "speak",
+   "act": "substitution",
+   "addressee": {
+    "class": "deity",
+    "sub": "male deity"
+   },
+   "about": {
+    "class": "person",
+    "sub": "prisoner"
+   }
+  },
+  {
+   "id": "pulisa/address-man#1",
+   "step": "pulisa/address-man",
+   "verb": "speak",
+   "act": "dismissal",
+   "addressee": null,
+   "about": "plague"
+  },
+  {
+   "id": "pulisa/address-woman#0",
+   "step": "pulisa/address-woman",
+   "verb": "speak",
+   "act": "substitution",
+   "addressee": {
+    "class": "deity",
+    "sub": "female deity"
+   },
+   "about": {
+    "class": "person",
+    "sub": "woman"
+   }
+  },
+  {
+   "id": "pulisa/bring-bull-ewe#0",
+   "step": "pulisa/bring-bull-ewe",
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "bull"
+   }
+  },
+  {
+   "id": "pulisa/bring-bull-ewe#1",
+   "step": "pulisa/bring-bull-ewe",
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "ewe"
+   }
+  },
+  {
+   "id": "pulisa/ring-bull#0",
+   "step": "pulisa/ring-bull",
+   "verb": "attach",
+   "theme": {
+    "class": "ornament",
+    "sub": "ring"
+   },
+   "onto": {
+    "class": "animal",
+    "sub": "bull",
+    "f": {
+     "part": "ears"
+    }
+   }
+  },
+  {
+   "id": "pulisa/draw-wool#0",
+   "step": "pulisa/draw-wool",
+   "verb": "draw-out",
+   "theme": {
+    "class": "wool",
+    "sub": null,
+    "f": {
+     "colors": [
+      "red",
+      "green",
+      "black",
+      "white"
+     ]
+    }
+   },
+   "from_": {
+    "class": "person",
+    "sub": "king",
+    "f": {
+     "part": "mouth"
+    }
+   }
+  },
+  {
+   "id": "pulisa/address-bull#0",
+   "step": "pulisa/address-bull",
+   "verb": "speak",
+   "act": "substitution",
+   "addressee": {
+    "class": "deity",
+    "sub": "male deity"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "bull"
+   }
+  },
+  {
+   "id": "pulisa/address-bull#1",
+   "step": "pulisa/address-bull",
+   "verb": "speak",
+   "act": "dismissal",
+   "addressee": null,
+   "about": "plague"
+  },
+  {
+   "id": "pulisa/address-ewe#0",
+   "step": "pulisa/address-ewe",
+   "verb": "speak",
+   "act": "substitution",
+   "addressee": {
+    "class": "deity",
+    "sub": "female deity"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "ewe"
+   }
+  },
+  {
+   "id": "pulisa/send-animals-ahead#0",
+   "step": "pulisa/send-animals-ahead",
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "bull"
+   }
+  },
+  {
+   "id": "pulisa/send-animals-ahead#1",
+   "step": "pulisa/send-animals-ahead",
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "ewe"
+   }
+  },
+  {
+   "id": "paskuwatti/arrange-offerings#0",
+   "step": "paskuwatti/arrange-offerings",
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "id": "paskuwatti/arrange-offerings#1",
+   "step": "paskuwatti/arrange-offerings",
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "fig"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "id": "paskuwatti/arrange-offerings#2",
+   "step": "paskuwatti/arrange-offerings",
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "raisin"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "id": "paskuwatti/arrange-offerings#3",
+   "step": "paskuwatti/arrange-offerings",
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "groats"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "id": "paskuwatti/arrange-offerings#4",
+   "step": "paskuwatti/arrange-offerings",
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "wine"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "id": "paskuwatti/arrange-offerings#5",
+   "step": "paskuwatti/arrange-offerings",
+   "verb": "place",
+   "theme": {
+    "class": "wool",
+    "sub": null
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "id": "paskuwatti/arrange-offerings#6",
+   "step": "paskuwatti/arrange-offerings",
+   "verb": "place",
+   "theme": {
+    "class": "garment",
+    "sub": null
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "id": "paskuwatti/carry-offerings#0",
+   "step": "paskuwatti/carry-offerings",
+   "verb": "take",
+   "theme": {
+    "class": "food",
+    "sub": "offerings"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "virgin girl"
+   }
+  },
+  {
+   "id": "paskuwatti/carry-offerings#1",
+   "step": "paskuwatti/carry-offerings",
+   "verb": "drive",
+   "theme": {
+    "class": "person",
+    "sub": "offerant"
+   },
+   "goal": "open country"
+  },
+  {
+   "id": "paskuwatti/make-reed-gate#0",
+   "step": "paskuwatti/make-reed-gate",
+   "verb": "build",
+   "theme": {
+    "class": "structure",
+    "sub": "gate",
+    "f": {
+     "material": "reed"
+    }
+   }
+  },
+  {
+   "id": "paskuwatti/bind-gate#0",
+   "step": "paskuwatti/bind-gate",
+   "verb": "attach",
+   "theme": {
+    "class": "wool",
+    "sub": null,
+    "f": {
+     "colors": [
+      "red",
+      "white"
+     ]
+    }
+   },
+   "onto": {
+    "class": "structure",
+    "sub": "gate"
+   }
+  },
+  {
+   "id": "paskuwatti/give-spindle#0",
+   "step": "paskuwatti/give-spindle",
+   "verb": "give",
+   "theme": {
+    "class": "implement",
+    "sub": "spindle"
+   },
+   "to": {
+    "class": "person",
+    "sub": "offerant"
+   }
+  },
+  {
+   "id": "paskuwatti/give-spindle#1",
+   "step": "paskuwatti/give-spindle",
+   "verb": "give",
+   "theme": {
+    "class": "implement",
+    "sub": "distaff"
+   },
+   "to": {
+    "class": "person",
+    "sub": "offerant"
+   }
+  },
+  {
+   "id": "paskuwatti/pass-gate#0",
+   "step": "paskuwatti/pass-gate",
+   "verb": "pass",
+   "theme": {
+    "class": "person",
+    "sub": "offerant"
+   },
+   "boundary": "gate"
+  },
+  {
+   "id": "paskuwatti/exchange-implements#0",
+   "step": "paskuwatti/exchange-implements",
+   "verb": "exchange",
+   "theme": {
+    "class": "implement",
+    "sub": "spindle"
+   },
+   "for_": {
+    "class": "implement",
+    "sub": "bow"
+   }
+  },
+  {
+   "id": "paskuwatti/speak-exchange#0",
+   "step": "paskuwatti/speak-exchange",
+   "verb": "speak",
+   "act": "analogy",
+   "addressee": null,
+   "about": {
+    "class": "implement",
+    "sub": "bow"
+   }
+  },
+  {
+   "id": "paskuwatti/entreat-uliliyassi#0",
+   "step": "paskuwatti/entreat-uliliyassi",
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "Uliliyassi"
+   },
+   "about": null
+  },
+  {
+   "id": "paskuwatti/set-home-table#0",
+   "step": "paskuwatti/set-home-table",
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "offerings"
+   },
+   "location": "new table"
+  }
+ ]
+}

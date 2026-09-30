@@ -1,0 +1,137 @@
+{
+ "bring-donkey": [
+  {
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "donkey"
+   }
+  }
+ ],
+ "assign-evil": [
+  {
+   "verb": "place",
+   "theme": {
+    "class": "materials",
+    "sub": "load"
+   },
+   "onto": {
+    "class": "animal",
+    "sub": "donkey"
+   },
+   "note": "object lost"
+  },
+  {
+   "verb": "speak",
+   "act": "assignment",
+   "about": {
+    "class": "animal",
+    "sub": "donkey"
+   },
+   "note": "let this one carry off the evil"
+  },
+  {
+   "verb": "speak",
+   "act": "binding",
+   "about": {
+    "class": "harm",
+    "sub": "evil"
+   },
+   "note": "let the evil not come to me"
+  }
+ ],
+ "send-donkey": [
+  {
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "donkey"
+   },
+   "goal": "enemy lands"
+  }
+ ],
+ "scatter-straw": [
+  {
+   "verb": "scatter",
+   "theme": {
+    "class": "plant",
+    "sub": "straw"
+   },
+   "location": "opposite"
+  }
+ ],
+ "break-bread": [
+  {
+   "verb": "break",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   },
+   "location": "opposite"
+  }
+ ],
+ "fill-basket": [
+  {
+   "verb": "place",
+   "theme": {
+    "class": "materials",
+    "sub": "straw and bread"
+   },
+   "location": {
+    "class": "container",
+    "sub": "basket"
+   },
+   "time": "evening"
+  }
+ ],
+ "chant-at-gate": [
+  {
+   "verb": "speak",
+   "act": "invocation",
+   "note": "palwae- ritual cry by a woman; content unspecified",
+   "location": "gate",
+   "agent": {
+    "class": "person",
+    "sub": "woman"
+   }
+  }
+ ],
+ "carry-basket-out": [
+  {
+   "verb": "carry",
+   "theme": {
+    "class": "container",
+    "sub": "basket"
+   },
+   "source": "house",
+   "goal": "across the boundary"
+  }
+ ],
+ "speak-to-god": [
+  {
+   "verb": "speak",
+   "act": "declaration",
+   "addressee": {
+    "class": "deity",
+    "sub": "plague god"
+   },
+   "about": {
+    "class": "food",
+    "sub": "fodder"
+   },
+   "note": "I have brought fodder for you and food for your dogs"
+  },
+  {
+   "verb": "speak",
+   "act": "assignment",
+   "addressee": {
+    "class": "deity",
+    "sub": "plague god"
+   },
+   "about": {
+    "class": "food",
+    "sub": "food"
+   }
+  }
+ ]
+}

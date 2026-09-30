@@ -1,0 +1,709 @@
+{
+  "id": "poultice-recipes",
+  "cth": 808,
+  "title": "Akkadian poultice recipes",
+  "shortName": "Poultice recipes",
+  "eyebrow": "CTH 808 · Babylonian therapeutic text copied at Ḫattuša",
+  "dating": {
+    "label": "Ḫattuša copy, 14th–13th c. BCE (approx.)",
+    "note": "An Akkadian medical tablet from Boğazköy with Hittite and Hurrian glosses; this dates the manuscript context, not the Babylonian recipes.",
+    "sourceUrl": "https://hethport.net/hetkonk/hetkonk_abfrage.php?c=808"
+  },
+  "purpose": "Treat a sick man with alternative herbal poultices bandaged on repeatedly, followed by a fragmentary purification.",
+  "attribution": "Anonymous Babylonian medical recipes with Hittite and Hurrian scribal glosses",
+  "sourceSummary": "KUB 37.1 obv. 1–40, rev. (selected recipes)",
+  "editionUrl": "https://hethport.net/hetkonk/hetkonk_abfrage.php?c=808",
+  "editionLabel": "Hethitologie-Portal Mainz concordance, CTH 808; F. Köcher, KUB 37 (1953)",
+  "phases": [
+    {
+      "name": "Recipe: kasû-juice poultice",
+      "range": [
+        1,
+        3
+      ],
+      "idea": "Plants crushed, boiled in kasû-juice and bandaged on."
+    },
+    {
+      "name": "Recipe: beer poultice",
+      "range": [
+        4,
+        4
+      ],
+      "idea": "Plants crushed and decocted in beer like a rabīku-paste."
+    },
+    {
+      "name": "Recipe: wine poultice",
+      "range": [
+        5,
+        8
+      ],
+      "idea": "About thirty aromatics crushed, mixed with emmer flour, decocted in wine and bandaged on."
+    },
+    {
+      "name": "Recipe: ghee poultice",
+      "range": [
+        9,
+        9
+      ],
+      "idea": "Seeds mixed with ghee and beer and bandaged on."
+    },
+    {
+      "name": "Purification (fragmentary)",
+      "range": [
+        10,
+        10
+      ],
+      "idea": "A fragmentary purification of the sick man."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "crush-plants",
+      "number": 1,
+      "title": "Crush the plants and mix them as one",
+      "shortTitle": "Crush the plants",
+      "shortDescription": "Crush ḪA.AB-plant, Ú.RA.AN.NA, juniper, an aromatic and ninû-plant, and mix them together.",
+      "phase": "Recipe: kasû-juice poultice",
+      "unitType": "act",
+      "actionType": "crush-ingredients",
+      "verb": "Crush",
+      "summary": "Crush ḪA.AB-plant, Ú.RA.AN.NA, juniper, an aromatic and ninû-plant, and mix them together.",
+      "patient": "Plants and aromatics",
+      "actor": "Healer",
+      "material": [
+        "ḪA.AB-plant",
+        "Ú.RA.AN.NA-plant",
+        "juniper",
+        "ninû-plant"
+      ],
+      "evidence": "KUB 37.1 ¶0; one aromatic name is broken.",
+      "image": {
+        "alt": "Crush ḪA.AB-plant, Ú.RA.AN.NA, juniper, an aromatic and ninû-plant, and mix them together.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-1",
+          "locus": "KUB 37.1 obv. 1–3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "poultice-crush-plants",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "plant",
+            "sub": "plants",
+            "count": 5
+          }
+        },
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "plant",
+            "sub": "plants",
+            "count": 5
+          },
+          "result": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          }
+        }
+      ]
+    },
+    {
+      "id": "boil-kasu",
+      "number": 2,
+      "title": "Boil the mixture in kasû-juice",
+      "shortTitle": "Boil in kasû-juice",
+      "shortDescription": "Boil the crushed mixture in kasû-juice.",
+      "phase": "Recipe: kasû-juice poultice",
+      "unitType": "act",
+      "actionType": "cook-remedy",
+      "verb": "Boil",
+      "summary": "Boil the crushed mixture in kasû-juice.",
+      "patient": "Poultice mixture",
+      "actor": "Healer",
+      "material": [
+        "kasû-juice"
+      ],
+      "evidence": "Stated in KUB 37.1 ¶0 (KUB 37.1 obv. 1–3); read from the local draft translation.",
+      "image": {
+        "alt": "Boil the crushed mixture in kasû-juice.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-1",
+          "locus": "KUB 37.1 obv. 1–3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "poultice-boil-mixture",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "crush-plants"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "cook",
+          "theme": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          },
+          "medium": {
+            "class": "liquid",
+            "sub": "kasû-juice"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bandage-kasu",
+      "number": 3,
+      "title": "Keep bandaging the patient",
+      "shortTitle": "Bandage",
+      "shortDescription": "Keep bandaging the patient with the poultice.",
+      "phase": "Recipe: kasû-juice poultice",
+      "unitType": "act",
+      "actionType": "apply-remedy",
+      "verb": "Bandage",
+      "summary": "Keep bandaging the patient with the poultice.",
+      "patient": "Patient",
+      "actor": "Healer",
+      "material": [
+        "bandage"
+      ],
+      "evidence": "KUB 37.1 ¶0; the body part is not named.",
+      "image": {
+        "alt": "Keep bandaging the patient with the poultice.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-1",
+          "locus": "KUB 37.1 obv. 1–3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "poultice-bandage",
+      "composition": {
+        "function": "apply-remedy",
+        "requires": [
+          "boil-kasu"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "apply",
+          "theme": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          },
+          "onto": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "as a bandage, repeatedly"
+        }
+      ]
+    },
+    {
+      "id": "decoct-beer",
+      "number": 4,
+      "title": "Boil in beer and decoct like a rabīku-paste",
+      "shortTitle": "Decoct in beer",
+      "shortDescription": "Crush cress, fenugreek and other plants, boil them in first-quality beer and decoct them like a rabīku-paste.",
+      "phase": "Recipe: beer poultice",
+      "unitType": "act",
+      "actionType": "cook-remedy",
+      "verb": "Decoct",
+      "summary": "Crush cress, fenugreek and other plants, boil them in first-quality beer and decoct them like a rabīku-paste.",
+      "patient": "Poultice mixture",
+      "actor": "Healer",
+      "material": [
+        "cress",
+        "fenugreek",
+        "roasted-grain bread",
+        "first-quality beer"
+      ],
+      "evidence": "KUB 37.1 ¶1; the Hittite gloss renders the cooking as 'like a ḫuwarti-'. ¶2 repeats the procedure with other plants and is not mapped.",
+      "image": {
+        "alt": "Crush cress, fenugreek and other plants, boil them in first-quality beer and decoct them like a rabīku-paste.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-1",
+          "locus": "KUB 37.1 obv. 4–6",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "poultice-boil-mixture",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "plant",
+            "sub": "plants",
+            "count": 7
+          }
+        },
+        {
+          "verb": "cook",
+          "theme": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          },
+          "medium": {
+            "class": "drink",
+            "sub": "beer"
+          }
+        },
+        {
+          "verb": "cook",
+          "theme": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          },
+          "result": {
+            "class": "remedy",
+            "sub": "rabīku-paste"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crush-with-crusher",
+      "number": 5,
+      "title": "Crush many aromatics with a wooden crusher",
+      "shortTitle": "Crush with a crusher",
+      "shortDescription": "Crush some thirty woods, aromatics and plants (cedar, myrtle, juniper, myrrh, tamarisk and others) with a wooden crusher.",
+      "phase": "Recipe: wine poultice",
+      "unitType": "act",
+      "actionType": "crush-ingredients",
+      "verb": "Crush",
+      "summary": "Crush some thirty woods, aromatics and plants (cedar, myrtle, juniper, myrrh, tamarisk and others) with a wooden crusher.",
+      "patient": "Aromatics",
+      "actor": "Healer",
+      "material": [
+        "cedar",
+        "myrtle",
+        "juniper",
+        "myrrh",
+        "tamarisk",
+        "sweet reed",
+        "date palm"
+      ],
+      "evidence": "KUB 37.1 ¶3; the Hittite gloss ('pestle(?) and mortar(?)') is uncertain; count is approximate. A scribal gloss admits not knowing ṣalabita-wood.",
+      "image": {
+        "alt": "Crush some thirty woods, aromatics and plants (cedar, myrtle, juniper, myrrh, tamarisk and others) with a wooden crusher.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-1",
+          "locus": "KUB 37.1 obv. 9–17",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "poultice-crush-plants",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "plant",
+            "sub": "aromatics",
+            "count": 30
+          },
+          "instrument": {
+            "class": "implement",
+            "sub": "crusher",
+            "f": {
+              "material": "wood"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "mix-emmer",
+      "number": 6,
+      "title": "Mix the aromatics with emmer flour",
+      "shortTitle": "Mix with emmer flour",
+      "shortDescription": "Mix the crushed aromatics together with emmer flour.",
+      "phase": "Recipe: wine poultice",
+      "unitType": "act",
+      "actionType": "mix-fodder",
+      "verb": "Mix",
+      "summary": "Mix the crushed aromatics together with emmer flour.",
+      "patient": "Poultice mixture",
+      "actor": "Healer",
+      "material": [
+        "emmer flour"
+      ],
+      "evidence": "Stated in KUB 37.1 ¶3 (KUB 37.1 obv. 9–17); read from the local draft translation.",
+      "image": {
+        "alt": "Mix the crushed aromatics together with emmer flour.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-1",
+          "locus": "KUB 37.1 obv. 9–17",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "poultice-mix-emmer",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "crush-with-crusher"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "plant",
+            "sub": "aromatics"
+          },
+          "with": {
+            "class": "food",
+            "sub": "emmer flour"
+          },
+          "result": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          }
+        }
+      ]
+    },
+    {
+      "id": "decoct-wine",
+      "number": 7,
+      "title": "Decoct in pressed wine like a rabīku-paste",
+      "shortTitle": "Decoct in wine",
+      "shortDescription": "Decoct the mixture in pressed wine like a rabīku-paste.",
+      "phase": "Recipe: wine poultice",
+      "unitType": "act",
+      "actionType": "cook-remedy",
+      "verb": "Decoct",
+      "summary": "Decoct the mixture in pressed wine like a rabīku-paste.",
+      "patient": "Poultice mixture",
+      "actor": "Healer",
+      "material": [
+        "pressed wine"
+      ],
+      "evidence": "Stated in KUB 37.1 ¶3 (KUB 37.1 obv. 9–17); read from the local draft translation.",
+      "image": {
+        "alt": "Decoct the mixture in pressed wine like a rabīku-paste.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-1",
+          "locus": "KUB 37.1 obv. 9–17",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "poultice-boil-mixture",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "mix-emmer"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "cook",
+          "theme": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          },
+          "medium": {
+            "class": "drink",
+            "sub": "pressed wine"
+          },
+          "result": {
+            "class": "remedy",
+            "sub": "rabīku-paste"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bandage-wine",
+      "number": 8,
+      "title": "Keep bandaging that man",
+      "shortTitle": "Bandage",
+      "shortDescription": "Keep bandaging the man with the wine-decocted poultice.",
+      "phase": "Recipe: wine poultice",
+      "unitType": "act",
+      "actionType": "apply-remedy",
+      "verb": "Bandage",
+      "summary": "Keep bandaging the man with the wine-decocted poultice.",
+      "patient": "Patient",
+      "actor": "Healer",
+      "material": [
+        "bandage"
+      ],
+      "evidence": "Stated in KUB 37.1 ¶3 (KUB 37.1 obv. 9–17); read from the local draft translation.",
+      "image": {
+        "alt": "Keep bandaging the man with the wine-decocted poultice.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-1",
+          "locus": "KUB 37.1 obv. 9–17",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "poultice-bandage",
+      "composition": {
+        "function": "apply-remedy",
+        "requires": [
+          "decoct-wine"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "apply",
+          "theme": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          },
+          "onto": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "as a bandage, repeatedly"
+        }
+      ]
+    },
+    {
+      "id": "mix-ghee-beer",
+      "number": 9,
+      "title": "Mix seeds with ghee and beer and bandage",
+      "shortTitle": "Mix with ghee and beer",
+      "shortDescription": "Mix a long list of seeds and plants with ghee and in first-quality beer, then keep bandaging him.",
+      "phase": "Recipe: ghee poultice",
+      "unitType": "act",
+      "actionType": "mix-fodder",
+      "verb": "Mix",
+      "summary": "Mix a long list of seeds and plants with ghee and in first-quality beer, then keep bandaging him.",
+      "patient": "Poultice mixture",
+      "actor": "Healer",
+      "material": [
+        "seeds",
+        "ghee",
+        "first-quality beer"
+      ],
+      "evidence": "KUB 37.1 ¶6; 'ghee' is partly restored. No cooking is stated for this recipe.",
+      "image": {
+        "alt": "Mix a long list of seeds and plants with ghee and in first-quality beer, then keep bandaging him.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-1",
+          "locus": "KUB 37.1 obv. 28–40",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "poultice-mix-ghee-beer",
+      "composition": {
+        "function": "apply-remedy",
+        "requires": [],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "plant",
+            "sub": "seeds"
+          },
+          "with": {
+            "class": "fat",
+            "sub": "ghee"
+          },
+          "result": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          }
+        },
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          },
+          "with": {
+            "class": "drink",
+            "sub": "beer"
+          }
+        },
+        {
+          "verb": "apply",
+          "theme": {
+            "class": "remedy",
+            "sub": "poultice",
+            "ref": "poultice"
+          },
+          "onto": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "as a bandage, repeatedly"
+        }
+      ]
+    },
+    {
+      "id": "perform-purification",
+      "number": 10,
+      "title": "Perform a purification for the sick man",
+      "shortTitle": "Purification",
+      "shortDescription": "Perform a purification (takpirtu) for the sick man, apparently with a ḫulduppû, bind him(?) and keep doing so for two or three months.",
+      "phase": "Purification (fragmentary)",
+      "unitType": "act",
+      "actionType": "prepare-rite",
+      "verb": "Perform",
+      "summary": "Perform a purification (takpirtu) for the sick man, apparently with a ḫulduppû, bind him(?) and keep doing so for two or three months.",
+      "patient": "Sick man",
+      "actor": "Healer",
+      "material": [],
+      "evidence": "KUB 37.1 ¶8 is very fragmentary: the purification, the ḫulduppû (substitute animal?) and binding are only partly legible; no sequence is reconstructed.",
+      "image": {
+        "alt": "Perform a purification (takpirtu) for the sick man, apparently with a ḫulduppû, bind him(?) and keep doing so for two or three months.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-1",
+          "locus": "KUB 37.1 obv. 43–rev. 10′",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 8
+          }
+        }
+      ],
+      "unitId": "poultice-perform-purification",
+      "composition": {
+        "function": "wash-clean",
+        "requires": [],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "wash",
+          "theme": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "takpirtu purification"
+        },
+        {
+          "verb": "tie",
+          "theme": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "note": "bind(?) the sick man"
+        }
+      ]
+    }
+  ]
+}

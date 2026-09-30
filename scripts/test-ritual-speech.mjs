@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { SPEECH_PATTERNS } from '../src/lib/ritualSpeech.js';
+import { compileRitualSteps } from '../src/lib/ritualExecution.js';
+import { encodeRitualRecipe, decodeRitualRecipe } from '../src/lib/ritualShare.js';
+const item = (id) => ({ id, unitId: id.replace('/', '-'), reason: 'manual' });
+const recipe = { executionVersion: 3, mode: 'analogy', fit: 'clear', goal: 'make me a movie star', goalFrame: { outcome: 'movie stardom', wish: 'May you become a movie star.', method: 'luna' }, items: ['allii/press-dough','tunnawiya/pass-through-gate','tunnawiya/touch-fruit-tree','tunnawiya/wish-by-tree','tunnawiya/libate-sun-god'].map(item) };
+for (const [id, pattern] of Object.entries(SPEECH_PATTERNS)) {
+  assert.ok(pattern.variants.length >= 2, id);
+  const source = JSON.parse(readFileSync(new URL(`../public/data/tr/${pattern.source.doc}.json`, import.meta.url)));
+  assert.equal(pattern.source.text, source.paras.find(x => x.p === pattern.source.paragraph).en);
+  assert.match(pattern.source.translator, /draft/i);
+}
+const steps = compileRitualSteps(recipe);
+const spoken = steps.filter(x => x.kind === 'composed');
+assert.equal(spoken.filter(x => x.words.includes('movie star')).length, 1);
+assert.ok(spoken.find(x => x.speechFunction === 'petition').words.includes('ritual patron'));
+assert.ok(spoken.every(x => x.evidence && x.title && !('jevProbability' in x)));
+assert.ok(!steps.some(x => /begin-speech|end-speech/.test(x.id)));
+assert.deepEqual(compileRitualSteps(decodeRitualRecipe(encodeRitualRecipe(recipe))), steps);
+assert.ok(!compileRitualSteps({ ...recipe, mode: 'historical' }).some(x => x.kind === 'composed'));
+const variants = new Set();
+for (let i = 0; i < 10; i++) variants.add(compileRitualSteps({ ...recipe, goal: `a particular wish ${i}` }).find(x => x.sourceId === 'allii/press-dough' && x.words).variant);
+assert.equal(variants.size, 2);
+const rachel = compileRitualSteps({ ...recipe, goalFrame: { outcome: 'a new episode', wish: 'May Ms Rachel make a new episode.', method: 'luna' } });
+assert.match(rachel.find(x => x.speechFunction === 'petition').words, /Ms Rachel make a new episode/);
+const negative = compileRitualSteps({ ...recipe, goalFrame: { outcome: 'a quiet evening', wish: 'May you not be interrupted.', method: 'luna' } });
+assert.match(negative.find(x => x.speechFunction === 'petition').words, /patron not be interrupted/);
+assert.ok(compileRitualSteps({ ...recipe, goalFrame: undefined }).some(x => x.words?.includes('make me a movie star')));
+console.log('Speech evidence, varied patterns, unique goal petition, agency, negation and saved wording passed.');

@@ -293,5 +293,340 @@
     "title": "Prepare clothing",
     "definition": "Set out prescribed garments or textile pieces before the patient wears them.",
     "externalParallels": []
+  },
+  "mix-fodder": {
+    "definition": "Mix grain and straw for a ritual provision.",
+    "title": "Mix fodder",
+    "externalParallels": []
+  },
+  "scatter-provisions": {
+    "definition": "Scatter prepared provisions at a named place.",
+    "title": "Scatter provisions",
+    "externalParallels": []
+  },
+  "build-reed-gate": {
+    "definition": "Set up a gate or threshold made of reeds.",
+    "title": "Build reed gate",
+    "externalParallels": []
+  },
+  "bind-gate": {
+    "definition": "Bind a ritual gate with coloured wool.",
+    "title": "Bind gate",
+    "externalParallels": []
+  },
+  "give-implements": {
+    "definition": "Place named implements in a participant’s hands.",
+    "title": "Give implements",
+    "externalParallels": []
+  },
+  "exchange-implements": {
+    "definition": "Remove one set of implements and give another.",
+    "title": "Exchange implements",
+    "externalParallels": []
+  },
+  "take-implements": {
+    "title": "Take up ritual implements",
+    "definition": "Gather used ritual implements before closing the rite.",
+    "externalParallels": []
+  },
+  "close-door": {
+    "title": "Close a door",
+    "definition": "Shut a house or courtyard door in a prescribed rite.",
+    "externalParallels": []
+  },
+  "anoint-door": {
+    "title": "Anoint a door",
+    "definition": "Apply fine oil to a ritual threshold.",
+    "externalParallels": []
+  },
+  "take-provisions": {
+    "title": "Take ritual provisions",
+    "definition": "Gather named animals, food, drink and vessels for a rite.",
+    "externalParallels": []
+  },
+  "prepare-provisions": {
+    "title": "Prepare ritual provisions",
+    "definition": "Prepare previously gathered materials for their ritual use.",
+    "externalParallels": []
+  },
+  "pass-through-camp": {
+    "title": "Pass through an army camp",
+    "definition": "Move through an army camp during a rite.",
+    "externalParallels": []
+  },
+  "observe-bird-omen": {
+    "title": "Observe a bird omen",
+    "definition": "Read a bird movement as a sign during a rite.",
+    "externalParallels": []
+  },
+  "take-funerary-goods": {
+    "title": "Take goods for the dead",
+    "definition": "Gather named clothing, food, vessels and valuable objects for the dead.",
+    "externalParallels": []
+  },
+  "carry-dead": {
+    "title": "Carry out the dead",
+    "definition": "Bring a dead person outside for a funerary rite.",
+    "externalParallels": []
+  },
+  "cremate-dead": {
+    "title": "Cremate the dead",
+    "definition": "Burn a dead person in a funerary rite.",
+    "externalParallels": []
+  },
+  "thread-amulet-materials": {
+    "title": "Thread amulet materials",
+    "definition": "String prescribed materials together on a cord or thread to form an amulet.",
+    "externalParallels": []
+  },
+  "wrap-amulet-materials": {
+    "title": "Wrap amulet materials",
+    "definition": "Wrap prescribed ingredients in a textile or skin covering before the amulet is worn.",
+    "externalParallels": []
+  },
+  "place-amulet-on-patient": {
+    "title": "Place an amulet on a person",
+    "definition": "Put a prepared amulet on the person for whom the prescription is performed.",
+    "externalParallels": []
+  },
+  "lead-donkey": {
+    "title": "Lead a donkey",
+    "definition": "Bring a donkey forward as a ritual carrier.",
+    "externalParallels": []
+  },
+  "assign-harm-to-carrier": {
+    "title": "Assign harm to a carrier",
+    "definition": "Speak words assigning an unwanted condition to an animal or object that will be sent away.",
+    "externalParallels": []
+  },
+  "send-donkey-away": {
+    "title": "Send a donkey away",
+    "definition": "Drive a donkey carrying harm toward a specified distant place.",
+    "externalParallels": []
+  },
+  "break-bread": {
+    "title": "Break bread",
+    "definition": "Break a named bread during a rite.",
+    "externalParallels": []
+  },
+  "put-in-basket": {
+    "title": "Put materials in a basket",
+    "definition": "Place gathered ritual materials in a basket for removal.",
+    "externalParallels": []
+  },
+  "chant-at-gate": {
+    "title": "Chant at a gate",
+    "definition": "Perform a ritual cry at a gate while materials are carried out.",
+    "externalParallels": []
+  },
+  "carry-basket-out": {
+    "title": "Carry a basket out",
+    "definition": "Carry a prepared basket out through a gate or boundary.",
+    "externalParallels": []
+  },
+  "conjure-on-ground": {
+    "title": "Conjure over ground materials",
+    "definition": "Speak an incantation over a prepared object on the ground.",
+    "externalParallels": []
+  },
+  "release-human-substitute": {
+    "title": "Release a human substitute",
+    "definition": "Send a human ritual carrier away after the incantation.",
+    "externalParallels": []
+  },
+  "release-oxen-substitutes": {
+    "title": "Release oxen as substitutes",
+    "definition": "Send oxen away as ritual substitute carriers.",
+    "externalParallels": []
+  },
+  "prepare-rite": {
+    "title": "Prepare a rite",
+    "definition": "Prepare at a named location when the particular materials are not preserved.",
+    "externalParallels": []
+  },
+  "fashion-effigies": {
+    "title": "Fashion representative figures",
+    "definition": "Make figures representing people or agents named in the ritual.",
+    "externalParallels": []
+  },
+  "coat-effigies": {
+    "title": "Coat ritual figures",
+    "definition": "Cover prepared figures with a named substance.",
+    "externalParallels": []
+  },
+  "place-in-pot": {
+    "title": "Place figures in a pot",
+    "definition": "Put prepared figures in a named pot or vessel.",
+    "externalParallels": []
+  },
+  "burn-effigies": {
+    "title": "Burn ritual figures",
+    "definition": "Destroy named representative figures with fire.",
+    "externalParallels": []
+  },
+  "constrain-effigies": {
+    "title": "Constrain ritual figures",
+    "definition": "Position or bind representative figures in a prescribed constrained posture.",
+    "externalParallels": []
+  },
+  "prepare-censer": {
+    "title": "Set up a censer",
+    "definition": "Place a censer with named aromatics before a deity.",
+    "externalParallels": []
+  },
+  "crush-effigies": {
+    "title": "Crush ritual figures",
+    "definition": "Destroy representative figures by crushing them.",
+    "externalParallels": []
+  },
+  "chew-plants": {
+    "title": "Chew named plants",
+    "definition": "Chew the substances named in the source as part of a ritual treatment.",
+    "externalParallels": []
+  },
+  "dismember-animal": {
+    "title": "Divide an animal into parts",
+    "definition": "Cut an animal's body into named parts, such as limbs matching the patient's.",
+    "externalParallels": []
+  },
+  "take-harm-from-body": {
+    "title": "Take harm from the body",
+    "definition": "Remove a named harm directly from the patient's body without a stated carrier.",
+    "externalParallels": []
+  },
+  "spit-into-carrier": {
+    "title": "Spit into a carrier",
+    "definition": "The patient spits into an animal or object that will carry the harm.",
+    "externalParallels": []
+  },
+  "consult-oracle": {
+    "title": "Consult an oracle",
+    "definition": "Put a question about the cause of a misfortune to oracular inquiry.",
+    "externalParallels": []
+  },
+  "incubate-dream": {
+    "title": "Sleep for a dream",
+    "definition": "Sleep under prescribed conditions, such as purity, to receive a divine message.",
+    "externalParallels": []
+  },
+  "crush-ingredients": {
+    "title": "Crush ingredients",
+    "definition": "Pound plants, woods, aromatics or minerals to prepare a remedy.",
+    "externalParallels": []
+  },
+  "cook-remedy": {
+    "title": "Cook a remedy",
+    "definition": "Boil or decoct prepared ingredients in a liquid to make a medicinal paste.",
+    "externalParallels": []
+  },
+  "apply-remedy": {
+    "title": "Apply a remedy",
+    "definition": "Put a prepared remedy on the patient's body, e.g. as a bandage or poultice.",
+    "externalParallels": []
+  },
+  "draw-magic-circle": {
+    "title": "Draw a magic circle",
+    "definition": "Mark a bounded circle (zisurrû) around a ritual object or place with flour or gypsum.",
+    "externalParallels": []
+  },
+  "gesture-at-figures": {
+    "title": "Point at the figures",
+    "definition": "Stretch a finger or hand toward representative figures while identifying them in speech.",
+    "externalParallels": []
+  },
+  "set-torch-on-figures": {
+    "title": "Set a torch on figures",
+    "definition": "Place a torch or fire directly on representative figures.",
+    "externalParallels": []
+  },
+  "kindle-torch": {
+    "title": "Kindle a torch",
+    "definition": "Light a torch or fire from a named source before using it on ritual objects.",
+    "externalParallels": []
+  },
+  "throw-fire-into-vessel": {
+    "title": "Throw fire into a vessel",
+    "definition": "Cast fire into a crucible or container holding ritual objects.",
+    "externalParallels": []
+  },
+  "pound-ingredients": {
+    "title": "Pound ingredients",
+    "definition": "Crush and mix named mineral or plant materials into a paste.",
+    "externalParallels": []
+  },
+  "wash-off-door": {
+    "title": "Wash off a door",
+    "definition": "Wash applied material off a doorway so that the harm it carried is released.",
+    "externalParallels": []
+  },
+  "wrap-in-fleece": {
+    "title": "Wrap in fleece",
+    "definition": "Enclose named materials in combed wool or fleece.",
+    "externalParallels": []
+  },
+  "bury-at-threshold": {
+    "title": "Bury at a threshold",
+    "definition": "Bury a prepared deposit in or beside a gate or door socket.",
+    "externalParallels": []
+  },
+  "sprinkle-water": {
+    "title": "Sprinkle water",
+    "definition": "Sprinkle pure water on the ground or an object to prepare a ritual setting.",
+    "externalParallels": []
+  },
+  "immerse-in-river": {
+    "title": "Immerse in a river",
+    "definition": "Submerge a person or textile in river water as part of removing harm.",
+    "externalParallels": []
+  },
+  "touch-object": {
+    "title": "Touch an object",
+    "definition": "Touch a named object or place, often on the way home, to conclude or secure a rite.",
+    "externalParallels": []
+  },
+  "gather-remedy-material": {
+    "title": "Gather remedy ingredients",
+    "definition": "Catch, take or gather a named animal, plant or substance for a medical prescription.",
+    "externalParallels": []
+  },
+  "dry-material": {
+    "title": "Salt and dry a material",
+    "definition": "Salt, smear or dry a named ingredient so it can later be crushed.",
+    "externalParallels": []
+  },
+  "crush-material": {
+    "title": "Crush remedy ingredients",
+    "definition": "Crush or grind named ingredients for a remedy.",
+    "externalParallels": []
+  },
+  "mix-remedy": {
+    "title": "Mix a remedy",
+    "definition": "Combine named ingredients with a liquid, flour or other base, including steeping and sifting.",
+    "externalParallels": []
+  },
+  "expose-overnight": {
+    "title": "Leave out overnight",
+    "definition": "Leave a prepared liquid or remedy outdoors or on the roof overnight, under the stars.",
+    "externalParallels": []
+  },
+  "give-remedy": {
+    "title": "Administer a remedy",
+    "definition": "Give a prepared remedy to the patient to drink or eat, with any stated timing.",
+    "externalParallels": []
+  },
+  "anoint-body": {
+    "title": "Anoint the body",
+    "definition": "Rub or smear a named oil or substance onto the patient.",
+    "externalParallels": []
+  },
+  "apply-compress": {
+    "title": "Apply a compress",
+    "definition": "Heat a compress or pad and apply it to the patient.",
+    "externalParallels": []
+  },
+  "carry-remedy": {
+    "title": "Carry a remedy",
+    "definition": "Move a prepared remedy from one place to another.",
+    "externalParallels": []
   }
 }

@@ -1,0 +1,213 @@
+{
+ "arrange-offerings": [
+  {
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "fig"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "raisin"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "groats"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "drink",
+    "sub": "wine"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "wool"
+   },
+   "location": "on soldier-bread"
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "garment"
+   },
+   "location": "on soldier-bread"
+  }
+ ],
+ "carry-offerings": [
+  {
+   "verb": "take",
+   "theme": {
+    "class": "food",
+    "sub": "offerings"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "virgin girl"
+   }
+  },
+  {
+   "verb": "drive",
+   "theme": {
+    "class": "person",
+    "sub": "offerant"
+   },
+   "goal": "open country"
+  }
+ ],
+ "make-reed-gate": [
+  {
+   "verb": "build",
+   "theme": {
+    "class": "structure",
+    "sub": "gate",
+    "f": {
+     "material": "reed"
+    }
+   }
+  }
+ ],
+ "bind-gate": [
+  {
+   "verb": "attach",
+   "theme": {
+    "class": "wool",
+    "f": {
+     "colors": [
+      "red",
+      "white"
+     ]
+    }
+   },
+   "onto": {
+    "class": "structure",
+    "sub": "gate"
+   }
+  }
+ ],
+ "give-spindle": [
+  {
+   "verb": "give",
+   "theme": {
+    "class": "implement",
+    "sub": "spindle"
+   },
+   "to": {
+    "class": "person",
+    "sub": "offerant"
+   }
+  },
+  {
+   "verb": "give",
+   "theme": {
+    "class": "implement",
+    "sub": "distaff"
+   },
+   "to": {
+    "class": "person",
+    "sub": "offerant"
+   }
+  }
+ ],
+ "pass-gate": [
+  {
+   "verb": "pass",
+   "theme": {
+    "class": "person",
+    "sub": "offerant"
+   },
+   "boundary": "gate"
+  }
+ ],
+ "exchange-implements": [
+  {
+   "verb": "detach",
+   "theme": {
+    "class": "implement",
+    "sub": "spindle"
+   },
+   "from": {
+    "class": "person",
+    "sub": "offerant"
+   }
+  },
+  {
+   "verb": "exchange",
+   "theme": {
+    "class": "implement",
+    "sub": "distaff"
+   },
+   "for": {
+    "class": "implement",
+    "sub": "bow"
+   }
+  }
+ ],
+ "speak-exchange": [
+  {
+   "verb": "speak",
+   "act": "declaration",
+   "about": {
+    "class": "implement",
+    "sub": "bow"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "analogy",
+   "about": {
+    "class": "implement",
+    "sub": "bow"
+   }
+  }
+ ],
+ "entreat-uliliyassi": [
+  {
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "Uliliyassi"
+   }
+  }
+ ],
+ "set-home-table": [
+  {
+   "verb": "carry",
+   "theme": {
+    "class": "food",
+    "sub": "offerings"
+   },
+   "goal": "home"
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "offerings"
+   },
+   "location": "on a new table"
+  }
+ ]
+}

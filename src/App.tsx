@@ -1,10 +1,14 @@
 import { lazy, Suspense, useEffect, useState } from "react";
-import { Link, NavLink, Route, Routes, useLocation } from "react-router-dom";
+import { Link, Navigate, NavLink, Route, Routes, useLocation, useParams } from "react-router-dom";
 import Search from "./components/Search";
 import About from "./pages/About";
 import Browser from "./pages/Browser";
 import MapPage from "./pages/Map";
 import Composition from "./pages/Composition";
+import Corpora from "./pages/Corpora";
+import CmawroCatalog from "./pages/CmawroCatalog";
+import CmawroText from "./pages/CmawroText";
+import CorpusSearch from "./pages/CorpusSearch";
 import Home from "./pages/Home";
 import Reader from "./pages/Reader";
 import RitualsIndex from "./pages/RitualsIndex";
@@ -20,6 +24,11 @@ const RitualStepPage = lazy(() => import("./pages/RitualReader").then((page) => 
 const RitualUnitPage = lazy(() => import("./pages/RitualUnit"));
 const RitualUnitsIndex = lazy(() => import("./pages/RitualUnitsIndex"));
 const RitualComposer = lazy(() => import("./pages/RitualComposer"));
+const RitualAtoms = lazy(() => import("./pages/RitualAtoms"));
+function LegacyCmawroRitualRedirect() {
+  const { procedureId } = useParams();
+  return <Navigate to={`/rituals/${procedureId ?? ""}`} replace />;
+}
 
 function ThemeButton() {
   const [theme, setTheme] = useState<Theme>(() => {
@@ -82,6 +91,7 @@ export default function App() {
           </Link>
           <nav className="nav" aria-label="Main">
             <NavLink to="/texts">Texts</NavLink>
+            <NavLink to="/corpora">Corpora</NavLink>
             <NavLink to="/substances">Substances</NavLink>
             <NavLink to="/rituals">Rituals</NavLink>
             <NavLink to="/browser">Browser</NavLink>
@@ -104,16 +114,22 @@ export default function App() {
         <Suspense fallback={<div className="wrap page" role="status">Loading ritual…</div>}><Routes>
           <Route path="/" element={<Home />} />
           <Route path="/texts" element={<Texts />} />
+          <Route path="/corpora" element={<Corpora />} />
+          <Route path="/corpora/cmawro" element={<CmawroCatalog />} />
+          <Route path="/corpora/search" element={<CorpusSearch />} />
+          <Route path="/corpora/cmawro/text/:textId" element={<CmawroText />} />
           <Route path="/cth/:cth" element={<Composition />} />
           <Route path="/text/:id" element={<Reader />} />
           <Route path="/substances" element={<Substances />} />
           <Route path="/substance/:id" element={<SubstancePage />} />
           <Route path="/rituals" element={<RitualsIndex />} />
           <Route path="/rituals/create" element={<RitualComposer />} />
+          <Route path="/rituals/cmawro/:procedureId" element={<LegacyCmawroRitualRedirect />} />
           <Route path="/rituals/:ritualId" element={<RitualSequence />} />
           <Route path="/rituals/:ritualId/step/:stepId" element={<RitualStepPage />} />
           <Route path="/ritual-units/:unitId" element={<RitualUnitPage />} />
           <Route path="/ritual-units" element={<RitualUnitsIndex />} />
+          <Route path="/ritual-atoms" element={<RitualAtoms />} />
           <Route path="/word/:lemma" element={<WordPage />} />
           <Route path="/browser" element={<Browser />} />
           <Route path="/map" element={<MapPage />} />
@@ -123,8 +139,8 @@ export default function App() {
       </main>
       <footer className="foot">
         <div className="wrap">
-          <span>tuppi · Hittite texts</span>
-          <span>Texts: TLHdig 0.3 (CC BY 4.0) · Catalogue data: Konkordanz der hethitischen Keilschrifttafeln (CC BY-SA 4.0)</span>
+          <span>tuppi · ancient texts</span>
+          <span>Hittite texts: TLHdig 0.3 (CC BY 4.0) · CMAwRo data: Oracc JSON (CC0) · Hittite catalogue: Konkordanz (CC BY-SA 4.0)</span>
           <Link to="/about">Sources &amp; method</Link>
         </div>
       </footer>

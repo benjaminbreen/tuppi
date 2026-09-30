@@ -1,0 +1,50 @@
+{
+  "poultice-crush-plants": {
+    "title": "Crush the plants and mix them as one",
+    "description": "Crush ḪA.AB-plant, Ú.RA.AN.NA, juniper, an aromatic and ninû-plant, and mix them together.",
+    "actionType": "crush-ingredients",
+    "unitType": "act",
+    "visualAssetId": "poultice-crush-plants",
+    "matchRule": "Crushing of plant or aromatic ingredients for a poultice; distinguish crushing figures."
+  },
+  "poultice-boil-mixture": {
+    "title": "Boil the mixture in kasû-juice",
+    "description": "Boil the crushed mixture in kasû-juice.",
+    "actionType": "cook-remedy",
+    "unitType": "act",
+    "visualAssetId": "poultice-boil-mixture",
+    "matchRule": "Boiling or decocting a poultice mixture in a liquid (juice, beer or wine)."
+  },
+  "poultice-bandage": {
+    "title": "Keep bandaging the patient",
+    "description": "Keep bandaging the patient with the poultice.",
+    "actionType": "apply-remedy",
+    "unitType": "act",
+    "visualAssetId": "poultice-bandage",
+    "matchRule": "Applying a cooked poultice to the patient as a bandage."
+  },
+  "poultice-mix-emmer": {
+    "title": "Mix the aromatics with emmer flour",
+    "description": "Mix the crushed aromatics together with emmer flour.",
+    "actionType": "mix-fodder",
+    "unitType": "act",
+    "visualAssetId": "poultice-mix-emmer",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "poultice-mix-ghee-beer": {
+    "title": "Mix seeds with ghee and beer and bandage",
+    "description": "Mix a long list of seeds and plants with ghee and in first-quality beer, then keep bandaging him.",
+    "actionType": "mix-fodder",
+    "unitType": "act",
+    "visualAssetId": "poultice-mix-ghee-beer",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "poultice-perform-purification": {
+    "title": "Perform a purification for the sick man",
+    "description": "Perform a purification (takpirtu) for the sick man, apparently with a ḫulduppû, bind him(?) and keep doing so for two or three months.",
+    "actionType": "prepare-rite",
+    "unitType": "act",
+    "visualAssetId": "poultice-perform-purification",
+    "matchRule": "Match only the same act on the same principal object."
+  }
+}

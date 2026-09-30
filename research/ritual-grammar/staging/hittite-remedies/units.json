@@ -1,0 +1,90 @@
+{
+  "remedies-take-herbs": {
+    "title": "Take the herbs",
+    "description": "Take named plants as ingredients of a remedy.",
+    "actionType": "gather-remedy-material",
+    "unitType": "act",
+    "visualAssetId": "remedies-take-herbs",
+    "matchRule": "Take named plants for a remedy; record the plants on the occurrence."
+  },
+  "remedies-give-seven-days": {
+    "title": "Give the herbs for seven days",
+    "description": "Give a prepared remedy to the patient over a stated number of days.",
+    "actionType": "give-remedy",
+    "unitType": "act",
+    "visualAssetId": "remedies-give-seven-days",
+    "matchRule": "Give a remedy to the patient over several days; record the duration and timing."
+  },
+  "remedies-steep-sift": {
+    "title": "Steep and sift the bulbs",
+    "description": "Steep ingredients in a liquid and sift them.",
+    "actionType": "mix-remedy",
+    "unitType": "act",
+    "visualAssetId": "remedies-steep-sift",
+    "matchRule": "Steep remedy ingredients in liquid and sift or strain them."
+  },
+  "remedies-sew-into-cord": {
+    "title": "Sew into a cord from a leopard’s kill",
+    "description": "Sew a remedy ingredient into a cord or strip of leather.",
+    "actionType": "wrap-amulet-materials",
+    "unitType": "act",
+    "visualAssetId": "remedies-sew-into-cord",
+    "matchRule": "Sew or enclose an ingredient in a leather cord; record the source animal."
+  },
+  "remedies-twist-sinew": {
+    "title": "Twist in the sinew",
+    "description": "Twist an animal sinew into a cord.",
+    "actionType": "wrap-amulet-materials",
+    "unitType": "act",
+    "visualAssetId": "remedies-twist-sinew",
+    "matchRule": "Twist a sinew into a cord or amulet."
+  },
+  "remedies-heat-compress": {
+    "title": "Heat and apply a compress",
+    "description": "Heat a compress and apply it to the patient.",
+    "actionType": "apply-compress",
+    "unitType": "act",
+    "visualAssetId": "remedies-heat-compress",
+    "matchRule": "Heat a compress or pad and apply it to the patient."
+  },
+  "remedies-crush-into-bag": {
+    "title": "Crush the plants into a bag",
+    "description": "Crush plants and store them in a bag.",
+    "actionType": "crush-material",
+    "unitType": "act",
+    "visualAssetId": "remedies-crush-into-bag",
+    "matchRule": "Crush remedy plants; record any container."
+  },
+  "remedies-entrust-to-stars": {
+    "title": "Entrust it to the stars",
+    "description": "Leave a remedy outdoors overnight under the stars.",
+    "actionType": "expose-overnight",
+    "unitType": "act",
+    "visualAssetId": "remedies-entrust-to-stars",
+    "matchRule": "Leave a remedy outdoors overnight; the stars or night must be stated."
+  },
+  "remedies-carry-into-house": {
+    "title": "Carry it into the house",
+    "description": "Carry a remedy indoors after exposure.",
+    "actionType": "carry-remedy",
+    "unitType": "act",
+    "visualAssetId": "remedies-carry-into-house",
+    "matchRule": "Carry a prepared remedy into a building."
+  },
+  "remedies-into-honey": {
+    "title": "Give it in honey until he recovers",
+    "description": "Mix a remedy into honey and give it to the patient.",
+    "actionType": "give-remedy",
+    "unitType": "act",
+    "visualAssetId": "remedies-into-honey",
+    "matchRule": "Give a remedy in honey."
+  },
+  "remedies-gut-fish": {
+    "title": "Gut a fish",
+    "description": "Take a fish and remove its inner parts for a remedy.",
+    "actionType": "gather-remedy-material",
+    "unitType": "act",
+    "visualAssetId": "remedies-gut-fish",
+    "matchRule": "Gut a fish as a remedy ingredient."
+  }
+}

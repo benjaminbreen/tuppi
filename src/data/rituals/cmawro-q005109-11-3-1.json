@@ -1,0 +1,867 @@
+{
+  "id": "cmawro-q005109-11-3-1",
+  "corpusId": "cmawro",
+  "cth": null,
+  "sourceTextId": "Q005109",
+  "title": "Sinking the evil in the river",
+  "shortName": "CMAwR 11.3.1",
+  "eyebrow": "CMAwR 11.3.1 · Mesopotamian anti-witchcraft ritual",
+  "dating": {
+    "label": "Achaemenid · Neo-Assyrian witnesses",
+    "note": "The linked source witnesses carry Achaemenid, Neo-Assyrian period labels. These date surviving manuscripts, not the composition.",
+    "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005109"
+  },
+  "purpose": "At the riverbank the paralysed, bewitched man appeals to the divine judge, dips three times in the river in a textile, asks the river to carry the evil down to the underworld waters, is bathed, and touches a brewer's vat and his gate on the way home.",
+  "attribution": "Apotropaic ritual (namburbi) instruction; the practitioner and the sick man act",
+  "sourceSummary": "Q005109 · CMAwR vol. 2, 11.3.1:5–29",
+  "editionUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005109",
+  "editionLabel": "CMAwRo edition and translation",
+  "phases": [
+    {
+      "name": "At the riverbank",
+      "range": [
+        1,
+        4
+      ],
+      "idea": "The ground is prepared, a libation poured, figures made and the sick man stands before the god."
+    },
+    {
+      "name": "Appeal",
+      "range": [
+        5,
+        6
+      ],
+      "idea": "The incantation asks that the evil be carried off."
+    },
+    {
+      "name": "In the river",
+      "range": [
+        7,
+        10
+      ],
+      "idea": "Beer is poured to the river, the man dips three times, asks the river to take the evil, and is bathed."
+    },
+    {
+      "name": "Return home",
+      "range": [
+        11,
+        12
+      ],
+      "idea": "He touches a brewer's vat and his own gate."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "sprinkle-riverbank",
+      "number": 1,
+      "title": "Sweep and sprinkle the riverbank",
+      "shortTitle": "Sweep and sprinkle the riverbank",
+      "shortDescription": "On a favourable day, at the riverbank, the ground is beaten (swept) and sprinkled with pure water.",
+      "phase": "At the riverbank",
+      "unitType": "act",
+      "actionType": "sprinkle-water",
+      "verb": "Sprinkle",
+      "summary": "On a favourable day, at the riverbank, the ground is beaten (swept) and sprinkled with pure water.",
+      "patient": "Ground at the riverbank",
+      "actor": "Ritual practitioner",
+      "material": [
+        "pure water"
+      ],
+      "evidence": "Line 5 glosses \"on a favourable day, at the bank of the river, ground beat, pure water sprinkle\". \"Beat the ground\" is taken as sweeping; that reading is conventional but not stated by the gloss.",
+      "image": {
+        "alt": "Illustrative reconstruction: sweep and sprinkle the riverbank.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:5",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.6l",
+            "label": "11.3.1:5"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-sprinkle-riverbank",
+      "composition": {
+        "function": "construct-setting",
+        "requires": [],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "liquid",
+            "sub": "water"
+          },
+          "onto": {
+            "class": "earth",
+            "sub": "ground"
+          },
+          "location": "riverbank",
+          "manner": "sprinkled"
+        }
+      ],
+      "place": "Riverbank"
+    },
+    {
+      "id": "altar-and-libation",
+      "number": 2,
+      "title": "Set up an altar and pour a libation",
+      "shortTitle": "Set up an altar and pour a libation",
+      "shortDescription": "A portable altar is set up before the god and a libation is poured.",
+      "phase": "At the riverbank",
+      "unitType": "act",
+      "actionType": "libate",
+      "verb": "Pour",
+      "summary": "A portable altar is set up before the god and a libation is poured.",
+      "patient": "Portable altar and libation",
+      "actor": "Ritual practitioner",
+      "material": [
+        "portable altar",
+        "libation vessel"
+      ],
+      "evidence": "End of line 5 and start of line 6 gloss \"before (god) portable altar … libation pour; (libation vessel) …\". The god is written with a sign rendered \"1\" in the glosses; the incantation (line 8) calls him judge of heaven and earth. The phrase about a binding in line 6 is unclear and not mapped.",
+      "image": {
+        "alt": "Illustrative reconstruction: set up an altar and pour a libation.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:5",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.6l",
+            "label": "11.3.1:5"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-altar-and-libation",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "sprinkle-riverbank"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "structure",
+            "sub": "altar"
+          },
+          "location": "before the god"
+        },
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "liquid",
+            "sub": "libation"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "judge of heaven and earth"
+          }
+        }
+      ],
+      "recipient": "Divine judge (divine sign)",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Divine judge of heaven and earth (name written as a divine sign, not glossed)"
+    },
+    {
+      "id": "make-male-female-clay-figures",
+      "number": 3,
+      "title": "Make a male and a female figure of clay",
+      "shortTitle": "Make a male and a female figure of clay",
+      "shortDescription": "Two figures, a male and a female, are made of clay.",
+      "phase": "At the riverbank",
+      "unitType": "act",
+      "actionType": "fashion-effigies",
+      "verb": "Make",
+      "summary": "Two figures, a male and a female, are made of clay.",
+      "patient": "Two clay figures, male and female",
+      "actor": "Ritual practitioner",
+      "material": [
+        "clay"
+      ],
+      "evidence": "Line 6 glosses \"two effigy male and woman of clay do\". What is done with them in this section is not stated in lines 7–29 (the text continues with a separate figure rite from line 31).",
+      "image": {
+        "alt": "Illustrative reconstruction: make a male and a female figure of clay.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:6",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.7l",
+            "label": "11.3.1:6"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-make-male-female-clay-figures",
+      "composition": {
+        "function": "fashion-figure",
+        "requires": [
+          "altar-and-libation"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "clay",
+            "sub": "clay"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "clay"
+            },
+            "count": 2,
+            "ref": "clay-pair"
+          }
+        }
+      ]
+    },
+    {
+      "id": "clothe-and-stand-before-god",
+      "number": 4,
+      "title": "The sick man dresses, stands before the god, recites",
+      "shortTitle": "The sick man dresses, stands before the god, recites",
+      "shortDescription": "The sick man puts on a garment, stands before the god and recites the incantation three times.",
+      "phase": "At the riverbank",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Recite",
+      "summary": "The sick man puts on a garment, stands before the god and recites the incantation three times.",
+      "patient": "Incantation",
+      "actor": "The sick man",
+      "material": [
+        "garment"
+      ],
+      "evidence": "Line 7 glosses \"(a garment) clothe oneself, before (god) stand, incantation thrice count\". The incantation follows in lines 8–17.",
+      "image": {
+        "alt": "Illustrative reconstruction: the sick man dresses, stands before the god, recites.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:7",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.8l",
+            "label": "11.3.1:7"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-clothe-and-stand-before-god",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "make-male-female-clay-figures"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "dress",
+          "theme": {
+            "class": "garment",
+            "sub": "garment"
+          },
+          "onto": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "invocation",
+          "addressee": {
+            "class": "deity",
+            "sub": "judge of heaven and earth"
+          },
+          "manner": "three times"
+        }
+      ],
+      "recipient": "Divine judge (divine sign)",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Divine judge of heaven and earth (name written as a divine sign, not glossed)"
+    },
+    {
+      "id": "send-evil-across-river",
+      "number": 5,
+      "title": "Ask that the evil cross river and mountain",
+      "shortTitle": "Ask that the evil cross river and mountain",
+      "shortDescription": "In the incantation the evil is told to cross over river and mountain and the sorcery to be far from the body.",
+      "phase": "Appeal",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Recite",
+      "summary": "In the incantation the evil is told to cross over river and mountain and the sorcery to be far from the body.",
+      "patient": "The evil of the sorcery",
+      "actor": "Ritual practitioner",
+      "material": [],
+      "evidence": "Line 14 glosses \"evil … cross over river, cross over mountain(s), sorcery … be(come) distant 3,600 double hours from body\". Classed as dismissal.",
+      "image": {
+        "alt": "Illustrative reconstruction: ask that the evil cross river and mountain.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:14",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.16l",
+            "label": "11.3.1:14"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-send-evil-across-river",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "clothe-and-stand-before-god"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "about": {
+            "class": "harm",
+            "sub": "sorcery"
+          },
+          "to": "across river and mountains"
+        }
+      ]
+    },
+    {
+      "id": "smoke-and-tamarisk-analogy",
+      "number": 6,
+      "title": "Like smoke, like uprooted tamarisk",
+      "shortTitle": "Like smoke, like uprooted tamarisk",
+      "shortDescription": "The incantation wishes the evil to rise like smoke to the sky and, like uprooted tamarisk, not return to its place.",
+      "phase": "Appeal",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Recite",
+      "summary": "The incantation wishes the evil to rise like smoke to the sky and, like uprooted tamarisk, not return to its place.",
+      "patient": "The evil of the sorcery",
+      "actor": "Ritual practitioner",
+      "material": [],
+      "evidence": "Line 15 glosses \"like smoke go up to sky, like tamarisk uprooted to place not turn\". Subject is inferred from line 14.",
+      "image": {
+        "alt": "Illustrative reconstruction: like smoke, like uprooted tamarisk.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:15",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.17l",
+            "label": "11.3.1:15"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-smoke-and-tamarisk-analogy",
+      "composition": {
+        "function": "purify-by-analogy",
+        "requires": [
+          "send-evil-across-river"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "about": {
+            "class": "harm",
+            "sub": "sorcery"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beer-libation-to-river",
+      "number": 7,
+      "title": "Pour beer before the river",
+      "shortTitle": "Pour beer before the river",
+      "shortDescription": "After reciting, he goes before the river and pours a beer libation.",
+      "phase": "In the river",
+      "unitType": "act",
+      "actionType": "libate",
+      "verb": "Pour",
+      "summary": "After reciting, he goes before the river and pours a beer libation.",
+      "patient": "Beer",
+      "actor": "Ritual practitioner",
+      "material": [
+        "beer"
+      ],
+      "evidence": "Line 18 glosses \"like this before (god) count; before river binding bind; beer pour\". The \"binding bind\" phrase is unclear and not mapped.",
+      "image": {
+        "alt": "Illustrative reconstruction: pour beer before the river.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:18",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.21l",
+            "label": "11.3.1:18"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-beer-libation-to-river",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "smoke-and-tamarisk-analogy"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "drink",
+            "sub": "beer"
+          },
+          "recipient": {
+            "class": "place",
+            "sub": "river"
+          }
+        }
+      ],
+      "recipient": "The River"
+    },
+    {
+      "id": "dip-in-river-three-times",
+      "number": 8,
+      "title": "Sink three times in the river in a textile",
+      "shortTitle": "Sink three times in the river in a textile",
+      "shortDescription": "The sick man, with a textile, sinks into the river three times.",
+      "phase": "In the river",
+      "unitType": "act",
+      "actionType": "immerse-in-river",
+      "verb": "Sink",
+      "summary": "The sick man, with a textile, sinks into the river three times.",
+      "patient": "Sick man and textile",
+      "actor": "The sick man",
+      "material": [
+        "textile"
+      ],
+      "evidence": "Line 19 glosses \"sick … textile thrice in river sink\". Whether the textile is worn or held is not clear from the glosses; line 20 adds \"upstream slip into river\", and line 26 has him come up and the textile torn off, so the textile functions as a carrier left behind.",
+      "image": {
+        "alt": "Illustrative reconstruction: sink three times in the river in a textile.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:19",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.22l",
+            "label": "11.3.1:19"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-dip-in-river-three-times",
+      "composition": {
+        "function": "transfer-affliction",
+        "requires": [
+          "beer-libation-to-river"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "wash",
+          "theme": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "medium": {
+            "class": "liquid",
+            "sub": "river water"
+          },
+          "manner": "three times, with the textile"
+        },
+        {
+          "verb": "hold-over",
+          "theme": {
+            "class": "garment",
+            "sub": "textile",
+            "ref": "textile"
+          },
+          "over": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "note": "textile takes up the evil in the water (inferred)"
+        }
+      ]
+    },
+    {
+      "id": "ask-river-to-take-evil",
+      "number": 9,
+      "title": "Ask the river to carry the evil away",
+      "shortTitle": "Ask the river to carry the evil away",
+      "shortDescription": "In the incantation to the river he asks it to take away the evil and carry it down to the underground waters, so that it not come near him or his house.",
+      "phase": "In the river",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Recite",
+      "summary": "In the incantation to the river he asks it to take away the evil and carry it down to the underground waters, so that it not come near him or his house.",
+      "patient": "The evil",
+      "actor": "Ritual practitioner",
+      "material": [],
+      "evidence": "Line 24 glosses \"evil take away, river, go down (cosmic) underground water; evil … to me and house not come close\". Classed as petition (to the river) and binding (evil not to approach).",
+      "image": {
+        "alt": "Illustrative reconstruction: ask the river to carry the evil away.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:24",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.28l",
+            "label": "11.3.1:24"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-ask-river-to-take-evil",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "dip-in-river-three-times"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "place",
+            "sub": "river"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "evil"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "binding",
+          "about": {
+            "class": "harm",
+            "sub": "evil"
+          },
+          "boundary": {
+            "class": "structure",
+            "sub": "house"
+          }
+        }
+      ],
+      "recipient": "The River"
+    },
+    {
+      "id": "come-up-strip-and-bathe",
+      "number": 10,
+      "title": "Come up, tear off the textile, bathe",
+      "shortTitle": "Come up, tear off the textile, bathe",
+      "shortDescription": "After three recitations he comes up, the textile is torn away, and he is bathed from a holy-water vessel while an incantation is recited; then another textile.",
+      "phase": "In the river",
+      "unitType": "act",
+      "actionType": "wash-body",
+      "verb": "Bathe",
+      "summary": "After three recitations he comes up, the textile is torn away, and he is bathed from a holy-water vessel while an incantation is recited; then another textile.",
+      "patient": "Sick man",
+      "actor": "The sick man",
+      "material": [
+        "textile",
+        "holy water vessel"
+      ],
+      "evidence": "Line 26 glosses \"thrice say, go up, textile tear away, holy water vessel over him bathe, incantation 'strip off' count, textile (an)other\". The last words probably mean he puts on another textile; not mapped.",
+      "image": {
+        "alt": "Illustrative reconstruction: come up, tear off the textile, bathe.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:26",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.31l",
+            "label": "11.3.1:26"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-come-up-strip-and-bathe",
+      "composition": {
+        "function": "wash-clean",
+        "requires": [
+          "ask-river-to-take-evil"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "undress",
+          "theme": {
+            "class": "garment",
+            "sub": "textile",
+            "ref": "textile"
+          },
+          "from": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "wash",
+          "theme": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "medium": {
+            "class": "liquid",
+            "sub": "holy water"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "about": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
+    },
+    {
+      "id": "touch-brewers-mash-tub",
+      "number": 11,
+      "title": "Enter a brewer's house and touch the mash tub",
+      "shortTitle": "Enter a brewer's house and touch the mash tub",
+      "shortDescription": "Purified with censer, torch and pure water, he goes along the street, enters a brewer's house and touches the stand and mash tub.",
+      "phase": "Return home",
+      "unitType": "act",
+      "actionType": "touch-object",
+      "verb": "Touch",
+      "summary": "Purified with censer, torch and pure water, he goes along the street, enters a brewer's house and touches the stand and mash tub.",
+      "patient": "Brewer's mash tub",
+      "actor": "The sick man",
+      "material": [
+        "censer",
+        "torch",
+        "pure water"
+      ],
+      "evidence": "Line 27 glosses \"lift censer, torch, pure water, be pure; street go … to house brewer enter, (vessel-)stand, mash tub touch\". The purpose of touching the brewer's vat is not stated.",
+      "image": {
+        "alt": "Illustrative reconstruction: enter a brewer's house and touch the mash tub.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:27",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.32l",
+            "label": "11.3.1:27"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-touch-brewers-mash-tub",
+      "composition": {
+        "function": "cross-threshold",
+        "requires": [
+          "come-up-strip-and-bathe"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "pass",
+          "theme": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "goal": {
+            "class": "structure",
+            "sub": "brewer's house"
+          }
+        },
+        {
+          "verb": "touch",
+          "theme": {
+            "class": "vessel",
+            "sub": "mash tub"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
+    },
+    {
+      "id": "touch-gate-gypsum-bitumen",
+      "number": 12,
+      "title": "Touch the gate with gypsum and bitumen",
+      "shortTitle": "Touch the gate with gypsum and bitumen",
+      "shortDescription": "The gate is touched with gypsum and bitumen; this concludes the apotropaic ritual.",
+      "phase": "Return home",
+      "unitType": "act",
+      "actionType": "anoint-door",
+      "verb": "Touch",
+      "summary": "The gate is touched with gypsum and bitumen; this concludes the apotropaic ritual.",
+      "patient": "Gate of the house",
+      "actor": "Ritual practitioner",
+      "material": [
+        "gypsum",
+        "bitumen"
+      ],
+      "evidence": "Line 29 glosses \"gypsum and bitumen gate touch, apotropaic ritual\". Whose gate is inferred from lines 27–28 (his house). Existing action type anoint-door is reused though the material is gypsum and bitumen, not oil.",
+      "image": {
+        "alt": "Illustrative reconstruction: touch the gate with gypsum and bitumen.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q005109",
+          "locus": "11.3.1:29",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005109.34l",
+            "label": "11.3.1:29"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q005109-11-3-1-touch-gate-gypsum-bitumen",
+      "composition": {
+        "function": "seal-threshold",
+        "requires": [
+          "touch-brewers-mash-tub"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "apply",
+          "theme": {
+            "class": "materials",
+            "sub": "gypsum"
+          },
+          "onto": {
+            "class": "structure",
+            "sub": "gate"
+          }
+        },
+        {
+          "verb": "apply",
+          "theme": {
+            "class": "materials",
+            "sub": "bitumen"
+          },
+          "onto": {
+            "class": "structure",
+            "sub": "gate"
+          }
+        }
+      ]
+    }
+  ],
+  "witnessPeriods": [
+    "Achaemenid",
+    "Neo-Assyrian"
+  ],
+  "findspots": [
+    "Assur",
+    "Nineveh",
+    "Uruk"
+  ]
+}

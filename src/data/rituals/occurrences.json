@@ -3,6 +3,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "bring-ram",
       "stepNumber": 1,
@@ -13,6 +15,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "twist-wool",
       "stepNumber": 2,
@@ -23,6 +27,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "make-wreath",
       "stepNumber": 3,
@@ -33,6 +39,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "crown-ram",
       "stepNumber": 4,
@@ -43,6 +51,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "lead-to-road",
       "stepNumber": 5,
@@ -53,6 +63,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "appeal-over-ram",
       "stepNumber": 6,
@@ -63,6 +75,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "drive-away-ram",
       "stepNumber": 7,
@@ -73,16 +87,30 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "bring-fodder-fat",
       "stepNumber": 8,
       "stepTitle": "Bring fodder and fat"
+    },
+    {
+      "ritualId": "dandanku",
+      "ritualName": "Dandanku",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "gather-fodder-wool",
+      "stepNumber": 1,
+      "stepTitle": "Gather grain, straw and coloured wool"
     }
   ],
   "uhhamuwa-address-horses-chariot": [
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "address-horses-chariot",
       "stepNumber": 9,
@@ -93,6 +121,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "bring-goat-sheep",
       "stepNumber": 10,
@@ -103,6 +133,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "dedicate-goat",
       "stepNumber": 11,
@@ -111,6 +143,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "offer-goats",
       "stepNumber": 11,
@@ -121,6 +155,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "dedicate-sheep",
       "stepNumber": 12,
@@ -129,6 +165,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "offer-ewe",
       "stepNumber": 15,
@@ -139,6 +177,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "kill-sheep",
       "stepNumber": 13,
@@ -147,6 +187,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "slaughter-ram",
       "stepNumber": 7,
@@ -157,6 +199,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "cook-sheep",
       "stepNumber": 14,
@@ -165,6 +209,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "cook-meat",
       "stepNumber": 8,
@@ -175,6 +221,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "bring-food-drink",
       "stepNumber": 15,
@@ -185,6 +233,8 @@
     {
       "ritualId": "uhhamuwa",
       "ritualName": "Uḫḫamuwa",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 410",
       "cth": 410,
       "stepId": "prepare-for-road-god",
       "stepNumber": 16,
@@ -195,6 +245,8 @@
     {
       "ritualId": "allii",
       "ritualName": "Allī",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 402",
       "cth": 402,
       "stepId": "arrange-figures",
       "stepNumber": 1,
@@ -205,6 +257,8 @@
     {
       "ritualId": "allii",
       "ritualName": "Allī",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 402",
       "cth": 402,
       "stepId": "seat-patient",
       "stepNumber": 2,
@@ -215,6 +269,8 @@
     {
       "ritualId": "allii",
       "ritualName": "Allī",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 402",
       "cth": 402,
       "stepId": "raise-vessel",
       "stepNumber": 3,
@@ -225,6 +281,8 @@
     {
       "ritualId": "allii",
       "ritualName": "Allī",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 402",
       "cth": 402,
       "stepId": "return-address",
       "stepNumber": 4,
@@ -235,6 +293,8 @@
     {
       "ritualId": "allii",
       "ritualName": "Allī",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 402",
       "cth": 402,
       "stepId": "wind-wool",
       "stepNumber": 5,
@@ -245,6 +305,8 @@
     {
       "ritualId": "allii",
       "ritualName": "Allī",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 402",
       "cth": 402,
       "stepId": "set-basket",
       "stepNumber": 6,
@@ -255,6 +317,8 @@
     {
       "ritualId": "allii",
       "ritualName": "Allī",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 402",
       "cth": 402,
       "stepId": "sleep-over",
       "stepNumber": 7,
@@ -265,6 +329,8 @@
     {
       "ritualId": "allii",
       "ritualName": "Allī",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 402",
       "cth": 402,
       "stepId": "lift-at-dawn",
       "stepNumber": 8,
@@ -275,6 +341,8 @@
     {
       "ritualId": "allii",
       "ritualName": "Allī",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 402",
       "cth": 402,
       "stepId": "press-earth",
       "stepNumber": 9,
@@ -285,6 +353,8 @@
     {
       "ritualId": "allii",
       "ritualName": "Allī",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 402",
       "cth": 402,
       "stepId": "press-dough",
       "stepNumber": 10,
@@ -295,6 +365,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "prepare-ram",
       "stepNumber": 1,
@@ -305,6 +377,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "twist-wool",
       "stepNumber": 2,
@@ -315,6 +389,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "bind-ram",
       "stepNumber": 3,
@@ -325,6 +401,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "tether-ram",
       "stepNumber": 4,
@@ -335,6 +413,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "appeal",
       "stepNumber": 5,
@@ -345,6 +425,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "release-rams",
       "stepNumber": 6,
@@ -355,6 +437,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "wash-salt-water",
       "stepNumber": 9,
@@ -365,6 +449,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "pass-between-fires",
       "stepNumber": 10,
@@ -375,6 +461,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "bring-pig",
       "stepNumber": 12,
@@ -385,6 +473,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "offer-pig",
       "stepNumber": 13,
@@ -395,6 +485,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "offer-bull",
       "stepNumber": 14,
@@ -405,6 +497,8 @@
     {
       "ritualId": "ashella",
       "ritualName": "Ašḫella",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 394",
       "cth": 394,
       "stepId": "offer-rams",
       "stepNumber": 16,
@@ -415,6 +509,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "select-substitutes",
       "stepNumber": 1,
@@ -425,6 +521,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "remove-king-garments",
       "stepNumber": 2,
@@ -435,6 +533,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "dress-man",
       "stepNumber": 3,
@@ -445,6 +545,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "dress-woman",
       "stepNumber": 4,
@@ -455,6 +557,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "address-man",
       "stepNumber": 5,
@@ -465,6 +569,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "address-woman",
       "stepNumber": 6,
@@ -475,6 +581,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "bring-bull-ewe",
       "stepNumber": 7,
@@ -485,6 +593,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "ring-bull",
       "stepNumber": 8,
@@ -495,6 +605,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "draw-wool",
       "stepNumber": 9,
@@ -505,6 +617,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "address-bull",
       "stepNumber": 10,
@@ -515,6 +629,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "address-ewe",
       "stepNumber": 11,
@@ -525,6 +641,8 @@
     {
       "ritualId": "pulisa",
       "ritualName": "Puliša",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 407",
       "cth": 407,
       "stepId": "send-animals-ahead",
       "stepNumber": 12,
@@ -535,6 +653,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "prepare-black-animals",
       "stepNumber": 1,
@@ -545,6 +665,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "set-out-black-clothes",
       "stepNumber": 2,
@@ -555,6 +677,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "offer-at-riverbank",
       "stepNumber": 3,
@@ -563,6 +687,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "offer-at-spring",
       "stepNumber": 6,
@@ -573,6 +699,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "address-riverbank-goddess",
       "stepNumber": 4,
@@ -583,6 +711,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "collect-river-clay",
       "stepNumber": 5,
@@ -591,6 +721,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "collect-spring-clay",
       "stepNumber": 7,
@@ -601,6 +733,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "build-reed-hut",
       "stepNumber": 8,
@@ -611,6 +745,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "make-clay-figures",
       "stepNumber": 9,
@@ -621,6 +757,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "dress-in-black",
       "stepNumber": 10,
@@ -631,16 +769,30 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "hold-black-sheep",
       "stepNumber": 11,
       "stepTitle": "Hold a black sheep over the patient"
+    },
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "hold-sheep-over-chest",
+      "stepNumber": 12,
+      "stepTitle": "Hold a sheep over his chest"
     }
   ],
   "tunnawiya-hold-piglet": [
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "hold-piglet",
       "stepNumber": 12,
@@ -651,6 +803,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "hold-puppy",
       "stepNumber": 13,
@@ -661,6 +815,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "hold-clay-tongue",
       "stepNumber": 14,
@@ -671,6 +827,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "melt-figures",
       "stepNumber": 15,
@@ -681,6 +839,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "wash-hands-wine",
       "stepNumber": 16,
@@ -691,16 +851,20 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "wash-with-water",
       "stepNumber": 17,
-      "stepTitle": "Wash the patient with water"
+      "stepTitle": "Wash oneself with water"
     }
   ],
   "tunnawiya-remove-coloured-wool": [
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "remove-coloured-wool",
       "stepNumber": 18,
@@ -711,6 +875,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "strip-black-clothes",
       "stepNumber": 19,
@@ -721,6 +887,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "smash-empty-pot",
       "stepNumber": 20,
@@ -731,6 +899,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "bathe-over-figure",
       "stepNumber": 21,
@@ -741,6 +911,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "comb-down",
       "stepNumber": 22,
@@ -751,6 +923,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "release-into-river",
       "stepNumber": 23,
@@ -761,6 +935,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "burn-small-animals",
       "stepNumber": 24,
@@ -771,6 +947,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "pass-through-gate",
       "stepNumber": 25,
@@ -781,6 +959,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "return-river-offering",
       "stepNumber": 26,
@@ -791,6 +971,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "take-cow-by-horn",
       "stepNumber": 27,
@@ -801,6 +983,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "wish-for-offspring",
       "stepNumber": 28,
@@ -811,6 +995,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "touch-fruit-tree",
       "stepNumber": 29,
@@ -821,6 +1007,8 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "wish-by-tree",
       "stepNumber": 30,
@@ -831,10 +1019,2462 @@
     {
       "ritualId": "tunnawiya",
       "ritualName": "Tunnawiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
       "cth": 409,
       "stepId": "libate-sun-god",
       "stepNumber": 31,
       "stepTitle": "Pour wine for the Sun-god"
+    }
+  ],
+  "dandanku-mix-fodder": [
+    {
+      "ritualId": "dandanku",
+      "ritualName": "Dandanku",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "mix-fodder",
+      "stepNumber": 2,
+      "stepTitle": "Mix the grain and straw"
+    }
+  ],
+  "dandanku-scatter-fodder": [
+    {
+      "ritualId": "dandanku",
+      "ritualName": "Dandanku",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "scatter-fodder",
+      "stepNumber": 3,
+      "stepTitle": "Scatter the fodder across the road"
+    }
+  ],
+  "dandanku-address-grooms": [
+    {
+      "ritualId": "dandanku",
+      "ritualName": "Dandanku",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "address-grooms",
+      "stepNumber": 4,
+      "stepTitle": "Ask Iyarri’s grooms to feed the horses"
+    }
+  ],
+  "dandanku-address-maids": [
+    {
+      "ritualId": "dandanku",
+      "ritualName": "Dandanku",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "address-maids",
+      "stepNumber": 5,
+      "stepTitle": "Ask the god’s maids to take the wool"
+    }
+  ],
+  "dandanku-bring-three-animals": [
+    {
+      "ritualId": "dandanku",
+      "ritualName": "Dandanku",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "bring-animals",
+      "stepNumber": 6,
+      "stepTitle": "Bring a kid, piglet and puppy"
+    }
+  ],
+  "dandanku-kill-three-animals": [
+    {
+      "ritualId": "dandanku",
+      "ritualName": "Dandanku",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "kill-animals",
+      "stepNumber": 7,
+      "stepTitle": "Cut apart the animals for the Seven"
+    }
+  ],
+  "dandanku-libate-to-seven": [
+    {
+      "ritualId": "dandanku",
+      "ritualName": "Dandanku",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "libate-seven",
+      "stepNumber": 8,
+      "stepTitle": "Pour beer and wine three times"
+    }
+  ],
+  "paskuwatti-arrange-provisions": [
+    {
+      "ritualId": "paskuwatti",
+      "ritualName": "Paškuwatti",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 406",
+      "cth": 406,
+      "stepId": "arrange-offerings",
+      "stepNumber": 1,
+      "stepTitle": "Arrange food, wine, wool and clothes"
+    }
+  ],
+  "paskuwatti-carry-offering": [
+    {
+      "ritualId": "paskuwatti",
+      "ritualName": "Paškuwatti",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 406",
+      "cth": 406,
+      "stepId": "carry-offerings",
+      "stepNumber": 2,
+      "stepTitle": "Carry the offerings to a fresh place"
+    }
+  ],
+  "paskuwatti-build-reed-gate": [
+    {
+      "ritualId": "paskuwatti",
+      "ritualName": "Paškuwatti",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 406",
+      "cth": 406,
+      "stepId": "make-reed-gate",
+      "stepNumber": 3,
+      "stepTitle": "Make gates of reed"
+    }
+  ],
+  "paskuwatti-bind-gate": [
+    {
+      "ritualId": "paskuwatti",
+      "ritualName": "Paškuwatti",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 406",
+      "cth": 406,
+      "stepId": "bind-gate",
+      "stepNumber": 4,
+      "stepTitle": "Bind the gates with red and white wool"
+    }
+  ],
+  "paskuwatti-give-spindle": [
+    {
+      "ritualId": "paskuwatti",
+      "ritualName": "Paškuwatti",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 406",
+      "cth": 406,
+      "stepId": "give-spindle",
+      "stepNumber": 5,
+      "stepTitle": "Give the man a spindle and distaff"
+    }
+  ],
+  "paskuwatti-pass-gate": [
+    {
+      "ritualId": "paskuwatti",
+      "ritualName": "Paškuwatti",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 406",
+      "cth": 406,
+      "stepId": "pass-gate",
+      "stepNumber": 6,
+      "stepTitle": "Pass beneath the reed gates"
+    }
+  ],
+  "paskuwatti-exchange-implements": [
+    {
+      "ritualId": "paskuwatti",
+      "ritualName": "Paškuwatti",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 406",
+      "cth": 406,
+      "stepId": "exchange-implements",
+      "stepNumber": 7,
+      "stepTitle": "Exchange the implements for a bow and arrows"
+    }
+  ],
+  "paskuwatti-speak-exchange": [
+    {
+      "ritualId": "paskuwatti",
+      "ritualName": "Paškuwatti",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 406",
+      "cth": 406,
+      "stepId": "speak-exchange",
+      "stepNumber": 8,
+      "stepTitle": "Speak the change of roles"
+    }
+  ],
+  "paskuwatti-entreat-uliliyassi": [
+    {
+      "ritualId": "paskuwatti",
+      "ritualName": "Paškuwatti",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 406",
+      "cth": 406,
+      "stepId": "entreat-uliliyassi",
+      "stepNumber": 9,
+      "stepTitle": "Entreat Uliliyašši for descendants"
+    }
+  ],
+  "paskuwatti-return-and-set-table": [
+    {
+      "ritualId": "paskuwatti",
+      "ritualName": "Paškuwatti",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 406",
+      "cth": 406,
+      "stepId": "set-home-table",
+      "stepNumber": 10,
+      "stepTitle": "Set the offering on a new table"
+    }
+  ],
+  "zarpiya-take-implements": [
+    {
+      "ritualId": "zarpiya",
+      "ritualName": "Zarpiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 757",
+      "cth": 757,
+      "stepId": "take-implements",
+      "stepNumber": 1,
+      "stepTitle": "Take up the ritual implements"
+    }
+  ],
+  "zarpiya-close-door": [
+    {
+      "ritualId": "zarpiya",
+      "ritualName": "Zarpiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 757",
+      "cth": 757,
+      "stepId": "close-door",
+      "stepNumber": 2,
+      "stepTitle": "Close the door"
+    }
+  ],
+  "zarpiya-anoint-door": [
+    {
+      "ritualId": "zarpiya",
+      "ritualName": "Zarpiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 757",
+      "cth": 757,
+      "stepId": "anoint-door",
+      "stepNumber": 3,
+      "stepTitle": "Anoint the door with fine oil"
+    }
+  ],
+  "zarpiya-speak-threshold": [
+    {
+      "ritualId": "zarpiya",
+      "ritualName": "Zarpiya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 757",
+      "cth": 757,
+      "stepId": "speak-formula",
+      "stepNumber": 4,
+      "stepTitle": "Speak the closing words"
+    }
+  ],
+  "maddunani-take-provisions": [
+    {
+      "ritualId": "maddunani",
+      "ritualName": "Maddunani",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "take-provisions",
+      "stepNumber": 1,
+      "stepTitle": "Take two puppies, a piglet and provisions"
+    }
+  ],
+  "maddunani-prepare-at-night": [
+    {
+      "ritualId": "maddunani",
+      "ritualName": "Maddunani",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "prepare-at-night",
+      "stepNumber": 2,
+      "stepTitle": "Prepare the provisions at night"
+    }
+  ],
+  "maddunani-move-through-camp": [
+    {
+      "ritualId": "maddunani",
+      "ritualName": "Maddunani",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "move-through-camp",
+      "stepNumber": 3,
+      "stepTitle": "Move through the army camp at dawn"
+    }
+  ],
+  "maddunani-speak-in-camp": [
+    {
+      "ritualId": "maddunani",
+      "ritualName": "Maddunani",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "speak-in-camp",
+      "stepNumber": 4,
+      "stepTitle": "Speak during the passage"
+    }
+  ],
+  "maddunani-watch-bird-omens": [
+    {
+      "ritualId": "maddunani",
+      "ritualName": "Maddunani",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 425",
+      "cth": 425,
+      "stepId": "watch-bird-omens",
+      "stepNumber": 5,
+      "stepTitle": "Watch birds at the beginning and end"
+    }
+  ],
+  "zelliya-take-funerary-goods": [
+    {
+      "ritualId": "zelliya",
+      "ritualName": "Zelliya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 783",
+      "cth": 783,
+      "stepId": "take-funerary-goods",
+      "stepNumber": 1,
+      "stepTitle": "Take clothing and other goods"
+    }
+  ],
+  "zelliya-prepare-funerary-goods": [
+    {
+      "ritualId": "zelliya",
+      "ritualName": "Zelliya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 783",
+      "cth": 783,
+      "stepId": "prepare-funerary-goods",
+      "stepNumber": 2,
+      "stepTitle": "Prepare the goods"
+    }
+  ],
+  "zelliya-carry-dead-outside": [
+    {
+      "ritualId": "zelliya",
+      "ritualName": "Zelliya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 783",
+      "cth": 783,
+      "stepId": "carry-dead-outside",
+      "stepNumber": 3,
+      "stepTitle": "Carry the dead person outside"
+    }
+  ],
+  "zelliya-cremate-dead": [
+    {
+      "ritualId": "zelliya",
+      "ritualName": "Zelliya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 783",
+      "cth": 783,
+      "stepId": "cremate-dead",
+      "stepNumber": 4,
+      "stepTitle": "Burn the dead person"
+    }
+  ],
+  "cmawro-string-stones": [
+    {
+      "ritualId": "cmawro-q005039-3-4-1",
+      "ritualName": "CMAwR 3.4.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 3.4.1",
+      "cth": null,
+      "stepId": "string-stones",
+      "stepNumber": 1,
+      "stepTitle": "String the stones on flax"
+    }
+  ],
+  "cmawro-pack-ingredients-in-wool": [
+    {
+      "ritualId": "cmawro-q005039-3-4-1",
+      "ritualName": "CMAwR 3.4.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 3.4.1",
+      "cth": null,
+      "stepId": "pack-ingredients-in-wool",
+      "stepNumber": 2,
+      "stepTitle": "Pack the named ingredients in wool"
+    }
+  ],
+  "cmawro-wrap-in-leather": [
+    {
+      "ritualId": "cmawro-q005039-3-4-1",
+      "ritualName": "CMAwR 3.4.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 3.4.1",
+      "cth": null,
+      "stepId": "wrap-in-leather",
+      "stepNumber": 3,
+      "stepTitle": "Wrap the bundle in leather"
+    }
+  ],
+  "cmawro-interlace-bundle": [
+    {
+      "ritualId": "cmawro-q005039-3-4-1",
+      "ritualName": "CMAwR 3.4.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 3.4.1",
+      "cth": null,
+      "stepId": "interlace-bundle",
+      "stepNumber": 4,
+      "stepTitle": "Interlace bundle and stones"
+    }
+  ],
+  "cmawro-place-around-neck": [
+    {
+      "ritualId": "cmawro-q005039-3-4-1",
+      "ritualName": "CMAwR 3.4.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 3.4.1",
+      "cth": null,
+      "stepId": "place-around-neck",
+      "stepNumber": 5,
+      "stepTitle": "Place the amulet around the neck"
+    }
+  ],
+  "tapalazunauli-bring-donkey": [
+    {
+      "ritualId": "tapalazunauli",
+      "ritualName": "Tapalazunauli",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "bring-donkey",
+      "stepNumber": 1,
+      "stepTitle": "Bring forward a donkey"
+    }
+  ],
+  "tapalazunauli-assign-evil": [
+    {
+      "ritualId": "tapalazunauli",
+      "ritualName": "Tapalazunauli",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "assign-evil",
+      "stepNumber": 2,
+      "stepTitle": "Tell the donkey to carry away evil"
+    }
+  ],
+  "tapalazunauli-send-donkey": [
+    {
+      "ritualId": "tapalazunauli",
+      "ritualName": "Tapalazunauli",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "send-donkey",
+      "stepNumber": 3,
+      "stepTitle": "Drive the donkey toward enemy land"
+    }
+  ],
+  "tapalazunauli-scatter-straw": [
+    {
+      "ritualId": "tapalazunauli",
+      "ritualName": "Tapalazunauli",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "scatter-straw",
+      "stepNumber": 4,
+      "stepTitle": "Scatter a little straw"
+    }
+  ],
+  "tapalazunauli-break-bread": [
+    {
+      "ritualId": "tapalazunauli",
+      "ritualName": "Tapalazunauli",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "break-bread",
+      "stepNumber": 5,
+      "stepTitle": "Break a little bread"
+    }
+  ],
+  "tapalazunauli-fill-basket": [
+    {
+      "ritualId": "tapalazunauli",
+      "ritualName": "Tapalazunauli",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "fill-basket",
+      "stepNumber": 6,
+      "stepTitle": "Put the materials in a basket"
+    }
+  ],
+  "tapalazunauli-chant-at-gate": [
+    {
+      "ritualId": "tapalazunauli",
+      "ritualName": "Tapalazunauli",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "chant-at-gate",
+      "stepNumber": 7,
+      "stepTitle": "Chant at the gate"
+    }
+  ],
+  "tapalazunauli-carry-basket-out": [
+    {
+      "ritualId": "tapalazunauli",
+      "ritualName": "Tapalazunauli",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "carry-basket-out",
+      "stepNumber": 8,
+      "stepTitle": "Carry the basket out"
+    }
+  ],
+  "tapalazunauli-speak-to-god": [
+    {
+      "ritualId": "tapalazunauli",
+      "ritualName": "Tapalazunauli",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "speak-to-god",
+      "stepNumber": 9,
+      "stepTitle": "Speak of food for the god and his dogs"
+    }
+  ],
+  "ummaya-prepare-at-wall": [
+    {
+      "ritualId": "ummaya",
+      "ritualName": "Ummaya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 779",
+      "cth": 779,
+      "stepId": "prepare-at-wall",
+      "stepNumber": 1,
+      "stepTitle": "Prepare at the city wall"
+    }
+  ],
+  "ummaya-conjure-on-ground": [
+    {
+      "ritualId": "ummaya",
+      "ritualName": "Ummaya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 779",
+      "cth": 779,
+      "stepId": "conjure-on-ground",
+      "stepNumber": 2,
+      "stepTitle": "Conjure over the ground object"
+    }
+  ],
+  "ummaya-release-man": [
+    {
+      "ritualId": "ummaya",
+      "ritualName": "Ummaya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 779",
+      "cth": 779,
+      "stepId": "release-man",
+      "stepNumber": 3,
+      "stepTitle": "Release the man as a substitute"
+    }
+  ],
+  "ummaya-release-oxen": [
+    {
+      "ritualId": "ummaya",
+      "ritualName": "Ummaya",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 779",
+      "cth": 779,
+      "stepId": "release-oxen",
+      "stepNumber": 4,
+      "stepTitle": "Release two oxen as substitutes"
+    }
+  ],
+  "cmawro-1-5-1-fashion-figures": [
+    {
+      "ritualId": "cmawro-q004189-1-5-1",
+      "ritualName": "CMAwR 1.5.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 1.5.1",
+      "cth": null,
+      "stepId": "fashion-wax-figures",
+      "stepNumber": 1,
+      "stepTitle": "Make figurines of the accused"
+    }
+  ],
+  "cmawro-1-5-1-indict-figures": [
+    {
+      "ritualId": "cmawro-q004189-1-5-1",
+      "ritualName": "CMAwR 1.5.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 1.5.1",
+      "cth": null,
+      "stepId": "indict-before-shamash",
+      "stepNumber": 2,
+      "stepTitle": "Indict the figures before Šamaš"
+    }
+  ],
+  "cmawro-1-5-1-coat-figures": [
+    {
+      "ritualId": "cmawro-q004189-1-5-1",
+      "ritualName": "CMAwR 1.5.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 1.5.1",
+      "cth": null,
+      "stepId": "coat-with-tallow",
+      "stepNumber": 3,
+      "stepTitle": "Coat the figures with tallow"
+    }
+  ],
+  "cmawro-1-5-1-pot-figures": [
+    {
+      "ritualId": "cmawro-q004189-1-5-1",
+      "ritualName": "CMAwR 1.5.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 1.5.1",
+      "cth": null,
+      "stepId": "place-in-disposable-pot",
+      "stepNumber": 4,
+      "stepTitle": "Put the figures in a disposable pot"
+    }
+  ],
+  "cmawro-1-5-1-burn-figures": [
+    {
+      "ritualId": "cmawro-q004189-1-5-1",
+      "ritualName": "CMAwR 1.5.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 1.5.1",
+      "cth": null,
+      "stepId": "burn-the-figures",
+      "stepNumber": 5,
+      "stepTitle": "Burn the figures in the pot"
+    }
+  ],
+  "cmawro-1-5-1-recite-return": [
+    {
+      "ritualId": "cmawro-q004189-1-5-1",
+      "ritualName": "CMAwR 1.5.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 1.5.1",
+      "cth": null,
+      "stepId": "recite-return-to-shamash",
+      "stepNumber": 6,
+      "stepTitle": "Ask Šamaš to return the sorcery"
+    }
+  ],
+  "cmawro-1-5-1-river-disposal": [
+    {
+      "ritualId": "cmawro-q004189-1-5-1",
+      "ritualName": "CMAwR 1.5.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 1.5.1",
+      "cth": null,
+      "stepId": "throw-pot-in-river",
+      "stepNumber": 7,
+      "stepTitle": "Throw the remains into the river"
+    }
+  ],
+  "cmawro-8-18-fashion-figures": [
+    {
+      "ritualId": "cmawro-q005063-8-18",
+      "ritualName": "CMAwR 8.18",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 8.18",
+      "cth": null,
+      "stepId": "fashion-five-material-figures",
+      "stepNumber": 1,
+      "stepTitle": "Make figures from five materials"
+    }
+  ],
+  "cmawro-8-18-constrain-figures": [
+    {
+      "ritualId": "cmawro-q005063-8-18",
+      "ritualName": "CMAwR 8.18",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 8.18",
+      "cth": null,
+      "stepId": "constrain-the-figures",
+      "stepNumber": 2,
+      "stepTitle": "Constrain the figures"
+    }
+  ],
+  "cmawro-8-18-pot-figures": [
+    {
+      "ritualId": "cmawro-q005063-8-18",
+      "ritualName": "CMAwR 8.18",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 8.18",
+      "cth": null,
+      "stepId": "place-figures-in-pot",
+      "stepNumber": 3,
+      "stepTitle": "Put the figures in a disposable pot"
+    }
+  ],
+  "cmawro-8-18-juniper-censer": [
+    {
+      "ritualId": "cmawro-q005063-8-18",
+      "ritualName": "CMAwR 8.18",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 8.18",
+      "cth": null,
+      "stepId": "set-juniper-censer",
+      "stepNumber": 4,
+      "stepTitle": "Set a juniper censer before Utu"
+    }
+  ],
+  "cmawro-8-18-grape-libation": [
+    {
+      "ritualId": "cmawro-q005063-8-18",
+      "ritualName": "CMAwR 8.18",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 8.18",
+      "cth": null,
+      "stepId": "pour-grape-must",
+      "stepNumber": 5,
+      "stepTitle": "Pour out grape must"
+    }
+  ],
+  "cmawro-8-18-crush-figures": [
+    {
+      "ritualId": "cmawro-q005063-8-18",
+      "ritualName": "CMAwR 8.18",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 8.18",
+      "cth": null,
+      "stepId": "crush-clay-dough-figures",
+      "stepNumber": 6,
+      "stepTitle": "Crush the clay and dough figures"
+    }
+  ],
+  "cmawro-8-18-burn-figures": [
+    {
+      "ritualId": "cmawro-q005063-8-18",
+      "ritualName": "CMAwR 8.18",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 8.18",
+      "cth": null,
+      "stepId": "burn-fat-wax-bitumen-figures",
+      "stepNumber": 7,
+      "stepTitle": "Burn the tallow, wax and bitumen figures"
+    }
+  ],
+  "cmawro-8-18-chew-plants": [
+    {
+      "ritualId": "cmawro-q005063-8-18",
+      "ritualName": "CMAwR 8.18",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 8.18",
+      "cth": null,
+      "stepId": "chew-six-plants-woods",
+      "stepNumber": 8,
+      "stepTitle": "Chew the named plants and woods"
+    }
+  ],
+  "tunnawiya-royal-list-afflictions": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "list-afflictions",
+      "stepNumber": 1,
+      "stepTitle": "Name the afflictions of the patient"
+    }
+  ],
+  "tunnawiya-royal-list-tongues": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "list-tongues",
+      "stepNumber": 2,
+      "stepTitle": "Name the tongues of every kind of person"
+    }
+  ],
+  "tunnawiya-royal-recount-causes": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "recount-causes",
+      "stepNumber": 3,
+      "stepTitle": "Recount how the harm was picked up"
+    }
+  ],
+  "tunnawiya-royal-name-evil-speech": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "name-evil-speech",
+      "stepNumber": 4,
+      "stepTitle": "Name the patient's evil speech against the gods"
+    }
+  ],
+  "tunnawiya-royal-fit-limbs": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "fit-limbs",
+      "stepNumber": 5,
+      "stepTitle": "Fit the twelve limbs together"
+    }
+  ],
+  "tunnawiya-royal-cut-ram-limbs": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "cut-ram-limbs",
+      "stepNumber": 6,
+      "stepTitle": "Cut up the ram's twelve limbs"
+    }
+  ],
+  "tunnawiya-royal-limbs-take-sickness": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "limbs-take-sickness",
+      "stepNumber": 7,
+      "stepTitle": "Let each ram limb take up the sickness of the same limb"
+    }
+  ],
+  "tunnawiya-royal-declare-pulled-out": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "declare-pulled-out",
+      "stepNumber": 8,
+      "stepTitle": "Declare the harm pulled out"
+    }
+  ],
+  "tunnawiya-royal-take-evil-fright": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "take-evil-fright",
+      "stepNumber": 9,
+      "stepTitle": "Take the evil fright from him"
+    }
+  ],
+  "tunnawiya-royal-conjure-round-limbs": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "conjure-round-limbs",
+      "stepNumber": 10,
+      "stepTitle": "Conjure around the twelve limbs"
+    },
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "conjure-round-limbs-again",
+      "stepNumber": 14,
+      "stepTitle": "Conjure around the limbs again"
+    }
+  ],
+  "tunnawiya-royal-hold-over-back": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "hold-over-back",
+      "stepNumber": 11,
+      "stepTitle": "Hold it over his back"
+    }
+  ],
+  "tunnawiya-royal-plough-analogy": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "plough-analogy",
+      "stepNumber": 13,
+      "stepTitle": "Compare the patient to a field ploughed again"
+    }
+  ],
+  "tunnawiya-royal-spit-into-mouth": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "spit-into-mouth",
+      "stepNumber": 15,
+      "stepTitle": "Spit into the sheep's mouth"
+    }
+  ],
+  "tunnawiya-royal-command-spit-out": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "command-spit-out",
+      "stepNumber": 16,
+      "stepTitle": "Command him to spit out the harms"
+    }
+  ],
+  "tunnawiya-royal-bring-piglets": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "bring-piglets",
+      "stepNumber": 17,
+      "stepTitle": "Bring a dough piglet and a live piglet"
+    }
+  ],
+  "tunnawiya-royal-swing-live-piglet": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "swing-live-piglet",
+      "stepNumber": 18,
+      "stepTitle": "Swing the live piglet away"
+    }
+  ],
+  "tunnawiya-royal-hold-dough-piglet": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "hold-dough-piglet",
+      "stepNumber": 19,
+      "stepTitle": "Hold the dough piglet close to him"
+    }
+  ],
+  "tunnawiya-royal-great-god-historiola": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "great-god-historiola",
+      "stepNumber": 20,
+      "stepTitle": "Tell of the great god driving from Landa"
+    }
+  ],
+  "tunnawiya-royal-speak-patient-name": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "speak-patient-name",
+      "stepNumber": 21,
+      "stepTitle": "Speak the patient's name"
+    }
+  ],
+  "tunnawiya-royal-search-historiola": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "search-historiola",
+      "stepNumber": 22,
+      "stepTitle": "Tell of the gods' search of his body"
+    }
+  ],
+  "tunnawiya-royal-cut-them-off": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "cut-them-off",
+      "stepNumber": 23,
+      "stepTitle": "Cut them off from the limbs"
+    }
+  ],
+  "tunnawiya-royal-remove-litany": [
+    {
+      "ritualId": "tunnawiya-royal",
+      "ritualName": "Tunnawiya (royal)",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 409",
+      "cth": 409,
+      "stepId": "remove-litany",
+      "stepNumber": 24,
+      "stepTitle": "Let her remove the tongues"
+    }
+  ],
+  "mursili-plague-prayer-inquire-egypt-oath": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "inquire-egypt-oath",
+      "stepNumber": 1,
+      "stepTitle": "Put the Egyptian oath-breach to an oracle"
+    }
+  ],
+  "mursili-plague-prayer-inquire-mala-offering": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "inquire-mala-offering",
+      "stepNumber": 2,
+      "stepTitle": "Put the neglected Mala offering to an oracle"
+    }
+  ],
+  "mursili-plague-prayer-confess-sin": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "confess-sin",
+      "stepNumber": 3,
+      "stepTitle": "Confess the sin"
+    }
+  ],
+  "mursili-plague-prayer-vow-mala-offering": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "vow-mala-offering",
+      "stepNumber": 4,
+      "stepTitle": "Vow to perform the Mala offering"
+    }
+  ],
+  "mursili-plague-prayer-confess-fathers-sin": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "confess-fathers-sin",
+      "stepNumber": 5,
+      "stepTitle": "Confess the father's sin"
+    }
+  ],
+  "mursili-plague-prayer-soothe-and-send-away": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "soothe-and-send-away",
+      "stepNumber": 6,
+      "stepTitle": "Ask the god's soul to be soothed and the plague sent away"
+    }
+  ],
+  "mursili-plague-prayer-hear-me": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "hear-me",
+      "stepNumber": 7,
+      "stepTitle": "Call on the Storm-god to hear and keep him alive"
+    }
+  ],
+  "mursili-plague-prayer-bird-and-servant": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "bird-and-servant",
+      "stepNumber": 8,
+      "stepTitle": "Argue by the bird and the servant"
+    }
+  ],
+  "mursili-plague-prayer-offer-compensation": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "offer-compensation",
+      "stepNumber": 9,
+      "stepTitle": "Offer further compensation"
+    }
+  ],
+  "mursili-plague-prayer-spare-cult-personnel": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "spare-cult-personnel",
+      "stepNumber": 10,
+      "stepTitle": "Ask that the remaining cult personnel die no more"
+    }
+  ],
+  "mursili-plague-prayer-reveal-other-cause": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "reveal-other-cause",
+      "stepNumber": 11,
+      "stepTitle": "Ask for any other cause to be revealed"
+    }
+  ],
+  "mursili-plague-prayer-order-pure-sleep": [
+    {
+      "ritualId": "mursili-plague-prayer",
+      "ritualName": "Muršili II",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 378",
+      "cth": 378,
+      "stepId": "order-pure-sleep",
+      "stepNumber": 12,
+      "stepTitle": "Order the priests to sleep in purity"
+    }
+  ],
+  "army-ritual-hot-stone": [
+    {
+      "ritualId": "army-ritual",
+      "ritualName": "Army ritual",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 426",
+      "cth": 426,
+      "stepId": "hot-stone",
+      "stepNumber": 1,
+      "stepTitle": "Speak the analogy of the hot stone"
+    }
+  ],
+  "army-ritual-winter-torpor": [
+    {
+      "ritualId": "army-ritual",
+      "ritualName": "Army ritual",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 426",
+      "cth": 426,
+      "stepId": "winter-torpor",
+      "stepNumber": 2,
+      "stepTitle": "Bind the rivals by the torpor of winter"
+    }
+  ],
+  "army-ritual-mighty-troops": [
+    {
+      "ritualId": "army-ritual",
+      "ritualName": "Army ritual",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 426",
+      "cth": 426,
+      "stepId": "mighty-troops",
+      "stepNumber": 3,
+      "stepTitle": "Pray that the troops be mighty"
+    }
+  ],
+  "army-ritual-father-gods-protect": [
+    {
+      "ritualId": "army-ritual",
+      "ritualName": "Army ritual",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 426",
+      "cth": 426,
+      "stepId": "father-gods-protect",
+      "stepNumber": 4,
+      "stepTitle": "Ask the father-gods to protect the son"
+    }
+  ],
+  "army-ritual-gods-on-our-side": [
+    {
+      "ritualId": "army-ritual",
+      "ritualName": "Army ritual",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 426",
+      "cth": 426,
+      "stepId": "gods-on-our-side",
+      "stepNumber": 5,
+      "stepTitle": "Declare the gods are on our side"
+    }
+  ],
+  "army-ritual-hasten-troops": [
+    {
+      "ritualId": "army-ritual",
+      "ritualName": "Army ritual",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 426",
+      "cth": 426,
+      "stepId": "hasten-troops",
+      "stepNumber": 6,
+      "stepTitle": "Ask that the troops be hastened"
+    }
+  ],
+  "lapana-plague-bull": [
+    {
+      "ritualId": "lapana-plague",
+      "ritualName": "Lapana plague rite",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "bull",
+      "stepNumber": 1,
+      "stepTitle": "Provide a bull"
+    }
+  ],
+  "lapana-plague-wicker-tables": [
+    {
+      "ritualId": "lapana-plague",
+      "ritualName": "Lapana plague rite",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "wicker-tables",
+      "stepNumber": 2,
+      "stepTitle": "Set out four wicker tables"
+    }
+  ],
+  "lapana-plague-evening-fire": [
+    {
+      "ritualId": "lapana-plague",
+      "ritualName": "Lapana plague rite",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "evening-fire",
+      "stepNumber": 3,
+      "stepTitle": "Kindle a fire in the evening"
+    }
+  ],
+  "lapana-plague-raw-cooked": [
+    {
+      "ritualId": "lapana-plague",
+      "ritualName": "Lapana plague rite",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "raw-cooked",
+      "stepNumber": 4,
+      "stepTitle": "Offer raw and cooked portions to the gods"
+    }
+  ],
+  "lapana-plague-burn": [
+    {
+      "ritualId": "lapana-plague",
+      "ritualName": "Lapana plague rite",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "burn",
+      "stepNumber": 5,
+      "stepTitle": "Burn the offering"
+    }
+  ],
+  "lapana-plague-bow": [
+    {
+      "ritualId": "lapana-plague",
+      "ritualName": "Lapana plague rite",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "bow",
+      "stepNumber": 6,
+      "stepTitle": "Bow down to the gods"
+    }
+  ],
+  "lapana-plague-in-mouth": [
+    {
+      "ritualId": "lapana-plague",
+      "ritualName": "Lapana plague rite",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 424",
+      "cth": 424,
+      "stepId": "in-mouth",
+      "stepNumber": 7,
+      "stepTitle": "Place a little in the mouth, three times"
+    }
+  ],
+  "libu-mix-urine-clay": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "mix-urine-clay",
+      "stepNumber": 1,
+      "stepTitle": "Mix donkey urine with school clay"
+    }
+  ],
+  "libu-make-donkeys": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "make-clay-donkeys",
+      "stepNumber": 2,
+      "stepTitle": "Knead and make two clay donkeys"
+    }
+  ],
+  "libu-attach-strap-tail": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "attach-strap-tail",
+      "stepNumber": 3,
+      "stepTitle": "Attach the strap and tail-hair to the figurine"
+    }
+  ],
+  "libu-make-substitute": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "make-substitute",
+      "stepNumber": 4,
+      "stepTitle": "Make the substitute from the patient's urine, hair and nails"
+    }
+  ],
+  "libu-dress-mount-substitute": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "dress-mount-substitute",
+      "stepNumber": 5,
+      "stepTitle": "Clothe the substitute and set it on the donkey"
+    }
+  ],
+  "libu-load-sacks": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "load-sacks",
+      "stepNumber": 6,
+      "stepTitle": "Load sacks on the two leading donkeys"
+    }
+  ],
+  "libu-make-driver": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "make-driver",
+      "stepNumber": 7,
+      "stepTitle": "Make a clay driver with a goad"
+    }
+  ],
+  "libu-bring-to-roof": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "bring-to-roof",
+      "stepNumber": 8,
+      "stepTitle": "Bring the figures up onto the roof before Šamaš"
+    }
+  ],
+  "libu-strew-offering": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "strew-flour-dates",
+      "stepNumber": 9,
+      "stepTitle": "Strew flour, dates and mashatu-flour before Šamaš"
+    }
+  ],
+  "libu-address-samas": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "address-samas-roof",
+      "stepNumber": 10,
+      "stepTitle": "Address Šamaš as lord of judgment"
+    }
+  ],
+  "libu-carry-substitute-out": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "bring-substitute-out",
+      "stepNumber": 11,
+      "stepTitle": "Bring the substitute down and out to the open country"
+    }
+  ],
+  "libu-patient-gives-libu": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "patient-gives-libu",
+      "stepNumber": 12,
+      "stepTitle": "The patient hands li'bu to his substitute"
+    }
+  ],
+  "libu-donkeys-in-basket": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "donkeys-in-basket",
+      "stepNumber": 13,
+      "stepTitle": "Place the donkey figures in a basket before Šamaš"
+    }
+  ],
+  "libu-pour-seven-sila": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "pour-seven-sila",
+      "stepNumber": 14,
+      "stepTitle": "Pour out seven sila each of flour, dates and oil"
+    }
+  ],
+  "libu-address-nisaba": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "address-nisaba",
+      "stepNumber": 15,
+      "stepTitle": "Invoke Nisaba and drive out the curse"
+    }
+  ],
+  "libu-draw-design-adjure": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "draw-design-adjure",
+      "stepNumber": 16,
+      "stepTitle": "Draw a design and adjure the evil by the gods"
+    }
+  ],
+  "libu-strew-at-esegu": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "strew-at-esegu",
+      "stepNumber": 17,
+      "stepTitle": "Take it out to the ešegu-bush and strew flour and dates"
+    }
+  ],
+  "libu-station-weapons": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "station-weapons",
+      "stepNumber": 18,
+      "stepTitle": "Station donkeys and weapons before Šamaš"
+    }
+  ],
+  "libu-address-samas-oath": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "address-samas-oath",
+      "stepNumber": 19,
+      "stepTitle": "Address Šamaš, list the seizing demons and lay the oath"
+    }
+  ],
+  "libu-address-esegu": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "address-esegu",
+      "stepNumber": 20,
+      "stepTitle": "Seize the ešegu-bush and bid it plead with Šamaš"
+    }
+  ],
+  "libu-anoint-bind-esegu": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "anoint-bind-esegu",
+      "stepNumber": 21,
+      "stepTitle": "Pour oil on the ešegu and bind it to a rush"
+    }
+  ],
+  "libu-release-bargain": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "release-bargain",
+      "stepNumber": 22,
+      "stepTitle": "Ask Šamaš to free the patient from fever"
+    }
+  ],
+  "libu-place-loaves-designs": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "place-loaves-designs",
+      "stepNumber": 23,
+      "stepTitle": "Draw designs and set a dried loaf at each"
+    }
+  ],
+  "libu-strew-city-gate": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "strew-city-gate",
+      "stepNumber": 24,
+      "stepTitle": "Throw flour at the city gate"
+    }
+  ],
+  "libu-adjure-at-gate": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "adjure-at-gate",
+      "stepNumber": 25,
+      "stepTitle": "Adjure the evil not to enter the door"
+    }
+  ],
+  "libu-mix-salt-cress": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "mix-salt-cress",
+      "stepNumber": 26,
+      "stepTitle": "Mix salt and cress into the poured flour"
+    }
+  ],
+  "libu-crush-juniper": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "crush-juniper",
+      "stepNumber": 27,
+      "stepTitle": "Crush juniper and mix it with oil"
+    }
+  ],
+  "libu-recite-arabapura": [
+    {
+      "ritualId": "libu-fever",
+      "ritualName": "Li'bu-fever",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 811",
+      "cth": 811,
+      "stepId": "recite-arabapura",
+      "stepNumber": 28,
+      "stepTitle": "Recite the incantation during treatment"
+    }
+  ],
+  "poultice-crush-plants": [
+    {
+      "ritualId": "poultice-recipes",
+      "ritualName": "Poultice recipes",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 808",
+      "cth": 808,
+      "stepId": "crush-plants",
+      "stepNumber": 1,
+      "stepTitle": "Crush the plants and mix them as one"
+    },
+    {
+      "ritualId": "poultice-recipes",
+      "ritualName": "Poultice recipes",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 808",
+      "cth": 808,
+      "stepId": "crush-with-crusher",
+      "stepNumber": 5,
+      "stepTitle": "Crush many aromatics with a wooden crusher"
+    }
+  ],
+  "poultice-boil-mixture": [
+    {
+      "ritualId": "poultice-recipes",
+      "ritualName": "Poultice recipes",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 808",
+      "cth": 808,
+      "stepId": "boil-kasu",
+      "stepNumber": 2,
+      "stepTitle": "Boil the mixture in kasû-juice"
+    },
+    {
+      "ritualId": "poultice-recipes",
+      "ritualName": "Poultice recipes",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 808",
+      "cth": 808,
+      "stepId": "decoct-beer",
+      "stepNumber": 4,
+      "stepTitle": "Boil in beer and decoct like a rabīku-paste"
+    },
+    {
+      "ritualId": "poultice-recipes",
+      "ritualName": "Poultice recipes",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 808",
+      "cth": 808,
+      "stepId": "decoct-wine",
+      "stepNumber": 7,
+      "stepTitle": "Decoct in pressed wine like a rabīku-paste"
+    }
+  ],
+  "poultice-bandage": [
+    {
+      "ritualId": "poultice-recipes",
+      "ritualName": "Poultice recipes",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 808",
+      "cth": 808,
+      "stepId": "bandage-kasu",
+      "stepNumber": 3,
+      "stepTitle": "Keep bandaging the patient"
+    },
+    {
+      "ritualId": "poultice-recipes",
+      "ritualName": "Poultice recipes",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 808",
+      "cth": 808,
+      "stepId": "bandage-wine",
+      "stepNumber": 8,
+      "stepTitle": "Keep bandaging that man"
+    }
+  ],
+  "poultice-mix-emmer": [
+    {
+      "ritualId": "poultice-recipes",
+      "ritualName": "Poultice recipes",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 808",
+      "cth": 808,
+      "stepId": "mix-emmer",
+      "stepNumber": 6,
+      "stepTitle": "Mix the aromatics with emmer flour"
+    }
+  ],
+  "poultice-mix-ghee-beer": [
+    {
+      "ritualId": "poultice-recipes",
+      "ritualName": "Poultice recipes",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 808",
+      "cth": 808,
+      "stepId": "mix-ghee-beer",
+      "stepNumber": 9,
+      "stepTitle": "Mix seeds with ghee and beer and bandage"
+    }
+  ],
+  "poultice-perform-purification": [
+    {
+      "ritualId": "poultice-recipes",
+      "ritualName": "Poultice recipes",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 808",
+      "cth": 808,
+      "stepId": "perform-purification",
+      "stepNumber": 10,
+      "stepTitle": "Perform a purification for the sick man"
+    }
+  ],
+  "cmawro-q002713-9-22-31-draw-circle-round-crucible": [
+    {
+      "ritualId": "cmawro-q002713-9-22-31",
+      "ritualName": "Maqlû IX 22′–31′",
+      "corpusId": "cmawro",
+      "sourceLabel": "Maqlû IX 22′–31′",
+      "cth": null,
+      "stepId": "draw-circle-round-crucible",
+      "stepNumber": 1,
+      "stepTitle": "Draw a magic circle round the crucible"
+    }
+  ],
+  "cmawro-q002713-9-22-31-arrange-figures-in-crucible": [
+    {
+      "ritualId": "cmawro-q002713-9-22-31",
+      "ritualName": "Maqlû IX 22′–31′",
+      "corpusId": "cmawro",
+      "sourceLabel": "Maqlû IX 22′–31′",
+      "cth": null,
+      "stepId": "arrange-figures-in-crucible",
+      "stepNumber": 2,
+      "stepTitle": "Arrange figures of nine materials in the crucible"
+    }
+  ],
+  "cmawro-q002713-9-22-31-identify-figures-as-doer": [
+    {
+      "ritualId": "cmawro-q002713-9-22-31",
+      "ritualName": "Maqlû IX 22′–31′",
+      "corpusId": "cmawro",
+      "sourceLabel": "Maqlû IX 22′–31′",
+      "cth": null,
+      "stepId": "identify-figures-as-doer",
+      "stepNumber": 3,
+      "stepTitle": "Point at the figures and name them as the doer"
+    }
+  ],
+  "cmawro-q002713-9-22-31-set-torch-on-fat-figures": [
+    {
+      "ritualId": "cmawro-q002713-9-22-31",
+      "ritualName": "Maqlû IX 22′–31′",
+      "corpusId": "cmawro",
+      "sourceLabel": "Maqlû IX 22′–31′",
+      "cth": null,
+      "stepId": "set-torch-on-fat-figures",
+      "stepNumber": 4,
+      "stepTitle": "Put a torch on the tallow and wax figures"
+    }
+  ],
+  "cmawro-q002713-9-22-31-insert-woods-and-reed": [
+    {
+      "ritualId": "cmawro-q002713-9-22-31",
+      "ritualName": "Maqlû IX 22′–31′",
+      "corpusId": "cmawro",
+      "sourceLabel": "Maqlû IX 22′–31′",
+      "cth": null,
+      "stepId": "insert-woods-and-reed",
+      "stepNumber": 5,
+      "stepTitle": "Stick cedar, cypress, myrtle and reed into it"
+    }
+  ],
+  "cmawro-q002713-9-22-31-light-torch-from-sulphur": [
+    {
+      "ritualId": "cmawro-q002713-9-22-31",
+      "ritualName": "Maqlû IX 22′–31′",
+      "corpusId": "cmawro",
+      "sourceLabel": "Maqlû IX 22′–31′",
+      "cth": null,
+      "stepId": "light-torch-from-sulphur",
+      "stepNumber": 6,
+      "stepTitle": "Light the torch from sulphur fire and recite"
+    }
+  ],
+  "cmawro-q002713-9-22-31-throw-fire-into-crucible": [
+    {
+      "ritualId": "cmawro-q002713-9-22-31",
+      "ritualName": "Maqlû IX 22′–31′",
+      "corpusId": "cmawro",
+      "sourceLabel": "Maqlû IX 22′–31′",
+      "cth": null,
+      "stepId": "throw-fire-into-crucible",
+      "stepNumber": 7,
+      "stepTitle": "Throw fire into the crucible"
+    }
+  ],
+  "cmawro-q004239-11-1-1-pound-paste": [
+    {
+      "ritualId": "cmawro-q004239-11-1-1",
+      "ritualName": "CMAwR 11.1.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.1.1",
+      "cth": null,
+      "stepId": "pound-paste",
+      "stepNumber": 1,
+      "stepTitle": "Pound sulphur, gypsum and red paste together"
+    }
+  ],
+  "cmawro-q004239-11-1-1-recite-tear-out-sorcery": [
+    {
+      "ritualId": "cmawro-q004239-11-1-1",
+      "ritualName": "CMAwR 11.1.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.1.1",
+      "cth": null,
+      "stepId": "recite-tear-out-sorcery",
+      "stepNumber": 2,
+      "stepTitle": "Recite \"Furious, furious … tear out the sorcery\""
+    }
+  ],
+  "cmawro-q004239-11-1-1-recite-into-paste-and-smear-jamb": [
+    {
+      "ritualId": "cmawro-q004239-11-1-1",
+      "ritualName": "CMAwR 11.1.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.1.1",
+      "cth": null,
+      "stepId": "recite-into-paste-and-smear-jamb",
+      "stepNumber": 3,
+      "stepTitle": "Recite into the paste; apply it to the door-jamb"
+    }
+  ],
+  "cmawro-q004239-11-1-1-wash-off-into-cloth": [
+    {
+      "ritualId": "cmawro-q004239-11-1-1",
+      "ritualName": "CMAwR 11.1.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.1.1",
+      "cth": null,
+      "stepId": "wash-off-into-cloth",
+      "stepNumber": 4,
+      "stepTitle": "Wash the paste off with silt into a cloth"
+    }
+  ],
+  "cmawro-q004239-11-1-1-wrap-sulphur-oil-in-fleece": [
+    {
+      "ritualId": "cmawro-q004239-11-1-1",
+      "ritualName": "CMAwR 11.1.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.1.1",
+      "cth": null,
+      "stepId": "wrap-sulphur-oil-in-fleece",
+      "stepNumber": 5,
+      "stepTitle": "Wrap sulphur and oil in combed fleece"
+    }
+  ],
+  "cmawro-q004239-11-1-1-bury-at-gate-and-socket": [
+    {
+      "ritualId": "cmawro-q004239-11-1-1",
+      "ritualName": "CMAwR 11.1.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.1.1",
+      "cth": null,
+      "stepId": "bury-at-gate-and-socket",
+      "stepNumber": 6,
+      "stepTitle": "Bury it at the outer gate and door socket"
+    }
+  ],
+  "cmawro-q005109-11-3-1-sprinkle-riverbank": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "sprinkle-riverbank",
+      "stepNumber": 1,
+      "stepTitle": "Sweep and sprinkle the riverbank"
+    }
+  ],
+  "cmawro-q005109-11-3-1-altar-and-libation": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "altar-and-libation",
+      "stepNumber": 2,
+      "stepTitle": "Set up an altar and pour a libation"
+    }
+  ],
+  "cmawro-q005109-11-3-1-make-male-female-clay-figures": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "make-male-female-clay-figures",
+      "stepNumber": 3,
+      "stepTitle": "Make a male and a female figure of clay"
+    }
+  ],
+  "cmawro-q005109-11-3-1-clothe-and-stand-before-god": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "clothe-and-stand-before-god",
+      "stepNumber": 4,
+      "stepTitle": "The sick man dresses, stands before the god, recites"
+    }
+  ],
+  "cmawro-q005109-11-3-1-send-evil-across-river": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "send-evil-across-river",
+      "stepNumber": 5,
+      "stepTitle": "Ask that the evil cross river and mountain"
+    }
+  ],
+  "cmawro-q005109-11-3-1-smoke-and-tamarisk-analogy": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "smoke-and-tamarisk-analogy",
+      "stepNumber": 6,
+      "stepTitle": "Like smoke, like uprooted tamarisk"
+    }
+  ],
+  "cmawro-q005109-11-3-1-beer-libation-to-river": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "beer-libation-to-river",
+      "stepNumber": 7,
+      "stepTitle": "Pour beer before the river"
+    }
+  ],
+  "cmawro-q005109-11-3-1-dip-in-river-three-times": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "dip-in-river-three-times",
+      "stepNumber": 8,
+      "stepTitle": "Sink three times in the river in a textile"
+    }
+  ],
+  "cmawro-q005109-11-3-1-ask-river-to-take-evil": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "ask-river-to-take-evil",
+      "stepNumber": 9,
+      "stepTitle": "Ask the river to carry the evil away"
+    }
+  ],
+  "cmawro-q005109-11-3-1-come-up-strip-and-bathe": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "come-up-strip-and-bathe",
+      "stepNumber": 10,
+      "stepTitle": "Come up, tear off the textile, bathe"
+    }
+  ],
+  "cmawro-q005109-11-3-1-touch-brewers-mash-tub": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "touch-brewers-mash-tub",
+      "stepNumber": 11,
+      "stepTitle": "Enter a brewer's house and touch the mash tub"
+    }
+  ],
+  "cmawro-q005109-11-3-1-touch-gate-gypsum-bitumen": [
+    {
+      "ritualId": "cmawro-q005109-11-3-1",
+      "ritualName": "CMAwR 11.3.1",
+      "corpusId": "cmawro",
+      "sourceLabel": "CMAwR 11.3.1",
+      "cth": null,
+      "stepId": "touch-gate-gypsum-bitumen",
+      "stepNumber": 12,
+      "stepTitle": "Touch the gate with gypsum and bitumen"
+    }
+  ],
+  "potency-catch-partridge": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "catch-partridge",
+      "stepNumber": 1,
+      "stepTitle": "Catch a male partridge"
+    }
+  ],
+  "potency-pluck-strangle": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "pluck-strangle",
+      "stepNumber": 2,
+      "stepTitle": "Pluck and strangle the partridge"
+    }
+  ],
+  "potency-salt-dry": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "salt-dry",
+      "stepNumber": 3,
+      "stepTitle": "Salt and dry the bird"
+    }
+  ],
+  "potency-crush-with-thorn": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "crush-with-thorn",
+      "stepNumber": 4,
+      "stepTitle": "Crush with thorn seed"
+    }
+  ],
+  "potency-drink-in-beer": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "drink-in-beer",
+      "stepNumber": 5,
+      "stepTitle": "Give it to drink in beer"
+    },
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "drink-at-sunrise",
+      "stepNumber": 8,
+      "stepTitle": "Drink at sunrise"
+    }
+  ],
+  "potency-blood-into-water": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "blood-into-water",
+      "stepNumber": 6,
+      "stepTitle": "Let the blood fall into water"
+    }
+  ],
+  "expose-remedy-to-stars": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "water-under-stars",
+      "stepNumber": 7,
+      "stepTitle": "Leave the water under the stars"
+    },
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "entrust-to-stars",
+      "stepNumber": 10,
+      "stepTitle": "Entrust it to the stars"
+    }
+  ],
+  "potency-wrap-in-wool": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "wrap-in-wool",
+      "stepNumber": 9,
+      "stepTitle": "Wrap in wool"
+    }
+  ],
+  "potency-smear-salt-plant": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "smear-salt-plant",
+      "stepNumber": 10,
+      "stepTitle": "Smear with salt and nīnû-plant"
+    }
+  ],
+  "potency-mix-roasted-flour": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "mix-roasted-flour",
+      "stepNumber": 11,
+      "stepTitle": "Mix with roasted-grain flour"
+    }
+  ],
+  "potency-form-pellets": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "form-pellets",
+      "stepNumber": 12,
+      "stepTitle": "Form pellets"
+    }
+  ],
+  "potency-bind-on-hips": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "bind-on-hips",
+      "stepNumber": 13,
+      "stepTitle": "Bind on the hips"
+    }
+  ],
+  "potency-rinse-body": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "rinse-body",
+      "stepNumber": 14,
+      "stepTitle": "Rinse with water and kasû"
+    }
+  ],
+  "potency-anoint-oil": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "anoint-oil",
+      "stepNumber": 15,
+      "stepTitle": "Anoint repeatedly with oil"
+    }
+  ],
+  "potency-sumerian-incantation": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "sumerian-incantation",
+      "stepNumber": 16,
+      "stepTitle": "Recite the Sumerian incantation"
+    }
+  ],
+  "potency-crush-decoct-sinews": [
+    {
+      "ritualId": "potency-prescriptions",
+      "ritualName": "Potency prescriptions",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 802",
+      "cth": 802,
+      "stepId": "crush-decoct-sinews",
+      "stepNumber": 17,
+      "stepTitle": "Crush and decoct the sinews"
+    }
+  ],
+  "remedies-take-herbs": [
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "take-herbs",
+      "stepNumber": 1,
+      "stepTitle": "Take the herbs"
+    },
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "take-bulbs",
+      "stepNumber": 3,
+      "stepTitle": "Take garlic, leek and šullittinni bulbs"
+    }
+  ],
+  "remedies-give-seven-days": [
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "give-seven-days",
+      "stepNumber": 2,
+      "stepTitle": "Give the herbs for seven days"
+    },
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "give-empty-stomach",
+      "stepNumber": 5,
+      "stepTitle": "Give for seven days on an empty stomach"
+    },
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "drink-morning",
+      "stepNumber": 12,
+      "stepTitle": "Drink early in the morning"
+    }
+  ],
+  "remedies-steep-sift": [
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "steep-sift",
+      "stepNumber": 4,
+      "stepTitle": "Steep and sift the bulbs"
+    },
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "second-day-bag",
+      "stepNumber": 13,
+      "stepTitle": "Prepare the second-day remedy"
+    }
+  ],
+  "remedies-sew-into-cord": [
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "sew-into-cord",
+      "stepNumber": 6,
+      "stepTitle": "Sew into a cord from a leopard’s kill"
+    }
+  ],
+  "remedies-twist-sinew": [
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "twist-sinew",
+      "stepNumber": 7,
+      "stepTitle": "Twist in the sinew"
+    }
+  ],
+  "remedies-heat-compress": [
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "heat-compress",
+      "stepNumber": 8,
+      "stepTitle": "Heat and apply a compress"
+    }
+  ],
+  "remedies-crush-into-bag": [
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "crush-into-bag",
+      "stepNumber": 9,
+      "stepTitle": "Crush the plants into a bag"
+    }
+  ],
+  "remedies-carry-into-house": [
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "carry-into-house",
+      "stepNumber": 11,
+      "stepTitle": "Carry it into the house"
+    }
+  ],
+  "remedies-into-honey": [
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "into-honey",
+      "stepNumber": 14,
+      "stepTitle": "Give it in honey until he recovers"
+    }
+  ],
+  "remedies-gut-fish": [
+    {
+      "ritualId": "hittite-remedies",
+      "ritualName": "Hittite remedies",
+      "corpusId": "tlhdig-hittite",
+      "sourceLabel": "CTH 461",
+      "cth": 461,
+      "stepId": "gut-fish",
+      "stepNumber": 15,
+      "stepTitle": "Gut a fish"
     }
   ]
 }

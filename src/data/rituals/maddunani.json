@@ -1,0 +1,352 @@
+{
+  "id": "maddunani",
+  "cth": 425,
+  "title": "Maddunani’s ritual",
+  "shortName": "Maddunani",
+  "eyebrow": "CTH 425.1 · plague in the army",
+  "dating": {
+    "label": "Hittite manuscript",
+    "note": "KUB 7.54 preserves this ritual.",
+    "sourceUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+7.54"
+  },
+  "purpose": "An augur’s rite when plague strikes an army camp, beginning with animals and provisions and ending with bird omens.",
+  "attribution": "Attributed to Maddunani, augur of Arzawa",
+  "sourceSummary": "KUB 7.54 · Maddunani section, paragraphs 1–4",
+  "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+7.54",
+  "phases": [
+    {
+      "name": "Prepare at night",
+      "range": [
+        1,
+        2
+      ],
+      "idea": "Animals and provisions are gathered and prepared at night."
+    },
+    {
+      "name": "At dawn",
+      "range": [
+        3,
+        5
+      ],
+      "idea": "The augur and an older man move through the camp, speak and observe birds."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "take-provisions",
+      "number": 1,
+      "title": "Take two puppies, a piglet and provisions",
+      "shortTitle": "Take two puppies, a piglet and provisions",
+      "shortDescription": "The augur takes two puppies, a piglet, breads, grain, cups and wine.",
+      "phase": "Prepare at night",
+      "unitType": "act",
+      "actionType": "take-provisions",
+      "verb": "Take",
+      "summary": "The augur takes two puppies, a piglet, breads, grain, cups and wine.",
+      "patient": "Animals and provisions",
+      "actor": "Maddunani, the augur",
+      "material": [
+        "Two puppies",
+        "One piglet",
+        "Bread",
+        "Grain",
+        "Cups",
+        "Wine"
+      ],
+      "evidence": "KUB 7.54 §2.",
+      "image": {
+        "alt": "Two puppies, a piglet and provisions",
+        "note": "Illustrative reconstruction of the named scene and materials."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "maddunani-take-provisions",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "take",
+          "theme": {
+            "class": "animal",
+            "sub": "puppy",
+            "count": 2
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "animal",
+            "sub": "piglet"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "food",
+            "sub": "bread",
+            "count": 12
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "food",
+            "sub": "grain"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "vessel",
+            "sub": "cup",
+            "count": 6
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "drink",
+            "sub": "wine"
+          }
+        }
+      ]
+    },
+    {
+      "id": "prepare-at-night",
+      "number": 2,
+      "title": "Prepare the provisions at night",
+      "shortTitle": "Prepare the provisions at night",
+      "shortDescription": "The materials are prepared at night.",
+      "phase": "Prepare at night",
+      "unitType": "act",
+      "actionType": "prepare-provisions",
+      "verb": "Prepare",
+      "summary": "The materials are prepared at night.",
+      "patient": "The gathered provisions",
+      "actor": "Maddunani, the augur",
+      "material": [],
+      "evidence": "KUB 7.54 §3.",
+      "image": {
+        "alt": "Two puppies, a piglet and provisions",
+        "note": "Illustrative reconstruction of the named scene and materials."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "maddunani-prepare-at-night",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "take-provisions"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "materials",
+            "sub": "provisions"
+          },
+          "time": "at night"
+        }
+      ]
+    },
+    {
+      "id": "move-through-camp",
+      "number": 3,
+      "title": "Move through the army camp at dawn",
+      "shortTitle": "Move through the army camp at dawn",
+      "shortDescription": "At daybreak the augur and an older man move through the army camp.",
+      "phase": "At dawn",
+      "unitType": "act",
+      "actionType": "pass-through-camp",
+      "verb": "Move",
+      "summary": "At daybreak the augur and an older man move through the army camp.",
+      "patient": "The army camp",
+      "actor": "The augur and an older man",
+      "material": [],
+      "evidence": "KUB 7.54 §3.",
+      "image": {
+        "alt": "Augur and older man moving through camp",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "maddunani-move-through-camp",
+      "composition": {
+        "function": "cross-threshold",
+        "requires": [
+          "prepare-at-night"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "pass",
+          "agent": {
+            "class": "person",
+            "sub": "practitioner"
+          },
+          "location": "army camp",
+          "time": "daybreak"
+        },
+        {
+          "verb": "pass",
+          "agent": {
+            "class": "person",
+            "sub": "old man"
+          },
+          "location": "army camp"
+        }
+      ]
+    },
+    {
+      "id": "speak-in-camp",
+      "number": 4,
+      "title": "Speak during the passage",
+      "shortTitle": "Speak during the passage",
+      "shortDescription": "The augur and older man speak as they pass through the camp; the surviving words are damaged.",
+      "phase": "At dawn",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The augur and older man speak as they pass through the camp; the surviving words are damaged.",
+      "patient": "The army camp",
+      "actor": "The augur and an older man",
+      "material": [],
+      "evidence": "KUB 7.54 §3.",
+      "image": {
+        "alt": "Two puppies, a piglet and provisions",
+        "note": "Illustrative reconstruction of the named scene and materials."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "maddunani-speak-in-camp",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "move-through-camp"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "about": {
+            "class": "harm",
+            "sub": "evil"
+          },
+          "note": "damaged; mentions evil person and evil bird; act uncertain"
+        }
+      ]
+    },
+    {
+      "id": "watch-bird-omens",
+      "number": 5,
+      "title": "Watch birds at the beginning and end",
+      "shortTitle": "Watch birds at the beginning and end",
+      "shortDescription": "Bird movements are read as omens as the rite begins and ends.",
+      "phase": "At dawn",
+      "unitType": "act",
+      "actionType": "observe-bird-omen",
+      "verb": "Observe",
+      "summary": "Bird movements are read as omens as the rite begins and ends.",
+      "patient": "Birds in flight",
+      "actor": "The augur and an older man",
+      "material": [],
+      "evidence": "KUB 7.54 §4.",
+      "image": {
+        "alt": "Augur observing a bird in flight",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-54",
+          "locus": "KUB 7.54 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "maddunani-watch-bird-omens",
+      "composition": {
+        "function": "read-omen",
+        "requires": [
+          "speak-in-camp"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "observe",
+          "theme": {
+            "class": "bird",
+            "sub": "bird"
+          },
+          "time": "as the rite begins"
+        },
+        {
+          "verb": "observe",
+          "theme": {
+            "class": "bird",
+            "sub": "bird"
+          },
+          "time": "as the rite ends"
+        }
+      ]
+    }
+  ]
+}

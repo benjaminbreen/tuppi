@@ -57,7 +57,14 @@ const excerpts = {
     "they offer the three sheep to all the gods."
   ],
   pulisa: read(path.join(root, "scripts/ritual-excerpts/pulisa.json")),
-  tunnawiya: read(path.join(root, "scripts/ritual-excerpts/tunnawiya.json"))
+  tunnawiya: read(path.join(root, "scripts/ritual-excerpts/tunnawiya.json")),
+  dandanku: read(path.join(root, "scripts/ritual-excerpts/dandanku.json")),
+  paskuwatti: read(path.join(root, "scripts/ritual-excerpts/paskuwatti.json")),
+  zarpiya: read(path.join(root, "scripts/ritual-excerpts/zarpiya.json")),
+  maddunani: read(path.join(root, "scripts/ritual-excerpts/maddunani.json")),
+  zelliya: read(path.join(root, "scripts/ritual-excerpts/zelliya.json")),
+  tapalazunauli: read(path.join(root, "scripts/ritual-excerpts/tapalazunauli.json")),
+  ummaya: read(path.join(root, "scripts/ritual-excerpts/ummaya.json"))
 };
 
 const additionalExcerpts = {
@@ -107,6 +114,20 @@ const catalog = read(path.join(dataDir, "catalog.json"));
 const result = {};
 for (const entry of catalog) {
   const edition = read(path.join(dataDir, `${entry.id}.json`));
+  if (entry.corpusId === "cmawro") {
+    const source = read(path.join(root, "public/data/corpora/cmawro/texts", `${edition.sourceTextId}.json`));
+    const byLabel = new Map(source.lines.map((line) => [line.label, line]));
+    for (const step of edition.steps) {
+      result[`${entry.id}/${step.id}`] = step.attestations.map((attestation) => {
+        const line = byLabel.get(attestation.anchor.label);
+        if (!line || line.ref !== attestation.anchor.ref) throw new Error(`${entry.id}/${step.id}: missing CMAwRo source line ${attestation.anchor.label}`);
+        return { ...attestation, original: line.words.map((word) => word.reading).join(" "), language: edition.sourceTextId === "Q005063" ? "sux-akk" : "akk" };
+      });
+    }
+    continue;
+  }
+  const excerptFile = path.join(root, "scripts/ritual-excerpts", `${entry.id}.json`);
+  if (!excerpts[entry.id] && fs.existsSync(excerptFile)) excerpts[entry.id] = read(excerptFile);
   if (excerpts[entry.id]?.length !== edition.steps.length) throw new Error(`${entry.id}: missing curated English excerpts`);
   for (const step of edition.steps) {
     const preferred = step.attestations.find((a) => getTranslation(a.doc));

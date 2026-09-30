@@ -1,0 +1,130 @@
+{
+  "potency-catch-partridge": {
+    "title": "Catch a male partridge",
+    "description": "Catch a named live bird or animal as a remedy ingredient.",
+    "actionType": "gather-remedy-material",
+    "unitType": "act",
+    "visualAssetId": "potency-catch-partridge",
+    "matchRule": "Catch a live animal named as a remedy ingredient; record species and season on the occurrence."
+  },
+  "potency-pluck-strangle": {
+    "title": "Pluck and strangle the partridge",
+    "description": "Pluck a bird and kill it for use as a remedy ingredient.",
+    "actionType": "kill-animal",
+    "unitType": "act",
+    "visualAssetId": "potency-pluck-strangle",
+    "matchRule": "Pluck and kill a bird whose body becomes a remedy ingredient, not an offering."
+  },
+  "potency-salt-dry": {
+    "title": "Salt and dry the bird",
+    "description": "Salt or smear an ingredient and dry it.",
+    "actionType": "dry-material",
+    "unitType": "act",
+    "visualAssetId": "potency-salt-dry",
+    "matchRule": "Salt and dry a remedy ingredient before crushing."
+  },
+  "potency-crush-with-thorn": {
+    "title": "Crush with thorn seed",
+    "description": "Crush dried ingredients together into a powder.",
+    "actionType": "crush-material",
+    "unitType": "act",
+    "visualAssetId": "potency-crush-with-thorn",
+    "matchRule": "Crush named dried ingredients for a remedy."
+  },
+  "potency-drink-in-beer": {
+    "title": "Give it to drink in beer",
+    "description": "Give a crushed remedy to the patient to drink in a named liquid.",
+    "actionType": "give-remedy",
+    "unitType": "act",
+    "visualAssetId": "potency-drink-in-beer",
+    "matchRule": "Give a prepared remedy to the patient to drink; record the liquid (beer, water, wine) on the occurrence."
+  },
+  "potency-blood-into-water": {
+    "title": "Let the blood fall into water",
+    "description": "Let the blood of an animal fall into water to make a remedy.",
+    "actionType": "mix-remedy",
+    "unitType": "act",
+    "visualAssetId": "potency-blood-into-water",
+    "matchRule": "Drain animal blood into water as a remedy base."
+  },
+  "potency-water-under-stars": {
+    "title": "Leave the water under the stars",
+    "description": "Leave a liquid remedy out overnight under the stars.",
+    "actionType": "expose-overnight",
+    "unitType": "act",
+    "visualAssetId": "potency-water-under-stars",
+    "matchRule": "Leave a remedy outdoors overnight; the stars or night must be stated."
+  },
+  "potency-wrap-in-wool": {
+    "title": "Wrap in wool",
+    "description": "Wrap remedy ingredients in wool as a bundle to be worn or placed.",
+    "actionType": "wrap-amulet-materials",
+    "unitType": "act",
+    "visualAssetId": "potency-wrap-in-wool",
+    "matchRule": "Wrap remedy ingredients in wool; record the source of the wool."
+  },
+  "potency-smear-salt-plant": {
+    "title": "Smear with salt and nīnû-plant",
+    "description": "Smear a bird with salt and a named plant before drying.",
+    "actionType": "dry-material",
+    "unitType": "act",
+    "visualAssetId": "potency-smear-salt-plant",
+    "matchRule": "Smear an ingredient with salt and a plant before drying it."
+  },
+  "potency-mix-roasted-flour": {
+    "title": "Mix with roasted-grain flour",
+    "description": "Mix a crushed ingredient with flour.",
+    "actionType": "mix-remedy",
+    "unitType": "act",
+    "visualAssetId": "potency-mix-roasted-flour",
+    "matchRule": "Mix a crushed remedy ingredient with a named flour."
+  },
+  "potency-form-pellets": {
+    "title": "Form pellets",
+    "description": "Crush ingredients, mix with flour and shape into pellets.",
+    "actionType": "mix-remedy",
+    "unitType": "act",
+    "visualAssetId": "potency-form-pellets",
+    "matchRule": "Shape a crushed remedy mixture into pellets."
+  },
+  "potency-bind-on-hips": {
+    "title": "Bind on the hips",
+    "description": "Tie a remedy bundle on the patient’s body.",
+    "actionType": "place-amulet-on-patient",
+    "unitType": "act",
+    "visualAssetId": "potency-bind-on-hips",
+    "matchRule": "Tie or bind a prepared bundle onto a named part of the patient’s body."
+  },
+  "potency-rinse-body": {
+    "title": "Rinse with water and kasû",
+    "description": "Rinse the patient’s body with water and a plant.",
+    "actionType": "wash-body",
+    "unitType": "act",
+    "visualAssetId": "potency-rinse-body",
+    "matchRule": "Rinse the patient’s whole body with a named liquid and plant."
+  },
+  "potency-anoint-oil": {
+    "title": "Anoint repeatedly with oil",
+    "description": "Rub oil containing a remedy onto the patient.",
+    "actionType": "anoint-body",
+    "unitType": "act",
+    "visualAssetId": "potency-anoint-oil",
+    "matchRule": "Anoint the patient with a named oil or remedy."
+  },
+  "potency-sumerian-incantation": {
+    "title": "Recite the Sumerian incantation",
+    "description": "Recite a prescribed incantation as part of a medical prescription.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "potency-sumerian-incantation",
+    "matchRule": "Recite an incantation belonging to a medical prescription."
+  },
+  "potency-crush-decoct-sinews": {
+    "title": "Crush and decoct the sinews",
+    "description": "Crush animal parts between stones and boil them down.",
+    "actionType": "crush-material",
+    "unitType": "act",
+    "visualAssetId": "potency-crush-decoct-sinews",
+    "matchRule": "Crush remedy ingredients and decoct them."
+  }
+}

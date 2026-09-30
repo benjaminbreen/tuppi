@@ -1,0 +1,125 @@
+[
+  {
+    "id": "Q004189",
+    "unit": "1.5.1",
+    "status": "mapped",
+    "ritualId": "cmawro-q004189-1-5-1",
+    "reason": "Seven source-anchored actions; tests figurine making, burning and disposal."
+  },
+  {
+    "id": "Q005063",
+    "unit": "8.18",
+    "status": "mapped",
+    "ritualId": "cmawro-q005063-8-18",
+    "reason": "Eight source-anchored actions in a bilingual Sumerian–Akkadian text."
+  },
+  {
+    "id": "Q004216",
+    "unit": "8.1",
+    "status": "candidate",
+    "reason": "Long figurine-piercing text for comparison with the two mapped rites."
+  },
+  {
+    "id": "Q004217",
+    "unit": "8.2",
+    "status": "candidate",
+    "reason": "Long figurine-burning text with a different stated aim."
+  },
+  {
+    "id": "Q004218",
+    "unit": "8.3.1",
+    "status": "candidate",
+    "reason": "Extensive text combining figurine burning and patient purification."
+  },
+  {
+    "id": "Q005039",
+    "unit": "3.4.2",
+    "status": "candidate",
+    "reason": "Another numbered prescription in the same master text as the existing 3.4.1 pilot."
+  },
+  {
+    "id": "Q007432",
+    "unit": "6.1.1",
+    "status": "candidate",
+    "reason": "Long stone-amulet text for a contrast with figurine rites."
+  },
+  {
+    "id": "Q004223",
+    "unit": "8.7.2",
+    "status": "candidate",
+    "reason": "Memorandum version suitable for testing variant procedure boundaries."
+  },
+  {
+    "id": "Q005109",
+    "unit": "11.3.1",
+    "status": "mapped",
+    "reason": "Namburbi material broadens the set of ritual types.",
+    "ritualId": "cmawro-q005109-11-3-1"
+  },
+  {
+    "id": "Q004235",
+    "unit": "10.2",
+    "status": "candidate",
+    "reason": "Star-directed zikurudû rite broadens the setting and actions."
+  },
+  {
+    "id": "Q004236",
+    "unit": "10.3.1",
+    "status": "candidate",
+    "reason": "Long set of zikurudû prescriptions with potential subprocedure boundaries."
+  },
+  {
+    "id": "Q005064",
+    "unit": "8.19.1",
+    "status": "candidate",
+    "reason": "Old Babylonian house rite adds a distinct setting and witness period."
+  },
+  {
+    "id": "Q005077",
+    "unit": "8.32.1",
+    "status": "candidate",
+    "reason": "Figurine burning before Šamaš is directly comparable with mapped actions."
+  },
+  {
+    "id": "Q005078",
+    "unit": "8.33",
+    "status": "candidate",
+    "reason": "Figurine burial offers a disposal contrast to burning and river release."
+  },
+  {
+    "id": "Q005069",
+    "unit": "8.24.1",
+    "status": "candidate",
+    "reason": "Diviner's bowl may add a different object-centered procedure."
+  },
+  {
+    "id": "Q004185",
+    "unit": "2.2.1",
+    "status": "candidate",
+    "reason": "Long Boğazköy therapy collection for checking distinct procedure boundaries."
+  },
+  {
+    "id": "Q004194",
+    "unit": "2.3.1",
+    "status": "candidate",
+    "reason": "Long Nineveh therapy collection for comparing materials and treatment."
+  },
+  {
+    "id": "Q005040",
+    "unit": "3.5.1",
+    "status": "candidate",
+    "reason": "Necklace and pouch text for comparison with the 3.4.1 pilot."
+  },
+  {
+    "id": "Q005071",
+    "unit": "8.26",
+    "status": "candidate",
+    "reason": "Ghost-dispelling text adds a different stated affliction."
+  },
+  {
+    "id": "Q005062",
+    "unit": "8.17",
+    "status": "candidate",
+    "reason": "Figurine rite before Utu is adjacent in the source series to mapped 8.18."
+  }
+]

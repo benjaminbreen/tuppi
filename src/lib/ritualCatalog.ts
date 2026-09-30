@@ -5,7 +5,9 @@ export interface RitualCatalogEntry {
   id: string;
   path: string;
   title: string;
-  cth: number;
+  corpusId: "tlhdig-hittite" | "cmawro";
+  cth: number | null;
+  sourceLabel: string;
   concern: string;
   region: string;
   tags: string[];
@@ -16,6 +18,11 @@ export interface RitualCatalogEntry {
   searchTerms: string[];
 }
 
-export const RITUAL_CATALOG: RitualCatalogEntry[] = catalog;
+type CatalogSourceEntry = Omit<RitualCatalogEntry, "corpusId" | "sourceLabel"> & Partial<Pick<RitualCatalogEntry, "corpusId" | "sourceLabel">>;
+export const RITUAL_CATALOG: RitualCatalogEntry[] = (catalog as CatalogSourceEntry[]).map((entry) => ({
+  ...entry,
+  corpusId: entry.corpusId === "cmawro" ? "cmawro" as const : "tlhdig-hittite" as const,
+  sourceLabel: entry.sourceLabel ?? `CTH ${entry.cth}`,
+}));
 
 export const RITUAL_CONCERNS = [...new Set(RITUAL_CATALOG.map((ritual) => ritual.concern))].sort();

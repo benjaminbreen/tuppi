@@ -2,5 +2,13 @@
   "avert-plague": "Protect a person or group from plague by sending it away or making offerings.",
   "undo-bewitchment": "Reverse bewitchment and return its harm to its maker.",
   "cleanse-impurity": "Remove an impure condition from the ritual patient.",
-  "seek-descendants": "Ask for children and further descendants through a fertility analogy."
+  "seek-descendants": "Ask for children and further descendants through a fertility analogy.",
+  "restore-procreative-power": "Seek the restoration of procreative power and descendants through offerings and appeals.",
+  "tend-dead": "Perform rites for a person who has died.",
+  "avert-harm": "Send an unwanted condition away from the affected person or group.",
+  "heal-illness": "Remove a bodily illness, or the agent that has seized the patient, and restore health.",
+  "appease-angry-god": "Reconcile a god angered by a specific offence, such as a broken oath or neglected offering, by confession, restitution and plea, so that the god's punishment ceases.",
+  "secure-army-victory": "Strengthen one's own army and cool or seize the enemy's forces in a campaign.",
+  "restore-potency": "Restore a man’s sexual potency by administering prescribed remedies.",
+  "restore-health": "Cure a named bodily ailment by administering prescribed remedies, with fallbacks if the patient does not recover."
 }

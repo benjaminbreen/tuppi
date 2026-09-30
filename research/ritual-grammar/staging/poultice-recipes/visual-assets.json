@@ -1,0 +1,44 @@
+{
+  "poultice-crush-plants": {
+    "src": "/rituals/_pending.png",
+    "subject": "Crush the plants and mix them as one",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a healer pounding dried plants and juniper berries in a stone mortar. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "poultice-boil-mixture": {
+    "src": "/rituals/_pending.png",
+    "subject": "Boil the mixture in kasû-juice",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a clay pot over a small fire with a thick herbal mixture simmering in it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "poultice-bandage": {
+    "src": "/rituals/_pending.png",
+    "subject": "Keep bandaging the patient",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a healer wrapping a cloth bandage spread with brown herbal paste around a seated man's limb. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "poultice-mix-emmer": {
+    "src": "/rituals/_pending.png",
+    "subject": "Mix the aromatics with emmer flour",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands mixing crushed aromatic plants into a bowl of flour. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "poultice-mix-ghee-beer": {
+    "src": "/rituals/_pending.png",
+    "subject": "Mix seeds with ghee and beer and bandage",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands mixing seeds into a bowl of ghee while beer is poured in. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "poultice-perform-purification": {
+    "src": "/rituals/_pending.png",
+    "subject": "Perform a purification for the sick man",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a healer standing beside a seated sick man, holding a small bowl for purification. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  }
+}

@@ -1,0 +1,107 @@
+{
+ "take-provisions": [
+  {
+   "verb": "take",
+   "theme": {
+    "class": "animal",
+    "sub": "puppy",
+    "count": 2
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "animal",
+    "sub": "piglet"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "food",
+    "sub": "bread",
+    "count": 12
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "food",
+    "sub": "grain"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "vessel",
+    "sub": "cup",
+    "count": 6
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "drink",
+    "sub": "wine"
+   }
+  }
+ ],
+ "prepare-at-night": [
+  {
+   "verb": "place",
+   "theme": {
+    "class": "materials",
+    "sub": "provisions"
+   },
+   "time": "at night"
+  }
+ ],
+ "move-through-camp": [
+  {
+   "verb": "pass",
+   "agent": {
+    "class": "person",
+    "sub": "practitioner"
+   },
+   "location": "army camp",
+   "time": "daybreak"
+  },
+  {
+   "verb": "pass",
+   "agent": {
+    "class": "person",
+    "sub": "old man"
+   },
+   "location": "army camp"
+  }
+ ],
+ "speak-in-camp": [
+  {
+   "verb": "speak",
+   "act": "dismissal",
+   "about": {
+    "class": "harm",
+    "sub": "evil"
+   },
+   "note": "damaged; mentions evil person and evil bird; act uncertain"
+  }
+ ],
+ "watch-bird-omens": [
+  {
+   "verb": "observe",
+   "theme": {
+    "class": "bird",
+    "sub": "bird"
+   },
+   "time": "as the rite begins"
+  },
+  {
+   "verb": "observe",
+   "theme": {
+    "class": "bird",
+    "sub": "bird"
+   },
+   "time": "as the rite ends"
+  }
+ ]
+}

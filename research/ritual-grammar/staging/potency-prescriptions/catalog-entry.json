@@ -1,0 +1,38 @@
+{
+  "concern": "Potency",
+  "region": "Babylonia (copied at Ḫattuša)",
+  "tags": [
+    "Medicine",
+    "Potency",
+    "Akkadian",
+    "Incantation"
+  ],
+  "sources": "KUB 4.48",
+  "description": "A male partridge is caught, dried and crushed into beer; waters stand overnight under the stars; wool bundles, pellets and oil complete the treatments.",
+  "searchTerms": [
+    "partridge",
+    "potency",
+    "ŠÀ.ZI.GA",
+    "beer",
+    "salt",
+    "crush",
+    "stars",
+    "roof",
+    "wool",
+    "pellets",
+    "oil",
+    "anoint",
+    "incantation",
+    "Akkadian",
+    "Babylonian medicine",
+    "remedy"
+  ],
+  "id": "potency-prescriptions",
+  "path": "/rituals/potency-prescriptions",
+  "title": "Prescriptions for potency",
+  "cth": 802,
+  "images": [
+    "/rituals/_pending.png"
+  ],
+  "stepCount": 17
+}

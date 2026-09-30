@@ -1,0 +1,310 @@
+[
+  {
+    "id": "cmawro:abnu",
+    "corpusId": "cmawro",
+    "lemma": "abnu",
+    "gloss": "stone; twelve named stones are listed",
+    "class": "mineral",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:11–16"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:qû-kitû",
+    "corpusId": "cmawro",
+    "lemma": "qû kitû",
+    "gloss": "flax thread or cord",
+    "class": "plant",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:16"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:tarmuš",
+    "corpusId": "cmawro",
+    "lemma": "tarmuš",
+    "gloss": "lupine",
+    "class": "plant",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:17"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:imḫur-līm",
+    "corpusId": "cmawro",
+    "lemma": "imḫur-līm",
+    "gloss": "‘heals-a-thousand’ plant; botanical identity unresolved",
+    "class": "plant",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:17"
+    },
+    "identification": "unidentified"
+  },
+  {
+    "id": "cmawro:imḫur-ešrā",
+    "corpusId": "cmawro",
+    "lemma": "imḫur-ešrā",
+    "gloss": "‘heals-twenty’ plant; botanical identity unresolved",
+    "class": "plant",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:17"
+    },
+    "identification": "unidentified"
+  },
+  {
+    "id": "cmawro:bīnu",
+    "corpusId": "cmawro",
+    "lemma": "bīnu",
+    "gloss": "tamarisk",
+    "class": "plant",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:18"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:erēnu",
+    "corpusId": "cmawro",
+    "lemma": "erēnu",
+    "gloss": "cedar",
+    "class": "plant",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:18"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:šipātu",
+    "corpusId": "cmawro",
+    "lemma": "šipātu",
+    "gloss": "wool",
+    "class": "animal",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:18"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:mašku",
+    "corpusId": "cmawro",
+    "lemma": "mašku",
+    "gloss": "skin or leather",
+    "class": "animal",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:18"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:iškūru",
+    "corpusId": "cmawro",
+    "lemma": "iškūru",
+    "gloss": "wax, in a parenthetical witness variant",
+    "class": "other",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q004189",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr1/Q004189",
+      "locus": "1.5.1:12′"
+    },
+    "identification": "tentative"
+  },
+  {
+    "id": "cmawro:lipû",
+    "corpusId": "cmawro",
+    "lemma": "lipû",
+    "gloss": "tallow",
+    "class": "animal",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q004189",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr1/Q004189",
+      "locus": "1.5.1:14′"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:ḫupû",
+    "corpusId": "cmawro",
+    "lemma": "ḫupû",
+    "gloss": "disposable pot",
+    "class": "other",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q004189",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr1/Q004189",
+      "locus": "1.5.1:15′"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:im",
+    "corpusId": "cmawro",
+    "lemma": "im",
+    "gloss": "clay",
+    "class": "other",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005063",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+      "locus": "8.18:9′"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:niŋ-sila₁₁-ŋa₂",
+    "corpusId": "cmawro",
+    "lemma": "niŋ-sila₁₁-ŋa₂",
+    "gloss": "dough",
+    "class": "food",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005063",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+      "locus": "8.18:9′"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:i₃-udu",
+    "corpusId": "cmawro",
+    "lemma": "i₃-udu",
+    "gloss": "tallow",
+    "class": "animal",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005063",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+      "locus": "8.18:9′"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:esir",
+    "corpusId": "cmawro",
+    "lemma": "esir",
+    "gloss": "bitumen",
+    "class": "mineral",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005063",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+      "locus": "8.18:9′"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:DUḪ-lal₃",
+    "corpusId": "cmawro",
+    "lemma": "DUḪ-lal₃",
+    "gloss": "wax",
+    "class": "animal",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005063",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+      "locus": "8.18:9′"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:šimli",
+    "corpusId": "cmawro",
+    "lemma": "šimli",
+    "gloss": "li-juniper",
+    "class": "plant",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005063",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+      "locus": "8.18:13′"
+    },
+    "identification": "tentative"
+  },
+  {
+    "id": "cmawro:ŋeštin-sur-ra",
+    "corpusId": "cmawro",
+    "lemma": "ŋeštin-sur-ra",
+    "gloss": "grape must",
+    "class": "food",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005063",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+      "locus": "8.18:14′"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:šinig",
+    "corpusId": "cmawro",
+    "lemma": "šinig",
+    "gloss": "tamarisk",
+    "class": "plant",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005063",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+      "locus": "8.18:17′"
+    },
+    "identification": "source-gloss"
+  },
+  {
+    "id": "cmawro:in-nu-uš",
+    "corpusId": "cmawro",
+    "lemma": "in-nu-uš",
+    "gloss": "innu-š soapwort; botanical identity uncertain",
+    "class": "plant",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005063",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+      "locus": "8.18:17′"
+    },
+    "identification": "tentative"
+  },
+  {
+    "id": "cmawro:eren-babbar",
+    "corpusId": "cmawro",
+    "lemma": "eren babbar",
+    "gloss": "white cedar; species identification uncertain",
+    "class": "plant",
+    "source": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005063",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+      "locus": "8.18:17′"
+    },
+    "identification": "tentative"
+  }
+]

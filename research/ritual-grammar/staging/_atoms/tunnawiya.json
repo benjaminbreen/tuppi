@@ -1,0 +1,555 @@
+{
+ "prepare-black-animals": [
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "piglet",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "puppy",
+    "f": {
+     "color": "black"
+    }
+   }
+  }
+ ],
+ "set-out-black-clothes": [
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "garment",
+    "sub": "shirt",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "garment",
+    "sub": "leggings",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "garment",
+    "sub": "shoes",
+    "f": {
+     "color": "black"
+    }
+   }
+  }
+ ],
+ "offer-at-riverbank": [
+  {
+   "verb": "offer",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Mother-goddess"
+   },
+   "location": "riverbank"
+  },
+  {
+   "verb": "pour",
+   "theme": {
+    "class": "drink",
+    "sub": "wine"
+   },
+   "location": "riverbank"
+  }
+ ],
+ "address-riverbank-goddess": [
+  {
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "Mother-goddess"
+   },
+   "about": {
+    "class": "clay"
+   }
+  }
+ ],
+ "collect-river-clay": [
+  {
+   "verb": "collect",
+   "theme": {
+    "class": "clay"
+   },
+   "source": "riverbank"
+  }
+ ],
+ "offer-at-spring": [
+  {
+   "verb": "offer",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   },
+   "location": "spring"
+  },
+  {
+   "verb": "pour",
+   "theme": {
+    "class": "drink",
+    "sub": "wine"
+   },
+   "location": "spring"
+  }
+ ],
+ "collect-spring-clay": [
+  {
+   "verb": "speak",
+   "act": "analogy",
+   "addressee": {
+    "class": "place",
+    "sub": "spring"
+   },
+   "about": {
+    "class": "harm",
+    "sub": "impurity"
+   }
+  },
+  {
+   "verb": "collect",
+   "theme": {
+    "class": "clay"
+   },
+   "source": "spring"
+  }
+ ],
+ "build-reed-hut": [
+  {
+   "verb": "build",
+   "theme": {
+    "class": "structure",
+    "sub": "hut",
+    "f": {
+     "material": "reed"
+    }
+   },
+   "location": "riverside"
+  }
+ ],
+ "make-clay-figures": [
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "clay"
+   },
+   "result": "tongue x12"
+  },
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "clay"
+   },
+   "result": "ox x2"
+  }
+ ],
+ "dress-in-black": [
+  {
+   "verb": "dress",
+   "theme": {
+    "class": "garment",
+    "f": {
+     "color": "black"
+    }
+   },
+   "on": {
+    "class": "person",
+    "sub": "patient"
+   }
+  }
+ ],
+ "hold-black-sheep": [
+  {
+   "verb": "hold-over",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep",
+    "f": {
+     "color": "black"
+    }
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "dismissal",
+   "about": {
+    "class": "harm",
+    "sub": "impurity"
+   }
+  }
+ ],
+ "hold-piglet": [
+  {
+   "verb": "hold-over",
+   "theme": {
+    "class": "animal",
+    "sub": "piglet"
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  }
+ ],
+ "hold-puppy": [
+  {
+   "verb": "hold-over",
+   "theme": {
+    "class": "animal",
+    "sub": "puppy"
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  }
+ ],
+ "hold-clay-tongue": [
+  {
+   "verb": "hold-over",
+   "theme": {
+    "class": "figure",
+    "sub": "tongue",
+    "f": {
+     "material": "clay"
+    }
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  }
+ ],
+ "melt-figures": [
+  {
+   "verb": "hold-over",
+   "theme": {
+    "class": "figure",
+    "f": {
+     "material": "wax"
+    }
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "declaration",
+   "about": {
+    "class": "figure"
+   }
+  },
+  {
+   "verb": "melt",
+   "theme": {
+    "class": "figure",
+    "f": {
+     "material": "wax"
+    }
+   }
+  },
+  {
+   "verb": "melt",
+   "theme": {
+    "class": "figure",
+    "f": {
+     "material": "tallow"
+    }
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "analogy",
+   "about": {
+    "class": "harm",
+    "sub": "sorcery"
+   }
+  }
+ ],
+ "wash-hands-wine": [
+  {
+   "verb": "wash",
+   "theme": {
+    "class": "body",
+    "sub": "hands"
+   },
+   "medium": "wine"
+  }
+ ],
+ "wash-with-water": [
+  {
+   "verb": "wash",
+   "theme": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "medium": "water"
+  }
+ ],
+ "remove-coloured-wool": [
+  {
+   "verb": "detach",
+   "theme": {
+    "class": "wool",
+    "f": {
+     "colors": [
+      "blue",
+      "red"
+     ]
+    }
+   },
+   "from": {
+    "class": "person",
+    "sub": "patient"
+   }
+  }
+ ],
+ "strip-black-clothes": [
+  {
+   "verb": "cut",
+   "theme": {
+    "class": "garment",
+    "sub": "shirt",
+    "f": {
+     "color": "black"
+    }
+   }
+  },
+  {
+   "verb": "undress",
+   "theme": {
+    "class": "garment",
+    "f": {
+     "color": "black"
+    }
+   },
+   "from": {
+    "class": "person",
+    "sub": "patient"
+   }
+  }
+ ],
+ "smash-empty-pot": [
+  {
+   "verb": "hold-over",
+   "theme": {
+    "class": "vessel",
+    "sub": "pot",
+    "f": {
+     "empty": true
+    }
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "verb": "break",
+   "theme": {
+    "class": "vessel",
+    "sub": "pot"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "dismissal",
+   "about": {
+    "class": "harm",
+    "sub": "impurity"
+   }
+  }
+ ],
+ "bathe-over-figure": [
+  {
+   "verb": "place",
+   "theme": {
+    "class": "figure",
+    "f": {
+     "material": "clay"
+    }
+   },
+   "location": "under feet"
+  },
+  {
+   "verb": "wash",
+   "theme": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "medium": "water"
+  }
+ ],
+ "comb-down": [
+  {
+   "verb": "comb",
+   "theme": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "instrument": "boxwood comb"
+  }
+ ],
+ "release-into-river": [
+  {
+   "verb": "release",
+   "theme": {
+    "class": "materials"
+   },
+   "goal": "river"
+  }
+ ],
+ "burn-small-animals": [
+  {
+   "verb": "burn",
+   "theme": {
+    "class": "animal",
+    "sub": "piglet"
+   },
+   "location": "uncultivated ground"
+  },
+  {
+   "verb": "burn",
+   "theme": {
+    "class": "animal",
+    "sub": "puppy"
+   }
+  }
+ ],
+ "pass-through-gate": [
+  {
+   "verb": "pass",
+   "theme": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "boundary": "beneath the alanza-wood gate"
+  },
+  {
+   "verb": "speak",
+   "act": "analogy",
+   "about": {
+    "class": "structure",
+    "sub": "gate"
+   }
+  }
+ ],
+ "return-river-offering": [
+  {
+   "verb": "offer",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   },
+   "location": "riverbank"
+  }
+ ],
+ "take-cow-by-horn": [
+  {
+   "verb": "touch",
+   "theme": {
+    "class": "animal",
+    "sub": "cow",
+    "f": {
+     "part": "horn"
+    }
+   }
+  }
+ ],
+ "wish-for-offspring": [
+  {
+   "verb": "speak",
+   "act": "analogy",
+   "addressee": {
+    "class": "deity",
+    "sub": "Sun-god"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "cow"
+   }
+  }
+ ],
+ "touch-fruit-tree": [
+  {
+   "verb": "touch",
+   "theme": {
+    "class": "tree",
+    "sub": "fruit tree"
+   }
+  }
+ ],
+ "wish-by-tree": [
+  {
+   "verb": "speak",
+   "act": "analogy",
+   "addressee": {
+    "class": "deity",
+    "sub": "Sun-god"
+   },
+   "about": {
+    "class": "tree",
+    "sub": "fruit tree"
+   }
+  }
+ ],
+ "libate-sun-god": [
+  {
+   "verb": "pour",
+   "theme": {
+    "class": "drink",
+    "sub": "wine"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Sun-god"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "Sun-god"
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+  "cmawro-q004239-11-1-1-pound-paste": {
+    "title": "Pound sulphur, gypsum and red paste together",
+    "description": "Sulphur, gypsum and red paste are pounded together into a mixture.",
+    "actionType": "pound-ingredients",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q004239-11-1-1-01"
+  },
+  "cmawro-q004239-11-1-1-recite-tear-out-sorcery": {
+    "title": "Recite \"Furious, furious … tear out the sorcery\"",
+    "description": "The incantation \"Furious, furious, arisen evil …\" ends with a command to tear out the sorcery.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "cmawro-q004239-11-1-1-02"
+  },
+  "cmawro-q004239-11-1-1-recite-into-paste-and-smear-jamb": {
+    "title": "Recite into the paste; apply it to the door-jamb",
+    "description": "The incantation is recited three times into the mixture, which goes on the door-jamb of the man's house gate.",
+    "actionType": "anoint-door",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q004239-11-1-1-03"
+  },
+  "cmawro-q004239-11-1-1-wash-off-into-cloth": {
+    "title": "Wash the paste off with silt into a cloth",
+    "description": "Afterwards the mixture is washed off with silt, into a cloth trimming, and the harm is released.",
+    "actionType": "wash-off-door",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q004239-11-1-1-04"
+  },
+  "cmawro-q004239-11-1-1-wrap-sulphur-oil-in-fleece": {
+    "title": "Wrap sulphur and oil in combed fleece",
+    "description": "An alkaline plant, henbane(?) and a good mixture, with sulphur and oil, are enclosed in combed fleece.",
+    "actionType": "wrap-in-fleece",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q004239-11-1-1-05"
+  },
+  "cmawro-q004239-11-1-1-bury-at-gate-and-socket": {
+    "title": "Bury it at the outer gate and door socket",
+    "description": "The fleece deposit is buried at the outer gate and at the door's pivot socket, so that the sorcery is lost and cannot come near the man and his house.",
+    "actionType": "bury-at-threshold",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q004239-11-1-1-06"
+  }
+}

@@ -1,0 +1,331 @@
+{
+ "arrange-figures": [
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "clay"
+   },
+   "result": {
+    "class": "figure",
+    "sub": "figure",
+    "count": 5,
+    "f": {
+     "material": "clay"
+    }
+   }
+  },
+  {
+   "verb": "shape",
+   "theme": {
+    "class": "clay"
+   },
+   "result": {
+    "class": "figure",
+    "sub": "tongue",
+    "f": {
+     "material": "clay"
+    }
+   }
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "clay"
+    },
+    "ref": "clay-figures"
+   },
+   "location": "before the patient"
+  }
+ ],
+ "seat-patient": [
+  {
+   "verb": "position",
+   "theme": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "manner": "facing the Sun-god"
+  }
+ ],
+ "raise-vessel": [
+  {
+   "verb": "present",
+   "theme": {
+    "class": "vessel",
+    "sub": "naktamu-vessel"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Sun-god"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "practitioner"
+   }
+  },
+  {
+   "verb": "present",
+   "theme": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "clay"
+    },
+    "ref": "clay-figures"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Sun-god"
+   }
+  }
+ ],
+ "return-address": [
+  {
+   "verb": "speak",
+   "act": "invocation",
+   "addressee": {
+    "class": "deity",
+    "sub": "Sun-god"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "dismissal",
+   "addressee": {
+    "class": "deity",
+    "sub": "Sun-god"
+   },
+   "about": {
+    "class": "harm",
+    "sub": "sorcery"
+   },
+   "note": "let the sorcerer take it back for himself"
+  },
+  {
+   "verb": "speak",
+   "act": "assignment",
+   "addressee": {
+    "class": "deity",
+    "sub": "Sun-god"
+   },
+   "about": {
+    "class": "garment",
+    "sub": "headcloth"
+   },
+   "note": "let the headcloth, belt, shoes be hers"
+  }
+ ],
+ "wind-wool": [
+  {
+   "verb": "wind",
+   "theme": {
+    "class": "wool",
+    "sub": "thread",
+    "f": {
+     "colors": [
+      "black",
+      "red",
+      "green",
+      "blue",
+      "white"
+     ]
+    }
+   },
+   "onto": {
+    "class": "figure",
+    "sub": "figure",
+    "f": {
+     "material": "clay"
+    },
+    "ref": "clay-figures"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "declaration",
+   "about": {
+    "class": "harm",
+    "sub": "sorcery"
+   },
+   "note": "I am taking the sorcery from him and giving it back to his master"
+  },
+  {
+   "verb": "speak",
+   "act": "analogy",
+   "about": {
+    "class": "wool",
+    "sub": "thread",
+    "f": {
+     "color": "white"
+    }
+   },
+   "note": "white wool: so let it purify"
+  }
+ ],
+ "set-basket": [
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "container",
+    "sub": "basket"
+   }
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "grain"
+   },
+   "location": {
+    "class": "container",
+    "sub": "basket"
+   }
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "food",
+    "sub": "bread"
+   },
+   "location": {
+    "class": "container",
+    "sub": "basket"
+   }
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "implement",
+    "sub": "bow"
+   },
+   "location": {
+    "class": "container",
+    "sub": "basket"
+   }
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "implement",
+    "sub": "arrow",
+    "count": 3
+   },
+   "location": {
+    "class": "container",
+    "sub": "basket"
+   }
+  },
+  {
+   "verb": "place",
+   "theme": {
+    "class": "container",
+    "sub": "basket"
+   },
+   "location": "beneath the bed"
+  }
+ ],
+ "sleep-over": [
+  {
+   "verb": "sleep",
+   "agent": {
+    "class": "person",
+    "sub": "patient"
+   },
+   "over": {
+    "class": "container",
+    "sub": "basket"
+   }
+  }
+ ],
+ "lift-at-dawn": [
+  {
+   "verb": "take",
+   "theme": {
+    "class": "container",
+    "sub": "basket"
+   },
+   "from": "beneath the bed",
+   "time": "daybreak"
+  },
+  {
+   "verb": "hold-over",
+   "theme": {
+    "class": "container",
+    "sub": "basket"
+   },
+   "over": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "dismissal",
+   "addressee": {
+    "class": "deity",
+    "sub": "dog-man"
+   },
+   "about": {
+    "class": "harm",
+    "sub": "sorcery"
+   },
+   "note": "give these sorceries back to the sorcerous person"
+  },
+  {
+   "verb": "speak",
+   "act": "binding",
+   "about": {
+    "class": "harm",
+    "sub": "sorcery"
+   },
+   "note": "let these lift from him"
+  }
+ ],
+ "press-earth": [
+  {
+   "verb": "press",
+   "theme": {
+    "class": "earth",
+    "sub": "clod"
+   },
+   "to": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "analogy",
+   "about": {
+    "class": "earth",
+    "sub": "clod"
+   },
+   "note": "as this earth purifies, so let it purify this person"
+  }
+ ],
+ "press-dough": [
+  {
+   "verb": "press",
+   "theme": {
+    "class": "dough",
+    "sub": "lump"
+   },
+   "to": {
+    "class": "person",
+    "sub": "patient"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "analogy",
+   "about": {
+    "class": "dough",
+    "sub": "lump"
+   },
+   "note": "as ... keeps alive, so let his limbs live"
+  }
+ ]
+}

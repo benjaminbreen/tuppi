@@ -1,9 +1,28 @@
 {
   "rewrites": [
-    { "source": "/r/:recipe", "destination": "/api/share" },
-    { "source": "/((?!api/|r/|data/|assets/|favicon).*)", "destination": "/index.html" }
+    {
+      "source": "/r/:recipe",
+      "destination": "/api/share"
+    },
+    {
+      "source": "/((?!api/|r/|data/|assets/|favicon).*)",
+      "destination": "/index.html"
+    }
   ],
   "headers": [
-    { "source": "/data/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }] }
-  ]
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "api/compose.js": {
+      "maxDuration": 60
+    }
+  }
 }

@@ -1,0 +1,469 @@
+{
+  "cth": 424,
+  "title": "Plague ritual with Lapana",
+  "shortName": "Lapana plague rite",
+  "eyebrow": "CTH 424.5 · plague in city or land",
+  "dating": {
+    "label": "New Hittite copy",
+    "note": "KUB 41.16 + IBoT 4.309 (join Lorenz 2013) is a New Hittite copy; parallel KBo 22.125. The colophon calls it one complete long tablet.",
+    "sourceUrl": "https://hethport.net/hetkonk/hetkonk_abfrage.php?c=424"
+  },
+  "purpose": "An anonymous rite for when plague arises in a city or land, with a bull, wicker tables, evening fire and offerings to gods including Lapana.",
+  "attribution": "Anonymous",
+  "sourceSummary": "KUB 41.16 + IBoT 4.309 · legible selection",
+  "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+41.16",
+  "editionLabel": "TLHdig: KUB 41.16+",
+  "phases": [
+    {
+      "name": "Prepare",
+      "range": [
+        1,
+        2
+      ],
+      "idea": "A bull and four wicker tables are provided."
+    },
+    {
+      "name": "Evening offering",
+      "range": [
+        3,
+        5
+      ],
+      "idea": "At evening a fire is kindled and raw and cooked portions are offered and burned."
+    },
+    {
+      "name": "Close",
+      "range": [
+        6,
+        7
+      ],
+      "idea": "Bowing to the gods and placing a little in the mouth, three times."
+    }
+  ],
+  "steps": [
+    {
+      "id": "bull",
+      "number": 1,
+      "title": "Provide a bull",
+      "phase": "Prepare",
+      "unitType": "act",
+      "actionType": "bring-animal",
+      "verb": "Provide",
+      "shortDescription": "One bull is listed among the materials.",
+      "patient": "A bull",
+      "actor": "Ritual attendants",
+      "evidence": "KUB 41.16+ §2; the verb governing the bull is lost; the bull's fate is not legible.",
+      "image": {
+        "alt": "A bull",
+        "note": "No slaughter is stated."
+      },
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "bull",
+            "count": 1
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioners"
+          }
+        }
+      ],
+      "shortTitle": "Provide a bull",
+      "summary": "One bull is listed among the materials.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-41-16-plus",
+          "locus": "KUB 41.16+ §2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "lapana-plague-bull"
+    },
+    {
+      "id": "wicker-tables",
+      "number": 2,
+      "title": "Set out four wicker tables",
+      "phase": "Prepare",
+      "unitType": "act",
+      "actionType": "prepare-offering",
+      "verb": "Set out",
+      "shortDescription": "Four wicker tables are listed, apparently for the lord of the city.",
+      "patient": "Wicker tables",
+      "actor": "Ritual attendants",
+      "evidence": "KUB 41.16+ §2; 'lord of the city' is partly restored; the handing-over verb carries a (?). Lapana, daughter of Appaluwa, is named in §3 but the act toward her is unclear and is not modelled.",
+      "image": {
+        "alt": "Four wicker tables",
+        "note": "Table form is reconstructed."
+      },
+      "composition": {
+        "function": "construct-setting",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "structure",
+            "sub": "table",
+            "count": 4,
+            "f": {
+              "material": "wicker"
+            }
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioners"
+          }
+        }
+      ],
+      "shortTitle": "Set out four wicker tables",
+      "summary": "Four wicker tables are listed, apparently for the lord of the city.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-41-16-plus",
+          "locus": "KUB 41.16+ §2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "lapana-plague-wicker-tables"
+    },
+    {
+      "id": "evening-fire",
+      "number": 3,
+      "title": "Kindle a fire in the evening",
+      "phase": "Evening offering",
+      "unitType": "act",
+      "actionType": "prepare-offering",
+      "verb": "Kindle",
+      "shortDescription": "When evening comes they go and kindle a fire.",
+      "patient": "A fire",
+      "actor": "Ritual attendants",
+      "evidence": "KUB 41.16+ §4.",
+      "image": {
+        "alt": "A small fire",
+        "note": "Place unstated."
+      },
+      "composition": {
+        "function": "construct-setting",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "build",
+          "theme": {
+            "class": "fire",
+            "sub": "fire"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioners"
+          },
+          "time": "evening"
+        }
+      ],
+      "shortTitle": "Kindle a fire in the evening",
+      "summary": "When evening comes they go and kindle a fire.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-41-16-plus",
+          "locus": "KUB 41.16+ §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "lapana-plague-evening-fire"
+    },
+    {
+      "id": "raw-cooked",
+      "number": 4,
+      "title": "Offer raw and cooked portions to the gods",
+      "phase": "Evening offering",
+      "unitType": "act",
+      "actionType": "offer-food-drink",
+      "verb": "Offer",
+      "shortDescription": "They offer to the gods and set raw and cooked portions on the ground.",
+      "patient": "Raw and cooked offerings",
+      "actor": "Ritual attendants",
+      "evidence": "KUB 41.16+ §4; the offered substance is lost; 'cooked' is restored.",
+      "image": {
+        "alt": "Raw and cooked meat on the ground",
+        "note": "The substance is not named; depict simple portions."
+      },
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "evening-fire"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "offer",
+          "theme": {
+            "class": "food",
+            "sub": "offering",
+            "f": {
+              "state": "raw"
+            }
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "gods"
+          },
+          "location": "on the ground",
+          "agent": {
+            "class": "person",
+            "sub": "practitioners"
+          }
+        },
+        {
+          "verb": "offer",
+          "theme": {
+            "class": "food",
+            "sub": "offering",
+            "f": {
+              "state": "cooked"
+            }
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "gods"
+          },
+          "location": "on the ground",
+          "agent": {
+            "class": "person",
+            "sub": "practitioners"
+          }
+        }
+      ],
+      "recipient": "the gods",
+      "deityVisualId": "divine-assembly",
+      "deityLabel": "these gods",
+      "shortTitle": "Offer raw and cooked portions to the gods",
+      "summary": "They offer to the gods and set raw and cooked portions on the ground.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-41-16-plus",
+          "locus": "KUB 41.16+ §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "lapana-plague-raw-cooked"
+    },
+    {
+      "id": "burn",
+      "number": 5,
+      "title": "Burn the offering",
+      "phase": "Evening offering",
+      "unitType": "act",
+      "actionType": "burn-animals",
+      "verb": "Burn",
+      "shortDescription": "The passage closes with burning; the object is lost.",
+      "patient": "Unknown (object lost)",
+      "actor": "Ritual attendants",
+      "evidence": "KUB 41.16+ §4; the burned object is lost; the action type is the nearest existing burning category.",
+      "image": {
+        "alt": "Burning on a fire",
+        "note": "Object unknown; illustrate a fire only."
+      },
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "evening-fire"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "materials",
+            "sub": "offering"
+          },
+          "instrument": {
+            "class": "fire",
+            "sub": "fire"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioners"
+          }
+        }
+      ],
+      "shortTitle": "Burn the offering",
+      "summary": "The passage closes with burning; the object is lost.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-41-16-plus",
+          "locus": "KUB 41.16+ §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "lapana-plague-burn"
+    },
+    {
+      "id": "bow",
+      "number": 6,
+      "title": "Bow down to the gods",
+      "phase": "Close",
+      "unitType": "act",
+      "actionType": "offer-food-drink",
+      "verb": "Bow",
+      "shortDescription": "They bow down to the gods.",
+      "patient": "The gods",
+      "actor": "Ritual attendants",
+      "evidence": "KUB 41.16+ §6.",
+      "image": {
+        "alt": "Bowing figures",
+        "note": "Relief type only for the gods."
+      },
+      "composition": {
+        "function": "appease-divinity",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "gesture",
+          "agent": {
+            "class": "person",
+            "sub": "practitioners"
+          },
+          "to": {
+            "class": "deity",
+            "sub": "gods"
+          },
+          "manner": "bowing down"
+        }
+      ],
+      "recipient": "the gods",
+      "deityVisualId": "divine-assembly",
+      "deityLabel": "the gods",
+      "shortTitle": "Bow down to the gods",
+      "summary": "They bow down to the gods.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-41-16-plus",
+          "locus": "KUB 41.16+ §6",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 5
+          }
+        }
+      ],
+      "unitId": "lapana-plague-bow"
+    },
+    {
+      "id": "in-mouth",
+      "number": 7,
+      "title": "Place a little in the mouth, three times",
+      "phase": "Close",
+      "unitType": "act",
+      "actionType": "offer-food-drink",
+      "verb": "Place",
+      "shortDescription": "A little of something is placed in the mouth; the act is repeated three times.",
+      "patient": "Unknown (object lost)",
+      "actor": "Ritual attendants",
+      "evidence": "KUB 41.16+ §6; whose mouth, and what is placed, are lost.",
+      "image": {
+        "alt": "Placing a morsel in a mouth",
+        "note": "Object and recipient unknown."
+      },
+      "composition": {
+        "function": "make-offering",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "materials",
+            "sub": "portion",
+            "f": {
+              "amount": "a little"
+            }
+          },
+          "goal": {
+            "class": "body",
+            "sub": "mouth",
+            "f": {
+              "part": "mouth"
+            }
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioners"
+          },
+          "manner": "three times"
+        }
+      ],
+      "shortTitle": "Place a little in the mouth, three times",
+      "summary": "A little of something is placed in the mouth; the act is repeated three times.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-41-16-plus",
+          "locus": "KUB 41.16+ §6",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 5
+          }
+        }
+      ],
+      "unitId": "lapana-plague-in-mouth"
+    }
+  ],
+  "variants": [],
+  "id": "lapana-plague"
+}

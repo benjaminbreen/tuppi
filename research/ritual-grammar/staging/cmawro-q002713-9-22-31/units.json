@@ -1,0 +1,51 @@
+{
+  "cmawro-q002713-9-22-31-draw-circle-round-crucible": {
+    "title": "Draw a magic circle round the crucible",
+    "description": "A magic circle is drawn around the crucible.",
+    "actionType": "draw-magic-circle",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q002713-9-22-31-01"
+  },
+  "cmawro-q002713-9-22-31-arrange-figures-in-crucible": {
+    "title": "Arrange figures of nine materials in the crucible",
+    "description": "Figures of tamarisk, cedar, tallow, wax, husks, bitumen, gypsum, clay and dough are placed in order in the crucible.",
+    "actionType": "arrange-figures",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q002713-9-22-31-02"
+  },
+  "cmawro-q002713-9-22-31-identify-figures-as-doer": {
+    "title": "Point at the figures and name them as the doer",
+    "description": "Reciting the incantation \"this effigy of the doer\", the practitioner stretches a finger toward the figures.",
+    "actionType": "gesture-at-figures",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q002713-9-22-31-03"
+  },
+  "cmawro-q002713-9-22-31-set-torch-on-fat-figures": {
+    "title": "Put a torch on the tallow and wax figures",
+    "description": "With a further incantation, a torch is put on the tallow and wax figures.",
+    "actionType": "set-torch-on-figures",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q002713-9-22-31-04"
+  },
+  "cmawro-q002713-9-22-31-insert-woods-and-reed": {
+    "title": "Stick cedar, cypress, myrtle and reed into it",
+    "description": "Cedar, cypress, myrtle(?) and good reed are stuck into its interior and something is sprinkled.",
+    "actionType": "set-torch-on-figures",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q002713-9-22-31-05"
+  },
+  "cmawro-q002713-9-22-31-light-torch-from-sulphur": {
+    "title": "Light the torch from sulphur fire and recite",
+    "description": "The torch is lit in a sulphur fire, and the incantation \"I lift the torch\" is recited.",
+    "actionType": "kindle-torch",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q002713-9-22-31-06"
+  },
+  "cmawro-q002713-9-22-31-throw-fire-into-crucible": {
+    "title": "Throw fire into the crucible",
+    "description": "Fire is thrown into the crucible, burning the figures set in it.",
+    "actionType": "throw-fire-into-vessel",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q002713-9-22-31-07"
+  }
+}

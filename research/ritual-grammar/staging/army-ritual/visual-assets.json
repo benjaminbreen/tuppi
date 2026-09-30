@@ -1,0 +1,44 @@
+{
+  "army-ritual-hot-stone": {
+    "src": "/rituals/_pending.png",
+    "subject": "Hot stone in water",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a round stone glowing hot, half-submerged in a small shallow bowl of water with a wisp of steam. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "army-ritual-winter-torpor": {
+    "src": "/rituals/_pending.png",
+    "subject": "Winter torpor",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a stylised frost-covered branch with icicles. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "army-ritual-mighty-troops": {
+    "src": "/rituals/_pending.png",
+    "subject": "Mighty troops",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: three plain-dressed foot soldiers with spears standing upright. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "army-ritual-father-gods-protect": {
+    "src": "/rituals/_pending.png",
+    "subject": "Father-gods and son",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a group of standing divine figures in a row, facing a young man. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "army-ritual-gods-on-our-side": {
+    "src": "/rituals/_pending.png",
+    "subject": "Gods on our side",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a row of standing divine figures facing the same direction as a small group of soldiers. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "army-ritual-hasten-troops": {
+    "src": "/rituals/_pending.png",
+    "subject": "Troops hastening",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small column of plain-dressed soldiers striding forward. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  }
+}

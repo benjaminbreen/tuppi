@@ -1,0 +1,37 @@
+{
+  "id": "libu-fever",
+  "path": "/rituals/libu-fever",
+  "title": "Donkey figurines against li'bu-fever",
+  "cth": 811,
+  "concern": "Fever",
+  "region": "Babylonia (copied at Ḫattuša)",
+  "tags": [
+    "Babylonian text copied at Ḫattuša",
+    "Akkadian",
+    "Fever",
+    "Substitution",
+    "Healing"
+  ],
+  "sources": "KUB 37.84+ (KUB 29.58, KUB 29.59)",
+  "description": "A Babylonian exorcist's rite copied at Ḫattuša: a clay substitute made with the patient's urine, hair and nails rides provisioned clay donkeys before Šamaš and is sent to the open country.",
+  "images": [
+    "/rituals/_pending.png"
+  ],
+  "searchTerms": [
+    "li'bu",
+    "fever",
+    "Šamaš",
+    "Shamash",
+    "donkey",
+    "substitute",
+    "clay",
+    "urine",
+    "nail-parings",
+    "ešegu",
+    "Nisaba",
+    "Akkadian",
+    "Babylonian",
+    "exorcist"
+  ],
+  "stepCount": 28
+}

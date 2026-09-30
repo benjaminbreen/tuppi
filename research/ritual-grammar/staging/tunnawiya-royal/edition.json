@@ -1,0 +1,1627 @@
+{
+ "id": "tunnawiya-royal",
+ "cth": 409,
+ "title": "Tunnawiya’s Ritual for the Royal Couple",
+ "shortName": "Tunnawiya (royal)",
+ "eyebrow": "CTH 409.II · litanies of the twelve limbs",
+ "dating": {
+  "label": "copy c. 14th–13th c. BCE",
+  "note": "KUB 9.34 is catalogued as a New Hittite (NS) manuscript; the script date does not fix when the ritual was composed.",
+  "sourceUrl": "https://hethport.net/hetkonk/hetkonk_abfrage.php?c=409"
+ },
+ "purpose": "A healing ritual for a king and queen that removes sickness, curses and the 'tongues' of every kind of person from the patient's twelve limbs.",
+ "attribution": "Attributed to Tunnawiya, the Old Woman",
+ "sourceSummary": "KUB 9.34 (Bo 2385) · CTH 409.II, second tablet, not complete",
+ "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+9.34",
+ "editionLabel": "TLHdig tablet",
+ "phases": [
+  {
+   "name": "Naming the harms",
+   "range": [
+    1,
+    4
+   ],
+   "idea": "Litanies name the afflictions, tongues and causes lodged in the patient."
+  },
+  {
+   "name": "Fitting the limbs and the ram",
+   "range": [
+    5,
+    7
+   ],
+   "idea": "The twelve limbs are fitted and a ram's twelve limbs take up their sickness."
+  },
+  {
+   "name": "Pulling out and holding over",
+   "range": [
+    8,
+    16
+   ],
+   "idea": "Harm is pulled out, carriers are held over back and chest, and the patient spits into a sheep."
+  },
+  {
+   "name": "Piglets and the divine search",
+   "range": [
+    17,
+    24
+   ],
+   "idea": "Live and dough piglets, myths of divine search, and a final removal litany."
+  }
+ ],
+ "variants": [],
+ "steps": [
+  {
+   "id": "list-afflictions",
+   "number": 1,
+   "title": "Name the afflictions of the patient",
+   "shortTitle": "Afflictions",
+   "shortDescription": "The Old Woman recites a list of afflictions of head, soul, bones and inner parts, and of the year and month.",
+   "phase": "Naming the harms",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Recite",
+   "summary": "The Old Woman recites a list of afflictions of head, soul, bones and inner parts, and of the year and month.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Vs. I 20′–Vs. I 24′. The opening of the utterance is broken and the verb 'has (not) overcome' is uncertain in sense; the list continues with KI.MIN ('ditto') entries in ¶5.",
+   "image": {
+    "alt": "Name the afflictions of the patient",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Vs. I 20′–Vs. I 24′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 4
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-list-afflictions",
+   "composition": {
+    "function": "invoke-help",
+    "requires": [],
+    "aims": [
+     "heal-illness",
+     "avert-harm"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "torment"
+     },
+     "addressee": "unstated"
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "oppression"
+     },
+     "on": {
+      "class": "body",
+      "sub": "bones"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "blow"
+     },
+     "time": "of the year and of the month"
+    }
+   ]
+  },
+  {
+   "id": "list-tongues",
+   "number": 2,
+   "title": "Name the tongues of every kind of person",
+   "shortTitle": "Tongues",
+   "shortDescription": "The litany lists the 'tongues' (slander, curse) of palace attendants, priests, troops, mountain folk, the dead and the living, and of sorcery.",
+   "phase": "Naming the harms",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Recite",
+   "summary": "The litany lists the 'tongues' (slander, curse) of palace attendants, priests, troops, mountain folk, the dead and the living, and of sorcery.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Vs. II 3–Vs. II 11. Parallel lists in ¶¶6–7; many social groups are named (lulaḫi-, ḫapiru-men, šarikuwa-troops).",
+   "image": {
+    "alt": "Name the tongues of every kind of person",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Vs. II 3–Vs. II 11",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 8
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-list-tongues",
+   "composition": {
+    "function": "invoke-help",
+    "requires": [],
+    "aims": [
+     "undo-bewitchment",
+     "avert-harm"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "tongue",
+      "label": "the tongue of the palace attendant"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "tongue",
+      "label": "the tongue of the priest"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "tongue",
+      "label": "the tongue of the army camp"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "tongue",
+      "label": "the tongue of the dead and of the living"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "sorcery",
+      "label": "the tongue of sorcery"
+     }
+    }
+   ]
+  },
+  {
+   "id": "recount-causes",
+   "number": 3,
+   "title": "Recount how the harm was picked up",
+   "shortTitle": "Causes",
+   "shortDescription": "Naming the patient, she lists possible ways he picked up harm: on a road, by seeing, by stepping on something.",
+   "phase": "Naming the harms",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Say",
+   "summary": "Naming the patient, she lists possible ways he picked up harm: on a road, by seeing, by stepping on something.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Vs. II 12–Vs. II 17. The alternatives are introduced by 'See, (either)… or…'; one alternative is broken.",
+   "image": {
+    "alt": "Recount how the harm was picked up",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Vs. II 12–Vs. II 17",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 9
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-recount-causes",
+   "composition": {
+    "function": "invoke-help",
+    "requires": [],
+    "aims": [
+     "cleanse-impurity",
+     "avert-harm"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "contagion",
+      "label": "something brought back from a road"
+     },
+     "addressee": "unstated"
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "contagion"
+     },
+     "instrument": {
+      "class": "body",
+      "sub": "eyes"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "contagion"
+     },
+     "instrument": {
+      "class": "body",
+      "sub": "foot"
+     }
+    }
+   ]
+  },
+  {
+   "id": "name-evil-speech",
+   "number": 4,
+   "title": "Name the patient's evil speech against the gods",
+   "shortTitle": "Evil mouth",
+   "shortDescription": "The list continues with impurity, sorcery, strife and the patient's speaking against the gods with an evil mouth.",
+   "phase": "Naming the harms",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Say",
+   "summary": "The list continues with impurity, sorcery, strife and the patient's speaking against the gods with an evil mouth.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Vs. II 18–Vs. II 19. Beginning broken. Classed as confession because it names the patient's own offence against the gods; the speaker is the practitioner on his behalf.",
+   "image": {
+    "alt": "Name the patient's evil speech against the gods",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Vs. II 18–Vs. II 19",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 10
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-name-evil-speech",
+   "composition": {
+    "function": "invoke-help",
+    "requires": [],
+    "aims": [
+     "cleanse-impurity"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "confession",
+     "about": {
+      "class": "harm",
+      "sub": "offence",
+      "label": "speaking against the gods with an evil mouth"
+     },
+     "addressee": "unstated"
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "sorcery"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "strife"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fit-limbs",
+   "number": 5,
+   "title": "Fit the twelve limbs together",
+   "shortTitle": "Fit limbs",
+   "shortDescription": "A litany declares each body part fitted to its counterpart: ear to ear, hand to hands, foot to foot, blood to blood.",
+   "phase": "Fitting the limbs and the ram",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Recite",
+   "summary": "A litany declares each body part fitted to its counterpart: ear to ear, hand to hands, foot to foot, blood to blood.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Vs. II 28–Vs. II 34. Continues ¶12 (ear, upper arm, hand, nails). Whether the 'fitting' refers to the patient's limbs or to a matching of patient and animal limbs is unclear.",
+   "image": {
+    "alt": "Fit the twelve limbs together",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Vs. II 28–Vs. II 34",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 13
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-fit-limbs",
+   "composition": {
+    "function": "purify-by-analogy",
+    "requires": [],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "body",
+      "sub": "limbs",
+      "count": 12
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "analogy",
+     "about": {
+      "class": "body",
+      "sub": "ear"
+     },
+     "to": {
+      "class": "body",
+      "sub": "ear"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "analogy",
+     "about": {
+      "class": "body",
+      "sub": "foot"
+     },
+     "to": {
+      "class": "body",
+      "sub": "foot"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "analogy",
+     "about": {
+      "class": "body",
+      "sub": "blood"
+     },
+     "to": {
+      "class": "body",
+      "sub": "blood"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cut-ram-limbs",
+   "number": 6,
+   "title": "Cut up the ram's twelve limbs",
+   "shortTitle": "Ram limbs",
+   "shortDescription": "The twelve limbs of a ram are cut up for the patient.",
+   "phase": "Fitting the limbs and the ram",
+   "unitType": "act",
+   "actionType": "dismember-animal",
+   "verb": "Cut",
+   "summary": "The twelve limbs of a ram are cut up for the patient.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Vs. II 35–Vs. II 37. The verb is restored ('cut up(?)'); killing is not stated in the surviving text.",
+   "image": {
+    "alt": "Cut up the ram's twelve limbs",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Vs. II 35–Vs. II 37",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 14
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-cut-ram-limbs",
+   "composition": {
+    "function": "prepare-material",
+    "requires": [],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "cut",
+     "theme": {
+      "class": "animal",
+      "sub": "ram",
+      "ref": "ram"
+     },
+     "result": {
+      "class": "meat",
+      "sub": "limbs",
+      "count": 12
+     },
+     "for": {
+      "class": "person",
+      "sub": "patient"
+     }
+    }
+   ]
+  },
+  {
+   "id": "limbs-take-sickness",
+   "number": 7,
+   "title": "Let each ram limb take up the sickness of the same limb",
+   "shortTitle": "Take up",
+   "shortDescription": "Limb by limb, the ram's parts are told to take up the sickness of the patient's matching parts: head, shoulder, finger, rib.",
+   "phase": "Fitting the limbs and the ram",
+   "unitType": "utterance",
+   "actionType": "assign-harm-to-carrier",
+   "verb": "Assign",
+   "summary": "Limb by limb, the ram's parts are told to take up the sickness of the patient's matching parts: head, shoulder, finger, rib.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Vs. II 38–Vs. II 41. ¶14 adds that 'they demand(?) the sickness of the limbs of this man'; the list continues in ¶16.",
+   "image": {
+    "alt": "Let each ram limb take up the sickness of the same limb",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Vs. II 38–Vs. II 41",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 15
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-limbs-take-sickness",
+   "composition": {
+    "function": "transfer-affliction",
+    "requires": [
+     "cut-ram-limbs"
+    ],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "substitution",
+     "about": {
+      "class": "meat",
+      "sub": "limbs",
+      "ref": "ram-limbs"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "assignment",
+     "about": {
+      "class": "harm",
+      "sub": "sickness"
+     },
+     "to": {
+      "class": "meat",
+      "sub": "head",
+      "ref": "ram-limbs"
+     },
+     "source": {
+      "class": "body",
+      "sub": "head"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "analogy",
+     "about": {
+      "class": "body",
+      "sub": "rib"
+     },
+     "to": {
+      "class": "meat",
+      "sub": "rib"
+     }
+    }
+   ]
+  },
+  {
+   "id": "declare-pulled-out",
+   "number": 8,
+   "title": "Declare the harm pulled out",
+   "shortTitle": "Pulled out",
+   "shortDescription": "The Old Woman declares that she has pulled the harm out of him from the right.",
+   "phase": "Pulling out and holding over",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Declare",
+   "summary": "The Old Woman declares that she has pulled the harm out of him from the right.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 5′–Rs. III 12′. Parallel 'I pulled (it) out' in fragmentary ¶18.",
+   "image": {
+    "alt": "Declare the harm pulled out",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 5′–Rs. III 12′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 19
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-declare-pulled-out",
+   "composition": {
+    "function": "affirm-cleansing",
+    "requires": [],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "sickness"
+     },
+     "source": {
+      "class": "person",
+      "sub": "patient"
+     }
+    }
+   ]
+  },
+  {
+   "id": "take-evil-fright",
+   "number": 9,
+   "title": "Take the evil fright from him",
+   "shortTitle": "Fright",
+   "shortDescription": "She takes the evil fright away from the patient.",
+   "phase": "Pulling out and holding over",
+   "unitType": "act",
+   "actionType": "take-harm-from-body",
+   "verb": "Take",
+   "summary": "She takes the evil fright away from the patient.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 5′–Rs. III 12′. No object or instrument is named; the removal may be gestural.",
+   "image": {
+    "alt": "Take the evil fright from him",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 5′–Rs. III 12′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 19
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-take-evil-fright",
+   "composition": {
+    "function": "transfer-affliction",
+    "requires": [],
+    "aims": [
+     "heal-illness",
+     "avert-harm"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "draw-out",
+     "theme": {
+      "class": "harm",
+      "sub": "fright"
+     },
+     "from": {
+      "class": "person",
+      "sub": "patient"
+     }
+    }
+   ]
+  },
+  {
+   "id": "conjure-round-limbs",
+   "number": 10,
+   "title": "Conjure around the twelve limbs",
+   "shortTitle": "Round limbs",
+   "shortDescription": "She takes up the incantation again and goes around the twelve limbs in the same way.",
+   "phase": "Pulling out and holding over",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Conjure",
+   "summary": "She takes up the incantation again and goes around the twelve limbs in the same way.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 5′–Rs. III 12′. Refers back to the limb litany (¶¶12–16).",
+   "image": {
+    "alt": "Conjure around the twelve limbs",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 5′–Rs. III 12′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 19
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-conjure-round-limbs",
+   "composition": {
+    "function": "purify-by-analogy",
+    "requires": [],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "body",
+      "sub": "limbs",
+      "count": 12
+     },
+     "addressee": "unstated",
+     "manner": "repeated, limb by limb"
+    },
+    {
+     "verb": "gesture",
+     "manner": "go around the twelve limbs",
+     "over": {
+      "class": "person",
+      "sub": "patient"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hold-over-back",
+   "number": 11,
+   "title": "Hold it over his back",
+   "shortTitle": "Over back",
+   "shortDescription": "The patient lies down in another position and she holds (the carrier) over his back while conjuring the same words.",
+   "phase": "Pulling out and holding over",
+   "unitType": "act",
+   "actionType": "lift-over-patient",
+   "verb": "Hold",
+   "summary": "The patient lies down in another position and she holds (the carrier) over his back while conjuring the same words.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 5′–Rs. III 12′. The held object is not named; the context before the gap (ram limbs, pig) leaves it uncertain.",
+   "image": {
+    "alt": "Hold it over his back",
+    "note": "The object is not named in the text; it is shown as an indistinct bundle."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 5′–Rs. III 12′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 19
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-hold-over-back",
+   "composition": {
+    "function": "transfer-affliction",
+    "requires": [
+     "cut-ram-limbs"
+    ],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "position",
+     "theme": {
+      "class": "person",
+      "sub": "patient"
+     },
+     "manner": "lying tarrawa (another position?)"
+    },
+    {
+     "verb": "hold-over",
+     "theme": {
+      "class": "materials",
+      "sub": "carrier",
+      "label": "it (object not named)"
+     },
+     "over": {
+      "class": "body",
+      "sub": "back"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "body",
+      "sub": "limbs",
+      "count": 12
+     },
+     "manner": "the same words"
+    }
+   ]
+  },
+  {
+   "id": "hold-sheep-over-chest",
+   "number": 12,
+   "title": "Hold a sheep over his chest",
+   "shortTitle": "Sheep",
+   "shortDescription": "The patient lies down again and she holds a sheep over his chest.",
+   "phase": "Pulling out and holding over",
+   "unitType": "act",
+   "actionType": "lift-over-patient",
+   "verb": "Hold",
+   "summary": "The patient lies down again and she holds a sheep over his chest.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 13′–Rs. III 15′. Reuses unit tunnawiya-hold-black-sheep (KUB 7.53+): same act and principal object, a sheep held over the patient. Colour is not stated here.",
+   "image": {
+    "alt": "Hold a sheep over his chest",
+    "note": "The reused image shows a black sheep; KUB 9.34 does not state the colour."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 13′–Rs. III 15′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 20
+     }
+    }
+   ],
+   "unitId": "tunnawiya-hold-black-sheep",
+   "composition": {
+    "function": "transfer-affliction",
+    "requires": [],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "position",
+     "theme": {
+      "class": "person",
+      "sub": "patient"
+     },
+     "manner": "lying šarku- (?)"
+    },
+    {
+     "verb": "hold-over",
+     "theme": {
+      "class": "animal",
+      "sub": "sheep",
+      "ref": "sheep"
+     },
+     "over": {
+      "class": "body",
+      "sub": "chest"
+     }
+    }
+   ]
+  },
+  {
+   "id": "plough-analogy",
+   "number": 13,
+   "title": "Compare the patient to a field ploughed again",
+   "shortTitle": "Ploughing",
+   "shortDescription": "As a field is ploughed a third and fourth time, so she treats this person a third and fourth time.",
+   "phase": "Pulling out and holding over",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Speak",
+   "summary": "As a field is ploughed a third and fourth time, so she treats this person a third and fourth time.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 16′–Rs. III 17′.",
+   "image": {
+    "alt": "Compare the patient to a field ploughed again",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 16′–Rs. III 17′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 21
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-plough-analogy",
+   "composition": {
+    "function": "purify-by-analogy",
+    "requires": [
+     "hold-sheep-over-chest"
+    ],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "analogy",
+     "about": {
+      "class": "person",
+      "sub": "patient"
+     },
+     "with": {
+      "class": "place",
+      "sub": "field",
+      "f": {
+       "part": "ploughed a third and fourth time"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "conjure-round-limbs-again",
+   "number": 14,
+   "title": "Conjure around the limbs again",
+   "shortTitle": "Again",
+   "shortDescription": "With the sheep, she repeats the incantation around the twelve limbs.",
+   "phase": "Pulling out and holding over",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Conjure",
+   "summary": "With the sheep, she repeats the incantation around the twelve limbs.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 18′–Rs. III 19′.",
+   "image": {
+    "alt": "Conjure around the limbs again",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 18′–Rs. III 19′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 22
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-conjure-round-limbs",
+   "composition": {
+    "function": "purify-by-analogy",
+    "requires": [
+     "hold-sheep-over-chest"
+    ],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "body",
+      "sub": "limbs",
+      "count": 12
+     },
+     "manner": "exactly the same"
+    },
+    {
+     "verb": "gesture",
+     "manner": "go around the twelve limbs",
+     "over": {
+      "class": "person",
+      "sub": "patient"
+     }
+    }
+   ]
+  },
+  {
+   "id": "spit-into-mouth",
+   "number": 15,
+   "title": "Spit into the sheep's mouth",
+   "shortTitle": "Spit",
+   "shortDescription": "The sheep is held out to the patient and he spits twice into its mouth.",
+   "phase": "Pulling out and holding over",
+   "unitType": "act",
+   "actionType": "spit-into-carrier",
+   "verb": "Spit",
+   "summary": "The sheep is held out to the patient and he spits twice into its mouth.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 20′–Rs. III 23′. 'it' is most likely the sheep of ¶20, marked (?) in the translation. 'release' is used as the closest verb for spitting out.",
+   "image": {
+    "alt": "Spit into the sheep's mouth",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 20′–Rs. III 23′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 23
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-spit-into-mouth",
+   "composition": {
+    "function": "transfer-affliction",
+    "requires": [
+     "hold-sheep-over-chest"
+    ],
+    "aims": [
+     "heal-illness",
+     "undo-bewitchment"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "present",
+     "theme": {
+      "class": "animal",
+      "sub": "sheep",
+      "ref": "sheep"
+     },
+     "to": {
+      "class": "person",
+      "sub": "patient"
+     }
+    },
+    {
+     "verb": "release",
+     "theme": {
+      "class": "liquid",
+      "sub": "spittle",
+      "count": 2
+     },
+     "agent": {
+      "class": "person",
+      "sub": "patient"
+     },
+     "goal": {
+      "class": "body",
+      "sub": "mouth",
+      "f": {
+       "part": "sheep's mouth"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "command-spit-out",
+   "number": 16,
+   "title": "Command him to spit out the harms",
+   "shortTitle": "Spit out!",
+   "shortDescription": "She orders him to spit out the āḫra-, the waḫra-, the anger of the gods and the tongue of the multitude.",
+   "phase": "Pulling out and holding over",
+   "unitType": "utterance",
+   "actionType": "return-harm-by-speech",
+   "verb": "Command",
+   "summary": "She orders him to spit out the āḫra-, the waḫra-, the anger of the gods and the tongue of the multitude.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 20′–Rs. III 23′. āḫra- and waḫra- are untranslated.",
+   "image": {
+    "alt": "Command him to spit out the harms",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 20′–Rs. III 23′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 23
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-command-spit-out",
+   "composition": {
+    "function": "transfer-affliction",
+    "requires": [
+     "spit-into-mouth"
+    ],
+    "aims": [
+     "heal-illness",
+     "undo-bewitchment",
+     "avert-harm"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "dismissal",
+     "about": {
+      "class": "harm",
+      "sub": "anger of the gods"
+     },
+     "addressee": {
+      "class": "person",
+      "sub": "patient"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "dismissal",
+     "about": {
+      "class": "harm",
+      "sub": "tongue",
+      "label": "the tongue of the multitude"
+     },
+     "addressee": {
+      "class": "person",
+      "sub": "patient"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "dismissal",
+     "about": {
+      "class": "harm",
+      "sub": "āḫra"
+     },
+     "addressee": {
+      "class": "person",
+      "sub": "patient"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bring-piglets",
+   "number": 17,
+   "title": "Bring a dough piglet and a live piglet",
+   "shortTitle": "Piglets",
+   "shortDescription": "A piglet of dough and a live piglet are brought.",
+   "phase": "Piglets and the divine search",
+   "unitType": "act",
+   "actionType": "bring-animal",
+   "verb": "Bring",
+   "summary": "A piglet of dough and a live piglet are brought.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 24′–Rs. III 27′.",
+   "image": {
+    "alt": "Bring a dough piglet and a live piglet",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 24′–Rs. III 27′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 24
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-bring-piglets",
+   "composition": {
+    "function": "prepare-material",
+    "requires": [],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "bring",
+     "theme": {
+      "class": "dough",
+      "sub": "piglet",
+      "ref": "dough-piglet"
+     }
+    },
+    {
+     "verb": "bring",
+     "theme": {
+      "class": "animal",
+      "sub": "piglet",
+      "ref": "live-piglet"
+     }
+    }
+   ]
+  },
+  {
+   "id": "swing-live-piglet",
+   "number": 18,
+   "title": "Swing the live piglet away",
+   "shortTitle": "Swing pig",
+   "shortDescription": "The live piglet is repeatedly swung away (from the patient?).",
+   "phase": "Piglets and the divine search",
+   "unitType": "act",
+   "actionType": "lift-over-patient",
+   "verb": "Swing",
+   "summary": "The live piglet is repeatedly swung away (from the patient?).",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 24′–Rs. III 27′. Not matched to tunnawiya-hold-piglet: the live pig is swung 'away(?)' rather than held over the patient; direction uncertain.",
+   "image": {
+    "alt": "Swing the live piglet away",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 24′–Rs. III 27′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 24
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-swing-live-piglet",
+   "composition": {
+    "function": "transfer-affliction",
+    "requires": [
+     "bring-piglets"
+    ],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "hold-over",
+     "theme": {
+      "class": "animal",
+      "sub": "piglet",
+      "ref": "live-piglet"
+     },
+     "over": {
+      "class": "person",
+      "sub": "patient"
+     },
+     "manner": "swung away(?), repeatedly"
+    }
+   ]
+  },
+  {
+   "id": "hold-dough-piglet",
+   "number": 19,
+   "title": "Hold the dough piglet close to him",
+   "shortTitle": "Dough pig",
+   "shortDescription": "The Old Woman keeps holding the dough piglet close to the patient.",
+   "phase": "Piglets and the divine search",
+   "unitType": "act",
+   "actionType": "lift-over-patient",
+   "verb": "Hold",
+   "summary": "The Old Woman keeps holding the dough piglet close to the patient.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 24′–Rs. III 27′.",
+   "image": {
+    "alt": "Hold the dough piglet close to him",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 24′–Rs. III 27′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 24
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-hold-dough-piglet",
+   "composition": {
+    "function": "transfer-affliction",
+    "requires": [
+     "bring-piglets"
+    ],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "hold-over",
+     "theme": {
+      "class": "dough",
+      "sub": "piglet",
+      "ref": "dough-piglet"
+     },
+     "over": {
+      "class": "person",
+      "sub": "patient"
+     },
+     "manner": "close to him, repeatedly"
+    }
+   ]
+  },
+  {
+   "id": "great-god-historiola",
+   "number": 20,
+   "title": "Tell of the great god driving from Landa",
+   "shortTitle": "Great god",
+   "shortDescription": "She tells how the great god drove from Landa, and names those who frightened and agitated him.",
+   "phase": "Piglets and the divine search",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Recite",
+   "summary": "She tells how the great god drove from Landa, and names those who frightened and agitated him.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 28′–Rs. III 32′. A mythic narrative (historiola); much of the wording is obscure.",
+   "image": {
+    "alt": "Tell of the great god driving from Landa",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 28′–Rs. III 32′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 25
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-great-god-historiola",
+   "composition": {
+    "function": "purify-by-analogy",
+    "requires": [],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "analogy",
+     "about": {
+      "class": "deity",
+      "sub": "great god"
+     },
+     "source": "Landa"
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "harm",
+      "sub": "fright"
+     }
+    }
+   ]
+  },
+  {
+   "id": "speak-patient-name",
+   "number": 21,
+   "title": "Speak the patient's name",
+   "shortTitle": "Name",
+   "shortDescription": "She speaks the name of the person she is treating.",
+   "phase": "Piglets and the divine search",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Name",
+   "summary": "She speaks the name of the person she is treating.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 28′–Rs. III 32′. The name is not given; ¶30 repeats the instruction.",
+   "image": {
+    "alt": "Speak the patient's name",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 28′–Rs. III 32′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 25
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-speak-patient-name",
+   "composition": {
+    "function": "invoke-help",
+    "requires": [],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "person",
+      "sub": "patient"
+     },
+     "manner": "names the patient"
+    }
+   ]
+  },
+  {
+   "id": "search-historiola",
+   "number": 22,
+   "title": "Tell of the gods' search of his body",
+   "shortTitle": "Search",
+   "shortDescription": "A narrative: the angry Sun-god sends the Ilaliyant-deities; the searchers see the patient's eyebrow, eyelashes and twelve limbs.",
+   "phase": "Piglets and the divine search",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Recite",
+   "summary": "A narrative: the angry Sun-god sends the Ilaliyant-deities; the searchers see the patient's eyebrow, eyelashes and twelve limbs.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 33′–Rs. III 42′. The Sun-god is agent within the story, not an addressee. The closing 'it became sweet(?) inside him(?)' is uncertain.",
+   "image": {
+    "alt": "Tell of the gods' search of his body",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 33′–Rs. III 42′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 26
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-search-historiola",
+   "composition": {
+    "function": "purify-by-analogy",
+    "requires": [],
+    "aims": [
+     "heal-illness"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "analogy",
+     "about": {
+      "class": "deity",
+      "sub": "Ilaliyant-deities"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "declaration",
+     "about": {
+      "class": "body",
+      "sub": "limbs",
+      "count": 12
+     }
+    }
+   ]
+  },
+  {
+   "id": "cut-them-off",
+   "number": 23,
+   "title": "Cut them off from the limbs",
+   "shortTitle": "Cut off",
+   "shortDescription": "In the myth the Mother-goddess smears karšikarši- before the evil gods, and the command sounds: cut them off from eyebrows, eyelashes and the twelve limbs.",
+   "phase": "Piglets and the divine search",
+   "unitType": "utterance",
+   "actionType": "return-harm-by-speech",
+   "verb": "Command",
+   "summary": "In the myth the Mother-goddess smears karšikarši- before the evil gods, and the command sounds: cut them off from eyebrows, eyelashes and the twelve limbs.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. III 43′–Rs. IV 3′. Speaker within the narrative is the evil šiwanni- (?); what is cut off is unstated (likely the evil gods' hold).",
+   "image": {
+    "alt": "Cut them off from the limbs",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. III 43′–Rs. IV 3′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 27
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-cut-them-off",
+   "composition": {
+    "function": "destroy-affliction",
+    "requires": [],
+    "aims": [
+     "heal-illness",
+     "avert-harm"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "dismissal",
+     "about": {
+      "class": "deity",
+      "sub": "evil gods"
+     },
+     "source": {
+      "class": "body",
+      "sub": "eyebrows"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "dismissal",
+     "about": {
+      "class": "deity",
+      "sub": "evil gods"
+     },
+     "source": {
+      "class": "body",
+      "sub": "limbs",
+      "count": 12
+     }
+    }
+   ]
+  },
+  {
+   "id": "remove-litany",
+   "number": 24,
+   "title": "Let her remove the tongues",
+   "shortTitle": "Remove",
+   "shortDescription": "A litany asks that she remove the shortened year, the anger of the gods, and the tongues of every class of people.",
+   "phase": "Piglets and the divine search",
+   "unitType": "utterance",
+   "actionType": "speak-address",
+   "verb": "Petition",
+   "summary": "A litany asks that she remove the shortened year, the anger of the gods, and the tongues of every class of people.",
+   "patient": "The royal patient (king or queen)",
+   "actor": "Tunnawiya, the Old Woman",
+   "material": [],
+   "evidence": "KUB 9.34 Rs. IV 7′–Rs. IV 18′. Begins in ¶27 and continues through ¶28; the remover is probably the Mother-goddess.",
+   "image": {
+    "alt": "Let her remove the tongues",
+    "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+   },
+   "attestations": [
+    {
+     "witness": "A",
+     "doc": "kub-9-34",
+     "locus": "KUB 9.34 Rs. IV 7′–Rs. IV 18′",
+     "anchor": {
+      "kind": "paragraph",
+      "index": 29
+     }
+    }
+   ],
+   "unitId": "tunnawiya-royal-remove-litany",
+   "composition": {
+    "function": "destroy-affliction",
+    "requires": [],
+    "aims": [
+     "heal-illness",
+     "undo-bewitchment",
+     "avert-harm"
+    ]
+   },
+   "atoms": [
+    {
+     "verb": "speak",
+     "act": "petition",
+     "about": {
+      "class": "harm",
+      "sub": "shortened year"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "petition",
+     "about": {
+      "class": "harm",
+      "sub": "anger of the gods"
+     }
+    },
+    {
+     "verb": "speak",
+     "act": "petition",
+     "about": {
+      "class": "harm",
+      "sub": "tongue",
+      "label": "the tongue of all people"
+     }
+    }
+   ]
+  }
+ ]
+}

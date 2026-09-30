@@ -1,0 +1,35 @@
+{
+  "id": "cmawro-q004239-11-1-1",
+  "corpusId": "cmawro",
+  "path": "/rituals/cmawro-q004239-11-1-1",
+  "title": "When the gate buzzes",
+  "cth": null,
+  "sourceLabel": "CMAwR 11.1.1",
+  "concern": "Witchcraft omens",
+  "region": "Mesopotamia",
+  "tags": [
+    "Mesopotamian",
+    "Omen",
+    "Threshold",
+    "Burial"
+  ],
+  "sources": "Q004239 · CMAwR 11.1.1",
+  "description": "A gate-omen ritual: a sulphur-gypsum paste is smeared on the door-jamb with an incantation and washed off, and a fleece with sulphur and oil is buried at the outer gate and door socket.",
+  "images": [
+    "/rituals/_pending.png"
+  ],
+  "stepCount": 6,
+  "searchTerms": [
+    "Akkadian",
+    "gate",
+    "door-jamb",
+    "door socket",
+    "sulphur",
+    "gypsum",
+    "red paste",
+    "silt",
+    "fleece",
+    "oil",
+    "henbane"
+  ]
+}

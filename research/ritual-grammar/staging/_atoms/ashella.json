@@ -1,0 +1,259 @@
+{
+ "prepare-ram": [
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "ram"
+   },
+   "agent": {
+    "class": "person",
+    "sub": "army lord"
+   },
+   "time": "dusk"
+  }
+ ],
+ "twist-wool": [
+  {
+   "verb": "combine",
+   "theme": {
+    "class": "wool",
+    "f": {
+     "colors": [
+      "white",
+      "red",
+      "green"
+     ]
+    }
+   },
+   "result": {
+    "class": "wool",
+    "sub": "cord"
+   }
+  }
+ ],
+ "bind-ram": [
+  {
+   "verb": "attach",
+   "theme": {
+    "class": "wool",
+    "sub": "cord"
+   },
+   "onto": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "part": "neck"
+    }
+   }
+  },
+  {
+   "verb": "attach",
+   "theme": {
+    "class": "ornament",
+    "sub": "metal"
+   },
+   "onto": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "part": "horns"
+    }
+   }
+  }
+ ],
+ "tether-ram": [
+  {
+   "verb": "tie",
+   "theme": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "adorned": true
+    }
+   },
+   "location": "before a tent",
+   "time": "night"
+  }
+ ],
+ "appeal": [
+  {
+   "verb": "speak",
+   "act": "assignment",
+   "addressee": {
+    "class": "deity",
+    "sub": "plague god"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "adorned": true
+    }
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "appeasement",
+   "addressee": {
+    "class": "deity",
+    "sub": "plague god"
+   }
+  }
+ ],
+ "release-rams": [
+  {
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "ram",
+    "f": {
+     "adorned": true
+    }
+   },
+   "location": "through the camp"
+  },
+  {
+   "verb": "release",
+   "theme": {
+    "class": "animal",
+    "sub": "ram"
+   },
+   "goal": "enemy border"
+  }
+ ],
+ "slaughter-ram": [
+  {
+   "verb": "kill",
+   "theme": {
+    "class": "animal",
+    "sub": "ram"
+   },
+   "instrument": "bronze knife"
+  }
+ ],
+ "cook-meat": [
+  {
+   "verb": "cook",
+   "theme": {
+    "class": "meat",
+    "sub": "sheep"
+   }
+  }
+ ],
+ "wash-salt-water": [
+  {
+   "verb": "combine",
+   "theme": {
+    "class": "stone",
+    "sub": "salt"
+   },
+   "with": {
+    "class": "liquid",
+    "sub": "water"
+   }
+  },
+  {
+   "verb": "wash",
+   "theme": {
+    "class": "body",
+    "sub": "hands"
+   },
+   "medium": "salt water"
+  }
+ ],
+ "pass-between-fires": [
+  {
+   "verb": "burn",
+   "theme": {
+    "class": "fire",
+    "count": 2
+   }
+  },
+  {
+   "verb": "pass",
+   "theme": {
+    "class": "person",
+    "sub": "participants"
+   },
+   "boundary": "between two fires"
+  }
+ ],
+ "offer-goats": [
+  {
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "goat",
+    "count": 2
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Tutelary deity"
+   }
+  }
+ ],
+ "bring-pig": [
+  {
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "pig"
+   },
+   "goal": "open place"
+  }
+ ],
+ "offer-pig": [
+  {
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "pig"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "plague god"
+   }
+  }
+ ],
+ "offer-bull": [
+  {
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "bull"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Storm-god"
+   }
+  }
+ ],
+ "offer-ewe": [
+  {
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "ewe"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Sun-god"
+   }
+  }
+ ],
+ "offer-rams": [
+  {
+   "verb": "dedicate",
+   "theme": {
+    "class": "animal",
+    "sub": "sheep",
+    "count": 3
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "all the gods"
+   }
+  }
+ ]
+}

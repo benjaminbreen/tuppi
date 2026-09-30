@@ -1,0 +1,401 @@
+{
+  "dandanku/gather-fodder-wool": {
+    "needs": [],
+    "opens": [
+      "fodder",
+      "wool"
+    ],
+    "uses": [],
+    "closes": [],
+    "role": "petition",
+    "stage": 25,
+    "themes": [
+      "provision",
+      "petition",
+      "protection"
+    ],
+    "instruction": "Gather grain, straw and coloured wool",
+    "logic": "The fodder and wool are gathered for Iyarri’s horses and attendants."
+  },
+  "dandanku/mix-fodder": {
+    "needs": [
+      "dandanku/gather-fodder-wool"
+    ],
+    "opens": [],
+    "uses": [
+      "fodder"
+    ],
+    "closes": [],
+    "instruction": "Mix the grain and straw",
+    "logic": "The grain and straw become one mixture."
+  },
+  "dandanku/scatter-fodder": {
+    "needs": [
+      "dandanku/mix-fodder"
+    ],
+    "opens": [],
+    "uses": [
+      "fodder"
+    ],
+    "closes": [],
+    "instruction": "Scatter the fodder across the road",
+    "logic": "The mixture is placed on the road for the god’s horses."
+  },
+  "dandanku/address-grooms": {
+    "needs": [
+      "dandanku/scatter-fodder"
+    ],
+    "opens": [],
+    "uses": [
+      "fodder"
+    ],
+    "closes": [
+      "fodder"
+    ],
+    "instruction": "Ask Iyarri’s grooms to feed his horses",
+    "logic": "The accompanying words assign the scattered fodder to Iyarri’s horses."
+  },
+  "dandanku/address-maids": {
+    "needs": [
+      "dandanku/address-grooms"
+    ],
+    "opens": [],
+    "uses": [
+      "wool"
+    ],
+    "closes": [
+      "wool"
+    ],
+    "terminal": true,
+    "instruction": "Ask the god’s maids to take the coloured wool",
+    "logic": "The same address assigns the wool to the god’s attendants."
+  },
+  "paskuwatti/make-reed-gate": {
+    "needs": [],
+    "opens": [
+      "gate"
+    ],
+    "uses": [],
+    "closes": [],
+    "role": "transition",
+    "stage": 20,
+    "themes": [
+      "renewal",
+      "increase",
+      "persistence"
+    ],
+    "instruction": "Make a gate of reeds",
+    "logic": "The gate defines the threshold for the offerant’s passage.",
+    "historicalOnly": true
+  },
+  "paskuwatti/bind-gate": {
+    "needs": [
+      "paskuwatti/make-reed-gate"
+    ],
+    "opens": [],
+    "uses": [
+      "gate"
+    ],
+    "closes": [],
+    "instruction": "Bind the gate with red and white wool",
+    "logic": "The prepared gate is bound before the crossing."
+  },
+  "paskuwatti/give-spindle": {
+    "needs": [],
+    "opens": [
+      "implements"
+    ],
+    "uses": [],
+    "closes": [],
+    "instruction": "Place a spindle and distaff in the offerant’s hands",
+    "logic": "The implements are held during the passage."
+  },
+  "paskuwatti/pass-gate": {
+    "needs": [
+      "paskuwatti/bind-gate",
+      "paskuwatti/give-spindle"
+    ],
+    "opens": [],
+    "uses": [
+      "gate",
+      "implements"
+    ],
+    "closes": [
+      "gate"
+    ],
+    "instruction": "Pass beneath the reed gate",
+    "logic": "The offerant crosses while holding the implements."
+  },
+  "paskuwatti/exchange-implements": {
+    "needs": [
+      "paskuwatti/pass-gate"
+    ],
+    "opens": [
+      "bow"
+    ],
+    "uses": [
+      "implements"
+    ],
+    "closes": [
+      "implements"
+    ],
+    "instruction": "Exchange the spindle and distaff for a bow and arrows",
+    "logic": "The first implements are taken away and new ones are given."
+  },
+  "paskuwatti/speak-exchange": {
+    "needs": [
+      "paskuwatti/exchange-implements"
+    ],
+    "opens": [],
+    "uses": [
+      "bow"
+    ],
+    "closes": [
+      "bow"
+    ],
+    "terminal": true,
+    "instruction": "Speak the change of roles",
+    "logic": "Paškuwatti’s words give the exchange its stated meaning."
+  },
+  "zarpiya/take-implements": {
+    "needs": [],
+    "opens": [],
+    "uses": [],
+    "closes": [],
+    "role": "protection",
+    "stage": 35,
+    "themes": [
+      "protection",
+      "release",
+      "renewal"
+    ],
+    "instruction": "Take up the ritual implements",
+    "logic": "The implements are gathered before the threshold is closed."
+  },
+  "zarpiya/close-door": {
+    "needs": [
+      "zarpiya/take-implements"
+    ],
+    "opens": [
+      "door"
+    ],
+    "uses": [],
+    "closes": [],
+    "instruction": "Close the door",
+    "logic": "The door becomes the boundary for the concluding act."
+  },
+  "zarpiya/anoint-door": {
+    "needs": [
+      "zarpiya/close-door"
+    ],
+    "opens": [],
+    "uses": [
+      "door"
+    ],
+    "closes": [],
+    "instruction": "Anoint the door with fine oil",
+    "logic": "Oil is applied to the closed threshold."
+  },
+  "zarpiya/speak-formula": {
+    "needs": [
+      "zarpiya/anoint-door"
+    ],
+    "opens": [],
+    "uses": [
+      "door"
+    ],
+    "closes": [
+      "door"
+    ],
+    "terminal": true,
+    "instruction": "Speak the words asking that evil stay outside and good remain within",
+    "logic": "The accompanying words explain the closing and anointing."
+  },
+  "zelliya/take-funerary-goods": {
+    "needs": [],
+    "opens": [
+      "funerary-goods"
+    ],
+    "uses": [],
+    "closes": [],
+    "role": "funerary",
+    "stage": 10,
+    "themes": [
+      "release"
+    ],
+    "historicalOnly": true,
+    "instruction": "Take the named goods for the dead",
+    "logic": "The clothing, furniture, vessels, food and valuable objects are gathered for the dead person."
+  },
+  "zelliya/prepare-funerary-goods": {
+    "needs": [
+      "zelliya/take-funerary-goods"
+    ],
+    "opens": [],
+    "uses": [
+      "funerary-goods"
+    ],
+    "closes": [
+      "funerary-goods"
+    ],
+    "instruction": "Prepare the gathered goods",
+    "logic": "The listed goods are prepared before the later funerary actions."
+  },
+  "zelliya/carry-dead-outside": {
+    "needs": [
+      "zelliya/prepare-funerary-goods"
+    ],
+    "opens": [
+      "body"
+    ],
+    "uses": [],
+    "closes": [],
+    "instruction": "Carry the dead person outside",
+    "logic": "The body is brought outside after a damaged intervening passage."
+  },
+  "zelliya/cremate-dead": {
+    "needs": [
+      "zelliya/carry-dead-outside"
+    ],
+    "opens": [],
+    "uses": [
+      "body"
+    ],
+    "closes": [
+      "body"
+    ],
+    "terminal": true,
+    "instruction": "Burn the dead person",
+    "logic": "The carried body is cremated, completing its stated disposition."
+  },
+  "tapalazunauli/bring-donkey": {
+    "needs": [],
+    "opens": [
+      "donkey"
+    ],
+    "uses": [],
+    "closes": [],
+    "role": "release",
+    "stage": 30,
+    "themes": [
+      "release",
+      "protection"
+    ],
+    "historicalOnly": true,
+    "instruction": "Bring a donkey forward",
+    "logic": "The donkey is introduced as a carrier for the unwanted condition."
+  },
+  "tapalazunauli/assign-evil": {
+    "needs": [
+      "tapalazunauli/bring-donkey"
+    ],
+    "opens": [],
+    "uses": [
+      "donkey"
+    ],
+    "closes": [],
+    "instruction": "Tell the donkey to carry off the evil",
+    "logic": "The spoken assignment gives the animal its role as a carrier."
+  },
+  "tapalazunauli/send-donkey": {
+    "needs": [
+      "tapalazunauli/assign-evil"
+    ],
+    "opens": [],
+    "uses": [
+      "donkey"
+    ],
+    "closes": [
+      "donkey"
+    ],
+    "terminal": true,
+    "instruction": "Drive the donkey toward enemy land",
+    "logic": "The carrier is sent away with the evil it has been asked to bear."
+  },
+  "tapalazunauli/scatter-straw": {
+    "needs": [],
+    "opens": [
+      "straw"
+    ],
+    "uses": [],
+    "closes": [],
+    "role": "provision",
+    "stage": 25,
+    "themes": [
+      "provision",
+      "protection"
+    ],
+    "historicalOnly": true,
+    "instruction": "Scatter straw opposite",
+    "logic": "Straw begins the provision that will be taken outside."
+  },
+  "tapalazunauli/break-bread": {
+    "needs": [
+      "tapalazunauli/scatter-straw"
+    ],
+    "opens": [
+      "bread"
+    ],
+    "uses": [],
+    "closes": [],
+    "instruction": "Break a little bread opposite",
+    "logic": "Bread joins the straw in the material provision."
+  },
+  "tapalazunauli/fill-basket": {
+    "needs": [
+      "tapalazunauli/break-bread"
+    ],
+    "opens": [
+      "basket"
+    ],
+    "uses": [
+      "straw",
+      "bread"
+    ],
+    "closes": [
+      "straw",
+      "bread"
+    ],
+    "instruction": "Put the materials in a basket",
+    "logic": "The prepared materials are gathered into one carrier for removal."
+  },
+  "tapalazunauli/chant-at-gate": {
+    "needs": [
+      "tapalazunauli/fill-basket"
+    ],
+    "opens": [],
+    "uses": [
+      "basket"
+    ],
+    "closes": [],
+    "instruction": "Chant at the gate",
+    "logic": "The woman’s ritual cry accompanies the basket as it leaves."
+  },
+  "tapalazunauli/carry-basket-out": {
+    "needs": [
+      "tapalazunauli/chant-at-gate"
+    ],
+    "opens": [],
+    "uses": [
+      "basket"
+    ],
+    "closes": [],
+    "instruction": "Carry the basket across the boundary",
+    "logic": "The carrier is taken out of the house and across the gate."
+  },
+  "tapalazunauli/speak-to-god": {
+    "needs": [
+      "tapalazunauli/carry-basket-out"
+    ],
+    "opens": [],
+    "uses": [
+      "basket"
+    ],
+    "closes": [
+      "basket"
+    ],
+    "terminal": true,
+    "instruction": "Speak of food brought for the god and his dogs",
+    "logic": "The words identify the basket’s contents as food for the addressed recipients."
+  }
+}

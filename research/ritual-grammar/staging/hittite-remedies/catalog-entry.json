@@ -1,0 +1,37 @@
+{
+  "concern": "Illness",
+  "region": "Ḫattuša",
+  "tags": [
+    "Medicine",
+    "Remedies",
+    "Fallback"
+  ],
+  "sources": "KUB 44.61 · KUB 44.64",
+  "description": "Herbs given for seven days, fallbacks \"if he does not get well from that\", a sinew from a leopard’s kill, remedies left out for the stars, honey and a fish.",
+  "searchTerms": [
+    "remedy",
+    "herbs",
+    "cress",
+    "garlic",
+    "leek",
+    "seven days",
+    "leopard",
+    "sinew",
+    "compress",
+    "lead",
+    "stars",
+    "night",
+    "honey",
+    "fish",
+    "bloating",
+    "fallback"
+  ],
+  "id": "hittite-remedies",
+  "path": "/rituals/hittite-remedies",
+  "title": "Hittite medical remedies",
+  "cth": 461,
+  "images": [
+    "/rituals/_pending.png"
+  ],
+  "stepCount": 15
+}

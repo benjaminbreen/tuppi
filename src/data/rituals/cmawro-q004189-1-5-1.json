@@ -1,0 +1,535 @@
+{
+  "id": "cmawro-q004189-1-5-1",
+  "corpusId": "cmawro",
+  "cth": null,
+  "sourceTextId": "Q004189",
+  "title": "Figurines against unknown witchcraft",
+  "shortName": "CMAwR 1.5.1",
+  "eyebrow": "CMAwR 1.5.1 · Mesopotamian anti-witchcraft ritual",
+  "dating": {
+    "label": "Middle Assyrian · Middle Babylonian · Neo-Assyrian witnesses",
+    "note": "Surviving witnesses carry Middle Assyrian, Middle Babylonian and Neo-Assyrian labels. These date witnesses, not the original composition or performance.",
+    "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr1/Q004189"
+  },
+  "purpose": "Make, burn and discard figurines representing an unknown warlock and witch.",
+  "attribution": "Practitioner unspecified in the edited instructions",
+  "sourceSummary": "Q004189 · CMAwR vol. 1, 1.5.1:11′–19′",
+  "editionUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr1/Q004189",
+  "editionLabel": "CMAwRo edition and translation",
+  "witnessPeriods": [
+    "Middle Assyrian",
+    "Middle Babylonian",
+    "Neo-Assyrian"
+  ],
+  "findspots": [
+    "Assur",
+    "Boghazkoi"
+  ],
+  "phases": [
+    {
+      "name": "Prepare the figures",
+      "range": [
+        1,
+        3
+      ],
+      "idea": "The accused are represented by figures, presented and coated."
+    },
+    {
+      "name": "Destroy and address",
+      "range": [
+        4,
+        6
+      ],
+      "idea": "The figures are placed in a pot, burned and addressed to Šamaš."
+    },
+    {
+      "name": "Discard the remains",
+      "range": [
+        7,
+        7
+      ],
+      "idea": "The burnt material is removed to the river."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "fashion-wax-figures",
+      "number": 1,
+      "title": "Make figurines of the accused",
+      "shortTitle": "Make figurines of the accused",
+      "shortDescription": "Make wax figurines representing the warlock and witch.",
+      "phase": "Prepare the figures",
+      "unitType": "act",
+      "actionType": "fashion-effigies",
+      "verb": "Make",
+      "summary": "Make wax figurines representing the warlock and witch.",
+      "patient": "Figurines representing the accused",
+      "actor": "Ritual practitioner",
+      "material": [
+        "wax"
+      ],
+      "evidence": "Lines 12′–13′ name figurines of warlock and witch; wax appears in a parenthetical variant.",
+      "image": {
+        "alt": "Illustrative reconstruction of make figurines of the accused.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q004189",
+          "locus": "1.5.1:13′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004189.15l",
+            "label": "1.5.1:13′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-1-5-1-fashion-figures",
+      "composition": {
+        "function": "fashion-figure",
+        "requires": [],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "materials",
+            "sub": "wax"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "warlock",
+            "f": {
+              "material": "wax"
+            }
+          }
+        },
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "materials",
+            "sub": "wax"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "witch",
+            "f": {
+              "material": "wax"
+            }
+          }
+        }
+      ],
+      "materialIds": [
+        "cmawro:iškūru"
+      ]
+    },
+    {
+      "id": "indict-before-shamash",
+      "number": 2,
+      "title": "Indict the figures before Šamaš",
+      "shortTitle": "Indict the figures before Šamaš",
+      "shortDescription": "Bring the figures before Šamaš and indict those they represent.",
+      "phase": "Prepare the figures",
+      "unitType": "act",
+      "actionType": "present-an-object",
+      "verb": "Present",
+      "summary": "Bring the figures before Šamaš and indict those they represent.",
+      "patient": "Figurines of the warlock and witch",
+      "actor": "Ritual practitioner",
+      "material": [
+        "figurines"
+      ],
+      "evidence": "The edited translation renders tadânšunūti as convicting them before Šamaš; the precise performance of this indictment is not specified.",
+      "image": {
+        "alt": "Illustrative reconstruction of indict the figures before šamaš.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q004189",
+          "locus": "1.5.1:14′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004189.16l",
+            "label": "1.5.1:14′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-1-5-1-indict-figures",
+      "composition": {
+        "function": "return-harm",
+        "requires": [
+          "fashion-wax-figures"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "present",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "wax"
+            },
+            "ref": "wax-figures"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Šamaš"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "accusation",
+          "addressee": {
+            "class": "deity",
+            "sub": "Šamaš"
+          },
+          "about": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "wax"
+            },
+            "ref": "wax-figures"
+          },
+          "note": "indictment of those represented; act category approximate"
+        }
+      ]
+    },
+    {
+      "id": "coat-with-tallow",
+      "number": 3,
+      "title": "Coat the figures with tallow",
+      "shortTitle": "Coat the figures with tallow",
+      "shortDescription": "Apply tallow to the prepared figurines.",
+      "phase": "Prepare the figures",
+      "unitType": "act",
+      "actionType": "coat-effigies",
+      "verb": "Coat",
+      "summary": "Apply tallow to the prepared figurines.",
+      "patient": "The prepared figurines",
+      "actor": "Ritual practitioner",
+      "material": [
+        "tallow"
+      ],
+      "evidence": "The same source line follows the indictment with lipâ tulabbissunūti, rendered as coating the figures with tallow.",
+      "image": {
+        "alt": "Illustrative reconstruction of coat the figures with tallow.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q004189",
+          "locus": "1.5.1:14′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004189.16l",
+            "label": "1.5.1:14′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-1-5-1-coat-figures",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "indict-before-shamash"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "apply",
+          "theme": {
+            "class": "fat",
+            "sub": "tallow"
+          },
+          "onto": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "wax"
+            },
+            "ref": "wax-figures"
+          }
+        }
+      ],
+      "materialIds": [
+        "cmawro:lipû"
+      ]
+    },
+    {
+      "id": "place-in-disposable-pot",
+      "number": 4,
+      "title": "Put the figures in a disposable pot",
+      "shortTitle": "Put the figures in a disposable pot",
+      "shortDescription": "Place the coated figures into a disposable clay pot.",
+      "phase": "Destroy and address",
+      "unitType": "act",
+      "actionType": "place-in-pot",
+      "verb": "Place",
+      "summary": "Place the coated figures into a disposable clay pot.",
+      "patient": "The coated figurines",
+      "actor": "Ritual practitioner",
+      "material": [
+        "disposable pot"
+      ],
+      "evidence": "The pot is explicitly named in line 15′; the clay material follows the edition gloss of ḫupû.",
+      "image": {
+        "alt": "Illustrative reconstruction of put the figures in a disposable pot.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q004189",
+          "locus": "1.5.1:15′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004189.17l",
+            "label": "1.5.1:15′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-1-5-1-pot-figures",
+      "composition": {
+        "function": "place-in-carrier",
+        "requires": [
+          "coat-with-tallow"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "wax"
+            },
+            "ref": "wax-figures"
+          },
+          "location": {
+            "class": "vessel",
+            "sub": "pot",
+            "f": {
+              "material": "clay"
+            }
+          }
+        }
+      ],
+      "materialIds": [
+        "cmawro:ḫupû"
+      ]
+    },
+    {
+      "id": "burn-the-figures",
+      "number": 5,
+      "title": "Burn the figures in the pot",
+      "shortTitle": "Burn the figures in the pot",
+      "shortDescription": "Burn the prepared figurines in the disposable pot.",
+      "phase": "Destroy and address",
+      "unitType": "act",
+      "actionType": "burn-effigies",
+      "verb": "Burn",
+      "summary": "Burn the prepared figurines in the disposable pot.",
+      "patient": "The prepared figurines",
+      "actor": "Ritual practitioner",
+      "material": [
+        "figurines",
+        "disposable pot"
+      ],
+      "evidence": "The source follows placement in the pot immediately with taqallūšunūti, burn them.",
+      "image": {
+        "alt": "Illustrative reconstruction of burn the figures in the pot.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q004189",
+          "locus": "1.5.1:15′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004189.17l",
+            "label": "1.5.1:15′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-1-5-1-burn-figures",
+      "composition": {
+        "function": "destroy-affliction",
+        "requires": [
+          "place-in-disposable-pot"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "wax"
+            },
+            "ref": "wax-figures"
+          }
+        }
+      ],
+      "materialIds": [
+        "cmawro:ḫupû"
+      ]
+    },
+    {
+      "id": "recite-return-to-shamash",
+      "number": 6,
+      "title": "Ask Šamaš to return the sorcery",
+      "shortTitle": "Ask Šamaš to return the sorcery",
+      "shortDescription": "Speak the appeal that the accused persons’ sorcery return to them; a variant prescribes three recitations.",
+      "phase": "Destroy and address",
+      "unitType": "utterance",
+      "actionType": "return-harm-by-speech",
+      "verb": "Speak",
+      "summary": "Speak the appeal that the accused persons’ sorcery return to them; a variant prescribes three recitations.",
+      "patient": "The appeal to Šamaš",
+      "actor": "Ritual practitioner",
+      "material": [],
+      "evidence": "The appeal begins at line 16′; line 18′ preserves a parenthetical instruction to speak it three times.",
+      "image": {
+        "alt": "Illustrative reconstruction of ask šamaš to return the sorcery.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q004189",
+          "locus": "1.5.1:18′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004189.20l",
+            "label": "1.5.1:18′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-1-5-1-recite-return",
+      "composition": {
+        "function": "return-harm",
+        "requires": [
+          "burn-the-figures"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Šamaš"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "sorcery"
+          },
+          "note": "may their procedures turn on their skulls; variant: three times"
+        }
+      ]
+    },
+    {
+      "id": "throw-pot-in-river",
+      "number": 7,
+      "title": "Throw the remains into the river",
+      "shortTitle": "Throw the remains into the river",
+      "shortDescription": "Throw the disposable pot and burnt material into the river; a variant instead names the figurines.",
+      "phase": "Discard the remains",
+      "unitType": "act",
+      "actionType": "release-into-water",
+      "verb": "Throw",
+      "summary": "Throw the disposable pot and burnt material into the river; a variant instead names the figurines.",
+      "patient": "Disposable pot and burnt material",
+      "actor": "Ritual practitioner",
+      "material": [
+        "disposable pot",
+        "burnt material"
+      ],
+      "evidence": "The verb is restored in line 19′. Witness D instead directs disposal of the figurines; the two objects are alternatives, not successive actions.",
+      "image": {
+        "alt": "Illustrative reconstruction of throw the remains into the river.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q004189",
+          "locus": "1.5.1:19′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004189.21l",
+            "label": "1.5.1:19′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-1-5-1-river-disposal",
+      "composition": {
+        "function": "discard-carrier",
+        "requires": [
+          "recite-return-to-shamash"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "release",
+          "theme": {
+            "class": "vessel",
+            "sub": "pot",
+            "f": {
+              "material": "clay"
+            }
+          },
+          "goal": "river"
+        }
+      ],
+      "materialIds": [
+        "cmawro:ḫupû"
+      ],
+      "place": "River"
+    }
+  ]
+}

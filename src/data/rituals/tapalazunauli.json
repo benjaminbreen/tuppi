@@ -1,0 +1,548 @@
+{
+  "id": "tapalazunauli",
+  "cth": 424,
+  "title": "Tapalazunauli’s plague ritual",
+  "shortName": "Tapalazunauli",
+  "eyebrow": "CTH 424.1 · plague in land or army",
+  "dating": {
+    "label": "New Hittite copy",
+    "note": "KUB 41.17 + KBo 64.14 is a collection tablet containing this ritual and other distinct rites.",
+    "sourceUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+41.17"
+  },
+  "purpose": "A plague rite that sends evil away on a donkey, then carries straw and bread out through a gate for the god and his dogs.",
+  "attribution": "Attributed to Tapalazunauli of Arzawa",
+  "sourceSummary": "KUB 41.17 + KBo 64.14 · Tapalazunauli section, first-day selection",
+  "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+41.17",
+  "phases": [
+    {
+      "name": "Send away the evil",
+      "range": [
+        1,
+        3
+      ],
+      "idea": "A donkey is brought forward, addressed and sent toward enemy land."
+    },
+    {
+      "name": "Carry out the provisions",
+      "range": [
+        4,
+        9
+      ],
+      "idea": "Straw and bread are gathered in a basket, carried through a gate and presented in words."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "bring-donkey",
+      "number": 1,
+      "title": "Bring forward a donkey",
+      "shortTitle": "Bring forward a donkey",
+      "shortDescription": "They bring a donkey forward for the rite.",
+      "phase": "Send away the evil",
+      "unitType": "act",
+      "actionType": "lead-donkey",
+      "verb": "Bring",
+      "summary": "They bring a donkey forward for the rite.",
+      "patient": "A donkey",
+      "actor": "Ritual attendants",
+      "material": [],
+      "evidence": "KUB 41.17 + KBo 64.14 §2.",
+      "image": {
+        "alt": "A donkey led away",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-64-14-plus",
+          "locus": "KUB 41.17 + KBo 64.14 §2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "tapalazunauli-bring-donkey",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "drive",
+          "theme": {
+            "class": "animal",
+            "sub": "donkey"
+          }
+        }
+      ]
+    },
+    {
+      "id": "assign-evil",
+      "number": 2,
+      "title": "Tell the donkey to carry away evil",
+      "shortTitle": "Tell the donkey to carry away evil",
+      "shortDescription": "The spoken words assign the evil to the donkey as its burden.",
+      "phase": "Send away the evil",
+      "unitType": "utterance",
+      "actionType": "assign-harm-to-carrier",
+      "verb": "Speak",
+      "summary": "The spoken words assign the evil to the donkey as its burden.",
+      "patient": "The donkey",
+      "actor": "The practitioner",
+      "material": [],
+      "evidence": "KUB 41.17 + KBo 64.14 §2.",
+      "image": {
+        "alt": "A donkey led away",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-64-14-plus",
+          "locus": "KUB 41.17 + KBo 64.14 §2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "tapalazunauli-assign-evil",
+      "composition": {
+        "function": "transfer-affliction",
+        "requires": [
+          "bring-donkey"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "materials",
+            "sub": "load"
+          },
+          "onto": {
+            "class": "animal",
+            "sub": "donkey"
+          },
+          "note": "object lost"
+        },
+        {
+          "verb": "speak",
+          "act": "assignment",
+          "about": {
+            "class": "animal",
+            "sub": "donkey"
+          },
+          "note": "let this one carry off the evil"
+        },
+        {
+          "verb": "speak",
+          "act": "binding",
+          "about": {
+            "class": "harm",
+            "sub": "evil"
+          },
+          "note": "let the evil not come to me"
+        }
+      ]
+    },
+    {
+      "id": "send-donkey",
+      "number": 3,
+      "title": "Drive the donkey toward enemy land",
+      "shortTitle": "Drive the donkey toward enemy land",
+      "shortDescription": "The donkey is driven away toward the enemy lands.",
+      "phase": "Send away the evil",
+      "unitType": "act",
+      "actionType": "send-donkey-away",
+      "verb": "Drive",
+      "summary": "The donkey is driven away toward the enemy lands.",
+      "patient": "The donkey",
+      "actor": "Ritual attendants",
+      "material": [],
+      "evidence": "KUB 41.17 + KBo 64.14 §2.",
+      "image": {
+        "alt": "A donkey led away",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-64-14-plus",
+          "locus": "KUB 41.17 + KBo 64.14 §2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "tapalazunauli-send-donkey",
+      "composition": {
+        "function": "dispatch-substitute",
+        "requires": [
+          "assign-evil"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "drive",
+          "theme": {
+            "class": "animal",
+            "sub": "donkey"
+          },
+          "goal": "enemy lands"
+        }
+      ]
+    },
+    {
+      "id": "scatter-straw",
+      "number": 4,
+      "title": "Scatter a little straw",
+      "shortTitle": "Scatter a little straw",
+      "shortDescription": "Straw is scattered opposite the ritual place.",
+      "phase": "Carry out the provisions",
+      "unitType": "act",
+      "actionType": "scatter-provisions",
+      "verb": "Scatter",
+      "summary": "Straw is scattered opposite the ritual place.",
+      "patient": "Straw",
+      "actor": "The practitioner",
+      "material": [
+        "Straw"
+      ],
+      "evidence": "KUB 41.17 + KBo 64.14 §3.",
+      "image": {
+        "alt": "Straw scattered beside broken bread",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-64-14-plus",
+          "locus": "KUB 41.17 + KBo 64.14 §3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "tapalazunauli-scatter-straw",
+      "composition": {
+        "function": "make-offering",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "plant",
+            "sub": "straw"
+          },
+          "location": "opposite"
+        }
+      ]
+    },
+    {
+      "id": "break-bread",
+      "number": 5,
+      "title": "Break a little bread",
+      "shortTitle": "Break a little bread",
+      "shortDescription": "A small amount of bread is broken opposite.",
+      "phase": "Carry out the provisions",
+      "unitType": "act",
+      "actionType": "break-bread",
+      "verb": "Break",
+      "summary": "A small amount of bread is broken opposite.",
+      "patient": "Bread",
+      "actor": "The practitioner",
+      "material": [
+        "Bread"
+      ],
+      "evidence": "KUB 41.17 + KBo 64.14 §3.",
+      "image": {
+        "alt": "Straw scattered beside broken bread",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-64-14-plus",
+          "locus": "KUB 41.17 + KBo 64.14 §3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "tapalazunauli-break-bread",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "scatter-straw"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "break",
+          "theme": {
+            "class": "food",
+            "sub": "bread"
+          },
+          "location": "opposite"
+        }
+      ]
+    },
+    {
+      "id": "fill-basket",
+      "number": 6,
+      "title": "Put the materials in a basket",
+      "shortTitle": "Put the materials in a basket",
+      "shortDescription": "At evening the prepared materials are poured into a basket.",
+      "phase": "Carry out the provisions",
+      "unitType": "act",
+      "actionType": "put-in-basket",
+      "verb": "Put",
+      "summary": "At evening the prepared materials are poured into a basket.",
+      "patient": "Straw and bread",
+      "actor": "The practitioner",
+      "material": [
+        "Basket"
+      ],
+      "evidence": "KUB 41.17 + KBo 64.14 §3.",
+      "image": {
+        "alt": "Straw and bread placed in a basket",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-64-14-plus",
+          "locus": "KUB 41.17 + KBo 64.14 §3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "tapalazunauli-fill-basket",
+      "composition": {
+        "function": "place-in-carrier",
+        "requires": [
+          "break-bread"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "materials",
+            "sub": "straw and bread"
+          },
+          "location": {
+            "class": "container",
+            "sub": "basket"
+          },
+          "time": "evening"
+        }
+      ]
+    },
+    {
+      "id": "chant-at-gate",
+      "number": 7,
+      "title": "Chant at the gate",
+      "shortTitle": "Chant at the gate",
+      "shortDescription": "A woman chants while the basket is being carried out.",
+      "phase": "Carry out the provisions",
+      "unitType": "utterance",
+      "actionType": "chant-at-gate",
+      "verb": "Chant",
+      "summary": "A woman chants while the basket is being carried out.",
+      "patient": "The gate",
+      "actor": "A woman",
+      "material": [],
+      "evidence": "KUB 41.17 + KBo 64.14 §3.",
+      "image": {
+        "alt": "A woman chants as a basket is carried through the gate",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-64-14-plus",
+          "locus": "KUB 41.17 + KBo 64.14 §3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "tapalazunauli-chant-at-gate",
+      "composition": {
+        "function": "chant-at-threshold",
+        "requires": [
+          "fill-basket"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "invocation",
+          "note": "palwae- ritual cry by a woman; content unspecified",
+          "location": "gate",
+          "agent": {
+            "class": "person",
+            "sub": "woman"
+          }
+        }
+      ]
+    },
+    {
+      "id": "carry-basket-out",
+      "number": 8,
+      "title": "Carry the basket out",
+      "shortTitle": "Carry the basket out",
+      "shortDescription": "The prepared basket is carried across the boundary and away.",
+      "phase": "Carry out the provisions",
+      "unitType": "act",
+      "actionType": "carry-basket-out",
+      "verb": "Carry",
+      "summary": "The prepared basket is carried across the boundary and away.",
+      "patient": "The basket",
+      "actor": "Ritual attendants",
+      "material": [
+        "Basket"
+      ],
+      "evidence": "KUB 41.17 + KBo 64.14 §4.",
+      "image": {
+        "alt": "A woman chants as a basket is carried through the gate",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-64-14-plus",
+          "locus": "KUB 41.17 + KBo 64.14 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "tapalazunauli-carry-basket-out",
+      "composition": {
+        "function": "discard-carrier",
+        "requires": [
+          "chant-at-gate"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "carry",
+          "theme": {
+            "class": "container",
+            "sub": "basket"
+          },
+          "source": "house",
+          "goal": "across the boundary"
+        }
+      ]
+    },
+    {
+      "id": "speak-to-god",
+      "number": 9,
+      "title": "Speak of food for the god and his dogs",
+      "shortTitle": "Speak of food for the god and his dogs",
+      "shortDescription": "The speaker says fodder and food have been brought for the god and his dogs.",
+      "phase": "Carry out the provisions",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The speaker says fodder and food have been brought for the god and his dogs.",
+      "patient": "The god and his dogs",
+      "actor": "The practitioner",
+      "material": [],
+      "evidence": "KUB 41.17 + KBo 64.14 §4.",
+      "image": {
+        "alt": "A woman chants as a basket is carried through the gate",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-64-14-plus",
+          "locus": "KUB 41.17 + KBo 64.14 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "tapalazunauli-speak-to-god",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "carry-basket-out"
+        ],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "addressee": {
+            "class": "deity",
+            "sub": "plague god"
+          },
+          "about": {
+            "class": "food",
+            "sub": "fodder"
+          },
+          "note": "I have brought fodder for you and food for your dogs"
+        },
+        {
+          "verb": "speak",
+          "act": "assignment",
+          "addressee": {
+            "class": "deity",
+            "sub": "plague god"
+          },
+          "about": {
+            "class": "food",
+            "sub": "food"
+          }
+        }
+      ],
+      "recipient": "The addressed god",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "The addressed god"
+    }
+  ]
+}

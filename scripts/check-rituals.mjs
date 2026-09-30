@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { validateAtom } from "../src/lib/ritualAtoms.js";
 
 const root = path.resolve(import.meta.dirname, "..");
 const dataDir = path.join(root, "src/data/rituals");
@@ -29,6 +30,14 @@ function sourceDoc(id) {
   docCache.set(id, doc);
   return doc;
 }
+function corpusSourceDoc(id) {
+  const key = `cmawro:${id}`;
+  if (docCache.has(key)) return docCache.get(key);
+  const file = path.join(root, "public/data/corpora/cmawro/texts", `${id}.json`);
+  const doc = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : null;
+  docCache.set(key, doc);
+  return doc;
+}
 
 function image(pathname, context) {
   check(typeof pathname === "string" && pathname.startsWith("/") && !pathname.includes(".."), `${context}: invalid image path`);
@@ -52,6 +61,7 @@ for (const entry of catalog) {
   if (!edition) continue;
   check(entry.path === `/rituals/${entry.id}`, `${entry.id}: path differs from route`);
   check(entry.cth === edition.cth, `${entry.id}: CTH mismatch`);
+  check((entry.corpusId ?? "tlhdig-hittite") === (edition.corpusId ?? "tlhdig-hittite"), `${entry.id}: corpus mismatch`);
   check(entry.stepCount === edition.steps.length, `${entry.id}: catalogue step count mismatch`);
   check(entry.tags.length > 0 && entry.searchTerms.length > 0, `${entry.id}: catalogue browsing terms missing`);
   entry.images.forEach((item, i) => image(item, `${entry.id} catalogue image ${i + 1}`));
@@ -67,7 +77,7 @@ for (const entry of catalog) {
     check(stepQuotes?.length === step.attestations.length, `${context}: quotations do not match attestations`);
     stepQuotes?.forEach((quote, index) => {
       const attestation = step.attestations[index];
-      check(quote.witness === attestation.witness && quote.doc === attestation.doc && quote.anchor.kind === attestation.anchor.kind && quote.anchor.index === attestation.anchor.index, `${context}: quotation source mismatch`);
+      check(quote.witness === attestation.witness && quote.doc === attestation.doc && quote.anchor.kind === attestation.anchor.kind && (quote.anchor.kind === "corpus-line" ? quote.anchor.ref === attestation.anchor.ref && quote.anchor.label === attestation.anchor.label : quote.anchor.index === attestation.anchor.index), `${context}: quotation source mismatch`);
       check(typeof quote.original === "string" && quote.original.trim().length > 0, `${context}: original quotation missing`);
     });
     check(step.number === i + 1, `${context}: steps must be numbered in order`);
@@ -96,6 +106,7 @@ for (const entry of catalog) {
       check(!!unit.title && !!unit.description, `${context}: incomplete canonical unit`);
       const visual = visuals[unit.visualAssetId];
       check(!!visual, `${context}: missing visual asset ${unit.visualAssetId}`);
+      if (visual?.status === "pending") check(typeof visual.prompt === "string" && visual.prompt.length > 20, `${context}: pending visual needs an image prompt`);
       if (visual) { usedVisuals.add(unit.visualAssetId); image(visual.src, context); }
       if (unit.deityVisualId) check(step.deityVisualId === unit.deityVisualId, `${context}: address and canonical unit use different deity images`);
     }
@@ -113,11 +124,22 @@ for (const entry of catalog) {
     check(step.title && step.shortTitle && step.summary && step.patient && step.actor, `${context}: missing step metadata`);
     check(step.image?.alt && step.image?.note, `${context}: missing image description`);
     check(step.attestations?.length > 0, `${context}: no manuscript attestation`);
+    check(Array.isArray(step.atoms) && step.atoms.length > 0, `${context}: atoms[] missing`);
+    (step.atoms ?? []).forEach((atom, k) => validateAtom(atom, `${context}#${k}`).forEach((error) => errors.push(error)));
     for (const a of step.attestations ?? []) {
+      if (entry.corpusId === "cmawro") {
+        const doc = corpusSourceDoc(a.doc);
+        check(!!doc && a.doc === edition.sourceTextId, `${context}: missing CMAwRo source document ${a.doc}`);
+        check(a.anchor?.kind === "corpus-line" && doc?.lines.some((line) => line.label === a.anchor.label && line.ref === a.anchor.ref), `${context}: invalid CMAwRo line anchor`);
+        check(!!a.witness && !!a.locus, `${context}: source label or locus missing`);
+        continue;
+      }
       const doc = sourceDoc(a.doc);
       check(!!doc, `${context}: missing source document ${a.doc}`);
       if (!doc) continue;
-      const sharedTablet = a.doc === "kub-9-31" && (
+      const sharedTablet = (a.doc === "kbo-15-1" && edition.cth === 779 && a.anchor.kind === "paragraph" && a.anchor.index >= 7 && a.anchor.index <= 12) ||
+        (a.doc === "kbo-64-14-plus" && edition.cth === 424 && a.anchor.kind === "paragraph" && a.anchor.index >= 0 && a.anchor.index <= 5) ||
+        a.doc === "kub-9-31" && (
         (edition.cth === 410 && a.anchor.kind === "paragraph" && a.anchor.index >= 22 && a.anchor.index <= 25) ||
         (edition.cth === 394 && a.anchor.kind === "paragraph" && a.anchor.index >= 26 && a.anchor.index <= 34)
       );

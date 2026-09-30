@@ -1,0 +1,38 @@
+{
+  "id": "cmawro-q002713-9-22-31",
+  "corpusId": "cmawro",
+  "path": "/rituals/cmawro-q002713-9-22-31",
+  "title": "Burning the figures in the crucible",
+  "cth": null,
+  "sourceLabel": "Maqlû IX 22′–31′",
+  "concern": "Witchcraft",
+  "region": "Mesopotamia",
+  "tags": [
+    "Mesopotamian",
+    "Maqlû",
+    "Figurines",
+    "Fire"
+  ],
+  "sources": "Q002713 · Maqlû IX 22′–31′",
+  "description": "The Maqlû ritual tablet has figures of wood, tallow, wax, husks, bitumen, gypsum, clay and dough set in a crucible within a circle, identified by speech, and burned with a sulphur-lit torch.",
+  "images": [
+    "/rituals/_pending.png"
+  ],
+  "stepCount": 7,
+  "searchTerms": [
+    "Akkadian",
+    "Maqlû",
+    "crucible",
+    "magic circle",
+    "tamarisk",
+    "cedar",
+    "tallow",
+    "wax",
+    "bitumen",
+    "gypsum",
+    "clay",
+    "dough",
+    "sulphur",
+    "torch"
+  ]
+}

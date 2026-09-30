@@ -1,0 +1,107 @@
+{
+  "mursili-plague-prayer-inquire-egypt-oath": {
+    "title": "Put the Egyptian oath-breach to an oracle",
+    "description": "Having found the old tablet about Egypt, the king makes the matter of the broken oath the subject of an oracle inquiry.",
+    "actionType": "consult-oracle",
+    "unitType": "act",
+    "visualAssetId": "mursili-plague-prayer-inquire-egypt-oath",
+    "matchRule": "A king submits a found cause of divine anger to oracle inquiry."
+  },
+  "mursili-plague-prayer-inquire-mala-offering": {
+    "title": "Put the neglected Mala offering to an oracle",
+    "description": "The king also asks the oracle about the long-neglected offering to the river Mala; it confirms he must stand before the Storm-god.",
+    "actionType": "consult-oracle",
+    "unitType": "act",
+    "visualAssetId": "mursili-plague-prayer-inquire-mala-offering",
+    "matchRule": "Oracle inquiry into a neglected cult offering."
+  },
+  "mursili-plague-prayer-confess-sin": {
+    "title": "Confess the sin",
+    "description": "Before the Storm-god the king acknowledges the sin: 'it is so, we did it.'",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "mursili-plague-prayer-confess-sin",
+    "matchRule": "A first-person confession of a specific offence to the god it angered.",
+    "deityVisualId": "storm-god"
+  },
+  "mursili-plague-prayer-vow-mala-offering": {
+    "title": "Vow to perform the Mala offering",
+    "description": "The king undertakes to see to the river Mala offering, and asks that the plague be put right.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "mursili-plague-prayer-vow-mala-offering",
+    "matchRule": "A promise to resume a neglected offering.",
+    "deityVisualId": "divine-assembly"
+  },
+  "mursili-plague-prayer-confess-fathers-sin": {
+    "title": "Confess the father's sin",
+    "description": "The king explains that a father's sin reaches his son and confesses Šuppiluliuma's transgression before the Storm-god and the gods.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "mursili-plague-prayer-confess-fathers-sin",
+    "matchRule": "Confession of an inherited offence.",
+    "deityVisualId": "storm-god"
+  },
+  "mursili-plague-prayer-soothe-and-send-away": {
+    "title": "Ask the god's soul to be soothed and the plague sent away",
+    "description": "Because the sin is confessed, the king asks that the soul of the Storm-god and the gods be soothed, that they have pity, and send the plague away.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "mursili-plague-prayer-soothe-and-send-away",
+    "matchRule": "Request that a god's anger be soothed after confession.",
+    "deityVisualId": "storm-god"
+  },
+  "mursili-plague-prayer-hear-me": {
+    "title": "Call on the Storm-god to hear and keep him alive",
+    "description": "The king announces his plea about the plague and calls on the Storm-god to hear him and keep him alive.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "mursili-plague-prayer-hear-me",
+    "matchRule": "Direct invocation of a named god to hear a plea.",
+    "deityVisualId": "storm-god"
+  },
+  "mursili-plague-prayer-bird-and-servant": {
+    "title": "Argue by the bird and the servant",
+    "description": "The king offers comparisons: a bird kept alive in its nest, a servant whose lord hears his plea, a servant forgiven because he confessed.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "mursili-plague-prayer-bird-and-servant",
+    "matchRule": "Rhetorical analogy of lord and servant addressed to a god.",
+    "deityVisualId": "storm-god"
+  },
+  "mursili-plague-prayer-offer-compensation": {
+    "title": "Offer further compensation",
+    "description": "The king argues the land has already paid twentyfold through the plague, yet undertakes to give any further compensation the god reveals in a dream.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "mursili-plague-prayer-offer-compensation",
+    "matchRule": "Promise of restitution to an offended god on revelation.",
+    "deityVisualId": "storm-god"
+  },
+  "mursili-plague-prayer-spare-cult-personnel": {
+    "title": "Ask that the remaining cult personnel die no more",
+    "description": "While he sets the matter right, the king asks that the surviving bread-offerers and libation-pourers die no more.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "mursili-plague-prayer-spare-cult-personnel",
+    "matchRule": "Plea that those who feed the gods be spared.",
+    "deityVisualId": "storm-god"
+  },
+  "mursili-plague-prayer-reveal-other-cause": {
+    "title": "Ask for any other cause to be revealed",
+    "description": "If people die for another reason, the king asks to see it in a dream, by oracle, or through a man of god.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "mursili-plague-prayer-reveal-other-cause",
+    "matchRule": "Request for divine disclosure through dream, oracle or prophet.",
+    "deityVisualId": "divine-assembly"
+  },
+  "mursili-plague-prayer-order-pure-sleep": {
+    "title": "Order the priests to sleep in purity",
+    "description": "The king has ordered all (probably priests) to sleep regularly in purity, apparently to receive dreams.",
+    "actionType": "incubate-dream",
+    "unitType": "act",
+    "visualAssetId": "mursili-plague-prayer-order-pure-sleep",
+    "matchRule": "Ordered sleep in a state of purity to receive a dream."
+  }
+}

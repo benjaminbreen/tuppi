@@ -1,0 +1,116 @@
+[
+  {
+    "id": "cmawro-wool-hittite",
+    "subject": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:18"
+    },
+    "object": {
+      "corpusId": "tlhdig-hittite",
+      "sourceId": "s:SÍG",
+      "sourceUrl": "/substance/s%3AS%C3%8DG"
+    },
+    "relationship": "candidate-material",
+    "rationale": "Both source ledgers identify wool. This is a broad material comparison, not a claim that the same preparation or ritual meaning is shared.",
+    "evidence": [
+      {
+        "corpusId": "cmawro",
+        "sourceId": "Q005039",
+        "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+        "locus": "3.4.1:18"
+      }
+    ],
+    "confidence": "medium",
+    "status": "proposed",
+    "subjectProcedureId": "cmawro-q005039-3-4-1"
+  },
+  {
+    "id": "cmawro-cedar-hittite",
+    "subject": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:18"
+    },
+    "object": {
+      "corpusId": "tlhdig-hittite",
+      "sourceId": "s:EREN",
+      "sourceUrl": "/substance/s%3AEREN"
+    },
+    "relationship": "candidate-material",
+    "rationale": "Both source glosses say cedar. Species-level identification and whether the same plant product was used remain open.",
+    "evidence": [
+      {
+        "corpusId": "cmawro",
+        "sourceId": "Q005039",
+        "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+        "locus": "3.4.1:18"
+      }
+    ],
+    "confidence": "low",
+    "status": "proposed",
+    "subjectProcedureId": "cmawro-q005039-3-4-1"
+  },
+  {
+    "id": "cmawro-tamarisk-hittite",
+    "subject": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:18"
+    },
+    "object": {
+      "corpusId": "tlhdig-hittite",
+      "sourceId": "s:ŠINIG",
+      "sourceUrl": "/substance/s%3A%C5%A0INIG"
+    },
+    "relationship": "candidate-material",
+    "rationale": "Both source glosses say tamarisk. This records a comparison candidate, not a proven species identification.",
+    "evidence": [
+      {
+        "corpusId": "cmawro",
+        "sourceId": "Q005039",
+        "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+        "locus": "3.4.1:18"
+      }
+    ],
+    "confidence": "low",
+    "status": "proposed",
+    "subjectProcedureId": "cmawro-q005039-3-4-1"
+  },
+  {
+    "id": "cmawro-amulet-hittite-binding",
+    "subject": {
+      "corpusId": "cmawro",
+      "sourceId": "Q005039",
+      "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+      "locus": "3.4.1:19"
+    },
+    "object": {
+      "corpusId": "tlhdig-hittite",
+      "sourceId": "ashella/bind-ram",
+      "sourceUrl": "/rituals/ashella/step/bind-ram"
+    },
+    "relationship": "analogous-action",
+    "rationale": "Both passages attach prepared materials with wool or cord. The Mesopotamian amulet is placed on a person; the Hittite cord is bound to a ram. They remain distinct ritual steps.",
+    "evidence": [
+      {
+        "corpusId": "cmawro",
+        "sourceId": "Q005039",
+        "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+        "locus": "3.4.1:19"
+      },
+      {
+        "corpusId": "tlhdig-hittite",
+        "sourceId": "kbo-13-212-plus",
+        "sourceUrl": "/text/kbo-13-212-plus",
+        "locus": "CTH 394, binding the rams"
+      }
+    ],
+    "confidence": "medium",
+    "status": "proposed",
+    "subjectProcedureId": "cmawro-q005039-3-4-1"
+  }
+]

@@ -1,0 +1,933 @@
+{
+ "bring(animal)": [
+  "uhhamuwa/bring-ram#0",
+  "uhhamuwa/bring-goat-sheep#0",
+  "uhhamuwa/bring-goat-sheep#1",
+  "ashella/prepare-ram#0",
+  "pulisa/bring-bull-ewe#0",
+  "pulisa/bring-bull-ewe#1",
+  "tunnawiya/prepare-black-animals#0",
+  "tunnawiya/prepare-black-animals#1",
+  "tunnawiya/prepare-black-animals#2",
+  "dandanku/bring-animals#0",
+  "dandanku/bring-animals#1",
+  "dandanku/bring-animals#2",
+  "tunnawiya-royal/bring-piglets#1",
+  "lapana-plague/bull#0"
+ ],
+ "combine(wool)": [
+  "uhhamuwa/twist-wool#0",
+  "ashella/twist-wool#0"
+ ],
+ "shape(wool)": [
+  "uhhamuwa/make-wreath#0"
+ ],
+ "attach(ornament)": [
+  "uhhamuwa/crown-ram#0",
+  "ashella/bind-ram#1",
+  "pulisa/ring-bull#0",
+  "cmawro-q005039-3-4-1/place-around-neck#0"
+ ],
+ "drive(animal)": [
+  "uhhamuwa/lead-to-road#0",
+  "uhhamuwa/drive-away-ram#0",
+  "ashella/release-rams#0",
+  "ashella/bring-pig#0",
+  "pulisa/send-animals-ahead#0",
+  "pulisa/send-animals-ahead#1",
+  "tapalazunauli/bring-donkey#0",
+  "tapalazunauli/send-donkey#0"
+ ],
+ "speak:assignment": [
+  "uhhamuwa/appeal-over-ram#0",
+  "uhhamuwa/address-horses-chariot#0",
+  "allii/return-address#2",
+  "ashella/appeal#0",
+  "dandanku/address-grooms#1",
+  "dandanku/address-maids#0",
+  "tapalazunauli/assign-evil#1",
+  "tapalazunauli/speak-to-god#1",
+  "tunnawiya-royal/limbs-take-sickness#1"
+ ],
+ "speak:appeasement": [
+  "uhhamuwa/appeal-over-ram#1",
+  "uhhamuwa/address-horses-chariot#1",
+  "ashella/appeal#1",
+  "mursili-plague-prayer/soothe-and-send-away#0"
+ ],
+ "bring(food)": [
+  "uhhamuwa/bring-fodder-fat#0",
+  "uhhamuwa/bring-food-drink#0",
+  "uhhamuwa/bring-food-drink#1",
+  "uhhamuwa/bring-food-drink#2"
+ ],
+ "bring(fat)": [
+  "uhhamuwa/bring-fodder-fat#1"
+ ],
+ "speak:dismissal": [
+  "uhhamuwa/address-horses-chariot#2",
+  "allii/return-address#1",
+  "allii/lift-at-dawn#2",
+  "pulisa/address-man#1",
+  "pulisa/address-bull#1",
+  "tunnawiya/hold-black-sheep#1",
+  "tunnawiya/smash-empty-pot#2",
+  "maddunani/speak-in-camp#0",
+  "tunnawiya-royal/command-spit-out#0",
+  "tunnawiya-royal/command-spit-out#1",
+  "tunnawiya-royal/command-spit-out#2",
+  "tunnawiya-royal/cut-them-off#0",
+  "tunnawiya-royal/cut-them-off#1",
+  "libu-fever/patient-gives-libu#1",
+  "libu-fever/address-nisaba#2",
+  "libu-fever/draw-design-adjure#3",
+  "libu-fever/adjure-at-gate#1",
+  "cmawro-q004239-11-1-1/recite-tear-out-sorcery#0",
+  "cmawro-q005109-11-3-1/send-evil-across-river#0"
+ ],
+ "dedicate(animal)": [
+  "uhhamuwa/dedicate-goat#0",
+  "uhhamuwa/dedicate-sheep#0",
+  "ashella/offer-goats#0",
+  "ashella/offer-pig#0",
+  "ashella/offer-bull#0",
+  "ashella/offer-ewe#0",
+  "ashella/offer-rams#0"
+ ],
+ "kill(animal)": [
+  "uhhamuwa/kill-sheep#0",
+  "ashella/slaughter-ram#0",
+  "dandanku/kill-animals#0",
+  "dandanku/kill-animals#1",
+  "dandanku/kill-animals#2"
+ ],
+ "cook(meat)": [
+  "uhhamuwa/cook-sheep#0",
+  "ashella/cook-meat#0"
+ ],
+ "bring(drink)": [
+  "uhhamuwa/bring-food-drink#3",
+  "uhhamuwa/bring-food-drink#4"
+ ],
+ "offer(food)": [
+  "uhhamuwa/prepare-for-road-god#0",
+  "tunnawiya/offer-at-riverbank#0",
+  "tunnawiya/offer-at-spring#0",
+  "tunnawiya/return-river-offering#0",
+  "lapana-plague/raw-cooked#0",
+  "lapana-plague/raw-cooked#1"
+ ],
+ "shape(clay)": [
+  "allii/arrange-figures#0",
+  "allii/arrange-figures#1",
+  "tunnawiya/make-clay-figures#0",
+  "tunnawiya/make-clay-figures#1",
+  "cmawro-q005063-8-18/fashion-five-material-figures#0",
+  "libu-fever/make-clay-donkeys#0",
+  "libu-fever/make-substitute#5",
+  "libu-fever/make-driver#0",
+  "cmawro-q005109-11-3-1/make-male-female-clay-figures#0"
+ ],
+ "place(figure)": [
+  "allii/arrange-figures#2",
+  "tunnawiya/bathe-over-figure#0",
+  "cmawro-q004189-1-5-1/place-in-disposable-pot#0",
+  "cmawro-q005063-8-18/place-figures-in-pot#0",
+  "libu-fever/dress-mount-substitute#2",
+  "libu-fever/donkeys-in-basket#0",
+  "cmawro-q002713-9-22-31/arrange-figures-in-crucible#0",
+  "cmawro-q002713-9-22-31/arrange-figures-in-crucible#1",
+  "cmawro-q002713-9-22-31/arrange-figures-in-crucible#2",
+  "cmawro-q002713-9-22-31/arrange-figures-in-crucible#3",
+  "cmawro-q002713-9-22-31/arrange-figures-in-crucible#4",
+  "cmawro-q002713-9-22-31/arrange-figures-in-crucible#5",
+  "cmawro-q002713-9-22-31/arrange-figures-in-crucible#6",
+  "cmawro-q002713-9-22-31/arrange-figures-in-crucible#7",
+  "cmawro-q002713-9-22-31/arrange-figures-in-crucible#8"
+ ],
+ "position(person)": [
+  "allii/seat-patient#0",
+  "tunnawiya-royal/hold-over-back#0",
+  "tunnawiya-royal/hold-sheep-over-chest#0"
+ ],
+ "present(vessel)": [
+  "allii/raise-vessel#0"
+ ],
+ "present(figure)": [
+  "allii/raise-vessel#1",
+  "cmawro-q004189-1-5-1/indict-before-shamash#0"
+ ],
+ "speak:invocation": [
+  "allii/return-address#0",
+  "tapalazunauli/chant-at-gate#0",
+  "ummaya/conjure-on-ground#0",
+  "mursili-plague-prayer/hear-me#0",
+  "libu-fever/address-samas-roof#0",
+  "libu-fever/address-nisaba#0",
+  "libu-fever/address-samas-oath#0",
+  "libu-fever/recite-arabapura#0",
+  "cmawro-q002713-9-22-31/light-torch-from-sulphur#1",
+  "cmawro-q005109-11-3-1/clothe-and-stand-before-god#1"
+ ],
+ "wind(wool)": [
+  "allii/wind-wool#0",
+  "cmawro-q005039-3-4-1/pack-ingredients-in-wool#5",
+  "cmawro-q004239-11-1-1/wrap-sulphur-oil-in-fleece#1",
+  "potency-prescriptions/wrap-in-wool#0"
+ ],
+ "speak:declaration": [
+  "allii/wind-wool#1",
+  "tunnawiya/melt-figures#1",
+  "paskuwatti/speak-exchange#0",
+  "tapalazunauli/speak-to-god#0",
+  "tunnawiya-royal/list-afflictions#0",
+  "tunnawiya-royal/list-afflictions#1",
+  "tunnawiya-royal/list-afflictions#2",
+  "tunnawiya-royal/list-tongues#0",
+  "tunnawiya-royal/list-tongues#1",
+  "tunnawiya-royal/list-tongues#2",
+  "tunnawiya-royal/list-tongues#3",
+  "tunnawiya-royal/list-tongues#4",
+  "tunnawiya-royal/recount-causes#0",
+  "tunnawiya-royal/recount-causes#1",
+  "tunnawiya-royal/recount-causes#2",
+  "tunnawiya-royal/name-evil-speech#1",
+  "tunnawiya-royal/name-evil-speech#2",
+  "tunnawiya-royal/fit-limbs#0",
+  "tunnawiya-royal/declare-pulled-out#0",
+  "tunnawiya-royal/conjure-round-limbs#0",
+  "tunnawiya-royal/hold-over-back#2",
+  "tunnawiya-royal/conjure-round-limbs-again#0",
+  "tunnawiya-royal/great-god-historiola#1",
+  "tunnawiya-royal/speak-patient-name#0",
+  "tunnawiya-royal/search-historiola#1",
+  "mursili-plague-prayer/confess-fathers-sin#0",
+  "mursili-plague-prayer/offer-compensation#0",
+  "army-ritual/gods-on-our-side#0",
+  "libu-fever/draw-design-adjure#2",
+  "libu-fever/address-samas-oath#2",
+  "cmawro-q002713-9-22-31/identify-figures-as-doer#1",
+  "cmawro-q004239-11-1-1/recite-into-paste-and-smear-jamb#0",
+  "cmawro-q005109-11-3-1/come-up-strip-and-bathe#2"
+ ],
+ "speak:analogy": [
+  "allii/wind-wool#2",
+  "allii/press-earth#1",
+  "allii/press-dough#1",
+  "tunnawiya/collect-spring-clay#0",
+  "tunnawiya/melt-figures#4",
+  "tunnawiya/pass-through-gate#1",
+  "tunnawiya/wish-for-offspring#0",
+  "tunnawiya/wish-by-tree#0",
+  "paskuwatti/speak-exchange#1",
+  "tunnawiya-royal/fit-limbs#1",
+  "tunnawiya-royal/fit-limbs#2",
+  "tunnawiya-royal/fit-limbs#3",
+  "tunnawiya-royal/limbs-take-sickness#2",
+  "tunnawiya-royal/plough-analogy#0",
+  "tunnawiya-royal/great-god-historiola#0",
+  "tunnawiya-royal/search-historiola#0",
+  "mursili-plague-prayer/bird-and-servant#0",
+  "mursili-plague-prayer/bird-and-servant#1",
+  "mursili-plague-prayer/bird-and-servant#2",
+  "army-ritual/hot-stone#0",
+  "army-ritual/winter-torpor#0",
+  "cmawro-q005109-11-3-1/smoke-and-tamarisk-analogy#0"
+ ],
+ "bring(container)": [
+  "allii/set-basket#0"
+ ],
+ "place(food)": [
+  "allii/set-basket#1",
+  "allii/set-basket#2",
+  "paskuwatti/arrange-offerings#0",
+  "paskuwatti/arrange-offerings#1",
+  "paskuwatti/arrange-offerings#2",
+  "paskuwatti/arrange-offerings#3",
+  "paskuwatti/set-home-table#1",
+  "libu-fever/place-loaves-designs#1"
+ ],
+ "place(implement)": [
+  "allii/set-basket#3",
+  "allii/set-basket#4",
+  "libu-fever/make-driver#2",
+  "cmawro-q002713-9-22-31/set-torch-on-fat-figures#0",
+  "cmawro-q002713-9-22-31/set-torch-on-fat-figures#1"
+ ],
+ "place(container)": [
+  "allii/set-basket#5",
+  "libu-fever/load-sacks#0",
+  "libu-fever/load-sacks#1"
+ ],
+ "sleep()": [
+  "allii/sleep-over#0",
+  "mursili-plague-prayer/order-pure-sleep#0"
+ ],
+ "take(container)": [
+  "allii/lift-at-dawn#0"
+ ],
+ "hold-over(container)": [
+  "allii/lift-at-dawn#1"
+ ],
+ "speak:binding": [
+  "allii/lift-at-dawn#3",
+  "zarpiya/speak-formula#0",
+  "zarpiya/speak-formula#1",
+  "tapalazunauli/assign-evil#2",
+  "army-ritual/winter-torpor#1",
+  "libu-fever/address-nisaba#1",
+  "libu-fever/draw-design-adjure#1",
+  "libu-fever/address-esegu#0",
+  "libu-fever/adjure-at-gate#0",
+  "cmawro-q005109-11-3-1/ask-river-to-take-evil#1"
+ ],
+ "press(earth)": [
+  "allii/press-earth#0"
+ ],
+ "press(dough)": [
+  "allii/press-dough#0"
+ ],
+ "attach(wool)": [
+  "ashella/bind-ram#0",
+  "paskuwatti/bind-gate#0"
+ ],
+ "tie(animal)": [
+  "ashella/tether-ram#0"
+ ],
+ "release(animal)": [
+  "ashella/release-rams#1",
+  "ummaya/release-oxen#0"
+ ],
+ "combine(stone)": [
+  "ashella/wash-salt-water#0"
+ ],
+ "wash(body)": [
+  "ashella/wash-salt-water#1",
+  "tunnawiya/wash-hands-wine#0",
+  "potency-prescriptions/rinse-body#0"
+ ],
+ "burn(fire)": [
+  "ashella/pass-between-fires#0"
+ ],
+ "pass(person)": [
+  "ashella/pass-between-fires#1",
+  "tunnawiya/pass-through-gate#0",
+  "paskuwatti/pass-gate#0",
+  "cmawro-q005109-11-3-1/touch-brewers-mash-tub#0"
+ ],
+ "select(person)": [
+  "pulisa/select-substitutes#0",
+  "pulisa/select-substitutes#1"
+ ],
+ "undress(garment)": [
+  "pulisa/remove-king-garments#0",
+  "tunnawiya/strip-black-clothes#1",
+  "cmawro-q005109-11-3-1/come-up-strip-and-bathe#0"
+ ],
+ "dress(garment)": [
+  "pulisa/dress-man#0",
+  "pulisa/dress-woman#0",
+  "tunnawiya/dress-in-black#0",
+  "libu-fever/dress-mount-substitute#0",
+  "libu-fever/dress-mount-substitute#1",
+  "libu-fever/make-driver#1",
+  "cmawro-q005109-11-3-1/clothe-and-stand-before-god#0"
+ ],
+ "speak:substitution": [
+  "pulisa/address-man#0",
+  "pulisa/address-woman#0",
+  "pulisa/address-bull#0",
+  "pulisa/address-ewe#0",
+  "tunnawiya-royal/limbs-take-sickness#0",
+  "libu-fever/patient-gives-libu#0"
+ ],
+ "draw-out(wool)": [
+  "pulisa/draw-wool#0"
+ ],
+ "bring(garment)": [
+  "tunnawiya/set-out-black-clothes#0",
+  "tunnawiya/set-out-black-clothes#1",
+  "tunnawiya/set-out-black-clothes#2"
+ ],
+ "pour(drink)": [
+  "tunnawiya/offer-at-riverbank#1",
+  "tunnawiya/offer-at-spring#1",
+  "tunnawiya/libate-sun-god#0",
+  "dandanku/libate-seven#0",
+  "dandanku/libate-seven#1",
+  "cmawro-q005063-8-18/pour-grape-must#0",
+  "cmawro-q005109-11-3-1/beer-libation-to-river#0"
+ ],
+ "speak:petition": [
+  "tunnawiya/address-riverbank-goddess#0",
+  "tunnawiya/libate-sun-god#1",
+  "dandanku/address-grooms#0",
+  "dandanku/address-maids#1",
+  "paskuwatti/entreat-uliliyassi#0",
+  "cmawro-q004189-1-5-1/recite-return-to-shamash#0",
+  "tunnawiya-royal/remove-litany#0",
+  "tunnawiya-royal/remove-litany#1",
+  "tunnawiya-royal/remove-litany#2",
+  "mursili-plague-prayer/vow-mala-offering#1",
+  "mursili-plague-prayer/soothe-and-send-away#1",
+  "mursili-plague-prayer/hear-me#1",
+  "mursili-plague-prayer/offer-compensation#1",
+  "mursili-plague-prayer/spare-cult-personnel#0",
+  "mursili-plague-prayer/reveal-other-cause#0",
+  "army-ritual/mighty-troops#0",
+  "army-ritual/father-gods-protect#0",
+  "army-ritual/hasten-troops#0",
+  "libu-fever/address-samas-roof#1",
+  "libu-fever/address-samas-oath#1",
+  "libu-fever/address-esegu#1",
+  "libu-fever/release-bargain#0",
+  "cmawro-q005109-11-3-1/ask-river-to-take-evil#0",
+  "potency-prescriptions/sumerian-incantation#0"
+ ],
+ "collect(clay)": [
+  "tunnawiya/collect-river-clay#0",
+  "tunnawiya/collect-spring-clay#1"
+ ],
+ "build(structure)": [
+  "tunnawiya/build-reed-hut#0",
+  "paskuwatti/make-reed-gate#0"
+ ],
+ "hold-over(animal)": [
+  "tunnawiya/hold-black-sheep#0",
+  "tunnawiya/hold-piglet#0",
+  "tunnawiya/hold-puppy#0",
+  "tunnawiya-royal/hold-sheep-over-chest#1",
+  "tunnawiya-royal/swing-live-piglet#0"
+ ],
+ "hold-over(figure)": [
+  "tunnawiya/hold-clay-tongue#0",
+  "tunnawiya/melt-figures#0"
+ ],
+ "melt(figure)": [
+  "tunnawiya/melt-figures#2",
+  "tunnawiya/melt-figures#3"
+ ],
+ "wash(person)": [
+  "tunnawiya/wash-with-water#0",
+  "tunnawiya/bathe-over-figure#1",
+  "poultice-recipes/perform-purification#0",
+  "cmawro-q005109-11-3-1/dip-in-river-three-times#0",
+  "cmawro-q005109-11-3-1/come-up-strip-and-bathe#1"
+ ],
+ "detach(wool)": [
+  "tunnawiya/remove-coloured-wool#0"
+ ],
+ "cut(garment)": [
+  "tunnawiya/strip-black-clothes#0"
+ ],
+ "hold-over(vessel)": [
+  "tunnawiya/smash-empty-pot#0"
+ ],
+ "break(vessel)": [
+  "tunnawiya/smash-empty-pot#1"
+ ],
+ "comb(person)": [
+  "tunnawiya/comb-down#0"
+ ],
+ "release(materials)": [
+  "tunnawiya/release-into-river#0"
+ ],
+ "burn(animal)": [
+  "tunnawiya/burn-small-animals#0",
+  "tunnawiya/burn-small-animals#1"
+ ],
+ "touch(animal)": [
+  "tunnawiya/take-cow-by-horn#0"
+ ],
+ "touch(tree)": [
+  "tunnawiya/touch-fruit-tree#0"
+ ],
+ "take(food)": [
+  "dandanku/gather-fodder-wool#0",
+  "paskuwatti/carry-offerings#0",
+  "maddunani/take-provisions#2",
+  "maddunani/take-provisions#3",
+  "zelliya/take-funerary-goods#9",
+  "zelliya/take-funerary-goods#10",
+  "zelliya/take-funerary-goods#11"
+ ],
+ "take(plant)": [
+  "dandanku/gather-fodder-wool#1",
+  "hittite-remedies/steep-sift#1",
+  "hittite-remedies/sew-into-cord#0",
+  "hittite-remedies/second-day-bag#1"
+ ],
+ "take(wool)": [
+  "dandanku/gather-fodder-wool#2"
+ ],
+ "combine(food)": [
+  "dandanku/mix-fodder#0"
+ ],
+ "scatter(food)": [
+  "dandanku/scatter-fodder#0",
+  "libu-fever/strew-flour-dates#0",
+  "libu-fever/strew-flour-dates#1",
+  "libu-fever/strew-flour-dates#2",
+  "libu-fever/strew-at-esegu#1",
+  "libu-fever/strew-at-esegu#2",
+  "libu-fever/strew-at-esegu#3",
+  "libu-fever/strew-city-gate#0",
+  "libu-fever/strew-city-gate#1"
+ ],
+ "place(drink)": [
+  "paskuwatti/arrange-offerings#4"
+ ],
+ "place(wool)": [
+  "paskuwatti/arrange-offerings#5"
+ ],
+ "place(garment)": [
+  "paskuwatti/arrange-offerings#6"
+ ],
+ "drive(person)": [
+  "paskuwatti/carry-offerings#1"
+ ],
+ "give(implement)": [
+  "paskuwatti/give-spindle#0",
+  "paskuwatti/give-spindle#1"
+ ],
+ "detach(implement)": [
+  "paskuwatti/exchange-implements#0"
+ ],
+ "exchange(implement)": [
+  "paskuwatti/exchange-implements#1"
+ ],
+ "carry(food)": [
+  "paskuwatti/set-home-table#0"
+ ],
+ "take(implement)": [
+  "zarpiya/take-implements#0",
+  "zelliya/take-funerary-goods#6"
+ ],
+ "close(structure)": [
+  "zarpiya/close-door#0"
+ ],
+ "anoint(structure)": [
+  "zarpiya/anoint-door#0"
+ ],
+ "take(animal)": [
+  "maddunani/take-provisions#0",
+  "maddunani/take-provisions#1",
+  "hittite-remedies/twist-sinew#0"
+ ],
+ "take(vessel)": [
+  "maddunani/take-provisions#4",
+  "zelliya/take-funerary-goods#7"
+ ],
+ "take(drink)": [
+  "maddunani/take-provisions#5",
+  "zelliya/take-funerary-goods#12"
+ ],
+ "place(materials)": [
+  "maddunani/prepare-at-night#0",
+  "zelliya/prepare-funerary-goods#0",
+  "tapalazunauli/assign-evil#0",
+  "tapalazunauli/fill-basket#0",
+  "lapana-plague/in-mouth#0"
+ ],
+ "pass()": [
+  "maddunani/move-through-camp#0",
+  "maddunani/move-through-camp#1"
+ ],
+ "observe(bird)": [
+  "maddunani/watch-bird-omens#0",
+  "maddunani/watch-bird-omens#1"
+ ],
+ "take(garment)": [
+  "zelliya/take-funerary-goods#0",
+  "zelliya/take-funerary-goods#1"
+ ],
+ "take(structure)": [
+  "zelliya/take-funerary-goods#2",
+  "zelliya/take-funerary-goods#3"
+ ],
+ "take(materials)": [
+  "zelliya/take-funerary-goods#4",
+  "zelliya/take-funerary-goods#5",
+  "ummaya/prepare-at-wall#0"
+ ],
+ "take(liquid)": [
+  "zelliya/take-funerary-goods#8",
+  "zelliya/take-funerary-goods#13",
+  "libu-fever/mix-urine-clay#0",
+  "libu-fever/make-substitute#0"
+ ],
+ "carry(person)": [
+  "zelliya/carry-dead-outside#0"
+ ],
+ "burn(person)": [
+  "zelliya/cremate-dead#0"
+ ],
+ "wind(stone)": [
+  "cmawro-q005039-3-4-1/string-stones#0"
+ ],
+ "place(plant)": [
+  "cmawro-q005039-3-4-1/pack-ingredients-in-wool#0",
+  "cmawro-q005039-3-4-1/pack-ingredients-in-wool#1",
+  "cmawro-q005039-3-4-1/pack-ingredients-in-wool#2",
+  "cmawro-q005039-3-4-1/pack-ingredients-in-wool#3",
+  "cmawro-q005039-3-4-1/pack-ingredients-in-wool#4"
+ ],
+ "wind(materials)": [
+  "cmawro-q005039-3-4-1/wrap-in-leather#0"
+ ],
+ "combine(plant)": [
+  "cmawro-q005039-3-4-1/interlace-bundle#0",
+  "libu-fever/mix-salt-cress#1",
+  "libu-fever/crush-juniper#1",
+  "poultice-recipes/crush-plants#1",
+  "poultice-recipes/mix-emmer#0",
+  "poultice-recipes/mix-ghee-beer#0",
+  "potency-prescriptions/crush-with-thorn#1",
+  "hittite-remedies/steep-sift#0",
+  "hittite-remedies/second-day-bag#0",
+  "hittite-remedies/into-honey#0"
+ ],
+ "scatter(plant)": [
+  "tapalazunauli/scatter-straw#0"
+ ],
+ "break(food)": [
+  "tapalazunauli/break-bread#0"
+ ],
+ "carry(container)": [
+  "tapalazunauli/carry-basket-out#0"
+ ],
+ "release(person)": [
+  "ummaya/release-man#0"
+ ],
+ "shape(materials)": [
+  "cmawro-q004189-1-5-1/fashion-wax-figures#0",
+  "cmawro-q004189-1-5-1/fashion-wax-figures#1",
+  "cmawro-q005063-8-18/fashion-five-material-figures#3",
+  "cmawro-q005063-8-18/fashion-five-material-figures#4"
+ ],
+ "speak:accusation": [
+  "cmawro-q004189-1-5-1/indict-before-shamash#1"
+ ],
+ "apply(fat)": [
+  "cmawro-q004189-1-5-1/coat-with-tallow#0"
+ ],
+ "burn(figure)": [
+  "cmawro-q004189-1-5-1/burn-the-figures#0",
+  "cmawro-q005063-8-18/burn-fat-wax-bitumen-figures#0",
+  "cmawro-q005063-8-18/burn-fat-wax-bitumen-figures#1",
+  "cmawro-q005063-8-18/burn-fat-wax-bitumen-figures#2",
+  "cmawro-q002713-9-22-31/throw-fire-into-crucible#1"
+ ],
+ "release(vessel)": [
+  "cmawro-q004189-1-5-1/throw-pot-in-river#0"
+ ],
+ "shape(dough)": [
+  "cmawro-q005063-8-18/fashion-five-material-figures#1"
+ ],
+ "shape(fat)": [
+  "cmawro-q005063-8-18/fashion-five-material-figures#2"
+ ],
+ "position(figure)": [
+  "cmawro-q005063-8-18/constrain-the-figures#0",
+  "libu-fever/make-driver#3",
+  "libu-fever/bring-to-roof#0",
+  "libu-fever/station-weapons#0"
+ ],
+ "place(vessel)": [
+  "cmawro-q005063-8-18/set-juniper-censer#0"
+ ],
+ "burn(plant)": [
+  "cmawro-q005063-8-18/set-juniper-censer#1"
+ ],
+ "crush(figure)": [
+  "cmawro-q005063-8-18/crush-clay-dough-figures#0",
+  "cmawro-q005063-8-18/crush-clay-dough-figures#1"
+ ],
+ "ingest(tree)": [
+  "cmawro-q005063-8-18/chew-six-plants-woods#0",
+  "cmawro-q005063-8-18/chew-six-plants-woods#4",
+  "cmawro-q005063-8-18/chew-six-plants-woods#5"
+ ],
+ "ingest(plant)": [
+  "cmawro-q005063-8-18/chew-six-plants-woods#1",
+  "cmawro-q005063-8-18/chew-six-plants-woods#2",
+  "cmawro-q005063-8-18/chew-six-plants-woods#3",
+  "hittite-remedies/give-seven-days#0",
+  "hittite-remedies/give-empty-stomach#0"
+ ],
+ "speak:confession": [
+  "tunnawiya-royal/name-evil-speech#0",
+  "mursili-plague-prayer/confess-sin#0",
+  "mursili-plague-prayer/confess-fathers-sin#1"
+ ],
+ "cut(animal)": [
+  "tunnawiya-royal/cut-ram-limbs#0"
+ ],
+ "draw-out(harm)": [
+  "tunnawiya-royal/take-evil-fright#0"
+ ],
+ "gesture()": [
+  "tunnawiya-royal/conjure-round-limbs#1",
+  "tunnawiya-royal/conjure-round-limbs-again#1",
+  "lapana-plague/bow#0"
+ ],
+ "hold-over(materials)": [
+  "tunnawiya-royal/hold-over-back#1"
+ ],
+ "present(animal)": [
+  "tunnawiya-royal/spit-into-mouth#0"
+ ],
+ "release(liquid)": [
+  "tunnawiya-royal/spit-into-mouth#1"
+ ],
+ "bring(dough)": [
+  "tunnawiya-royal/bring-piglets#0"
+ ],
+ "hold-over(dough)": [
+  "tunnawiya-royal/hold-dough-piglet#0"
+ ],
+ "observe(harm)": [
+  "mursili-plague-prayer/inquire-egypt-oath#0",
+  "mursili-plague-prayer/inquire-mala-offering#0"
+ ],
+ "speak:vow": [
+  "mursili-plague-prayer/vow-mala-offering#0",
+  "mursili-plague-prayer/offer-compensation#2",
+  "libu-fever/address-esegu#2",
+  "libu-fever/release-bargain#1"
+ ],
+ "place(structure)": [
+  "lapana-plague/wicker-tables#0",
+  "cmawro-q005109-11-3-1/altar-and-libation#0"
+ ],
+ "build(fire)": [
+  "lapana-plague/evening-fire#0"
+ ],
+ "burn(materials)": [
+  "lapana-plague/burn#0"
+ ],
+ "combine(liquid)": [
+  "libu-fever/mix-urine-clay#1"
+ ],
+ "attach(implement)": [
+  "libu-fever/attach-strap-tail#0"
+ ],
+ "attach(body)": [
+  "libu-fever/attach-strap-tail#1"
+ ],
+ "take(body)": [
+  "libu-fever/make-substitute#1",
+  "libu-fever/make-substitute#2",
+  "libu-fever/make-substitute#3"
+ ],
+ "combine(materials)": [
+  "libu-fever/make-substitute#4",
+  "cmawro-q004239-11-1-1/pound-paste#3",
+  "cmawro-q004239-11-1-1/wrap-sulphur-oil-in-fleece#0",
+  "potency-prescriptions/form-pellets#1",
+  "potency-prescriptions/anoint-oil#0"
+ ],
+ "carry(figure)": [
+  "libu-fever/bring-to-roof#1",
+  "libu-fever/bring-substitute-out#0",
+  "libu-fever/strew-at-esegu#0"
+ ],
+ "pour(food)": [
+  "libu-fever/pour-seven-sila#0",
+  "libu-fever/pour-seven-sila#1",
+  "libu-fever/pour-seven-sila#2"
+ ],
+ "pour(liquid)": [
+  "libu-fever/pour-seven-sila#3",
+  "libu-fever/anoint-bind-esegu#0",
+  "cmawro-q005109-11-3-1/sprinkle-riverbank#0",
+  "cmawro-q005109-11-3-1/altar-and-libation#1",
+  "potency-prescriptions/blood-into-water#1"
+ ],
+ "shape(earth)": [
+  "libu-fever/draw-design-adjure#0",
+  "libu-fever/place-loaves-designs#0"
+ ],
+ "position(implement)": [
+  "libu-fever/station-weapons#1",
+  "libu-fever/station-weapons#2"
+ ],
+ "tie(plant)": [
+  "libu-fever/anoint-bind-esegu#1"
+ ],
+ "wind(plant)": [
+  "libu-fever/anoint-bind-esegu#2"
+ ],
+ "combine(remedy)": [
+  "libu-fever/mix-salt-cress#0",
+  "poultice-recipes/mix-ghee-beer#1",
+  "potency-prescriptions/drink-in-beer#0"
+ ],
+ "crush(plant)": [
+  "libu-fever/crush-juniper#0",
+  "poultice-recipes/crush-plants#0",
+  "poultice-recipes/decoct-beer#0",
+  "poultice-recipes/crush-with-crusher#0",
+  "hittite-remedies/second-day-bag#2"
+ ],
+ "cook(remedy)": [
+  "poultice-recipes/boil-kasu#0",
+  "poultice-recipes/decoct-beer#1",
+  "poultice-recipes/decoct-beer#2",
+  "poultice-recipes/decoct-wine#0"
+ ],
+ "apply(remedy)": [
+  "poultice-recipes/bandage-kasu#0",
+  "poultice-recipes/bandage-wine#0",
+  "poultice-recipes/mix-ghee-beer#2"
+ ],
+ "tie(person)": [
+  "poultice-recipes/perform-purification#1"
+ ],
+ "scatter(materials)": [
+  "cmawro-q002713-9-22-31/draw-circle-round-crucible#0"
+ ],
+ "gesture(body)": [
+  "cmawro-q002713-9-22-31/identify-figures-as-doer#0"
+ ],
+ "attach(tree)": [
+  "cmawro-q002713-9-22-31/insert-woods-and-reed#0",
+  "cmawro-q002713-9-22-31/insert-woods-and-reed#1",
+  "cmawro-q002713-9-22-31/insert-woods-and-reed#2"
+ ],
+ "attach(plant)": [
+  "cmawro-q002713-9-22-31/insert-woods-and-reed#3",
+  "hittite-remedies/sew-into-cord#1"
+ ],
+ "burn(implement)": [
+  "cmawro-q002713-9-22-31/light-torch-from-sulphur#0"
+ ],
+ "place(fire)": [
+  "cmawro-q002713-9-22-31/throw-fire-into-crucible#0"
+ ],
+ "crush(materials)": [
+  "cmawro-q004239-11-1-1/pound-paste#0",
+  "cmawro-q004239-11-1-1/pound-paste#1",
+  "cmawro-q004239-11-1-1/pound-paste#2",
+  "potency-prescriptions/form-pellets#0"
+ ],
+ "apply(materials)": [
+  "cmawro-q004239-11-1-1/recite-into-paste-and-smear-jamb#1",
+  "cmawro-q005109-11-3-1/touch-gate-gypsum-bitumen#0",
+  "cmawro-q005109-11-3-1/touch-gate-gypsum-bitumen#1"
+ ],
+ "wash(structure)": [
+  "cmawro-q004239-11-1-1/wash-off-into-cloth#0"
+ ],
+ "detach(materials)": [
+  "cmawro-q004239-11-1-1/wash-off-into-cloth#1"
+ ],
+ "anoint(wool)": [
+  "cmawro-q004239-11-1-1/wrap-sulphur-oil-in-fleece#2"
+ ],
+ "bury(wool)": [
+  "cmawro-q004239-11-1-1/bury-at-gate-and-socket#0",
+  "cmawro-q004239-11-1-1/bury-at-gate-and-socket#1"
+ ],
+ "hold-over(garment)": [
+  "cmawro-q005109-11-3-1/dip-in-river-three-times#1"
+ ],
+ "touch(vessel)": [
+  "cmawro-q005109-11-3-1/touch-brewers-mash-tub#1"
+ ],
+ "collect(bird)": [
+  "potency-prescriptions/catch-partridge#0"
+ ],
+ "detach(bird)": [
+  "potency-prescriptions/pluck-strangle#0"
+ ],
+ "kill(bird)": [
+  "potency-prescriptions/pluck-strangle#1"
+ ],
+ "scatter(stone)": [
+  "potency-prescriptions/salt-dry#0"
+ ],
+ "place(bird)": [
+  "potency-prescriptions/salt-dry#1",
+  "potency-prescriptions/smear-salt-plant#2"
+ ],
+ "crush(bird)": [
+  "potency-prescriptions/crush-with-thorn#0",
+  "potency-prescriptions/smear-salt-plant#3",
+  "potency-prescriptions/crush-decoct-sinews#0"
+ ],
+ "ingest(remedy)": [
+  "potency-prescriptions/drink-in-beer#1",
+  "potency-prescriptions/mix-roasted-flour#1",
+  "potency-prescriptions/crush-decoct-sinews#2",
+  "hittite-remedies/drink-morning#0",
+  "hittite-remedies/into-honey#1"
+ ],
+ "cut(bird)": [
+  "potency-prescriptions/blood-into-water#0"
+ ],
+ "place(liquid)": [
+  "potency-prescriptions/water-under-stars#0"
+ ],
+ "ingest(liquid)": [
+  "potency-prescriptions/drink-at-sunrise#0"
+ ],
+ "apply(stone)": [
+  "potency-prescriptions/smear-salt-plant#0"
+ ],
+ "apply(plant)": [
+  "potency-prescriptions/smear-salt-plant#1"
+ ],
+ "combine(bird)": [
+  "potency-prescriptions/mix-roasted-flour#0"
+ ],
+ "shape(remedy)": [
+  "potency-prescriptions/form-pellets#2"
+ ],
+ "tie(remedy)": [
+  "potency-prescriptions/bind-on-hips#0"
+ ],
+ "anoint(fat)": [
+  "potency-prescriptions/anoint-oil#1"
+ ],
+ "cook(bird)": [
+  "potency-prescriptions/crush-decoct-sinews#1"
+ ],
+ "collect(plant)": [
+  "hittite-remedies/take-herbs#0",
+  "hittite-remedies/take-herbs#1",
+  "hittite-remedies/take-herbs#2",
+  "hittite-remedies/take-herbs#3",
+  "hittite-remedies/take-bulbs#0",
+  "hittite-remedies/take-bulbs#1",
+  "hittite-remedies/take-bulbs#2"
+ ],
+ "wind(animal)": [
+  "hittite-remedies/twist-sinew#1"
+ ],
+ "cook(garment)": [
+  "hittite-remedies/heat-compress#0"
+ ],
+ "apply(garment)": [
+  "hittite-remedies/heat-compress#1"
+ ],
+ "crush(remedy)": [
+  "hittite-remedies/crush-into-bag#0"
+ ],
+ "place(remedy)": [
+  "hittite-remedies/crush-into-bag#1",
+  "hittite-remedies/entrust-to-stars#0"
+ ],
+ "carry(remedy)": [
+  "hittite-remedies/carry-into-house#0"
+ ],
+ "pour(plant)": [
+  "hittite-remedies/second-day-bag#3"
+ ],
+ "collect(animal)": [
+  "hittite-remedies/gut-fish#0"
+ ],
+ "draw-out(animal)": [
+  "hittite-remedies/gut-fish#1"
+ ]
+}

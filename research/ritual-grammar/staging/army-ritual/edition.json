@@ -1,0 +1,386 @@
+{
+  "cth": 426,
+  "title": "Ritual for the army",
+  "shortName": "Army ritual",
+  "eyebrow": "CTH 426.1 · ritual for the army",
+  "dating": {
+    "label": "New Hittite copy",
+    "note": "KUB 45.20 is a New Hittite collection tablet (also containing CTH 779); duplicate KUB 7.58.",
+    "sourceUrl": "https://hethport.net/hetkonk/hetkonk_abfrage.php?c=426"
+  },
+  "purpose": "A fragmentary rite for an army that cools and binds the enemy by analogy and asks that one's own troops be strong.",
+  "attribution": "Anonymous",
+  "sourceSummary": "KUB 45.20 · col. I–II selection",
+  "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+45.20",
+  "editionLabel": "TLHdig: KUB 45.20",
+  "phases": [
+    {
+      "name": "Disable the enemy",
+      "range": [
+        1,
+        2
+      ],
+      "idea": "Analogies of a quenched stone and winter torpor cool battle and seize rivals."
+    },
+    {
+      "name": "Strengthen the army",
+      "range": [
+        3,
+        6
+      ],
+      "idea": "Petitions and a declaration for the speaker's troops and the son."
+    }
+  ],
+  "steps": [
+    {
+      "id": "hot-stone",
+      "number": 1,
+      "title": "Speak the analogy of the hot stone",
+      "phase": "Disable the enemy",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Compare",
+      "shortDescription": "As a hot stone falls silent in water, so may the addressee's battle grow cold.",
+      "patient": "The hostile battle",
+      "actor": "The ritual speaker",
+      "evidence": "KUB 45.20 §2; broken, the stone's action and the addressee are partly lost. Whether a stone was actually quenched is not legible, so no act is modelled.",
+      "image": {
+        "alt": "A hot stone in water",
+        "note": "Only the spoken image is attested; illustrated as the compared object."
+      },
+      "composition": {
+        "function": "disable-enemy",
+        "requires": [],
+        "aims": [
+          "secure-army-victory"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "about": {
+            "class": "stone",
+            "sub": "stone",
+            "f": {
+              "condition": "hot"
+            }
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioner"
+          },
+          "medium": "water",
+          "note": "as it falls silent, so let your battle grow cold"
+        }
+      ],
+      "shortTitle": "Speak the analogy of the hot stone",
+      "summary": "As a hot stone falls silent in water, so may the addressee's battle grow cold.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-45-20",
+          "locus": "KUB 45.20 §2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "army-ritual-hot-stone"
+    },
+    {
+      "id": "winter-torpor",
+      "number": 2,
+      "title": "Bind the rivals by the torpor of winter",
+      "phase": "Disable the enemy",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Bind",
+      "shortDescription": "As winter's torpor seizes, so may the spells likewise seize the speaker's rivals.",
+      "patient": "Rivals",
+      "actor": "The ritual speaker",
+      "evidence": "KUB 45.20 §4; the opening of the comparison is broken; ḫupšandu is untranslated.",
+      "image": {
+        "alt": "Frost-bound figure",
+        "note": "Depict frost, not violence; the rivals are not described."
+      },
+      "composition": {
+        "function": "disable-enemy",
+        "requires": [],
+        "aims": [
+          "secure-army-victory"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "about": {
+            "class": "harm",
+            "sub": "torpor",
+            "f": {
+              "season": "winter"
+            }
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioner"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "binding",
+          "about": {
+            "class": "person",
+            "sub": "rivals"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioner"
+          },
+          "instrument": "spells (uddanant-)"
+        }
+      ],
+      "shortTitle": "Bind the rivals by the torpor of winter",
+      "summary": "As winter's torpor seizes, so may the spells likewise seize the speaker's rivals.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-45-20",
+          "locus": "KUB 45.20 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "army-ritual-winter-torpor"
+    },
+    {
+      "id": "mighty-troops",
+      "number": 3,
+      "title": "Pray that the troops be mighty",
+      "phase": "Strengthen the army",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Petition",
+      "shortDescription": "The speaker asks that his troops be mighty.",
+      "patient": "The speaker's troops",
+      "actor": "The ritual speaker",
+      "evidence": "KUB 45.20 §5.",
+      "image": {
+        "alt": "Soldiers standing firm",
+        "note": "No addressee is named."
+      },
+      "composition": {
+        "function": "invoke-help",
+        "requires": [],
+        "aims": [
+          "secure-army-victory"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "about": {
+            "class": "person",
+            "sub": "troops"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioner"
+          }
+        }
+      ],
+      "shortTitle": "Pray that the troops be mighty",
+      "summary": "The speaker asks that his troops be mighty.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-45-20",
+          "locus": "KUB 45.20 §5",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "army-ritual-mighty-troops"
+    },
+    {
+      "id": "father-gods-protect",
+      "number": 4,
+      "title": "Ask the father-gods to protect the son",
+      "phase": "Strengthen the army",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Petition",
+      "shortDescription": "The speaker asks the father-gods to protect the son, young and grown, and rejoice in his life.",
+      "patient": "The son",
+      "actor": "The ritual speaker",
+      "evidence": "KUB 45.20 §5.",
+      "image": {
+        "alt": "Ancestral gods protecting a young man",
+        "note": "Relief type for a group of gods; the father-gods are not individually described."
+      },
+      "composition": {
+        "function": "invoke-help",
+        "requires": [],
+        "aims": [
+          "secure-army-victory"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "father-gods"
+          },
+          "about": {
+            "class": "person",
+            "sub": "son"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioner"
+          }
+        }
+      ],
+      "recipient": "the father-gods",
+      "deityVisualId": "divine-assembly",
+      "deityLabel": "father-gods",
+      "shortTitle": "Ask the father-gods to protect the son",
+      "summary": "The speaker asks the father-gods to protect the son, young and grown, and rejoice in his life.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-45-20",
+          "locus": "KUB 45.20 §5",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "army-ritual-father-gods-protect"
+    },
+    {
+      "id": "gods-on-our-side",
+      "number": 5,
+      "title": "Declare the gods are on our side",
+      "phase": "Strengthen the army",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Declare",
+      "shortDescription": "The speaker declares that the gods have stepped to their side and the kings have spoken for them.",
+      "patient": "The speaker's side",
+      "actor": "The ritual speaker",
+      "evidence": "KUB 45.20 §6; anzidaz 'to our side' is uncertain.",
+      "image": {
+        "alt": "Gods beside an army",
+        "note": "Relief type only."
+      },
+      "composition": {
+        "function": "invoke-help",
+        "requires": [],
+        "aims": [
+          "secure-army-victory"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "about": {
+            "class": "deity",
+            "sub": "gods"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioner"
+          },
+          "note": "the gods have stepped to our side; the kings have spoken on our side"
+        }
+      ],
+      "shortTitle": "Declare the gods are on our side",
+      "summary": "The speaker declares that the gods have stepped to their side and the kings have spoken for them.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-45-20",
+          "locus": "KUB 45.20 §6",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 5
+          }
+        }
+      ],
+      "unitId": "army-ritual-gods-on-our-side"
+    },
+    {
+      "id": "hasten-troops",
+      "number": 6,
+      "title": "Ask that the troops be hastened",
+      "phase": "Strengthen the army",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Petition",
+      "shortDescription": "Great and small together are asked to hasten the troops along.",
+      "patient": "The speaker's troops",
+      "actor": "The ritual speaker",
+      "evidence": "KUB 45.20 §6; the subject 'great and small' is not identified.",
+      "image": {
+        "alt": "Troops marching",
+        "note": "Illustrate marching only."
+      },
+      "composition": {
+        "function": "invoke-help",
+        "requires": [],
+        "aims": [
+          "secure-army-victory"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "about": {
+            "class": "person",
+            "sub": "troops"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "practitioner"
+          },
+          "manner": "hastened"
+        }
+      ],
+      "shortTitle": "Ask that the troops be hastened",
+      "summary": "Great and small together are asked to hasten the troops along.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-45-20",
+          "locus": "KUB 45.20 §6",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 5
+          }
+        }
+      ],
+      "unitId": "army-ritual-hasten-troops"
+    }
+  ],
+  "variants": [],
+  "id": "army-ritual"
+}

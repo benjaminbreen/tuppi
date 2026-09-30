@@ -1,0 +1,2228 @@
+{
+  "id": "libu-fever",
+  "cth": 811,
+  "title": "Donkey figurines against li'bu-fever",
+  "shortName": "Li'bu-fever",
+  "eyebrow": "CTH 811 · Babylonian healing ritual copied at Ḫattuša",
+  "dating": {
+    "label": "Ḫattuša copy, 14th–13th c. BCE (approx.)",
+    "note": "Found in the Great Temple storerooms at Boğazköy; the copy is not in Boğazköy ductus (Bácskay 2018). This dates the manuscript context, not the Babylonian composition.",
+    "sourceUrl": "https://hethport.net/hetkonk/hetkonk_abfrage.php?c=811"
+  },
+  "purpose": "Remove the 'seizure' of li'bu-fever of the mountain by sending a clay substitute of the patient, riding a provisioned clay donkey, out to the open country before Šamaš.",
+  "attribution": "Anonymous Babylonian exorcist's (āšipu) prescription",
+  "sourceSummary": "KUB 37.84 + KUB 29.58 + KUB 29.59 (Bo. inv. 167/c), ¶0–4, 6",
+  "editionUrl": "https://hethport.net/hetkonk/hetkonk_abfrage.php?c=811",
+  "editionLabel": "Hethitologie-Portal Mainz concordance, CTH 811; A. Bácskay, AOAT 447 (2018) 164–176",
+  "phases": [
+    {
+      "name": "Make the figures",
+      "range": [
+        1,
+        7
+      ],
+      "idea": "Donkey figurines and a clothed substitute are made from clay mixed with urine, hair and nail-parings."
+    },
+    {
+      "name": "On the roof before Šamaš",
+      "range": [
+        8,
+        10
+      ],
+      "idea": "The figures are brought before Šamaš on the roof with a strewn offering and address."
+    },
+    {
+      "name": "Dispatch the substitute",
+      "range": [
+        11,
+        16
+      ],
+      "idea": "The substitute is taken to the open country and the evil handed to it and adjured away."
+    },
+    {
+      "name": "Ešegu-bush and city gate",
+      "range": [
+        17,
+        26
+      ],
+      "idea": "The ešegu-bush is seized as intercessor; designs, loaves and flour close the way back through the city gate."
+    },
+    {
+      "name": "Further remedy",
+      "range": [
+        27,
+        28
+      ],
+      "idea": "One legible alternative remedy for recurrent fever."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "mix-urine-clay",
+      "number": 1,
+      "title": "Mix donkey urine with school clay",
+      "shortTitle": "Mix urine and clay",
+      "shortDescription": "Mix the urine of a living donkey with clay from the tablet-house.",
+      "phase": "Make the figures",
+      "unitType": "act",
+      "actionType": "collect-clay",
+      "verb": "Mix",
+      "summary": "Mix the urine of a living donkey with clay from the tablet-house.",
+      "patient": "Donkey urine and clay",
+      "actor": "Exorcist",
+      "material": [
+        "donkey urine",
+        "clay of the tablet-house"
+      ],
+      "evidence": "Stated in KUB 37.84+ ¶0 (KUB 37.84+ obv. I 1–30); read from the local draft translation.",
+      "image": {
+        "alt": "Mix the urine of a living donkey with clay from the tablet-house.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. I 1–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "libu-mix-urine-clay",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "take",
+          "theme": {
+            "class": "liquid",
+            "sub": "urine"
+          },
+          "source": {
+            "class": "animal",
+            "sub": "donkey"
+          }
+        },
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "liquid",
+            "sub": "urine"
+          },
+          "with": {
+            "class": "clay",
+            "sub": "clay"
+          },
+          "source": "tablet-house"
+        }
+      ]
+    },
+    {
+      "id": "make-clay-donkeys",
+      "number": 2,
+      "title": "Knead and make two clay donkeys",
+      "shortTitle": "Make clay donkeys",
+      "shortDescription": "Knead the mixture and fashion two donkey figurines.",
+      "phase": "Make the figures",
+      "unitType": "act",
+      "actionType": "make-clay-figures",
+      "verb": "Make",
+      "summary": "Knead the mixture and fashion two donkey figurines.",
+      "patient": "Clay donkey figurines",
+      "actor": "Exorcist",
+      "material": [
+        "clay"
+      ],
+      "evidence": "¶0; 'knead' is marked uncertain. The text later speaks of a third, DÚSU-donkey and of two donkeys walking in front of it; the count is kept as written.",
+      "image": {
+        "alt": "Knead the mixture and fashion two donkey figurines.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. I 1–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "libu-make-donkeys",
+      "composition": {
+        "function": "fashion-figure",
+        "requires": [
+          "mix-urine-clay"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "clay",
+            "sub": "clay"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "donkey",
+            "count": 2,
+            "f": {
+              "material": "clay"
+            },
+            "ref": "donkey-figures"
+          }
+        }
+      ]
+    },
+    {
+      "id": "attach-strap-tail",
+      "number": 3,
+      "title": "Attach the strap and tail-hair to the figurine",
+      "shortTitle": "Attach strap and tail-hair",
+      "shortDescription": "Put the living donkey's harness-strap on the figurine's strap and its tail-hair on the figurine's tail.",
+      "phase": "Make the figures",
+      "unitType": "act",
+      "actionType": "adorn-animal",
+      "verb": "Attach",
+      "summary": "Put the living donkey's harness-strap on the figurine's strap and its tail-hair on the figurine's tail.",
+      "patient": "Clay donkey",
+      "actor": "Exorcist",
+      "material": [
+        "harness-strap",
+        "donkey tail-hair"
+      ],
+      "evidence": "¶0; 'harness-strap' is marked uncertain in the translation.",
+      "image": {
+        "alt": "Put the living donkey's harness-strap on the figurine's strap and its tail-hair on the figurine's tail.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. I 1–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "libu-attach-strap-tail",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "make-clay-donkeys"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "implement",
+            "sub": "strap"
+          },
+          "onto": {
+            "class": "figure",
+            "sub": "donkey",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "donkey-figures"
+          }
+        },
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "body",
+            "sub": "hair",
+            "f": {
+              "part": "tail"
+            }
+          },
+          "onto": {
+            "class": "figure",
+            "sub": "donkey",
+            "f": {
+              "material": "clay",
+              "part": "tail"
+            },
+            "ref": "donkey-figures"
+          }
+        }
+      ]
+    },
+    {
+      "id": "make-substitute",
+      "number": 4,
+      "title": "Make the substitute from the patient's urine, hair and nails",
+      "shortTitle": "Make the substitute",
+      "shortDescription": "Mix the patient's urine, armpit and chest hair and nail-parings into the clay and fashion the substitute figure.",
+      "phase": "Make the figures",
+      "unitType": "act",
+      "actionType": "make-clay-figures",
+      "verb": "Make",
+      "summary": "Mix the patient's urine, armpit and chest hair and nail-parings into the clay and fashion the substitute figure.",
+      "patient": "Substitute figure",
+      "actor": "Exorcist",
+      "material": [
+        "patient's urine",
+        "armpit hair",
+        "chest hair",
+        "nail-parings",
+        "clay"
+      ],
+      "evidence": "Stated in KUB 37.84+ ¶0 (KUB 37.84+ obv. I 1–30); read from the local draft translation.",
+      "image": {
+        "alt": "Mix the patient's urine, armpit and chest hair and nail-parings into the clay and fashion the substitute figure.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. I 1–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "libu-make-substitute",
+      "composition": {
+        "function": "fashion-figure",
+        "requires": [
+          "mix-urine-clay"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "take",
+          "theme": {
+            "class": "liquid",
+            "sub": "urine"
+          },
+          "source": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "body",
+            "sub": "hair",
+            "f": {
+              "part": "armpits"
+            }
+          },
+          "source": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "body",
+            "sub": "hair",
+            "f": {
+              "part": "chest"
+            }
+          },
+          "source": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "take",
+          "theme": {
+            "class": "body",
+            "sub": "nail-parings"
+          },
+          "source": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "materials",
+            "sub": "bodily traces"
+          },
+          "with": {
+            "class": "clay",
+            "sub": "clay"
+          }
+        },
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "clay",
+            "sub": "clay"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "substitute",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "substitute-figure"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dress-mount-substitute",
+      "number": 5,
+      "title": "Clothe the substitute and set it on the donkey",
+      "shortTitle": "Dress and mount the substitute",
+      "shortDescription": "Clothe the substitute figure, put a headdress on it and set it riding on the DÚSU-donkey.",
+      "phase": "Make the figures",
+      "unitType": "act",
+      "actionType": "dress-substitute",
+      "verb": "Clothe",
+      "summary": "Clothe the substitute figure, put a headdress on it and set it riding on the DÚSU-donkey.",
+      "patient": "Substitute figure",
+      "actor": "Exorcist",
+      "material": [
+        "garment",
+        "headdress"
+      ],
+      "evidence": "¶0; the saddle ('chair') made for the DÚSU-donkey is partly broken and is not a separate step.",
+      "image": {
+        "alt": "Clothe the substitute figure, put a headdress on it and set it riding on the DÚSU-donkey.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. I 1–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "libu-dress-mount-substitute",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "make-substitute",
+          "make-clay-donkeys"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "dress",
+          "theme": {
+            "class": "garment",
+            "sub": "garment"
+          },
+          "onto": {
+            "class": "figure",
+            "sub": "substitute",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "substitute-figure"
+          }
+        },
+        {
+          "verb": "dress",
+          "theme": {
+            "class": "garment",
+            "sub": "headdress"
+          },
+          "onto": {
+            "class": "figure",
+            "sub": "substitute",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "substitute-figure"
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "substitute",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "substitute-figure"
+          },
+          "on": {
+            "class": "figure",
+            "sub": "donkey",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "donkey-figures"
+          }
+        }
+      ]
+    },
+    {
+      "id": "load-sacks",
+      "number": 6,
+      "title": "Load sacks on the two leading donkeys",
+      "shortTitle": "Load the sacks",
+      "shortDescription": "Fill a sack and set it on the first donkey; set a sack full of flour on the second.",
+      "phase": "Make the figures",
+      "unitType": "act",
+      "actionType": "bring-provisions",
+      "verb": "Load",
+      "summary": "Fill a sack and set it on the first donkey; set a sack full of flour on the second.",
+      "patient": "Two leading clay donkeys",
+      "actor": "Exorcist",
+      "material": [
+        "sack",
+        "flour"
+      ],
+      "evidence": "¶0; 'loaded' is marked uncertain; the content of the first sack is not stated.",
+      "image": {
+        "alt": "Fill a sack and set it on the first donkey; set a sack full of flour on the second.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. I 1–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "libu-load-sacks",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "make-clay-donkeys"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "container",
+            "sub": "sack"
+          },
+          "on": {
+            "class": "figure",
+            "sub": "donkey",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "donkey-figures"
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "container",
+            "sub": "sack"
+          },
+          "with": {
+            "class": "food",
+            "sub": "flour"
+          },
+          "on": {
+            "class": "figure",
+            "sub": "donkey",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "donkey-figures"
+          }
+        }
+      ]
+    },
+    {
+      "id": "make-driver",
+      "number": 7,
+      "title": "Make a clay driver with a goad",
+      "shortTitle": "Make the driver",
+      "shortDescription": "Make another clay figure, clothe it, put a wooden ŠU.KIN (a goad?) in its hand and station it behind the donkeys.",
+      "phase": "Make the figures",
+      "unitType": "act",
+      "actionType": "make-clay-figures",
+      "verb": "Make",
+      "summary": "Make another clay figure, clothe it, put a wooden ŠU.KIN (a goad?) in its hand and station it behind the donkeys.",
+      "patient": "Clay driver figure",
+      "actor": "Exorcist",
+      "material": [
+        "clay",
+        "garment",
+        "wooden goad(?)",
+        "headdress"
+      ],
+      "evidence": "¶0; the identification of ŠU.KIN as a goad is marked uncertain.",
+      "image": {
+        "alt": "Make another clay figure, clothe it, put a wooden ŠU.KIN (a goad?) in its hand and station it behind the donkeys.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. I 1–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "libu-make-driver",
+      "composition": {
+        "function": "fashion-figure",
+        "requires": [
+          "make-clay-donkeys"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "clay",
+            "sub": "clay"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "driver",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "driver-figure"
+          }
+        },
+        {
+          "verb": "dress",
+          "theme": {
+            "class": "garment",
+            "sub": "garment"
+          },
+          "onto": {
+            "class": "figure",
+            "sub": "driver",
+            "ref": "driver-figure"
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "implement",
+            "sub": "goad",
+            "f": {
+              "material": "wood"
+            }
+          },
+          "onto": {
+            "class": "figure",
+            "sub": "driver",
+            "f": {
+              "part": "hand"
+            },
+            "ref": "driver-figure"
+          }
+        },
+        {
+          "verb": "position",
+          "theme": {
+            "class": "figure",
+            "sub": "driver",
+            "ref": "driver-figure"
+          },
+          "location": "behind the donkeys"
+        }
+      ]
+    },
+    {
+      "id": "bring-to-roof",
+      "number": 8,
+      "title": "Bring the figures up onto the roof before Šamaš",
+      "shortTitle": "Bring to the roof",
+      "shortDescription": "Station the substitute with the donkeys and bring the donkey figures up onto the roof before Šamaš.",
+      "phase": "On the roof before Šamaš",
+      "unitType": "act",
+      "actionType": "arrange-figures",
+      "verb": "Bring",
+      "summary": "Station the substitute with the donkeys and bring the donkey figures up onto the roof before Šamaš.",
+      "patient": "Donkey and substitute figures",
+      "actor": "Exorcist",
+      "material": [],
+      "recipient": "Šamaš (Sun-god)",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Šamaš (Sun-god)",
+      "place": "Roof",
+      "evidence": "Stated in KUB 37.84+ ¶0 (KUB 37.84+ obv. I 1–30); read from the local draft translation.",
+      "image": {
+        "alt": "Station the substitute with the donkeys and bring the donkey figures up onto the roof before Šamaš.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. I 1–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "libu-bring-to-roof",
+      "composition": {
+        "function": "construct-setting",
+        "requires": [
+          "dress-mount-substitute",
+          "load-sacks"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "position",
+          "theme": {
+            "class": "figure",
+            "sub": "substitute",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "substitute-figure"
+          },
+          "with": {
+            "class": "figure",
+            "sub": "donkey",
+            "count": 3,
+            "f": {
+              "material": "clay"
+            },
+            "ref": "donkey-figures"
+          }
+        },
+        {
+          "verb": "carry",
+          "theme": {
+            "class": "figure",
+            "sub": "donkey",
+            "count": 3,
+            "f": {
+              "material": "clay"
+            },
+            "ref": "donkey-figures"
+          },
+          "goal": "roof",
+          "recipient": {
+            "class": "deity",
+            "sub": "Šamaš"
+          }
+        }
+      ]
+    },
+    {
+      "id": "strew-flour-dates",
+      "number": 9,
+      "title": "Strew flour, dates and mashatu-flour before Šamaš",
+      "shortTitle": "Strew offering",
+      "shortDescription": "Strew flour, dates and mashatu-flour as a strewn offering.",
+      "phase": "On the roof before Šamaš",
+      "unitType": "act",
+      "actionType": "scatter-provisions",
+      "verb": "Strew",
+      "summary": "Strew flour, dates and mashatu-flour as a strewn offering.",
+      "patient": "Strewn offering",
+      "actor": "Exorcist",
+      "material": [
+        "flour",
+        "dates",
+        "mashatu-flour"
+      ],
+      "recipient": "Šamaš (Sun-god)",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Šamaš (Sun-god)",
+      "evidence": "¶0; the verb 'strew' and 'before Šamaš' are restored from the parallel in ¶3, as is the following stationing of donkeys and weapon (not made a separate step here).",
+      "image": {
+        "alt": "Strew flour, dates and mashatu-flour as a strewn offering.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. I 1–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "libu-strew-offering",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "bring-to-roof"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "food",
+            "sub": "flour"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Šamaš"
+          }
+        },
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "food",
+            "sub": "dates"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Šamaš"
+          }
+        },
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "food",
+            "sub": "mashatu-flour"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Šamaš"
+          }
+        }
+      ]
+    },
+    {
+      "id": "address-samas-roof",
+      "number": 10,
+      "title": "Address Šamaš as lord of judgment",
+      "shortTitle": "Address Šamaš",
+      "shortDescription": "The exorcist addresses Šamaš as judge and names the patient whom li'bu has seized without his knowing.",
+      "phase": "On the roof before Šamaš",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The exorcist addresses Šamaš as judge and names the patient whom li'bu has seized without his knowing.",
+      "patient": "Šamaš",
+      "actor": "Exorcist",
+      "material": [],
+      "recipient": "Šamaš (Sun-god)",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Šamaš (Sun-god)",
+      "evidence": "¶1; the opening is restored from the fuller version in ¶3 and several lines are lost, so the petition is inferred only from the naming of the seized patient.",
+      "image": {
+        "alt": "The exorcist addresses Šamaš as judge and names the patient whom li'bu has seized without his knowing.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. I 31–II 8",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "libu-address-samas",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "strew-flour-dates"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "invocation",
+          "addressee": {
+            "class": "deity",
+            "sub": "Šamaš"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Šamaš"
+          },
+          "about": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bring-substitute-out",
+      "number": 11,
+      "title": "Bring the substitute down and out to the open country",
+      "shortTitle": "Take the substitute out",
+      "shortDescription": "Bring the figures down from the roof and take the substitute out to the open country.",
+      "phase": "Dispatch the substitute",
+      "unitType": "act",
+      "actionType": "move-animal",
+      "verb": "Carry",
+      "summary": "Bring the figures down from the roof and take the substitute out to the open country.",
+      "patient": "Substitute figure",
+      "actor": "Exorcist",
+      "material": [],
+      "place": "Open country",
+      "evidence": "Stated in KUB 37.84+ ¶2 (KUB 37.84+ obv. II 9–25); read from the local draft translation.",
+      "image": {
+        "alt": "Bring the figures down from the roof and take the substitute out to the open country.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. II 9–25",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "libu-carry-substitute-out",
+      "composition": {
+        "function": "dispatch-substitute",
+        "requires": [
+          "bring-to-roof"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "carry",
+          "theme": {
+            "class": "figure",
+            "sub": "substitute",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "substitute-figure"
+          },
+          "source": "roof",
+          "goal": "open country"
+        }
+      ]
+    },
+    {
+      "id": "patient-gives-libu",
+      "number": 12,
+      "title": "The patient hands li'bu to his substitute",
+      "shortTitle": "Give li'bu to the substitute",
+      "shortDescription": "The patient tells li'bu that he gives it to his substitute and orders it to be gone.",
+      "phase": "Dispatch the substitute",
+      "unitType": "utterance",
+      "actionType": "return-harm-by-speech",
+      "verb": "Speak",
+      "summary": "The patient tells li'bu that he gives it to his substitute and orders it to be gone.",
+      "patient": "Li'bu-fever",
+      "actor": "Patient",
+      "material": [],
+      "evidence": "¶2; 'give' is partly restored. The following address to Šamaš and the wiping with seven loaves are wholly restored and are not made steps.",
+      "image": {
+        "alt": "The patient tells li'bu that he gives it to his substitute and orders it to be gone.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. II 9–25",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "libu-patient-gives-libu",
+      "composition": {
+        "function": "transfer-affliction",
+        "requires": [
+          "bring-substitute-out"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "substitution",
+          "addressee": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          },
+          "about": {
+            "class": "figure",
+            "sub": "substitute",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "substitute-figure"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "addressee": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
+    },
+    {
+      "id": "donkeys-in-basket",
+      "number": 13,
+      "title": "Place the donkey figures in a basket before Šamaš",
+      "shortTitle": "Put donkeys in basket",
+      "shortDescription": "Place the donkey figures in a basket before Šamaš.",
+      "phase": "Dispatch the substitute",
+      "unitType": "act",
+      "actionType": "put-in-basket",
+      "verb": "Place",
+      "summary": "Place the donkey figures in a basket before Šamaš.",
+      "patient": "Donkey figures",
+      "actor": "Exorcist",
+      "material": [
+        "basket"
+      ],
+      "recipient": "Šamaš (Sun-god)",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Šamaš (Sun-god)",
+      "evidence": "Stated in KUB 37.84+ ¶2 (KUB 37.84+ obv. II 9–25); read from the local draft translation.",
+      "image": {
+        "alt": "Place the donkey figures in a basket before Šamaš.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. II 9–25",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "libu-donkeys-in-basket",
+      "composition": {
+        "function": "place-in-carrier",
+        "requires": [
+          "bring-to-roof"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "donkey",
+            "count": 3,
+            "f": {
+              "material": "clay"
+            },
+            "ref": "donkey-figures"
+          },
+          "goal": {
+            "class": "container",
+            "sub": "basket"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Šamaš"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pour-seven-sila",
+      "number": 14,
+      "title": "Pour out seven sila each of flour, dates and oil",
+      "shortTitle": "Pour out provisions",
+      "shortDescription": "Pour seven sila each of flour, mashatu-flour, dates and oil on the ground.",
+      "phase": "Dispatch the substitute",
+      "unitType": "act",
+      "actionType": "offer-food-drink",
+      "verb": "Pour",
+      "summary": "Pour seven sila each of flour, mashatu-flour, dates and oil on the ground.",
+      "patient": "Provisions",
+      "actor": "Exorcist",
+      "material": [
+        "flour",
+        "mashatu-flour",
+        "dates",
+        "oil"
+      ],
+      "evidence": "¶2; 'pour out' is marked uncertain; count = seven sila measures.",
+      "image": {
+        "alt": "Pour seven sila each of flour, mashatu-flour, dates and oil on the ground.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. II 9–25",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "libu-pour-seven-sila",
+      "composition": {
+        "function": "make-offering",
+        "requires": [],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "food",
+            "sub": "flour",
+            "count": 7
+          },
+          "location": "ground"
+        },
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "food",
+            "sub": "mashatu-flour",
+            "count": 7
+          },
+          "location": "ground"
+        },
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "food",
+            "sub": "dates",
+            "count": 7
+          },
+          "location": "ground"
+        },
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "liquid",
+            "sub": "oil",
+            "count": 7
+          },
+          "location": "ground"
+        }
+      ]
+    },
+    {
+      "id": "address-nisaba",
+      "number": 15,
+      "title": "Invoke Nisaba and drive out the curse",
+      "shortTitle": "Invoke Nisaba",
+      "shortDescription": "The patient invokes Nisaba, who releases the curse, and declares the evil adjured and driven out.",
+      "phase": "Dispatch the substitute",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The patient invokes Nisaba, who releases the curse, and declares the evil adjured and driven out.",
+      "patient": "Nisaba; the evil",
+      "actor": "Patient",
+      "material": [],
+      "recipient": "Nisaba (goddess of grain)",
+      "deityVisualId": "unnamed-goddess",
+      "deityLabel": "Nisaba",
+      "evidence": "¶3; the addressee of 'you are driven out' is not explicit after the Nisaba hymn; it is read here as the evil. End of speech damaged.",
+      "image": {
+        "alt": "The patient invokes Nisaba, who releases the curse, and declares the evil adjured and driven out.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. II 26–rev. IV 14",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "libu-address-nisaba",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "pour-seven-sila"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "invocation",
+          "addressee": {
+            "class": "deity",
+            "sub": "Nisaba"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "binding",
+          "addressee": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "addressee": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
+    },
+    {
+      "id": "draw-design-adjure",
+      "number": 16,
+      "title": "Draw a design and adjure the evil by the gods",
+      "shortTitle": "Draw design and adjure",
+      "shortDescription": "Draw a design and adjure the evil by Enlil, Ninlil, Asalluḫi, Baba and Ningišzida to be led out, chased and gone, never to return.",
+      "phase": "Dispatch the substitute",
+      "unitType": "utterance",
+      "actionType": "conjure-on-ground",
+      "verb": "Speak",
+      "summary": "Draw a design and adjure the evil by Enlil, Ninlil, Asalluḫi, Baba and Ningišzida to be led out, chased and gone, never to return.",
+      "patient": "The evil",
+      "actor": "Exorcist",
+      "material": [
+        "drawn design"
+      ],
+      "evidence": "¶3; the medium of the design is not stated. Several oath lines are restored.",
+      "image": {
+        "alt": "Draw a design and adjure the evil by Enlil, Ninlil, Asalluḫi, Baba and Ningišzida to be led out, chased and gone, never to return.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. II 26–rev. IV 14",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "libu-draw-design-adjure",
+      "composition": {
+        "function": "return-harm",
+        "requires": [
+          "address-nisaba"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "earth",
+            "sub": "design"
+          },
+          "location": "ground"
+        },
+        {
+          "verb": "speak",
+          "act": "binding",
+          "addressee": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          },
+          "manner": "by Enlil, Ninlil, Asalluḫi, Baba and Ningišzida"
+        },
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "addressee": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          },
+          "about": {
+            "class": "figure",
+            "sub": "substitute",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "substitute-figure"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "addressee": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          }
+        }
+      ]
+    },
+    {
+      "id": "strew-at-esegu",
+      "number": 17,
+      "title": "Take it out to the ešegu-bush and strew flour and dates",
+      "shortTitle": "Strew at the ešegu",
+      "shortDescription": "Take it out of the house to the open country and at the ešegu-thornbush strew coarse flour, dates and mashatu-flour.",
+      "phase": "Ešegu-bush and city gate",
+      "unitType": "act",
+      "actionType": "scatter-provisions",
+      "verb": "Strew",
+      "summary": "Take it out of the house to the open country and at the ešegu-thornbush strew coarse flour, dates and mashatu-flour.",
+      "patient": "Strewn offering",
+      "actor": "Exorcist",
+      "material": [
+        "coarse flour",
+        "dates",
+        "mashatu-flour"
+      ],
+      "place": "Open country, at the ešegu-thornbush",
+      "evidence": "¶3; the object taken out is unstated (the substitute is assumed); the ešegu identification is uncertain.",
+      "image": {
+        "alt": "Take it out of the house to the open country and at the ešegu-thornbush strew coarse flour, dates and mashatu-flour.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. II 26–rev. IV 14",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "libu-strew-at-esegu",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "draw-design-adjure"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "carry",
+          "theme": {
+            "class": "figure",
+            "sub": "substitute",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "substitute-figure"
+          },
+          "source": "house",
+          "goal": "open country"
+        },
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "food",
+            "sub": "coarse flour"
+          },
+          "location": {
+            "class": "plant",
+            "sub": "ešegu-thornbush"
+          }
+        },
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "food",
+            "sub": "dates"
+          },
+          "location": {
+            "class": "plant",
+            "sub": "ešegu-thornbush"
+          }
+        },
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "food",
+            "sub": "mashatu-flour"
+          },
+          "location": {
+            "class": "plant",
+            "sub": "ešegu-thornbush"
+          }
+        }
+      ]
+    },
+    {
+      "id": "station-weapons",
+      "number": 18,
+      "title": "Station donkeys and weapons before Šamaš",
+      "shortTitle": "Station donkeys and weapons",
+      "shortDescription": "Behind the offering station two donkeys before Šamaš, a weapon behind the donkeys, and a weapon behind the donkey ridden by the substitute.",
+      "phase": "Ešegu-bush and city gate",
+      "unitType": "act",
+      "actionType": "arrange-figures",
+      "verb": "Station",
+      "summary": "Behind the offering station two donkeys before Šamaš, a weapon behind the donkeys, and a weapon behind the donkey ridden by the substitute.",
+      "patient": "Donkey figures; weapons",
+      "actor": "Exorcist",
+      "material": [
+        "weapon"
+      ],
+      "recipient": "Šamaš (Sun-god)",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Šamaš (Sun-god)",
+      "evidence": "¶3; the kind of weapon is not specified.",
+      "image": {
+        "alt": "Behind the offering station two donkeys before Šamaš, a weapon behind the donkeys, and a weapon behind the donkey ridden by the substitute.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. II 26–rev. IV 14",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "libu-station-weapons",
+      "composition": {
+        "function": "construct-setting",
+        "requires": [
+          "strew-at-esegu"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "position",
+          "theme": {
+            "class": "figure",
+            "sub": "donkey",
+            "count": 3,
+            "f": {
+              "material": "clay"
+            },
+            "ref": "donkey-figures"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Šamaš"
+          },
+          "location": "behind the offering"
+        },
+        {
+          "verb": "position",
+          "theme": {
+            "class": "implement",
+            "sub": "weapon",
+            "ref": "weapon-1"
+          },
+          "location": "behind the donkeys"
+        },
+        {
+          "verb": "position",
+          "theme": {
+            "class": "implement",
+            "sub": "weapon",
+            "ref": "weapon-2"
+          },
+          "location": "behind the substitute's donkey"
+        }
+      ]
+    },
+    {
+      "id": "address-samas-oath",
+      "number": 19,
+      "title": "Address Šamaš, list the seizing demons and lay the oath",
+      "shortTitle": "Address Šamaš: the oath",
+      "shortDescription": "Invoke Šamaš as judge, list the ghosts and demons that have seized the patient, and declare that the oath of the great gods has been put in his mouth.",
+      "phase": "Ešegu-bush and city gate",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "Invoke Šamaš as judge, list the ghosts and demons that have seized the patient, and declare that the oath of the great gods has been put in his mouth.",
+      "patient": "Šamaš",
+      "actor": "Exorcist",
+      "material": [],
+      "recipient": "Šamaš (Sun-god)",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Šamaš (Sun-god)",
+      "evidence": "Stated in KUB 37.84+ ¶3 (KUB 37.84+ obv. II 26–rev. IV 14); read from the local draft translation.",
+      "image": {
+        "alt": "Invoke Šamaš as judge, list the ghosts and demons that have seized the patient, and declare that the oath of the great gods has been put in his mouth.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ obv. II 26–rev. IV 14",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "libu-address-samas-oath",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "station-weapons"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "invocation",
+          "addressee": {
+            "class": "deity",
+            "sub": "Šamaš"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Šamaš"
+          },
+          "about": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "addressee": {
+            "class": "deity",
+            "sub": "Šamaš"
+          },
+          "about": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
+    },
+    {
+      "id": "address-esegu",
+      "number": 20,
+      "title": "Seize the ešegu-bush and bid it plead with Šamaš",
+      "shortTitle": "Address the ešegu",
+      "shortDescription": "Tell the ešegu, offspring of Enlil, that it has been seized on the patient's account, bid it plead with Šamaš, and promise its release when li'bu lets the patient go.",
+      "phase": "Ešegu-bush and city gate",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "Tell the ešegu, offspring of Enlil, that it has been seized on the patient's account, bid it plead with Šamaš, and promise its release when li'bu lets the patient go.",
+      "patient": "Ešegu-thornbush",
+      "actor": "Exorcist",
+      "material": [],
+      "recipient": "Šamaš (Sun-god)",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Šamaš (Sun-god)",
+      "place": "Ešegu-thornbush",
+      "evidence": "Stated in KUB 37.84+ ¶4 (KUB 37.84+ rev. IV 15–V 13); read from the local draft translation.",
+      "image": {
+        "alt": "Tell the ešegu, offspring of Enlil, that it has been seized on the patient's account, bid it plead with Šamaš, and promise its release when li'bu lets the patient go.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ rev. IV 15–V 13",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "libu-address-esegu",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "strew-at-esegu"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "binding",
+          "addressee": {
+            "class": "plant",
+            "sub": "ešegu-thornbush"
+          },
+          "about": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "plant",
+            "sub": "ešegu-thornbush"
+          },
+          "about": {
+            "class": "deity",
+            "sub": "Šamaš"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "vow",
+          "addressee": {
+            "class": "plant",
+            "sub": "ešegu-thornbush"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anoint-bind-esegu",
+      "number": 21,
+      "title": "Pour oil on the ešegu and bind it to a rush",
+      "shortTitle": "Oil and bind the ešegu",
+      "shortDescription": "Pour oil on the ešegu, bind it to a rush and wrap its top all round.",
+      "phase": "Ešegu-bush and city gate",
+      "unitType": "act",
+      "actionType": "bind-gate",
+      "verb": "Bind",
+      "summary": "Pour oil on the ešegu, bind it to a rush and wrap its top all round.",
+      "patient": "Ešegu-thornbush",
+      "actor": "Exorcist",
+      "material": [
+        "oil",
+        "rush"
+      ],
+      "evidence": "¶4; what the top is wrapped with is not stated; the rush is assumed. The following short address to Šamaš is a separate step.",
+      "image": {
+        "alt": "Pour oil on the ešegu, bind it to a rush and wrap its top all round.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ rev. IV 15–V 13",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "libu-anoint-bind-esegu",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "address-esegu"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "liquid",
+            "sub": "oil"
+          },
+          "onto": {
+            "class": "plant",
+            "sub": "ešegu-thornbush"
+          }
+        },
+        {
+          "verb": "tie",
+          "theme": {
+            "class": "plant",
+            "sub": "ešegu-thornbush"
+          },
+          "to": {
+            "class": "plant",
+            "sub": "rush"
+          }
+        },
+        {
+          "verb": "wind",
+          "theme": {
+            "class": "plant",
+            "sub": "rush"
+          },
+          "onto": {
+            "class": "plant",
+            "sub": "ešegu-thornbush",
+            "f": {
+              "part": "top"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "release-bargain",
+      "number": 22,
+      "title": "Ask Šamaš to free the patient from fever",
+      "shortTitle": "Ask Šamaš for release",
+      "shortDescription": "The exorcist asks Šamaš to make the illness release the patient, promising to release the thornbush in turn.",
+      "phase": "Ešegu-bush and city gate",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "The exorcist asks Šamaš to make the illness release the patient, promising to release the thornbush in turn.",
+      "patient": "Šamaš; ešegu",
+      "actor": "Exorcist",
+      "material": [],
+      "recipient": "Šamaš (Sun-god)",
+      "deityVisualId": "sun-god",
+      "deityLabel": "Šamaš (Sun-god)",
+      "evidence": "Stated in KUB 37.84+ ¶4 (KUB 37.84+ rev. IV 15–V 13); read from the local draft translation.",
+      "image": {
+        "alt": "A relief-inspired illustration of the sun god Šamaš",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ rev. IV 15–V 13",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "libu-release-bargain",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "anoint-bind-esegu"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Šamaš"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "vow",
+          "addressee": {
+            "class": "plant",
+            "sub": "ešegu-thornbush"
+          }
+        }
+      ]
+    },
+    {
+      "id": "place-loaves-designs",
+      "number": 23,
+      "title": "Draw designs and set a dried loaf at each",
+      "shortTitle": "Designs and loaves",
+      "shortDescription": "Draw two designs of a cubit and seven designs before the seven(?), and place a dried loaf wherever there is a design.",
+      "phase": "Ešegu-bush and city gate",
+      "unitType": "act",
+      "actionType": "place-a-bedside-deposit",
+      "verb": "Place",
+      "summary": "Draw two designs of a cubit and seven designs before the seven(?), and place a dried loaf wherever there is a design.",
+      "patient": "Dried loaves",
+      "actor": "Exorcist",
+      "material": [
+        "dried loaves"
+      ],
+      "evidence": "¶4; 'before the seven(?)' is uncertain; total nine designs combines two plus seven. The instruction not to look back follows and is not a separate step.",
+      "image": {
+        "alt": "Draw two designs of a cubit and seven designs before the seven(?), and place a dried loaf wherever there is a design.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ rev. IV 15–V 13",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "libu-place-loaves-designs",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "release-bargain"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "earth",
+            "sub": "design",
+            "count": 9
+          },
+          "location": "ground"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "food",
+            "sub": "dried loaf"
+          },
+          "on": {
+            "class": "earth",
+            "sub": "design"
+          }
+        }
+      ]
+    },
+    {
+      "id": "strew-city-gate",
+      "number": 24,
+      "title": "Throw flour at the city gate",
+      "shortTitle": "Strew at the gate",
+      "shortDescription": "Entering the city gate, throw flour to either side and in the middle, and on both door-leaves.",
+      "phase": "Ešegu-bush and city gate",
+      "unitType": "act",
+      "actionType": "scatter-provisions",
+      "verb": "Throw",
+      "summary": "Entering the city gate, throw flour to either side and in the middle, and on both door-leaves.",
+      "patient": "City gate",
+      "actor": "Exorcist",
+      "material": [
+        "flour"
+      ],
+      "place": "City gate",
+      "evidence": "Stated in KUB 37.84+ ¶4 (KUB 37.84+ rev. IV 15–V 13); read from the local draft translation.",
+      "image": {
+        "alt": "Entering the city gate, throw flour to either side and in the middle, and on both door-leaves.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ rev. IV 15–V 13",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "libu-strew-city-gate",
+      "composition": {
+        "function": "seal-threshold",
+        "requires": [
+          "place-loaves-designs"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "food",
+            "sub": "flour"
+          },
+          "location": {
+            "class": "structure",
+            "sub": "city gate"
+          },
+          "manner": "on this side and that"
+        },
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "food",
+            "sub": "flour"
+          },
+          "onto": {
+            "class": "structure",
+            "sub": "gate doors",
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "adjure-at-gate",
+      "number": 25,
+      "title": "Adjure the evil not to enter the door",
+      "shortTitle": "Adjure at the gate",
+      "shortDescription": "Adjure the evil by the great gods of the ešegu not to enter the open door, and send it away.",
+      "phase": "Ešegu-bush and city gate",
+      "unitType": "utterance",
+      "actionType": "chant-at-gate",
+      "verb": "Speak",
+      "summary": "Adjure the evil by the great gods of the ešegu not to enter the open door, and send it away.",
+      "patient": "The evil",
+      "actor": "Exorcist",
+      "material": [],
+      "place": "City gate",
+      "evidence": "Stated in KUB 37.84+ ¶4 (KUB 37.84+ rev. IV 15–V 13); read from the local draft translation.",
+      "image": {
+        "alt": "Adjure the evil by the great gods of the ešegu not to enter the open door, and send it away.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ rev. IV 15–V 13",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "libu-adjure-at-gate",
+      "composition": {
+        "function": "chant-at-threshold",
+        "requires": [
+          "strew-city-gate"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "binding",
+          "addressee": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          },
+          "location": {
+            "class": "structure",
+            "sub": "city gate"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "addressee": {
+            "class": "harm",
+            "sub": "li'bu-fever"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mix-salt-cress",
+      "number": 26,
+      "title": "Mix salt and cress into the poured flour",
+      "shortTitle": "Mix salt and cress",
+      "shortDescription": "Mix salt and cress into the flour poured out as offering.",
+      "phase": "Ešegu-bush and city gate",
+      "unitType": "act",
+      "actionType": "mix-fodder",
+      "verb": "Mix",
+      "summary": "Mix salt and cress into the flour poured out as offering.",
+      "patient": "Poured flour",
+      "actor": "Exorcist",
+      "material": [
+        "salt",
+        "cress",
+        "flour"
+      ],
+      "evidence": "Stated in KUB 37.84+ ¶4 (KUB 37.84+ rev. IV 15–V 13); read from the local draft translation.",
+      "image": {
+        "alt": "Mix salt and cress into the flour poured out as offering.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ rev. IV 15–V 13",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "libu-mix-salt-cress",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "strew-city-gate"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "remedy",
+            "sub": "salt"
+          },
+          "with": {
+            "class": "food",
+            "sub": "flour"
+          }
+        },
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "plant",
+            "sub": "cress"
+          },
+          "with": {
+            "class": "food",
+            "sub": "flour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crush-juniper",
+      "number": 27,
+      "title": "Crush juniper and mix it with oil",
+      "shortTitle": "Crush juniper",
+      "shortDescription": "For a recurrent third-day fever, crush a sila of juniper and mix it with oil.",
+      "phase": "Further remedy",
+      "unitType": "act",
+      "actionType": "crush-ingredients",
+      "verb": "Crush",
+      "summary": "For a recurrent third-day fever, crush a sila of juniper and mix it with oil.",
+      "patient": "Juniper",
+      "actor": "Healer",
+      "material": [
+        "juniper",
+        "oil"
+      ],
+      "evidence": "¶6; the paragraph does not say how the oil is applied. ¶5 is lost and ¶7–9 are almost wholly restored, so they are not mapped.",
+      "image": {
+        "alt": "For a recurrent third-day fever, crush a sila of juniper and mix it with oil.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ rev. V 15–29",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "libu-crush-juniper",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "plant",
+            "sub": "juniper"
+          }
+        },
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "plant",
+            "sub": "juniper"
+          },
+          "with": {
+            "class": "liquid",
+            "sub": "oil"
+          }
+        }
+      ]
+    },
+    {
+      "id": "recite-arabapura",
+      "number": 28,
+      "title": "Recite the incantation during treatment",
+      "shortTitle": "Recite the incantation",
+      "shortDescription": "Recite the incantation '[A]rābapura'(?) during the treatment, repeating plant and incantation unchanged until the seizures leave.",
+      "phase": "Further remedy",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Recite",
+      "summary": "Recite the incantation '[A]rābapura'(?) during the treatment, repeating plant and incantation unchanged until the seizures leave.",
+      "patient": "Patient",
+      "actor": "Healers",
+      "material": [],
+      "evidence": "¶6; the incantation's name is partly restored and uncertain, and its text is not given, so its speech act is classed only as invocation.",
+      "image": {
+        "alt": "Recite the incantation '[A]rābapura'(?) during the treatment, repeating plant and incantation unchanged until the seizures leave.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-37-84-plus",
+          "locus": "KUB 37.84+ rev. V 15–29",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "libu-recite-arabapura",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "crush-juniper"
+        ],
+        "aims": [
+          "heal-illness"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "invocation",
+          "about": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "healers"
+          }
+        }
+      ]
+    }
+  ]
+}

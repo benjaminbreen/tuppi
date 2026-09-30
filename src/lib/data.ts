@@ -72,7 +72,8 @@ export interface Substance {
   label: string;
   class: SubCls;
   glossDe: string;
-  status: "identified" | "tentative" | "class-only" | "unglossed";
+  status: "identified" | "tentative" | "class-only" | "cmawro" | "unglossed";
+  cmawro?: { akkadian: string; gloss: string; basis: string; n: number; texts: number; example: { text: string; ref: string } | null };
   n: number;
   nPreserved: number;
   forms: string[];
@@ -151,13 +152,15 @@ export const STATUS_LABEL = {
   identified: "Identified",
   tentative: "Tentative",
   "class-only": "Class only",
+  cmawro: "Glossed via CMAwRo",
   unglossed: "Unglossed",
 } as const;
 export const STATUS_NOTE = {
   identified: "TLHdig gives a specific meaning",
   tentative: "meaning marked uncertain (?)",
   "class-only": "only a category is known, e.g. '(a plant)'",
-  unglossed: "no gloss in TLHdig; mostly Babylonian plant names",
+  cmawro: "no TLHdig gloss; the Mesopotamian CMAwRo edition glosses the same Akkadian word",
+  unglossed: "no gloss in TLHdig or CMAwRo",
 } as const;
 export const PERIOD_LABEL: Record<string, string> = {
   OS: "Old script",

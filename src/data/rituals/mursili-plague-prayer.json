@@ -1,0 +1,912 @@
+{
+  "cth": 378,
+  "title": "Muršili’s Second Plague Prayer",
+  "shortName": "Muršili II",
+  "eyebrow": "CTH 378.2 · prayer against plague",
+  "dating": {
+    "label": "New Hittite copy",
+    "note": "KUB 14.8 is a New Hittite script copy of a prayer composed in Muršili II's reign (late 14th c. BCE).",
+    "sourceUrl": "https://hethport.net/hetkonk/hetkonk_abfrage.php?c=378"
+  },
+  "purpose": "A king's prayer to end a twenty-year plague by confessing his father's breach of an oath sworn by the Storm-god and offering restitution.",
+  "attribution": "Composed in the name of Muršili II",
+  "sourceSummary": "KUB 14.8 · main copy (A)",
+  "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KUB+14.8",
+  "editionLabel": "TLHdig: KUB 14.8",
+  "phases": [
+    {
+      "name": "Find the cause",
+      "range": [
+        1,
+        2
+      ],
+      "idea": "Old tablets and oracle inquiries identify the broken oath and the neglected Mala offering."
+    },
+    {
+      "name": "Confess",
+      "range": [
+        3,
+        5
+      ],
+      "idea": "The king admits the sin, vows the offering and confesses his father's transgression."
+    },
+    {
+      "name": "Appease",
+      "range": [
+        6,
+        6
+      ],
+      "idea": "He asks that the god's soul be soothed and the plague sent away."
+    },
+    {
+      "name": "Petition",
+      "range": [
+        7,
+        12
+      ],
+      "idea": "Arguments, compensation and pleas for survivors and for revelation of any other cause."
+    }
+  ],
+  "steps": [
+    {
+      "id": "inquire-egypt-oath",
+      "number": 1,
+      "title": "Put the Egyptian oath-breach to an oracle",
+      "phase": "Find the cause",
+      "unitType": "act",
+      "actionType": "consult-oracle",
+      "verb": "Inquire",
+      "shortDescription": "Having found the old tablet about Egypt, the king makes the matter of the broken oath the subject of an oracle inquiry.",
+      "patient": "The plague and the broken Kuruštamma oath",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §4, continuing into §5. A reported act (the king's own account), not a prescription. The oracle confirms the Storm-god's anger.",
+      "image": {
+        "alt": "A king consulting an oracle",
+        "note": "Oracle technique is not stated; no diviner or apparatus is depicted beyond the king."
+      },
+      "composition": {
+        "function": "read-omen",
+        "requires": [],
+        "aims": [
+          "avert-plague",
+          "appease-angry-god"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "observe",
+          "theme": {
+            "class": "harm",
+            "sub": "plague"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "manner": "by oracle inquiry",
+          "about": {
+            "class": "materials",
+            "sub": "broken oath"
+          }
+        }
+      ],
+      "shortTitle": "Put the Egyptian oath-breach to an oracle",
+      "summary": "Having found the old tablet about Egypt, the king makes the matter of the broken oath the subject of an oracle inquiry.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-inquire-egypt-oath"
+    },
+    {
+      "id": "inquire-mala-offering",
+      "number": 2,
+      "title": "Put the neglected Mala offering to an oracle",
+      "phase": "Find the cause",
+      "unitType": "act",
+      "actionType": "consult-oracle",
+      "verb": "Inquire",
+      "shortDescription": "The king also asks the oracle about the long-neglected offering to the river Mala; it confirms he must stand before the Storm-god.",
+      "patient": "The neglected offering to the river Mala",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §5. Reported act. §2 records that the offering had not been made since his father's days.",
+      "image": {
+        "alt": "A king consulting an oracle",
+        "note": "As for the previous oracle inquiry."
+      },
+      "composition": {
+        "function": "read-omen",
+        "requires": [],
+        "aims": [
+          "avert-plague",
+          "appease-angry-god"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "observe",
+          "theme": {
+            "class": "harm",
+            "sub": "plague"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "manner": "by oracle inquiry",
+          "about": {
+            "class": "materials",
+            "sub": "offering to the river Mala"
+          }
+        }
+      ],
+      "shortTitle": "Put the neglected Mala offering to an oracle",
+      "summary": "The king also asks the oracle about the long-neglected offering to the river Mala; it confirms he must stand before the Storm-god.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §5",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-inquire-mala-offering"
+    },
+    {
+      "id": "confess-sin",
+      "number": 3,
+      "title": "Confess the sin",
+      "phase": "Confess",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Confess",
+      "shortDescription": "Before the Storm-god the king acknowledges the sin: 'it is so, we did it.'",
+      "patient": "The oath-breach",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §5 (damaged around the confession formula).",
+      "image": {
+        "alt": "A king confessing before the Storm-god",
+        "note": "Relief type only; the tablet does not describe a cult image."
+      },
+      "composition": {
+        "function": "confess-offence",
+        "requires": [],
+        "aims": [
+          "avert-plague",
+          "appease-angry-god"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "confession",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "sin",
+            "f": {
+              "part": "oath-breach"
+            }
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          }
+        }
+      ],
+      "recipient": "Storm-god of Ḫatti",
+      "deityVisualId": "storm-god",
+      "deityLabel": "Storm-god of Ḫatti, 'my lord'",
+      "shortTitle": "Confess the sin",
+      "summary": "Before the Storm-god the king acknowledges the sin: 'it is so, we did it.'",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §5",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-confess-sin"
+    },
+    {
+      "id": "vow-mala-offering",
+      "number": 4,
+      "title": "Vow to perform the Mala offering",
+      "phase": "Confess",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Vow",
+      "shortDescription": "The king undertakes to see to the river Mala offering, and asks that the plague be put right.",
+      "patient": "The offering to the river Mala",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §6, heavily broken; the verbs 'see to' and 'perform' carry a (?) in the translation.",
+      "image": {
+        "alt": "A king vowing an offering",
+        "note": "The river is not personified here."
+      },
+      "composition": {
+        "function": "promise-restitution",
+        "requires": [],
+        "aims": [
+          "avert-plague",
+          "appease-angry-god"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "vow",
+          "addressee": {
+            "class": "deity",
+            "sub": "gods"
+          },
+          "about": {
+            "class": "materials",
+            "sub": "offering to the river Mala"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "gods"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "plague"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          }
+        }
+      ],
+      "recipient": "the gods, my lords",
+      "deityVisualId": "divine-assembly",
+      "deityLabel": "the gods, my lords",
+      "shortTitle": "Vow to perform the Mala offering",
+      "summary": "The king undertakes to see to the river Mala offering, and asks that the plague be put right.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §6",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 5
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-vow-mala-offering"
+    },
+    {
+      "id": "confess-fathers-sin",
+      "number": 5,
+      "title": "Confess the father's sin",
+      "phase": "Confess",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Confess",
+      "shortDescription": "The king explains that a father's sin reaches his son and confesses Šuppiluliuma's transgression before the Storm-god and the gods.",
+      "patient": "The sin of the king's father",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §7. The inherited-guilt argument precedes the confession.",
+      "image": {
+        "alt": "A king confessing before the Storm-god",
+        "note": "Relief type only."
+      },
+      "composition": {
+        "function": "confess-offence",
+        "requires": [],
+        "aims": [
+          "avert-plague",
+          "appease-angry-god"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "sin"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "note": "the sin of the father reaches his son"
+        },
+        {
+          "verb": "speak",
+          "act": "confession",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "sin"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "for": {
+            "class": "person",
+            "sub": "father"
+          }
+        }
+      ],
+      "recipient": "Storm-god of Ḫatti",
+      "deityVisualId": "storm-god",
+      "deityLabel": "Storm-god of Ḫatti, 'my lord'",
+      "shortTitle": "Confess the father's sin",
+      "summary": "The king explains that a father's sin reaches his son and confesses Šuppiluliuma's transgression before the Storm-god and the gods.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-confess-fathers-sin"
+    },
+    {
+      "id": "soothe-and-send-away",
+      "number": 6,
+      "title": "Ask the god's soul to be soothed and the plague sent away",
+      "phase": "Appease",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Appease",
+      "shortDescription": "Because the sin is confessed, the king asks that the soul of the Storm-god and the gods be soothed, that they have pity, and send the plague away.",
+      "patient": "The Storm-god's anger; the plague",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §7.",
+      "image": {
+        "alt": "A king entreating the Storm-god",
+        "note": "Relief type only."
+      },
+      "composition": {
+        "function": "appease-divinity",
+        "requires": [],
+        "aims": [
+          "avert-plague",
+          "appease-angry-god"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "appeasement",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "anger"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "plague"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "from": {
+            "class": "place",
+            "sub": "land of Hatti"
+          },
+          "note": "send the plague away"
+        }
+      ],
+      "recipient": "Storm-god of Ḫatti",
+      "deityVisualId": "storm-god",
+      "deityLabel": "Storm-god of Ḫatti, 'my lord'",
+      "shortTitle": "Ask the god's soul to be soothed and the plague sent away",
+      "summary": "Because the sin is confessed, the king asks that the soul of the Storm-god and the gods be soothed, that they have pity, and send the plague away.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §7",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 6
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-soothe-and-send-away"
+    },
+    {
+      "id": "hear-me",
+      "number": 7,
+      "title": "Call on the Storm-god to hear and keep him alive",
+      "phase": "Petition",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Invoke",
+      "shortDescription": "The king announces his plea about the plague and calls on the Storm-god to hear him and keep him alive.",
+      "patient": "The king",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §8.",
+      "image": {
+        "alt": "A king calling on the Storm-god",
+        "note": "Relief type only."
+      },
+      "composition": {
+        "function": "invoke-help",
+        "requires": [],
+        "aims": [
+          "avert-plague",
+          "appease-angry-god"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "invocation",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "person",
+            "sub": "king"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "note": "keep me alive"
+        }
+      ],
+      "recipient": "Storm-god of Ḫatti",
+      "deityVisualId": "storm-god",
+      "deityLabel": "Storm-god of Ḫatti, 'my lord'",
+      "shortTitle": "Call on the Storm-god to hear and keep him alive",
+      "summary": "The king announces his plea about the plague and calls on the Storm-god to hear him and keep him alive.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §8",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 7
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-hear-me"
+    },
+    {
+      "id": "bird-and-servant",
+      "number": 8,
+      "title": "Argue by the bird and the servant",
+      "phase": "Petition",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Compare",
+      "shortDescription": "The king offers comparisons: a bird kept alive in its nest, a servant whose lord hears his plea, a servant forgiven because he confessed.",
+      "patient": "The king as the god's servant",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §8. These are persuasive comparisons addressed to the god, classed here as analogy speech acts; they do not perform a transfer.",
+      "image": {
+        "alt": "A king speaking before the Storm-god; a bird in a nest",
+        "note": "The meaning of taptappa- (nest or cage) is uncertain; depict a simple nest."
+      },
+      "composition": {
+        "function": "appease-divinity",
+        "requires": [],
+        "aims": [
+          "avert-plague",
+          "appease-angry-god"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "bird",
+            "sub": "bird"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "note": "as the taptappa- keeps the bird alive"
+        },
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "person",
+            "sub": "servant"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "note": "as a lord hears his servant's plea"
+        },
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "person",
+            "sub": "servant"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "note": "as a lord's soul is soothed by the servant's confession"
+        }
+      ],
+      "recipient": "Storm-god of Ḫatti",
+      "deityVisualId": "storm-god",
+      "deityLabel": "Storm-god of Ḫatti, 'my lord'",
+      "shortTitle": "Argue by the bird and the servant",
+      "summary": "The king offers comparisons: a bird kept alive in its nest, a servant whose lord hears his plea, a servant forgiven because he confessed.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §8",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 7
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-bird-and-servant"
+    },
+    {
+      "id": "offer-compensation",
+      "number": 9,
+      "title": "Offer further compensation",
+      "phase": "Petition",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Vow",
+      "shortDescription": "The king argues the land has already paid twentyfold through the plague, yet undertakes to give any further compensation the god reveals in a dream.",
+      "patient": "Compensation for the broken oath",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §8. Partly broken around the reckoning of prisoners and deportees.",
+      "image": {
+        "alt": "A king promising compensation",
+        "note": "No specific goods are named, so none are depicted."
+      },
+      "composition": {
+        "function": "promise-restitution",
+        "requires": [],
+        "aims": [
+          "avert-plague",
+          "appease-angry-god"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "compensation"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "note": "already paid twentyfold through the plague"
+        },
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "materials",
+            "sub": "dream"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "note": "tell it to me in a dream"
+        },
+        {
+          "verb": "speak",
+          "act": "vow",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "materials",
+            "sub": "compensation"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          }
+        }
+      ],
+      "recipient": "Storm-god of Ḫatti",
+      "deityVisualId": "storm-god",
+      "deityLabel": "Storm-god of Ḫatti, 'my lord'",
+      "shortTitle": "Offer further compensation",
+      "summary": "The king argues the land has already paid twentyfold through the plague, yet undertakes to give any further compensation the god reveals in a dream.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §8",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 7
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-offer-compensation"
+    },
+    {
+      "id": "spare-cult-personnel",
+      "number": 10,
+      "title": "Ask that the remaining cult personnel die no more",
+      "phase": "Petition",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Petition",
+      "shortDescription": "While he sets the matter right, the king asks that the surviving bread-offerers and libation-pourers die no more.",
+      "patient": "Bread-offerers and libation-pourers",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §9; already anticipated in §7.",
+      "image": {
+        "alt": "A king praying",
+        "note": "Relief type only."
+      },
+      "composition": {
+        "function": "invoke-help",
+        "requires": [],
+        "aims": [
+          "avert-plague",
+          "appease-angry-god"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Storm-god of Hatti"
+          },
+          "about": {
+            "class": "person",
+            "sub": "bread-offerers and libation-pourers"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          }
+        }
+      ],
+      "recipient": "Storm-god of Ḫatti",
+      "deityVisualId": "storm-god",
+      "deityLabel": "Storm-god of Ḫatti, 'my lord'",
+      "shortTitle": "Ask that the remaining cult personnel die no more",
+      "summary": "While he sets the matter right, the king asks that the surviving bread-offerers and libation-pourers die no more.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §9",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 8
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-spare-cult-personnel"
+    },
+    {
+      "id": "reveal-other-cause",
+      "number": 11,
+      "title": "Ask for any other cause to be revealed",
+      "phase": "Petition",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Petition",
+      "shortDescription": "If people die for another reason, the king asks to see it in a dream, by oracle, or through a man of god.",
+      "patient": "A different cause of the plague",
+      "actor": "Muršili II",
+      "evidence": "KUB 14.8 §10.",
+      "image": {
+        "alt": "A king praying",
+        "note": "Relief type only."
+      },
+      "composition": {
+        "function": "seek-divine-disclosure",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "gods"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "cause of the plague"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "king"
+          },
+          "manner": "by dream, oracle or man of god"
+        }
+      ],
+      "recipient": "the gods, my lords",
+      "deityVisualId": "divine-assembly",
+      "deityLabel": "the gods, my lords",
+      "shortTitle": "Ask for any other cause to be revealed",
+      "summary": "If people die for another reason, the king asks to see it in a dream, by oracle, or through a man of god.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §10",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 9
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-reveal-other-cause"
+    },
+    {
+      "id": "order-pure-sleep",
+      "number": 12,
+      "title": "Order the priests to sleep in purity",
+      "phase": "Petition",
+      "unitType": "act",
+      "actionType": "incubate-dream",
+      "verb": "Order",
+      "shortDescription": "The king has ordered all (probably priests) to sleep regularly in purity, apparently to receive dreams.",
+      "patient": "Priests (restored)",
+      "actor": "Muršili II's orders; the sleepers",
+      "evidence": "KUB 14.8 §10. Reported act; 'priests' and the dream purpose are editorial restorations/interpretations.",
+      "image": {
+        "alt": "Sleeping figures",
+        "note": "The sleepers' identity is restored."
+      },
+      "composition": {
+        "function": "seek-divine-disclosure",
+        "requires": [],
+        "aims": [
+          "avert-plague"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "sleep",
+          "agent": {
+            "class": "person",
+            "sub": "priests"
+          },
+          "manner": "in purity",
+          "note": "ordered by the king; purpose (dream incubation) interpreted"
+        }
+      ],
+      "shortTitle": "Order the priests to sleep in purity",
+      "summary": "The king has ordered all (probably priests) to sleep regularly in purity, apparently to receive dreams.",
+      "material": [],
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-14-8",
+          "locus": "KUB 14.8 §10",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 9
+          }
+        }
+      ],
+      "unitId": "mursili-plague-prayer-order-pure-sleep"
+    }
+  ],
+  "variants": [],
+  "id": "mursili-plague-prayer"
+}

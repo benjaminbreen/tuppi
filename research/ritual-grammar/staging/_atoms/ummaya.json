@@ -1,0 +1,49 @@
+{
+ "prepare-at-wall": [
+  {
+   "verb": "take",
+   "theme": {
+    "class": "materials",
+    "sub": "unknown"
+   },
+   "location": "city wall"
+  }
+ ],
+ "conjure-on-ground": [
+  {
+   "verb": "speak",
+   "act": "invocation",
+   "about": {
+    "class": "materials",
+    "sub": "unknown"
+   },
+   "location": "on the ground",
+   "note": "conjure; words not preserved"
+  }
+ ],
+ "release-man": [
+  {
+   "verb": "release",
+   "theme": {
+    "class": "person",
+    "sub": "man"
+   },
+   "manner": "as substitute carrier"
+  }
+ ],
+ "release-oxen": [
+  {
+   "verb": "release",
+   "theme": {
+    "class": "animal",
+    "sub": "ox",
+    "count": 2
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "Tutelary Deity"
+   },
+   "manner": "as substitute carriers"
+  }
+ ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "ummaya",
+  "cth": 779,
+  "title": "Ummaya’s substitute ritual",
+  "shortName": "Ummaya",
+  "eyebrow": "CTH 779 · a fragmentary royal rite",
+  "dating": {
+    "label": "New Hittite copy",
+    "note": "KBo 15.1 is a collection tablet containing this ritual and other distinct rites.",
+    "sourceUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KBo+15.1"
+  },
+  "purpose": "A rite for the king that prepares and conjures at a city wall, then releases a man and two oxen as substitute carriers.",
+  "attribution": "Attributed to Ummaya",
+  "sourceSummary": "KBo 15.1 · Ummaya section, selected surviving acts",
+  "editionUrl": "https://smaw.de.dariah.eu/TLHdig/tlh_xtx.php?d=KBo+15.1",
+  "phases": [
+    {
+      "name": "Conjure at the wall",
+      "range": [
+        1,
+        2
+      ],
+      "idea": "Objects are prepared near the city wall and conjured over on the ground."
+    },
+    {
+      "name": "Release substitutes",
+      "range": [
+        3,
+        4
+      ],
+      "idea": "After the incantation, a man and two oxen are released as carriers."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "prepare-at-wall",
+      "number": 1,
+      "title": "Prepare at the city wall",
+      "shortTitle": "Prepare at the city wall",
+      "shortDescription": "The rite is prepared at the city wall.",
+      "phase": "Conjure at the wall",
+      "unitType": "act",
+      "actionType": "prepare-rite",
+      "verb": "Prepare",
+      "summary": "The rite is prepared at the city wall.",
+      "patient": "Ritual materials",
+      "actor": "Ummaya",
+      "material": [],
+      "evidence": "KBo 15.1 §10.",
+      "image": {
+        "alt": "Ummaya prepares and conjures by the city wall",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 §10",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 9
+          }
+        }
+      ],
+      "unitId": "ummaya-prepare-at-wall",
+      "composition": {
+        "function": "construct-setting",
+        "requires": [],
+        "aims": [
+          "avert-harm"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "take",
+          "theme": {
+            "class": "materials",
+            "sub": "unknown"
+          },
+          "location": "city wall"
+        }
+      ]
+    },
+    {
+      "id": "conjure-on-ground",
+      "number": 2,
+      "title": "Conjure over the ground object",
+      "shortTitle": "Conjure over the ground object",
+      "shortDescription": "Ummaya conjures over an object on the ground; the object is not preserved in the passage.",
+      "phase": "Conjure at the wall",
+      "unitType": "utterance",
+      "actionType": "conjure-on-ground",
+      "verb": "Conjure",
+      "summary": "Ummaya conjures over an object on the ground; the object is not preserved in the passage.",
+      "patient": "An object on the ground",
+      "actor": "Ummaya",
+      "material": [],
+      "evidence": "KBo 15.1 §10.",
+      "image": {
+        "alt": "Ummaya prepares and conjures by the city wall",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 §10",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 9
+          }
+        }
+      ],
+      "unitId": "ummaya-conjure-on-ground",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "prepare-at-wall"
+        ],
+        "aims": [
+          "avert-harm"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "invocation",
+          "about": {
+            "class": "materials",
+            "sub": "unknown"
+          },
+          "location": "on the ground",
+          "note": "conjure; words not preserved"
+        }
+      ]
+    },
+    {
+      "id": "release-man",
+      "number": 3,
+      "title": "Release the man as a substitute",
+      "shortTitle": "Release the man as a substitute",
+      "shortDescription": "A man is released as a substitute carrier after the incantation.",
+      "phase": "Release substitutes",
+      "unitType": "act",
+      "actionType": "release-human-substitute",
+      "verb": "Release",
+      "summary": "A man is released as a substitute carrier after the incantation.",
+      "patient": "The substitute man",
+      "actor": "Ritual attendants",
+      "material": [],
+      "evidence": "KBo 15.1 §13.",
+      "image": {
+        "alt": "A man released as a substitute carrier",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 §13",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 12
+          }
+        }
+      ],
+      "unitId": "ummaya-release-man",
+      "composition": {
+        "function": "dispatch-substitute",
+        "requires": [
+          "conjure-on-ground"
+        ],
+        "aims": [
+          "avert-harm"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "release",
+          "theme": {
+            "class": "person",
+            "sub": "man"
+          },
+          "manner": "as substitute carrier"
+        }
+      ]
+    },
+    {
+      "id": "release-oxen",
+      "number": 4,
+      "title": "Release two oxen as substitutes",
+      "shortTitle": "Release two oxen as substitutes",
+      "shortDescription": "Two oxen are also released as substitute carriers.",
+      "phase": "Release substitutes",
+      "unitType": "act",
+      "actionType": "release-oxen-substitutes",
+      "verb": "Release",
+      "summary": "Two oxen are also released as substitute carriers.",
+      "patient": "Two oxen",
+      "actor": "Ritual attendants",
+      "material": [],
+      "evidence": "KBo 15.1 §13.",
+      "image": {
+        "alt": "Two oxen released as substitute carriers",
+        "note": "The named action is illustrated; exact dress and setting details are reconstructed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kbo-15-1",
+          "locus": "KBo 15.1 §13",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 12
+          }
+        }
+      ],
+      "unitId": "ummaya-release-oxen",
+      "composition": {
+        "function": "dispatch-substitute",
+        "requires": [
+          "release-man"
+        ],
+        "aims": [
+          "avert-harm"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "release",
+          "theme": {
+            "class": "animal",
+            "sub": "ox",
+            "count": 2
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Tutelary Deity"
+          },
+          "manner": "as substitute carriers"
+        }
+      ],
+      "recipient": "The Tutelary Deity",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "The Tutelary Deity"
+    }
+  ]
+}

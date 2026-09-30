@@ -32,6 +32,7 @@ export default function About() {
         </ul>
 
         <h2>Sources and licences</h2>
+        <p>The <Link to="/corpora/cmawro">CMAwRo catalogue</Link> adds metadata for 264 Mesopotamian anti-witchcraft master texts from official Oracc JSON exports (archive snapshot 4 July 2024). The exports declare CC0. Tuppi currently links to the editions and English translations on Oracc; it does not reproduce those texts. Master texts, manuscript witnesses and distinct ritual procedures are counted separately.</p>
         <ul>
           <li>
             Texts, readings, word analyses and German glosses: <a href="https://zenodo.org/records/20328284" target="_blank" rel="noreferrer">TLHdig Beta 0.3</a> (Thesaurus Linguarum

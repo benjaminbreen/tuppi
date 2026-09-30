@@ -1,0 +1,743 @@
+{
+  "id": "cmawro-q005063-8-18",
+  "corpusId": "cmawro",
+  "cth": null,
+  "sourceTextId": "Q005063",
+  "title": "Crushing the witch",
+  "shortName": "CMAwR 8.18",
+  "eyebrow": "CMAwR 8.18 · Mesopotamian anti-witchcraft ritual",
+  "dating": {
+    "label": "Late Babylonian witnesses",
+    "note": "The linked witness has a Late Babylonian period label and a tentative Babylon findspot. This is manuscript context, not a date or location for the original rite.",
+    "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063"
+  },
+  "purpose": "Represent the alleged witches with figures of several materials, then crush or burn them and chew named plants.",
+  "attribution": "Divine instruction attributed to Enki/Ea and Asalluḫi; the affected man performs some actions",
+  "sourceSummary": "Q005063 · CMAwR vol. 2, 8.18:8′–17′",
+  "editionUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr2/Q005063",
+  "editionLabel": "CMAwRo edition and translation",
+  "witnessPeriods": [
+    "Late Babylonian"
+  ],
+  "findspots": [
+    "Babylon (?)"
+  ],
+  "phases": [
+    {
+      "name": "Prepare the figures",
+      "range": [
+        1,
+        3
+      ],
+      "idea": "Figures of several materials are formed, constrained and placed in a pot."
+    },
+    {
+      "name": "Address the sun god",
+      "range": [
+        4,
+        5
+      ],
+      "idea": "A juniper censer and grape-must offering are placed before Utu."
+    },
+    {
+      "name": "Destroy and treat",
+      "range": [
+        6,
+        8
+      ],
+      "idea": "Different figure materials are crushed or burned, followed by named plants and woods."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "fashion-five-material-figures",
+      "number": 1,
+      "title": "Make figures from five materials",
+      "shortTitle": "Make figures from five materials",
+      "shortDescription": "Fashion representations of warlock and witch from clay, dough, tallow, bitumen and wax.",
+      "phase": "Prepare the figures",
+      "unitType": "act",
+      "actionType": "fashion-effigies",
+      "verb": "Make",
+      "summary": "Fashion representations of warlock and witch from clay, dough, tallow, bitumen and wax.",
+      "patient": "Figures of warlock and witch",
+      "actor": "Ritual practitioner in the divine instruction",
+      "material": [
+        "clay",
+        "dough",
+        "tallow",
+        "bitumen",
+        "wax"
+      ],
+      "evidence": "The command begins in line 8′; line 9′ supplies the materials. Parts of the bilingual line are damaged or restored.",
+      "image": {
+        "alt": "Illustrative reconstruction of make figures from five materials.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005063",
+          "locus": "8.18:9′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005063.9l",
+            "label": "8.18:9′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-8-18-fashion-figures",
+      "composition": {
+        "function": "fashion-figure",
+        "requires": [],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "clay"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "clay-figures"
+          }
+        },
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "dough"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "dough"
+            },
+            "ref": "dough-figures"
+          }
+        },
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "fat",
+            "sub": "tallow"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "tallow"
+            },
+            "ref": "tallow-figures"
+          }
+        },
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "materials",
+            "sub": "bitumen"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "bitumen"
+            },
+            "ref": "bitumen-figures"
+          }
+        },
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "materials",
+            "sub": "wax"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "wax"
+            },
+            "ref": "wax-figures"
+          }
+        }
+      ],
+      "materialIds": [
+        "cmawro:im",
+        "cmawro:niŋ-sila₁₁-ŋa₂",
+        "cmawro:i₃-udu",
+        "cmawro:esir",
+        "cmawro:DUḪ-lal₃"
+      ]
+    },
+    {
+      "id": "constrain-the-figures",
+      "number": 2,
+      "title": "Constrain the figures",
+      "shortTitle": "Constrain the figures",
+      "shortDescription": "Position the figures’ limbs in a constrained posture as the damaged instruction describes.",
+      "phase": "Prepare the figures",
+      "unitType": "act",
+      "actionType": "constrain-effigies",
+      "verb": "Constrain",
+      "summary": "Position the figures’ limbs in a constrained posture as the damaged instruction describes.",
+      "patient": "The prepared figures",
+      "actor": "Ritual practitioner in the divine instruction",
+      "material": [
+        "figures"
+      ],
+      "evidence": "Line 10′ partly restores hands, mouth and left hands; line 11′ is more damaged. Exact posture is uncertain.",
+      "image": {
+        "alt": "Illustrative reconstruction of constrain the figures.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005063",
+          "locus": "8.18:10′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005063.10l",
+            "label": "8.18:10′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-8-18-constrain-figures",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "fashion-five-material-figures"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "position",
+          "theme": {
+            "class": "figure",
+            "sub": "figure"
+          },
+          "manner": "hands bound; posture uncertain"
+        }
+      ]
+    },
+    {
+      "id": "place-figures-in-pot",
+      "number": 3,
+      "title": "Put the figures in a disposable pot",
+      "shortTitle": "Put the figures in a disposable pot",
+      "shortDescription": "Place the prepared figures in a disposable pot.",
+      "phase": "Prepare the figures",
+      "unitType": "act",
+      "actionType": "place-in-pot",
+      "verb": "Place",
+      "summary": "Place the prepared figures in a disposable pot.",
+      "patient": "The prepared figures",
+      "actor": "Ritual practitioner in the divine instruction",
+      "material": [
+        "disposable pot"
+      ],
+      "evidence": "The Sumerian command and Akkadian counterpart are partially restored; the pot is the clear object.",
+      "image": {
+        "alt": "Illustrative reconstruction of put the figures in a disposable pot.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005063",
+          "locus": "8.18:12′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005063.12l",
+            "label": "8.18:12′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-8-18-pot-figures",
+      "composition": {
+        "function": "place-in-carrier",
+        "requires": [
+          "constrain-the-figures"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure"
+          },
+          "location": {
+            "class": "vessel",
+            "sub": "pot",
+            "f": {
+              "material": "clay"
+            }
+          }
+        }
+      ],
+      "materialIds": [
+        "cmawro:ḫupû"
+      ]
+    },
+    {
+      "id": "set-juniper-censer",
+      "number": 4,
+      "title": "Set a juniper censer before Utu",
+      "shortTitle": "Set a juniper censer before Utu",
+      "shortDescription": "Set a censer with juniper before the sun god Utu.",
+      "phase": "Address the sun god",
+      "unitType": "act",
+      "actionType": "prepare-censer",
+      "verb": "Set",
+      "summary": "Set a censer with juniper before the sun god Utu.",
+      "patient": "Juniper censer",
+      "actor": "Ritual practitioner in the divine instruction",
+      "material": [
+        "censer",
+        "juniper"
+      ],
+      "evidence": "The imperative is partly restored; the source names a censer with li-juniper before Utu/Šamaš.",
+      "image": {
+        "alt": "Illustrative reconstruction of set a juniper censer before utu.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005063",
+          "locus": "8.18:13′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005063.13l",
+            "label": "8.18:13′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-8-18-juniper-censer",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "place-figures-in-pot"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "vessel",
+            "sub": "censer"
+          },
+          "location": "before Utu",
+          "recipient": {
+            "class": "deity",
+            "sub": "Utu"
+          }
+        },
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "plant",
+            "sub": "juniper"
+          }
+        }
+      ],
+      "materialIds": [
+        "cmawro:šimli"
+      ]
+    },
+    {
+      "id": "pour-grape-must",
+      "number": 5,
+      "title": "Pour out grape must",
+      "shortTitle": "Pour out grape must",
+      "shortDescription": "The affected person pours grape must as an offering.",
+      "phase": "Address the sun god",
+      "unitType": "act",
+      "actionType": "libate",
+      "verb": "Pour",
+      "summary": "The affected person pours grape must as an offering.",
+      "patient": "Grape must",
+      "actor": "The affected man, called the son of his god",
+      "material": [
+        "grape must"
+      ],
+      "evidence": "The Sumerian instruction names the man and grape must; the imperative is partly restored.",
+      "image": {
+        "alt": "Illustrative reconstruction of pour out grape must.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005063",
+          "locus": "8.18:14′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005063.14l",
+            "label": "8.18:14′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-8-18-grape-libation",
+      "composition": {
+        "function": "make-offering",
+        "requires": [
+          "set-juniper-censer"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "drink",
+            "sub": "grape must"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Utu"
+          }
+        }
+      ],
+      "materialIds": [
+        "cmawro:ŋeštin-sur-ra"
+      ]
+    },
+    {
+      "id": "crush-clay-dough-figures",
+      "number": 6,
+      "title": "Crush the clay and dough figures",
+      "shortTitle": "Crush the clay and dough figures",
+      "shortDescription": "Crush the clay and dough figures with a foot.",
+      "phase": "Destroy and treat",
+      "unitType": "act",
+      "actionType": "crush-effigies",
+      "verb": "Crush",
+      "summary": "Crush the clay and dough figures with a foot.",
+      "patient": "Clay and dough figures",
+      "actor": "The affected man, following the instruction",
+      "material": [
+        "clay figures",
+        "dough figures"
+      ],
+      "evidence": "The Sumerian line names clay and dough figures and the foot; the ending of the verb is restored.",
+      "image": {
+        "alt": "Illustrative reconstruction of crush the clay and dough figures.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005063",
+          "locus": "8.18:15′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005063.15l",
+            "label": "8.18:15′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-8-18-crush-figures",
+      "composition": {
+        "function": "destroy-affliction",
+        "requires": [
+          "pour-grape-must"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "clay"
+            },
+            "ref": "clay-figures"
+          },
+          "instrument": {
+            "class": "body",
+            "sub": "foot"
+          }
+        },
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "dough"
+            },
+            "ref": "dough-figures"
+          },
+          "instrument": {
+            "class": "body",
+            "sub": "foot"
+          }
+        }
+      ],
+      "materialIds": [
+        "cmawro:im",
+        "cmawro:niŋ-sila₁₁-ŋa₂"
+      ]
+    },
+    {
+      "id": "burn-fat-wax-bitumen-figures",
+      "number": 7,
+      "title": "Burn the tallow, wax and bitumen figures",
+      "shortTitle": "Burn the tallow, wax and bitumen figures",
+      "shortDescription": "Burn the remaining combustible figures in fire.",
+      "phase": "Destroy and treat",
+      "unitType": "act",
+      "actionType": "burn-effigies",
+      "verb": "Burn",
+      "summary": "Burn the remaining combustible figures in fire.",
+      "patient": "Tallow, wax and bitumen figures",
+      "actor": "Ritual practitioner in the divine instruction",
+      "material": [
+        "tallow figures",
+        "wax figures",
+        "bitumen figures"
+      ],
+      "evidence": "The Sumerian command names tallow, wax and bitumen figures; the burn verb is partly restored.",
+      "image": {
+        "alt": "Illustrative reconstruction of burn the tallow, wax and bitumen figures.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005063",
+          "locus": "8.18:16′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005063.16l",
+            "label": "8.18:16′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-8-18-burn-figures",
+      "composition": {
+        "function": "destroy-affliction",
+        "requires": [
+          "crush-clay-dough-figures"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "tallow"
+            },
+            "ref": "tallow-figures"
+          }
+        },
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "wax"
+            },
+            "ref": "wax-figures"
+          }
+        },
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "bitumen"
+            },
+            "ref": "bitumen-figures"
+          }
+        }
+      ],
+      "materialIds": [
+        "cmawro:i₃-udu",
+        "cmawro:DUḪ-lal₃",
+        "cmawro:esir"
+      ]
+    },
+    {
+      "id": "chew-six-plants-woods",
+      "number": 8,
+      "title": "Chew the named plants and woods",
+      "shortTitle": "Chew the named plants and woods",
+      "shortDescription": "Chew tamarisk, innuš-soapwort, palm shoot, šulḫi-reed, wood-of-release and white cedar.",
+      "phase": "Destroy and treat",
+      "unitType": "act",
+      "actionType": "chew-plants",
+      "verb": "Chew",
+      "summary": "Chew tamarisk, innuš-soapwort, palm shoot, šulḫi-reed, wood-of-release and white cedar.",
+      "patient": "The named plants and woods",
+      "actor": "The affected man, following the instruction",
+      "material": [
+        "tamarisk",
+        "innu-š soapwort",
+        "palm shoot",
+        "šulḫi-reed",
+        "wood-of-release",
+        "white cedar"
+      ],
+      "evidence": "The Sumerian line lists six plants or woods; the final command and Akkadian parallel are damaged. Individual botanical identifications remain provisional.",
+      "image": {
+        "alt": "Illustrative reconstruction of chew the named plants and woods.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "E",
+          "doc": "Q005063",
+          "locus": "8.18:17′",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q005063.17l",
+            "label": "8.18:17′"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-8-18-chew-plants",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "burn-fat-wax-bitumen-figures"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "tree",
+            "sub": "tamarisk"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "chew"
+        },
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "plant",
+            "sub": "soapwort"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "chew"
+        },
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "plant",
+            "sub": "palm shoot"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "chew"
+        },
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "plant",
+            "sub": "šulḫi-reed"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "chew"
+        },
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "tree",
+            "sub": "wood-of-release"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "chew"
+        },
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "tree",
+            "sub": "white cedar"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "chew"
+        }
+      ],
+      "materialIds": [
+        "cmawro:šinig",
+        "cmawro:in-nu-uš",
+        "cmawro:eren-babbar"
+      ]
+    }
+  ]
+}

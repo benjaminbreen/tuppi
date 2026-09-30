@@ -1,0 +1,27 @@
+{
+  "draw-magic-circle": {
+    "title": "Draw a magic circle",
+    "definition": "Mark a bounded circle (zisurrû) around a ritual object or place with flour or gypsum.",
+    "externalParallels": []
+  },
+  "gesture-at-figures": {
+    "title": "Point at the figures",
+    "definition": "Stretch a finger or hand toward representative figures while identifying them in speech.",
+    "externalParallels": []
+  },
+  "set-torch-on-figures": {
+    "title": "Set a torch on figures",
+    "definition": "Place a torch or fire directly on representative figures.",
+    "externalParallels": []
+  },
+  "kindle-torch": {
+    "title": "Kindle a torch",
+    "definition": "Light a torch or fire from a named source before using it on ritual objects.",
+    "externalParallels": []
+  },
+  "throw-fire-into-vessel": {
+    "title": "Throw fire into a vessel",
+    "definition": "Cast fire into a crucible or container holding ritual objects.",
+    "externalParallels": []
+  }
+}

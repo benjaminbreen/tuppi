@@ -1,0 +1,13 @@
+{
+  "wash-person": {
+    "label": "Wash a person with a liquid",
+    "slots": [
+      "actor",
+      "target",
+      "bodyPart",
+      "medium",
+      "accompaniment"
+    ],
+    "matchRule": "An intentional washing of a human participant. Preserve reflexive versus assisted action, body part, medium and accompanying speech as bindings. Washing objects or divine images requires a different template."
+  }
+}

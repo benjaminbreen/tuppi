@@ -1,0 +1,146 @@
+{
+  "allii/press-earth": {
+    "title": "Earth comparison",
+    "function": "purification",
+    "addressee": "participant",
+    "replaceSourceCard": false,
+    "variants": [
+      "As this earth cleanses, let your limbs be cleansed; let your house and hearth share in that cleansing. {petition}",
+      "Let the cleansing reach your limbs, your house, your hearth. As with this earth, so with you. {petition}"
+    ],
+    "source": {
+      "doc": "kbo-12-126-plus",
+      "paragraph": 21,
+      "text": "When it grows light, she takes the figures away [from beneath] the bo[wl] […], cuts off the linen thread and pla[ces] it on the figures. She [takes] for herself a clod of earth of the LAM.ḪAL-tree(?), keeps pressing [it] on him, and spea[ks]: 'Just as this earth purifies downwards(?), so [let it purify] this person, all (his) limbs, in the same way. And for him let it li[kewise] purify his house, al[tar] (and) hearth, together with [his] wife, her husband (and) his children!'",
+      "status": "draft",
+      "translator": "Claude (AI), draft, not reviewed by a Hittitologist"
+    },
+    "note": "Newly composed adaptation of this passage’s speech structure, not a translation. The local source translation is an unreviewed AI draft; uncertainties remain in the evidence."
+  },
+  "allii/press-dough": {
+    "title": "Life-giving comparison",
+    "function": "vitality",
+    "addressee": "participant",
+    "replaceSourceCard": false,
+    "variants": [
+      "As this dough is pressed against you, let your limbs live and be vigorous. {petition}",
+      "Let life remain in your limbs. With this touch of dough, let your strength be renewed. {petition}"
+    ],
+    "source": {
+      "doc": "kbo-12-126-plus",
+      "paragraph": 22,
+      "text": "Afterwards she takes a l[ump](?) of dough, keeps pressing it on him [...] and spea[ks]: '[…] as […] keeps (something) alive, [so] this [person …], let (his) limbs likewise live! […] let [them] l[ikewise] [live]!'",
+      "status": "draft",
+      "translator": "Claude (AI), draft, not reviewed by a Hittitologist"
+    },
+    "note": "Newly composed adaptation of this passage’s speech structure, not a translation. The local source translation is an unreviewed AI draft; uncertainties remain in the evidence."
+  },
+  "tunnawiya/wish-by-tree": {
+    "title": "The fruitful tree",
+    "function": "petition",
+    "addressee": "Sun-god",
+    "replaceSourceCard": true,
+    "variants": [
+      "Sun-god, see this tree clothed in fruit, its shoots reaching upward. Let the ritual patron likewise flourish. {petition}",
+      "As fruit clothes this tree, let the desired good clothe the ritual patron. Sun-god, look upon this comparison. {petition}"
+    ],
+    "source": {
+      "doc": "kub-7-53-plus",
+      "paragraph": 35,
+      "text": "Where a tree stands clothed (with) fruit, she goes there and takes hold of it (and speaks): 'O Sun-god, my lord, just as this tree is clo[thed] (with fruit), (and) just as it has driven up (its) tarša- (shoots?), and life, health, vi[gour] … grandchildren(?) … […] — so let the ritual patron likewise be clothed (with) grandchildren (and) great-grandchildren!'",
+      "status": "draft",
+      "translator": "Claude (AI), draft, not reviewed by a Hittitologist"
+    },
+    "note": "Newly composed adaptation of this passage’s speech structure, not a translation. The local source translation is an unreviewed AI draft; uncertainties remain in the evidence."
+  },
+  "tunnawiya/wish-for-offspring": {
+    "title": "The flourishing herd",
+    "function": "petition",
+    "addressee": "Sun-god",
+    "replaceSourceCard": true,
+    "variants": [
+      "Sun-god, as this cow fills her pen, let the desired good increase for the ritual patron. {petition}",
+      "See the cow and the increase of her pen. Sun-god, let there likewise be flourishing for the ritual patron. {petition}"
+    ],
+    "source": {
+      "doc": "kub-7-53-plus",
+      "paragraph": 34,
+      "text": "Then she takes the fertile(?) cow by the horn and speaks: 'O Sun-god, my lord, just as this cow is fertile (ušantari-), and she (stands) in the fertile pen and keeps filling the pen with bulls (and) cows — see, let the ritual patron likewise be fertile, and let him likewise fill (his) house with sons, daughters, grandchildren, great-grandchildren (and) descendants upon descendants!' Then [they drive it back to the pen].",
+      "status": "draft",
+      "translator": "Claude (AI), draft, not reviewed by a Hittitologist"
+    },
+    "note": "Newly composed adaptation of this passage’s speech structure, not a translation. The local source translation is an unreviewed AI draft; uncertainties remain in the evidence."
+  },
+  "tunnawiya/pass-through-gate": {
+    "title": "At the threshold",
+    "function": "passage",
+    "addressee": "participant",
+    "replaceSourceCard": false,
+    "variants": [
+      "As this gate has served those who pass beneath it, let this passage mark a changed condition for you. {petition}",
+      "Pass beneath the gate. As its cleansing extends to those who cross, let a fresh condition extend to you. {petition}"
+    ],
+    "source": {
+      "doc": "kub-7-53-plus",
+      "paragraph": 31,
+      "text": "Next he goes out beneath the alanza-gate, and she speaks: 'Just as this alanza- keeps purifying thousands (and) ten thousands(?) of shepherds (and) cowherds, so likewise purify this ritual patron in the 12 limbs of evil impurity, sorcery, āštayaratar, the oath, evil dreams, the anger of the gods (and) the terror of the dead!' Then he throws(?) the thin bread back; the Old Woman speaks exactly the same.",
+      "status": "draft",
+      "translator": "Claude (AI), draft, not reviewed by a Hittitologist"
+    },
+    "note": "Newly composed adaptation of this passage’s speech structure, not a translation. The local source translation is an unreviewed AI draft; uncertainties remain in the evidence."
+  },
+  "tunnawiya/libate-sun-god": {
+    "title": "Let the cleansing endure",
+    "function": "closure",
+    "addressee": "Sun-god",
+    "replaceSourceCard": false,
+    "variants": [
+      "Sun-god, receive this wine. See the cleansing that has been accomplished; keep the ritual patron released.",
+      "See, Sun-god: the limbs have been cleansed. Receive the libation, and let that release endure."
+    ],
+    "source": {
+      "doc": "kub-7-53-plus",
+      "paragraph": 36,
+      "text": "Then he [steps(?)] opposite the Sun-god […], libates to the Sun-god and speaks: 'O Sun-god, eat! See, the 12 limbs (are) cleansed by the word of the Sun-god(?). You, Sun-god, keep (him) released(?)!'",
+      "status": "draft",
+      "translator": "Claude (AI), draft, not reviewed by a Hittitologist"
+    },
+    "note": "Newly composed adaptation of this passage’s speech structure, not a translation. The local source translation is an unreviewed AI draft; uncertainties remain in the evidence."
+  },
+  "zarpiya/speak-formula": {
+    "title": "Outside and within",
+    "function": "protection",
+    "addressee": "participant",
+    "replaceSourceCard": true,
+    "variants": [
+      "Let what harms remain outside; let what is good be held within. {petition}",
+      "Keep the harmful beyond the closed door. Hold the good fast inside. {petition}"
+    ],
+    "source": {
+      "doc": "kub-9-31",
+      "paragraph": 20,
+      "text": "'Let evil be shut out(?); let good be held fast(?) inside!'",
+      "status": "draft",
+      "translator": "Claude (AI), draft, not reviewed by a Hittitologist"
+    },
+    "note": "Newly composed adaptation of this passage’s speech structure, not a translation. The local source translation is an unreviewed AI draft; uncertainties remain in the evidence."
+  },
+  "paskuwatti/entreat-uliliyassi": {
+    "title": "Call and response",
+    "function": "petition",
+    "addressee": "Uliliyašši",
+    "replaceSourceCard": true,
+    "variants": [
+      "Uliliyašši, hear the calling; turn toward the ritual patron and attend to this request. {petition}",
+      "I call upon you, Uliliyašši. Come to the ritual patron; turn toward the one who asks. {petition}"
+    ],
+    "source": {
+      "doc": "kub-7-8-plus",
+      "paragraph": 7,
+      "text": "See, I keep entreating you and calling on you. So come! Bring the Moon-god, the Star(s) (and) the Sun-goddess of the Earth along with you. Let (your) female and male servants run before (you); let your male gods [and female gods] run before (you). Come to this person! (As for) a son for him and his wife(?) — you look after him! Turn to him and speak to him! Allot him your female servant, and let her become a yoke(-mate) for him. Let him take (her as) his wife, and let him beget sons and daughters for himself. And they (will be) your male servants (and) female servants, and they will keep giving you those offerings: ḫaršau-breads, groats (and) išpantuzziyaššar-libation vessels.",
+      "status": "draft",
+      "translator": "Claude (AI), draft, not reviewed by a Hittitologist"
+    },
+    "note": "Newly composed adaptation of the source’s calling and request for attention. Its historical appeal includes partnership and descendants; this version does not add those aims when they are absent from the modern request. The local translation is an unreviewed AI draft."
+  }
+}

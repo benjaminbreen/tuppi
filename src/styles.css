@@ -350,6 +350,8 @@ main { min-height: 70vh; }
 .status { font-size: 12px; font-family: var(--f-mono); letter-spacing: 0.02em; white-space: nowrap; }
 .status.identified { color: var(--ink); }
 .status.tentative, .status.class-only, .status.unglossed { color: var(--ink-3); }
+.status.cmawro { color: var(--mineral); }
+.status.cmawro::before { content: "◇ "; }
 .status.unglossed::before { content: "○ "; }
 .status.class-only::before { content: "◐ "; }
 .status.tentative::before { content: "◑ "; }
@@ -757,10 +759,12 @@ main { min-height: 70vh; }
 .ritual-unit-art > span { display: block; margin-top: 8px; color: var(--ink-3); font: 11px var(--f-mono); }
 .ritual-unit-intro { align-self: center; border-top: 1px solid var(--ink); padding-top: 20px; }
 .ritual-unit-intro > p:not(.ritual-eyebrow) { margin: 15px 0 26px; max-width: 38ch; font: 400 clamp(21px, 2.3vw, 28px)/1.3 var(--f-text); }
+.ritual-unit-intro > .ritual-unit-context-link { margin-top: -12px; font: 13px/1.5 var(--f-text); }
 .ritual-unit-intro a { color: var(--r-clay-deep); border-bottom: 1px solid currentColor; font-size: 13px; font-weight: 600; padding-bottom: 4px; }
 .ritual-unit-deity-note { margin: 0 0 25px; padding: 15px 0 0; border-top: 1px solid var(--rule); }
 .ritual-unit-deity-note p { margin: 0 0 10px; color: var(--ink-2); font-size: 13px; line-height: 1.5; }
 .ritual-unit-deity-note a { display: inline-block; font-size: 12px; }
+.ritual-unit-deity-note a + a { margin-left: 20px; }
 .ritual-unit-occurrences { scroll-margin-top: 80px; margin-top: 68px; }
 .ritual-unit-section-head { display: flex; justify-content: space-between; align-items: end; border-top: 1px solid var(--ink); padding: 20px 0; gap: 16px; }
 .ritual-unit-section-head h2 { margin-top: 8px; font: 400 34px/1.1 var(--f-text); }
@@ -869,6 +873,10 @@ main { min-height: 70vh; }
 .ritual-variant-paths { display: grid; gap: 15px; margin-top: 17px; }
 .ritual-variant-paths > div { padding: 13px 15px; border: 1px solid var(--rule); background: var(--bg-sunk); }
 .ritual-variant-paths > div > p { margin-top: 5px; line-height: 1.5; }
+.ritual-comparison-section ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 12px; margin: 18px 0 0; padding: 0; }
+.ritual-comparison-section li { border: 1px solid var(--rule); background: var(--bg-sunk); padding: 16px; }
+.ritual-comparison-section li p { margin: 9px 0; }
+.ritual-comparison-section li a { color: var(--r-clay-deep); font-weight: 600; }
 .ritual-attestations { margin-top: 12px; border-top: 1px solid var(--rule); }
 .ritual-attestations a { display: grid; grid-template-columns: 25px minmax(0, 1fr) 14px; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--rule); font-size: 12px; }
 .ritual-attestations a:hover { color: var(--accent-ink); }
@@ -971,3 +979,120 @@ main { min-height: 70vh; }
 @media (max-width: 1000px) { .ritual-composer-selection, .ritual-composer-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }.ritual-composer-result { min-height: 244px; } }
 @media (max-width: 650px) { .ritual-composer-page { padding-top: 48px; }.ritual-composer-search { min-height: 62px; padding-left: 16px; }.ritual-composer-submit { width: 45px; height: 45px; }.ritual-composer-result { min-height: 215px; }.ritual-composer-actions { width: 100%; margin: 0 0 8px; }.ritual-composer-share { padding: 20px 17px; }.ritual-composer-selection { display: flex; overflow-x: auto; padding: 0 0 12px; scroll-snap-type: x proximity; }.ritual-composer-picked { flex: 0 0 136px; height: 183px; scroll-snap-align: start; }.ritual-composer-picked .ritual-composer-image { height: 123px; }.ritual-composer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }.ritual-composer-task { height: 160px; }.ritual-composer-task .ritual-composer-image { height: 119px; }.ritual-composer-library-head { flex-wrap: wrap; gap: 8px 12px; }.ritual-composer-library-head label { width: 100%; margin-left: 0; }.ritual-composer-library-head input { width: 100%; }.ritual-composer-detail { grid-template-columns: 1fr; gap: 16px; padding: 20px 35px 20px 18px; }.ritual-composer-decision { grid-template-columns: 1fr; gap: 8px; }.ritual-composer-feedback { flex-direction: column; gap: 5px; padding: 7px 0; } }
 @media (prefers-reduced-motion: reduce) { .ritual-composer-spinner, .ritual-composer-share { animation: none; }.ritual-composer-task, .ritual-composer-image img { transition: none; } }
+
+.ritual-composer-logic { margin: 0 0 20px; padding: 16px 20px; border-left: 2px solid var(--r-clay-deep); background: var(--r-paper); }
+.ritual-composer-logic p { margin: 0 0 8px; }
+.ritual-composer-logic small { color: var(--r-muted); line-height: 1.5; }
+.ritual-composer-picked { height: auto; min-height: 210px; }
+.ritual-composer-picked-title { line-height: 1.4; }
+details.ritual-composer-decision { display: block; }
+details.ritual-composer-decision summary { cursor: pointer; font-size: 13px; }
+details.ritual-composer-decision p { margin-top: 12px; font-size: 13px; line-height: 1.6; }
+.corpus-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 20px; margin: 28px 0 60px; }
+.corpus-card { border: 1px solid var(--line, #aaa5); border-radius: 10px; padding: 24px; background: var(--surface, transparent); }
+.corpus-card-top, .corpus-links { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+.corpus-card h2 { font-size: 1.35rem; line-height: 1.25; margin: 16px 0 10px; }
+.corpus-card p { line-height: 1.5; }
+.corpus-card dl { margin: 20px 0; }
+.corpus-card dl > div { display: grid; grid-template-columns: 105px 1fr; gap: 10px; margin: 8px 0; }
+.corpus-card dt { color: var(--muted, #777); }
+.corpus-card dd { margin: 0; }
+.corpus-links { justify-content: flex-start; margin-bottom: 0; }
+.corpus-filters { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 22px 0; }
+.cmawro-candidates { margin: 34px 0 48px; padding: 28px; border: 1px solid var(--line, #aaa5); background: var(--paper, #faf9f6); }
+.cmawro-candidates h2 { margin: 0 0 8px; }
+.cmawro-candidates > p { max-width: 78ch; }
+.cmawro-candidates ol { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; padding-left: 24px; }
+.cmawro-candidates li { padding: 15px 0 17px 4px; border-top: 1px solid var(--line, #aaa5); }
+.cmawro-candidates li > div:first-child { display: flex; flex-direction: column; gap: 4px; }
+.cmawro-candidates li p { margin: 7px 0; }
+.cmawro-candidate-links { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; font-size: 13px; }
+.cmawro-candidate-links .status { text-transform: uppercase; letter-spacing: .05em; font-size: 11px; }
+@media (max-width: 800px) { .cmawro-candidates { padding: 18px; } .cmawro-candidates ol { grid-template-columns: 1fr; } }
+.corpus-filters > .field:first-child { flex: 1 1 280px; }
+.corpus-filters > select { width: auto; max-width: 320px; }
+.corpus-results { margin: 18px 0 36px; }
+.corpus-result { display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, 300px); gap: 20px; border-top: 1px solid var(--line, #aaa5); padding: 20px 0; }
+.corpus-result h2 { font-size: 1.15rem; margin: 6px 0; }
+.corpus-result p { margin: 0; }
+.corpus-result-facts { display: flex; flex-wrap: wrap; align-content: center; gap: 7px; }
+.corpus-result-facts span { font-size: 12px; border: 1px solid var(--line, #aaa5); padding: 5px 7px; border-radius: 4px; }
+@media (max-width: 650px) { .corpus-result { grid-template-columns: 1fr; gap: 10px; } }
+.cmawro-lines { margin: 24px 0 60px; }
+.corpus-search-hit { border-top: 1px solid var(--line, #aaa5); padding: 18px 0; }
+.corpus-search-hit h2 { font-size: 1.05rem; margin: 7px 0; }
+.corpus-search-hit p { margin: 7px 0; }
+.corpus-search-reading { font-size: 1.05rem; line-height: 1.5; overflow-wrap: anywhere; }
+.corpus-search-lexical { font-size: .8rem; line-height: 1.5; }
+.cmawro-line { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 18px; padding: 10px 0; border-top: 1px solid var(--line, #aaa5); line-height: 1.7; }
+.cmawro-line:target { background: var(--ord-1, #d8c68b); scroll-margin-top: 90px; }
+.cmawro-word { border-radius: 3px; cursor: help; }
+.cmawro-word:hover, .cmawro-word:focus { background: var(--ord-1, #d8c68b); outline: none; }
+@media (max-width: 650px) { .cmawro-line { grid-template-columns: 1fr; gap: 2px; } }
+
+.ritual-composer-wish { margin: 0 0 20px; }
+.ritual-composer-wish p { margin: 0 0 8px; }
+.ritual-composer-wish p + p { font-family: var(--f-text); font-size: 24px; line-height: 1.35; }
+
+.ritual-composer-speech { background: var(--r-paper-dark); }
+.ritual-composer-speech .ritual-composer-picked-main { padding: 17px 16px 14px; gap: 12px; }
+.ritual-composer-speech-heading { display: flex; align-items: baseline; gap: 8px; color: var(--r-clay-deep); font: 500 9px/1.4 var(--f-mono); text-transform: uppercase; letter-spacing: .05em; }
+.ritual-composer-speech-heading b { font-size: 11px; }
+.ritual-composer-card-words { display: block; margin: auto 0; padding: 8px 0; color: var(--r-ink); font: 400 clamp(19px, 1.55vw, 25px)/1.16 var(--f-text); overflow-wrap: anywhere; }
+.ritual-composer-composed-label { display: block; color: var(--r-muted); font-size: 9px; line-height: 1.4; font-weight: 400; }
+@media (max-width: 650px) {
+  .ritual-composer-speech { flex-basis: 190px; }
+  .ritual-composer-speech .ritual-composer-picked-main { padding: 14px; }
+  .ritual-composer-card-words { font-size: 21px; }
+}
+
+.ritual-share-export { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 20px; }
+.ritual-share-export img { display: block; width: min(100%, 440px); height: auto; flex-basis: 100%; border: 1px solid var(--line, #d8d0c2); }
+.ritual-share-export button, .ritual-share-export a { color: inherit; font: inherit; cursor: pointer; }
+.ritual-share-export button:disabled { cursor: wait; opacity: .6; }
+
+/* Grammar composer: one row of cards, provenance on hover ------------------ */
+.grammar-row { position: relative; }
+.grammar-cards { list-style: none; margin: 0; padding: 0 0 6px; display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 4 * 16px) / 5); gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.grammar-cards::-webkit-scrollbar { display: none; }
+.grammar-cards > li { scroll-snap-align: start; }
+.grammar-card-source { position: absolute; left: 12px; right: 30px; bottom: 6px; color: var(--r-muted); font-size: 10px; opacity: 0; transition: opacity .2s ease; pointer-events: none; }
+.ritual-composer-picked:hover .grammar-card-source, .ritual-composer-picked:focus-within .grammar-card-source { opacity: 1; }
+.grammar-row-arrow { position: absolute; top: 50%; z-index: 2; width: 34px; height: 34px; margin-top: -17px; border-radius: 50%; border: 1px solid var(--r-rule); background: var(--r-paper); color: var(--r-ink); font-size: 20px; line-height: 1; box-shadow: 0 4px 12px rgba(0,0,0,.08); }
+.grammar-row-arrow.prev { left: -17px; } .grammar-row-arrow.next { right: -17px; }
+@media (max-width: 1000px) { .grammar-cards { grid-auto-columns: calc((100% - 2 * 16px) / 3); } }
+@media (max-width: 650px) { .grammar-cards { grid-auto-columns: 70%; } .grammar-row-arrow { display: none; } }
+.ritual-atoms-controls { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; margin: 18px 0; font-size: 12px; color: var(--ink-2); }
+.ritual-atoms-controls input { width: min(420px, 100%); height: 38px; padding: 0 11px; border: 1px solid var(--rule-2); border-radius: 5px; background: var(--bg); color: var(--ink); }
+.ritual-atoms-controls select { margin-left: 6px; background: var(--bg); color: var(--ink); border: 1px solid var(--rule-2); border-radius: 4px; padding: 3px 6px; }
+.ritual-atoms-list { list-style: none; margin: 0 0 60px; padding: 0; border-top: 1px solid var(--rule); }
+.ritual-atoms-list > li { border-bottom: 1px solid var(--rule); }
+.ritual-atoms-list > li.is-focus { background: var(--accent-weak); }
+.ritual-atoms-list summary { display: grid; grid-template-columns: minmax(150px, 220px) minmax(0, 1fr) auto; gap: 14px; align-items: baseline; padding: 11px 4px; cursor: pointer; }
+.ritual-atoms-list code { font: 12px var(--f-mono); }
+.ritual-atoms-gloss { color: var(--ink-2); font-size: 13px; }
+.ritual-atoms-count { color: var(--ink-3); font: 11px var(--f-mono); white-space: nowrap; }
+.ritual-atoms-list ol { margin: 0 0 12px; padding: 0 4px 0 28px; display: grid; gap: 5px; font-size: 12.5px; }
+.ritual-atoms-list ol li { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) auto; gap: 12px; }
+.ritual-atoms-list ol li.is-focus { font-weight: 600; }
+.ritual-atoms-list ol a { color: var(--accent-ink); }
+.ritual-atoms-list ol small { color: var(--ink-3); }
+.ritual-atoms-controls label:first-child { flex: 1 1 320px; } .ritual-atoms-controls label:first-child input { width: 100%; }
+.ritual-atoms-controls label:first-child { flex: 1 1 320px; } .ritual-atoms-controls label:first-child input { width: 100%; }
+.grammar-cards .ritual-composer-speech-heading { padding-right: 18px; }
+
+/* Substances: simpler default view */
+.legend button { display: inline-flex; align-items: center; gap: 6px; color: inherit; font: inherit; padding: 2px 4px; border-radius: 3px; }
+.legend button[aria-pressed="true"] { background: var(--accent-weak); color: var(--ink); }
+.sbrow-label { display: inline-flex; align-items: center; gap: 8px; text-align: left; color: inherit; font: inherit; }
+.sbar button { display: block; height: 100%; padding: 0; border: 0; cursor: pointer; transition: filter .15s ease, box-shadow .15s ease; }
+.sbar button:hover { filter: brightness(1.12); }
+.sbar button.on { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3.5px var(--ink); position: relative; z-index: 1; }
+.sbar button:first-child { border-radius: 2px 0 0 2px; } .sbar button:last-child { border-radius: 0 4px 4px 0; }
+.substances-about { margin-top: 10px; max-width: 70ch; color: var(--ink-2); font-size: 14px; }
+.substances-about summary { cursor: pointer; color: var(--accent-ink); font-size: 13px; }
+.substances-about p { margin: 8px 0; line-height: 1.55; }
+.substances-about ul { margin: 0; padding-left: 18px; line-height: 1.7; }
+.substances-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: -4px 0 16px; font-size: 13px; }
+.substances-tools button { color: var(--accent-ink); border-bottom: 1px solid currentColor; }
+.substances-tools > span { margin-right: auto; }

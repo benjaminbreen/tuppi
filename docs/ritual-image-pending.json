@@ -1,0 +1,2059 @@
+[
+  {
+    "assetId": "tunnawiya-royal-list-afflictions",
+    "subject": "Old Woman reciting over a patient",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, the patient lies on a simple bed. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-list-afflictions.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "list-afflictions",
+        "title": "Name the afflictions of the patient",
+        "alt": "Name the afflictions of the patient",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-list-tongues",
+    "subject": "Tongues of many people named",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, small stylised speech lines radiate from a row of faceless standing people toward the patient. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-list-tongues.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "list-tongues",
+        "title": "Name the tongues of every kind of person",
+        "alt": "Name the tongues of every kind of person",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-recount-causes",
+    "subject": "Routes of contagion recounted",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, beside her a small footprint and an eye drawn as simple signs. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-recount-causes.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "recount-causes",
+        "title": "Recount how the harm was picked up",
+        "alt": "Recount how the harm was picked up",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-name-evil-speech",
+    "subject": "Offence of the evil mouth named",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, the patient lies with a hand at his mouth. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-name-evil-speech.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "name-evil-speech",
+        "title": "Name the patient's evil speech against the gods",
+        "alt": "Name the patient's evil speech against the gods",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-fit-limbs",
+    "subject": "Twelve limbs fitted together",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, simple outline diagram of a reclining human body with paired joints marked by small circles. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-fit-limbs.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "fit-limbs",
+        "title": "Fit the twelve limbs together",
+        "alt": "Fit the twelve limbs together",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-cut-ram-limbs",
+    "subject": "Ram divided into twelve limbs",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: twelve separate limb portions of a ram laid in two neat rows on a plain cloth, a knife beside them. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-cut-ram-limbs.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "cut-ram-limbs",
+        "title": "Cut up the ram's twelve limbs",
+        "alt": "Cut up the ram's twelve limbs",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-limbs-take-sickness",
+    "subject": "Animal limbs take up sickness",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, she points from a ram's shoulder portion on a cloth to the patient's shoulder. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-limbs-take-sickness.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "limbs-take-sickness",
+        "title": "Let each ram limb take up the sickness of the same limb",
+        "alt": "Let each ram limb take up the sickness of the same limb",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-declare-pulled-out",
+    "subject": "Harm declared pulled out",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, her other hand drawn back from the patient's side as if having pulled something away. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-declare-pulled-out.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "declare-pulled-out",
+        "title": "Declare the harm pulled out",
+        "alt": "Declare the harm pulled out",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-take-evil-fright",
+    "subject": "Fright taken away",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner drawing her cupped hand away from a reclining patient's chest; nothing is held in the hand. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-take-evil-fright.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "take-evil-fright",
+        "title": "Take the evil fright from him",
+        "alt": "Take the evil fright from him",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-conjure-round-limbs",
+    "subject": "Conjuring round the twelve limbs",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, she moves her hand along the patient's body from head to foot. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-conjure-round-limbs.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "conjure-round-limbs",
+        "title": "Conjure around the twelve limbs",
+        "alt": "Conjure around the twelve limbs",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      },
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "conjure-round-limbs-again",
+        "title": "Conjure around the limbs again",
+        "alt": "Conjure around the limbs again",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-hold-over-back",
+    "subject": "Object held over the back",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner holding an indistinct wrapped bundle over the back of a patient lying face down. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-hold-over-back.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "hold-over-back",
+        "title": "Hold it over his back",
+        "alt": "Hold it over his back",
+        "note": "The object is not named in the text; it is shown as an indistinct bundle."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-plough-analogy",
+    "subject": "Ploughing analogy",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, beside her a small furrowed field shown as a simple patch of parallel lines. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-plough-analogy.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "plough-analogy",
+        "title": "Compare the patient to a field ploughed again",
+        "alt": "Compare the patient to a field ploughed again",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-spit-into-mouth",
+    "subject": "Spitting into a sheep's mouth",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a reclining patient spitting toward the mouth of a sheep held out to him by an older woman. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-spit-into-mouth.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "spit-into-mouth",
+        "title": "Spit into the sheep's mouth",
+        "alt": "Spit into the sheep's mouth",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-command-spit-out",
+    "subject": "Command to spit out harm",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, the patient leans forward as if spitting. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-command-spit-out.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "command-spit-out",
+        "title": "Command him to spit out the harms",
+        "alt": "Command him to spit out the harms",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-bring-piglets",
+    "subject": "Live and dough piglets",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small live piglet standing beside a dough figure of a piglet of the same size. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-bring-piglets.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "bring-piglets",
+        "title": "Bring a dough piglet and a live piglet",
+        "alt": "Bring a dough piglet and a live piglet",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-swing-live-piglet",
+    "subject": "Live piglet swung",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: two attendants swinging a live piglet between them in a simple arc beside a reclining patient. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-swing-live-piglet.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "swing-live-piglet",
+        "title": "Swing the live piglet away",
+        "alt": "Swing the live piglet away",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-hold-dough-piglet",
+    "subject": "Dough piglet held close",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman holding a dough figure of a piglet close to a reclining patient. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-hold-dough-piglet.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "hold-dough-piglet",
+        "title": "Hold the dough piglet close to him",
+        "alt": "Hold the dough piglet close to him",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-great-god-historiola",
+    "subject": "Myth of the great god",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, a small relief-like outline of an unnamed god in a chariot drawn beside her. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-great-god-historiola.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "great-god-historiola",
+        "title": "Tell of the great god driving from Landa",
+        "alt": "Tell of the great god driving from Landa",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-speak-patient-name",
+    "subject": "Naming the patient",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, she looks directly at the patient. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-speak-patient-name.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "speak-patient-name",
+        "title": "Speak the patient's name",
+        "alt": "Speak the patient's name",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-search-historiola",
+    "subject": "Gods search the body",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, small outlined figures of unnamed deities peer at the patient's face. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-search-historiola.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "search-historiola",
+        "title": "Tell of the gods' search of his body",
+        "alt": "Tell of the gods' search of his body",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-cut-them-off",
+    "subject": "Command to cut off",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, small outlined unnamed goddess figure raising a hand beside her. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-cut-them-off.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "cut-them-off",
+        "title": "Cut them off from the limbs",
+        "alt": "Cut them off from the limbs",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "tunnawiya-royal-remove-litany",
+    "subject": "Removal litany",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an older woman practitioner speaking with one raised open hand beside a reclining patient, a list of faceless people shown as small outlines fades away behind the patient. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/tunnawiya-royal/tunnawiya-royal-remove-litany.png",
+    "uses": [
+      {
+        "ritualId": "tunnawiya-royal",
+        "stepId": "remove-litany",
+        "title": "Let her remove the tongues",
+        "alt": "Let her remove the tongues",
+        "note": "Only what the paragraph states is depicted; dress and posture are illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-inquire-egypt-oath",
+    "subject": "King with an old tablet, inquiring",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a king holding a clay tablet and gesturing questioningly upward. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-inquire-egypt-oath.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "inquire-egypt-oath",
+        "title": "Put the Egyptian oath-breach to an oracle",
+        "alt": "A king consulting an oracle",
+        "note": "Oracle technique is not stated; no diviner or apparatus is depicted beyond the king."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-inquire-mala-offering",
+    "subject": "King inquiring about a river offering",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a king holding a clay tablet beside a small offering bowl, looking upward. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-inquire-mala-offering.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "inquire-mala-offering",
+        "title": "Put the neglected Mala offering to an oracle",
+        "alt": "A king consulting an oracle",
+        "note": "As for the previous oracle inquiry."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-confess-sin",
+    "subject": "King confessing to the Storm-god",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a king standing with raised open hands in prayer before a relief of a storm-god holding a mace. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-confess-sin.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "confess-sin",
+        "title": "Confess the sin",
+        "alt": "A king confessing before the Storm-god",
+        "note": "Relief type only; the tablet does not describe a cult image."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-vow-mala-offering",
+    "subject": "King promising an offering",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a king with one raised hand in an oath gesture, beside a small bowl of offerings. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-vow-mala-offering.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "vow-mala-offering",
+        "title": "Vow to perform the Mala offering",
+        "alt": "A king vowing an offering",
+        "note": "The river is not personified here."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-confess-fathers-sin",
+    "subject": "King confessing his father's sin",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a king standing with raised open hands in prayer before a relief of a storm-god holding a mace. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-confess-fathers-sin.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "confess-fathers-sin",
+        "title": "Confess the father's sin",
+        "alt": "A king confessing before the Storm-god",
+        "note": "Relief type only."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-soothe-and-send-away",
+    "subject": "King entreating the Storm-god",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a king standing with raised open hands in prayer before a relief of a storm-god holding a mace. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-soothe-and-send-away.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "soothe-and-send-away",
+        "title": "Ask the god's soul to be soothed and the plague sent away",
+        "alt": "A king entreating the Storm-god",
+        "note": "Relief type only."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-hear-me",
+    "subject": "King calling on the Storm-god",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a king standing with raised open hands in prayer before a relief of a storm-god holding a mace. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-hear-me.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "hear-me",
+        "title": "Call on the Storm-god to hear and keep him alive",
+        "alt": "A king calling on the Storm-god",
+        "note": "Relief type only."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-bird-and-servant",
+    "subject": "Bird in its nest",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small bird sheltering in a woven nest. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-bird-and-servant.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "bird-and-servant",
+        "title": "Argue by the bird and the servant",
+        "alt": "A king speaking before the Storm-god; a bird in a nest",
+        "note": "The meaning of taptappa- (nest or cage) is uncertain; depict a simple nest."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-offer-compensation",
+    "subject": "King promising compensation",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a king standing with raised open hands in prayer before a relief of a storm-god holding a mace. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-offer-compensation.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "offer-compensation",
+        "title": "Offer further compensation",
+        "alt": "A king promising compensation",
+        "note": "No specific goods are named, so none are depicted."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-spare-cult-personnel",
+    "subject": "King praying for cult personnel",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a king standing with raised open hands in prayer before a relief of a storm-god holding a mace. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-spare-cult-personnel.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "spare-cult-personnel",
+        "title": "Ask that the remaining cult personnel die no more",
+        "alt": "A king praying",
+        "note": "Relief type only."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-reveal-other-cause",
+    "subject": "King asking for a revelation",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a king standing with raised open hands in prayer before a relief of a storm-god holding a mace. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-reveal-other-cause.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "reveal-other-cause",
+        "title": "Ask for any other cause to be revealed",
+        "alt": "A king praying",
+        "note": "Relief type only."
+      }
+    ]
+  },
+  {
+    "assetId": "mursili-plague-prayer-order-pure-sleep",
+    "subject": "Sleepers in purity",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: two figures lying asleep on simple mats. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/mursili-plague-prayer/mursili-plague-prayer-order-pure-sleep.png",
+    "uses": [
+      {
+        "ritualId": "mursili-plague-prayer",
+        "stepId": "order-pure-sleep",
+        "title": "Order the priests to sleep in purity",
+        "alt": "Sleeping figures",
+        "note": "The sleepers' identity is restored."
+      }
+    ]
+  },
+  {
+    "assetId": "army-ritual-hot-stone",
+    "subject": "Hot stone in water",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a round stone glowing hot, half-submerged in a small shallow bowl of water with a wisp of steam. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/army-ritual/army-ritual-hot-stone.png",
+    "uses": [
+      {
+        "ritualId": "army-ritual",
+        "stepId": "hot-stone",
+        "title": "Speak the analogy of the hot stone",
+        "alt": "A hot stone in water",
+        "note": "Only the spoken image is attested; illustrated as the compared object."
+      }
+    ]
+  },
+  {
+    "assetId": "army-ritual-winter-torpor",
+    "subject": "Winter torpor",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a stylised frost-covered branch with icicles. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/army-ritual/army-ritual-winter-torpor.png",
+    "uses": [
+      {
+        "ritualId": "army-ritual",
+        "stepId": "winter-torpor",
+        "title": "Bind the rivals by the torpor of winter",
+        "alt": "Frost-bound figure",
+        "note": "Depict frost, not violence; the rivals are not described."
+      }
+    ]
+  },
+  {
+    "assetId": "army-ritual-mighty-troops",
+    "subject": "Mighty troops",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: three plain-dressed foot soldiers with spears standing upright. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/army-ritual/army-ritual-mighty-troops.png",
+    "uses": [
+      {
+        "ritualId": "army-ritual",
+        "stepId": "mighty-troops",
+        "title": "Pray that the troops be mighty",
+        "alt": "Soldiers standing firm",
+        "note": "No addressee is named."
+      }
+    ]
+  },
+  {
+    "assetId": "army-ritual-father-gods-protect",
+    "subject": "Father-gods and son",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a group of standing divine figures in a row, facing a young man. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/army-ritual/army-ritual-father-gods-protect.png",
+    "uses": [
+      {
+        "ritualId": "army-ritual",
+        "stepId": "father-gods-protect",
+        "title": "Ask the father-gods to protect the son",
+        "alt": "Ancestral gods protecting a young man",
+        "note": "Relief type for a group of gods; the father-gods are not individually described."
+      }
+    ]
+  },
+  {
+    "assetId": "army-ritual-gods-on-our-side",
+    "subject": "Gods on our side",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a row of standing divine figures facing the same direction as a small group of soldiers. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/army-ritual/army-ritual-gods-on-our-side.png",
+    "uses": [
+      {
+        "ritualId": "army-ritual",
+        "stepId": "gods-on-our-side",
+        "title": "Declare the gods are on our side",
+        "alt": "Gods beside an army",
+        "note": "Relief type only."
+      }
+    ]
+  },
+  {
+    "assetId": "army-ritual-hasten-troops",
+    "subject": "Troops hastening",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small column of plain-dressed soldiers striding forward. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/army-ritual/army-ritual-hasten-troops.png",
+    "uses": [
+      {
+        "ritualId": "army-ritual",
+        "stepId": "hasten-troops",
+        "title": "Ask that the troops be hastened",
+        "alt": "Troops marching",
+        "note": "Illustrate marching only."
+      }
+    ]
+  },
+  {
+    "assetId": "lapana-plague-bull",
+    "subject": "A bull",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a single bull standing in profile. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/lapana-plague/lapana-plague-bull.png",
+    "uses": [
+      {
+        "ritualId": "lapana-plague",
+        "stepId": "bull",
+        "title": "Provide a bull",
+        "alt": "A bull",
+        "note": "No slaughter is stated."
+      }
+    ]
+  },
+  {
+    "assetId": "lapana-plague-wicker-tables",
+    "subject": "Four wicker tables",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: four small low tables of woven wicker in a row. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/lapana-plague/lapana-plague-wicker-tables.png",
+    "uses": [
+      {
+        "ritualId": "lapana-plague",
+        "stepId": "wicker-tables",
+        "title": "Set out four wicker tables",
+        "alt": "Four wicker tables",
+        "note": "Table form is reconstructed."
+      }
+    ]
+  },
+  {
+    "assetId": "lapana-plague-evening-fire",
+    "subject": "Evening fire",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small wood fire burning on bare ground. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/lapana-plague/lapana-plague-evening-fire.png",
+    "uses": [
+      {
+        "ritualId": "lapana-plague",
+        "stepId": "evening-fire",
+        "title": "Kindle a fire in the evening",
+        "alt": "A small fire",
+        "note": "Place unstated."
+      }
+    ]
+  },
+  {
+    "assetId": "lapana-plague-raw-cooked",
+    "subject": "Raw and cooked portions",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: two small heaps of food portions on the ground, one raw and one cooked. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/lapana-plague/lapana-plague-raw-cooked.png",
+    "uses": [
+      {
+        "ritualId": "lapana-plague",
+        "stepId": "raw-cooked",
+        "title": "Offer raw and cooked portions to the gods",
+        "alt": "Raw and cooked meat on the ground",
+        "note": "The substance is not named; depict simple portions."
+      }
+    ]
+  },
+  {
+    "assetId": "lapana-plague-burn",
+    "subject": "Burning",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: flames on a small fire with an indistinct offering on it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/lapana-plague/lapana-plague-burn.png",
+    "uses": [
+      {
+        "ritualId": "lapana-plague",
+        "stepId": "burn",
+        "title": "Burn the offering",
+        "alt": "Burning on a fire",
+        "note": "Object unknown; illustrate a fire only."
+      }
+    ]
+  },
+  {
+    "assetId": "lapana-plague-bow",
+    "subject": "Bowing",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a plain-dressed figure bowing low with hands lowered. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/lapana-plague/lapana-plague-bow.png",
+    "uses": [
+      {
+        "ritualId": "lapana-plague",
+        "stepId": "bow",
+        "title": "Bow down to the gods",
+        "alt": "Bowing figures",
+        "note": "Relief type only for the gods."
+      }
+    ]
+  },
+  {
+    "assetId": "lapana-plague-in-mouth",
+    "subject": "Morsel to the mouth",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a hand placing a small morsel toward an open mouth, shown in profile. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/lapana-plague/lapana-plague-in-mouth.png",
+    "uses": [
+      {
+        "ritualId": "lapana-plague",
+        "stepId": "in-mouth",
+        "title": "Place a little in the mouth, three times",
+        "alt": "Placing a morsel in a mouth",
+        "note": "Object and recipient unknown."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-mix-urine-clay",
+    "subject": "Mix donkey urine with school clay",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an exorcist kneading a lump of clay in a bowl while pouring in liquid from a small jar, a living donkey standing beside. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-mix-urine-clay.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "mix-urine-clay",
+        "title": "Mix donkey urine with school clay",
+        "alt": "Mix the urine of a living donkey with clay from the tablet-house.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-make-donkeys",
+    "subject": "Knead and make two clay donkeys",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: two small clay donkey figurines on a flat surface, freshly modelled. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-make-donkeys.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "make-clay-donkeys",
+        "title": "Knead and make two clay donkeys",
+        "alt": "Knead the mixture and fashion two donkey figurines.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-attach-strap-tail",
+    "subject": "Attach the strap and tail-hair to the figurine",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a clay donkey figurine with a real leather strap fitted over it and a tuft of real tail-hair fixed to its tail. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-attach-strap-tail.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "attach-strap-tail",
+        "title": "Attach the strap and tail-hair to the figurine",
+        "alt": "Put the living donkey's harness-strap on the figurine's strap and its tail-hair on the figurine's tail.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-make-substitute",
+    "subject": "Make the substitute from the patient's urine, hair and nails",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an exorcist shaping a small clay human figure, beside it a few hairs, nail-parings and a small jar of urine. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-make-substitute.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "make-substitute",
+        "title": "Make the substitute from the patient's urine, hair and nails",
+        "alt": "Mix the patient's urine, armpit and chest hair and nail-parings into the clay and fashion the substitute figure.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-dress-mount-substitute",
+    "subject": "Clothe the substitute and set it on the donkey",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small clay human figure wearing a cloth garment and headdress, seated astride a clay donkey figurine. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-dress-mount-substitute.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "dress-mount-substitute",
+        "title": "Clothe the substitute and set it on the donkey",
+        "alt": "Clothe the substitute figure, put a headdress on it and set it riding on the DÚSU-donkey.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-load-sacks",
+    "subject": "Load sacks on the two leading donkeys",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: two clay donkey figurines, each carrying a small cloth sack on its back, one sack full of flour. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-load-sacks.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "load-sacks",
+        "title": "Load sacks on the two leading donkeys",
+        "alt": "Fill a sack and set it on the first donkey; set a sack full of flour on the second.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-make-driver",
+    "subject": "Make a clay driver with a goad",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small clothed clay human figure holding a short wooden stick, standing behind a row of clay donkey figurines. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-make-driver.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "make-driver",
+        "title": "Make a clay driver with a goad",
+        "alt": "Make another clay figure, clothe it, put a wooden ŠU.KIN (a goad?) in its hand and station it behind the donkeys.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-bring-to-roof",
+    "subject": "Bring the figures up onto the roof before Šamaš",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an exorcist carrying a group of clay donkey figurines, one ridden by a small clothed clay figure, up a ladder to a flat roof in sunlight. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-bring-to-roof.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "bring-to-roof",
+        "title": "Bring the figures up onto the roof before Šamaš",
+        "alt": "Station the substitute with the donkeys and bring the donkey figures up onto the roof before Šamaš.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-strew-offering",
+    "subject": "Strew flour, dates and mashatu-flour before Šamaš",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a hand scattering flour and dates onto the ground in front of clay donkey figurines. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-strew-offering.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "strew-flour-dates",
+        "title": "Strew flour, dates and mashatu-flour before Šamaš",
+        "alt": "Strew flour, dates and mashatu-flour as a strewn offering.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-address-samas",
+    "subject": "Address Šamaš as lord of judgment",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an exorcist standing with raised hand speaking toward a sun disk above clay figurines. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-address-samas.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "address-samas-roof",
+        "title": "Address Šamaš as lord of judgment",
+        "alt": "The exorcist addresses Šamaš as judge and names the patient whom li'bu has seized without his knowing.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-carry-substitute-out",
+    "subject": "Bring the substitute down and out to the open country",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an exorcist carrying a clay donkey figurine with a small clothed rider across open empty ground. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-carry-substitute-out.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "bring-substitute-out",
+        "title": "Bring the substitute down and out to the open country",
+        "alt": "Bring the figures down from the roof and take the substitute out to the open country.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-patient-gives-libu",
+    "subject": "The patient hands li'bu to his substitute",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a seated sick man speaking and gesturing toward a small clay figure riding a clay donkey. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-patient-gives-libu.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "patient-gives-libu",
+        "title": "The patient hands li'bu to his substitute",
+        "alt": "The patient tells li'bu that he gives it to his substitute and orders it to be gone.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-donkeys-in-basket",
+    "subject": "Place the donkey figures in a basket before Šamaš",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: clay donkey figurines being set into a woven basket. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-donkeys-in-basket.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "donkeys-in-basket",
+        "title": "Place the donkey figures in a basket before Šamaš",
+        "alt": "Place the donkey figures in a basket before Šamaš.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-pour-seven-sila",
+    "subject": "Pour out seven sila each of flour, dates and oil",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: heaps of flour and dates and a stream of oil poured on bare ground. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-pour-seven-sila.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "pour-seven-sila",
+        "title": "Pour out seven sila each of flour, dates and oil",
+        "alt": "Pour seven sila each of flour, mashatu-flour, dates and oil on the ground.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-address-nisaba",
+    "subject": "Invoke Nisaba and drive out the curse",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man speaking with raised hand toward a female divine figure holding ears of grain. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-address-nisaba.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "address-nisaba",
+        "title": "Invoke Nisaba and drive out the curse",
+        "alt": "The patient invokes Nisaba, who releases the curse, and declares the evil adjured and driven out.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-draw-design-adjure",
+    "subject": "Draw a design and adjure the evil by the gods",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an exorcist drawing a simple line pattern on the ground with a stick while speaking. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-draw-design-adjure.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "draw-design-adjure",
+        "title": "Draw a design and adjure the evil by the gods",
+        "alt": "Draw a design and adjure the evil by Enlil, Ninlil, Asalluḫi, Baba and Ningišzida to be led out, chased and gone, never to return.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-strew-at-esegu",
+    "subject": "Take it out to the ešegu-bush and strew flour and dates",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a hand strewing flour and dates at the foot of a thorny bush on open ground. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-strew-at-esegu.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "strew-at-esegu",
+        "title": "Take it out to the ešegu-bush and strew flour and dates",
+        "alt": "Take it out of the house to the open country and at the ešegu-thornbush strew coarse flour, dates and mashatu-flour.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-station-weapons",
+    "subject": "Station donkeys and weapons before Šamaš",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: clay donkey figurines in a row on the ground, a small clay rider on one, and a simple weapon laid upright behind them. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-station-weapons.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "station-weapons",
+        "title": "Station donkeys and weapons before Šamaš",
+        "alt": "Behind the offering station two donkeys before Šamaš, a weapon behind the donkeys, and a weapon behind the donkey ridden by the substitute.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-address-samas-oath",
+    "subject": "Address Šamaš, list the seizing demons and lay the oath",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an exorcist speaking with raised hand toward a sun disk, a seated sick man beside him. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-address-samas-oath.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "address-samas-oath",
+        "title": "Address Šamaš, list the seizing demons and lay the oath",
+        "alt": "Invoke Šamaš as judge, list the ghosts and demons that have seized the patient, and declare that the oath of the great gods has been put in his mouth.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-address-esegu",
+    "subject": "Seize the ešegu-bush and bid it plead with Šamaš",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an exorcist grasping a thorny bush with one hand and speaking to it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-address-esegu.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "address-esegu",
+        "title": "Seize the ešegu-bush and bid it plead with Šamaš",
+        "alt": "Tell the ešegu, offspring of Enlil, that it has been seized on the patient's account, bid it plead with Šamaš, and promise its release when li'bu lets the patient go.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-anoint-bind-esegu",
+    "subject": "Pour oil on the ešegu and bind it to a rush",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands pouring oil over a thorny bush and tying it to a tall rush stalk. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-anoint-bind-esegu.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "anoint-bind-esegu",
+        "title": "Pour oil on the ešegu and bind it to a rush",
+        "alt": "Pour oil on the ešegu, bind it to a rush and wrap its top all round.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-release-bargain",
+    "subject": "Ask Šamaš: let li'bu release the man",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: an exorcist speaking toward a sun disk beside a bound thorny bush. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-release-bargain.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "release-bargain",
+        "title": "Ask Šamaš: let li'bu release the man",
+        "alt": "Ask Šamaš that li'bu release the man, promising the bush its release in turn.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-place-loaves-designs",
+    "subject": "Draw designs and set a dried loaf at each",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: several simple line patterns drawn on the ground, each with a small round dry loaf set upon it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-place-loaves-designs.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "place-loaves-designs",
+        "title": "Draw designs and set a dried loaf at each",
+        "alt": "Draw two designs of a cubit and seven designs before the seven(?), and place a dried loaf wherever there is a design.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-strew-city-gate",
+    "subject": "Throw flour at the city gate",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a person throwing handfuls of flour to both sides of a large open double door. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-strew-city-gate.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "strew-city-gate",
+        "title": "Throw flour at the city gate",
+        "alt": "Entering the city gate, throw flour to either side and in the middle, and on both door-leaves.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-adjure-at-gate",
+    "subject": "Adjure the evil not to enter the door",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a person standing at an open double door speaking with a hand raised in a warding gesture. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-adjure-at-gate.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "adjure-at-gate",
+        "title": "Adjure the evil not to enter the door",
+        "alt": "Adjure the evil by the great gods of the ešegu not to enter the open door, and send it away.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-mix-salt-cress",
+    "subject": "Mix salt and cress into the poured flour",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands stirring salt crystals and small green cress leaves into a heap of flour. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-mix-salt-cress.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "mix-salt-cress",
+        "title": "Mix salt and cress into the poured flour",
+        "alt": "Mix salt and cress into the flour poured out as offering.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-crush-juniper",
+    "subject": "Crush juniper and mix it with oil",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a healer crushing juniper berries in a stone mortar beside a small jar of oil. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-crush-juniper.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "crush-juniper",
+        "title": "Crush juniper and mix it with oil",
+        "alt": "For a recurrent third-day fever, crush a sila of juniper and mix it with oil.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "libu-recite-arabapura",
+    "subject": "Recite the incantation during treatment",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: two healers reciting beside a reclining sick man, a bowl of oily paste nearby. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/libu-fever/libu-recite-arabapura.png",
+    "uses": [
+      {
+        "ritualId": "libu-fever",
+        "stepId": "recite-arabapura",
+        "title": "Recite the incantation during treatment",
+        "alt": "Recite the incantation '[A]rābapura'(?) during the treatment, repeating plant and incantation unchanged until the seizures leave.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "poultice-crush-plants",
+    "subject": "Crush the plants and mix them as one",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a healer pounding dried plants and juniper berries in a stone mortar. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/poultice-recipes/poultice-crush-plants.png",
+    "uses": [
+      {
+        "ritualId": "poultice-recipes",
+        "stepId": "crush-plants",
+        "title": "Crush the plants and mix them as one",
+        "alt": "Crush ḪA.AB-plant, Ú.RA.AN.NA, juniper, an aromatic and ninû-plant, and mix them together.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      {
+        "ritualId": "poultice-recipes",
+        "stepId": "crush-with-crusher",
+        "title": "Crush many aromatics with a wooden crusher",
+        "alt": "Crush some thirty woods, aromatics and plants (cedar, myrtle, juniper, myrrh, tamarisk and others) with a wooden crusher.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "poultice-boil-mixture",
+    "subject": "Boil the mixture in kasû-juice",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a clay pot over a small fire with a thick herbal mixture simmering in it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/poultice-recipes/poultice-boil-mixture.png",
+    "uses": [
+      {
+        "ritualId": "poultice-recipes",
+        "stepId": "boil-kasu",
+        "title": "Boil the mixture in kasû-juice",
+        "alt": "Boil the crushed mixture in kasû-juice.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      {
+        "ritualId": "poultice-recipes",
+        "stepId": "decoct-beer",
+        "title": "Boil in beer and decoct like a rabīku-paste",
+        "alt": "Crush cress, fenugreek and other plants, boil them in first-quality beer and decoct them like a rabīku-paste.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      {
+        "ritualId": "poultice-recipes",
+        "stepId": "decoct-wine",
+        "title": "Decoct in pressed wine like a rabīku-paste",
+        "alt": "Decoct the mixture in pressed wine like a rabīku-paste.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "poultice-bandage",
+    "subject": "Keep bandaging the patient",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a healer wrapping a cloth bandage spread with brown herbal paste around a seated man's limb. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/poultice-recipes/poultice-bandage.png",
+    "uses": [
+      {
+        "ritualId": "poultice-recipes",
+        "stepId": "bandage-kasu",
+        "title": "Keep bandaging the patient",
+        "alt": "Keep bandaging the patient with the poultice.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      },
+      {
+        "ritualId": "poultice-recipes",
+        "stepId": "bandage-wine",
+        "title": "Keep bandaging that man",
+        "alt": "Keep bandaging the man with the wine-decocted poultice.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "poultice-mix-emmer",
+    "subject": "Mix the aromatics with emmer flour",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands mixing crushed aromatic plants into a bowl of flour. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/poultice-recipes/poultice-mix-emmer.png",
+    "uses": [
+      {
+        "ritualId": "poultice-recipes",
+        "stepId": "mix-emmer",
+        "title": "Mix the aromatics with emmer flour",
+        "alt": "Mix the crushed aromatics together with emmer flour.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "poultice-mix-ghee-beer",
+    "subject": "Mix seeds with ghee and beer and bandage",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands mixing seeds into a bowl of ghee while beer is poured in. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/poultice-recipes/poultice-mix-ghee-beer.png",
+    "uses": [
+      {
+        "ritualId": "poultice-recipes",
+        "stepId": "mix-ghee-beer",
+        "title": "Mix seeds with ghee and beer and bandage",
+        "alt": "Mix a long list of seeds and plants with ghee and in first-quality beer, then keep bandaging him.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "poultice-perform-purification",
+    "subject": "Perform a purification for the sick man",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a healer standing beside a seated sick man, holding a small bowl for purification. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/poultice-recipes/poultice-perform-purification.png",
+    "uses": [
+      {
+        "ritualId": "poultice-recipes",
+        "stepId": "perform-purification",
+        "title": "Perform a purification for the sick man",
+        "alt": "Perform a purification (takpirtu) for the sick man, apparently with a ḫulduppû, bind him(?) and keep doing so for two or three months.",
+        "note": "Illustrative reconstruction; form and appearance beyond the text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q002713-9-22-31-01",
+    "subject": "Draw a magic circle round the crucible",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner drawing a circle of pale flour on the ground around a squat clay crucible. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q002713-9-22-31/cmawro-q002713-9-22-31-01.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q002713-9-22-31",
+        "stepId": "draw-circle-round-crucible",
+        "title": "Draw a magic circle round the crucible",
+        "alt": "Illustrative reconstruction: draw a magic circle round the crucible.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q002713-9-22-31-02",
+    "subject": "Arrange figures of nine materials in the crucible",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: nine small human figures of wood, pale tallow, wax, dark bitumen, white gypsum, clay and dough set in a row inside a squat clay crucible. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q002713-9-22-31/cmawro-q002713-9-22-31-02.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q002713-9-22-31",
+        "stepId": "arrange-figures-in-crucible",
+        "title": "Arrange figures of nine materials in the crucible",
+        "alt": "Illustrative reconstruction: arrange figures of nine materials in the crucible.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q002713-9-22-31-03",
+    "subject": "Point at the figures and name them as the doer",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner stretching out one finger toward small figures standing in a crucible. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q002713-9-22-31/cmawro-q002713-9-22-31-03.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q002713-9-22-31",
+        "stepId": "identify-figures-as-doer",
+        "title": "Point at the figures and name them as the doer",
+        "alt": "Illustrative reconstruction: point at the figures and name them as the doer.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q002713-9-22-31-04",
+    "subject": "Put a torch on the tallow and wax figures",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner laying an unlit reed torch across a pale tallow figure and a yellow wax figure. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q002713-9-22-31/cmawro-q002713-9-22-31-04.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q002713-9-22-31",
+        "stepId": "set-torch-on-fat-figures",
+        "title": "Put a torch on the tallow and wax figures",
+        "alt": "Illustrative reconstruction: put a torch on the tallow and wax figures.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q002713-9-22-31-05",
+    "subject": "Stick cedar, cypress, myrtle and reed into it",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner pushing sprigs of cedar, cypress and myrtle and a reed into the head of a reed torch. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q002713-9-22-31/cmawro-q002713-9-22-31-05.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q002713-9-22-31",
+        "stepId": "insert-woods-and-reed",
+        "title": "Stick cedar, cypress, myrtle and reed into it",
+        "alt": "Illustrative reconstruction: stick cedar, cypress, myrtle and reed into it.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q002713-9-22-31-06",
+    "subject": "Light the torch from sulphur fire and recite",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner holding a reed torch into a small yellow sulphur fire until it catches. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q002713-9-22-31/cmawro-q002713-9-22-31-06.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q002713-9-22-31",
+        "stepId": "light-torch-from-sulphur",
+        "title": "Light the torch from sulphur fire and recite",
+        "alt": "Illustrative reconstruction: light the torch from sulphur fire and recite.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q002713-9-22-31-07",
+    "subject": "Throw fire into the crucible",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner tossing a burning torch into a clay crucible in which small figures are catching fire. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q002713-9-22-31/cmawro-q002713-9-22-31-07.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q002713-9-22-31",
+        "stepId": "throw-fire-into-crucible",
+        "title": "Throw fire into the crucible",
+        "alt": "Illustrative reconstruction: throw fire into the crucible.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q004239-11-1-1-01",
+    "subject": "Pound sulphur, gypsum and red paste together",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner pounding yellow sulphur, white gypsum and red paste together in a stone mortar. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q004239-11-1-1/cmawro-q004239-11-1-1-01.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q004239-11-1-1",
+        "stepId": "pound-paste",
+        "title": "Pound sulphur, gypsum and red paste together",
+        "alt": "Illustrative reconstruction: pound sulphur, gypsum and red paste together.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q004239-11-1-1-02",
+    "subject": "Recite \"Furious, furious … tear out the sorcery\"",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner reciting with raised hand over a bowl of paste. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q004239-11-1-1/cmawro-q004239-11-1-1-02.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q004239-11-1-1",
+        "stepId": "recite-tear-out-sorcery",
+        "title": "Recite \"Furious, furious … tear out the sorcery\"",
+        "alt": "Illustrative reconstruction: recite \"furious, furious … tear out the sorcery\".",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q004239-11-1-1-03",
+    "subject": "Recite into the paste; apply it to the door-jamb",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner smearing reddish paste from a bowl onto the wooden jamb of a house gate. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q004239-11-1-1/cmawro-q004239-11-1-1-03.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q004239-11-1-1",
+        "stepId": "recite-into-paste-and-smear-jamb",
+        "title": "Recite into the paste; apply it to the door-jamb",
+        "alt": "Illustrative reconstruction: recite into the paste; apply it to the door-jamb.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q004239-11-1-1-04",
+    "subject": "Wash the paste off with silt into a cloth",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner rubbing a door-jamb clean with wet silt, catching the runoff in a strip of cloth. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q004239-11-1-1/cmawro-q004239-11-1-1-04.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q004239-11-1-1",
+        "stepId": "wash-off-into-cloth",
+        "title": "Wash the paste off with silt into a cloth",
+        "alt": "Illustrative reconstruction: wash the paste off with silt into a cloth.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q004239-11-1-1-05",
+    "subject": "Wrap sulphur and oil in combed fleece",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner folding a tuft of combed white fleece around a lump of yellow sulphur moistened with oil. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q004239-11-1-1/cmawro-q004239-11-1-1-05.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q004239-11-1-1",
+        "stepId": "wrap-sulphur-oil-in-fleece",
+        "title": "Wrap sulphur and oil in combed fleece",
+        "alt": "Illustrative reconstruction: wrap sulphur and oil in combed fleece.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q004239-11-1-1-06",
+    "subject": "Bury it at the outer gate and door socket",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner covering a small fleece bundle with earth in a hole beside a stone door-pivot socket at a gate. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q004239-11-1-1/cmawro-q004239-11-1-1-06.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q004239-11-1-1",
+        "stepId": "bury-at-gate-and-socket",
+        "title": "Bury it at the outer gate and door socket",
+        "alt": "Illustrative reconstruction: bury it at the outer gate and door socket.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-01",
+    "subject": "Sweep and sprinkle the riverbank",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner sprinkling water from a small bowl onto swept ground at a riverbank. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-01.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "sprinkle-riverbank",
+        "title": "Sweep and sprinkle the riverbank",
+        "alt": "Illustrative reconstruction: sweep and sprinkle the riverbank.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-02",
+    "subject": "Set up an altar and pour a libation",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner setting a small portable altar on the ground and pouring a libation from a spouted vessel before it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-02.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "altar-and-libation",
+        "title": "Set up an altar and pour a libation",
+        "alt": "Illustrative reconstruction: set up an altar and pour a libation.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-03",
+    "subject": "Make a male and a female figure of clay",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner shaping two small clay figures, one male and one female. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-03.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "make-male-female-clay-figures",
+        "title": "Make a male and a female figure of clay",
+        "alt": "Illustrative reconstruction: make a male and a female figure of clay.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-04",
+    "subject": "The sick man dresses, stands before the god, recites",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man in a plain long garment standing with raised hand before a small portable altar. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-04.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "clothe-and-stand-before-god",
+        "title": "The sick man dresses, stands before the god, recites",
+        "alt": "Illustrative reconstruction: the sick man dresses, stands before the god, recites.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-05",
+    "subject": "Ask that the evil cross river and mountain",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man at a riverbank gesturing outward across the water toward distant hills. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-05.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "send-evil-across-river",
+        "title": "Ask that the evil cross river and mountain",
+        "alt": "Illustrative reconstruction: ask that the evil cross river and mountain.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-06",
+    "subject": "Like smoke, like uprooted tamarisk",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man reciting beside a thin column of smoke and an uprooted tamarisk shrub lying on the ground. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-06.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "smoke-and-tamarisk-analogy",
+        "title": "Like smoke, like uprooted tamarisk",
+        "alt": "Illustrative reconstruction: like smoke, like uprooted tamarisk.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-07",
+    "subject": "Pour beer before the river",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a practitioner pouring beer from a jar into a flowing river. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-07.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "beer-libation-to-river",
+        "title": "Pour beer before the river",
+        "alt": "Illustrative reconstruction: pour beer before the river.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-08",
+    "subject": "Sink three times in the river in a textile",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man in a plain wrap cloth submerged to the shoulders in a river. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-08.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "dip-in-river-three-times",
+        "title": "Sink three times in the river in a textile",
+        "alt": "Illustrative reconstruction: sink three times in the river in a textile.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-09",
+    "subject": "Ask the river to carry the evil away",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man standing waist-deep in a river, hands raised toward the current. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-09.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "ask-river-to-take-evil",
+        "title": "Ask the river to carry the evil away",
+        "alt": "Illustrative reconstruction: ask the river to carry the evil away.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-10",
+    "subject": "Come up, tear off the textile, bathe",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man stepping out of a river while a practitioner pours water over him from a tall vessel. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-10.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "come-up-strip-and-bathe",
+        "title": "Come up, tear off the textile, bathe",
+        "alt": "Illustrative reconstruction: come up, tear off the textile, bathe.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-11",
+    "subject": "Enter a brewer's house and touch the mash tub",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man in plain clothes laying his hand on a large clay mash tub on a stand. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-11.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "touch-brewers-mash-tub",
+        "title": "Enter a brewer's house and touch the mash tub",
+        "alt": "Illustrative reconstruction: enter a brewer's house and touch the mash tub.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "cmawro-q005109-11-3-1-12",
+    "subject": "Touch the gate with gypsum and bitumen",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a hand dabbing white gypsum and black bitumen onto the jamb of a plain wooden gate. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/cmawro-q005109-11-3-1/cmawro-q005109-11-3-1-12.png",
+    "uses": [
+      {
+        "ritualId": "cmawro-q005109-11-3-1",
+        "stepId": "touch-gate-gypsum-bitumen",
+        "title": "Touch the gate with gypsum and bitumen",
+        "alt": "Illustrative reconstruction: touch the gate with gypsum and bitumen.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-catch-partridge",
+    "subject": "Catching a partridge",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man holding a live grey-brown partridge gently in both hands. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-catch-partridge.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "catch-partridge",
+        "title": "Catch a male partridge",
+        "alt": "A man holding a live partridge in both hands.",
+        "note": "The bird is shown generically; the text specifies only that it is male."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-pluck-strangle",
+    "subject": "Plucked partridge",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a plucked partridge lying on a plain wooden board beside a small heap of grey-brown feathers. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-pluck-strangle.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "pluck-strangle",
+        "title": "Pluck and strangle the partridge",
+        "alt": "A plucked partridge lying on a board beside a small heap of feathers.",
+        "note": "Shown after the act, without depicting the strangling."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-salt-dry",
+    "subject": "Salting a bird",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a hand sprinkling white salt from the fingers over a plucked bird lying on a board. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-salt-dry.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "salt-dry",
+        "title": "Salt and dry the bird",
+        "alt": "A plucked bird on a board being sprinkled with salt.",
+        "note": "The drying method is not specified."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-crush-with-thorn",
+    "subject": "Crushing ingredients",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a stone mortar and pestle containing dried brown material and small dark seeds, a hand grinding. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-crush-with-thorn.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "crush-with-thorn",
+        "title": "Crush with thorn seed",
+        "alt": "A pestle and mortar holding dried material and small seeds.",
+        "note": "The plant identification is uncertain; seeds are shown generically."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-drink-in-beer",
+    "subject": "Remedy in a cup",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a hand passing a plain clay cup of beer into which a dark powder has been stirred. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-drink-in-beer.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "drink-in-beer",
+        "title": "Give it to drink in beer",
+        "alt": "A cup of beer with a dark powder being stirred in.",
+        "note": "Vessel shape is illustrative."
+      },
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "drink-at-sunrise",
+        "title": "Drink at sunrise",
+        "alt": "A man drinking from a bowl at dawn.",
+        "note": "Dawn is indicated by a low sun disc."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-blood-into-water",
+    "subject": "Blood in water",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a plain clay bowl of water with a few red drops spreading in it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-blood-into-water.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "blood-into-water",
+        "title": "Let the blood fall into water",
+        "alt": "A bowl of water with a few red drops.",
+        "note": "The bird is not shown; only the bowl of water and blood."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-water-under-stars",
+    "subject": "Bowl under the stars",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a plain clay bowl of water standing alone with a few schematic stars above it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-water-under-stars.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "water-under-stars",
+        "title": "Leave the water under the stars",
+        "alt": "A bowl of water on a flat roof under a starry sky.",
+        "note": "A flat roof is suggested by ¶13; stars are schematic."
+      },
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "entrust-to-stars",
+        "title": "Entrust it to the stars",
+        "alt": "A covered bowl outdoors under stars.",
+        "note": "The container is illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-wrap-in-wool",
+    "subject": "Wool bundle",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small bundle wrapped in undyed raw sheep’s wool, tied with a wool thread. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-wrap-in-wool.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "wrap-in-wool",
+        "title": "Wrap in wool",
+        "alt": "A small bundle wrapped in raw wool.",
+        "note": "Contents are not shown."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-smear-salt-plant",
+    "subject": "Smearing with salt and herb",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands rubbing salt and a crumbled green herb onto a small plucked bird on a board. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-smear-salt-plant.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "smear-salt-plant",
+        "title": "Smear with salt and nīnû-plant",
+        "alt": "A plucked bird being rubbed with salt and green herb.",
+        "note": "The bird species is unidentified; shown generically."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-mix-roasted-flour",
+    "subject": "Mixing with flour",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a plain clay bowl in which pale roasted flour and dark crushed material are being stirred with a stick. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-mix-roasted-flour.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "mix-roasted-flour",
+        "title": "Mix with roasted-grain flour",
+        "alt": "Flour and crushed material being mixed in a bowl.",
+        "note": "Proportions are not given."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-form-pellets",
+    "subject": "Remedy pellets",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: three small round brown pellets beside a small heap of coarse flour on a board. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-form-pellets.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "form-pellets",
+        "title": "Form pellets",
+        "alt": "Three small round pellets beside a heap of coarse flour.",
+        "note": "Ingredients are not individually shown."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-bind-on-hips",
+    "subject": "Bundle on a cord",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small wrapped wool bundle hanging from a plain cord tied in a loop. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-bind-on-hips.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "bind-on-hips",
+        "title": "Bind on the hips",
+        "alt": "A small wrapped bundle on a cord.",
+        "note": "Shown as a bundle on a cord, not on a body."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-rinse-body",
+    "subject": "Rinsing a seated man",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a seated man in a plain tunic while another pours water from a jug over his shoulders. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-rinse-body.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "rinse-body",
+        "title": "Rinse with water and kasû",
+        "alt": "A seated man having water poured over his shoulders.",
+        "note": "Clothing is illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-anoint-oil",
+    "subject": "Anointing oil",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small clay oil flask beside an open hand holding a little oil in the palm. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-anoint-oil.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "anoint-oil",
+        "title": "Anoint repeatedly with oil",
+        "alt": "A small oil flask and a hand with oil on the palm.",
+        "note": "The body part is not specified in the legible text."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-sumerian-incantation",
+    "subject": "Reciting an incantation",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a standing man in a plain robe speaking with one hand raised, mouth open. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-sumerian-incantation.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "sumerian-incantation",
+        "title": "Recite the Sumerian incantation",
+        "alt": "A standing man speaking with raised hand.",
+        "note": "No addressee is legible."
+      }
+    ]
+  },
+  {
+    "assetId": "potency-crush-decoct-sinews",
+    "subject": "Crushing with stones",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: two hand-held stones crushing indistinct brown material in a shallow bowl, beside a small clay cooking pot. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/potency-prescriptions/potency-crush-decoct-sinews.png",
+    "uses": [
+      {
+        "ritualId": "potency-prescriptions",
+        "stepId": "crush-decoct-sinews",
+        "title": "Crush and decoct the sinews",
+        "alt": "Stones crushing material in a shallow bowl beside a small pot.",
+        "note": "Innards are shown as indistinct brown material."
+      }
+    ]
+  },
+  {
+    "assetId": "remedies-take-herbs",
+    "subject": "Heaps of herbs",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: four small heaps of seeds and dried green herbs laid side by side on a plain wooden board. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/hittite-remedies/remedies-take-herbs.png",
+    "uses": [
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "take-herbs",
+        "title": "Take the herbs",
+        "alt": "Small heaps of seeds and dried herbs on a board.",
+        "note": "Plant identifications are uncertain; shown generically."
+      },
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "take-bulbs",
+        "title": "Take garlic, leek and šullittinni bulbs",
+        "alt": "A garlic bulb, a leek and a third bulb.",
+        "note": "šullittinni is unidentified; shown as a generic bulb."
+      }
+    ]
+  },
+  {
+    "assetId": "remedies-give-seven-days",
+    "subject": "Giving a remedy",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a standing man handing a small plain clay cup to a seated man. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/hittite-remedies/remedies-give-seven-days.png",
+    "uses": [
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "give-seven-days",
+        "title": "Give the herbs for seven days",
+        "alt": "A small cup handed to a seated person.",
+        "note": "The form in which the herbs are taken is not stated."
+      },
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "give-empty-stomach",
+        "title": "Give for seven days on an empty stomach",
+        "alt": "A small cup handed to a seated person.",
+        "note": "Same image as step 2."
+      },
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "drink-morning",
+        "title": "Drink early in the morning",
+        "alt": "A seated man drinking from a cup.",
+        "note": "Dawn not depicted."
+      }
+    ]
+  },
+  {
+    "assetId": "remedies-steep-sift",
+    "subject": "Steeping and sifting",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a plain clay bowl of liquid with garlic and leek pieces, and a hand straining it through a coarse cloth. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/hittite-remedies/remedies-steep-sift.png",
+    "uses": [
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "steep-sift",
+        "title": "Steep and sift the bulbs",
+        "alt": "A bowl of liquid with bulbs being strained through a cloth.",
+        "note": "The sieve or cloth is illustrative."
+      },
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "second-day-bag",
+        "title": "Prepare the second-day remedy",
+        "alt": "A leather pouch being filled from a bowl.",
+        "note": "The bag is conjectural."
+      }
+    ]
+  },
+  {
+    "assetId": "remedies-sew-into-cord",
+    "subject": "Root sewn into leather cord",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands with a bone needle sewing a small plant root into a narrow strip of leather cord. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/hittite-remedies/remedies-sew-into-cord.png",
+    "uses": [
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "sew-into-cord",
+        "title": "Sew into a cord from a leopard’s kill",
+        "alt": "A root being sewn into a narrow leather cord.",
+        "note": "The leopard is not shown; the text names it only as the killer of the source animal."
+      }
+    ]
+  },
+  {
+    "assetId": "remedies-twist-sinew",
+    "subject": "Twisting a sinew",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands twisting a pale animal sinew together with a narrow leather cord. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/hittite-remedies/remedies-twist-sinew.png",
+    "uses": [
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "twist-sinew",
+        "title": "Twist in the sinew",
+        "alt": "A pale sinew being twisted around a leather cord.",
+        "note": "Shown as a cord only, not worn."
+      }
+    ]
+  },
+  {
+    "assetId": "remedies-heat-compress",
+    "subject": "Warming a compress",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a folded plain cloth pad held near a small flame on a hearth stone. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/hittite-remedies/remedies-heat-compress.png",
+    "uses": [
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "heat-compress",
+        "title": "Heat and apply a compress",
+        "alt": "A folded cloth pad warming beside a small fire.",
+        "note": "Shown as a cloth pad by a fire, not applied to a body."
+      }
+    ]
+  },
+  {
+    "assetId": "remedies-crush-into-bag",
+    "subject": "Crushing plants",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a stone mortar and pestle with crushed green plants, beside a small closed leather pouch. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/hittite-remedies/remedies-crush-into-bag.png",
+    "uses": [
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "crush-into-bag",
+        "title": "Crush the plants into a bag",
+        "alt": "A pestle crushing plants beside a small leather bag.",
+        "note": "The bag is conjectural (tišni- \"bag?\")."
+      }
+    ]
+  },
+  {
+    "assetId": "remedies-carry-into-house",
+    "subject": "Carrying a bowl indoors",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man in a plain tunic carrying a small clay bowl through a plain rectangular doorframe. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/hittite-remedies/remedies-carry-into-house.png",
+    "uses": [
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "carry-into-house",
+        "title": "Carry it into the house",
+        "alt": "A man carrying a bowl through a doorway.",
+        "note": "Doorway simplified to a plain frame."
+      }
+    ]
+  },
+  {
+    "assetId": "remedies-into-honey",
+    "subject": "Remedy in honey",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small plain clay bowl of golden honey with a dark green paste being stirred in with two fingers. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/hittite-remedies/remedies-into-honey.png",
+    "uses": [
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "into-honey",
+        "title": "Give it in honey until he recovers",
+        "alt": "A small bowl of honey with a dark paste stirred in.",
+        "note": "Vessel illustrative."
+      }
+    ]
+  },
+  {
+    "assetId": "remedies-gut-fish",
+    "subject": "Gutted fish",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a whole grey fish lying on a plain wooden board, its belly neatly slit open, a small knife beside it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text. Match the existing tuppi ritual plates in /public/rituals. Genuine alpha transparency; no text or frame.",
+    "targetFile": "/rituals/hittite-remedies/remedies-gut-fish.png",
+    "uses": [
+      {
+        "ritualId": "hittite-remedies",
+        "stepId": "gut-fish",
+        "title": "Gut a fish",
+        "alt": "A fish lying on a board, cut open.",
+        "note": "Species not specified."
+      }
+    ]
+  }
+]

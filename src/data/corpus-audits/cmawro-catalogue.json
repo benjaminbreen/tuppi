@@ -1,0 +1,27 @@
+{
+  "corpusId": "cmawro",
+  "observedOn": "2026-09-29",
+  "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/Q005039",
+  "method": "Counts transcribed from the live Oracc catalogue outline; these are catalogue entries, not segmented procedures or unique manuscripts.",
+  "categories": [
+    { "id": "1", "label": "Prescriptions for Undoing Witchcraft", "entries": 8, "proceduralCandidate": true },
+    { "id": "2", "label": "Prescriptions to be Used for Bewitched Persons", "entries": 6, "proceduralCandidate": true },
+    { "id": "3", "label": "Prescriptions for Symptoms Indicating Witchcraft", "entries": 16, "proceduralCandidate": true },
+    { "id": "4", "label": "Cures for the Witchcraft-induced Loss of Potency", "entries": 3, "proceduralCandidate": true },
+    { "id": "5", "label": "Protecting Pregnant Women and Infants Against Witchcraft", "entries": 10, "proceduralCandidate": true },
+    { "id": "6", "label": "Instructions for the Fabrication of Amulet Necklaces against Witchcraft", "entries": 2, "proceduralCandidate": true },
+    { "id": "7", "label": "Ušburruda Texts", "entries": 39, "proceduralCandidate": true },
+    { "id": "8", "label": "Ceremonial Rituals for Undoing Witchcraft", "entries": 66, "proceduralCandidate": true },
+    { "id": "9", "label": "Anti-witchcraft Incantations within Bīt rimki and Related Texts", "entries": 9, "proceduralCandidate": false },
+    { "id": "10", "label": "Rituals against zikurudû and Other Special Types of Witchcraft", "entries": 19, "proceduralCandidate": true },
+    { "id": "11", "label": "Rituals in Case of Evil Omens Indicating Witchcraft", "entries": 7, "proceduralCandidate": true },
+    { "id": "12", "label": "Diagnostic Texts", "entries": 2, "proceduralCandidate": false },
+    { "id": "A", "label": "Additional Texts", "entries": 31, "proceduralCandidate": false },
+    { "id": "F", "label": "Small, Unassignable Fragments", "entries": 37, "proceduralCandidate": false },
+    { "id": "M", "label": "Maqlû", "entries": 9, "proceduralCandidate": false }
+  ],
+  "eligibleProcedures": null,
+  "translatedProcedures": null,
+  "uniqueWitnesses": null,
+  "rightsReviewed": false
+}

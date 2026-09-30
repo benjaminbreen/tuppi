@@ -1,0 +1,30 @@
+{
+  "title": "Plague ritual with Lapana",
+  "concern": "Plague",
+  "region": "Ḫatti",
+  "tags": [
+    "Plague",
+    "Bull",
+    "Offering"
+  ],
+  "sources": "KUB 41.16 + IBoT 4.309 · legible selection",
+  "description": "A fragmentary plague rite: a bull, four wicker tables, an evening fire, raw and cooked offerings and bowing to the gods.",
+  "searchTerms": [
+    "plague",
+    "Lapana",
+    "Appaluwa",
+    "bull",
+    "wicker table",
+    "fire",
+    "raw",
+    "cooked",
+    "bow"
+  ],
+  "id": "lapana-plague",
+  "path": "/rituals/lapana-plague",
+  "cth": 424,
+  "images": [
+    "/rituals/_pending.png"
+  ],
+  "stepCount": 7
+}

@@ -1,0 +1,86 @@
+{
+  "cmawro-q005109-11-3-1-sprinkle-riverbank": {
+    "title": "Sweep and sprinkle the riverbank",
+    "description": "On a favourable day, at the riverbank, the ground is beaten (swept) and sprinkled with pure water.",
+    "actionType": "sprinkle-water",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q005109-11-3-1-01"
+  },
+  "cmawro-q005109-11-3-1-altar-and-libation": {
+    "title": "Set up an altar and pour a libation",
+    "description": "A portable altar is set up before the god and a libation is poured.",
+    "actionType": "libate",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q005109-11-3-1-02"
+  },
+  "cmawro-q005109-11-3-1-make-male-female-clay-figures": {
+    "title": "Make a male and a female figure of clay",
+    "description": "Two figures, a male and a female, are made of clay.",
+    "actionType": "fashion-effigies",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q005109-11-3-1-03"
+  },
+  "cmawro-q005109-11-3-1-clothe-and-stand-before-god": {
+    "title": "The sick man dresses, stands before the god, recites",
+    "description": "The sick man puts on a garment, stands before the god and recites the incantation three times.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "cmawro-q005109-11-3-1-04"
+  },
+  "cmawro-q005109-11-3-1-send-evil-across-river": {
+    "title": "Ask that the evil cross river and mountain",
+    "description": "In the incantation the evil is told to cross over river and mountain and the sorcery to be far from the body.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "cmawro-q005109-11-3-1-05"
+  },
+  "cmawro-q005109-11-3-1-smoke-and-tamarisk-analogy": {
+    "title": "Like smoke, like uprooted tamarisk",
+    "description": "The incantation wishes the evil to rise like smoke to the sky and, like uprooted tamarisk, not return to its place.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "cmawro-q005109-11-3-1-06"
+  },
+  "cmawro-q005109-11-3-1-beer-libation-to-river": {
+    "title": "Pour beer before the river",
+    "description": "After reciting, he goes before the river and pours a beer libation.",
+    "actionType": "libate",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q005109-11-3-1-07"
+  },
+  "cmawro-q005109-11-3-1-dip-in-river-three-times": {
+    "title": "Sink three times in the river in a textile",
+    "description": "The sick man, with a textile, sinks into the river three times.",
+    "actionType": "immerse-in-river",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q005109-11-3-1-08"
+  },
+  "cmawro-q005109-11-3-1-ask-river-to-take-evil": {
+    "title": "Ask the river to carry the evil away",
+    "description": "In the incantation to the river he asks it to take away the evil and carry it down to the underground waters, so that it not come near him or his house.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "cmawro-q005109-11-3-1-09"
+  },
+  "cmawro-q005109-11-3-1-come-up-strip-and-bathe": {
+    "title": "Come up, tear off the textile, bathe",
+    "description": "After three recitations he comes up, the textile is torn away, and he is bathed from a holy-water vessel while an incantation is recited; then another textile.",
+    "actionType": "wash-body",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q005109-11-3-1-10"
+  },
+  "cmawro-q005109-11-3-1-touch-brewers-mash-tub": {
+    "title": "Enter a brewer's house and touch the mash tub",
+    "description": "Purified with censer, torch and pure water, he goes along the street, enters a brewer's house and touches the stand and mash tub.",
+    "actionType": "touch-object",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q005109-11-3-1-11"
+  },
+  "cmawro-q005109-11-3-1-touch-gate-gypsum-bitumen": {
+    "title": "Touch the gate with gypsum and bitumen",
+    "description": "The gate is touched with gypsum and bitumen; this concludes the apotropaic ritual.",
+    "actionType": "anoint-door",
+    "unitType": "act",
+    "visualAssetId": "cmawro-q005109-11-3-1-12"
+  }
+}

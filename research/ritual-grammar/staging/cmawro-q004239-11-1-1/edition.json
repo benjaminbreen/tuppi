@@ -1,0 +1,485 @@
+{
+  "id": "cmawro-q004239-11-1-1",
+  "corpusId": "cmawro",
+  "cth": null,
+  "sourceTextId": "Q004239",
+  "title": "When the gate buzzes",
+  "shortName": "CMAwR 11.1.1",
+  "eyebrow": "CMAwR 11.1.1 · Mesopotamian anti-witchcraft ritual",
+  "dating": {
+    "label": "Manuscript context not recorded",
+    "note": "The local lemmatized data records no witness period or findspot for this text. This is not a date for the original rite.",
+    "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr1/Q004239"
+  },
+  "purpose": "When a man's gate makes a buzzing sound, smear a pounded paste on the door-jamb with an incantation, wash it off into a cloth, then bury a fleece with sulphur and oil at the outer gate and door socket so that sorcery cannot approach.",
+  "attribution": "Omen-triggered ritual instruction; the practitioner acts",
+  "sourceSummary": "Q004239 · CMAwR vol. 1, 11.1.1:1–13",
+  "editionUrl": "https://oracc.museum.upenn.edu/cmawro/cmawr1/Q004239",
+  "editionLabel": "CMAwRo edition and translation",
+  "phases": [
+    {
+      "name": "Paste on the door-jamb",
+      "range": [
+        1,
+        4
+      ],
+      "idea": "A paste is pounded, charged by incantation, smeared on the jamb and washed off."
+    },
+    {
+      "name": "Deposit at the gate",
+      "range": [
+        5,
+        6
+      ],
+      "idea": "A fleece with sulphur and oil is buried at the gate."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "pound-paste",
+      "number": 1,
+      "title": "Pound sulphur, gypsum and red paste together",
+      "shortTitle": "Pound sulphur, gypsum and red paste together",
+      "shortDescription": "Sulphur, gypsum and red paste are pounded together into a mixture.",
+      "phase": "Paste on the door-jamb",
+      "unitType": "act",
+      "actionType": "pound-ingredients",
+      "verb": "Pound",
+      "summary": "Sulphur, gypsum and red paste are pounded together into a mixture.",
+      "patient": "Sulphur, gypsum and red paste",
+      "actor": "Ritual practitioner",
+      "material": [
+        "sulphur",
+        "gypsum",
+        "red paste"
+      ],
+      "evidence": "Line 2 glosses \"sulphur, gypsum, red paste together pound in mixture\"; line 3 begins \"mix (up)\".",
+      "image": {
+        "alt": "Illustrative reconstruction: pound sulphur, gypsum and red paste together.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q004239",
+          "locus": "11.1.1:2",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004239.3l",
+            "label": "11.1.1:2"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q004239-11-1-1-pound-paste",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "avert-harm",
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "materials",
+            "sub": "sulphur"
+          }
+        },
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "materials",
+            "sub": "gypsum"
+          }
+        },
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "materials",
+            "sub": "red paste"
+          }
+        },
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "materials",
+            "sub": "sulphur"
+          },
+          "result": {
+            "class": "materials",
+            "sub": "paste",
+            "ref": "paste"
+          }
+        }
+      ]
+    },
+    {
+      "id": "recite-tear-out-sorcery",
+      "number": 2,
+      "title": "Recite \"Furious, furious … tear out the sorcery\"",
+      "shortTitle": "Recite \"Furious, furious … tear out the sorcery\"",
+      "shortDescription": "The incantation \"Furious, furious, arisen evil …\" ends with a command to tear out the sorcery.",
+      "phase": "Paste on the door-jamb",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Recite",
+      "summary": "The incantation \"Furious, furious, arisen evil …\" ends with a command to tear out the sorcery.",
+      "patient": "The sorcery",
+      "actor": "Ritual practitioner",
+      "material": [],
+      "evidence": "Lines 3–5 gloss the incipit \"furious furious arisen bad … who? opponent … tear out sorcery\". The addressee is unclear; classed as dismissal of the sorcery.",
+      "image": {
+        "alt": "Illustrative reconstruction: recite \"furious, furious … tear out the sorcery\".",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q004239",
+          "locus": "11.1.1:5",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004239.6l",
+            "label": "11.1.1:5"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q004239-11-1-1-recite-tear-out-sorcery",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "pound-paste"
+        ],
+        "aims": [
+          "avert-harm",
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "about": {
+            "class": "harm",
+            "sub": "sorcery"
+          }
+        }
+      ]
+    },
+    {
+      "id": "recite-into-paste-and-smear-jamb",
+      "number": 3,
+      "title": "Recite into the paste; apply it to the door-jamb",
+      "shortTitle": "Recite into the paste; apply it to the door-jamb",
+      "shortDescription": "The incantation is recited three times into the mixture, which goes on the door-jamb of the man's house gate.",
+      "phase": "Paste on the door-jamb",
+      "unitType": "act",
+      "actionType": "anoint-door",
+      "verb": "Smear",
+      "summary": "The incantation is recited three times into the mixture, which goes on the door-jamb of the man's house gate.",
+      "patient": "Door-jamb of the man's gate",
+      "actor": "Ritual practitioner",
+      "material": [
+        "paste"
+      ],
+      "evidence": "Line 6 glosses \"incantation this thrice to interior count; (door-)jamb gate house man him\". No verb of smearing is glossed; application to the jamb is inferred from line 7, where the mixture is washed off. Reuses action type anoint-door.",
+      "image": {
+        "alt": "Illustrative reconstruction: recite into the paste; apply it to the door-jamb.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q004239",
+          "locus": "11.1.1:6",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004239.8l",
+            "label": "11.1.1:6"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q004239-11-1-1-recite-into-paste-and-smear-jamb",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "recite-tear-out-sorcery"
+        ],
+        "aims": [
+          "avert-harm",
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "about": {
+            "class": "materials",
+            "sub": "paste",
+            "ref": "paste"
+          },
+          "manner": "three times into the mixture"
+        },
+        {
+          "verb": "apply",
+          "theme": {
+            "class": "materials",
+            "sub": "paste",
+            "ref": "paste"
+          },
+          "onto": {
+            "class": "structure",
+            "sub": "door-jamb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash-off-into-cloth",
+      "number": 4,
+      "title": "Wash the paste off with silt into a cloth",
+      "shortTitle": "Wash the paste off with silt into a cloth",
+      "shortDescription": "Afterwards the mixture is washed off with silt, into a cloth trimming, and the harm is released.",
+      "phase": "Paste on the door-jamb",
+      "unitType": "act",
+      "actionType": "wash-off-door",
+      "verb": "Wash",
+      "summary": "Afterwards the mixture is washed off with silt, into a cloth trimming, and the harm is released.",
+      "patient": "Paste on the door-jamb",
+      "actor": "Ritual practitioner",
+      "material": [
+        "silt",
+        "cloth trimming"
+      ],
+      "evidence": "Lines 7–8 gloss \"silt wash (off) after mixture that mix; in (a cloth trimming) wash (off), intact, released\"; line 9 \"(so that) sorcery not come near man and house\". Whether the cloth is then disposed of is not stated.",
+      "image": {
+        "alt": "Illustrative reconstruction: wash the paste off with silt into a cloth.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q004239",
+          "locus": "11.1.1:8",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004239.10l",
+            "label": "11.1.1:8"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q004239-11-1-1-wash-off-into-cloth",
+      "composition": {
+        "function": "remove-mark",
+        "requires": [
+          "recite-into-paste-and-smear-jamb"
+        ],
+        "aims": [
+          "avert-harm",
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "wash",
+          "theme": {
+            "class": "structure",
+            "sub": "door-jamb"
+          },
+          "instrument": {
+            "class": "earth",
+            "sub": "silt"
+          },
+          "goal": {
+            "class": "garment",
+            "sub": "cloth trimming"
+          },
+          "note": "removes the paste"
+        },
+        {
+          "verb": "detach",
+          "theme": {
+            "class": "materials",
+            "sub": "paste",
+            "ref": "paste"
+          },
+          "from": {
+            "class": "structure",
+            "sub": "door-jamb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wrap-sulphur-oil-in-fleece",
+      "number": 5,
+      "title": "Wrap sulphur and oil in combed fleece",
+      "shortTitle": "Wrap sulphur and oil in combed fleece",
+      "shortDescription": "An alkaline plant, henbane(?) and a good mixture, with sulphur and oil, are enclosed in combed fleece.",
+      "phase": "Deposit at the gate",
+      "unitType": "act",
+      "actionType": "wrap-in-fleece",
+      "verb": "Wrap",
+      "summary": "An alkaline plant, henbane(?) and a good mixture, with sulphur and oil, are enclosed in combed fleece.",
+      "patient": "Fleece bundle",
+      "actor": "Ritual practitioner",
+      "material": [
+        "alkaline plant",
+        "henbane(?)",
+        "sulphur",
+        "oil",
+        "combed fleece"
+      ],
+      "evidence": "Line 10 glosses \"(an alkaline plant), henbane?, mixture good\"; line 11 \"sulphur, oil, combed, in fleece surround\". Only sulphur and oil are clearly wrapped; the line-10 plants are probably part of the same deposit.",
+      "image": {
+        "alt": "Illustrative reconstruction: wrap sulphur and oil in combed fleece.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q004239",
+          "locus": "11.1.1:11",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004239.14l",
+            "label": "11.1.1:11"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q004239-11-1-1-wrap-sulphur-oil-in-fleece",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "wash-off-into-cloth"
+        ],
+        "aims": [
+          "avert-harm",
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "materials",
+            "sub": "sulphur"
+          }
+        },
+        {
+          "verb": "wind",
+          "theme": {
+            "class": "wool",
+            "sub": "fleece",
+            "ref": "fleece"
+          },
+          "over": {
+            "class": "materials",
+            "sub": "sulphur"
+          },
+          "note": "fleece surrounds sulphur and oil"
+        },
+        {
+          "verb": "anoint",
+          "theme": {
+            "class": "wool",
+            "sub": "fleece",
+            "ref": "fleece"
+          },
+          "medium": {
+            "class": "fat",
+            "sub": "oil"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bury-at-gate-and-socket",
+      "number": 6,
+      "title": "Bury it at the outer gate and door socket",
+      "shortTitle": "Bury it at the outer gate and door socket",
+      "shortDescription": "The fleece deposit is buried at the outer gate and at the door's pivot socket, so that the sorcery is lost and cannot come near the man and his house.",
+      "phase": "Deposit at the gate",
+      "unitType": "act",
+      "actionType": "bury-at-threshold",
+      "verb": "Bury",
+      "summary": "The fleece deposit is buried at the outer gate and at the door's pivot socket, so that the sorcery is lost and cannot come near the man and his house.",
+      "patient": "Fleece deposit",
+      "actor": "Ritual practitioner",
+      "material": [
+        "fleece deposit"
+      ],
+      "evidence": "Line 11 ends \"in gate outer and socket for doorpost door\"; line 12 glosses \"cover (in earth), sorcery be lost\"; line 13 \"to man and house not come near\". Whether one or two deposits is unclear.",
+      "image": {
+        "alt": "Illustrative reconstruction: bury it at the outer gate and door socket.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q004239",
+          "locus": "11.1.1:12",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q004239.15l",
+            "label": "11.1.1:12"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q004239-11-1-1-bury-at-gate-and-socket",
+      "composition": {
+        "function": "seal-threshold",
+        "requires": [
+          "wrap-sulphur-oil-in-fleece"
+        ],
+        "aims": [
+          "avert-harm",
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "bury",
+          "theme": {
+            "class": "wool",
+            "sub": "fleece",
+            "ref": "fleece"
+          },
+          "location": {
+            "class": "structure",
+            "sub": "outer gate"
+          }
+        },
+        {
+          "verb": "bury",
+          "theme": {
+            "class": "wool",
+            "sub": "fleece",
+            "ref": "fleece"
+          },
+          "location": {
+            "class": "structure",
+            "sub": "door socket"
+          }
+        }
+      ],
+      "place": "Outer gate and door socket"
+    }
+  ]
+}

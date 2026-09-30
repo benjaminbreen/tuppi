@@ -1,0 +1,1181 @@
+{
+  "id": "potency-prescriptions",
+  "cth": 802,
+  "title": "Prescriptions for potency",
+  "shortName": "Potency prescriptions",
+  "eyebrow": "CTH 802 · Babylonian medicine at Ḫattuša",
+  "dating": {
+    "label": "copied at Ḫattuša, 14th–13th c. BCE",
+    "note": "An Akkadian tablet found at Ḫattuša, not in Boğazköy script (probably imported or copied from a Babylonian original). The date is an approximate manuscript date, not a date of composition.",
+    "sourceUrl": "https://www.hethport.uni-wuerzburg.de/CTH/"
+  },
+  "purpose": "Babylonian prescriptions, copied at Ḫattuša, for restoring a man’s sexual potency with dried and crushed animal and plant ingredients, washes, anointing and an incantation.",
+  "attribution": "Anonymous Babylonian medical series",
+  "sourceSummary": "KUB 4.48 (Bo 4894) obv., rev., left edge",
+  "editionUrl": "https://www.hethport.uni-wuerzburg.de/CTH/",
+  "editionLabel": "Hethitologie-Portal Mainz, CTH catalogue (see Biggs, TCS 2; Zisa 2021)",
+  "phases": [
+    {
+      "name": "Partridge remedy",
+      "range": [
+        1,
+        5
+      ],
+      "idea": "A male partridge is caught, killed, salted, dried, crushed and drunk in beer."
+    },
+    {
+      "name": "Water under the stars",
+      "range": [
+        6,
+        8
+      ],
+      "idea": "Blood-water is left out overnight and drunk at sunrise."
+    },
+    {
+      "name": "Other preparations",
+      "range": [
+        9,
+        15
+      ],
+      "idea": "Wool bundles, flour mixtures, pellets, washing and anointing."
+    },
+    {
+      "name": "Incantation and closing recipe",
+      "range": [
+        16,
+        17
+      ],
+      "idea": "A Sumerian incantation and a final partridge decoction."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "catch-partridge",
+      "number": 1,
+      "title": "Catch a male partridge",
+      "shortTitle": "Catch partridge",
+      "shortDescription": "A male partridge is caught at the end of the month Nisannu.",
+      "phase": "Partridge remedy",
+      "unitType": "act",
+      "actionType": "gather-remedy-material",
+      "verb": "Catch",
+      "summary": "The practitioner catches a male partridge at the end(?) of the month Nisannu, the first spring month.",
+      "patient": "A male partridge",
+      "actor": "The practitioner",
+      "material": [
+        "Male partridge"
+      ],
+      "evidence": "Obv. ¶1. The time of year is specified; a later recipe (¶24) sets the catch in Ayyaru instead.",
+      "image": {
+        "alt": "A man holding a live partridge in both hands.",
+        "note": "The bird is shown generically; the text specifies only that it is male."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 1–2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "potency-catch-partridge",
+      "composition": {
+        "function": "collect-material",
+        "requires": [],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "bird",
+            "sub": "partridge",
+            "ref": "partridge"
+          },
+          "time": "end of the month Nisannu"
+        }
+      ]
+    },
+    {
+      "id": "pluck-strangle",
+      "number": 2,
+      "title": "Pluck and strangle the partridge",
+      "shortTitle": "Pluck and strangle",
+      "shortDescription": "The wings are plucked and the bird is strangled and flattened(?).",
+      "phase": "Partridge remedy",
+      "unitType": "act",
+      "actionType": "kill-animal",
+      "verb": "Pluck, strangle",
+      "summary": "The wings of the partridge are plucked; it is strangled and flattened(?).",
+      "patient": "The partridge",
+      "actor": "The practitioner",
+      "material": [
+        "Male partridge"
+      ],
+      "evidence": "Obv. ¶1. The reading \"flatten\" is uncertain in the draft translation.",
+      "image": {
+        "alt": "A plucked partridge lying on a board beside a small heap of feathers.",
+        "note": "Shown after the act, without depicting the strangling."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "potency-pluck-strangle",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [
+          "catch-partridge"
+        ],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "detach",
+          "theme": {
+            "class": "bird",
+            "sub": "feathers",
+            "f": {
+              "part": "wings"
+            }
+          },
+          "from": {
+            "class": "bird",
+            "sub": "partridge",
+            "ref": "partridge"
+          }
+        },
+        {
+          "verb": "kill",
+          "theme": {
+            "class": "bird",
+            "sub": "partridge",
+            "ref": "partridge"
+          },
+          "manner": "strangling",
+          "result": {
+            "class": "meat",
+            "sub": "partridge"
+          }
+        }
+      ]
+    },
+    {
+      "id": "salt-dry",
+      "number": 3,
+      "title": "Salt and dry the bird",
+      "shortTitle": "Salt and dry",
+      "shortDescription": "Salt is sprinkled on the bird and it is dried.",
+      "phase": "Partridge remedy",
+      "unitType": "act",
+      "actionType": "dry-material",
+      "verb": "Salt, dry",
+      "summary": "Salt is sprinkled on the bird, which is then dried.",
+      "patient": "The partridge",
+      "actor": "The practitioner",
+      "material": [
+        "Salt",
+        "Partridge"
+      ],
+      "evidence": "Obv. ¶1. Other recipes (¶¶5–6) instead smear the bird with salt and the nīnû-plant before drying.",
+      "image": {
+        "alt": "A plucked bird on a board being sprinkled with salt.",
+        "note": "The drying method is not specified."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 2–3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "potency-salt-dry",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [
+          "pluck-strangle"
+        ],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "stone",
+            "sub": "salt"
+          },
+          "onto": {
+            "class": "bird",
+            "sub": "partridge",
+            "ref": "partridge"
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "bird",
+            "sub": "partridge",
+            "ref": "partridge"
+          },
+          "manner": "to dry"
+        }
+      ]
+    },
+    {
+      "id": "crush-with-thorn",
+      "number": 4,
+      "title": "Crush with thorn seed",
+      "shortTitle": "Crush with seed",
+      "shortDescription": "The dried bird is crushed together with seed of the mountain GÍR.ḪAB-thorn.",
+      "phase": "Partridge remedy",
+      "unitType": "act",
+      "actionType": "crush-material",
+      "verb": "Crush",
+      "summary": "The dried partridge is crushed together with seed of the mountain GÍR.ḪAB-thorn.",
+      "patient": "The dried partridge",
+      "actor": "The practitioner",
+      "material": [
+        "Dried partridge",
+        "Seed of the GÍR.ḪAB-thorn"
+      ],
+      "evidence": "Obv. ¶1. The same thorn seed recurs in ¶6 and the closing recipe (¶24).",
+      "image": {
+        "alt": "A pestle and mortar holding dried material and small seeds.",
+        "note": "The plant identification is uncertain; seeds are shown generically."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "potency-crush-with-thorn",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [
+          "salt-dry"
+        ],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "bird",
+            "sub": "partridge",
+            "ref": "partridge"
+          }
+        },
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "plant",
+            "sub": "seed"
+          },
+          "with": {
+            "class": "bird",
+            "sub": "partridge",
+            "ref": "partridge"
+          },
+          "note": "seed of the mountain GÍR.ḪAB-thorn"
+        }
+      ]
+    },
+    {
+      "id": "drink-in-beer",
+      "number": 5,
+      "title": "Give it to drink in beer",
+      "shortTitle": "Drink in beer",
+      "shortDescription": "The powder is given to the man to drink in beer.",
+      "phase": "Partridge remedy",
+      "unitType": "act",
+      "actionType": "give-remedy",
+      "verb": "Give to drink",
+      "summary": "The powder is given to the man to drink in beer; the recipe promises that he will have potency.",
+      "patient": "The man",
+      "actor": "The practitioner",
+      "material": [
+        "Beer",
+        "Crushed remedy"
+      ],
+      "evidence": "Obv. ¶1. Most recipes on the tablet end with a drink in beer or water.",
+      "image": {
+        "alt": "A cup of beer with a dark powder being stirred in.",
+        "note": "Vessel shape is illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 3–4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 0
+          }
+        }
+      ],
+      "unitId": "potency-drink-in-beer",
+      "composition": {
+        "function": "administer-remedy",
+        "requires": [
+          "crush-with-thorn"
+        ],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "remedy",
+            "sub": "powder"
+          },
+          "with": {
+            "class": "drink",
+            "sub": "beer"
+          }
+        },
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "remedy",
+            "sub": "powder"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "medium": {
+            "class": "drink",
+            "sub": "beer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blood-into-water",
+      "number": 6,
+      "title": "Let the blood fall into water",
+      "shortTitle": "Blood into water",
+      "shortDescription": "A partridge’s head is cut off and its blood let fall into water.",
+      "phase": "Water under the stars",
+      "unitType": "act",
+      "actionType": "mix-remedy",
+      "verb": "Cut, drain",
+      "summary": "The head of a male partridge is cut off and its blood is let fall into water; its heart is swallowed(?).",
+      "patient": "A male partridge",
+      "actor": "The practitioner",
+      "material": [
+        "Male partridge",
+        "Water"
+      ],
+      "evidence": "Obv. ¶3. \"Swallow(?)\" the heart is uncertain and not atomised.",
+      "image": {
+        "alt": "A bowl of water with a few red drops.",
+        "note": "The bird is not shown; only the bowl of water and blood."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 9–10",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "potency-blood-into-water",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "cut",
+          "theme": {
+            "class": "bird",
+            "sub": "partridge",
+            "f": {
+              "part": "head"
+            },
+            "ref": "partridge2"
+          }
+        },
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "liquid",
+            "sub": "blood"
+          },
+          "goal": {
+            "class": "liquid",
+            "sub": "water",
+            "ref": "night-water"
+          },
+          "from": {
+            "class": "bird",
+            "sub": "partridge",
+            "ref": "partridge2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "water-under-stars",
+      "number": 7,
+      "title": "Leave the water under the stars",
+      "shortTitle": "Under the stars",
+      "shortDescription": "The water is left out overnight under the stars.",
+      "phase": "Water under the stars",
+      "unitType": "act",
+      "actionType": "expose-overnight",
+      "verb": "Leave overnight",
+      "summary": "The water is left out overnight under the stars.",
+      "patient": "The bowl of water",
+      "actor": "The practitioner",
+      "material": [
+        "Water with blood"
+      ],
+      "evidence": "Obv. ¶3; the same exposure recurs in ¶11 and ¶13 (\"you set it on the roof\"). A Hittite parallel is KUB 44.64 (\"he entrusts it to the stars\").",
+      "image": {
+        "alt": "A bowl of water on a flat roof under a starry sky.",
+        "note": "A flat roof is suggested by ¶13; stars are schematic."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 10–11",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "expose-remedy-to-stars",
+      "composition": {
+        "function": "expose-remedy",
+        "requires": [
+          "blood-into-water"
+        ],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "liquid",
+            "sub": "water",
+            "ref": "night-water"
+          },
+          "location": "outdoors, under the stars",
+          "time": "overnight"
+        }
+      ]
+    },
+    {
+      "id": "drink-at-sunrise",
+      "number": 8,
+      "title": "Drink at sunrise",
+      "shortTitle": "Drink at sunrise",
+      "shortDescription": "When the sun comes up the man drinks the water.",
+      "phase": "Water under the stars",
+      "unitType": "act",
+      "actionType": "give-remedy",
+      "verb": "Give to drink",
+      "summary": "When the sun comes up the water is given to the man to drink.",
+      "patient": "The man",
+      "actor": "The practitioner",
+      "material": [
+        "Night-exposed water"
+      ],
+      "evidence": "Obv. ¶3. Uses the same canonical task as step 5.",
+      "image": {
+        "alt": "A man drinking from a bowl at dawn.",
+        "note": "Dawn is indicated by a low sun disc."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 11",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "potency-drink-in-beer",
+      "composition": {
+        "function": "administer-remedy",
+        "requires": [
+          "water-under-stars"
+        ],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "liquid",
+            "sub": "water",
+            "ref": "night-water"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "time": "at sunrise"
+        }
+      ]
+    },
+    {
+      "id": "wrap-in-wool",
+      "number": 9,
+      "title": "Wrap in wool",
+      "shortTitle": "Wrap in wool",
+      "shortDescription": "Bird and animal ingredients are wrapped in wool from a sheep’s thigh(?).",
+      "phase": "Other preparations",
+      "unitType": "act",
+      "actionType": "wrap-amulet-materials",
+      "verb": "Wrap",
+      "summary": "The ingredients are wrapped in wool from the thigh(?) of a sheep and put on an unclear part (BÁR.KA).",
+      "patient": "Remedy ingredients",
+      "actor": "The practitioner",
+      "material": [
+        "Sheep’s wool"
+      ],
+      "evidence": "Obv. ¶4. The place where the bundle is put (BÁR.KA) is unclear, and the reading \"thigh\" is uncertain. Action type matches the existing \"wrap-amulet-materials\".",
+      "image": {
+        "alt": "A small bundle wrapped in raw wool.",
+        "note": "Contents are not shown."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 13–15",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "potency-wrap-in-wool",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "wind",
+          "theme": {
+            "class": "wool",
+            "sub": "wool",
+            "f": {
+              "part": "thigh"
+            }
+          },
+          "onto": {
+            "class": "remedy",
+            "sub": "ingredients"
+          }
+        }
+      ]
+    },
+    {
+      "id": "smear-salt-plant",
+      "number": 10,
+      "title": "Smear with salt and nīnû-plant",
+      "shortTitle": "Smear with salt",
+      "shortDescription": "A plucked bird is smeared with salt and the nīnû-plant, dried and crushed.",
+      "phase": "Other preparations",
+      "unitType": "act",
+      "actionType": "dry-material",
+      "verb": "Smear",
+      "summary": "A plucked AL.DI.RÍ.GA-bird is smeared with salt and the nīnû-plant, then dried and crushed.",
+      "patient": "An AL.DI.RÍ.GA-bird",
+      "actor": "The practitioner",
+      "material": [
+        "Salt",
+        "nīnû-plant (Ú.KUR.RA)"
+      ],
+      "evidence": "Obv. ¶5; ¶6 repeats the procedure for a NAM.GEŠTIN-bird with amānu-salt. Bird species unidentified.",
+      "image": {
+        "alt": "A plucked bird being rubbed with salt and green herb.",
+        "note": "The bird species is unidentified; shown generically."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 16–17",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "potency-smear-salt-plant",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "apply",
+          "theme": {
+            "class": "stone",
+            "sub": "salt"
+          },
+          "onto": {
+            "class": "bird",
+            "sub": "bird",
+            "ref": "bird2"
+          }
+        },
+        {
+          "verb": "apply",
+          "theme": {
+            "class": "plant",
+            "sub": "nīnû-plant"
+          },
+          "onto": {
+            "class": "bird",
+            "sub": "bird",
+            "ref": "bird2"
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "bird",
+            "sub": "bird",
+            "ref": "bird2"
+          },
+          "manner": "to dry"
+        },
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "bird",
+            "sub": "bird",
+            "ref": "bird2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mix-roasted-flour",
+      "number": 11,
+      "title": "Mix with roasted-grain flour",
+      "shortTitle": "Mix with flour",
+      "shortDescription": "The crushed bird is mixed with flour of roasted grain and drunk.",
+      "phase": "Other preparations",
+      "unitType": "act",
+      "actionType": "mix-remedy",
+      "verb": "Mix",
+      "summary": "The crushed bird is mixed with flour of roasted grain and given to the man to drink.",
+      "patient": "The crushed bird",
+      "actor": "The practitioner",
+      "material": [
+        "Flour of roasted grain"
+      ],
+      "evidence": "Obv. ¶5.",
+      "image": {
+        "alt": "Flour and crushed material being mixed in a bowl.",
+        "note": "Proportions are not given."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 17–18",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 4
+          }
+        }
+      ],
+      "unitId": "potency-mix-roasted-flour",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [
+          "smear-salt-plant"
+        ],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "bird",
+            "sub": "bird",
+            "ref": "bird2"
+          },
+          "with": {
+            "class": "food",
+            "sub": "flour",
+            "f": {
+              "material": "roasted grain"
+            }
+          }
+        },
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "remedy",
+            "sub": "mixture"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
+    },
+    {
+      "id": "form-pellets",
+      "number": 12,
+      "title": "Form pellets",
+      "shortTitle": "Form pellets",
+      "shortDescription": "Fourteen crushed ingredients are mixed with coarse flour and formed into pellets.",
+      "phase": "Other preparations",
+      "unitType": "act",
+      "actionType": "mix-remedy",
+      "verb": "Form",
+      "summary": "Wing, dung, lizard and plant ingredients (\"14 plants(?)\") are crushed together, mixed with coarse flour and formed into pellets; three kuppatinnu-pellets are made.",
+      "patient": "Remedy ingredients",
+      "actor": "The practitioner",
+      "material": [
+        "Eagle wing",
+        "Mating geckos",
+        "Seeds and plants",
+        "Coarse flour"
+      ],
+      "evidence": "Obv. ¶8. Several ingredient names are restored; the use of the pellets is partly broken.",
+      "image": {
+        "alt": "Three small round pellets beside a heap of coarse flour.",
+        "note": "Ingredients are not individually shown."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 25–30",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 7
+          }
+        }
+      ],
+      "unitId": "potency-form-pellets",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "materials",
+            "sub": "ingredients",
+            "ref": "fourteen"
+          }
+        },
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "materials",
+            "sub": "ingredients",
+            "ref": "fourteen"
+          },
+          "with": {
+            "class": "food",
+            "sub": "flour"
+          }
+        },
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "remedy",
+            "sub": "pellet",
+            "count": 3
+          },
+          "result": {
+            "class": "remedy",
+            "sub": "pellet",
+            "count": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "bind-on-hips",
+      "number": 13,
+      "title": "Bind on the hips",
+      "shortTitle": "Bind on hips",
+      "shortDescription": "The preparation is bound on the hips.",
+      "phase": "Other preparations",
+      "unitType": "act",
+      "actionType": "place-amulet-on-patient",
+      "verb": "Bind",
+      "summary": "The preparation is bound on the hips; ¶15 likewise wraps partridge and ram parts and places them on the hips.",
+      "patient": "The man",
+      "actor": "The practitioner",
+      "material": [
+        "Wrapped preparation"
+      ],
+      "evidence": "Obv. ¶8 (broken context); cf. ¶15. Action type matches the existing \"place-amulet-on-patient\".",
+      "image": {
+        "alt": "A small wrapped bundle on a cord.",
+        "note": "Shown as a bundle on a cord, not on a body."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 obv. I 31",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 7
+          }
+        }
+      ],
+      "unitId": "potency-bind-on-hips",
+      "composition": {
+        "function": "administer-remedy",
+        "requires": [
+          "form-pellets"
+        ],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "tie",
+          "theme": {
+            "class": "remedy",
+            "sub": "bundle"
+          },
+          "onto": {
+            "class": "body",
+            "sub": "hips"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rinse-body",
+      "number": 14,
+      "title": "Rinse with water and kasû",
+      "shortTitle": "Rinse body",
+      "shortDescription": "The seated man is rinsed with water and the kasû-plant.",
+      "phase": "Other preparations",
+      "unitType": "act",
+      "actionType": "wash-body",
+      "verb": "Rinse",
+      "summary": "After a seed-water has stood overnight on the roof, the seated man’s whole body is rinsed with water and the kasû-plant.",
+      "patient": "The man",
+      "actor": "The practitioner",
+      "material": [
+        "Water",
+        "kasû-plant"
+      ],
+      "evidence": "Obv. ¶13; \"kasû\" is partly restored. Action type matches the existing \"wash-body\".",
+      "image": {
+        "alt": "A seated man having water poured over his shoulders.",
+        "note": "Clothing is illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 rev. 7–9",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 12
+          }
+        }
+      ],
+      "unitId": "potency-rinse-body",
+      "composition": {
+        "function": "wash-clean",
+        "requires": [],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "wash",
+          "theme": {
+            "class": "body",
+            "sub": "body"
+          },
+          "with": {
+            "class": "liquid",
+            "sub": "water"
+          },
+          "instrument": {
+            "class": "plant",
+            "sub": "kasû-plant"
+          },
+          "note": "the man is seated"
+        }
+      ]
+    },
+    {
+      "id": "anoint-oil",
+      "number": 15,
+      "title": "Anoint repeatedly with oil",
+      "shortTitle": "Anoint with oil",
+      "shortDescription": "The man is anointed repeatedly with pure oil.",
+      "phase": "Other preparations",
+      "unitType": "act",
+      "actionType": "anoint-body",
+      "verb": "Anoint",
+      "summary": "A crushed mixture is combined with pure oil and the man is anointed repeatedly.",
+      "patient": "The man",
+      "actor": "The practitioner",
+      "material": [
+        "Pure oil",
+        "Crushed ingredients"
+      ],
+      "evidence": "Obv. ¶13; the same phrase is restored in ¶14.",
+      "image": {
+        "alt": "A small oil flask and a hand with oil on the palm.",
+        "note": "The body part is not specified in the legible text."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 rev. 11–12",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 12
+          }
+        }
+      ],
+      "unitId": "potency-anoint-oil",
+      "composition": {
+        "function": "administer-remedy",
+        "requires": [],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "combine",
+          "theme": {
+            "class": "materials",
+            "sub": "crushed ingredients"
+          },
+          "with": {
+            "class": "fat",
+            "sub": "oil"
+          }
+        },
+        {
+          "verb": "anoint",
+          "theme": {
+            "class": "fat",
+            "sub": "oil"
+          },
+          "onto": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "manner": "repeatedly"
+        }
+      ]
+    },
+    {
+      "id": "sumerian-incantation",
+      "number": 16,
+      "title": "Recite the Sumerian incantation",
+      "shortTitle": "Incantation",
+      "shortDescription": "A Sumerian incantation is recited, closing with the formula én-nu-ru.",
+      "phase": "Incantation and closing recipe",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Recite",
+      "summary": "A Sumerian incantation, fragmentary, calls for calm(?) and repeats \"rise\"(?); it closes with the formula én-nu-ru.",
+      "patient": "The man",
+      "actor": "The practitioner",
+      "material": [],
+      "evidence": "Rev. ¶23. The text is fragmentary and not understood in detail; its classification as a petition is tentative. Action type matches the existing \"speak-address\".",
+      "image": {
+        "alt": "A standing man speaking with raised hand.",
+        "note": "No addressee is legible."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 rev.",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 22
+          }
+        }
+      ],
+      "unitId": "potency-sumerian-incantation",
+      "composition": {
+        "function": "recite-incantation",
+        "requires": [],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "about": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "note": "fragmentary; \"be calm\", \"rise\""
+        }
+      ]
+    },
+    {
+      "id": "crush-decoct-sinews",
+      "number": 17,
+      "title": "Crush and decoct the sinews",
+      "shortTitle": "Crush and decoct",
+      "shortDescription": "A partridge caught in Ayyaru: its sinews and intestines are crushed with stones and decocted, then drunk in beer.",
+      "phase": "Incantation and closing recipe",
+      "unitType": "act",
+      "actionType": "crush-material",
+      "verb": "Crush, decoct",
+      "summary": "A male partridge caught in Ayyaru: its sinews and intestines are crushed with stones and decocted, mixed with seed, beaten up in beer and drunk on an empty stomach.",
+      "patient": "Partridge sinews and intestines",
+      "actor": "The practitioner",
+      "material": [
+        "Male partridge",
+        "Seed of the aluzinnu-plant",
+        "Beer"
+      ],
+      "evidence": "Edge ¶24; many readings uncertain. The same edge closes with a further mixture anointed three times(?) and the subscript naming the series.",
+      "image": {
+        "alt": "Stones crushing material in a shallow bowl beside a small pot.",
+        "note": "Innards are shown as indistinct brown material."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-4-48",
+          "locus": "KUB 4.48 left edge",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 23
+          }
+        }
+      ],
+      "unitId": "potency-crush-decoct-sinews",
+      "composition": {
+        "function": "prepare-remedy",
+        "requires": [],
+        "aims": [
+          "restore-potency"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "crush",
+          "theme": {
+            "class": "bird",
+            "sub": "partridge",
+            "f": {
+              "part": "sinews"
+            }
+          },
+          "instrument": {
+            "class": "stone",
+            "sub": "stones"
+          }
+        },
+        {
+          "verb": "cook",
+          "theme": {
+            "class": "bird",
+            "sub": "partridge",
+            "f": {
+              "part": "sinews"
+            }
+          },
+          "manner": "decocted"
+        },
+        {
+          "verb": "ingest",
+          "theme": {
+            "class": "remedy",
+            "sub": "mixture"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "medium": {
+            "class": "drink",
+            "sub": "beer"
+          },
+          "time": "on an empty stomach"
+        }
+      ]
+    }
+  ]
+}

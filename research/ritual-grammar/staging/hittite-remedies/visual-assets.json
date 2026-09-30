@@ -1,0 +1,79 @@
+{
+  "remedies-take-herbs": {
+    "src": "/rituals/_pending.png",
+    "subject": "Heaps of herbs",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: four small heaps of seeds and dried green herbs laid side by side on a plain wooden board. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "remedies-give-seven-days": {
+    "src": "/rituals/_pending.png",
+    "subject": "Giving a remedy",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a standing man handing a small plain clay cup to a seated man. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "remedies-steep-sift": {
+    "src": "/rituals/_pending.png",
+    "subject": "Steeping and sifting",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a plain clay bowl of liquid with garlic and leek pieces, and a hand straining it through a coarse cloth. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "remedies-sew-into-cord": {
+    "src": "/rituals/_pending.png",
+    "subject": "Root sewn into leather cord",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands with a bone needle sewing a small plant root into a narrow strip of leather cord. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "remedies-twist-sinew": {
+    "src": "/rituals/_pending.png",
+    "subject": "Twisting a sinew",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: hands twisting a pale animal sinew together with a narrow leather cord. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "remedies-heat-compress": {
+    "src": "/rituals/_pending.png",
+    "subject": "Warming a compress",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a folded plain cloth pad held near a small flame on a hearth stone. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "remedies-crush-into-bag": {
+    "src": "/rituals/_pending.png",
+    "subject": "Crushing plants",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a stone mortar and pestle with crushed green plants, beside a small closed leather pouch. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "remedies-entrust-to-stars": {
+    "src": "/rituals/_pending.png",
+    "subject": "Remedy under the stars",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small plain clay bowl standing alone with a few schematic stars above it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "remedies-carry-into-house": {
+    "src": "/rituals/_pending.png",
+    "subject": "Carrying a bowl indoors",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a man in a plain tunic carrying a small clay bowl through a plain rectangular doorframe. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "remedies-into-honey": {
+    "src": "/rituals/_pending.png",
+    "subject": "Remedy in honey",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small plain clay bowl of golden honey with a dark green paste being stirred in with two fingers. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "remedies-gut-fish": {
+    "src": "/rituals/_pending.png",
+    "subject": "Gutted fish",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a whole grey fish lying on a plain wooden board, its belly neatly slit open, a small knife beside it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  }
+}

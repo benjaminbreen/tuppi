@@ -1,0 +1,699 @@
+{
+  "id": "cmawro-q002713-9-22-31",
+  "corpusId": "cmawro",
+  "cth": null,
+  "sourceTextId": "Q002713",
+  "title": "Burning the figures in the crucible",
+  "shortName": "Maqlû IX 22′–31′",
+  "eyebrow": "Maqlû IX 22′–31′ · Mesopotamian anti-witchcraft ritual",
+  "dating": {
+    "label": "Manuscript context not recorded",
+    "note": "Maqlû ritual tablet; the local lemmatized data records no witness period or findspot for this composite text. This is not a date for the original rite.",
+    "sourceUrl": "https://oracc.museum.upenn.edu/cmawro/maqlu/Q002713"
+  },
+  "purpose": "Inside a drawn circle, arrange figures of nine materials in a crucible, identify them as the witchcraft's doer, kindle a torch, and throw fire into the crucible to burn them.",
+  "attribution": "Ritual tablet (Tablet IX) of the Maqlû ceremony; the practitioner acts",
+  "sourceSummary": "Q002713 · Maqlû ritual tablet IX 22′–31′",
+  "editionUrl": "https://oracc.museum.upenn.edu/cmawro/maqlu/Q002713",
+  "editionLabel": "CMAwRo edition and translation",
+  "phases": [
+    {
+      "name": "Circle and figures",
+      "range": [
+        1,
+        3
+      ],
+      "idea": "A circle is drawn round the crucible, the figures are set in it and identified as the doer."
+    },
+    {
+      "name": "Kindle the torch",
+      "range": [
+        4,
+        6
+      ],
+      "idea": "A torch is set on the fat figures, dressed with woods and lit from sulphur fire."
+    },
+    {
+      "name": "Burn",
+      "range": [
+        7,
+        7
+      ],
+      "idea": "Fire is thrown into the crucible."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "draw-circle-round-crucible",
+      "number": 1,
+      "title": "Draw a magic circle round the crucible",
+      "shortTitle": "Draw a magic circle round the crucible",
+      "shortDescription": "A magic circle is drawn around the crucible.",
+      "phase": "Circle and figures",
+      "unitType": "act",
+      "actionType": "draw-magic-circle",
+      "verb": "Draw",
+      "summary": "A magic circle is drawn around the crucible.",
+      "patient": "Magic circle round the crucible",
+      "actor": "Ritual practitioner",
+      "material": [
+        "gypsum",
+        "flour",
+        "crucible"
+      ],
+      "evidence": "Line 22′ glosses \"magic circle, crucible, draw\"; the materials gypsum and a kind of flour are named in the incantation line 21′ just before and are only probably the drawing medium.",
+      "image": {
+        "alt": "Illustrative reconstruction: draw a magic circle round the crucible.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q002713",
+          "locus": "22ʹ",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q002713.35l",
+            "label": "22ʹ"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q002713-9-22-31-draw-circle-round-crucible",
+      "composition": {
+        "function": "construct-setting",
+        "requires": [],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "scatter",
+          "theme": {
+            "class": "materials",
+            "sub": "flour"
+          },
+          "boundary": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          },
+          "manner": "drawn as a magic circle"
+        }
+      ]
+    },
+    {
+      "id": "arrange-figures-in-crucible",
+      "number": 2,
+      "title": "Arrange figures of nine materials in the crucible",
+      "shortTitle": "Arrange figures of nine materials in the crucible",
+      "shortDescription": "Figures of tamarisk, cedar, tallow, wax, husks, bitumen, gypsum, clay and dough are placed in order in the crucible.",
+      "phase": "Circle and figures",
+      "unitType": "act",
+      "actionType": "arrange-figures",
+      "verb": "Arrange",
+      "summary": "Figures of tamarisk, cedar, tallow, wax, husks, bitumen, gypsum, clay and dough are placed in order in the crucible.",
+      "patient": "Figures of tamarisk, cedar, tallow, wax, husks, bitumen, gypsum, clay and dough",
+      "actor": "Ritual practitioner",
+      "material": [
+        "tamarisk",
+        "cedar",
+        "tallow",
+        "wax",
+        "husks",
+        "bitumen",
+        "gypsum",
+        "clay",
+        "dough"
+      ],
+      "evidence": "Lines 23′–25′ list the nine figures; line 25′ glosses \"in the crucible place in order, put\". The figures are not said here to be made, only set out, so no fashioning step is mapped.",
+      "image": {
+        "alt": "Illustrative reconstruction: arrange figures of nine materials in the crucible.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q002713",
+          "locus": "25ʹ",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q002713.38l",
+            "label": "25ʹ"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q002713-9-22-31-arrange-figures-in-crucible",
+      "composition": {
+        "function": "place-in-carrier",
+        "requires": [
+          "draw-circle-round-crucible"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "tamarisk"
+            }
+          },
+          "goal": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          },
+          "manner": "in order"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "cedar"
+            }
+          },
+          "goal": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          },
+          "manner": "in order"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "tallow"
+            }
+          },
+          "goal": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          },
+          "manner": "in order"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "wax"
+            }
+          },
+          "goal": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          },
+          "manner": "in order"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "husks"
+            }
+          },
+          "goal": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          },
+          "manner": "in order"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "bitumen"
+            }
+          },
+          "goal": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          },
+          "manner": "in order"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "gypsum"
+            }
+          },
+          "goal": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          },
+          "manner": "in order"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "clay"
+            }
+          },
+          "goal": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          },
+          "manner": "in order"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "dough"
+            }
+          },
+          "goal": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          },
+          "manner": "in order"
+        }
+      ]
+    },
+    {
+      "id": "identify-figures-as-doer",
+      "number": 3,
+      "title": "Point at the figures and name them as the doer",
+      "shortTitle": "Point at the figures and name them as the doer",
+      "shortDescription": "Reciting the incantation \"this effigy of the doer\", the practitioner stretches a finger toward the figures.",
+      "phase": "Circle and figures",
+      "unitType": "act",
+      "actionType": "gesture-at-figures",
+      "verb": "Recite",
+      "summary": "Reciting the incantation \"this effigy of the doer\", the practitioner stretches a finger toward the figures.",
+      "patient": "The figures",
+      "actor": "Ritual practitioner",
+      "material": [],
+      "evidence": "Line 26′ glosses \"incantation: this effigy (of the) doer; finger to skull (= over them) stretch out; count\". The utterance is classed as a declaration identifying the figures with the witch.",
+      "image": {
+        "alt": "Illustrative reconstruction: point at the figures and name them as the doer.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q002713",
+          "locus": "26ʹ",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q002713.39l",
+            "label": "26ʹ"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q002713-9-22-31-identify-figures-as-doer",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [
+          "arrange-figures-in-crucible"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "gesture",
+          "theme": {
+            "class": "body",
+            "sub": "finger"
+          },
+          "to": {
+            "class": "figure",
+            "count": 9,
+            "ref": "maqlu-figures"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "about": {
+            "class": "figure",
+            "count": 9,
+            "ref": "maqlu-figures"
+          }
+        }
+      ]
+    },
+    {
+      "id": "set-torch-on-fat-figures",
+      "number": 4,
+      "title": "Put a torch on the tallow and wax figures",
+      "shortTitle": "Put a torch on the tallow and wax figures",
+      "shortDescription": "With a further incantation, a torch is put on the tallow and wax figures.",
+      "phase": "Kindle the torch",
+      "unitType": "act",
+      "actionType": "set-torch-on-figures",
+      "verb": "Put",
+      "summary": "With a further incantation, a torch is put on the tallow and wax figures.",
+      "patient": "Tallow and wax figures",
+      "actor": "Ritual practitioner",
+      "material": [
+        "torch",
+        "tallow figure",
+        "wax figure"
+      ],
+      "evidence": "Lines 27′–28′: incantation, \"effigy tallow, effigy wax, on them torch put\". That the torch is already lit is not stated.",
+      "image": {
+        "alt": "Illustrative reconstruction: put a torch on the tallow and wax figures.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q002713",
+          "locus": "28ʹ",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q002713.41l",
+            "label": "28ʹ"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q002713-9-22-31-set-torch-on-fat-figures",
+      "composition": {
+        "function": "destroy-affliction",
+        "requires": [
+          "identify-figures-as-doer"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "implement",
+            "sub": "torch",
+            "ref": "torch"
+          },
+          "onto": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "tallow"
+            }
+          }
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "implement",
+            "sub": "torch",
+            "ref": "torch"
+          },
+          "onto": {
+            "class": "figure",
+            "sub": "figure",
+            "f": {
+              "material": "wax"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "insert-woods-and-reed",
+      "number": 5,
+      "title": "Stick cedar, cypress, myrtle and reed into it",
+      "shortTitle": "Stick cedar, cypress, myrtle and reed into it",
+      "shortDescription": "Cedar, cypress, myrtle(?) and good reed are stuck into its interior and something is sprinkled.",
+      "phase": "Kindle the torch",
+      "unitType": "act",
+      "actionType": "set-torch-on-figures",
+      "verb": "Insert",
+      "summary": "Cedar, cypress, myrtle(?) and good reed are stuck into its interior and something is sprinkled.",
+      "patient": "Cedar, cypress, myrtle and good reed",
+      "actor": "Ritual practitioner",
+      "material": [
+        "cedar",
+        "cypress",
+        "myrtle",
+        "reed"
+      ],
+      "evidence": "Lines 28′–29′ gloss \"cedar, cypress, myrtle, (a tree), good reed, in interior stick in … sprinkle\". What they are stuck into (the torch or the crucible) and what is sprinkled are not clear from the glosses; one sign group is broken.",
+      "image": {
+        "alt": "Illustrative reconstruction: stick cedar, cypress, myrtle and reed into it.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q002713",
+          "locus": "29ʹ",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q002713.42l",
+            "label": "29ʹ"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q002713-9-22-31-insert-woods-and-reed",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "set-torch-on-fat-figures"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "tree",
+            "sub": "cedar"
+          },
+          "onto": {
+            "class": "implement",
+            "sub": "torch",
+            "ref": "torch"
+          }
+        },
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "tree",
+            "sub": "cypress"
+          },
+          "onto": {
+            "class": "implement",
+            "sub": "torch",
+            "ref": "torch"
+          }
+        },
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "tree",
+            "sub": "myrtle"
+          },
+          "onto": {
+            "class": "implement",
+            "sub": "torch",
+            "ref": "torch"
+          }
+        },
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "plant",
+            "sub": "reed"
+          },
+          "onto": {
+            "class": "implement",
+            "sub": "torch",
+            "ref": "torch"
+          }
+        }
+      ]
+    },
+    {
+      "id": "light-torch-from-sulphur",
+      "number": 6,
+      "title": "Light the torch from sulphur fire and recite",
+      "shortTitle": "Light the torch from sulphur fire and recite",
+      "shortDescription": "The torch is lit in a sulphur fire, and the incantation \"I lift the torch\" is recited.",
+      "phase": "Kindle the torch",
+      "unitType": "act",
+      "actionType": "kindle-torch",
+      "verb": "Light",
+      "summary": "The torch is lit in a sulphur fire, and the incantation \"I lift the torch\" is recited.",
+      "patient": "Torch",
+      "actor": "Ritual practitioner",
+      "material": [
+        "sulphur",
+        "torch"
+      ],
+      "evidence": "Line 30′ glosses \"in fire sulphur ignite; incantation: lift torch, count\". Addressee of the incantation is not given in this line.",
+      "image": {
+        "alt": "Illustrative reconstruction: light the torch from sulphur fire and recite.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q002713",
+          "locus": "30ʹ",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q002713.43l",
+            "label": "30ʹ"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q002713-9-22-31-light-torch-from-sulphur",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "insert-woods-and-reed"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "implement",
+            "sub": "torch",
+            "ref": "torch"
+          },
+          "instrument": {
+            "class": "fire",
+            "sub": "fire"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "invocation",
+          "about": {
+            "class": "implement",
+            "sub": "torch",
+            "ref": "torch"
+          }
+        }
+      ]
+    },
+    {
+      "id": "throw-fire-into-crucible",
+      "number": 7,
+      "title": "Throw fire into the crucible",
+      "shortTitle": "Throw fire into the crucible",
+      "shortDescription": "Fire is thrown into the crucible, burning the figures set in it.",
+      "phase": "Burn",
+      "unitType": "act",
+      "actionType": "throw-fire-into-vessel",
+      "verb": "Throw",
+      "summary": "Fire is thrown into the crucible, burning the figures set in it.",
+      "patient": "The figures in the crucible",
+      "actor": "Ritual practitioner",
+      "material": [
+        "fire",
+        "crucible"
+      ],
+      "evidence": "Line 31′ glosses \"fire to interior crucible throw\". The burning of the figures is inferred from the context (lines 23′–28′); the following incantations (32′ff.) are each assigned to single figures.",
+      "image": {
+        "alt": "Illustrative reconstruction: throw fire into the crucible.",
+        "note": "Illustrative reconstruction of the documented objects and action; form, colour and staging beyond the glossed text are conjectural."
+      },
+      "attestations": [
+        {
+          "witness": "Composite",
+          "doc": "Q002713",
+          "locus": "31ʹ",
+          "anchor": {
+            "kind": "corpus-line",
+            "corpusId": "cmawro",
+            "ref": "Q002713.44l",
+            "label": "31ʹ"
+          },
+          "note": "Edited master text; this anchor is not an individual manuscript witness."
+        }
+      ],
+      "unitId": "cmawro-q002713-9-22-31-throw-fire-into-crucible",
+      "composition": {
+        "function": "destroy-affliction",
+        "requires": [
+          "light-torch-from-sulphur"
+        ],
+        "aims": [
+          "undo-bewitchment"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "fire",
+            "sub": "fire"
+          },
+          "goal": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          }
+        },
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "figure",
+            "count": 9,
+            "ref": "maqlu-figures"
+          },
+          "location": {
+            "class": "vessel",
+            "sub": "crucible",
+            "ref": "crucible"
+          }
+        }
+      ]
+    }
+  ]
+}

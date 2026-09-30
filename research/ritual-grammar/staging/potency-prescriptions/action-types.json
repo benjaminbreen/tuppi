@@ -1,0 +1,37 @@
+{
+  "gather-remedy-material": {
+    "title": "Gather remedy ingredients",
+    "definition": "Catch, take or gather a named animal, plant or substance for a medical prescription.",
+    "externalParallels": []
+  },
+  "dry-material": {
+    "title": "Salt and dry a material",
+    "definition": "Salt, smear or dry a named ingredient so it can later be crushed.",
+    "externalParallels": []
+  },
+  "crush-material": {
+    "title": "Crush remedy ingredients",
+    "definition": "Crush or grind named ingredients for a remedy.",
+    "externalParallels": []
+  },
+  "mix-remedy": {
+    "title": "Mix a remedy",
+    "definition": "Combine named ingredients with a liquid, flour or other base, including steeping and sifting.",
+    "externalParallels": []
+  },
+  "expose-overnight": {
+    "title": "Leave out overnight",
+    "definition": "Leave a prepared liquid or remedy outdoors or on the roof overnight, under the stars.",
+    "externalParallels": []
+  },
+  "give-remedy": {
+    "title": "Administer a remedy",
+    "definition": "Give a prepared remedy to the patient to drink or eat, with any stated timing.",
+    "externalParallels": []
+  },
+  "anoint-body": {
+    "title": "Anoint the body",
+    "definition": "Rub or smear a named oil or substance onto the patient.",
+    "externalParallels": []
+  }
+}

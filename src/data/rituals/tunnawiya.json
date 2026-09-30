@@ -91,7 +91,39 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "sheep",
+            "f": {
+              "color": "black"
+            }
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "piglet",
+            "f": {
+              "color": "black"
+            }
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "animal",
+            "sub": "puppy",
+            "f": {
+              "color": "black"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "set-out-black-clothes",
@@ -135,7 +167,39 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "garment",
+            "sub": "shirt",
+            "f": {
+              "color": "black"
+            }
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "garment",
+            "sub": "leggings",
+            "f": {
+              "color": "black"
+            }
+          }
+        },
+        {
+          "verb": "bring",
+          "theme": {
+            "class": "garment",
+            "sub": "shoes",
+            "f": {
+              "color": "black"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "offer-at-riverbank",
@@ -179,6 +243,28 @@
           "cleanse-impurity"
         ]
       },
+      "atoms": [
+        {
+          "verb": "offer",
+          "theme": {
+            "class": "food",
+            "sub": "bread"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Mother-goddess"
+          },
+          "location": "riverbank"
+        },
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "drink",
+            "sub": "wine"
+          },
+          "location": "riverbank"
+        }
+      ],
       "recipient": "Mother-goddess of the riverbank",
       "deityVisualId": "unnamed-goddess",
       "deityLabel": "Mother-goddess of the riverbank",
@@ -224,6 +310,19 @@
           "cleanse-impurity"
         ]
       },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Mother-goddess"
+          },
+          "about": {
+            "class": "clay"
+          }
+        }
+      ],
       "recipient": "Mother-goddess of the riverbank",
       "deityVisualId": "unnamed-goddess",
       "deityLabel": "Mother-goddess of the riverbank",
@@ -271,6 +370,15 @@
           "cleanse-impurity"
         ]
       },
+      "atoms": [
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "clay"
+          },
+          "source": "riverbank"
+        }
+      ],
       "place": "Riverbank"
     },
     {
@@ -315,6 +423,24 @@
           "cleanse-impurity"
         ]
       },
+      "atoms": [
+        {
+          "verb": "offer",
+          "theme": {
+            "class": "food",
+            "sub": "bread"
+          },
+          "location": "spring"
+        },
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "drink",
+            "sub": "wine"
+          },
+          "location": "spring"
+        }
+      ],
       "place": "Spring"
     },
     {
@@ -359,6 +485,27 @@
           "cleanse-impurity"
         ]
       },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "addressee": {
+            "class": "place",
+            "sub": "spring"
+          },
+          "about": {
+            "class": "harm",
+            "sub": "impurity"
+          }
+        },
+        {
+          "verb": "collect",
+          "theme": {
+            "class": "clay"
+          },
+          "source": "spring"
+        }
+      ],
       "place": "Spring"
     },
     {
@@ -401,6 +548,19 @@
           "cleanse-impurity"
         ]
       },
+      "atoms": [
+        {
+          "verb": "build",
+          "theme": {
+            "class": "structure",
+            "sub": "hut",
+            "f": {
+              "material": "reed"
+            }
+          },
+          "location": "riverside"
+        }
+      ],
       "place": "Uncultivated land near the river"
     },
     {
@@ -446,7 +606,37 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "clay"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "tongue",
+            "count": 12,
+            "f": {
+              "material": "clay"
+            }
+          }
+        },
+        {
+          "verb": "shape",
+          "theme": {
+            "class": "clay"
+          },
+          "result": {
+            "class": "figure",
+            "sub": "ox",
+            "count": 2,
+            "f": {
+              "material": "clay"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "dress-in-black",
@@ -490,6 +680,21 @@
           "cleanse-impurity"
         ]
       },
+      "atoms": [
+        {
+          "verb": "dress",
+          "theme": {
+            "class": "garment",
+            "f": {
+              "color": "black"
+            }
+          },
+          "on": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ],
       "place": "Reed shelter"
     },
     {
@@ -534,7 +739,31 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "hold-over",
+          "theme": {
+            "class": "animal",
+            "sub": "sheep",
+            "f": {
+              "color": "black"
+            }
+          },
+          "over": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "about": {
+            "class": "harm",
+            "sub": "impurity"
+          }
+        }
+      ]
     },
     {
       "id": "hold-piglet",
@@ -554,8 +783,8 @@
       ],
       "evidence": "KUB 7.53+ Vs. I 36′–Vs. I 38′. This passage is partly restored in the surviving text.",
       "image": {
-        "alt": "Black ewe, piglet and puppy.",
-        "note": "The group image includes the piglet; the tablet specifies this act separately from lifting the sheep and puppy."
+        "alt": "A piglet lifted above the patient",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
       },
       "attestations": [
         {
@@ -577,7 +806,20 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "hold-over",
+          "theme": {
+            "class": "animal",
+            "sub": "piglet"
+          },
+          "over": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
     },
     {
       "id": "hold-puppy",
@@ -597,8 +839,8 @@
       ],
       "evidence": "KUB 7.53+ Vs. I 36′–Vs. I 38′. This passage is partly restored in the surviving text.",
       "image": {
-        "alt": "Black ewe, piglet and puppy.",
-        "note": "The group image includes the puppy; the tablet specifies this act separately from lifting the sheep and piglet."
+        "alt": "A puppy lifted above the patient",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
       },
       "attestations": [
         {
@@ -620,7 +862,20 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "hold-over",
+          "theme": {
+            "class": "animal",
+            "sub": "puppy"
+          },
+          "over": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
     },
     {
       "id": "hold-clay-tongue",
@@ -640,8 +895,8 @@
       ],
       "evidence": "KUB 7.53+ Vs. I 39′–Vs. II 7. This passage is partly restored in the surviving text.",
       "image": {
-        "alt": "Clay tongues and oxen.",
-        "note": "The image shows the prepared clay pieces, rather than inventing a hand position not described in the passage."
+        "alt": "Clay tongues and oxen",
+        "note": "The named object is shown; the exact gesture is described in the step text."
       },
       "attestations": [
         {
@@ -663,7 +918,23 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "hold-over",
+          "theme": {
+            "class": "figure",
+            "sub": "tongue",
+            "f": {
+              "material": "clay"
+            }
+          },
+          "over": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
     },
     {
       "id": "melt-figures",
@@ -705,7 +976,55 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "hold-over",
+          "theme": {
+            "class": "figure",
+            "f": {
+              "material": "wax"
+            }
+          },
+          "over": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "about": {
+            "class": "figure"
+          }
+        },
+        {
+          "verb": "melt",
+          "theme": {
+            "class": "figure",
+            "f": {
+              "material": "wax"
+            }
+          }
+        },
+        {
+          "verb": "melt",
+          "theme": {
+            "class": "figure",
+            "f": {
+              "material": "tallow"
+            }
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "about": {
+            "class": "harm",
+            "sub": "sorcery"
+          }
+        }
+      ]
     },
     {
       "id": "wash-hands-wine",
@@ -746,12 +1065,22 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "wash",
+          "theme": {
+            "class": "body",
+            "sub": "hands"
+          },
+          "medium": "wine"
+        }
+      ]
     },
     {
       "id": "wash-with-water",
       "number": 17,
-      "title": "Wash the patient with water",
+      "title": "Wash oneself with water",
       "shortTitle": "Wash with water",
       "shortDescription": "The patient washes with water while Tunnawiya continues the incantation.",
       "phase": "The cleansing",
@@ -787,7 +1116,17 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "wash",
+          "theme": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "medium": "water"
+        }
+      ]
     },
     {
       "id": "remove-coloured-wool",
@@ -829,7 +1168,25 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "detach",
+          "theme": {
+            "class": "wool",
+            "f": {
+              "colors": [
+                "blue",
+                "red"
+              ]
+            }
+          },
+          "from": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
     },
     {
       "id": "strip-black-clothes",
@@ -851,8 +1208,8 @@
       ],
       "evidence": "KUB 7.53+ Vs. II 16′–Vs. II 20′.",
       "image": {
-        "alt": "Black ritual clothing.",
-        "note": "The image shows the black garments before cutting; the text explicitly describes slitting the shirt."
+        "alt": "Black ritual clothing",
+        "note": "The named object is shown; the exact gesture is described in the step text."
       },
       "attestations": [
         {
@@ -874,7 +1231,32 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "cut",
+          "theme": {
+            "class": "garment",
+            "sub": "shirt",
+            "f": {
+              "color": "black"
+            }
+          }
+        },
+        {
+          "verb": "undress",
+          "theme": {
+            "class": "garment",
+            "f": {
+              "color": "black"
+            }
+          },
+          "from": {
+            "class": "person",
+            "sub": "patient"
+          }
+        }
+      ]
     },
     {
       "id": "smash-empty-pot",
@@ -915,7 +1297,38 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "hold-over",
+          "theme": {
+            "class": "vessel",
+            "sub": "pot",
+            "f": {
+              "empty": true
+            }
+          },
+          "over": {
+            "class": "person",
+            "sub": "patient"
+          }
+        },
+        {
+          "verb": "break",
+          "theme": {
+            "class": "vessel",
+            "sub": "pot"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "dismissal",
+          "about": {
+            "class": "harm",
+            "sub": "impurity"
+          }
+        }
+      ]
     },
     {
       "id": "bathe-over-figure",
@@ -936,8 +1349,8 @@
       ],
       "evidence": "KUB 7.53+ Vs. II 36′–Vs. II 42′.",
       "image": {
-        "alt": "Water poured onto an arm.",
-        "note": "The cutout focuses on water over an arm. The source places a clay figure beneath the feet, which is recorded in the step text but not visible in this image."
+        "alt": "Water poured onto an arm",
+        "note": "The named object is shown; the exact gesture is described in the step text."
       },
       "attestations": [
         {
@@ -959,7 +1372,27 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "figure",
+            "f": {
+              "material": "clay"
+            }
+          },
+          "location": "under feet"
+        },
+        {
+          "verb": "wash",
+          "theme": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "medium": "water"
+        }
+      ]
     },
     {
       "id": "comb-down",
@@ -979,8 +1412,8 @@
       ],
       "evidence": "KUB 7.53+ Vs. II 36′–Vs. II 42′.",
       "image": {
-        "alt": "Boxwood combs.",
-        "note": "The source names nine boxwood combs and downward strokes. The carving and exact tooth forms are illustrative."
+        "alt": "Boxwood combs",
+        "note": "The named object is shown; the exact gesture is described in the step text."
       },
       "attestations": [
         {
@@ -1000,7 +1433,17 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "comb",
+          "theme": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "instrument": "boxwood comb"
+        }
+      ]
     },
     {
       "id": "release-into-river",
@@ -1046,7 +1489,16 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "release",
+          "theme": {
+            "class": "materials"
+          },
+          "goal": "river"
+        }
+      ]
     },
     {
       "id": "burn-small-animals",
@@ -1092,6 +1544,23 @@
           "cleanse-impurity"
         ]
       },
+      "atoms": [
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "animal",
+            "sub": "piglet"
+          },
+          "location": "uncultivated ground"
+        },
+        {
+          "verb": "burn",
+          "theme": {
+            "class": "animal",
+            "sub": "puppy"
+          }
+        }
+      ],
       "place": "Uncultivated ground"
     },
     {
@@ -1133,7 +1602,25 @@
         "aims": [
           "cleanse-impurity"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "pass",
+          "theme": {
+            "class": "person",
+            "sub": "patient"
+          },
+          "boundary": "beneath the alanza-wood gate"
+        },
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "about": {
+            "class": "structure",
+            "sub": "gate"
+          }
+        }
+      ]
     },
     {
       "id": "return-river-offering",
@@ -1178,6 +1665,16 @@
           "cleanse-impurity"
         ]
       },
+      "atoms": [
+        {
+          "verb": "offer",
+          "theme": {
+            "class": "food",
+            "sub": "bread"
+          },
+          "location": "riverbank"
+        }
+      ],
       "place": "Riverbank"
     },
     {
@@ -1219,7 +1716,19 @@
         "aims": [
           "seek-descendants"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "touch",
+          "theme": {
+            "class": "animal",
+            "sub": "cow",
+            "f": {
+              "part": "horn"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "wish-for-offspring",
@@ -1263,6 +1772,20 @@
           "seek-descendants"
         ]
       },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "addressee": {
+            "class": "deity",
+            "sub": "Sun-god"
+          },
+          "about": {
+            "class": "animal",
+            "sub": "cow"
+          }
+        }
+      ],
       "recipient": "Sun-god",
       "deityVisualId": "sun-god",
       "deityLabel": "Sun-god"
@@ -1306,7 +1829,16 @@
         "aims": [
           "seek-descendants"
         ]
-      }
+      },
+      "atoms": [
+        {
+          "verb": "touch",
+          "theme": {
+            "class": "tree",
+            "sub": "fruit tree"
+          }
+        }
+      ]
     },
     {
       "id": "wish-by-tree",
@@ -1326,8 +1858,8 @@
       ],
       "evidence": "KUB 7.53+ Rs. IV 15–Rs. IV 23/4′.",
       "image": {
-        "alt": "Fruit-bearing tree.",
-        "note": "The source names a tree clothed with fruit; its species is not given."
+        "alt": "Fruit-bearing tree",
+        "note": "The named object is shown; the exact gesture is described in the step text."
       },
       "attestations": [
         {
@@ -1350,6 +1882,20 @@
           "seek-descendants"
         ]
       },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "addressee": {
+            "class": "deity",
+            "sub": "Sun-god"
+          },
+          "about": {
+            "class": "tree",
+            "sub": "fruit tree"
+          }
+        }
+      ],
       "recipient": "Sun-god",
       "deityVisualId": "sun-god",
       "deityLabel": "Sun-god"
@@ -1372,8 +1918,8 @@
       ],
       "evidence": "KUB 7.53+ Rs. IV 24/5′–Rs. IV 28.",
       "image": {
-        "alt": "Bread, groats and wine.",
-        "note": "The jug and bowl are representative; this passage does not specify a vessel form."
+        "alt": "Wine poured in a libation",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
       },
       "attestations": [
         {
@@ -1394,6 +1940,27 @@
           "cleanse-impurity"
         ]
       },
+      "atoms": [
+        {
+          "verb": "pour",
+          "theme": {
+            "class": "drink",
+            "sub": "wine"
+          },
+          "recipient": {
+            "class": "deity",
+            "sub": "Sun-god"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Sun-god"
+          }
+        }
+      ],
       "recipient": "Sun-god",
       "deityVisualId": "sun-god",
       "deityLabel": "Sun-god"

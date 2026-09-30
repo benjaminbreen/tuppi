@@ -1,0 +1,231 @@
+{
+  "libu-mix-urine-clay": {
+    "title": "Mix donkey urine with school clay",
+    "description": "Mix the urine of a living donkey with clay from the tablet-house.",
+    "actionType": "collect-clay",
+    "unitType": "act",
+    "visualAssetId": "libu-mix-urine-clay",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-make-donkeys": {
+    "title": "Knead and make two clay donkeys",
+    "description": "Knead the mixture and fashion two donkey figurines.",
+    "actionType": "make-clay-figures",
+    "unitType": "act",
+    "visualAssetId": "libu-make-donkeys",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-attach-strap-tail": {
+    "title": "Attach the strap and tail-hair to the figurine",
+    "description": "Put the living donkey's harness-strap on the figurine's strap and its tail-hair on the figurine's tail.",
+    "actionType": "adorn-animal",
+    "unitType": "act",
+    "visualAssetId": "libu-attach-strap-tail",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-make-substitute": {
+    "title": "Make the substitute from the patient's urine, hair and nails",
+    "description": "Mix the patient's urine, armpit and chest hair and nail-parings into the clay and fashion the substitute figure.",
+    "actionType": "make-clay-figures",
+    "unitType": "act",
+    "visualAssetId": "libu-make-substitute",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-dress-mount-substitute": {
+    "title": "Clothe the substitute and set it on the donkey",
+    "description": "Clothe the substitute figure, put a headdress on it and set it riding on the DÚSU-donkey.",
+    "actionType": "dress-substitute",
+    "unitType": "act",
+    "visualAssetId": "libu-dress-mount-substitute",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-load-sacks": {
+    "title": "Load sacks on the two leading donkeys",
+    "description": "Fill a sack and set it on the first donkey; set a sack full of flour on the second.",
+    "actionType": "bring-provisions",
+    "unitType": "act",
+    "visualAssetId": "libu-load-sacks",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-make-driver": {
+    "title": "Make a clay driver with a goad",
+    "description": "Make another clay figure, clothe it, put a wooden ŠU.KIN (a goad?) in its hand and station it behind the donkeys.",
+    "actionType": "make-clay-figures",
+    "unitType": "act",
+    "visualAssetId": "libu-make-driver",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-bring-to-roof": {
+    "title": "Bring the figures up onto the roof before Šamaš",
+    "description": "Station the substitute with the donkeys and bring the donkey figures up onto the roof before Šamaš.",
+    "actionType": "arrange-figures",
+    "unitType": "act",
+    "visualAssetId": "libu-bring-to-roof",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-strew-offering": {
+    "title": "Strew flour, dates and mashatu-flour before Šamaš",
+    "description": "Strew flour, dates and mashatu-flour as a strewn offering.",
+    "actionType": "scatter-provisions",
+    "unitType": "act",
+    "visualAssetId": "libu-strew-offering",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-address-samas": {
+    "title": "Address Šamaš as lord of judgment",
+    "description": "The exorcist addresses Šamaš as judge and names the patient whom li'bu has seized without his knowing.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "libu-address-samas",
+    "matchRule": "Match only the same act on the same principal object.",
+    "deityVisualId": "sun-god"
+  },
+  "libu-carry-substitute-out": {
+    "title": "Bring the substitute down and out to the open country",
+    "description": "Bring the figures down from the roof and take the substitute out to the open country.",
+    "actionType": "move-animal",
+    "unitType": "act",
+    "visualAssetId": "libu-carry-substitute-out",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-patient-gives-libu": {
+    "title": "The patient hands li'bu to his substitute",
+    "description": "The patient tells li'bu that he gives it to his substitute and orders it to be gone.",
+    "actionType": "return-harm-by-speech",
+    "unitType": "utterance",
+    "visualAssetId": "libu-patient-gives-libu",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-donkeys-in-basket": {
+    "title": "Place the donkey figures in a basket before Šamaš",
+    "description": "Place the donkey figures in a basket before Šamaš.",
+    "actionType": "put-in-basket",
+    "unitType": "act",
+    "visualAssetId": "libu-donkeys-in-basket",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-pour-seven-sila": {
+    "title": "Pour out seven sila each of flour, dates and oil",
+    "description": "Pour seven sila each of flour, mashatu-flour, dates and oil on the ground.",
+    "actionType": "offer-food-drink",
+    "unitType": "act",
+    "visualAssetId": "libu-pour-seven-sila",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-address-nisaba": {
+    "title": "Invoke Nisaba and drive out the curse",
+    "description": "The patient invokes Nisaba, who releases the curse, and declares the evil adjured and driven out.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "libu-address-nisaba",
+    "matchRule": "Match only the same act on the same principal object.",
+    "deityVisualId": "unnamed-goddess"
+  },
+  "libu-draw-design-adjure": {
+    "title": "Draw a design and adjure the evil by the gods",
+    "description": "Draw a design and adjure the evil by Enlil, Ninlil, Asalluḫi, Baba and Ningišzida to be led out, chased and gone, never to return.",
+    "actionType": "conjure-on-ground",
+    "unitType": "utterance",
+    "visualAssetId": "libu-draw-design-adjure",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-strew-at-esegu": {
+    "title": "Take it out to the ešegu-bush and strew flour and dates",
+    "description": "Take it out of the house to the open country and at the ešegu-thornbush strew coarse flour, dates and mashatu-flour.",
+    "actionType": "scatter-provisions",
+    "unitType": "act",
+    "visualAssetId": "libu-strew-at-esegu",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-station-weapons": {
+    "title": "Station donkeys and weapons before Šamaš",
+    "description": "Behind the offering station two donkeys before Šamaš, a weapon behind the donkeys, and a weapon behind the donkey ridden by the substitute.",
+    "actionType": "arrange-figures",
+    "unitType": "act",
+    "visualAssetId": "libu-station-weapons",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-address-samas-oath": {
+    "title": "Address Šamaš, list the seizing demons and lay the oath",
+    "description": "Invoke Šamaš as judge, list the ghosts and demons that have seized the patient, and declare that the oath of the great gods has been put in his mouth.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "libu-address-samas-oath",
+    "matchRule": "Match only an address to Šamaš as judge that names the seizing agents and declares the oath.",
+    "deityVisualId": "sun-god"
+  },
+  "libu-address-esegu": {
+    "title": "Seize the ešegu-bush and bid it plead with Šamaš",
+    "description": "Tell the ešegu, offspring of Enlil, that it has been seized on the patient's account, bid it plead with Šamaš, and promise its release when li'bu lets the patient go.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "libu-address-esegu",
+    "matchRule": "Match only the same act on the same principal object.",
+    "deityVisualId": "sun-god"
+  },
+  "libu-anoint-bind-esegu": {
+    "title": "Pour oil on the ešegu and bind it to a rush",
+    "description": "Pour oil on the ešegu, bind it to a rush and wrap its top all round.",
+    "actionType": "bind-gate",
+    "unitType": "act",
+    "visualAssetId": "libu-anoint-bind-esegu",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-release-bargain": {
+    "title": "Ask Šamaš: let li'bu release the man",
+    "description": "Ask Šamaš that li'bu release the man, promising the bush its release in turn.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "libu-release-bargain",
+    "matchRule": "Match only the same act on the same principal object.",
+    "deityVisualId": "sun-god"
+  },
+  "libu-place-loaves-designs": {
+    "title": "Draw designs and set a dried loaf at each",
+    "description": "Draw two designs of a cubit and seven designs before the seven(?), and place a dried loaf wherever there is a design.",
+    "actionType": "place-a-bedside-deposit",
+    "unitType": "act",
+    "visualAssetId": "libu-place-loaves-designs",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-strew-city-gate": {
+    "title": "Throw flour at the city gate",
+    "description": "Entering the city gate, throw flour to either side and in the middle, and on both door-leaves.",
+    "actionType": "scatter-provisions",
+    "unitType": "act",
+    "visualAssetId": "libu-strew-city-gate",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-adjure-at-gate": {
+    "title": "Adjure the evil not to enter the door",
+    "description": "Adjure the evil by the great gods of the ešegu not to enter the open door, and send it away.",
+    "actionType": "chant-at-gate",
+    "unitType": "utterance",
+    "visualAssetId": "libu-adjure-at-gate",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-mix-salt-cress": {
+    "title": "Mix salt and cress into the poured flour",
+    "description": "Mix salt and cress into the flour poured out as offering.",
+    "actionType": "mix-fodder",
+    "unitType": "act",
+    "visualAssetId": "libu-mix-salt-cress",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-crush-juniper": {
+    "title": "Crush juniper and mix it with oil",
+    "description": "For a recurrent third-day fever, crush a sila of juniper and mix it with oil.",
+    "actionType": "crush-ingredients",
+    "unitType": "act",
+    "visualAssetId": "libu-crush-juniper",
+    "matchRule": "Match only the same act on the same principal object."
+  },
+  "libu-recite-arabapura": {
+    "title": "Recite the incantation during treatment",
+    "description": "Recite the incantation '[A]rābapura'(?) during the treatment, repeating plant and incantation unchanged until the seizures leave.",
+    "actionType": "speak-address",
+    "unitType": "utterance",
+    "visualAssetId": "libu-recite-arabapura",
+    "matchRule": "Match only the same act on the same principal object."
+  }
+}

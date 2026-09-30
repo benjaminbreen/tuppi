@@ -1,0 +1,51 @@
+{
+  "lapana-plague-bull": {
+    "src": "/rituals/_pending.png",
+    "subject": "A bull",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a single bull standing in profile. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "lapana-plague-wicker-tables": {
+    "src": "/rituals/_pending.png",
+    "subject": "Four wicker tables",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: four small low tables of woven wicker in a row. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "lapana-plague-evening-fire": {
+    "src": "/rituals/_pending.png",
+    "subject": "Evening fire",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a small wood fire burning on bare ground. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "lapana-plague-raw-cooked": {
+    "src": "/rituals/_pending.png",
+    "subject": "Raw and cooked portions",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: two small heaps of food portions on the ground, one raw and one cooked. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "lapana-plague-burn": {
+    "src": "/rituals/_pending.png",
+    "subject": "Burning",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: flames on a small fire with an indistinct offering on it. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "lapana-plague-bow": {
+    "src": "/rituals/_pending.png",
+    "subject": "Bowing",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a plain-dressed figure bowing low with hands lowered. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  },
+  "lapana-plague-in-mouth": {
+    "src": "/rituals/_pending.png",
+    "subject": "Morsel to the mouth",
+    "medium": "Pending illustration",
+    "status": "pending",
+    "prompt": "Transparent-background PNG, flat illustrative style matching a museum-plate reconstruction: a hand placing a small morsel toward an open mouth, shown in profile. Plain simple dress without culturally specific costume from another tradition; no scenery; figures and objects must not touch the canvas edge; visible transparent margin on all four sides; no text."
+  }
+}

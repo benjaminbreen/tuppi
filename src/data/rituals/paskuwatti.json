@@ -1,0 +1,710 @@
+{
+  "id": "paskuwatti",
+  "cth": 406,
+  "title": "Paškuwatti’s ritual",
+  "shortName": "Paškuwatti",
+  "eyebrow": "CTH 406 · procreative power",
+  "dating": {
+    "label": "Hittite manuscript",
+    "note": "The surviving text is transmitted in KUB 7.8 and joined fragments; the date of the rite’s composition is not fixed by this copy.",
+    "sourceUrl": "https://smaw.de.dariah.eu/txhet_besrit/intro.php?ed=A.+Mouton&lg=FR&prgr=&xst=CTH+406"
+  },
+  "purpose": "A three-day rite in which offerings, a passage beneath reed gates and prayers to Uliliyašši seek to restore a man’s procreative power.",
+  "attribution": "Attributed to Paškuwatti of Arzawa",
+  "sourceSummary": "KUB 7.8+ · selected first-day acts and prayer",
+  "editionUrl": "https://smaw.de.dariah.eu/txhet_besrit/intro.php?ed=A.+Mouton&lg=FR&prgr=&xst=CTH+406",
+  "phases": [
+    {
+      "name": "Prepare the offering",
+      "range": [
+        1,
+        2
+      ],
+      "idea": "Food, wine and garments are assembled and carried into the open country."
+    },
+    {
+      "name": "The gate crossing",
+      "range": [
+        3,
+        8
+      ],
+      "idea": "The man crosses a reed gate and exchanges implements while Paškuwatti speaks."
+    },
+    {
+      "name": "Petition and return",
+      "range": [
+        9,
+        10
+      ],
+      "idea": "The god is petitioned and the offerings return to a new table."
+    }
+  ],
+  "variants": [],
+  "steps": [
+    {
+      "id": "arrange-offerings",
+      "number": 1,
+      "title": "Arrange food, wine, wool and clothes",
+      "shortTitle": "Arrange food, wine, wool and clothes",
+      "shortDescription": "Three thick loaves of moist, sweet flour; figs, raisins, kallaktar, parḫuena-grain and the god’s groats; ewe’s wool, a jug of wine and the offerant’s clothing are arranged on soldier-bread.",
+      "phase": "Prepare the offering",
+      "unitType": "act",
+      "actionType": "prepare-offering",
+      "verb": "Arrange",
+      "summary": "Three thick loaves of moist, sweet flour; figs, raisins, kallaktar, parḫuena-grain and the god’s groats; ewe’s wool, a jug of wine and the offerant’s clothing are arranged on soldier-bread.",
+      "patient": "Offerings on soldier-bread",
+      "actor": "Paškuwatti and attendants",
+      "material": [
+        "Three thick loaves",
+        "Figs",
+        "Raisins",
+        "Kallaktar",
+        "Parḫuena-grain",
+        "God’s groats",
+        "Ewe’s wool",
+        "Jug of wine",
+        "Offerant’s clothing",
+        "Soldier-bread"
+      ],
+      "evidence": "KUB 7.8, paragraph 2; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Arrange food, wine, wool and clothes",
+        "note": "Illustration of arrange food, wine, wool and clothes."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-8-plus",
+          "locus": "KUB 7.8 §2",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 1
+          }
+        }
+      ],
+      "unitId": "paskuwatti-arrange-provisions",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [],
+        "aims": [
+          "restore-procreative-power",
+          "seek-descendants"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "place",
+          "theme": {
+            "class": "food",
+            "sub": "bread"
+          },
+          "location": "on soldier-bread"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "food",
+            "sub": "fig"
+          },
+          "location": "on soldier-bread"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "food",
+            "sub": "raisin"
+          },
+          "location": "on soldier-bread"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "food",
+            "sub": "groats"
+          },
+          "location": "on soldier-bread"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "drink",
+            "sub": "wine"
+          },
+          "location": "on soldier-bread"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "wool"
+          },
+          "location": "on soldier-bread"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "garment"
+          },
+          "location": "on soldier-bread"
+        }
+      ]
+    },
+    {
+      "id": "carry-offerings",
+      "number": 2,
+      "title": "Carry the offerings to a fresh place",
+      "shortTitle": "Carry the offerings to a fresh place",
+      "shortDescription": "A virgin girl lifts the offerings and leads the bathed offerant into the open country.",
+      "phase": "Prepare the offering",
+      "unitType": "act",
+      "actionType": "present-an-object",
+      "verb": "Carry",
+      "summary": "A virgin girl lifts the offerings and leads the bathed offerant into the open country.",
+      "patient": "Offerings on soldier-bread",
+      "actor": "A virgin girl",
+      "material": [
+        "Bread",
+        "Wine",
+        "Clothing"
+      ],
+      "evidence": "KUB 7.8, paragraph 3; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Offerings carried to the open country",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-8-plus",
+          "locus": "KUB 7.8 §3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "paskuwatti-carry-offering",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "arrange-offerings"
+        ],
+        "aims": [
+          "restore-procreative-power",
+          "seek-descendants"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "take",
+          "theme": {
+            "class": "food",
+            "sub": "offerings"
+          },
+          "agent": {
+            "class": "person",
+            "sub": "virgin girl"
+          }
+        },
+        {
+          "verb": "drive",
+          "theme": {
+            "class": "person",
+            "sub": "offerant"
+          },
+          "goal": "open country"
+        }
+      ]
+    },
+    {
+      "id": "make-reed-gate",
+      "number": 3,
+      "title": "Make gates of reed",
+      "shortTitle": "Make gates of reed",
+      "shortDescription": "Paškuwatti builds the gate used for the crossing.",
+      "phase": "The gate crossing",
+      "unitType": "act",
+      "actionType": "build-reed-gate",
+      "verb": "Make",
+      "summary": "Paškuwatti builds the gate used for the crossing.",
+      "patient": "Reed gates",
+      "actor": "Paškuwatti",
+      "material": [
+        "Reeds"
+      ],
+      "evidence": "KUB 7.8, paragraph 3; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Make gates of reed",
+        "note": "Illustration of make gates of reed."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-8-plus",
+          "locus": "KUB 7.8 §3",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 2
+          }
+        }
+      ],
+      "unitId": "paskuwatti-build-reed-gate",
+      "composition": {
+        "function": "construct-setting",
+        "requires": [],
+        "aims": [
+          "restore-procreative-power",
+          "seek-descendants"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "build",
+          "theme": {
+            "class": "structure",
+            "sub": "gate",
+            "f": {
+              "material": "reed"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "bind-gate",
+      "number": 4,
+      "title": "Bind the gates with red and white wool",
+      "shortTitle": "Bind the gates with red and white wool",
+      "shortDescription": "The gates are bound with two colours of wool.",
+      "phase": "The gate crossing",
+      "unitType": "act",
+      "actionType": "bind-gate",
+      "verb": "Bind",
+      "summary": "The gates are bound with two colours of wool.",
+      "patient": "Reed gates",
+      "actor": "Paškuwatti",
+      "material": [
+        "Red wool",
+        "White wool"
+      ],
+      "evidence": "KUB 7.8, paragraph 4; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Bind the gates with red and white wool",
+        "note": "Illustration of bind the gates with red and white wool."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-8-plus",
+          "locus": "KUB 7.8 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "paskuwatti-bind-gate",
+      "composition": {
+        "function": "prepare-material",
+        "requires": [
+          "make-reed-gate"
+        ],
+        "aims": [
+          "restore-procreative-power",
+          "seek-descendants"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "attach",
+          "theme": {
+            "class": "wool",
+            "f": {
+              "colors": [
+                "red",
+                "white"
+              ]
+            }
+          },
+          "onto": {
+            "class": "structure",
+            "sub": "gate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "give-spindle",
+      "number": 5,
+      "title": "Give the man a spindle and distaff",
+      "shortTitle": "Give the man a spindle and distaff",
+      "shortDescription": "The offerant holds the implements before crossing.",
+      "phase": "The gate crossing",
+      "unitType": "act",
+      "actionType": "give-implements",
+      "verb": "Give",
+      "summary": "The offerant holds the implements before crossing.",
+      "patient": "The offerant",
+      "actor": "Paškuwatti",
+      "material": [
+        "Spindle",
+        "Distaff"
+      ],
+      "evidence": "KUB 7.8, paragraph 4; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Give the man a spindle and distaff",
+        "note": "Illustration of give the man a spindle and distaff."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-8-plus",
+          "locus": "KUB 7.8 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "paskuwatti-give-spindle",
+      "composition": {
+        "function": "mark-subject",
+        "requires": [],
+        "aims": [
+          "restore-procreative-power",
+          "seek-descendants"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "give",
+          "theme": {
+            "class": "implement",
+            "sub": "spindle"
+          },
+          "to": {
+            "class": "person",
+            "sub": "offerant"
+          }
+        },
+        {
+          "verb": "give",
+          "theme": {
+            "class": "implement",
+            "sub": "distaff"
+          },
+          "to": {
+            "class": "person",
+            "sub": "offerant"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pass-gate",
+      "number": 6,
+      "title": "Pass beneath the reed gates",
+      "shortTitle": "Pass beneath the reed gates",
+      "shortDescription": "The offerant passes beneath the bound gates.",
+      "phase": "The gate crossing",
+      "unitType": "act",
+      "actionType": "pass-through-gate",
+      "verb": "Pass",
+      "summary": "The offerant passes beneath the bound gates.",
+      "patient": "The offerant",
+      "actor": "The offerant",
+      "material": [
+        "Reed gates",
+        "Spindle",
+        "Distaff"
+      ],
+      "evidence": "KUB 7.8, paragraph 4; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Man carrying implements through a reed gate",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-8-plus",
+          "locus": "KUB 7.8 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "paskuwatti-pass-gate",
+      "composition": {
+        "function": "cross-threshold",
+        "requires": [
+          "bind-gate",
+          "give-spindle"
+        ],
+        "aims": [
+          "restore-procreative-power",
+          "seek-descendants"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "pass",
+          "theme": {
+            "class": "person",
+            "sub": "offerant"
+          },
+          "boundary": "gate"
+        }
+      ]
+    },
+    {
+      "id": "exchange-implements",
+      "number": 7,
+      "title": "Exchange the implements for a bow and arrows",
+      "shortTitle": "Exchange the implements for a bow and arrows",
+      "shortDescription": "Paškuwatti takes away the spindle and distaff and hands over a bow and arrows.",
+      "phase": "The gate crossing",
+      "unitType": "act",
+      "actionType": "exchange-implements",
+      "verb": "Exchange",
+      "summary": "Paškuwatti takes away the spindle and distaff and hands over a bow and arrows.",
+      "patient": "The offerant",
+      "actor": "Paškuwatti",
+      "material": [
+        "Spindle",
+        "Distaff",
+        "Bow",
+        "Arrows"
+      ],
+      "evidence": "KUB 7.8, paragraph 4; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Exchange the implements for a bow and arrows",
+        "note": "Illustration of exchange the implements for a bow and arrows."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-8-plus",
+          "locus": "KUB 7.8 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "paskuwatti-exchange-implements",
+      "composition": {
+        "function": "remove-mark",
+        "requires": [
+          "pass-gate"
+        ],
+        "aims": [
+          "restore-procreative-power",
+          "seek-descendants"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "detach",
+          "theme": {
+            "class": "implement",
+            "sub": "spindle"
+          },
+          "from": {
+            "class": "person",
+            "sub": "offerant"
+          }
+        },
+        {
+          "verb": "exchange",
+          "theme": {
+            "class": "implement",
+            "sub": "distaff"
+          },
+          "for": {
+            "class": "implement",
+            "sub": "bow"
+          }
+        }
+      ]
+    },
+    {
+      "id": "speak-exchange",
+      "number": 8,
+      "title": "Speak the change of roles",
+      "shortTitle": "Speak the change of roles",
+      "shortDescription": "Paškuwatti names the change signified by the exchange.",
+      "phase": "The gate crossing",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Speak",
+      "summary": "Paškuwatti names the change signified by the exchange.",
+      "patient": "The offerant",
+      "actor": "Paškuwatti",
+      "material": [
+        "Bow",
+        "Arrows"
+      ],
+      "evidence": "KUB 7.8, paragraph 4; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Speak the change of roles",
+        "note": "Illustration of speak the change of roles."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-8-plus",
+          "locus": "KUB 7.8 §4",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 3
+          }
+        }
+      ],
+      "unitId": "paskuwatti-speak-exchange",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [
+          "exchange-implements"
+        ],
+        "aims": [
+          "restore-procreative-power",
+          "seek-descendants"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "declaration",
+          "about": {
+            "class": "implement",
+            "sub": "bow"
+          }
+        },
+        {
+          "verb": "speak",
+          "act": "analogy",
+          "about": {
+            "class": "implement",
+            "sub": "bow"
+          }
+        }
+      ]
+    },
+    {
+      "id": "entreat-uliliyassi",
+      "number": 9,
+      "title": "Entreat Uliliyašši for descendants",
+      "shortTitle": "Entreat Uliliyašši for descendants",
+      "shortDescription": "Paškuwatti asks the god to attend the offerant and grant children.",
+      "phase": "Petition and return",
+      "unitType": "utterance",
+      "actionType": "speak-address",
+      "verb": "Entreat",
+      "summary": "Paškuwatti asks the god to attend the offerant and grant children.",
+      "patient": "The offerant",
+      "actor": "Paškuwatti",
+      "material": [],
+      "evidence": "KUB 7.8, paragraph 8; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Entreat Uliliyašši for descendants",
+        "note": "Illustration of entreat uliliyašši for descendants."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-8-plus",
+          "locus": "KUB 7.8 §8",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 7
+          }
+        }
+      ],
+      "unitId": "paskuwatti-entreat-uliliyassi",
+      "composition": {
+        "function": "invoke-help",
+        "requires": [],
+        "aims": [
+          "restore-procreative-power",
+          "seek-descendants"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "speak",
+          "act": "petition",
+          "addressee": {
+            "class": "deity",
+            "sub": "Uliliyassi"
+          }
+        }
+      ],
+      "recipient": "Uliliyašši",
+      "deityVisualId": "unnamed-god",
+      "deityLabel": "Uliliyašši"
+    },
+    {
+      "id": "set-home-table",
+      "number": 10,
+      "title": "Set the offering on a new table",
+      "shortTitle": "Set the offering on a new table",
+      "shortDescription": "The soldier-bread is brought home and placed on a new table.",
+      "phase": "Petition and return",
+      "unitType": "act",
+      "actionType": "prepare-offering",
+      "verb": "Set",
+      "summary": "The soldier-bread is brought home and placed on a new table.",
+      "patient": "Offerings on soldier-bread",
+      "actor": "Paškuwatti and attendants",
+      "material": [
+        "Bread",
+        "Wine"
+      ],
+      "evidence": "KUB 7.8, paragraph 9; source wording is preserved in the quotation.",
+      "image": {
+        "alt": "Offerings set on a new table",
+        "note": "The named action is depicted; clothing and implement forms are illustrative."
+      },
+      "attestations": [
+        {
+          "witness": "A",
+          "doc": "kub-7-8-plus",
+          "locus": "KUB 7.8 §9",
+          "anchor": {
+            "kind": "paragraph",
+            "index": 8
+          }
+        }
+      ],
+      "unitId": "paskuwatti-return-and-set-table",
+      "composition": {
+        "function": "place-deposit",
+        "requires": [
+          "carry-offerings"
+        ],
+        "aims": [
+          "restore-procreative-power",
+          "seek-descendants"
+        ]
+      },
+      "atoms": [
+        {
+          "verb": "carry",
+          "theme": {
+            "class": "food",
+            "sub": "offerings"
+          },
+          "goal": "home"
+        },
+        {
+          "verb": "place",
+          "theme": {
+            "class": "food",
+            "sub": "offerings"
+          },
+          "location": "on a new table"
+        }
+      ]
+    }
+  ]
+}

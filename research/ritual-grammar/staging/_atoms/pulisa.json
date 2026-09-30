@@ -1,0 +1,202 @@
+{
+ "select-substitutes": [
+  {
+   "verb": "select",
+   "theme": {
+    "class": "person",
+    "sub": "prisoner"
+   }
+  },
+  {
+   "verb": "select",
+   "theme": {
+    "class": "person",
+    "sub": "woman"
+   }
+  }
+ ],
+ "remove-king-garments": [
+  {
+   "verb": "undress",
+   "theme": {
+    "class": "garment",
+    "sub": "festive"
+   },
+   "from": {
+    "class": "person",
+    "sub": "king"
+   }
+  }
+ ],
+ "dress-man": [
+  {
+   "verb": "dress",
+   "theme": {
+    "class": "garment",
+    "sub": "festive"
+   },
+   "on": {
+    "class": "person",
+    "sub": "prisoner"
+   }
+  }
+ ],
+ "dress-woman": [
+  {
+   "verb": "dress",
+   "theme": {
+    "class": "garment",
+    "sub": "festive"
+   },
+   "on": {
+    "class": "person",
+    "sub": "woman"
+   }
+  }
+ ],
+ "address-man": [
+  {
+   "verb": "speak",
+   "act": "substitution",
+   "addressee": {
+    "class": "deity",
+    "sub": "male deity"
+   },
+   "about": {
+    "class": "person",
+    "sub": "prisoner"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "dismissal",
+   "about": {
+    "class": "harm",
+    "sub": "plague"
+   }
+  }
+ ],
+ "address-woman": [
+  {
+   "verb": "speak",
+   "act": "substitution",
+   "addressee": {
+    "class": "deity",
+    "sub": "female deity"
+   },
+   "about": {
+    "class": "person",
+    "sub": "woman"
+   }
+  }
+ ],
+ "bring-bull-ewe": [
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "bull"
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "ewe"
+   }
+  }
+ ],
+ "ring-bull": [
+  {
+   "verb": "attach",
+   "theme": {
+    "class": "ornament",
+    "sub": "ring"
+   },
+   "onto": {
+    "class": "animal",
+    "sub": "bull",
+    "f": {
+     "part": "ears"
+    }
+   }
+  }
+ ],
+ "draw-wool": [
+  {
+   "verb": "draw-out",
+   "theme": {
+    "class": "wool",
+    "f": {
+     "colors": [
+      "red",
+      "green",
+      "black",
+      "white"
+     ]
+    }
+   },
+   "from": {
+    "class": "person",
+    "sub": "king",
+    "f": {
+     "part": "mouth"
+    }
+   }
+  }
+ ],
+ "address-bull": [
+  {
+   "verb": "speak",
+   "act": "substitution",
+   "addressee": {
+    "class": "deity",
+    "sub": "male deity"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "bull"
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "dismissal",
+   "about": {
+    "class": "harm",
+    "sub": "plague"
+   }
+  }
+ ],
+ "address-ewe": [
+  {
+   "verb": "speak",
+   "act": "substitution",
+   "addressee": {
+    "class": "deity",
+    "sub": "female deity"
+   },
+   "about": {
+    "class": "animal",
+    "sub": "ewe"
+   }
+  }
+ ],
+ "send-animals-ahead": [
+  {
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "bull"
+   },
+   "goal": "ahead of the substitutes"
+  },
+  {
+   "verb": "drive",
+   "theme": {
+    "class": "animal",
+    "sub": "ewe"
+   },
+   "goal": "ahead of the substitutes"
+  }
+ ]
+}

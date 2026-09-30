@@ -1,0 +1,219 @@
+{
+ "gather-fodder-wool": [
+  {
+   "verb": "take",
+   "theme": {
+    "class": "food",
+    "sub": "grain"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "plant",
+    "sub": "straw"
+   }
+  },
+  {
+   "verb": "take",
+   "theme": {
+    "class": "wool",
+    "f": {
+     "colors": [
+      "red",
+      "blue",
+      "black",
+      "white"
+     ]
+    }
+   }
+  }
+ ],
+ "mix-fodder": [
+  {
+   "verb": "combine",
+   "theme": {
+    "class": "food",
+    "sub": "grain"
+   },
+   "with": {
+    "class": "plant",
+    "sub": "straw"
+   },
+   "result": {
+    "class": "food",
+    "sub": "fodder"
+   }
+  }
+ ],
+ "scatter-fodder": [
+  {
+   "verb": "scatter",
+   "theme": {
+    "class": "food",
+    "sub": "fodder"
+   },
+   "location": "crossroads"
+  }
+ ],
+ "address-grooms": [
+  {
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "grooms of Iyarri"
+   },
+   "about": {
+    "class": "food",
+    "sub": "fodder"
+   },
+   "note": "let them give this fodder to the horses"
+  },
+  {
+   "verb": "speak",
+   "act": "assignment",
+   "addressee": {
+    "class": "deity",
+    "sub": "Iyarri"
+   },
+   "about": {
+    "class": "food",
+    "sub": "fodder"
+   }
+  }
+ ],
+ "address-maids": [
+  {
+   "verb": "speak",
+   "act": "assignment",
+   "addressee": {
+    "class": "deity",
+    "sub": "maidservants of Iyarri"
+   },
+   "about": {
+    "class": "wool",
+    "f": {
+     "colors": [
+      "red",
+      "blue",
+      "black",
+      "green",
+      "white"
+     ]
+    }
+   }
+  },
+  {
+   "verb": "speak",
+   "act": "petition",
+   "addressee": {
+    "class": "deity",
+    "sub": "maidservants of Iyarri"
+   },
+   "about": {
+    "class": "wool"
+   },
+   "note": "let them take the wool"
+  }
+ ],
+ "bring-animals": [
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "kid"
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "piglet"
+   }
+  },
+  {
+   "verb": "bring",
+   "theme": {
+    "class": "animal",
+    "sub": "puppy"
+   }
+  }
+ ],
+ "kill-animals": [
+  {
+   "verb": "kill",
+   "theme": {
+    "class": "animal",
+    "sub": "kid"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "the Seven"
+   },
+   "location": "untouched place",
+   "result": {
+    "class": "meat",
+    "sub": "kid"
+   }
+  },
+  {
+   "verb": "kill",
+   "theme": {
+    "class": "animal",
+    "sub": "piglet"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "the Seven"
+   },
+   "location": "untouched place",
+   "result": {
+    "class": "meat",
+    "sub": "piglet"
+   }
+  },
+  {
+   "verb": "kill",
+   "theme": {
+    "class": "animal",
+    "sub": "puppy"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "the Seven"
+   },
+   "location": "untouched place",
+   "result": {
+    "class": "meat",
+    "sub": "puppy"
+   }
+  }
+ ],
+ "libate-seven": [
+  {
+   "verb": "pour",
+   "theme": {
+    "class": "drink",
+    "sub": "beer"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "the Seven"
+   },
+   "manner": "three times"
+  },
+  {
+   "verb": "pour",
+   "theme": {
+    "class": "drink",
+    "sub": "wine"
+   },
+   "recipient": {
+    "class": "deity",
+    "sub": "the Seven"
+   },
+   "manner": "three times"
+  }
+ ]
+}
