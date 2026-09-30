@@ -1,5 +1,18 @@
 # tuppi
 
+## Jev action composer (current default)
+
+The default composer uses two compact Jev passes. The first interprets the wish against 35 symbolic mechanisms, without sending the action library. Local code matches those scores against all 561 component operations and proposes six varied source-linked chains of at least four displayed source acts, prioritizing relevance before exploration. Accompanying gestures are included through source prerequisites. The second Jev pass compares those concrete chains using separate descriptive levels for goal fit, coherence and grounding.
+
+Luna receives only the chosen chain and phrases at most one wish-bearing prayer. It cannot choose or reorder actions. Luna gets a tiny plain-text request for one prayer of at most 25 words, with a four-second timeout rather than an artificial 1.8-second cutoff. Chains without historical speech receive a separately labeled modern prayer. There is no wording of alternatives. External generation latency can exceed two seconds; latency is measured, not guaranteed. Exact repeated wishes reuse intent scores for ten minutes, avoid recently selected cores across different wishes from the same visitor when enough fresh candidates exist, generate fresh candidates and use one small Jev review call. Shared links retain custom speech.
+
+The library contains 274 catalogue actions, 293 source occurrences and 561 component operations across 26 edited rituals. All source operations remain eligible, including sacrifice, meat preparation and remedies. Composition preserves source materials and physical acts; prayers are customized and labeled as new. Internal `atomId` identifiers remain stable. `action-meanings.json` supplies purpose, mechanism, role and meaning for each operation, with evidence retained locally. Action detail pages display these editorial interpretations. They are based on existing annotations and draft translations, not a new scholarly edition.
+
+Run `npm run dev` and open `/rituals/create`. `npm run test:actions` checks selection, API contracts and sharing. `npm run check:actions` regenerates meanings and checks focused reachability. `npm run audit:actions -- --repeats=3` runs ten live wishes with three draws each, writing `research/ritual-action-audit/latest.json` and `latest.txt`. It distinguishes local matching from Jev mechanism assessment, selected and offered coverage, source concentration, latency and provider usage. Live requests send shortlisted meanings to Jev and the selected prayer context to OpenAI, using keys in `.env.local`; credentials are never logged.
+
+Use `{"engine":"grammar"}` for the previous schema-only engine or `{"engine":"episodes"}` for the older episode engine. Without configured Jev, the explicitly labeled offline grammar fallback remains. The older sections below describe those engines and their evolution.
+
+
 The [corpus registry](src/data/corpora.json), [corpus overview](src/pages/Corpora.tsx), and [import guide](docs/corpus-imports.md) establish source metadata and separate text, witness, passage, and procedure records for future comparative corpora. Run `npm run audit:corpora` for locally verified counts and explicit unknowns for candidate imports.
 
 An open workbench for Hittite cuneiform texts. First slice: plague, medicine and ritual expertise

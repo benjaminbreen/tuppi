@@ -85,6 +85,7 @@ function normalizeGrammar(recipe) {
     if (item.schema != null && item.schema !== 'arc' && !SCHEMAS[item.schema]) throw new Error('Invalid recipe');
     seen.add(item.atomId);
     const out = { atomId: item.atomId, reason: item.reason, schema: item.schema ?? 'arc', slot: typeof item.slot === 'string' ? item.slot.slice(0, 24) : 'manual' };
+    if(item.words != null) { if(typeof item.words !== 'string' || item.words.length < 3 || item.words.length > 600 || /[<>\u0000-\u001f]/.test(item.words)) throw new Error('Invalid recipe speech'); out.words=item.words; }
     if (item.substitute) out.substitute = item.substitute.boundary ? { boundary: cleanEntity(item.substitute.boundary) } : { from: String(item.substitute.from).slice(0, 80), to: cleanEntity(item.substitute.to) };
     if (Array.isArray(item.gather) && item.gather.length) out.gather = item.gather.slice(0, 4).map(cleanEntity);
     if (typeof item.jevProbability === 'number' && item.jevProbability >= 0 && item.jevProbability <= 1) out.jevProbability = Math.round(item.jevProbability * 1000) / 1000;
@@ -97,8 +98,8 @@ export function encodeGrammarRecipe(recipe) {
   const clean = normalizeGrammar(recipe);
   const f = clean.goalFrame;
   const payload = [8, clean.goal, modes.indexOf(clean.mode), fits.indexOf(clean.fit),
-    clean.items.map((item) => [item.atomId, grammarReasons.indexOf(item.reason), item.schema, item.slot, item.substitute ?? null, item.gather ?? null, item.jevProbability ?? null]),
-    f ? [f.outcome, f.wish, f.method, f.relationship ?? null, f.unwanted ?? null] : null];
+    clean.items.map((item) => [item.atomId, grammarReasons.indexOf(item.reason), item.schema, item.slot, item.substitute ?? null, item.gather ?? null, item.jevProbability ?? null, item.words ?? null]),
+    f ? [f.outcome, f.wish, f.method, f.relationship ?? null, f.unwanted ?? null, f.prayer ?? null, f.title ?? null] : null];
   const bytes = new TextEncoder().encode(JSON.stringify(payload));
   let binary = '';
   for (const byte of bytes) binary += String.fromCharCode(byte);
@@ -114,10 +115,10 @@ export function decodeAnyRitualRecipe(token) {
   if (!Array.isArray(payload) || payload[0] !== 8) return decodeRitualRecipe(token);
   if (payload.length !== 6 || !Array.isArray(payload[4])) throw new Error('Invalid recipe link');
   const f = payload[5];
-  const goalFrame = Array.isArray(f) ? normalizeGoalFrame({ outcome: f[0], wish: f[1], method: f[2], relationship: f[3] ?? undefined, unwanted: f[4] ?? undefined }) : null;
+  const goalFrame = Array.isArray(f) ? normalizeGoalFrame({ outcome: f[0], wish: f[1], method: f[2], relationship: f[3] ?? undefined, unwanted: f[4] ?? undefined, prayer:f[5] ?? undefined, title:f[6] ?? undefined }) : null;
   return normalizeGrammar({ goal: payload[1], mode: modes[payload[2]], fit: fits[payload[3]], goalFrame,
     items: payload[4].map((item) => {
-      if (!Array.isArray(item) || (item.length !== 6 && item.length !== 7)) throw new Error('Invalid recipe link');
-      return { atomId: item[0], reason: grammarReasons[item[1]], schema: item[2], slot: item[3], substitute: item[4] ?? undefined, gather: item[5] ?? undefined, jevProbability: item[6] ?? undefined };
+      if (!Array.isArray(item) || (item.length !== 6 && item.length !== 7 && item.length !== 8)) throw new Error('Invalid recipe link');
+      return { atomId: item[0], reason: grammarReasons[item[1]], schema: item[2], slot: item[3], substitute: item[4] ?? undefined, gather: item[5] ?? undefined, jevProbability: item[6] ?? undefined, words:item[7] ?? undefined };
     }) });
 }

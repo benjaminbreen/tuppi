@@ -78,7 +78,7 @@ export function proposePlans(answers) {
     const historicalMatch = blockStepIds(episode).some((id) => byId.get(id).aims.some((aim) => directAims.has(aim)));
     const specificity = probability(answers, `specific_${questionId(episode)}`);
     return { episode, p, specificity, theme, score: mode === 'historical' ? p : .65 * specificity + .3 * p + .05 * themeScores.get(theme), historicalMatch };
-  }).filter((candidate) => (mode === 'historical' ? candidate.historicalMatch : !candidate.episode.historicalOnly));
+  }).filter((candidate) => (mode === 'historical' ? candidate.historicalMatch : true));
 
   // Enumerate small bundles of complete episodes; never fill spare slots with isolated acts.
   const plans = [];

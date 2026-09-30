@@ -33,14 +33,14 @@
     "description": "The Old Woman winds wool thread around the figures while naming the affliction she is returning.",
     "actionType": "wind-thread-around-a-figure",
     "unitType": "act",
-    "visualAssetId": "allii-05-wool-figures"
+    "visualAssetId": "source-action-39"
   },
   "allii-set-basket": {
     "title": "Place the deposit beneath the bed",
     "description": "A prepared deposit of objects is set under the patient's bed.",
     "actionType": "place-a-bedside-deposit",
     "unitType": "act",
-    "visualAssetId": "allii-06-bed-basket"
+    "visualAssetId": "source-action-40"
   },
   "allii-sleep-over": {
     "title": "Sleep over the deposit",
@@ -61,7 +61,7 @@
     "description": "The Old Woman presses an earth clod against the patient while uttering a purification analogy.",
     "actionType": "press-cleansing-material",
     "unitType": "act",
-    "visualAssetId": "allii-09-earth-clod"
+    "visualAssetId": "source-action-41"
   },
   "allii-press-dough": {
     "title": "Press dough against the patient",
@@ -96,7 +96,7 @@
     "description": "The wool wreath is placed on one ram.",
     "actionType": "adorn-animal",
     "unitType": "act",
-    "visualAssetId": "uhhamuwa-04-crown"
+    "visualAssetId": "source-action-29"
   },
   "uhhamuwa-lead-to-road": {
     "title": "Lead the ram toward the enemy road",
@@ -118,7 +118,7 @@
     "description": "The crowned ram is sent into enemy territory.",
     "actionType": "move-animal",
     "unitType": "act",
-    "visualAssetId": "uhhamuwa-07-departure"
+    "visualAssetId": "source-action-30"
   },
   "uhhamuwa-bring-fodder-fat": {
     "title": "Bring fodder for divine horses",
@@ -165,7 +165,7 @@
     "matchRule": "Both texts prescribe slaughter of sheep. Ašḫella also slaughters goats.",
     "actionType": "kill-animal",
     "unitType": "act",
-    "visualAssetId": "uhhamuwa-13-kill"
+    "visualAssetId": "source-action-33"
   },
   "cook-sheep-meat": {
     "title": "Cook sheep meat",
@@ -173,7 +173,7 @@
     "matchRule": "The shared action is cooking sheep meat after slaughter.",
     "actionType": "cook-meat",
     "unitType": "act",
-    "visualAssetId": "uhhamuwa-14-cook"
+    "visualAssetId": "source-action-34"
   },
   "uhhamuwa-bring-food-drink": {
     "title": "Bring food and drink",
@@ -215,7 +215,7 @@
     "description": "The adorned ram is tied in front of a tent for the night.",
     "actionType": "tether-animal",
     "unitType": "act",
-    "visualAssetId": "ashella-tether"
+    "visualAssetId": "source-action-31"
   },
   "ashella-appeal": {
     "title": "Ask the plague god to be appeased",
@@ -230,7 +230,7 @@
     "description": "The rams are led through camp and let loose at the enemy border.",
     "actionType": "move-animal",
     "unitType": "act",
-    "visualAssetId": "ashella-release-ram"
+    "visualAssetId": "source-action-32"
   },
   "ashella-wash-salt-water": {
     "title": "Wash hands in salted water",
@@ -279,7 +279,7 @@
     "description": "A prisoner of war and a woman from the enemy land are chosen as substitutes.",
     "actionType": "select-human",
     "unitType": "act",
-    "visualAssetId": "pulisa-substitutes"
+    "visualAssetId": "source-action-11"
   },
   "pulisa-remove-king-garments": {
     "title": "Remove the king’s festive clothes",
@@ -293,7 +293,7 @@
     "description": "The prisoner receives the king’s festive garments.",
     "actionType": "dress-substitute",
     "unitType": "act",
-    "visualAssetId": "pulisa-dress-substitute"
+    "visualAssetId": "source-action-12"
   },
   "pulisa-dress-woman": {
     "title": "Clothe the woman in festive garments",
@@ -337,7 +337,7 @@
     "description": "Red, green, black and partly restored white wool are drawn out of the king’s mouth.",
     "actionType": "draw-wool-from-mouth",
     "unitType": "act",
-    "visualAssetId": "pulisa-mouth-wool"
+    "visualAssetId": "source-action-13"
   },
   "pulisa-address-bull": {
     "title": "Offer the bull to the male deity",
@@ -358,7 +358,7 @@
     "description": "The bull and ewe are driven in front of the two human substitutes.",
     "actionType": "move-animal",
     "unitType": "act",
-    "visualAssetId": "pulisa-bull-ewe"
+    "visualAssetId": "source-action-14"
   },
   "tunnawiya-prepare-black-animals": {
     "title": "Bring the black animals",
@@ -410,7 +410,7 @@
     "description": "Tunnawiya models twelve tongue shapes and two oxen from the collected clay.",
     "actionType": "make-clay-figures",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-clay-figures"
+    "visualAssetId": "source-action-26"
   },
   "tunnawiya-dress-in-black": {
     "title": "Dress the patient in black",
@@ -424,7 +424,7 @@
     "description": "Tunnawiya holds a black sheep over the patient while reciting.",
     "actionType": "lift-over-patient",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-hold-black-sheep",
+    "visualAssetId": "source-action-02",
     "matchRule": "A sheep is held over the patient so that it takes up the condition. KUB 7.53+ specifies a black sheep with a Luwian incantation; KUB 9.34 §20 holds a sheep over the chest without naming its colour. Other animals held over the patient (piglet, puppy) are separate tasks."
   },
   "tunnawiya-hold-piglet": {
@@ -432,35 +432,35 @@
     "description": "A piglet is held over the patient with its own incantation.",
     "actionType": "lift-over-patient",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-piglet-lifted"
+    "visualAssetId": "source-action-16"
   },
   "tunnawiya-hold-puppy": {
     "title": "Hold the puppy over the patient",
     "description": "A puppy is held over the patient with its own incantation.",
     "actionType": "lift-over-patient",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-puppy-lifted"
+    "visualAssetId": "source-action-17"
   },
   "tunnawiya-hold-clay-tongue": {
     "title": "Hold a clay tongue over the patient",
     "description": "A clay tongue is lifted over the patient with a prescribed incantation.",
     "actionType": "lift-over-patient",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-clay-figures"
+    "visualAssetId": "source-action-18"
   },
   "tunnawiya-melt-figures": {
     "title": "Melt the wax and tallow figures",
     "description": "After holding the figures over the patient, Tunnawiya melts them.",
     "actionType": "melt-figures",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-wax-tallow"
+    "visualAssetId": "source-action-19"
   },
   "tunnawiya-wash-hands-wine": {
     "title": "Wash the hands with wine",
     "description": "The patient rises and washes the hands with wine.",
     "actionType": "wash-hands",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-wine-handwash"
+    "visualAssetId": "source-action-25"
   },
   "tunnawiya-wash-with-water": {
     "title": "Wash oneself with water",
@@ -481,42 +481,42 @@
     "description": "Tunnawiya cuts the black shirt down its length and removes the dark garments.",
     "actionType": "remove-garments",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-black-clothes"
+    "visualAssetId": "source-action-20"
   },
   "tunnawiya-smash-empty-pot": {
     "title": "Smash the empty pot",
     "description": "An empty pot is waved over the patient and smashed.",
     "actionType": "break-pot",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-broken-pot"
+    "visualAssetId": "source-action-21"
   },
   "tunnawiya-bathe-over-figure": {
     "title": "Bathe over a clay figure",
     "description": "A clay figure is placed beneath the patient’s feet as the patient bathes.",
     "actionType": "bathe-over-figure",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-ritual-bathing"
+    "visualAssetId": "source-action-22"
   },
   "tunnawiya-comb-down": {
     "title": "Comb the patient downward",
     "description": "Maidservants draw boxwood combs downward over the patient.",
     "actionType": "comb-down",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-boxwood-combs"
+    "visualAssetId": "source-action-23"
   },
   "tunnawiya-release-into-river": {
     "title": "Send the used objects into the river",
     "description": "The combs, clothing and other used objects are sent into the river.",
     "actionType": "release-into-water",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-river-release"
+    "visualAssetId": "source-action-24"
   },
   "tunnawiya-burn-small-animals": {
     "title": "Burn the piglet and puppy",
     "description": "The puppy and piglet are taken to uncultivated ground and burned.",
     "actionType": "burn-animals",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-small-pyre"
+    "visualAssetId": "source-action-09"
   },
   "tunnawiya-pass-through-gate": {
     "title": "Pass beneath the wooden gate",
@@ -530,7 +530,7 @@
     "description": "Tunnawiya takes hold of a cow by its horn to begin a fertility comparison.",
     "actionType": "touch-living-exemplar",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-fertile-cow"
+    "visualAssetId": "source-action-27"
   },
   "tunnawiya-wish-for-offspring": {
     "title": "Ask for offspring through the cow analogy",
@@ -545,7 +545,7 @@
     "description": "Tunnawiya takes hold of a fruit-bearing tree.",
     "actionType": "touch-living-exemplar",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-fruit-tree"
+    "visualAssetId": "source-action-28"
   },
   "tunnawiya-wish-by-tree": {
     "title": "Ask for descendants through the tree analogy",
@@ -611,7 +611,7 @@
     "description": "The animals are cut apart for the Seven at an untouched place.",
     "actionType": "kill-animal",
     "unitType": "act",
-    "visualAssetId": "dandanku-cut-three-animals"
+    "visualAssetId": "source-action-10"
   },
   "dandanku-libate-to-seven": {
     "title": "Pour beer and wine for the Seven",
@@ -653,14 +653,14 @@
     "description": "The offerant receives the two implements before passing beneath the gate.",
     "actionType": "give-implements",
     "unitType": "act",
-    "visualAssetId": "paskuwatti-spindle-distaff"
+    "visualAssetId": "source-action-36"
   },
   "paskuwatti-pass-gate": {
     "title": "Pass beneath the gate",
     "description": "The offerant passes beneath the reed gate while holding the implements.",
     "actionType": "pass-through-gate",
     "unitType": "act",
-    "visualAssetId": "paskuwatti-pass-reed-gate",
+    "visualAssetId": "source-action-38",
     "matchRule": "Passing under a constructed ritual threshold; material and purpose stay with each occurrence."
   },
   "paskuwatti-exchange-implements": {
@@ -668,7 +668,7 @@
     "description": "After the crossing Paškuwatti removes the first implements and gives the man a bow and arrows.",
     "actionType": "exchange-implements",
     "unitType": "act",
-    "visualAssetId": "paskuwatti-bow-arrows"
+    "visualAssetId": "source-action-37"
   },
   "paskuwatti-speak-exchange": {
     "title": "Speak the change of implements",
@@ -837,7 +837,7 @@
     "description": "The donkey is driven away toward the enemy lands.",
     "actionType": "send-donkey-away",
     "unitType": "act",
-    "visualAssetId": "tapalazunauli-donkey"
+    "visualAssetId": "source-action-42"
   },
   "tapalazunauli-scatter-straw": {
     "title": "Scatter a little straw",
@@ -901,7 +901,7 @@
     "description": "A man is released as a substitute carrier after the incantation.",
     "actionType": "release-human-substitute",
     "unitType": "act",
-    "visualAssetId": "ummaya-substitute-man"
+    "visualAssetId": "source-action-43"
   },
   "ummaya-release-oxen": {
     "title": "Release two oxen as substitutes",
@@ -1061,7 +1061,7 @@
     "description": "A ram's body is divided into twelve limbs to match the patient's twelve limbs.",
     "actionType": "dismember-animal",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-royal-cut-ram-limbs",
+    "visualAssetId": "source-action-04",
     "matchRule": "A ram's body is divided into twelve limbs to match the patient's twelve limbs."
   },
   "tunnawiya-royal-limbs-take-sickness": {
@@ -1117,7 +1117,7 @@
     "description": "The patient spits into the mouth of an animal carrier held out to him.",
     "actionType": "spit-into-carrier",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-royal-spit-into-mouth",
+    "visualAssetId": "source-action-03",
     "matchRule": "The patient spits into the mouth of an animal carrier held out to him."
   },
   "tunnawiya-royal-command-spit-out": {
@@ -1133,7 +1133,7 @@
     "description": "A live animal and a dough model of the same animal are brought together.",
     "actionType": "bring-animal",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-royal-bring-piglets",
+    "visualAssetId": "source-action-06",
     "matchRule": "A live animal and a dough model of the same animal are brought together."
   },
   "tunnawiya-royal-swing-live-piglet": {
@@ -1141,7 +1141,7 @@
     "description": "A live piglet is swung repeatedly (away from the patient?).",
     "actionType": "lift-over-patient",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-royal-swing-live-piglet",
+    "visualAssetId": "source-action-07",
     "matchRule": "A live piglet is swung repeatedly (away from the patient?)."
   },
   "tunnawiya-royal-hold-dough-piglet": {
@@ -1149,7 +1149,7 @@
     "description": "A dough model animal is held close to the patient as a carrier.",
     "actionType": "lift-over-patient",
     "unitType": "act",
-    "visualAssetId": "tunnawiya-royal-hold-dough-piglet",
+    "visualAssetId": "source-action-08",
     "matchRule": "A dough model animal is held close to the patient as a carrier."
   },
   "tunnawiya-royal-great-god-historiola": {
@@ -1375,7 +1375,7 @@
     "description": "They offer to the gods and set raw and cooked portions on the ground.",
     "actionType": "offer-food-drink",
     "unitType": "act",
-    "visualAssetId": "lapana-plague-raw-cooked",
+    "visualAssetId": "source-action-35",
     "matchRule": "Offering raw and cooked portions together."
   },
   "lapana-plague-burn": {
@@ -1407,7 +1407,7 @@
     "description": "Mix the urine of a living donkey with clay from the tablet-house.",
     "actionType": "collect-clay",
     "unitType": "act",
-    "visualAssetId": "libu-mix-urine-clay",
+    "visualAssetId": "source-action-48",
     "matchRule": "Match only the same act on the same principal object."
   },
   "libu-make-donkeys": {
@@ -1431,7 +1431,7 @@
     "description": "Mix the patient's urine, armpit and chest hair and nail-parings into the clay and fashion the substitute figure.",
     "actionType": "make-clay-figures",
     "unitType": "act",
-    "visualAssetId": "libu-make-substitute",
+    "visualAssetId": "source-action-49",
     "matchRule": "Match only the same act on the same principal object."
   },
   "libu-dress-mount-substitute": {
@@ -1899,7 +1899,7 @@
     "description": "Let the blood of an animal fall into water to make a remedy.",
     "actionType": "mix-remedy",
     "unitType": "act",
-    "visualAssetId": "potency-blood-into-water",
+    "visualAssetId": "source-action-50",
     "matchRule": "Drain animal blood into water as a remedy base."
   },
   "potency-wrap-in-wool": {
@@ -2003,7 +2003,7 @@
     "description": "Sew a remedy ingredient into a cord or strip of leather.",
     "actionType": "wrap-amulet-materials",
     "unitType": "act",
-    "visualAssetId": "remedies-sew-into-cord",
+    "visualAssetId": "source-action-44",
     "matchRule": "Sew or enclose an ingredient in a leather cord; record the source animal."
   },
   "remedies-twist-sinew": {
@@ -2011,7 +2011,7 @@
     "description": "Twist an animal sinew into a cord.",
     "actionType": "wrap-amulet-materials",
     "unitType": "act",
-    "visualAssetId": "remedies-twist-sinew",
+    "visualAssetId": "source-action-45",
     "matchRule": "Twist a sinew into a cord or amulet."
   },
   "remedies-heat-compress": {
@@ -2043,7 +2043,7 @@
     "description": "Mix a remedy into honey and give it to the patient.",
     "actionType": "give-remedy",
     "unitType": "act",
-    "visualAssetId": "remedies-into-honey",
+    "visualAssetId": "source-action-47",
     "matchRule": "Give a remedy in honey."
   },
   "remedies-gut-fish": {
@@ -2051,7 +2051,7 @@
     "description": "Take a fish and remove its inner parts for a remedy.",
     "actionType": "gather-remedy-material",
     "unitType": "act",
-    "visualAssetId": "remedies-gut-fish",
+    "visualAssetId": "source-action-01",
     "matchRule": "Gut a fish as a remedy ingredient."
   },
   "expose-remedy-to-stars": {

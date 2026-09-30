@@ -87,7 +87,7 @@ export function entityLabel(value, { adapted = false, substitute = null } = {}) 
     : entity.class === 'earth' ? `${sub} of earth` : sub;
   const count = entity.count && entity.count > 1 ? `${entity.count} ` : '';
   const head = entity.class === 'wool' && entity.sub == null ? 'wool' : noun;
-  const plural = (word) => /(?:ox)$/.test(word) ? `${word}en` : /(?:sheep|fish|deer|wool|bread|clay|dough|flour|fodder)$/.test(word) ? word : /(?:s|x|ch|sh)$/.test(word) ? `${word}es` : /[^aeiou]y$/.test(word) ? `${word.slice(0, -1)}ies` : `${word}s`;
+  const plural = (word) => /(?:ox)$/.test(word) ? `${word}en` : /(?:sheep|fish|deer|wool|bread|clay|dough|flour|fodder)$/.test(word) ? word : /[^s]s$/.test(word) ? word : /(?:ss|x|ch|sh)$/.test(word) ? `${word}es` : /[^aeiou]y$/.test(word) ? `${word.slice(0, -1)}ies` : `${word}s`;
   const body = [...words, count ? plural(head) : head].join(' ');
   const part = features.part ? `’s ${features.part}` : '';
   if (entity.class === 'deity' || /^[A-ZḪŠ]/.test(noun)) return `${noun}${part}`;

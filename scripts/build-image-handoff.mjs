@@ -47,7 +47,7 @@ const md = [
   ]),
   '## Optional: composable sprites for the grammar layer',
   '',
-  'Composed recipes recombine acts across rituals, so a card sometimes shows an act applied to a different object (a dough figure standing in for a ram). A small sprite set would let a card be drawn as pose + object instead of reusing a source plate. These are optional; the app works without them.',
+  'Composed recipes recombine acts across rituals, so a card sometimes shows an act applied to a different object (a source-prescribed clay figure being held over a patient). A small sprite set would let a card be drawn as pose + object instead of reusing a source plate. These are optional; the app works without them.',
   '',
   ...Object.entries(grammar.verbs).filter(([verb]) => verb !== 'speak').map(([verb, v]) => `- \`sprites/verb-${verb}.png\` — A plain, generic figure (simple undyed tunic, no culture-specific costume) performing: ${v.gloss}. Hands and target area left empty so an object sprite can be composited in. ${STYLE}`),
   '',

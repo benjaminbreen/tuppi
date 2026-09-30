@@ -19,16 +19,6 @@
     "subject": "Return the harm",
     "medium": "AI reconstruction · transparent PNG"
   },
-  "allii-05-wool-figures": {
-    "src": "/rituals/allii/05-wool-figures.png",
-    "subject": "Wind coloured wool",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "allii-06-bed-basket": {
-    "src": "/rituals/allii/06-bed-basket.png",
-    "subject": "Deposit under bed",
-    "medium": "AI reconstruction · transparent PNG"
-  },
   "allii-07-sleep": {
     "src": "/rituals/allii/07-sleep.png",
     "subject": "Sleep over it",
@@ -37,11 +27,6 @@
   "allii-08-remove-basket": {
     "src": "/rituals/allii/08-remove-basket.png",
     "subject": "Lift it at dawn",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "allii-09-earth-clod": {
-    "src": "/rituals/allii/09-earth-clod.png",
-    "subject": "Press earth",
     "medium": "AI reconstruction · transparent PNG"
   },
   "allii-10-dough": {
@@ -64,11 +49,6 @@
     "subject": "Make a wool wreath",
     "medium": "AI reconstruction · transparent PNG"
   },
-  "uhhamuwa-04-crown": {
-    "src": "/rituals/uhhamuwa/04-crown.png",
-    "subject": "Adorn the ram",
-    "medium": "AI reconstruction · transparent PNG"
-  },
   "uhhamuwa-05-road": {
     "src": "/rituals/uhhamuwa/05-road.png",
     "subject": "Lead the ram toward the enemy road",
@@ -77,11 +57,6 @@
   "uhhamuwa-06-appeal": {
     "src": "/rituals/uhhamuwa/06-appeal.png",
     "subject": "Address the hostile god",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "uhhamuwa-07-departure": {
-    "src": "/rituals/uhhamuwa/07-departure.png",
-    "subject": "Drive the ram away",
     "medium": "AI reconstruction · transparent PNG"
   },
   "uhhamuwa-08-fodder": {
@@ -109,16 +84,6 @@
     "subject": "Dedicate one sheep to the Sun-god",
     "medium": "AI reconstruction · transparent PNG"
   },
-  "uhhamuwa-13-kill": {
-    "src": "/rituals/uhhamuwa/13-kill.png",
-    "subject": "Kill the remaining sheep",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "uhhamuwa-14-cook": {
-    "src": "/rituals/uhhamuwa/14-cook.png",
-    "subject": "Cook the sheep",
-    "medium": "AI reconstruction · transparent PNG"
-  },
   "uhhamuwa-15-provisions": {
     "src": "/rituals/uhhamuwa/15-provisions.png",
     "subject": "Bring food and drink",
@@ -137,11 +102,6 @@
   "ashella-adorned-ram": {
     "src": "/rituals/ashella/adorned-ram.png",
     "subject": "Adorn ram",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "ashella-tether": {
-    "src": "/rituals/ashella/tether.png",
-    "subject": "Tether ram",
     "medium": "AI reconstruction · transparent PNG"
   },
   "ashella-wash": {
@@ -189,11 +149,6 @@
     "subject": "Fit rings at the bull’s ears",
     "medium": "AI reconstruction · transparent PNG"
   },
-  "pulisa-mouth-wool": {
-    "src": "/rituals/pulisa/mouth-wool.png",
-    "subject": "Draw coloured wool from the king’s mouth",
-    "medium": "AI reconstruction · transparent PNG"
-  },
   "tunnawiya-black-animals": {
     "src": "/rituals/tunnawiya/black-animals.png",
     "subject": "Black ewe, piglet and puppy",
@@ -219,21 +174,6 @@
     "subject": "Reed ritual shelter",
     "medium": "AI reconstruction · transparent PNG"
   },
-  "tunnawiya-clay-figures": {
-    "src": "/rituals/tunnawiya/clay-figures.png",
-    "subject": "Clay tongues and oxen",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "tunnawiya-wax-tallow": {
-    "src": "/rituals/tunnawiya/wax-tallow.png",
-    "subject": "Wax and tallow effigies",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "tunnawiya-broken-pot": {
-    "src": "/rituals/tunnawiya/broken-pot.png",
-    "subject": "Broken black clay pot",
-    "medium": "AI reconstruction · transparent PNG"
-  },
   "tunnawiya-alanza-gate": {
     "src": "/rituals/tunnawiya/alanza-gate.png",
     "subject": "Temporary wooden gate",
@@ -249,11 +189,6 @@
     "subject": "Fruit-bearing tree",
     "medium": "AI reconstruction · transparent PNG"
   },
-  "tunnawiya-river-release": {
-    "src": "/rituals/tunnawiya/river-release-v2.png",
-    "subject": "Used ritual objects entering water",
-    "medium": "AI reconstruction · transparent PNG"
-  },
   "tunnawiya-ritual-bathing": {
     "src": "/rituals/tunnawiya/water-wash-v2.png",
     "subject": "Water poured onto an arm",
@@ -264,29 +199,9 @@
     "subject": "Blue and red wool pulled away",
     "medium": "AI reconstruction · transparent PNG"
   },
-  "tunnawiya-wine-handwash": {
-    "src": "/rituals/tunnawiya/wine-wash-v2.png",
-    "subject": "Hands washed with wine",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "tunnawiya-hold-black-sheep": {
-    "src": "/rituals/tunnawiya/solo-black-sheep.png",
-    "subject": "Sheep lifted over a patient",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "tunnawiya-small-pyre": {
-    "src": "/rituals/tunnawiya/small-pyre.png",
-    "subject": "Small pyre with animals",
-    "medium": "AI reconstruction · transparent PNG"
-  },
   "paskuwatti-reed-gate": {
     "src": "/rituals/paskuwatti/reed-gate.png",
     "subject": "Reed gate bound with red and white wool",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "paskuwatti-spindle-distaff": {
-    "src": "/rituals/paskuwatti/spindle-distaff.png",
-    "subject": "Spindle and distaff",
     "medium": "AI reconstruction · transparent PNG"
   },
   "paskuwatti-bow-arrows": {
@@ -302,11 +217,6 @@
   "zarpiya-door-oil": {
     "src": "/rituals/zarpiya/closed-door-oil.png",
     "subject": "Closed wooden door and oil vessel",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "dandanku-cut-three-animals": {
-    "src": "/rituals/dandanku/cut-three-animals.png",
-    "subject": "Kid, piglet and puppy cut apart for the Seven",
     "medium": "AI reconstruction · transparent PNG"
   },
   "maddunani-provisions": {
@@ -343,16 +253,6 @@
     "src": "/rituals/cmawro/05-place-neck.png",
     "subject": "Place the amulet around the neck",
     "medium": "Illustrative reconstruction · transparent PNG"
-  },
-  "tunnawiya-piglet-lifted": {
-    "src": "/rituals/tunnawiya/piglet-lifted.png",
-    "subject": "A piglet lifted above the patient",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "tunnawiya-puppy-lifted": {
-    "src": "/rituals/tunnawiya/puppy-lifted.png",
-    "subject": "A puppy lifted above the patient",
-    "medium": "AI reconstruction · transparent PNG"
   },
   "tunnawiya-sun-libation": {
     "src": "/rituals/tunnawiya/sun-libation.png",
@@ -394,24 +294,9 @@
     "subject": "Dead person burning on a pyre",
     "medium": "AI reconstruction · transparent PNG"
   },
-  "ashella-release-ram": {
-    "src": "/rituals/ashella/release-ram.png",
-    "subject": "Adorned ram released toward the enemy border",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "pulisa-dress-substitute": {
-    "src": "/rituals/pulisa/dress-substitute.png",
-    "subject": "Man dressed as a substitute",
-    "medium": "AI reconstruction · transparent PNG"
-  },
   "paskuwatti-carry-offering": {
     "src": "/rituals/paskuwatti/carry-offering.png",
     "subject": "Offerings carried to the open country",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "paskuwatti-pass-reed-gate": {
-    "src": "/rituals/paskuwatti/pass-reed-gate.png",
-    "subject": "Man carrying implements through a reed gate",
     "medium": "AI reconstruction · transparent PNG"
   },
   "paskuwatti-new-table": {
@@ -422,11 +307,6 @@
   "zarpiya-take-implements": {
     "src": "/rituals/zarpiya/take-implements.png",
     "subject": "Attendants taking up ritual implements",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "tunnawiya-boxwood-combs": {
-    "src": "/rituals/tunnawiya/boxwood-combs.png",
-    "subject": "Boxwood combs",
     "medium": "AI reconstruction · transparent PNG"
   },
   "tapalazunauli-donkey": {
@@ -452,11 +332,6 @@
   "ummaya-city-wall": {
     "src": "/rituals/ummaya/city-wall.png",
     "subject": "Ummaya prepares and conjures by the city wall",
-    "medium": "AI reconstruction · transparent PNG"
-  },
-  "ummaya-substitute-man": {
-    "src": "/rituals/ummaya/substitute-man.png",
-    "subject": "A man released as a substitute carrier",
     "medium": "AI reconstruction · transparent PNG"
   },
   "ummaya-two-oxen": {
@@ -564,11 +439,6 @@
     "subject": "Twelve limbs fitted together",
     "medium": "AI illustration · transparent PNG"
   },
-  "tunnawiya-royal-cut-ram-limbs": {
-    "src": "/rituals/generated/tunnawiya-royal-cut-ram-limbs.png",
-    "subject": "Bronze knife and sheep meat",
-    "medium": "AI illustration · transparent PNG"
-  },
   "tunnawiya-royal-limbs-take-sickness": {
     "src": "/rituals/generated/tunnawiya-royal-limbs-take-sickness.png",
     "subject": "Sheep meat portions on a clay platter",
@@ -599,29 +469,9 @@
     "subject": "Ploughing analogy",
     "medium": "AI illustration · transparent PNG"
   },
-  "tunnawiya-royal-spit-into-mouth": {
-    "src": "/rituals/generated/tunnawiya-royal-spit-into-mouth.png",
-    "subject": "Spitting into a sheep's mouth",
-    "medium": "AI illustration · transparent PNG"
-  },
   "tunnawiya-royal-command-spit-out": {
     "src": "/rituals/generated/tunnawiya-royal-list-afflictions.png",
     "subject": "Command to spit out harm",
-    "medium": "AI illustration · transparent PNG"
-  },
-  "tunnawiya-royal-bring-piglets": {
-    "src": "/rituals/generated/tunnawiya-royal-bring-piglets.png",
-    "subject": "Live and dough piglets",
-    "medium": "AI illustration · transparent PNG"
-  },
-  "tunnawiya-royal-swing-live-piglet": {
-    "src": "/rituals/generated/tunnawiya-royal-swing-live-piglet.png",
-    "subject": "Live piglet swung",
-    "medium": "AI illustration · transparent PNG"
-  },
-  "tunnawiya-royal-hold-dough-piglet": {
-    "src": "/rituals/generated/tunnawiya-royal-hold-dough-piglet.png",
-    "subject": "Dough piglet held close",
     "medium": "AI illustration · transparent PNG"
   },
   "tunnawiya-royal-great-god-historiola": {
@@ -754,11 +604,6 @@
     "subject": "Evening fire",
     "medium": "AI illustration · transparent PNG"
   },
-  "lapana-plague-raw-cooked": {
-    "src": "/rituals/generated/lapana-plague-raw-cooked.png",
-    "subject": "Raw and cooked portions",
-    "medium": "AI illustration · transparent PNG"
-  },
   "lapana-plague-burn": {
     "src": "/rituals/generated/lapana-plague-evening-fire.png",
     "subject": "Burning",
@@ -774,11 +619,6 @@
     "subject": "Morsel to the mouth",
     "medium": "AI illustration · transparent PNG"
   },
-  "libu-mix-urine-clay": {
-    "src": "/rituals/generated/libu-mix-urine-clay.png",
-    "subject": "Mix donkey urine with school clay",
-    "medium": "AI illustration · transparent PNG"
-  },
   "libu-make-donkeys": {
     "src": "/rituals/generated/libu-make-donkeys.png",
     "subject": "Knead and make two clay donkeys",
@@ -787,11 +627,6 @@
   "libu-attach-strap-tail": {
     "src": "/rituals/generated/libu-attach-strap-tail.png",
     "subject": "Attach the strap and tail-hair to the figurine",
-    "medium": "AI illustration · transparent PNG"
-  },
-  "libu-make-substitute": {
-    "src": "/rituals/generated/libu-make-substitute.png",
-    "subject": "Make the substitute from the patient's urine, hair and nails",
     "medium": "AI illustration · transparent PNG"
   },
   "libu-dress-mount-substitute": {
@@ -1094,11 +929,6 @@
     "subject": "Remedy in a cup",
     "medium": "AI illustration · transparent PNG"
   },
-  "potency-blood-into-water": {
-    "src": "/rituals/generated/potency-blood-into-water.png",
-    "subject": "Blood in water",
-    "medium": "AI illustration · transparent PNG"
-  },
   "potency-water-under-stars": {
     "src": "/rituals/generated/potency-water-under-stars.png",
     "subject": "Bowl of water beneath stars",
@@ -1164,16 +994,6 @@
     "subject": "Steeping and sifting",
     "medium": "AI illustration · transparent PNG"
   },
-  "remedies-sew-into-cord": {
-    "src": "/rituals/generated/remedies-sew-into-cord.png",
-    "subject": "Root sewn into leather cord",
-    "medium": "AI illustration · transparent PNG"
-  },
-  "remedies-twist-sinew": {
-    "src": "/rituals/generated/remedies-twist-sinew.png",
-    "subject": "Twisting a sinew",
-    "medium": "AI illustration · transparent PNG"
-  },
   "remedies-heat-compress": {
     "src": "/rituals/generated/remedies-heat-compress.png",
     "subject": "Warming a compress",
@@ -1189,14 +1009,239 @@
     "subject": "Carrying a bowl indoors",
     "medium": "AI illustration · transparent PNG"
   },
-  "remedies-into-honey": {
-    "src": "/rituals/generated/remedies-into-honey.png",
-    "subject": "Remedy in honey",
-    "medium": "AI illustration · transparent PNG"
+  "source-action-01": {
+    "src": "/rituals/source-actions/01-hittite-remedies-gut-fish.png",
+    "subject": "Gut a fish",
+    "medium": "AI reconstruction · transparent PNG"
   },
-  "remedies-gut-fish": {
-    "src": "/rituals/generated/remedies-gut-fish.png",
-    "subject": "Gutted fish",
-    "medium": "AI illustration · transparent PNG"
+  "source-action-02": {
+    "src": "/rituals/source-actions/02-tunnawiya-hold-black-sheep.png",
+    "subject": "Hold a black sheep over the patient",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-03": {
+    "src": "/rituals/source-actions/03-tunnawiya-royal-spit-into-mouth.png",
+    "subject": "Spit into the sheep's mouth",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-06": {
+    "src": "/rituals/source-actions/06-tunnawiya-royal-bring-piglets.png",
+    "subject": "Bring a dough piglet and a live piglet",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-07": {
+    "src": "/rituals/source-actions/07-tunnawiya-royal-swing-live-piglet.png",
+    "subject": "Swing the live piglet away",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-08": {
+    "src": "/rituals/source-actions/08-tunnawiya-royal-hold-dough-piglet.png",
+    "subject": "Hold the dough piglet close to him",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-09": {
+    "src": "/rituals/source-actions/09-tunnawiya-burn-small-animals.png",
+    "subject": "Burn the piglet and puppy",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-11": {
+    "src": "/rituals/source-actions/11-pulisa-select-substitutes.png",
+    "subject": "Select a prisoner and a woman",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-10": {
+    "src": "/rituals/source-actions/10-dandanku-kill-animals.png",
+    "subject": "Cut apart the three animals",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-12": {
+    "src": "/rituals/source-actions/12-pulisa-dress-man.png",
+    "subject": "Clothe the man in the king’s garments",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-13": {
+    "src": "/rituals/source-actions/13-pulisa-draw-wool.png",
+    "subject": "Draw coloured wool from the king’s mouth",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-14": {
+    "src": "/rituals/source-actions/14-pulisa-send-animals-ahead.png",
+    "subject": "Drive the bull and ewe ahead",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-16": {
+    "src": "/rituals/source-actions/16-tunnawiya-hold-piglet.png",
+    "subject": "Hold the piglet over the patient",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-18": {
+    "src": "/rituals/source-actions/18-tunnawiya-hold-clay-tongue.png",
+    "subject": "Hold a clay tongue over the patient",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-04": {
+    "src": "/rituals/source-actions/04-tunnawiya-royal-cut-ram-limbs.png",
+    "subject": "Cut up the ram's twelve limbs",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-17": {
+    "src": "/rituals/source-actions/17-tunnawiya-hold-puppy.png",
+    "subject": "Hold the puppy over the patient",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-19": {
+    "src": "/rituals/source-actions/19-tunnawiya-melt-figures.png",
+    "subject": "Melt the wax and tallow figures",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-20": {
+    "src": "/rituals/source-actions/20-tunnawiya-strip-black-clothes.png",
+    "subject": "Slit the black shirt",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-21": {
+    "src": "/rituals/source-actions/21-tunnawiya-smash-empty-pot.png",
+    "subject": "Smash the empty pot",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-22": {
+    "src": "/rituals/source-actions/22-tunnawiya-bathe-over-figure.png",
+    "subject": "Bathe over a clay figure",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-23": {
+    "src": "/rituals/source-actions/23-tunnawiya-comb-down.png",
+    "subject": "Comb the patient downward",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-24": {
+    "src": "/rituals/source-actions/24-tunnawiya-release-into-river.png",
+    "subject": "Send the used objects into the river",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-25": {
+    "src": "/rituals/source-actions/25-tunnawiya-wash-hands-wine.png",
+    "subject": "Wash the hands with wine",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-26": {
+    "src": "/rituals/source-actions/26-tunnawiya-make-clay-figures.png",
+    "subject": "Make clay tongues and oxen",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-27": {
+    "src": "/rituals/source-actions/27-tunnawiya-take-cow-by-horn.png",
+    "subject": "Take the cow by its horn",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-29": {
+    "src": "/rituals/source-actions/29-uhhamuwa-crown-ram.png",
+    "subject": "Adorn the ram",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-28": {
+    "src": "/rituals/source-actions/28-tunnawiya-touch-fruit-tree.png",
+    "subject": "Take hold of a fruit-bearing tree",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-30": {
+    "src": "/rituals/source-actions/30-uhhamuwa-drive-away-ram.png",
+    "subject": "Drive the ram away",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-31": {
+    "src": "/rituals/source-actions/31-ashella-tether-ram.png",
+    "subject": "Tether the ram before a tent",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-32": {
+    "src": "/rituals/source-actions/32-ashella-release-rams.png",
+    "subject": "Release the rams at the enemy border",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-33": {
+    "src": "/rituals/source-actions/33-uhhamuwa-kill-sheep.png",
+    "subject": "Slaughter sheep",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-34": {
+    "src": "/rituals/source-actions/34-uhhamuwa-cook-sheep.png",
+    "subject": "Cook sheep meat",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-35": {
+    "src": "/rituals/source-actions/35-lapana-plague-raw-cooked.png",
+    "subject": "Offer raw and cooked portions to the gods",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-36": {
+    "src": "/rituals/source-actions/36-paskuwatti-give-spindle.png",
+    "subject": "Give the man a spindle and distaff",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-37": {
+    "src": "/rituals/source-actions/37-paskuwatti-exchange-implements.png",
+    "subject": "Exchange spindle and distaff for bow and arrows",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-38": {
+    "src": "/rituals/source-actions/38-paskuwatti-pass-gate.png",
+    "subject": "Pass beneath the gate",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-39": {
+    "src": "/rituals/source-actions/39-allii-wind-wool.png",
+    "subject": "Wind coloured wool around the figures",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-40": {
+    "src": "/rituals/source-actions/40-allii-set-basket.png",
+    "subject": "Place the deposit beneath the bed",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-41": {
+    "src": "/rituals/source-actions/41-allii-press-earth.png",
+    "subject": "Press earth against the patient",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-42": {
+    "src": "/rituals/source-actions/42-tapalazunauli-send-donkey.png",
+    "subject": "Drive the donkey toward enemy land",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-44": {
+    "src": "/rituals/source-actions/44-hittite-remedies-sew-into-cord.png",
+    "subject": "Sew into a cord from a leopard’s kill",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-43": {
+    "src": "/rituals/source-actions/43-ummaya-release-man.png",
+    "subject": "Release the man as a substitute",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-47": {
+    "src": "/rituals/source-actions/47-hittite-remedies-into-honey.png",
+    "subject": "Give it in honey until he recovers",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-48": {
+    "src": "/rituals/source-actions/48-libu-fever-mix-urine-clay.png",
+    "subject": "Mix donkey urine with school clay",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-49": {
+    "src": "/rituals/source-actions/49-libu-fever-make-substitute.png",
+    "subject": "Make the substitute from the patient's urine, hair and nails",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-50": {
+    "src": "/rituals/source-actions/50-potency-prescriptions-blood-into-water.png",
+    "subject": "Let the blood fall into water",
+    "medium": "AI reconstruction · transparent PNG"
+  },
+  "source-action-45": {
+    "src": "/rituals/source-actions/45-hittite-remedies-twist-sinew.png",
+    "subject": "Twist in the sinew",
+    "medium": "AI reconstruction · transparent PNG"
   }
 }

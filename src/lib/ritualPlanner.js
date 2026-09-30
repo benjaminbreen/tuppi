@@ -1,3 +1,4 @@
+import compositionIndex from '../data/rituals/composition-index.json' with { type:'json' };
 import atomIndex from '../data/rituals/atom-index.json' with { type: 'json' };
 import { SCHEMAS, GRAMMAR, VERBS, entityKey, isEntity, matchesPattern } from './ritualAtoms.js';
 
@@ -20,11 +21,10 @@ const CONSUME = new Set(Object.entries(VERBS).filter(([, v]) => v.effect === 'co
 const CHARGE = new Set(Object.entries(VERBS).filter(([, v]) => v.effect === 'charge').map(([k]) => k));
 const DISPOSE_VERBS = ['release', 'burn', 'bury', 'break', 'melt', 'drive'];
 const FREE_CLASSES = new Set(['person', 'deity', 'body', 'harm', 'place', 'tree', 'fire']);
-// Acts never proposed for a modern recipe; they remain visible in the sources.
-// Melting only suits wax or tallow; a dough or clay stand-in is burned, broken or buried instead.
+// Material compatibility is separate from historical action eligibility.
 const MELTABLE = (thing) => /wax|tallow|fat/.test(`${thing?.f?.material ?? ''} ${thing?.sub ?? ''} ${thing?.class ?? ''}`);
-const HISTORICAL_ONLY = (atom) => atom.verb === 'kill' || (atom.verb === 'cook' && atom.theme?.class === 'meat') || atom.theme?.class === 'meat'
-  || (atom.verb === 'select' && atom.theme?.class === 'person') || (atom.verb === 'dedicate' && atom.theme?.class === 'animal');
+// All source operations remain eligible; retained export for existing callers.
+export const HISTORICAL_ONLY = () => false;
 
 export function mulberry32(seed) {
   let a = seed >>> 0;
@@ -54,18 +54,9 @@ function produces(atom) {
 }
 const sameThing = (a, b) => a && b && a.class === b.class && (!a.sub || !b.sub || a.sub === b.sub);
 
-function adaptForModern(entity) {
-  if (entity?.class === 'animal' || entity?.class === 'bird') return { class: 'figure', sub: entity.sub, f: { material: 'dough', ...(entity.f?.color ? { color: entity.f.color } : {}) }, label: `a dough figure of a ${entity.f?.color ? `${entity.f.color} ` : ''}${entity.sub ?? entity.class}` };
-  return null;
-}
-
-export function planRitual({ schemaScores, aimScores = {}, seed = 1, mode = 'analogy', maxCores = 3, exclude = [] }) {
+export function planRitual({ schemaScores, aimScores = {}, seed = 1, mode = 'analogy', maxCores = 3, exclude = [], actionScores = null, focusActionId = null, minItems = 0 }) {
   const random = mulberry32(seed);
-  // Composed recipes are always instructions for a modern person: stand-in
-  // figures for animals, no killing, nothing to ingest. A historical aim only
-  // pulls the draw toward the rituals that had that aim.
-  const modern = true;
-  const pool = ATOMS.filter((item) => !exclude.includes(item.id) && !(modern && HISTORICAL_ONLY(item.atom)));
+  const pool = ATOMS.filter((item) => !exclude.includes(item.id));
   const relevance = ritualRelevance(aimScores);
   const ranked = SCHEMA_IDS.map((id) => ({ id, p: schemaScores[id] ?? 0 })).sort((a, b) => b.p - a.p);
   // Several cores are welcome: every schema that clearly fits, up to maxCores.
@@ -81,11 +72,11 @@ export function planRitual({ schemaScores, aimScores = {}, seed = 1, mode = 'ana
   const kindKey = (c) => `${c.signature}|${c.atom.theme?.sub ?? ''}|${c.atom.medium ?? ''}`;
   const repeats = (c) => items.some((i) => kindKey(atomById.get(i.atomId)) === kindKey(c));
   function weight(item, ctx) {
-    let w = 1;
+    let w = actionScores ? Math.exp(5 * ((actionScores[item.id] ?? 0) - 0.5)) : 1;
     if (ctx.anchor && item.ritualId === ctx.anchor) w += 2.2;
     if (ctx.last && item.ritualId === ctx.last.ritualId && item.stepNumber >= ctx.last.stepNumber) w += 1.2;
     // Acts from rituals that were performed for the requested aim are strongly preferred.
-    if (relevance[item.ritualId]) w += 8 * relevance[item.ritualId];
+    if (relevance[item.ritualId]) w += (actionScores ? 1 : 8) * relevance[item.ritualId];
     if (item.atom.verb === 'speak' && isEntity(item.atom.addressee) && item.atom.addressee.class === 'deity') w += 0.4;
     return w;
   }
@@ -126,7 +117,7 @@ export function planRitual({ schemaScores, aimScores = {}, seed = 1, mode = 'ana
       }
     }
     for (const p of produces(atom)) present.push(extra.substitute?.to && entityKey(p) === extra.substitute.from ? extra.substitute.to : p);
-    const chargedThing = CHARGE.has(atom.verb) ? atom.theme : (atom.verb === 'speak' && ['substitution', 'assignment'].includes(atom.act) && extra.schema === 'elimination') ? atom.about : null;
+    const chargedThing = CHARGE.has(atom.verb) && (!actionScores || item.function === 'transfer-affliction') ? atom.theme : (atom.verb === 'speak' && ['substitution', 'assignment'].includes(atom.act) && extra.schema === 'elimination') ? atom.about : null;
     if (isEntity(chargedThing) && !['person', 'harm', 'deity'].includes(chargedThing.class)) charged.push(extra.substitute?.to && entityKey(chargedThing) === extra.substitute.from ? extra.substitute.to : chargedThing);
     if (CONSUME.has(atom.verb) || atom.verb === 'drive') {
       const gone = extra.substitute?.to && entityKey(atom.theme) === extra.substitute.from ? extra.substitute.to : atom.theme;
@@ -155,20 +146,12 @@ export function planRitual({ schemaScores, aimScores = {}, seed = 1, mode = 'ana
       if (slot.binds) {
         const value = item.atom.verb === 'shape' && isEntity(item.atom.result) ? item.atom.result : item.atom.theme;
         bound[slot.binds] = isEntity(value) ? value : null;
-        if (modern && bound[slot.binds]) {
-          const figure = adaptForModern(bound[slot.binds]);
-          if (figure) { substitute = { from: entityKey(bound[slot.binds]), to: figure }; bound[slot.binds] = figure; }
-        }
         anchor = item.ritualId;
       } else {
         const onName = slot.on ?? slot.match.find((m) => m.on)?.on;
         const target = onName ? bound[onName] : (bound.carrier ?? bound.figure ?? Object.values(bound).find(Boolean));
         if (item.atom.verb === 'pass' && bound.threshold && item.ritualId !== anchor) substitute = { boundary: bound.threshold };
         else if (onName || ['elimination', 'return', 'stripping'].includes(schemaId)) substitute = substitutionFor(item, target, ['elimination', 'return', 'stripping'].includes(schemaId), slot.match.find((m) => matchesPattern(item.atom, m, bound))?.onRole);
-        if (!substitute && modern) {
-          const live = [item.atom.theme, item.atom.about, item.atom.over].find((v) => isEntity(v) && (v.class === 'animal' || v.class === 'bird'));
-          if (live) substitute = { from: entityKey(live), to: adaptForModern(live) };
-        }
       }
       anchor ??= item.ritualId;
       add(item, { schema: schemaId, slot: slot.id, role: slot.role, reason: 'slot', ...(substitute ? { substitute } : {}) });
@@ -180,35 +163,84 @@ export function planRitual({ schemaScores, aimScores = {}, seed = 1, mode = 'ana
   // Opening: a cleansing or invocation, preferably from the first core's ritual.
   const opener = () => {
     const coreVerbs = new Set(cores.flatMap((core) => SCHEMAS[core.id].slots.flatMap((slot) => slot.match.flatMap((m) => m.verb ?? []))));
-    const candidates = pool.filter((c) => !used.has(c.id) && GRAMMAR.arc.opening.some((m) => matchesPattern(c.atom, m)) && !(c.atom.verb === 'wash' && coreVerbs.has('wash'))).map((c) => ({ c, w: 1 }));
+    const candidates = pool.filter((c) => !used.has(c.id) && GRAMMAR.arc.opening.some((m) => matchesPattern(c.atom, m)) && !(c.atom.verb === 'wash' && coreVerbs.has('wash'))).map((c) => ({ c, w: weight(c, {}) }));
     const chosen = pick(random, candidates);
     if (chosen) add(chosen.c, { schema: 'arc', slot: 'opening', role: 'opening', reason: 'arc' });
   };
-  if (random() < 0.7) opener();
-  for (const core of cores) fillSchema(core.id, core.p);
+  if (!focusActionId && random() < 0.7) opener();
+  if (focusActionId) {
+    const focus = pool.find(c => c.id === focusActionId);
+    if (focus) {
+      const nearby = pool.filter(c => c.ritualId === focus.ritualId && c.stepId === focus.stepId);
+      const sourceStep=compositionIndex.find(s=>s.ritualId===focus.ritualId && s.stepId===focus.stepId);
+      if(focus.atom.verb==='speak') for(const stepId of sourceStep?.requires??[]) {
+        for(const c of pool.filter(c=>c.ritualId===focus.ritualId && c.stepId===stepId)) {
+          add(c,{schema:cores[0].id,slot:'focus',reason:'requires',});
+        }
+      }
+
+      // Keep a source step's simultaneous actions and speech together; this path
+      // lets actions outside the twelve schema patterns enter the candidate pool.
+      const companionIds=new Set(compositionIndex.filter(s=>s.ritualId===focus.ritualId && s.requires?.includes(focus.stepId)).map(s=>s.stepId));
+      const speech = nearby.some(c=>c.atom.verb==='speak') ? null : pool.filter(c=>c.ritualId===focus.ritualId && c.atom.verb==='speak' && companionIds.has(c.stepId))[0];
+      for (const c of [...nearby, ...(speech ? [speech] : [])].sort((a,b) => a.stepNumber-b.stepNumber || a.atomIndex-b.atomIndex)) {
+        add(c, {schema: cores[0].id, slot: 'focus', reason:'slot'});
+      }
+    }
+  } else for (const core of cores) fillSchema(core.id, core.p);
   // A rite of two or three acts is thin: add the next plausible structures until it has substance.
   for (const next of ranked.filter((s) => !cores.some((c) => c.id === s.id) && s.p >= 0.2)) {
-    if (items.length >= MIN_ITEMS || cores.length >= maxCores + 1) break;
+    if (actionScores || items.length >= MIN_ITEMS || cores.length >= maxCores + 1) break;
     cores.push(next);
     fillSchema(next.id, next.p);
+  }
+  // Grow a focus chain from its own tablet: take whole neighbouring steps, nearest
+  // first, alternating before and after, until the drawn length is reached. The
+  // attested window is what makes chains long and specific; generic offerings and
+  // invocations are only a last resort when the passage itself is too short.
+  if(focusActionId && minItems) {
+    const focus=atomById.get(focusActionId);
+    const steps=[...new Set(pool.filter(c=>c.ritualId===focus.ritualId).map(c=>c.stepNumber))].sort((a,b)=>a-b);
+    const window=steps.filter(n=>n!==focus.stepNumber).sort((a,b)=>Math.abs(a-focus.stepNumber)-Math.abs(b-focus.stepNumber) || (random()<.5?-1:1));
+    const spoken=()=>items.filter(i=>atomById.get(i.atomId).atom.verb==='speak').length;
+    for(const n of window) {
+      if(items.length>=minItems) break;
+      const stepAtoms=pool.filter(c=>c.ritualId===focus.ritualId && c.stepNumber===n && !used.has(c.id)).sort((a,b)=>a.atomIndex-b.atomIndex);
+      // The chain is a row of visible acts: at most two speeches ride along.
+      const acts=stepAtoms.filter(c=>c.atom.verb!=='speak');
+      if(!acts.length && spoken()>=2) continue;
+      for(const c of stepAtoms) if(c.atom.verb!=='speak' || spoken()<2) add(c,{schema:cores[0].id,slot:'window',reason:'slot'});
+    }
+    // Keep the tablet's order within the focus ritual; borrowed acts follow.
+    const own=items.filter(i=>atomById.get(i.atomId).ritualId===focus.ritualId).sort((a,b)=>{const x=atomById.get(a.atomId),y=atomById.get(b.atomId);return x.stepNumber-y.stepNumber||x.atomIndex-y.atomIndex;});
+    const borrowed=items.filter(i=>atomById.get(i.atomId).ritualId!==focus.ritualId);
+    items.splice(0,items.length,...own,...borrowed);
+    const supports=pool.filter(c=>!used.has(c.id) &&
+      ((c.function==='make-offering' && ['offer','pour'].includes(c.atom.verb)) || (c.atom.verb==='speak' && c.atom.act==='invocation')))
+      .map(c=>({c,w:(c.ritualId===focus.ritualId?8:1)+(c.recipient && c.recipient===focus.recipient?3:0)+random()}));
+    while(items.length<Math.min(minItems,4) && supports.length) {
+      const candidate=pick(random,supports);supports.splice(supports.indexOf(candidate),1);
+      add(candidate.c,{schema:'arc',slot:'support',reason:'arc'});
+    }
   }
   // Anything still carrying the condition must leave: dispose of it.
   for (const thing of [...charged]) {
     const candidates = pool.filter((c) => !used.has(c.id) && DISPOSE_VERBS.includes(c.atom.verb) && isEntity(c.atom.theme) && (c.atom.verb !== 'melt' || MELTABLE(thing))
-      && (c.atom.theme.class === thing.class || (thing.class === 'figure' && ['figure', 'clay', 'dough', 'animal'].includes(c.atom.theme.class))))
-      .map((c) => ({ c, w: 1 + (c.atom.verb === 'release' ? 0.5 : 0) }));
+      && (c.atom.theme.class === thing.class || (['figure','clay','dough','earth','garment','wool','container'].includes(thing.class) && ['figure','clay','dough','animal','garment','wool','container'].includes(c.atom.theme.class) && (c.atom.verb !== 'burn' || !['earth','clay','container'].includes(thing.class)))))
+      .map((c) => ({ c, w: weight(c, {}) + (c.atom.verb === 'release' ? 0.5 : 0) }));
     const chosen = pick(random, candidates);
     if (chosen) add(chosen.c, { schema: 'arc', slot: 'dispose', role: 'close', reason: 'dispose', substitute: { from: entityKey(chosen.c.atom.theme), to: thing } });
   }
-  if (random() < 0.8) {
+  if (!focusActionId && random() < 0.8) {
     const recentActs = new Set(items.slice(-3).map((i) => atomById.get(i.atomId).atom.act).filter(Boolean));
-    const candidates = pool.filter((c) => !used.has(c.id) && GRAMMAR.arc.closing.some((m) => matchesPattern(c.atom, m)) && !recentActs.has(c.atom.act)).map((c) => ({ c, w: 1 }));
+    const candidates = pool.filter((c) => !used.has(c.id) && GRAMMAR.arc.closing.some((m) => matchesPattern(c.atom, m)) && !recentActs.has(c.atom.act)).map((c) => ({ c, w: weight(c, {}) }));
     const chosen = pick(random, candidates);
     if (chosen) add(chosen.c, { schema: 'arc', slot: 'closing', role: 'closing', reason: 'arc' });
   }
   // Keep the rite to a performable length: drop the weakest core and redraw.
-  if (items.length > 13 && maxCores > 1 && cores.length > 1) return planRitual({ schemaScores, aimScores, seed, mode, maxCores: Math.min(maxCores, cores.length) - 1, exclude });
-  const trimmed = items.slice(0, MAX_ITEMS).map(({ depth, ...item }) => item);
+  if (items.length > 13 && maxCores > 1 && cores.length > 1) return planRitual({ schemaScores, aimScores, seed, mode, maxCores: Math.min(maxCores, cores.length) - 1, exclude, actionScores, focusActionId });
+  // Never truncate away a required completion. Oversize candidates are rejected below.
+  const trimmed = items.map(({ depth, ...item }) => item);
   return { seed, mode, cores, items: trimmed, unmet: unmet.length, leftCharged: charged.length };
 }
 
@@ -274,23 +306,24 @@ export function aimInformedScores(schemaScores, aimScores = {}) {
   return out;
 }
 
-export function proposeRituals({ schemaScores: rawScores, aimScores = {}, seed = Date.now() % 2 ** 31, mode, samples = 40, keep = 4 }) {
+export function proposeRituals({ schemaScores: rawScores, aimScores = {}, seed = Date.now() % 2 ** 31, mode, samples = 40, keep = 4, actionScores = null, maxCores = 3 }) {
   const schemaScores = aimInformedScores(rawScores, aimScores);
   const historical = mode ?? (Object.entries(aimScores).some(([id, p]) => p >= 0.75 && !GENERIC_AIMS.has(id)) ? 'historical' : 'analogy');
   const plans = [];
   for (let i = 0; i < samples; i++) {
-    const plan = planRitual({ schemaScores, aimScores, seed: (seed + i * 7919) >>> 0, mode: historical });
-    plans.push({ ...plan, score: scorePlan(plan, schemaScores) });
+    const plan = planRitual({ schemaScores, aimScores, seed: (seed + i * 7919) >>> 0, mode: historical, actionScores, maxCores });
+    if (plan.items.length > MAX_ITEMS || plan.leftCharged) continue;
+    const relevance = actionScores ? plan.items.reduce((sum, i) => sum + (actionScores[i.atomId] ?? 0), 0) / plan.items.length : 0;
+    plans.push({ ...plan, score: scorePlan(plan, schemaScores) + 1.5 * relevance });
   }
   plans.sort((a, b) => b.score - a.score);
   // When one ritual clearly answers the request, lead with that ritual itself,
-  // in tablet order and with the modern safeguards; recombinations follow.
+  // in tablet order and with the original materials; recombinations follow.
   const [top] = Object.entries(ritualRelevance(aimScores)).sort((a, b) => b[1] - a[1]);
-  if (top && top[1] >= 0.5) {
+  if (!actionScores && top && top[1] >= 0.5) {
     const own = ATOMS.filter((a) => a.ritualId === top[0] && !HISTORICAL_ONLY(a.atom));
     const items = own.slice(0, 24).map((a) => {
-      const live = [a.atom.theme, a.atom.about, a.atom.over].find((v) => isEntity(v) && (v.class === 'animal' || v.class === 'bird'));
-      return { atomId: a.id, schema: 'arc', slot: 'attested', role: 'core', reason: 'slot', ...(live ? { substitute: { from: entityKey(live), to: adaptForModern(live) } } : {}) };
+      return { atomId: a.id, schema: 'arc', slot: 'attested', role: 'core', reason: 'slot' };
     });
     if (items.length >= 3) plans.unshift({ seed, mode: historical, cores: [], items, unmet: 0, leftCharged: 0, score: 10, attested: top[0] });
   }

@@ -1,3 +1,4 @@
+import actionMeanings from "../data/rituals/action-meanings.json";
 import actionBindings from "../data/rituals/action-bindings.json";
 import actionTemplates from "../data/rituals/action-templates.json";
 import compositionIndex from "../data/rituals/composition-index.json";
@@ -31,6 +32,9 @@ export default function RitualUnitPage() {
   const deity = unit.deityVisualId ? RITUAL_DEITIES[unit.deityVisualId] : undefined;
   const first = related[0];
   const context = first && compositionIndex.find((item) => item.ritualId === first.ritualId && item.stepId === first.stepId);
+  const meanings = Object.entries(actionMeanings).filter(([,m]) => related.some(o=>m.evidence.source===`${o.ritualId}/${o.stepId}`)).map(([,m])=>m);
+  const mechanisms = [...new Set(meanings.flatMap(m=>m.tags))];
+  const purposes = [...new Set(meanings.flatMap(m=>m.purpose))];
   const isShamash = unitId === "libu-release-bargain";
   return <div className="wrap page ritual-page ritual-unit-page">
     <div className="crumbs"><Link to="/rituals">Rituals</Link><span className="sep">/</span><span>Actions</span><span className="sep">/</span><span>{unit.title}</span></div>
@@ -39,6 +43,7 @@ export default function RitualUnitPage() {
       <div className="ritual-unit-art"><div className="ritual-plate"><div className="ritual-plate-ring" aria-hidden="true" /><img src={deity?.src ?? visual.src} alt={deity ? `Illustrated stone relief type for ${deity.label.toLowerCase()}` : visual.subject} /></div><span>{deity ? `AI-generated relief type · ${deity.label}` : visual.medium}</span></div>
       <div className="ritual-unit-intro"><p className="ritual-eyebrow">In the ritual</p><p>{context?.ritualPurpose ?? (first ? `This action appears in ${first.ritualName}.` : unit.description)}</p>{first && <p className="ritual-unit-context-link"><Link to={`/rituals/${first.ritualId}/step/${first.stepId}`}>See step {first.stepNumber} in {first.ritualName} ↗</Link></p>}{deity && <div className="ritual-unit-deity-note"><p>{isShamash ? "Šamaš was the Mesopotamian sun god. This image takes its form from a Hittite Sun-god relief at Yazılıkaya." : deity.note}</p>{isShamash && <a href="https://oracc.museum.upenn.edu/amgg/Listofdeities/UtuShamash/index.html" target="_blank" rel="noreferrer">About Šamaš ↗</a>}<a href={deity.sourceUrl} target="_blank" rel="noreferrer">About the image ↗</a></div>}<a href="#occurrences">Read source passages <span aria-hidden="true">↓</span></a></div>
     </div>
+    {!!meanings.length && <section className="ritual-composer-logic"><p className="ritual-eyebrow">Meaning and structure</p><p><strong>Historical purpose:</strong> {purposes.join(" · ")}</p><p><strong>Symbolic mechanisms:</strong> {mechanisms.join(" · ")}</p><ul>{meanings.filter((m,i,all)=>all.findIndex(x=>x.action===m.action && x.logic===m.logic)===i).map((m,i)=><li key={i}><strong>{m.action}</strong> — {m.logic} <small>({m.role})</small></li>)}</ul><p>Editorial interpretation of the source annotations; accompanying gestures and speech remain linked to their passages.</p></section>}
     {template && <section className="ritual-composer-logic"><p className="ritual-eyebrow">Related actions · {template.label}</p><p>These rituals use a similar action with different people or materials.</p><ul>{variants.map((item) => {
       return <li key={`${item.ritualId}/${item.stepId}`}><Link to={ritualUnitHref(item.unitId)}>{item.stepTitle}</Link> — {item.ritualName}.</li>;
     })}</ul></section>}

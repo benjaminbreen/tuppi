@@ -1,0 +1,2845 @@
+{
+  "summary": {
+    "requests": 1,
+    "successful": 1,
+    "libraryActions": 561,
+    "eligibleActions": 543,
+    "excludedHistoricalActions": 18,
+    "catalogueTasks": 274,
+    "sourceSteps": 293,
+    "sourceRituals": 26,
+    "actionSignatures": 185,
+    "locallyMatchedActions": 543,
+    "jevAssessedMechanisms": 31,
+    "selectedActions": 4,
+    "offeredActions": 4,
+    "selectedRituals": 2,
+    "neverOffered": [
+      {
+        "id": "uhhamuwa/bring-ram#0",
+        "title": "Bring a ram",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/twist-wool#0",
+        "title": "Twist the coloured wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/make-wreath#0",
+        "title": "Make a wool wreath",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/crown-ram#0",
+        "title": "Adorn the ram",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "uhhamuwa/lead-to-road#0",
+        "title": "Lead the ram toward the enemy road",
+        "bestFit": 0.66
+      },
+      {
+        "id": "uhhamuwa/appeal-over-ram#0",
+        "title": "Address the hostile god",
+        "bestFit": 0.5
+      },
+      {
+        "id": "uhhamuwa/appeal-over-ram#1",
+        "title": "Address the hostile god",
+        "bestFit": 0.5
+      },
+      {
+        "id": "uhhamuwa/drive-away-ram#0",
+        "title": "Drive the ram away",
+        "bestFit": 0.66
+      },
+      {
+        "id": "uhhamuwa/bring-fodder-fat#0",
+        "title": "Bring fodder and fat",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/bring-fodder-fat#1",
+        "title": "Bring fodder and fat",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/address-horses-chariot#0",
+        "title": "Address the god about his horses",
+        "bestFit": 0.5
+      },
+      {
+        "id": "uhhamuwa/address-horses-chariot#1",
+        "title": "Address the god about his horses",
+        "bestFit": 0.5
+      },
+      {
+        "id": "uhhamuwa/address-horses-chariot#2",
+        "title": "Address the god about his horses",
+        "bestFit": 0.5
+      },
+      {
+        "id": "uhhamuwa/bring-goat-sheep#0",
+        "title": "Bring a goat and two sheep",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/bring-goat-sheep#1",
+        "title": "Bring a goat and two sheep",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/bring-food-drink#0",
+        "title": "Bring food and drink",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/bring-food-drink#1",
+        "title": "Bring food and drink",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/bring-food-drink#2",
+        "title": "Bring food and drink",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/bring-food-drink#3",
+        "title": "Bring food and drink",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/bring-food-drink#4",
+        "title": "Bring food and drink",
+        "bestFit": 0.15
+      },
+      {
+        "id": "uhhamuwa/prepare-for-road-god#0",
+        "title": "Prepare them for the road god",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "allii/arrange-figures#0",
+        "title": "Set out the clay figures",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "allii/arrange-figures#1",
+        "title": "Set out the clay figures",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "allii/arrange-figures#2",
+        "title": "Set out the clay figures",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "allii/seat-patient#0",
+        "title": "Seat the patient toward the Sun-god",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "allii/raise-vessel#0",
+        "title": "Raise the vessel and figures",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "allii/raise-vessel#1",
+        "title": "Raise the vessel and figures",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "allii/return-address#0",
+        "title": "Demand that the sorcery return",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "allii/return-address#1",
+        "title": "Demand that the sorcery return",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "allii/return-address#2",
+        "title": "Demand that the sorcery return",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "allii/wind-wool#0",
+        "title": "Wind coloured wool around the figures",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "allii/wind-wool#1",
+        "title": "Wind coloured wool around the figures",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "allii/wind-wool#2",
+        "title": "Wind coloured wool around the figures",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "allii/set-basket#0",
+        "title": "Place the deposit beneath the bed",
+        "bestFit": 0.15
+      },
+      {
+        "id": "allii/set-basket#1",
+        "title": "Place the deposit beneath the bed",
+        "bestFit": 0.2333333333333333
+      },
+      {
+        "id": "allii/set-basket#2",
+        "title": "Place the deposit beneath the bed",
+        "bestFit": 0.2333333333333333
+      },
+      {
+        "id": "allii/set-basket#3",
+        "title": "Place the deposit beneath the bed",
+        "bestFit": 0.2333333333333333
+      },
+      {
+        "id": "allii/set-basket#4",
+        "title": "Place the deposit beneath the bed",
+        "bestFit": 0.2333333333333333
+      },
+      {
+        "id": "allii/set-basket#5",
+        "title": "Place the deposit beneath the bed",
+        "bestFit": 0.2333333333333333
+      },
+      {
+        "id": "allii/sleep-over#0",
+        "title": "Sleep over the deposit",
+        "bestFit": 0.49
+      },
+      {
+        "id": "allii/lift-at-dawn#0",
+        "title": "Lift the deposit at daybreak",
+        "bestFit": 0.22666666666666668
+      },
+      {
+        "id": "allii/lift-at-dawn#1",
+        "title": "Lift the deposit at daybreak",
+        "bestFit": 0.22666666666666668
+      },
+      {
+        "id": "allii/lift-at-dawn#2",
+        "title": "Lift the deposit at daybreak",
+        "bestFit": 0.22666666666666668
+      },
+      {
+        "id": "allii/lift-at-dawn#3",
+        "title": "Lift the deposit at daybreak",
+        "bestFit": 0.22666666666666668
+      },
+      {
+        "id": "allii/press-earth#0",
+        "title": "Press earth against the patient",
+        "bestFit": 0.53
+      },
+      {
+        "id": "allii/press-earth#1",
+        "title": "Press earth against the patient",
+        "bestFit": 0.53
+      },
+      {
+        "id": "allii/press-dough#0",
+        "title": "Press dough against the patient",
+        "bestFit": 0.53
+      },
+      {
+        "id": "allii/press-dough#1",
+        "title": "Press dough against the patient",
+        "bestFit": 0.53
+      },
+      {
+        "id": "ashella/prepare-ram#0",
+        "title": "Prepare a ram",
+        "bestFit": 0.15
+      },
+      {
+        "id": "ashella/twist-wool#0",
+        "title": "Twist three colours of wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "ashella/bind-ram#0",
+        "title": "Bind the cord and rings to the ram",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "ashella/bind-ram#1",
+        "title": "Bind the cord and rings to the ram",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "ashella/tether-ram#0",
+        "title": "Tether the ram before a tent",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "ashella/appeal#0",
+        "title": "Ask the plague god to be appeased",
+        "bestFit": 0.5
+      },
+      {
+        "id": "ashella/appeal#1",
+        "title": "Ask the plague god to be appeased",
+        "bestFit": 0.5
+      },
+      {
+        "id": "ashella/release-rams#0",
+        "title": "Release the rams at the enemy border",
+        "bestFit": 0.66
+      },
+      {
+        "id": "ashella/release-rams#1",
+        "title": "Release the rams at the enemy border",
+        "bestFit": 0.66
+      },
+      {
+        "id": "ashella/wash-salt-water#0",
+        "title": "Wash hands in salted water",
+        "bestFit": 0.15
+      },
+      {
+        "id": "ashella/wash-salt-water#1",
+        "title": "Wash hands in salted water",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "ashella/pass-between-fires#0",
+        "title": "Pass between two fires",
+        "bestFit": 0.61
+      },
+      {
+        "id": "ashella/pass-between-fires#1",
+        "title": "Pass between two fires",
+        "bestFit": 0.61
+      },
+      {
+        "id": "ashella/bring-pig#0",
+        "title": "Bring a pig on the third day",
+        "bestFit": 0.15
+      },
+      {
+        "id": "pulisa/remove-king-garments#0",
+        "title": "Remove the king’s festive clothes",
+        "bestFit": 0.58
+      },
+      {
+        "id": "pulisa/dress-man#0",
+        "title": "Clothe the man in the king’s garments",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "pulisa/dress-woman#0",
+        "title": "Clothe the woman in festive garments",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "pulisa/address-man#0",
+        "title": "Address the male deity",
+        "bestFit": 0.5
+      },
+      {
+        "id": "pulisa/address-man#1",
+        "title": "Address the male deity",
+        "bestFit": 0.5
+      },
+      {
+        "id": "pulisa/address-woman#0",
+        "title": "Address the female deity",
+        "bestFit": 0.5
+      },
+      {
+        "id": "pulisa/bring-bull-ewe#0",
+        "title": "Bring a bull and ewe",
+        "bestFit": 0.15
+      },
+      {
+        "id": "pulisa/bring-bull-ewe#1",
+        "title": "Bring a bull and ewe",
+        "bestFit": 0.15
+      },
+      {
+        "id": "pulisa/ring-bull#0",
+        "title": "Fit rings at the bull’s ears",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "pulisa/draw-wool#0",
+        "title": "Draw coloured wool from the king’s mouth",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "pulisa/address-bull#0",
+        "title": "Offer the bull to the male deity",
+        "bestFit": 0.5
+      },
+      {
+        "id": "pulisa/address-bull#1",
+        "title": "Offer the bull to the male deity",
+        "bestFit": 0.5
+      },
+      {
+        "id": "pulisa/address-ewe#0",
+        "title": "Offer the ewe to the female deity",
+        "bestFit": 0.5
+      },
+      {
+        "id": "pulisa/send-animals-ahead#0",
+        "title": "Drive the bull and ewe ahead",
+        "bestFit": 0.66
+      },
+      {
+        "id": "pulisa/send-animals-ahead#1",
+        "title": "Drive the bull and ewe ahead",
+        "bestFit": 0.66
+      },
+      {
+        "id": "tunnawiya/prepare-black-animals#0",
+        "title": "Bring the black animals",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya/prepare-black-animals#1",
+        "title": "Bring the black animals",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya/prepare-black-animals#2",
+        "title": "Bring the black animals",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya/set-out-black-clothes#0",
+        "title": "Set out the black clothes",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya/set-out-black-clothes#1",
+        "title": "Set out the black clothes",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya/set-out-black-clothes#2",
+        "title": "Set out the black clothes",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya/offer-at-riverbank#1",
+        "title": "Offer bread and wine at the riverbank",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "tunnawiya/address-riverbank-goddess#0",
+        "title": "Address the riverbank Mother-goddess",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya/collect-river-clay#0",
+        "title": "Take clay from the riverbank",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya/offer-at-spring#0",
+        "title": "Offer bread and wine at the spring",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "tunnawiya/collect-spring-clay#0",
+        "title": "Take clay from the spring",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya/collect-spring-clay#1",
+        "title": "Take clay from the spring",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya/build-reed-hut#0",
+        "title": "Build the reed shelter",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya/make-clay-figures#0",
+        "title": "Make clay tongues and oxen",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "tunnawiya/make-clay-figures#1",
+        "title": "Make clay tongues and oxen",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "tunnawiya/dress-in-black#0",
+        "title": "Dress the patient in black",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "tunnawiya/hold-black-sheep#0",
+        "title": "Hold a black sheep over the patient",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya/hold-black-sheep#1",
+        "title": "Hold a black sheep over the patient",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya/hold-piglet#0",
+        "title": "Hold the piglet over the patient",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya/hold-puppy#0",
+        "title": "Hold the puppy over the patient",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya/hold-clay-tongue#0",
+        "title": "Hold a clay tongue over the patient",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya/melt-figures#0",
+        "title": "Melt the wax and tallow figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya/melt-figures#1",
+        "title": "Melt the wax and tallow figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya/melt-figures#2",
+        "title": "Melt the wax and tallow figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya/melt-figures#3",
+        "title": "Melt the wax and tallow figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya/melt-figures#4",
+        "title": "Melt the wax and tallow figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya/wash-hands-wine#0",
+        "title": "Wash the hands with wine",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "tunnawiya/wash-with-water#0",
+        "title": "Wash oneself with water",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "tunnawiya/remove-coloured-wool#0",
+        "title": "Take blue and red wool off the patient",
+        "bestFit": 0.58
+      },
+      {
+        "id": "tunnawiya/strip-black-clothes#0",
+        "title": "Slit the black shirt",
+        "bestFit": 0.58
+      },
+      {
+        "id": "tunnawiya/strip-black-clothes#1",
+        "title": "Slit the black shirt",
+        "bestFit": 0.58
+      },
+      {
+        "id": "tunnawiya/smash-empty-pot#0",
+        "title": "Smash the empty pot",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya/smash-empty-pot#1",
+        "title": "Smash the empty pot",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya/smash-empty-pot#2",
+        "title": "Smash the empty pot",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya/bathe-over-figure#0",
+        "title": "Bathe over a clay figure",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "tunnawiya/bathe-over-figure#1",
+        "title": "Bathe over a clay figure",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "tunnawiya/comb-down#0",
+        "title": "Comb the patient downward",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "tunnawiya/release-into-river#0",
+        "title": "Send the used objects into the river",
+        "bestFit": 0.5066666666666667
+      },
+      {
+        "id": "tunnawiya/burn-small-animals#0",
+        "title": "Burn the piglet and puppy",
+        "bestFit": 0.5066666666666667
+      },
+      {
+        "id": "tunnawiya/burn-small-animals#1",
+        "title": "Burn the piglet and puppy",
+        "bestFit": 0.5066666666666667
+      },
+      {
+        "id": "tunnawiya/pass-through-gate#0",
+        "title": "Pass beneath the wooden gate",
+        "bestFit": 0.61
+      },
+      {
+        "id": "tunnawiya/pass-through-gate#1",
+        "title": "Pass beneath the wooden gate",
+        "bestFit": 0.61
+      },
+      {
+        "id": "tunnawiya/return-river-offering#0",
+        "title": "Offer bread again at the riverbank",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "tunnawiya/take-cow-by-horn#0",
+        "title": "Take the cow by its horn",
+        "bestFit": 0.4066666666666667
+      },
+      {
+        "id": "tunnawiya/wish-for-offspring#0",
+        "title": "Ask for offspring through the cow analogy",
+        "bestFit": 0.4066666666666667
+      },
+      {
+        "id": "tunnawiya/touch-fruit-tree#0",
+        "title": "Take hold of a fruit-bearing tree",
+        "bestFit": 0.4066666666666667
+      },
+      {
+        "id": "tunnawiya/wish-by-tree#0",
+        "title": "Ask for descendants through the tree analogy",
+        "bestFit": 0.4066666666666667
+      },
+      {
+        "id": "tunnawiya/libate-sun-god#0",
+        "title": "Pour wine for the Sun-god",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya/libate-sun-god#1",
+        "title": "Pour wine for the Sun-god",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "dandanku/gather-fodder-wool#0",
+        "title": "Gather grain, straw and coloured wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "dandanku/gather-fodder-wool#1",
+        "title": "Gather grain, straw and coloured wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "dandanku/gather-fodder-wool#2",
+        "title": "Gather grain, straw and coloured wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "dandanku/mix-fodder#0",
+        "title": "Mix the grain and straw",
+        "bestFit": 0.15
+      },
+      {
+        "id": "dandanku/scatter-fodder#0",
+        "title": "Scatter the fodder across the road",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "dandanku/address-grooms#0",
+        "title": "Ask Iyarri’s grooms to feed the horses",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "dandanku/address-grooms#1",
+        "title": "Ask Iyarri’s grooms to feed the horses",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "dandanku/address-maids#0",
+        "title": "Ask the god’s maids to take the wool",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "dandanku/address-maids#1",
+        "title": "Ask the god’s maids to take the wool",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "dandanku/bring-animals#0",
+        "title": "Bring a kid, piglet and puppy",
+        "bestFit": 0.15
+      },
+      {
+        "id": "dandanku/bring-animals#1",
+        "title": "Bring a kid, piglet and puppy",
+        "bestFit": 0.15
+      },
+      {
+        "id": "dandanku/bring-animals#2",
+        "title": "Bring a kid, piglet and puppy",
+        "bestFit": 0.15
+      },
+      {
+        "id": "dandanku/libate-seven#0",
+        "title": "Pour beer and wine three times",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "dandanku/libate-seven#1",
+        "title": "Pour beer and wine three times",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "paskuwatti/arrange-offerings#0",
+        "title": "Arrange food, wine, wool and clothes",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/arrange-offerings#1",
+        "title": "Arrange food, wine, wool and clothes",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/arrange-offerings#2",
+        "title": "Arrange food, wine, wool and clothes",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/arrange-offerings#3",
+        "title": "Arrange food, wine, wool and clothes",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/arrange-offerings#4",
+        "title": "Arrange food, wine, wool and clothes",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/arrange-offerings#5",
+        "title": "Arrange food, wine, wool and clothes",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/arrange-offerings#6",
+        "title": "Arrange food, wine, wool and clothes",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/carry-offerings#0",
+        "title": "Carry the offerings to a fresh place",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/carry-offerings#1",
+        "title": "Carry the offerings to a fresh place",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/make-reed-gate#0",
+        "title": "Make gates of reed",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/bind-gate#0",
+        "title": "Bind the gates with red and white wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "paskuwatti/give-spindle#0",
+        "title": "Give the man a spindle and distaff",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "paskuwatti/give-spindle#1",
+        "title": "Give the man a spindle and distaff",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "paskuwatti/pass-gate#0",
+        "title": "Pass beneath the reed gates",
+        "bestFit": 0.61
+      },
+      {
+        "id": "paskuwatti/exchange-implements#0",
+        "title": "Exchange the implements for a bow and arrows",
+        "bestFit": 0.58
+      },
+      {
+        "id": "paskuwatti/exchange-implements#1",
+        "title": "Exchange the implements for a bow and arrows",
+        "bestFit": 0.62
+      },
+      {
+        "id": "paskuwatti/speak-exchange#0",
+        "title": "Speak the change of roles",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "paskuwatti/speak-exchange#1",
+        "title": "Speak the change of roles",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "paskuwatti/entreat-uliliyassi#0",
+        "title": "Entreat Uliliyašši for descendants",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "paskuwatti/set-home-table#0",
+        "title": "Set the offering on a new table",
+        "bestFit": 0.2333333333333333
+      },
+      {
+        "id": "paskuwatti/set-home-table#1",
+        "title": "Set the offering on a new table",
+        "bestFit": 0.2333333333333333
+      },
+      {
+        "id": "zarpiya/take-implements#0",
+        "title": "Take up the ritual implements",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "zarpiya/close-door#0",
+        "title": "Close the door",
+        "bestFit": 0.7933333333333333
+      },
+      {
+        "id": "zarpiya/anoint-door#0",
+        "title": "Anoint the door with fine oil",
+        "bestFit": 0.7933333333333333
+      },
+      {
+        "id": "zarpiya/speak-formula#0",
+        "title": "Speak the closing words",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "zarpiya/speak-formula#1",
+        "title": "Speak the closing words",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "maddunani/take-provisions#0",
+        "title": "Take two puppies, a piglet and provisions",
+        "bestFit": 0.15
+      },
+      {
+        "id": "maddunani/take-provisions#1",
+        "title": "Take two puppies, a piglet and provisions",
+        "bestFit": 0.15
+      },
+      {
+        "id": "maddunani/take-provisions#2",
+        "title": "Take two puppies, a piglet and provisions",
+        "bestFit": 0.15
+      },
+      {
+        "id": "maddunani/take-provisions#3",
+        "title": "Take two puppies, a piglet and provisions",
+        "bestFit": 0.15
+      },
+      {
+        "id": "maddunani/take-provisions#4",
+        "title": "Take two puppies, a piglet and provisions",
+        "bestFit": 0.15
+      },
+      {
+        "id": "maddunani/take-provisions#5",
+        "title": "Take two puppies, a piglet and provisions",
+        "bestFit": 0.15
+      },
+      {
+        "id": "maddunani/prepare-at-night#0",
+        "title": "Prepare the provisions at night",
+        "bestFit": 0.15
+      },
+      {
+        "id": "maddunani/move-through-camp#0",
+        "title": "Move through the army camp at dawn",
+        "bestFit": 0.61
+      },
+      {
+        "id": "maddunani/move-through-camp#1",
+        "title": "Move through the army camp at dawn",
+        "bestFit": 0.61
+      },
+      {
+        "id": "maddunani/speak-in-camp#0",
+        "title": "Speak during the passage",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "maddunani/watch-bird-omens#0",
+        "title": "Watch birds at the beginning and end",
+        "bestFit": 0.6733333333333333
+      },
+      {
+        "id": "maddunani/watch-bird-omens#1",
+        "title": "Watch birds at the beginning and end",
+        "bestFit": 0.6733333333333333
+      },
+      {
+        "id": "zelliya/take-funerary-goods#0",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#1",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#2",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#3",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#4",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#5",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#6",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#7",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#8",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#9",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#10",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#11",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#12",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/take-funerary-goods#13",
+        "title": "Take clothing and other goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/prepare-funerary-goods#0",
+        "title": "Prepare the goods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "zelliya/carry-dead-outside#0",
+        "title": "Carry the dead person outside",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005039-3-4-1/string-stones#0",
+        "title": "String the stones on flax",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005039-3-4-1/pack-ingredients-in-wool#0",
+        "title": "Pack the named ingredients in wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005039-3-4-1/pack-ingredients-in-wool#1",
+        "title": "Pack the named ingredients in wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005039-3-4-1/pack-ingredients-in-wool#2",
+        "title": "Pack the named ingredients in wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005039-3-4-1/pack-ingredients-in-wool#3",
+        "title": "Pack the named ingredients in wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005039-3-4-1/pack-ingredients-in-wool#4",
+        "title": "Pack the named ingredients in wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005039-3-4-1/pack-ingredients-in-wool#5",
+        "title": "Pack the named ingredients in wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005039-3-4-1/wrap-in-leather#0",
+        "title": "Wrap the bundle in leather",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005039-3-4-1/interlace-bundle#0",
+        "title": "Interlace bundle and stones",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005039-3-4-1/place-around-neck#0",
+        "title": "Place the amulet around the neck",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "tapalazunauli/bring-donkey#0",
+        "title": "Bring forward a donkey",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tapalazunauli/assign-evil#0",
+        "title": "Tell the donkey to carry away evil",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tapalazunauli/assign-evil#1",
+        "title": "Tell the donkey to carry away evil",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tapalazunauli/assign-evil#2",
+        "title": "Tell the donkey to carry away evil",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tapalazunauli/send-donkey#0",
+        "title": "Drive the donkey toward enemy land",
+        "bestFit": 0.66
+      },
+      {
+        "id": "tapalazunauli/scatter-straw#0",
+        "title": "Scatter a little straw",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "tapalazunauli/break-bread#0",
+        "title": "Break a little bread",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "tapalazunauli/carry-basket-out#0",
+        "title": "Carry the basket out",
+        "bestFit": 0.5066666666666667
+      },
+      {
+        "id": "tapalazunauli/speak-to-god#0",
+        "title": "Speak of food for the god and his dogs",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tapalazunauli/speak-to-god#1",
+        "title": "Speak of food for the god and his dogs",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "ummaya/prepare-at-wall#0",
+        "title": "Prepare at the city wall",
+        "bestFit": 0.15
+      },
+      {
+        "id": "ummaya/conjure-on-ground#0",
+        "title": "Conjure over the ground object",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "ummaya/release-man#0",
+        "title": "Release the man as a substitute",
+        "bestFit": 0.66
+      },
+      {
+        "id": "ummaya/release-oxen#0",
+        "title": "Release two oxen as substitutes",
+        "bestFit": 0.66
+      },
+      {
+        "id": "cmawro-q004189-1-5-1/fashion-wax-figures#0",
+        "title": "Make figurines of the accused",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "cmawro-q004189-1-5-1/fashion-wax-figures#1",
+        "title": "Make figurines of the accused",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "cmawro-q004189-1-5-1/indict-before-shamash#0",
+        "title": "Indict the figures before Šamaš",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "cmawro-q004189-1-5-1/indict-before-shamash#1",
+        "title": "Indict the figures before Šamaš",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "cmawro-q004189-1-5-1/coat-with-tallow#0",
+        "title": "Coat the figures with tallow",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q004189-1-5-1/place-in-disposable-pot#0",
+        "title": "Put the figures in a disposable pot",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q004189-1-5-1/burn-the-figures#0",
+        "title": "Burn the figures in the pot",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "cmawro-q004189-1-5-1/recite-return-to-shamash#0",
+        "title": "Ask Šamaš to return the sorcery",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "cmawro-q004189-1-5-1/throw-pot-in-river#0",
+        "title": "Throw the remains into the river",
+        "bestFit": 0.5066666666666667
+      },
+      {
+        "id": "cmawro-q005063-8-18/fashion-five-material-figures#0",
+        "title": "Make figures from five materials",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "cmawro-q005063-8-18/fashion-five-material-figures#1",
+        "title": "Make figures from five materials",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "cmawro-q005063-8-18/fashion-five-material-figures#2",
+        "title": "Make figures from five materials",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "cmawro-q005063-8-18/fashion-five-material-figures#3",
+        "title": "Make figures from five materials",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "cmawro-q005063-8-18/fashion-five-material-figures#4",
+        "title": "Make figures from five materials",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "cmawro-q005063-8-18/constrain-the-figures#0",
+        "title": "Constrain the figures",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "cmawro-q005063-8-18/place-figures-in-pot#0",
+        "title": "Put the figures in a disposable pot",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005063-8-18/set-juniper-censer#0",
+        "title": "Set a juniper censer before Utu",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005063-8-18/set-juniper-censer#1",
+        "title": "Set a juniper censer before Utu",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005063-8-18/pour-grape-must#0",
+        "title": "Pour out grape must",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "cmawro-q005063-8-18/crush-clay-dough-figures#0",
+        "title": "Crush the clay and dough figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "cmawro-q005063-8-18/crush-clay-dough-figures#1",
+        "title": "Crush the clay and dough figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "cmawro-q005063-8-18/burn-fat-wax-bitumen-figures#0",
+        "title": "Burn the tallow, wax and bitumen figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "cmawro-q005063-8-18/burn-fat-wax-bitumen-figures#1",
+        "title": "Burn the tallow, wax and bitumen figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "cmawro-q005063-8-18/burn-fat-wax-bitumen-figures#2",
+        "title": "Burn the tallow, wax and bitumen figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "cmawro-q005063-8-18/chew-six-plants-woods#0",
+        "title": "Chew the named plants and woods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005063-8-18/chew-six-plants-woods#1",
+        "title": "Chew the named plants and woods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005063-8-18/chew-six-plants-woods#2",
+        "title": "Chew the named plants and woods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005063-8-18/chew-six-plants-woods#3",
+        "title": "Chew the named plants and woods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005063-8-18/chew-six-plants-woods#4",
+        "title": "Chew the named plants and woods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005063-8-18/chew-six-plants-woods#5",
+        "title": "Chew the named plants and woods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya-royal/list-afflictions#0",
+        "title": "Name the afflictions of the patient",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/list-afflictions#1",
+        "title": "Name the afflictions of the patient",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/list-afflictions#2",
+        "title": "Name the afflictions of the patient",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/list-tongues#0",
+        "title": "Name the tongues of every kind of person",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/list-tongues#1",
+        "title": "Name the tongues of every kind of person",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/list-tongues#2",
+        "title": "Name the tongues of every kind of person",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/list-tongues#3",
+        "title": "Name the tongues of every kind of person",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/list-tongues#4",
+        "title": "Name the tongues of every kind of person",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/recount-causes#0",
+        "title": "Recount how the harm was picked up",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/recount-causes#1",
+        "title": "Recount how the harm was picked up",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/recount-causes#2",
+        "title": "Recount how the harm was picked up",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/name-evil-speech#0",
+        "title": "Name the patient's evil speech against the gods",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/name-evil-speech#1",
+        "title": "Name the patient's evil speech against the gods",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/name-evil-speech#2",
+        "title": "Name the patient's evil speech against the gods",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/fit-limbs#0",
+        "title": "Fit the twelve limbs together",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/fit-limbs#1",
+        "title": "Fit the twelve limbs together",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/fit-limbs#2",
+        "title": "Fit the twelve limbs together",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/fit-limbs#3",
+        "title": "Fit the twelve limbs together",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/cut-ram-limbs#0",
+        "title": "Cut up the ram's twelve limbs",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya-royal/limbs-take-sickness#0",
+        "title": "Let each ram limb take up the sickness of the same limb",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/limbs-take-sickness#1",
+        "title": "Let each ram limb take up the sickness of the same limb",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/limbs-take-sickness#2",
+        "title": "Let each ram limb take up the sickness of the same limb",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/declare-pulled-out#0",
+        "title": "Declare the harm pulled out",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/take-evil-fright#0",
+        "title": "Take the evil fright from him",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/conjure-round-limbs#0",
+        "title": "Conjure around the twelve limbs",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/conjure-round-limbs#1",
+        "title": "Conjure around the twelve limbs",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/hold-over-back#0",
+        "title": "Hold it over his back",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/hold-over-back#1",
+        "title": "Hold it over his back",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/hold-over-back#2",
+        "title": "Hold it over his back",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/hold-sheep-over-chest#0",
+        "title": "Hold a sheep over his chest",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/hold-sheep-over-chest#1",
+        "title": "Hold a sheep over his chest",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/plough-analogy#0",
+        "title": "Compare the patient to a field ploughed again",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/conjure-round-limbs-again#0",
+        "title": "Conjure around the limbs again",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/conjure-round-limbs-again#1",
+        "title": "Conjure around the limbs again",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/spit-into-mouth#0",
+        "title": "Spit into the sheep's mouth",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/spit-into-mouth#1",
+        "title": "Spit into the sheep's mouth",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/command-spit-out#0",
+        "title": "Command him to spit out the harms",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/command-spit-out#1",
+        "title": "Command him to spit out the harms",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/command-spit-out#2",
+        "title": "Command him to spit out the harms",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/bring-piglets#0",
+        "title": "Bring a dough piglet and a live piglet",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya-royal/bring-piglets#1",
+        "title": "Bring a dough piglet and a live piglet",
+        "bestFit": 0.15
+      },
+      {
+        "id": "tunnawiya-royal/swing-live-piglet#0",
+        "title": "Swing the live piglet away",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/hold-dough-piglet#0",
+        "title": "Hold the dough piglet close to him",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "tunnawiya-royal/great-god-historiola#0",
+        "title": "Tell of the great god driving from Landa",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/great-god-historiola#1",
+        "title": "Tell of the great god driving from Landa",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/speak-patient-name#0",
+        "title": "Speak the patient's name",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "tunnawiya-royal/search-historiola#0",
+        "title": "Tell of the gods' search of his body",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/search-historiola#1",
+        "title": "Tell of the gods' search of his body",
+        "bestFit": 0.53
+      },
+      {
+        "id": "tunnawiya-royal/cut-them-off#0",
+        "title": "Cut them off from the limbs",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya-royal/cut-them-off#1",
+        "title": "Cut them off from the limbs",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya-royal/remove-litany#0",
+        "title": "Let her remove the tongues",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya-royal/remove-litany#1",
+        "title": "Let her remove the tongues",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "tunnawiya-royal/remove-litany#2",
+        "title": "Let her remove the tongues",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/inquire-egypt-oath#0",
+        "title": "Put the Egyptian oath-breach to an oracle",
+        "bestFit": 0.6733333333333333
+      },
+      {
+        "id": "mursili-plague-prayer/inquire-mala-offering#0",
+        "title": "Put the neglected Mala offering to an oracle",
+        "bestFit": 0.6733333333333333
+      },
+      {
+        "id": "mursili-plague-prayer/confess-sin#0",
+        "title": "Confess the sin",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/vow-mala-offering#0",
+        "title": "Vow to perform the Mala offering",
+        "bestFit": 0.6066666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/vow-mala-offering#1",
+        "title": "Vow to perform the Mala offering",
+        "bestFit": 0.6066666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/confess-fathers-sin#0",
+        "title": "Confess the father's sin",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/confess-fathers-sin#1",
+        "title": "Confess the father's sin",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/soothe-and-send-away#0",
+        "title": "Ask the god's soul to be soothed and the plague sent away",
+        "bestFit": 0.5
+      },
+      {
+        "id": "mursili-plague-prayer/soothe-and-send-away#1",
+        "title": "Ask the god's soul to be soothed and the plague sent away",
+        "bestFit": 0.5
+      },
+      {
+        "id": "mursili-plague-prayer/hear-me#0",
+        "title": "Call on the Storm-god to hear and keep him alive",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/hear-me#1",
+        "title": "Call on the Storm-god to hear and keep him alive",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/bird-and-servant#0",
+        "title": "Argue by the bird and the servant",
+        "bestFit": 0.5
+      },
+      {
+        "id": "mursili-plague-prayer/bird-and-servant#1",
+        "title": "Argue by the bird and the servant",
+        "bestFit": 0.5
+      },
+      {
+        "id": "mursili-plague-prayer/bird-and-servant#2",
+        "title": "Argue by the bird and the servant",
+        "bestFit": 0.5
+      },
+      {
+        "id": "mursili-plague-prayer/offer-compensation#0",
+        "title": "Offer further compensation",
+        "bestFit": 0.6066666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/offer-compensation#1",
+        "title": "Offer further compensation",
+        "bestFit": 0.6066666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/offer-compensation#2",
+        "title": "Offer further compensation",
+        "bestFit": 0.6066666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/spare-cult-personnel#0",
+        "title": "Ask that the remaining cult personnel die no more",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "mursili-plague-prayer/reveal-other-cause#0",
+        "title": "Ask for any other cause to be revealed",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "mursili-plague-prayer/order-pure-sleep#0",
+        "title": "Order the priests to sleep in purity",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "army-ritual/hot-stone#0",
+        "title": "Speak the analogy of the hot stone",
+        "bestFit": 0.68
+      },
+      {
+        "id": "army-ritual/winter-torpor#0",
+        "title": "Bind the rivals by the torpor of winter",
+        "bestFit": 0.68
+      },
+      {
+        "id": "army-ritual/winter-torpor#1",
+        "title": "Bind the rivals by the torpor of winter",
+        "bestFit": 0.68
+      },
+      {
+        "id": "army-ritual/mighty-troops#0",
+        "title": "Pray that the troops be mighty",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "army-ritual/father-gods-protect#0",
+        "title": "Ask the father-gods to protect the son",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "army-ritual/gods-on-our-side#0",
+        "title": "Declare the gods are on our side",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "army-ritual/hasten-troops#0",
+        "title": "Ask that the troops be hastened",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "lapana-plague/bull#0",
+        "title": "Provide a bull",
+        "bestFit": 0.15
+      },
+      {
+        "id": "lapana-plague/wicker-tables#0",
+        "title": "Set out four wicker tables",
+        "bestFit": 0.15
+      },
+      {
+        "id": "lapana-plague/evening-fire#0",
+        "title": "Kindle a fire in the evening",
+        "bestFit": 0.15
+      },
+      {
+        "id": "lapana-plague/raw-cooked#0",
+        "title": "Offer raw and cooked portions to the gods",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "lapana-plague/raw-cooked#1",
+        "title": "Offer raw and cooked portions to the gods",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "lapana-plague/burn#0",
+        "title": "Burn the offering",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "lapana-plague/bow#0",
+        "title": "Bow down to the gods",
+        "bestFit": 0.5
+      },
+      {
+        "id": "lapana-plague/in-mouth#0",
+        "title": "Place a little in the mouth, three times",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/mix-urine-clay#0",
+        "title": "Mix donkey urine with school clay",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/mix-urine-clay#1",
+        "title": "Mix donkey urine with school clay",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/make-clay-donkeys#0",
+        "title": "Knead and make two clay donkeys",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/attach-strap-tail#0",
+        "title": "Attach the strap and tail-hair to the figurine",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/attach-strap-tail#1",
+        "title": "Attach the strap and tail-hair to the figurine",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/make-substitute#0",
+        "title": "Make the substitute from the patient's urine, hair and nails",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/make-substitute#1",
+        "title": "Make the substitute from the patient's urine, hair and nails",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/make-substitute#2",
+        "title": "Make the substitute from the patient's urine, hair and nails",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/make-substitute#3",
+        "title": "Make the substitute from the patient's urine, hair and nails",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/make-substitute#4",
+        "title": "Make the substitute from the patient's urine, hair and nails",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/make-substitute#5",
+        "title": "Make the substitute from the patient's urine, hair and nails",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/dress-mount-substitute#0",
+        "title": "Clothe the substitute and set it on the donkey",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/dress-mount-substitute#1",
+        "title": "Clothe the substitute and set it on the donkey",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/dress-mount-substitute#2",
+        "title": "Clothe the substitute and set it on the donkey",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/load-sacks#0",
+        "title": "Load sacks on the two leading donkeys",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/load-sacks#1",
+        "title": "Load sacks on the two leading donkeys",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/make-driver#0",
+        "title": "Make a clay driver with a goad",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/make-driver#1",
+        "title": "Make a clay driver with a goad",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/make-driver#2",
+        "title": "Make a clay driver with a goad",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/make-driver#3",
+        "title": "Make a clay driver with a goad",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "libu-fever/bring-to-roof#0",
+        "title": "Bring the figures up onto the roof before Šamaš",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/bring-to-roof#1",
+        "title": "Bring the figures up onto the roof before Šamaš",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/strew-flour-dates#0",
+        "title": "Strew flour, dates and mashatu-flour before Šamaš",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/strew-flour-dates#1",
+        "title": "Strew flour, dates and mashatu-flour before Šamaš",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/strew-flour-dates#2",
+        "title": "Strew flour, dates and mashatu-flour before Šamaš",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/address-samas-roof#0",
+        "title": "Address Šamaš as lord of judgment",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/address-samas-roof#1",
+        "title": "Address Šamaš as lord of judgment",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/bring-substitute-out#0",
+        "title": "Bring the substitute down and out to the open country",
+        "bestFit": 0.66
+      },
+      {
+        "id": "libu-fever/patient-gives-libu#0",
+        "title": "The patient hands li'bu to his substitute",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "libu-fever/patient-gives-libu#1",
+        "title": "The patient hands li'bu to his substitute",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "libu-fever/donkeys-in-basket#0",
+        "title": "Place the donkey figures in a basket before Šamaš",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/pour-seven-sila#0",
+        "title": "Pour out seven sila each of flour, dates and oil",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/pour-seven-sila#1",
+        "title": "Pour out seven sila each of flour, dates and oil",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/pour-seven-sila#2",
+        "title": "Pour out seven sila each of flour, dates and oil",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/pour-seven-sila#3",
+        "title": "Pour out seven sila each of flour, dates and oil",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/address-nisaba#0",
+        "title": "Invoke Nisaba and drive out the curse",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/address-nisaba#1",
+        "title": "Invoke Nisaba and drive out the curse",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/address-nisaba#2",
+        "title": "Invoke Nisaba and drive out the curse",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/draw-design-adjure#0",
+        "title": "Draw a design and adjure the evil by the gods",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/draw-design-adjure#1",
+        "title": "Draw a design and adjure the evil by the gods",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "libu-fever/draw-design-adjure#2",
+        "title": "Draw a design and adjure the evil by the gods",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "libu-fever/draw-design-adjure#3",
+        "title": "Draw a design and adjure the evil by the gods",
+        "bestFit": 0.6333333333333333
+      },
+      {
+        "id": "libu-fever/strew-at-esegu#0",
+        "title": "Take it out to the ešegu-bush and strew flour and dates",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/strew-at-esegu#1",
+        "title": "Take it out to the ešegu-bush and strew flour and dates",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/strew-at-esegu#2",
+        "title": "Take it out to the ešegu-bush and strew flour and dates",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/strew-at-esegu#3",
+        "title": "Take it out to the ešegu-bush and strew flour and dates",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/station-weapons#0",
+        "title": "Station donkeys and weapons before Šamaš",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/station-weapons#1",
+        "title": "Station donkeys and weapons before Šamaš",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/station-weapons#2",
+        "title": "Station donkeys and weapons before Šamaš",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/address-samas-oath#0",
+        "title": "Address Šamaš, list the seizing demons and lay the oath",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/address-samas-oath#1",
+        "title": "Address Šamaš, list the seizing demons and lay the oath",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/address-samas-oath#2",
+        "title": "Address Šamaš, list the seizing demons and lay the oath",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/address-esegu#0",
+        "title": "Seize the ešegu-bush and bid it plead with Šamaš",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/address-esegu#1",
+        "title": "Seize the ešegu-bush and bid it plead with Šamaš",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/address-esegu#2",
+        "title": "Seize the ešegu-bush and bid it plead with Šamaš",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/anoint-bind-esegu#0",
+        "title": "Pour oil on the ešegu and bind it to a rush",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "libu-fever/anoint-bind-esegu#1",
+        "title": "Pour oil on the ešegu and bind it to a rush",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "libu-fever/anoint-bind-esegu#2",
+        "title": "Pour oil on the ešegu and bind it to a rush",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "libu-fever/release-bargain#0",
+        "title": "Ask Šamaš to free the patient from fever",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/release-bargain#1",
+        "title": "Ask Šamaš to free the patient from fever",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "libu-fever/place-loaves-designs#0",
+        "title": "Draw designs and set a dried loaf at each",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/place-loaves-designs#1",
+        "title": "Draw designs and set a dried loaf at each",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "libu-fever/strew-city-gate#0",
+        "title": "Throw flour at the city gate",
+        "bestFit": 0.7933333333333333
+      },
+      {
+        "id": "libu-fever/strew-city-gate#1",
+        "title": "Throw flour at the city gate",
+        "bestFit": 0.7933333333333333
+      },
+      {
+        "id": "libu-fever/adjure-at-gate#0",
+        "title": "Adjure the evil not to enter the door",
+        "bestFit": 0.75
+      },
+      {
+        "id": "libu-fever/adjure-at-gate#1",
+        "title": "Adjure the evil not to enter the door",
+        "bestFit": 0.75
+      },
+      {
+        "id": "libu-fever/mix-salt-cress#0",
+        "title": "Mix salt and cress into the poured flour",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/mix-salt-cress#1",
+        "title": "Mix salt and cress into the poured flour",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/crush-juniper#0",
+        "title": "Crush juniper and mix it with oil",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/crush-juniper#1",
+        "title": "Crush juniper and mix it with oil",
+        "bestFit": 0.15
+      },
+      {
+        "id": "libu-fever/recite-arabapura#0",
+        "title": "Recite the incantation during treatment",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "poultice-recipes/crush-plants#0",
+        "title": "Crush the plants and mix them as one",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/crush-plants#1",
+        "title": "Crush the plants and mix them as one",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/boil-kasu#0",
+        "title": "Boil the mixture in kasû-juice",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/bandage-kasu#0",
+        "title": "Keep bandaging the patient",
+        "bestFit": 0.3433333333333333
+      },
+      {
+        "id": "poultice-recipes/decoct-beer#0",
+        "title": "Boil in beer and decoct like a rabīku-paste",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/decoct-beer#1",
+        "title": "Boil in beer and decoct like a rabīku-paste",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/decoct-beer#2",
+        "title": "Boil in beer and decoct like a rabīku-paste",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/crush-with-crusher#0",
+        "title": "Crush many aromatics with a wooden crusher",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/mix-emmer#0",
+        "title": "Mix the aromatics with emmer flour",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/decoct-wine#0",
+        "title": "Decoct in pressed wine like a rabīku-paste",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/bandage-wine#0",
+        "title": "Keep bandaging that man",
+        "bestFit": 0.3433333333333333
+      },
+      {
+        "id": "poultice-recipes/mix-ghee-beer#0",
+        "title": "Mix seeds with ghee and beer and bandage",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/mix-ghee-beer#1",
+        "title": "Mix seeds with ghee and beer and bandage",
+        "bestFit": 0.15
+      },
+      {
+        "id": "poultice-recipes/mix-ghee-beer#2",
+        "title": "Mix seeds with ghee and beer and bandage",
+        "bestFit": 0.3433333333333333
+      },
+      {
+        "id": "poultice-recipes/perform-purification#0",
+        "title": "Perform a purification for the sick man",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "poultice-recipes/perform-purification#1",
+        "title": "Perform a purification for the sick man",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/draw-circle-round-crucible#0",
+        "title": "Draw a magic circle round the crucible",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/arrange-figures-in-crucible#0",
+        "title": "Arrange figures of nine materials in the crucible",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/arrange-figures-in-crucible#1",
+        "title": "Arrange figures of nine materials in the crucible",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/arrange-figures-in-crucible#2",
+        "title": "Arrange figures of nine materials in the crucible",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/arrange-figures-in-crucible#3",
+        "title": "Arrange figures of nine materials in the crucible",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/arrange-figures-in-crucible#4",
+        "title": "Arrange figures of nine materials in the crucible",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/arrange-figures-in-crucible#5",
+        "title": "Arrange figures of nine materials in the crucible",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/arrange-figures-in-crucible#6",
+        "title": "Arrange figures of nine materials in the crucible",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/arrange-figures-in-crucible#7",
+        "title": "Arrange figures of nine materials in the crucible",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/arrange-figures-in-crucible#8",
+        "title": "Arrange figures of nine materials in the crucible",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/identify-figures-as-doer#0",
+        "title": "Point at the figures and name them as the doer",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/identify-figures-as-doer#1",
+        "title": "Point at the figures and name them as the doer",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/set-torch-on-fat-figures#0",
+        "title": "Put a torch on the tallow and wax figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/set-torch-on-fat-figures#1",
+        "title": "Put a torch on the tallow and wax figures",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/insert-woods-and-reed#0",
+        "title": "Stick cedar, cypress, myrtle and reed into it",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/insert-woods-and-reed#1",
+        "title": "Stick cedar, cypress, myrtle and reed into it",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/insert-woods-and-reed#2",
+        "title": "Stick cedar, cypress, myrtle and reed into it",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/insert-woods-and-reed#3",
+        "title": "Stick cedar, cypress, myrtle and reed into it",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/light-torch-from-sulphur#0",
+        "title": "Light the torch from sulphur fire and recite",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/light-torch-from-sulphur#1",
+        "title": "Light the torch from sulphur fire and recite",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/throw-fire-into-crucible#0",
+        "title": "Throw fire into the crucible",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "cmawro-q002713-9-22-31/throw-fire-into-crucible#1",
+        "title": "Throw fire into the crucible",
+        "bestFit": 0.3666666666666667
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/pound-paste#0",
+        "title": "Pound sulphur, gypsum and red paste together",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/pound-paste#1",
+        "title": "Pound sulphur, gypsum and red paste together",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/pound-paste#2",
+        "title": "Pound sulphur, gypsum and red paste together",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/pound-paste#3",
+        "title": "Pound sulphur, gypsum and red paste together",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/recite-tear-out-sorcery#0",
+        "title": "Recite \"Furious, furious … tear out the sorcery\"",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/recite-into-paste-and-smear-jamb#0",
+        "title": "Recite into the paste; apply it to the door-jamb",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/recite-into-paste-and-smear-jamb#1",
+        "title": "Recite into the paste; apply it to the door-jamb",
+        "bestFit": 0.6533333333333333
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/wash-off-into-cloth#0",
+        "title": "Wash the paste off with silt into a cloth",
+        "bestFit": 0.58
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/wash-off-into-cloth#1",
+        "title": "Wash the paste off with silt into a cloth",
+        "bestFit": 0.58
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/wrap-sulphur-oil-in-fleece#0",
+        "title": "Wrap sulphur and oil in combed fleece",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/wrap-sulphur-oil-in-fleece#1",
+        "title": "Wrap sulphur and oil in combed fleece",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/wrap-sulphur-oil-in-fleece#2",
+        "title": "Wrap sulphur and oil in combed fleece",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/bury-at-gate-and-socket#0",
+        "title": "Bury it at the outer gate and door socket",
+        "bestFit": 0.7933333333333333
+      },
+      {
+        "id": "cmawro-q004239-11-1-1/bury-at-gate-and-socket#1",
+        "title": "Bury it at the outer gate and door socket",
+        "bestFit": 0.7933333333333333
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/sprinkle-riverbank#0",
+        "title": "Sweep and sprinkle the riverbank",
+        "bestFit": 0.15
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/altar-and-libation#0",
+        "title": "Set up an altar and pour a libation",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/altar-and-libation#1",
+        "title": "Set up an altar and pour a libation",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/make-male-female-clay-figures#0",
+        "title": "Make a male and a female figure of clay",
+        "bestFit": 0.7233333333333333
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/clothe-and-stand-before-god#0",
+        "title": "The sick man dresses, stands before the god, recites",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/clothe-and-stand-before-god#1",
+        "title": "The sick man dresses, stands before the god, recites",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/send-evil-across-river#0",
+        "title": "Ask that the evil cross river and mountain",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/smoke-and-tamarisk-analogy#0",
+        "title": "Like smoke, like uprooted tamarisk",
+        "bestFit": 0.53
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/beer-libation-to-river#0",
+        "title": "Pour beer before the river",
+        "bestFit": 0.7533333333333333
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/dip-in-river-three-times#0",
+        "title": "Sink three times in the river in a textile",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/dip-in-river-three-times#1",
+        "title": "Sink three times in the river in a textile",
+        "bestFit": 0.5366666666666667
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/ask-river-to-take-evil#0",
+        "title": "Ask the river to carry the evil away",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/ask-river-to-take-evil#1",
+        "title": "Ask the river to carry the evil away",
+        "bestFit": 0.5766666666666667
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/come-up-strip-and-bathe#0",
+        "title": "Come up, tear off the textile, bathe",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/come-up-strip-and-bathe#1",
+        "title": "Come up, tear off the textile, bathe",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/come-up-strip-and-bathe#2",
+        "title": "Come up, tear off the textile, bathe",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/touch-brewers-mash-tub#0",
+        "title": "Enter a brewer's house and touch the mash tub",
+        "bestFit": 0.61
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/touch-brewers-mash-tub#1",
+        "title": "Enter a brewer's house and touch the mash tub",
+        "bestFit": 0.61
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/touch-gate-gypsum-bitumen#0",
+        "title": "Touch the gate with gypsum and bitumen",
+        "bestFit": 0.7933333333333333
+      },
+      {
+        "id": "cmawro-q005109-11-3-1/touch-gate-gypsum-bitumen#1",
+        "title": "Touch the gate with gypsum and bitumen",
+        "bestFit": 0.7933333333333333
+      },
+      {
+        "id": "potency-prescriptions/catch-partridge#0",
+        "title": "Catch a male partridge",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/pluck-strangle#0",
+        "title": "Pluck and strangle the partridge",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/salt-dry#0",
+        "title": "Salt and dry the bird",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/salt-dry#1",
+        "title": "Salt and dry the bird",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/crush-with-thorn#0",
+        "title": "Crush with thorn seed",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/crush-with-thorn#1",
+        "title": "Crush with thorn seed",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/drink-in-beer#0",
+        "title": "Give it to drink in beer",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/drink-in-beer#1",
+        "title": "Give it to drink in beer",
+        "bestFit": 0.3
+      },
+      {
+        "id": "potency-prescriptions/blood-into-water#0",
+        "title": "Let the blood fall into water",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/blood-into-water#1",
+        "title": "Let the blood fall into water",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/water-under-stars#0",
+        "title": "Leave the water under the stars",
+        "bestFit": 0.44333333333333336
+      },
+      {
+        "id": "potency-prescriptions/drink-at-sunrise#0",
+        "title": "Drink at sunrise",
+        "bestFit": 0.3
+      },
+      {
+        "id": "potency-prescriptions/wrap-in-wool#0",
+        "title": "Wrap in wool",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/smear-salt-plant#0",
+        "title": "Smear with salt and nīnû-plant",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/smear-salt-plant#1",
+        "title": "Smear with salt and nīnû-plant",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/smear-salt-plant#2",
+        "title": "Smear with salt and nīnû-plant",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/smear-salt-plant#3",
+        "title": "Smear with salt and nīnû-plant",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/mix-roasted-flour#0",
+        "title": "Mix with roasted-grain flour",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/mix-roasted-flour#1",
+        "title": "Mix with roasted-grain flour",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/form-pellets#0",
+        "title": "Form pellets",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/form-pellets#1",
+        "title": "Form pellets",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/form-pellets#2",
+        "title": "Form pellets",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/bind-on-hips#0",
+        "title": "Bind on the hips",
+        "bestFit": 0.3
+      },
+      {
+        "id": "potency-prescriptions/rinse-body#0",
+        "title": "Rinse with water and kasû",
+        "bestFit": 0.4466666666666667
+      },
+      {
+        "id": "potency-prescriptions/anoint-oil#0",
+        "title": "Anoint repeatedly with oil",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/anoint-oil#1",
+        "title": "Anoint repeatedly with oil",
+        "bestFit": 0.3
+      },
+      {
+        "id": "potency-prescriptions/sumerian-incantation#0",
+        "title": "Recite the Sumerian incantation",
+        "bestFit": 0.5966666666666667
+      },
+      {
+        "id": "potency-prescriptions/crush-decoct-sinews#0",
+        "title": "Crush and decoct the sinews",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/crush-decoct-sinews#1",
+        "title": "Crush and decoct the sinews",
+        "bestFit": 0.15
+      },
+      {
+        "id": "potency-prescriptions/crush-decoct-sinews#2",
+        "title": "Crush and decoct the sinews",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/take-herbs#0",
+        "title": "Take the herbs",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/take-herbs#1",
+        "title": "Take the herbs",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/take-herbs#2",
+        "title": "Take the herbs",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/take-herbs#3",
+        "title": "Take the herbs",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/give-seven-days#0",
+        "title": "Give the herbs for seven days",
+        "bestFit": 0.3
+      },
+      {
+        "id": "hittite-remedies/take-bulbs#0",
+        "title": "Take garlic, leek and šullittinni bulbs",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/take-bulbs#1",
+        "title": "Take garlic, leek and šullittinni bulbs",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/take-bulbs#2",
+        "title": "Take garlic, leek and šullittinni bulbs",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/steep-sift#0",
+        "title": "Steep and sift the bulbs",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/steep-sift#1",
+        "title": "Steep and sift the bulbs",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/give-empty-stomach#0",
+        "title": "Give for seven days on an empty stomach",
+        "bestFit": 0.3
+      },
+      {
+        "id": "hittite-remedies/sew-into-cord#0",
+        "title": "Sew into a cord from a leopard’s kill",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/sew-into-cord#1",
+        "title": "Sew into a cord from a leopard’s kill",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/twist-sinew#0",
+        "title": "Twist in the sinew",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/twist-sinew#1",
+        "title": "Twist in the sinew",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/heat-compress#0",
+        "title": "Heat and apply a compress",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/heat-compress#1",
+        "title": "Heat and apply a compress",
+        "bestFit": 0.3
+      },
+      {
+        "id": "hittite-remedies/crush-into-bag#0",
+        "title": "Crush the plants into a bag",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/crush-into-bag#1",
+        "title": "Crush the plants into a bag",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/entrust-to-stars#0",
+        "title": "Entrust it to the stars",
+        "bestFit": 0.44333333333333336
+      },
+      {
+        "id": "hittite-remedies/carry-into-house#0",
+        "title": "Carry it into the house",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/drink-morning#0",
+        "title": "Drink early in the morning",
+        "bestFit": 0.3
+      },
+      {
+        "id": "hittite-remedies/second-day-bag#0",
+        "title": "Prepare the second-day remedy",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/second-day-bag#1",
+        "title": "Prepare the second-day remedy",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/second-day-bag#2",
+        "title": "Prepare the second-day remedy",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/second-day-bag#3",
+        "title": "Prepare the second-day remedy",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/into-honey#0",
+        "title": "Give it in honey until he recovers",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/into-honey#1",
+        "title": "Give it in honey until he recovers",
+        "bestFit": 0.3
+      },
+      {
+        "id": "hittite-remedies/gut-fish#0",
+        "title": "Gut a fish",
+        "bestFit": 0.15
+      },
+      {
+        "id": "hittite-remedies/gut-fish#1",
+        "title": "Gut a fish",
+        "bestFit": 0.15
+      }
+    ],
+    "mostSelected": [
+      [
+        "tapalazunauli/fill-basket#0",
+        1
+      ],
+      [
+        "tapalazunauli/chant-at-gate#0",
+        1
+      ],
+      [
+        "tunnawiya/offer-at-riverbank#0",
+        1
+      ],
+      [
+        "tunnawiya/offer-at-spring#1",
+        1
+      ]
+    ]
+  },
+  "results": [
+    {
+      "goal": "Protect me from replying all",
+      "title": "The Reply-All Drawbridge",
+      "repeat": 0,
+      "elapsedMs": 2578,
+      "fit": "loose",
+      "planning": {
+        "status": "reviewed",
+        "review": {
+          "goal": 1.34,
+          "coherence": 1.99,
+          "grounding": 1.59
+        },
+        "considered": 543,
+        "shortlisted": 6,
+        "eligibleActions": 543,
+        "cached": false,
+        "elapsedMs": 2560,
+        "jevCalls": 2,
+        "calls": [
+          {
+            "elapsedMs": 348,
+            "questions": 31,
+            "usage": {
+              "input_tokens": 2509,
+              "output_tokens": 552,
+              "cost": 0.000105378
+            }
+          },
+          {
+            "elapsedMs": 177,
+            "questions": 18,
+            "usage": {
+              "input_tokens": 3615,
+              "output_tokens": 322,
+              "cost": 0.00015183
+            }
+          }
+        ],
+        "mechanismScores": {
+          "mark identity": 0.6533333333333333,
+          "substitution and expulsion": 0.66,
+          "appeasement": 0.5,
+          "gift exchange": 0.7533333333333333,
+          "representation": 0.7233333333333333,
+          "return to sender": 0.6333333333333333,
+          "burden transfer": 0.5366666666666667,
+          "contact deposit": 0.2333333333333333,
+          "overnight contact": 0.49,
+          "remove deposit": 0.22666666666666668,
+          "cleansing analogy": 0.53,
+          "cleansing": 0.4466666666666667,
+          "transition": 0.61,
+          "remove marker": 0.58,
+          "petition": 0.5766666666666667,
+          "destruction of carrier": 0.3666666666666667,
+          "disposal": 0.5066666666666667,
+          "analogy of increase": 0.4066666666666667,
+          "completion": 0.5366666666666667,
+          "role exchange": 0.62,
+          "protective boundary": 0.7933333333333333,
+          "divination": 0.6733333333333333,
+          "boundary crossing": 0.75,
+          "acknowledgment of fault": 0.4466666666666667,
+          "restitution": 0.6066666666666667,
+          "reveal hidden cause": 0.6333333333333333,
+          "constrain opponent": 0.68,
+          "medical application": 0.3433333333333333,
+          "medical treatment": 0.3,
+          "overnight exposure": 0.44333333333333336,
+          "healing incantation": 0.5966666666666667
+        },
+        "approved": 3,
+        "assessedMechanisms": 31
+      },
+      "wording": {
+        "status": "template",
+        "actionSpeeches": {
+          "status": "luna-action-speeches",
+          "model": "gpt-6-luna",
+          "speeches": 1,
+          "elapsedMs": 2026,
+          "usage": {
+            "input_tokens": 113,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 37,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 150
+          }
+        }
+      },
+      "chain": "Have the straw and bread ready. Place the straw and bread at the basket --> Call the power by name --> Have the bread ready. Offer the bread to Mother-goddess --> Have the wine ready. Pour the wine",
+      "sources": [
+        "Tapalazunauli",
+        "Tunnawiya"
+      ],
+      "actionIds": [
+        "tapalazunauli/fill-basket#0",
+        "tapalazunauli/chant-at-gate#0",
+        "tunnawiya/offer-at-riverbank#0",
+        "tunnawiya/offer-at-spring#1"
+      ],
+      "prayer": "Those present, let every message pause at my drawbridge, admitting only the replies meant for all.",
+      "alternativeChains": []
+    }
+  ]
+}

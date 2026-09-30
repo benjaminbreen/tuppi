@@ -13,6 +13,7 @@ import { RITUAL_DEITIES, RITUAL_UNITS, RITUAL_VISUALS, ritualUnitHref, sourceHre
 import { decodeAnyRitualRecipe, encodeGrammarRecipe, encodeRitualRecipe } from "../lib/ritualShare";
 import GrammarRecipe, { type GrammarState } from "../components/GrammarRecipe";
 import { compileGrammarSteps } from "../lib/ritualGrammarCards";
+import { imageForGrammarCard } from "../lib/ritualCardImages";
 import { ATOMS, proposeRituals, type PlanItem } from "../lib/ritualPlanner";
 
 interface Occurrence {
@@ -91,9 +92,24 @@ function orderSelection(items: Selection[]): Selection[] {
   return ordered;
 }
 
+const EXAMPLE_WISHES = [
+  "Make my grant application irresistible", "Let my sourdough rise", "Protect me from replying all",
+  "Help me find my lost cat", "Let my bakery thrive", "Give me courage for my new job",
+  "Help me make up with my sister", "Let me sleep without nightmares", "May my garden flourish",
+  "Bring me a new car", "Let my crush text me back", "Give me an A in world history",
+];
+function pickExamples() {
+  const first=Math.floor(Math.random()*EXAMPLE_WISHES.length);
+  const second=(first+1+Math.floor(Math.random()*(EXAMPLE_WISHES.length-1)))%EXAMPLE_WISHES.length;
+  return [EXAMPLE_WISHES[first],EXAMPLE_WISHES[second]];
+}
 export default function RitualComposer() {
   const location = useLocation();
   const navigate = useNavigate();
+  const [examples,setExamples]=useState(pickExamples);
+  const [examplesOpen,setExamplesOpen]=useState(false);
+  const [aboutOpen,setAboutOpen]=useState(false);
+  const inputRef=useRef<HTMLInputElement>(null);
   const [goal, setGoal] = useState("");
   const [appliedGoal, setAppliedGoal] = useState("");
   const [goalFrame, setGoalFrame] = useState<GoalFrame | null>(null);
@@ -194,8 +210,8 @@ export default function RitualComposer() {
       const selected = actions.length <= 3 ? actions : [actions[0], actions[Math.floor((actions.length - 1) / 2)], actions[actions.length - 1]];
       const spoken = grammar ? (grammarCards.find(step => step.carriesWish) ?? grammarCards.find(step => step.words)) : (executionSteps.find(step => step.words && step.speechFunction === "petition") ?? executionSteps.find(step => step.words));
       const blob = await renderRitualShareImage({
-        goal: appliedGoal,
-        actions: selected.map(({step, number}) => ({number, instruction: step.instruction, image: imageFor(step.unitId)})),
+        goal: goalFrame?.title ?? appliedGoal,
+        actions: selected.map(({step, number}) => ({number, instruction: step.instruction, image: grammar ? imageForGrammarCard(step as import("../lib/ritualGrammarCards").GrammarCard, grammar.items) : imageFor(step.unitId)})),
         speech: spoken?.words,
         sources: grammar ? [...new Set(grammarCards.map(card => `${card.provenance.ritualName} · ${card.provenance.sourceLabel}`))] : [...new Set(selection.map(item => { const source = occurrenceById.get(item.id)!; return `${source.ritualName} · ${source.sourceLabel}`; }))],
         adapted: grammar ? grammar.mode !== "historical" : mode === "analogy" || mode === "custom",
@@ -241,8 +257,8 @@ export default function RitualComposer() {
     return () => animations.forEach((animation) => animation.cancel());
   }, [selection]);
 
-  async function compose(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
+  async function compose(event?: FormEvent<HTMLFormElement>) {
+    event?.preventDefault();
     const requestedGoal = goal.trim().replace(/\s+/g, " ");
     if (requestedGoal.length < 3 || requestedGoal.length > 160) { setMessage("Enter a goal between 3 and 160 characters."); return; }
     requestRef.current?.abort();
@@ -320,9 +336,10 @@ export default function RitualComposer() {
       setMessage("");
       return;
     }
+    if (grammar.actionScores) { void compose(); return; }
     if (!grammar.schemaScores) { setMessage("Compose again to draw a new combination."); return; }
     const seed = Math.floor(Math.random() * 2 ** 31);
-    const proposal = proposeRituals({ schemaScores: grammar.schemaScores, aimScores: grammar.aimScores, seed, mode: grammar.mode === "historical" ? "historical" : "analogy" });
+    const proposal = proposeRituals({ schemaScores: grammar.schemaScores, aimScores: grammar.aimScores, actionScores: grammar.actionScores, seed, mode: grammar.mode === "historical" ? "historical" : "analogy" });
     setAlternative(0);
     const fresh = proposal.plans.filter((plan) => !plan.attested);
     setGrammar({ ...grammar, items: fresh[0].items, alternatives: fresh.slice(1).map((plan) => ({ items: plan.items })), seed });
@@ -390,13 +407,27 @@ export default function RitualComposer() {
   }
 
   return <div className="wrap page ritual-page ritual-composer-page">
-    <h1 className="sr">Create your own ritual</h1>
+    <h1 className="ritual-composer-title">Create your own Hittite ritual</h1>
     <form className="ritual-composer-search" onSubmit={compose}>
-      <label className="sr" htmlFor="ritual-goal">What should this ritual address?</label>
-      <input id="ritual-goal" autoComplete="off" value={goal} maxLength={160} onChange={(event) => setGoal(event.target.value)} placeholder="What should this ritual address?" />
+      <label className="sr" htmlFor="ritual-goal">What would you like your ritual to achieve?</label>
+      <div className={`ritual-example-help${examplesOpen?" open":""}`} onMouseEnter={()=>{if(!examplesOpen)setExamples(pickExamples());setExamplesOpen(true);}} onMouseLeave={()=>setExamplesOpen(false)} onBlur={(event)=>{if(!event.currentTarget.contains(event.relatedTarget))setExamplesOpen(false);}}>
+        <button type="button" className="ritual-example-icon" onPointerDown={event=>event.preventDefault()} aria-label="Example wishes" aria-expanded={examplesOpen} aria-controls="ritual-examples" onFocus={()=>{if(!examplesOpen)setExamples(pickExamples());setExamplesOpen(true);}} onClick={()=>setExamplesOpen(true)} onKeyDown={event=>{if(event.key==="Escape"){setExamplesOpen(false);inputRef.current?.focus();}}}>?</button>
+        <div id="ritual-examples" className="ritual-example-tooltip" hidden={!examplesOpen}><small>A little inspiration</small>{examples.map(example=><button type="button" key={example} onPointerDown={event=>event.preventDefault()} onClick={()=>{setGoal(example);setExamplesOpen(false);inputRef.current?.focus();}}>{example} <span aria-hidden="true">↗</span></button>)}</div>
+      </div>
+      <input ref={inputRef} id="ritual-goal" autoComplete="off" value={goal} maxLength={160} onChange={(event) => setGoal(event.target.value)} placeholder="What would you like your ritual to achieve?" />
       {goal && <button className="ritual-composer-clear" type="button" aria-label="Clear goal" onClick={() => setGoal("")}>×</button>}
       <button className="ritual-composer-submit" type="submit" disabled={busy} aria-label="Compose ritual">{busy ? <span className="ritual-composer-spinner" /> : <span aria-hidden="true">→</span>}</button>
     </form>
+    <div className="ritual-composer-about">
+      <button type="button" className="ritual-composer-about-trigger" aria-expanded={aboutOpen} aria-controls="ritual-composer-about-text" onClick={()=>setAboutOpen(value=>!value)}>What is this?</button>
+      <div id="ritual-composer-about-text" className={`ritual-composer-about-panel${aboutOpen?" is-open":""}`} inert={!aboutOpen} aria-hidden={!aboutOpen}>
+        <div className="ritual-composer-about-inner"><div className="ritual-composer-about-copy">
+          <p>This website is an experimental platform for surfacing ancient texts relating to medicine, disease, drugs and nature, ideated by <a href="https://resobscura.substack.com" target="_blank" rel="noopener noreferrer">Benjamin Breen</a> and created by GPT-6 and Opus 5.5.</p>
+          <p>My real goal here is to test how frontier AI models can contribute to identifying ancient plants, animals, and recipes, but since a lot of this corpus involves magical rituals, I thought it would be fun to experiment with <a href="https://docs.typesafe.ai/introduction" target="_blank" rel="noopener noreferrer">Jev</a> to create a “make your own ritual” feature.</p>
+          <p>Enjoy, and may Šamaš smile upon you!</p>
+        </div></div>
+      </div>
+    </div>
     <div className="ritual-composer-feedback" role="status" aria-live="polite">
       {busy ? "Composing ritual…" : message}
       {showPreview && <button type="button" onClick={preview}>Preview with “undo a curse”</button>}
@@ -404,7 +435,7 @@ export default function RitualComposer() {
 
     <section className={`ritual-composer-result${selection.length ? "" : " empty"}`} aria-label="Selected ritual steps">
       {(selection.length > 0 || !!grammar?.items.length) && <div className="ritual-composer-result-head">
-        <span>{mode === "historical" ? "Ritual for a historical aim" : mode === "analogy" ? (fit === "loose" ? "Exploratory ritual · loose analogy" : "Ritual for your goal") : mode === "preview" ? "Example ritual" : "Your edited ritual"}</span>
+        <span>{mode === "historical" ? "Ritual for a historical aim" : mode === "analogy" ? (fit === "loose" ? "Loose analogy" : "Ritual for your goal") : mode === "preview" ? "Example ritual" : "Your edited ritual"}</span>
         {appliedGoal && <small>For “{appliedGoal}”</small>}
         {shared && <em className="ritual-composer-shared">Shared recipe</em>}
         <div className="ritual-composer-actions">{grammar && <button type="button" onClick={anotherCombination}>Another combination ↻</button>}<button className="ritual-composer-share-trigger" type="button" onClick={() => { setShareOpen((value) => !value); setShareStatus(""); }} aria-expanded={shareOpen}>Share ritual ↗</button><button type="button" onClick={() => { detachSharedLink(); setSelection([]); setGrammar(null); setMode(null); setFocusedId(null); }}>Clear sequence</button></div>
@@ -415,7 +446,7 @@ export default function RitualComposer() {
         <h2>Share this ritual</h2>
         <p>Copy the full ritual link or save an image with selected steps and spoken words.</p>
         <div className="ritual-composer-share-url"><input readOnly aria-label="Share link" value={shareUrl} onFocus={(event) => event.currentTarget.select()} /><button type="button" onClick={copyShareLink}>Copy link</button></div>
-        <div className="ritual-composer-share-links"><a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`A ritual for ${appliedGoal}`)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer">Post to X ↗</a><a href={`https://bsky.app/intent/compose?text=${encodeURIComponent(`A ritual for ${appliedGoal} ${shareUrl}`)}`} target="_blank" rel="noopener noreferrer">Post to Bluesky ↗</a>{typeof navigator.share === "function" && <button type="button" onClick={() => navigator.share({ title: `A ritual for ${appliedGoal}`, url: shareUrl }).catch(() => {})}>More options ↗</button>}</div>
+        <div className="ritual-composer-share-links"><a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(goalFrame?.title ?? `A ritual for ${appliedGoal}`)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer">Post to X ↗</a><a href={`https://bsky.app/intent/compose?text=${encodeURIComponent(`${goalFrame?.title ?? `A ritual for ${appliedGoal}`} ${shareUrl}`)}`} target="_blank" rel="noopener noreferrer">Post to Bluesky ↗</a>{typeof navigator.share === "function" && <button type="button" onClick={() => navigator.share({ title: goalFrame?.title ?? `A ritual for ${appliedGoal}`, url: shareUrl }).catch(() => {})}>More options ↗</button>}</div>
         <div className="ritual-share-export">
           <button type="button" disabled={exportBusy} onClick={prepareShareImage}>{exportBusy ? "Preparing image…" : imageExport ? "Refresh image" : "Create image"}</button>
           {imageExport && <>
@@ -427,7 +458,7 @@ export default function RitualComposer() {
         <span className="ritual-composer-share-status" role="status">{shareStatus}</span>
       </div>}
       {grammar && <GrammarRecipe state={grammar} onItems={(items) => { detachSharedLink(); setGrammar({ ...grammar, items, mode: "custom" }); setMode("custom"); setMessage(items.length ? "Card removed." : ""); if (!items.length) setGrammar(null); }} />}
-      {!grammar && goalFrame && <div className="ritual-composer-wish"><p className="ritual-eyebrow">Your aim</p><p>{goalFrame.wish}</p></div>}
+      {!grammar && goalFrame && <div className="ritual-composer-wish"><p>{goalFrame.wish}</p></div>}
       {!grammar && selection.length > 0 && interpretation && <div className="ritual-composer-logic">
         <p className="ritual-eyebrow">{interpretation.title}</p>
         <p>{interpretation.explanation}</p>

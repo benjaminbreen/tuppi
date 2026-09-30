@@ -16,7 +16,7 @@ for (const a of ATOMS) shared.set(a.signature, new Set([...(shared.get(a.signatu
 assert.ok([...shared.values()].filter((set) => set.size > 1).length >= 30, 'signatures recur across rituals');
 assert.ok(rituals.size >= 20);
 
-// Planner: every schema, many draws. Only the two hard rules plus modern safety.
+// Planner: every schema, many draws. Material prerequisites and coherent source connections.
 const BAD_TEXT = /undefined|null|\[object|NaN|\{|\}/;
 let plans = 0;
 for (const schema of SCHEMA_IDS) {
@@ -25,21 +25,12 @@ for (const schema of SCHEMA_IDS) {
     plans++;
     assert.ok(plan.items.length >= 2, `${schema}/${seed}: empty plan`);
     assert.deepEqual(validatePlanItems(plan.items), [], `${schema}/${seed}`);
-    for (const item of plan.items) {
-      const atom = atomById.get(item.atomId).atom;
-      assert.notEqual(atom.verb, 'kill', `${schema}/${seed}: killing proposed`);
-      assert.ok(!(atom.verb === 'select' && atom.theme?.class === 'person'), `${schema}/${seed}: human substitute proposed`);
-    }
     const cards = compileGrammarSteps({ goal: 'test goal', goalFrame: { outcome: 'a calmer week', wish: 'May you have a calmer week.', unwanted: 'the worry', method: 'luna' }, mode: 'analogy', items: plan.items });
     assert.ok(cards.length >= 2);
     assert.ok(cards.filter((card) => card.carriesWish).length <= 1, 'one speech carries the whole wish');
     for (const card of cards) {
       assert.ok(!BAD_TEXT.test(card.instruction), `${schema}/${seed}: ${card.instruction}`);
       if (card.kind === 'composed') assert.ok(card.words && !BAD_TEXT.test(card.words) && card.note.includes('not a translation'), card.words);
-      if (card.kind === 'source') {
-        assert.ok(!/\b(eat|drink)\b/i.test(card.instruction) || card.notes.some((n) => /Do not eat/.test(n)), card.instruction);
-        assert.ok(!/\blive\b/i.test(card.instruction));
-      }
       assert.ok(card.provenance.ritualId && card.provenance.stepNumber > 0);
     }
   }
@@ -74,7 +65,8 @@ assert.throws(() => scoresFromJev({}), /Invalid Jev answer/);
 assert.ok(combineScores(scores, ['passage']).schemaScores.passage < 0.25, 'with Jev, Luna only nudges');
 assert.ok(combineScores(scores, ['passage'], { floor: true }).schemaScores.passage >= 0.75, 'without Jev, Luna sets a floor');
 const guarded = guardScores({ aimScores: {}, schemaScores: { return: 0.9, appeasement: 0.1 } }, { relationship: { person: 'your brother', kind: 'reconciliation' } });
-assert.ok(guarded.schemaScores.return <= 0.2 && guarded.schemaScores.appeasement >= 0.7, 'a named person is never the target of returned harm');
+assert.equal(guarded.schemaScores.return, 0.9, 'named people do not suppress requested ritual mechanisms');
+assert.equal(guarded.schemaScores.appeasement, 0.1);
 assert.ok(heuristicScores('I want to get rid of my bad luck').schemaScores.elimination > 0.5);
 
 // Share links: v8 round trip; legacy links still decode.
@@ -90,7 +82,7 @@ assert.throws(() => decodeAnyRitualRecipe(encodeGrammarRecipe(recipe).slice(0, 3
 // API: with no model configured, a labelled offline estimate still composes.
 const saved = { ...process.env };
 delete process.env.OPENROUTER_API_KEY; delete process.env.TYPESAFE_API_KEY; delete process.env.OPENAI_API_KEY;
-const post = (goal, extra = {}) => handler.fetch(new Request('http://localhost/api/compose', { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-forwarded-for': `grammar-${Math.random()}` }, body: JSON.stringify({ goal, ...extra }) }));
+const post = (goal, extra = {}) => handler.fetch(new Request('http://localhost/api/compose', { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-forwarded-for': `grammar-${Math.random()}` }, body: JSON.stringify({ goal, engine: "grammar", ...extra }) }));
 let response = await post('I want to get rid of my bad luck', { seed: 5 });
 let body = await response.json();
 assert.equal(response.status, 200);

@@ -69,15 +69,9 @@ export function combineScores(base, lunaStructures = [], { floor = false } = {})
   return { ...base, schemaScores };
 }
 
-// Guardrails that hold whatever the model says: a named person is never the
-// target of a returned harm, and a wish to end anger with them reads as appeasement.
+// Preserve the requested relationship and Jev scores without suppressing hostile wishes.
 export function guardScores(scores, goalFrame) {
-  const schemaScores = { ...scores.schemaScores };
-  if (goalFrame?.relationship) {
-    schemaScores.return = Math.min(schemaScores.return ?? 0, 0.2);
-    if (goalFrame.relationship.kind === 'reconciliation') schemaScores.appeasement = Math.max(schemaScores.appeasement ?? 0, 0.7);
-  }
-  return { ...scores, schemaScores };
+  return { ...scores, schemaScores: { ...scores.schemaScores } };
 }
 
 export function composeGrammar({ goal, scores: rawScores, goalFrame = null, seed, scoring }) {

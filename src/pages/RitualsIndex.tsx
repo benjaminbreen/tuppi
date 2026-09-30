@@ -54,7 +54,7 @@ export default function RitualsIndex() {
       <section id="catalogue" className="ritual-catalogue" aria-labelledby="ritual-catalogue-heading">
         <div className="ritual-catalogue-heading">
           <h2 id="ritual-catalogue-heading">Ritual catalogue</h2>
-          <div className="ritual-catalogue-heading-actions"><span aria-live="polite">{visible.length} {visible.length === 1 ? "ritual" : "rituals"}</span><Link to="/rituals/create">Create your own ritual ↗</Link><Link to="/ritual-units">Browse ritual tasks ↗</Link><Link to="/ritual-atoms">Ritual grammar ↗</Link></div>
+          <div className="ritual-catalogue-heading-actions"><span aria-live="polite">{visible.length} {visible.length === 1 ? "ritual" : "rituals"}</span><Link to="/rituals/create">Create your own ritual ↗</Link><Link to="/ritual-units">Browse ritual tasks ↗</Link><Link to="/ritual-atoms">Ritual actions ↗</Link></div>
         </div>
         <div className="ritual-catalogue-controls">
           <label className="ritual-catalogue-search">Search

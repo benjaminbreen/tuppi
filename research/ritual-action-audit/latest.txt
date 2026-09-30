@@ -1,0 +1,41 @@
+Protect me from replying all
+Have the straw and bread ready. Place the straw and bread at the basket --> Call the power by name --> Have the bread ready. Offer the bread to Mother-goddess --> Have the wine ready. Pour the wine
+Sources: Tapalazunauli, Tunnawiya
+Review: {"goal":1.34,"coherence":1.99,"grounding":1.59}; 2578 ms
+Prayer: Those present, let every message pause at my drawbridge, admitting only the replies meant for all.
+
+{
+  "requests": 1,
+  "successful": 1,
+  "libraryActions": 561,
+  "eligibleActions": 543,
+  "excludedHistoricalActions": 18,
+  "catalogueTasks": 274,
+  "sourceSteps": 293,
+  "sourceRituals": 26,
+  "actionSignatures": 185,
+  "locallyMatchedActions": 543,
+  "jevAssessedMechanisms": 31,
+  "selectedActions": 4,
+  "offeredActions": 4,
+  "selectedRituals": 2,
+  "neverOffered": 539,
+  "mostSelected": [
+    [
+      "tapalazunauli/fill-basket#0",
+      1
+    ],
+    [
+      "tapalazunauli/chant-at-gate#0",
+      1
+    ],
+    [
+      "tunnawiya/offer-at-riverbank#0",
+      1
+    ],
+    [
+      "tunnawiya/offer-at-spring#1",
+      1
+    ]
+  ]
+}

@@ -29,11 +29,11 @@ export default function RitualAtoms() {
 
   return <div className="wrap page ritual-page ritual-atoms-page">
     <header className="ritual-units-index-head">
-      <h1>Ritual grammar</h1>
-      <p>Every step broken into its smallest acts: a verb, the thing it acts on, and its roles. {ATOMS.length} atoms fall into {groups.length} signatures; {shared} recur in more than one ritual, and {crossing} cross between Ḫattuša and Mesopotamia. A shared signature means the same kind of act, not the same meaning.</p>
+      <h1>Ritual actions</h1>
+      <p>Every step broken into its smallest acts: a verb, the thing it acts on, and its roles. {ATOMS.length} actions fall into {groups.length} signatures; {shared} recur in more than one ritual, and {crossing} cross between Ḫattuša and Mesopotamia. A shared signature means the same kind of act, not the same meaning.</p>
     </header>
     <div className="ritual-atoms-controls">
-      <label><span className="sr">Filter atoms</span><input type="search" value={filter} onChange={(event) => { setFilter(event.target.value); if (params.get("q")) setParams({}, { replace: true }); }} placeholder="Filter: speak:dismissal, burn(figure), ram…" /></label>
+      <label><span className="sr">Filter actions</span><input type="search" value={filter} onChange={(event) => { setFilter(event.target.value); if (params.get("q")) setParams({}, { replace: true }); }} placeholder="Filter: speak:dismissal, burn(figure), ram…" /></label>
       <label>Sort <select value={sort} onChange={(event) => setSort(event.target.value as "spread" | "alpha")}><option value="spread">most widespread</option><option value="alpha">A–Z</option></select></label>
       <span>{shown.length} signatures</span>
     </div>

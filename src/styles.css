@@ -1096,3 +1096,75 @@ details.ritual-composer-decision p { margin-top: 12px; font-size: 13px; line-hei
 .substances-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: -4px 0 16px; font-size: 13px; }
 .substances-tools button { color: var(--accent-ink); border-bottom: 1px solid currentColor; }
 .substances-tools > span { margin-right: auto; }
+
+.ritual-generated-title { margin: 10px 0 24px; color: var(--r-ink); font: 400 clamp(28px, 3vw, 40px)/1.15 var(--f-text); }
+.ritual-example-help { position: relative; flex: 0 0 auto; margin-right: 14px; visibility: hidden; }
+.ritual-composer-search:focus-within .ritual-example-help { visibility: visible; }
+.ritual-example-icon { display: grid; place-items: center; width: 19px; height: 19px; padding: 0; border: 1px solid var(--rule-2); border-radius: 50%; background: transparent; color: var(--ink-3); font: 11px var(--f-ui); opacity: .65; }
+.ritual-example-icon:hover, .ritual-example-icon:focus-visible { opacity: 1; color: var(--r-clay-deep); }
+.ritual-example-tooltip { position: absolute; z-index: 20; left: -8px; top: 30px; width: min(290px, 75vw); padding: 13px 15px; border: 1px solid var(--rule-2); border-radius: 9px; background: var(--bg-raise); box-shadow: 0 6px 22px rgba(29,27,23,.09); }
+.ritual-example-tooltip::before { content: ''; position: absolute; top: -14px; left: 0; width: 100%; height: 14px; }
+.ritual-example-tooltip small { display: block; margin-bottom: 7px; color: var(--ink-3); font: 10px var(--f-mono); }
+.ritual-example-tooltip button { display: flex; gap: 8px; justify-content: space-between; width: 100%; padding: 7px 0; border: 0; background: transparent; color: var(--ink-2); text-align: left; font: 12px/1.45 var(--f-ui); }
+.ritual-example-tooltip button:hover, .ritual-example-tooltip button:focus-visible { color: var(--r-clay-deep); }
+
+
+.ritual-composer-about { width: min(100%, 720px); margin: 0 auto; padding-top: 18px; }
+.ritual-composer-about-trigger { display: block; margin: 0 auto; padding: 5px 10px; border: 0; background: transparent; color: var(--ink-3); font: 12px/1.5 var(--f-ui); cursor: pointer; }
+.ritual-composer-about-trigger:hover { color: var(--ink-2); }
+.ritual-composer-about-trigger:focus-visible { outline: 1px solid var(--r-clay-deep); outline-offset: 3px; border-radius: 3px; }
+.ritual-composer-about-panel { display: grid; grid-template-rows: 0fr; opacity: 0; transition: grid-template-rows 240ms ease, opacity 180ms ease; }
+.ritual-composer-about-panel.is-open { grid-template-rows: 1fr; opacity: 1; }
+.ritual-composer-about-inner { min-height: 0; overflow: hidden; }
+.ritual-composer-about-copy { padding: 17px 24px 8px; color: var(--ink-2); font: 14px/1.75 var(--f-ui); }
+.ritual-composer-about-copy p { margin: 0 0 12px; }
+.ritual-composer-about-copy a { color: inherit; text-decoration: underline; text-decoration-color: var(--rule-2); text-underline-offset: 3px; }
+.ritual-composer-about-copy a:hover { color: var(--r-clay-deep); }
+@media (max-width: 650px) { .ritual-composer-about-copy { padding: 15px 8px 4px; font-size: 13px; line-height: 1.7; } }
+@media (prefers-reduced-motion: reduce) { .ritual-composer-about-panel { transition: none; } }
+
+.ritual-composer-title { margin: 0 auto 26px; width: min(100%, 720px); color: var(--r-ink); text-align: center; font: 400 clamp(27px, 3vw, 36px)/1.2 var(--f-text); }
+
+/* Composer: title nearer the nav, more air before the search; same total height */
+.ritual-composer-page { padding-top: clamp(28px, 4vw, 56px); }
+.ritual-composer-title { margin-bottom: clamp(40px, 5.5vw, 76px); }
+.ritual-composer-wish p { margin: 0 0 18px; font-family: var(--f-text); font-size: 24px; line-height: 1.35; }
+/* Cards: speech cards wider so their words take fewer lines; images get room */
+.grammar-cards { display: flex; grid-auto-flow: unset; }
+.grammar-cards > li { flex: 0 0 calc((100% - 4 * 16px) / 5.6); }
+.grammar-cards > li.ritual-composer-speech { flex-basis: calc((100% - 4 * 16px) / 3.6); }
+.grammar-cards .ritual-composer-image { height: 150px; padding: 20px 20px 10px; }
+.grammar-cards .ritual-composer-picked-title { padding: 16px 16px 22px; }
+.grammar-cards .ritual-composer-card-words { font-size: clamp(18px, 1.35vw, 22px); line-height: 1.22; }
+.grammar-cards .ritual-composer-picked { min-height: 0; }
+@media (max-width: 1000px) { .grammar-cards > li { flex-basis: 40%; } .grammar-cards > li.ritual-composer-speech { flex-basis: 60%; } }
+@media (max-width: 650px) { .grammar-cards > li, .grammar-cards > li.ritual-composer-speech { flex-basis: 75%; } }
+
+/* Composer: explanation collapsed by default; bigger card images */
+.grammar-logic { padding: 12px 20px; margin-bottom: 18px; }
+.grammar-logic summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 8px; margin: 0; }
+.grammar-logic summary::-webkit-details-marker { display: none; }
+.grammar-logic summary::after { content: "+"; font: 400 14px var(--f-mono); color: var(--r-muted); }
+.grammar-logic[open] summary::after { content: "−"; }
+.grammar-logic p { margin: 10px 0 2px; }
+.grammar-cards .ritual-composer-image { height: 190px; padding: 16px 14px 8px; }
+.grammar-cards > li { will-change: transform; }
+.grammar-cards.is-pulling { overflow: visible; }
+.grammar-cards > li { position: relative; z-index: 1; }
+
+/* Composer: the card row breaks out of the page column to show more cards */
+.grammar-row { --row-w: min(1640px, calc(100vw - 48px)); width: var(--row-w); margin-left: calc(50% - var(--row-w) / 2); }
+.grammar-cards > li { flex: 0 0 clamp(170px, 13.5vw, 230px); }
+.grammar-cards > li.ritual-composer-speech { flex-basis: clamp(230px, 19vw, 320px); }
+.grammar-row-arrow.prev { left: 6px; } .grammar-row-arrow.next { right: 6px; }
+@media (max-width: 650px) {
+  .grammar-row { --row-w: 100vw; }
+  .grammar-cards { padding: 0 16px 6px; scroll-padding: 0 16px; }
+  .grammar-cards > li { flex-basis: 62vw; }
+  .grammar-cards > li.ritual-composer-speech { flex-basis: 78vw; }
+}
+/* Leave a real gutter beside the wide row; the arrows sit in it, not over cards */
+.grammar-row { --row-w: min(1640px, calc(100vw - 2 * max(44px, 4vw))); }
+.grammar-row-arrow.prev { left: -40px; } .grammar-row-arrow.next { right: -40px; }
+@media (max-width: 650px) { .grammar-row { --row-w: 100vw; } }
+.grammar-cards { scroll-snap-type: x proximity; }

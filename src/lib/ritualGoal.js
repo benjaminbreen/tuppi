@@ -17,7 +17,11 @@ export function normalizeGoalFrame(value) {
   }
   const unwanted = clean(value.unwanted);
   if (unwanted && (unwanted.length > 120 || /[<>\u0000-\u001f]/.test(unwanted))) throw new Error('Invalid goal wording');
-  return { outcome, wish, method: value.method, ...(relationship ? { relationship } : {}), ...(unwanted ? { unwanted } : {}) };
+  const title=clean(value.title);
+  if(title && (title.length>100||/[<>\u0000-\u001f]/.test(title)))throw new Error('Invalid ritual title');
+  const prayer=clean(value.prayer);
+  if(prayer && (prayer.length>600||/[<>\u0000-\u001f]/.test(prayer)))throw new Error('Invalid custom prayer');
+  return { ...(title?{title}:{}),...(prayer?{prayer}:{}),outcome, wish, method: value.method, ...(relationship ? { relationship } : {}), ...(unwanted ? { unwanted } : {}) };
 }
 
 // Deliberately narrow: compound requests, other people's agency, negation and

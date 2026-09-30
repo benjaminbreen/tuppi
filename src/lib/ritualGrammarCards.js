@@ -78,12 +78,6 @@ export function speechWords(atom, context) {
   }
 }
 
-function adaptPlace(text) {
-  if (typeof text !== 'string') return text;
-  if (/enemy|foreign|substitute/.test(text)) return 'away, out beyond your own ground';
-  return text;
-}
-
 function sourceOf(item) {
   const record = atomById.get(item.atomId);
   if (!record) throw new Error(`Unknown atom ${item.atomId}`);
@@ -96,7 +90,7 @@ function evidenceFor(record) {
 }
 
 export function compileGrammarSteps(recipe) {
-  const adapted = true;
+  const adapted = false;
   const frame = recipe.goalFrame ?? null;
   const items = recipe.items ?? [];
   // Which speech carries the whole wish: the first petition, then analogy, in a core.
@@ -121,27 +115,21 @@ export function compileGrammarSteps(recipe) {
     const notes = [];
     const original = [atom.theme, atom.about, atom.onto, atom.over].find((v) => isEntity(v) && entityKey(v) === sub?.from);
     if (sub && original) notes.push(`In ${record.ritualName} this act is performed with ${entityLabel(original, {})}; here it is applied to ${entityLabel(sub.to, {})}.`);
-    if (item.substitute?.to?.label && /dough figure/.test(item.substitute.to.label)) notes.push('The source uses a live animal. A dough figure stands in, as the dough piglet and clay oxen do within Tunnawiya’s own rites.');
     if (item.substitute?.boundary) notes.push(`${record.ritualName} names a different threshold; here the crossing uses the ${entityLabel(item.substitute.boundary, {}).replace(/^the /, '')} prepared above.`);
     if (item.reason === 'requires') notes.push(`Added because the next act needs it; taken from the same passage of ${record.ritualName}.`);
     if (item.reason === 'dispose') notes.push('Whatever has taken up the unwanted condition must leave the rite; this disposal is borrowed from another act.');
     if (atom.verb === 'speak') {
-      const words = speechWords(atom, { frame, goal: recipe.goal, central: index === central, carrier, source: record, previousVerb, schema: item.schema });
+      const words = item.words ?? speechWords(atom, { frame, goal: recipe.goal, central: index === central, carrier, source: record, previousVerb, schema: item.schema });
       cards.push({ id: `atom/${item.atomId}`, kind: 'composed', sourceId: `${record.ritualId}/${record.stepId}`, atomIds: [item.atomId], unitId: record.unitId,
         title: SPEECH_TITLES[atom.act], instruction: addresseeOf(atom, record) ? `Say to ${addresseeOf(atom, record)}` : atom.act === 'dismissal' ? 'Say to the unwanted condition' : 'Say aloud', words: capital(clean(words)), speechFunction: atom.act,
-        carriesWish: index === central, addressee: addresseeOf(atom, record) ?? (atom.act === 'dismissal' ? 'the unwanted condition' : 'those present'),
+        carriesWish: index === central || !!item.words, addressee: addresseeOf(atom, record) ?? (atom.act === 'dismissal' ? 'the unwanted condition' : 'those present'),
         note: `Newly composed words on the pattern of a ${atom.act} in ${record.ritualName}; not a translation.`, evidence: evidenceFor(record),
         provenance, seam, schema: item.schema, slot: item.slot, reason: item.reason, notes });
       previousRitual = record; previousVerb = 'speak';
       return;
     }
     const last = cards.at(-1);
-    let instruction = realizeAtom({ ...atom, goal: adapted ? adaptPlace(atom.goal) : atom.goal, location: adapted ? adaptPlace(atom.location) : atom.location }, { adapted, substitute: item.substitute });
-    if (adapted && ['ingest', 'apply'].includes(atom.verb)) {
-      instruction = `Set out ${entityLabel(atom.theme, { adapted })} as the remedy`;
-      notes.push('A historical recipe shown for its form. Do not eat, drink or apply it.');
-    }
-    if (adapted && typeof atom.goal === 'string' && /enemy|foreign/.test(atom.goal)) notes.push(`Source: ${atom.goal}.`);
+    let instruction = realizeAtom(atom, { adapted, substitute: item.substitute });
     if (item.gather?.length) instruction = `Have ${item.gather.map((g) => entityLabel(g, { adapted })).join(' and ')} ready. ${instruction}`;
     // Merge repeated acts from one step ("bring cheese", "bring bread") into one card.
     if (last && last.kind === 'source' && last.sourceId === `${record.ritualId}/${record.stepId}` && last.verb === atom.verb && !item.substitute
@@ -161,6 +149,10 @@ export function compileGrammarSteps(recipe) {
       recombined: !!(item.substitute || seam), ...(sub && carrierUnitId && carrierUnitId !== record.unitId ? { insetUnitId: carrierUnitId } : {}), schema: item.schema, slot: item.slot, reason: item.reason, notes, evidence: evidenceFor(record) });
     previousRitual = record; previousVerb = atom.verb;
   });
+  if(frame?.prayer && cards.length) {
+    const anchor=cards.at(-1);
+    cards.push({...anchor,id:'modern-prayer',kind:'composed',title:'Speak your wish',instruction:'Say aloud',words:frame.prayer,carriesWish:true,note:'A modern prayer inspired by the selected actions.',notes:[],seam:null});
+  }
   return cards.map(({ head, tail, objects, verb, ...card }) => card);
 }
 

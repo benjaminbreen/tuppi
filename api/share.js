@@ -11,7 +11,7 @@ export default {
     let recipe;
     try { recipe = decodeAnyRitualRecipe(token); }
     catch { return new Response("This ritual link is invalid or no longer supported.", { status: 404, headers: { "Content-Type": "text/plain; charset=utf-8" } }); }
-    const title = `A ritual for ${recipe.goal} · tuppi`;
+    const title = `${recipe.goalFrame?.title ?? `A ritual for ${recipe.goal}`} · tuppi`;
     const names = compileRitualSteps(recipe).filter((step) => recipe.engine !== "grammar" || step.kind === "source").map((step) => step.instruction);
     const description = `${names.join(" → ")}. A source-linked ritual sequence for ${recipe.goal}.`;
     const origin = url.origin;
