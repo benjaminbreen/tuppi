@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from "react";
 import { Link, Navigate, NavLink, Route, Routes, useLocation, useParams } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Search from "./components/Search";
 import About from "./pages/About";
 import Browser from "./pages/Browser";
@@ -145,6 +146,7 @@ export default function App() {
         </div>
       </footer>
       {searchOpen && <Search onClose={() => setSearchOpen(false)} />}
+      <Analytics />
     </>
   );
 }
